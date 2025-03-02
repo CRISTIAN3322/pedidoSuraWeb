@@ -15,10 +15,10 @@ import products from '../data/products.json';
 <div class="products-container">
     {products.map((product) => (
         <div class="product-card" data-active={product.activo} data-product-name={product.nombre.toLowerCase()} data-product-code={product.codigo}>
+            {product.imagen && <img src={product.imagen} alt={product.nombre} />}
             <h3>{product.nombre}</h3>
             <p class="code">Código: {product.codigo}</p>
             <p class="price">${product.precio}</p>
-            {product.imagen && <img src={product.imagen} alt={product.nombre} />}
             <p class="barcode">Código de Barras: {product.barra}</p>
             
             <div class="quantity-control">

@@ -1,1 +1,42 @@
-<a href="/productos">Productos</a>
+---
+import ProductosSelector from "../components/ProductosSelector.astro";
+import '../styles/global.css';
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>productos</title>
+</head>
+<body>
+    <header>
+        <h1> Productos </h1>
+        <h3>actualizacion marzo 3 de 2025</h3>
+        <a class="btn-secondary" href="/carrito">Carrito</a>
+    </header>
+    <ProductosSelector/>    
+</body>
+</html>
+
+<style>
+    header {
+        text-align: center;
+    }
+
+      .btn-secondary {
+        text-align: center;
+        border: none;
+        padding: 0.75rem 1.5rem;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: background-color 0.2s;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    .btn-secondary {
+        background-color: #4a5568;
+        color: white;
+    }
+</style>

@@ -12,7 +12,7 @@
         "codigo": "JAL0002",
         "nombre": "PAPEL ALUMINIO ALUMINA X 8 MTS CJ X 30 - 1000061",
         "precio": 2899,
-        "imagen": "../public/assets/img_catalogo/alumina/papel-alumina-8.png",
+        "imagen": "../assets/img_catalogo/alumina/papel-alumina-8.png",
         "barra": 7702110440051,
         "activo": true
     },
@@ -21,7 +21,7 @@
         "codigo": "JAL0003",
         "nombre": "PAPEL ALUMINIO ALUMINA X 13 MTS CJ X 30 - 1000058",
         "precio": 4368,
-        "imagen": "./img_catalogo/alumina/papel-alumina-13.png",
+        "imagen": "../assets/img_catalogo/alumina/papel-alumina-13.png",
         "barra": 770211044006,
         "activo": true
     },
