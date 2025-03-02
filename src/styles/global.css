@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+  }
+  
+  .cliente-selector {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-busqueda {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .lista-clientes {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    max-height: 150px;
+    overflow-y: auto;
+  }
+  
+  .cliente-item {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .cliente-item:hover {
+    background: #f0f0f0;
+  }
+  
+  .lista-sucursales {
+    list-style: none;
+    padding: 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .sucursal-item {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .sucursal-item:hover {
+    background: #f0f0f0;
+  }
+  
+  .textarea-resultado {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  

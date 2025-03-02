@@ -1,0 +1,236 @@
+---
+import clientes from "../data/clientes.json";
+---
+
+<div class="cliente-selector">
+    <input
+        type="text"
+        placeholder="Buscar Cliente..."
+        id="searchInput"
+        class="input-busqueda"
+    />
+
+    <ul class="lista-clientes" id="listaClientes"></ul>
+
+    <div class="sucursales" id="sucursalesContainer" style="display: none;">
+        <h3 id="clienteSeleccionadoNombre"></h3>
+        <ul class="lista-sucursales" id="listaSucursales"></ul>
+        <div id="datosSeleccionados" class="datos-seleccionados" style="display: none;">
+            <h4>Datos Seleccionados:</h4>
+            <p id="clienteNombre"></p>
+            <p id="sucursalDireccion"></p>
+            <p id="sucursalVendedor"></p>
+        </div>
+        <button id="irAlCarrito" class="boton-carrito" style="display: none;">
+            Ir al Carrito
+        </button>
+    </div>
+
+    <textarea
+        rows="4"
+        id="resultadoTextarea"
+        class="textarea-resultado"
+        readonly
+        placeholder="Selecciona un cliente y una sucursal"
+    ></textarea>
+</div>
+
+<script define:vars={{ clientes }}>
+    // Datos iniciales
+    const clientesData = clientes;
+    let clienteSeleccionado = null;
+    let sucursalSeleccionada = null;
+
+    // Elementos del DOM
+    const searchInput = document.getElementById('searchInput');
+    const listaClientes = document.getElementById('listaClientes');
+    const sucursalesContainer = document.getElementById('sucursalesContainer');
+    const clienteSeleccionadoNombre = document.getElementById('clienteSeleccionadoNombre');
+    const listaSucursales = document.getElementById('listaSucursales');
+    const resultadoTextarea = document.getElementById('resultadoTextarea');
+
+    // Función de búsqueda
+    function buscarClientes(query) {
+        if (query.length < 1) {
+            listaClientes.innerHTML = '';
+            return;
+        }
+        
+        const resultados = clientesData.filter(cliente => 
+            cliente.nombre.toLowerCase().includes(query.toLowerCase())
+        );
+        mostrarResultados(resultados);
+    }
+
+    // Mostrar resultados de búsqueda
+    function mostrarResultados(clientes) {
+        listaClientes.innerHTML = '';
+        clientes.forEach(cliente => {
+            const li = document.createElement('li');
+            li.className = 'cliente-item';
+            li.textContent = cliente.nombre;
+            li.dataset.clienteId = cliente.id.toString();
+            li.onclick = () => seleccionarCliente(cliente);
+            listaClientes.appendChild(li);
+        });
+    }
+
+    // Seleccionar cliente
+    function seleccionarCliente(cliente) {
+        clienteSeleccionado = cliente;
+        sucursalSeleccionada = null;
+        clienteSeleccionadoNombre.textContent = `Sucursales de ${cliente.nombre}:`;
+        sucursalesContainer.style.display = 'block';
+        
+        listaSucursales.innerHTML = '';
+        cliente.sucursales.forEach((sucursal) => {
+            const li = document.createElement('li');
+            li.className = 'sucursal-item';
+            li.textContent = `Dirección: ${sucursal.direccion} | Vendedor: ${sucursal.vendedor}`;
+            li.onclick = () => seleccionarSucursal(sucursal);
+            listaSucursales.appendChild(li);
+        });
+        
+        actualizarTextarea();
+    }
+
+    // Seleccionar sucursal
+    function seleccionarSucursal(sucursal) {
+        sucursalSeleccionada = sucursal;
+        actualizarTextarea();
+    }
+
+    // Actualizar textarea y div de datos
+    function actualizarTextarea() {
+        const datosDiv = document.getElementById('datosSeleccionados');
+        if (clienteSeleccionado && sucursalSeleccionada) {
+            // Actualizar textarea
+            resultadoTextarea.value = `Cliente: ${clienteSeleccionado.nombre}\nDirección: ${sucursalSeleccionada.direccion}\nVendedor: ${sucursalSeleccionada.vendedor}`;
+            
+            // Actualizar div de datos
+            document.getElementById('clienteNombre').textContent = `Cliente: ${clienteSeleccionado.nombre}`;
+            document.getElementById('sucursalDireccion').textContent = `Dirección: ${sucursalSeleccionada.direccion}`;
+            document.getElementById('sucursalVendedor').textContent = `Vendedor: ${sucursalSeleccionada.vendedor}`;
+            
+            // Mostrar div y botón
+            datosDiv.style.display = 'block';
+            document.getElementById('irAlCarrito').style.display = 'block';
+        } else {
+            resultadoTextarea.value = 'Selecciona un cliente y una sucursal';
+            datosDiv.style.display = 'none';
+            document.getElementById('irAlCarrito').style.display = 'none';
+        }
+    }
+
+    // Event listeners
+    if (searchInput) {
+        searchInput.addEventListener('input', (e) => {
+            buscarClientes(e.target.value);
+        });
+    }
+
+    // Agregar event listener para el botón
+    document.getElementById('irAlCarrito').addEventListener('click', () => {
+        if (clienteSeleccionado && sucursalSeleccionada) {
+            // Crear objeto con los datos
+            const datosCliente = {
+                clienteId: clienteSeleccionado.id,
+                clienteNombre: clienteSeleccionado.nombre,
+                sucursalDireccion: sucursalSeleccionada.direccion,
+                sucursalVendedor: sucursalSeleccionada.vendedor
+            };
+            
+            // Guardar datos en localStorage
+            localStorage.setItem('datosCliente', JSON.stringify(datosCliente));
+            
+            // Redirigir a la página del carrito
+            window.location.href = '/carrito';
+        }
+    });
+</script>
+
+<style>
+    .cliente-selector {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .input-busqueda {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+
+    .lista-clientes, .lista-sucursales {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .cliente-item, .sucursal-item {
+        padding: 10px;
+        border: 1px solid #ddd;
+        margin-bottom: 5px;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+
+    .cliente-item:hover, .sucursal-item:hover {
+        background-color: #f5f5f5;
+    }
+
+    .textarea-resultado {
+        width: 100%;
+        margin-top: 15px;
+        padding: 8px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        resize: none;
+    }
+
+    .sucursales {
+        margin-top: 20px;
+    }
+
+    .boton-carrito {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-top: 15px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    .boton-carrito:hover {
+        background-color: #45a049;
+    }
+
+    .datos-seleccionados {
+        background-color: #f8f9fa;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 15px;
+        margin: 15px 0;
+    }
+
+    .datos-seleccionados h4 {
+        margin: 0 0 10px 0;
+        color: #333;
+    }
+
+    .datos-seleccionados p {
+        margin: 5px 0;
+        color: #666;
+    }
+</style>
+
+<script id="clientes-data" type="application/json">
+    {JSON.stringify(clientes)}
+</script>

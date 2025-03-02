@@ -1,0 +1,389 @@
+---
+const params = Astro.url.searchParams;
+const clienteId = params.get('clienteId');
+const clienteNombre = params.get('clienteNombre');
+const sucursalDireccion = params.get('sucursalDireccion');
+const sucursalVendedor = params.get('sucursalVendedor');
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Carrito de Compras</h1>
+        <a href="/principal" class="btn-volver">Cliente</a>
+        <a href="/productos" class="btn-volver">Productos</a>
+        
+        <div id="datosCliente" class="datos-cliente">
+            <h2>Datos del Cliente</h2>
+            <div id="contenidoDatosCliente">
+                <!-- Renderizar los datos del cliente desde los parámetros de URL -->
+                {clienteId && clienteNombre && (
+                    <div class="datos-card">
+                        <p><strong>Cliente:</strong> {clienteNombre}</p>
+                        <p><strong>ID Cliente:</strong> {clienteId}</p>
+                        <p><strong>Dirección:</strong> {sucursalDireccion}</p>
+                        <p><strong>Vendedor:</strong> {sucursalVendedor}</p>
+                    </div>
+                )}
+            </div>
+        </div>
+        <hr>
+        <BaseLayout title="Carrito de Compras">
+            <div class="cart-container">
+                <h1>Carrito de Compras</h1>
+                <table class="cart-table">
+                    <thead>
+                        <tr>
+                            <th>Código</th>
+                            <th>Producto</th>
+                            <th>Precio Unitario</th>
+                            <th>Cantidad</th>
+                            <th>Subtotal</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody id="cart-items">
+                        <!-- Los items del carrito se insertarán aquí dinámicamente -->
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="4" class="text-right">Total:</td>
+                            <td id="cart-total">$0.00</td>
+                            <td></td>
+                        </tr>
+                    </tfoot>
+                </table>
+                <div class="cart-actions">
+                    <a href="/productos" class="btn-secondary">Seguir Comprando</a>
+                    <button id="clear-cart" class="btn-danger">Vaciar Carrito</button>
+                    <button id="checkout" class="btn-primary">Enviar Pedido</button>
+                </div>
+            </div>
+        </BaseLayout>
+
+    </div>
+
+    <script>
+        // Recuperar datos del localStorage como respaldo
+        window.onload = function() {
+            const datosClienteString = localStorage.getItem('datosCliente');
+            const contenido = document.getElementById('contenidoDatosCliente');
+            
+            // Solo mostrar datos del localStorage si el contenido está vacío
+            if (datosClienteString && contenido && !contenido.querySelector('.datos-card')) {
+                const datosCliente = JSON.parse(datosClienteString);
+                contenido.innerHTML = `
+                    <div class="datos-card">
+                        <p><strong>Cliente:</strong> ${datosCliente.clienteNombre}</p>
+                        <p><strong>ID Cliente:</strong> ${datosCliente.clienteId}</p>
+                        <p><strong>Dirección:</strong> ${datosCliente.sucursalDireccion}</p>
+                        <p><strong>Vendedor:</strong> ${datosCliente.sucursalVendedor}</p>
+                    </div>
+                `;
+                
+                localStorage.removeItem('datosCliente');
+            }
+        };
+
+        // Función para formatear números como moneda
+    const formatCurrency = (amount: number) => {
+        return new Intl.NumberFormat('es-CO', {
+            style: 'currency',
+            currency: 'COP'
+        }).format(amount);
+    };
+
+    // Función para actualizar el total del carrito
+    const updateCartTotal = () => {
+        const cartItems = JSON.parse(localStorage.getItem('cartItems') || '[]');
+        const total = cartItems.reduce((sum: number, item: any) => sum + (item.precio * item.cantidad), 0);
+        document.getElementById('cart-total')!.textContent = formatCurrency(total);
+    };
+
+    // Función para renderizar los items del carrito
+    const renderCartItems = () => {
+        const cartItems = JSON.parse(localStorage.getItem('cartItems') || '[]');
+        const cartTableBody = document.getElementById('cart-items')!;
+        
+        cartTableBody.innerHTML = '';
+        
+        if (cartItems.length === 0) {
+            const emptyRow = document.createElement('tr');
+            emptyRow.innerHTML = `
+                <td colspan="6" style="text-align: center; padding: 2rem;">
+                    El carrito está vacío
+                </td>
+            `;
+            cartTableBody.appendChild(emptyRow);
+        } else {
+            cartItems.forEach((item: any) => {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td>${item.codigo}</td>
+                    <td>${item.nombre}</td>
+                    <td>${formatCurrency(item.precio)}</td>
+                    <td>${item.cantidad}</td>
+                    <td>${formatCurrency(item.precio * item.cantidad)}</td>
+                    <td>
+                        <button class="remove-item" data-id="${item.codigo}">
+                            Eliminar
+                        </button>
+                    </td>
+                `;
+                cartTableBody.appendChild(row);
+            });
+        }
+
+        updateCartTotal();
+    };
+
+    // Eliminar item del carrito
+    document.getElementById('cart-items')?.addEventListener('click', (e) => {
+        const target = e.target as HTMLElement;
+        if (target.classList.contains('remove-item')) {
+            const productId = target.dataset.id;
+            const cartItems = JSON.parse(localStorage.getItem('cartItems') || '[]');
+            const updatedItems = cartItems.filter((item: any) => item.codigo !== productId);
+            localStorage.setItem('cartItems', JSON.stringify(updatedItems));
+            renderCartItems();
+        }
+    });
+
+    // Vaciar carrito
+    document.getElementById('clear-cart')?.addEventListener('click', () => {
+        if (confirm('¿Está seguro que desea vaciar el carrito?')) {
+            localStorage.setItem('cartItems', '[]');
+            renderCartItems();
+        }
+    });
+
+    // Proceder al pago
+    document.getElementById('checkout')?.addEventListener('click', () => {
+        const cartItems = JSON.parse(localStorage.getItem('cartItems') || '[]');
+        if (cartItems.length === 0) {
+            alert('El carrito está vacío');
+            return;
+        }
+
+        // Obtener los datos del cliente
+        const clienteNombre = document.querySelector('.datos-card p:nth-child(1)')?.textContent?.split(':')[1].trim() || '';
+        const clienteId = document.querySelector('.datos-card p:nth-child(2)')?.textContent?.split(':')[1].trim() || '';
+        const direccion = document.querySelector('.datos-card p:nth-child(3)')?.textContent?.split(':')[1].trim() || '';
+        const vendedor = document.querySelector('.datos-card p:nth-child(4)')?.textContent?.split(':')[1].trim() || '';
+
+        // Crear el mensaje para WhatsApp
+        let mensaje = `*NUEVO PEDIDO*%0A%0A`;
+        mensaje += `*Datos del Cliente*%0A`;
+        mensaje += `Cliente: ${clienteNombre}%0A`;
+        mensaje += `ID: ${clienteId}%0A`;
+        mensaje += `Dirección: ${direccion}%0A`;
+        mensaje += `Vendedor: ${vendedor}%0A%0A`;
+        
+        mensaje += `*Productos:*%0A`;
+        let total = 0;
+        
+        cartItems.forEach((item: any) => {
+            const subtotal = item.precio * item.cantidad;
+            total += subtotal;
+            mensaje += `- ${item.nombre}%0A`;
+            mensaje += `  Cantidad: ${item.cantidad}%0A`;
+            mensaje += `  Precio: ${formatCurrency(item.precio)}%0A`;
+            mensaje += `  Subtotal: ${formatCurrency(subtotal)}%0A%0A`;
+        });
+        
+        mensaje += `*Total del Pedido: ${formatCurrency(total)}*`;
+
+        // Número de WhatsApp al que se enviará el mensaje (debes reemplazarlo con el número correcto)
+        const numeroWhatsApp = '573045428015'; // Reemplaza con el número real
+        
+        // Crear el enlace de WhatsApp
+        const whatsappLink = `https://wa.me/${numeroWhatsApp}?text=${mensaje}`;
+        
+        // Abrir WhatsApp en una nueva ventana
+        window.open(whatsappLink, '_blank');
+    });
+
+    // Renderizar items al cargar la página
+    document.addEventListener('DOMContentLoaded', renderCartItems);
+    </script>
+
+    <style>
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .datos-cliente {
+            margin-top: 20px;
+        }
+
+        .datos-card {
+            background-color: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 15px;
+        }
+
+        .datos-card p {
+            margin: 10px 0;
+            font-size: 16px;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        h2 {
+            color: #666;
+            margin-top: 30px;
+        }
+
+        .btn-volver {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .btn-volver:hover {
+            background-color: #0056b3;
+        }
+
+        .cart-container {
+        padding: 2rem;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    h1 {
+        color: #1a365d;
+        margin-bottom: 2rem;
+    }
+
+    .cart-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 2rem;
+        background: white;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+    .cart-table th,
+    .cart-table td {
+        padding: 1rem;
+        text-align: left;
+        border-bottom: 1px solid #e2e8f0;
+    }
+
+    .cart-table th {
+        background-color: #f7fafc;
+        font-weight: 600;
+        color: #2d3748;
+    }
+
+    .cart-table tbody tr:hover {
+        background-color: #f7fafc;
+    }
+
+    .text-right {
+        text-align: right;
+        font-weight: bold;
+    }
+
+    #cart-total {
+        font-weight: bold;
+        color: #2c5282;
+    }
+
+    .cart-actions {
+        display: flex;
+        justify-content: flex-end;
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+
+    .btn-danger,
+    .btn-primary,
+    .btn-secondary {
+        border: none;
+        padding: 0.75rem 1.5rem;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: background-color 0.2s;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    .btn-danger {
+        background-color: #e53e3e;
+        color: white;
+    }
+
+    .btn-primary {
+        background-color: #25D366; /* Color de WhatsApp */
+        color: white;
+    }
+
+    .btn-secondary {
+        background-color: #4a5568;
+        color: white;
+    }
+
+    .btn-danger:hover {
+        background-color: #c53030;
+    }
+
+    .btn-primary:hover {
+        background-color: #128C7E;
+    }
+
+    .btn-secondary:hover {
+        background-color: #2d3748;
+    }
+
+    .remove-item {
+        background-color: #feb2b2;
+        color: #c53030;
+        border: none;
+        padding: 0.5rem;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.2s;
+    }
+
+    .remove-item:hover {
+        background-color: #fc8181;
+    }
+
+    @media (max-width: 768px) {
+        .cart-table {
+            display: block;
+            overflow-x: auto;
+        }
+
+        .cart-actions {
+            flex-direction: column;
+            align-items: stretch;
+        }
+
+        .btn-danger,
+        .btn-primary,
+        .btn-secondary {
+            text-align: center;
+        }
+    }
+    </style>
+</body>
+</html>
