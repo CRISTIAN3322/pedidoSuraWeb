@@ -190,11 +190,11 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         cartItems.forEach((item: any) => {
             const subtotal = item.precio * item.cantidad;
             total += subtotal;
-            mensaje += `- ${item.nombre}%0A`;
-            mensaje += `  *Codigo: ${item.codigo}*%0a`;
-            mensaje += `  *Cantidad: ${item.cantidad}*%0A`;
-            mensaje += `  Precio: ${formatCurrency(item.precio)}%0A`;
-            mensaje += `  Subtotal: ${formatCurrency(subtotal)}%0A%0A`;
+            mensaje += `- ${item.nombre}%0A *Codigo: ${item.codigo}* *= ${item.cantidad}*%0A `;
+            // mensaje += `  *Codigo: ${item.codigo}*%0a`;
+            // mensaje += `  *Cantidad: ${item.cantidad}*%0A`;
+            // mensaje += `  Precio: ${formatCurrency(item.precio)}%0A`;
+            // mensaje += `  Subtotal: ${formatCurrency(subtotal)}%0A%0A`;
         });
         
         mensaje += `*Total del Pedido: ${formatCurrency(total)}*`;
