@@ -189,15 +189,24 @@ import products from '../data/products.json';
         background: white;
         box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         transition: transform 0.2s ease, box-shadow 0.2s ease;
+        display: flex;
+        flex-direction: column;
+        height: 500px; /* Altura fija para todas las tarjetas */
     }
 
-    .imagen-card{
-       padding: 1px;
-       object-fit: contain;
+    .imagen-card {
+        height: 200px; /* Altura fija para el contenedor de la imagen */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1rem;
     }
 
     .imagen-Product {
-        width: 150px;
+        max-width: 150px;
+        max-height: 180px; /* Altura máxima para la imagen */
+        width: auto;
+        object-fit: contain;
     }
 
     .product-card:hover {
