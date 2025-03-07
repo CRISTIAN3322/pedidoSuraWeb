@@ -178,10 +178,10 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
         // Crear el mensaje para WhatsApp
         let mensaje = `*NUEVO PEDIDO*%0A%0A`;
-        mensaje += `*Datos del Cliente*%0A`;
+        mensaje += `Datos del Cliente%0A`;
         mensaje += `Cliente: ${clienteNombre}%0A`;
-        mensaje += `ID: ${clienteId}%0A`;
-        mensaje += `Dirección: ${direccion}%0A`;
+        mensaje += `ID: *${clienteId}*%0A`;
+        mensaje += `Dirección: *${direccion}*%0A`;
         mensaje += `Vendedor: ${vendedor}%0A%0A`;
         
         mensaje += `*Productos:*%0A`;
