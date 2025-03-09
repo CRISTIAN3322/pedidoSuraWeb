@@ -291,7 +291,7 @@
         "codigo": "JAT0029",
         "nombre": "GRANOLA X 200 GR CJ X 24",
         "precio": 3320,
-        "imagen": "../assets/img_catalogo/toning/granola-x200.png",
+        "imagen": "../assets/img_catalogo/toning/granola-200.png",
         "barra": 7702622238160,
         "activo": true
     },
@@ -527,7 +527,7 @@
         "precio": 6434,
         "imagen": " ../assets/img_catalogo/toning/avena-hojuelas-1200.png ",
         "barra": 7702622521064,
-        "activo": true
+        "activo": false
     },
     {
         "id": 60,
