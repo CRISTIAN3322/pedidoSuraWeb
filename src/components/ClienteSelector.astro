@@ -57,7 +57,8 @@ import clientes from "../data/clientes.json";
         }
         
         const resultados = clientesData.filter(cliente => 
-            cliente.nombre.toLowerCase().includes(query.toLowerCase())
+            cliente.nombre.toLowerCase().includes(query.toLowerCase()) ||
+            cliente.id.toString().includes(query)
         );
         mostrarResultados(resultados);
     }

@@ -1,48 +1,93 @@
-# Astro Starter Kit: Basics
+# Sura Pedidos Web
 
-```sh
-npm create astro@latest -- --template basics
-```
+Sistema web para gestión de pedidos desarrollado con Astro.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## 🚀 Características
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+- Selector de productos
+- Carrito de compras
+- Interfaz responsive
+- Actualización periódica de productos
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+## 🛠️ Tecnologías
 
-## 🚀 Project Structure
+- [Astro](https://astro.build/)
+- HTML
+- CSS
 
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
+## 📁 Estructura del Proyecto
+```bash
+suraPedidosWeb/
 ├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
+│ ├── components/
+│ │ └── ProductosSelector.astro
+│   └── ClientesSelector.astro
+│ ├── pages/
+│ │ ├── index.astro
+│ │ └── carrito.astro
+│ │ └── principal.astro
+│ └── styles/
+│ └── global.css
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+## 🔧 Instalación
 
-## 🧞 Commands
+1. Clona el repositorio:
+```bash
+git clone [https://github.com/CRISTIAN3322/suraPedidosWeb.git]
+```
 
-All commands are run from the root of the project, from a terminal:
+2. Instala las dependencias:
+```bash
+npm install
+```
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+3. Inicia el servidor de desarrollo:
+```bash
+npm run dev
+```
 
-## 👀 Want to learn more?
+## 📝 Componentes Principales
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+### Pages
+
+#### index.astro
+Página principal que muestra el catálogo de productos disponibles. Incluye:
+- Encabezado con título
+- Fecha de última actualización
+- Acceso al carrito
+- Selector de productos
+
+#### carrito.astro
+Página del carrito de compras donde se pueden gestionar los productos seleccionados.
+
+### Components
+
+#### ProductosSelector.astro
+Componente que maneja la visualización y selección de productos disponibles.
+
+## 🎨 Estilos
+
+El proyecto utiliza CSS modular con estilos específicos para cada componente y estilos globales en `global.css`.
+
+## Despliegue Vercel
+[Vercel](https://sura-pedidos-web.vercel.app)
+
+## 🤝 Contribución
+
+Si deseas contribuir al proyecto:
+
+1. Haz un Fork del repositorio
+2. Crea una nueva rama (`git checkout -b feature/nueva-caracteristica`)
+3. Realiza tus cambios
+4. Haz commit de tus cambios (`git commit -m 'Agrega nueva característica'`)
+5. Haz push a la rama (`git push origin feature/nueva-caracteristica`)
+6. Abre un Pull Request
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia [ESPECIFICAR_LICENCIA]
+
+## ✉️ Contacto
+
+[CCPOVEDA] - [ccpoveda.programador@gmail.com]

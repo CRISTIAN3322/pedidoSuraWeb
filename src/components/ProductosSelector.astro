@@ -7,14 +7,14 @@ import products from '../data/products.json';
     <input 
         type="text" 
         id="searchInput" 
-        placeholder="Buscar productos..." 
+        placeholder="Buscar por nombre o código..." 
         class="search-input"
     />
 </div>
 
 <div class="products-container">
     {products.map((product) => (
-        <div class="product-card" data-active={product.activo} data-product-name={product.nombre.toLowerCase()} data-product-code={product.codigo}>
+        <div class="product-card" data-active={product.activo} data-product-name={product.nombre.toLowerCase()} data-product-code={product.codigo} data-product-barcode={product.barra}>
         <div class="imagen-card">
             {product.imagen && <img src={product.imagen} alt={product.nombre} class="imagen-Product"/>}
         </div>
@@ -50,9 +50,15 @@ import products from '../data/products.json';
         productCards.forEach(card => {
             const productName = (card as HTMLElement).dataset.productName || '';
             const productCode = (card as HTMLElement).dataset.productCode || '';
+            const productBarcode = (card as HTMLElement).dataset.productBarcode || '';
             const isActive = (card as HTMLElement).dataset.active === 'true';
             
-            const matches = (productName.includes(searchTerm) || productCode.includes(searchTerm)) && isActive;
+            const matches = (
+                productName.includes(searchTerm) || 
+                productCode.toLowerCase().includes(searchTerm) || 
+                productBarcode.toLowerCase().includes(searchTerm)
+            ) && isActive;
+            
             (card as HTMLElement).style.display = matches ? 'block' : 'none';
         });
     }
