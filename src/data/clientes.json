@@ -1876,18 +1876,9 @@
         "id": 52802923,
         "nombre": "MARY LUZ HERRERA ALVIRA",
         "sucursales": [{
-                "direccion": "CR 49 137 22 Spring ",
-                "vendedor": "Diana Marcela Bermudez Serrano"
-            },
-            {
-                "direccion": "CR 53 138 43 Melgar   Melgar",
-                "vendedor": "Ydiana Maria Sanchez Jimenez"
-            },
-            {
-                "direccion": "CR 26 7 39  Melgar   Melgar",
-                "vendedor": "Ydiana Maria Sanchez Jimenez"
-            }
-        ]
+            "direccion": "CR 49 137 22 Spring ",
+            "vendedor": "Diana Marcela Bermudez Serrano"
+        }]
     },
     {
         "id": 52806346,
@@ -6104,5 +6095,38 @@
             "direccion": "CLL 21 2 D 21 San Pedro Madrid",
             "vendedor": "Helio Arturo Gamboa Rodriguez"
         }]
+    },
+    {
+        "id": 901909515,
+        "nombre": "LA CANASTA CAMPESINA M Y N SAS",
+        "sucursales": [{
+            "direccion": "CL 7 16 31 Melgar",
+            "vendedor": "Ydiana Maria Sanchez Jimenez"
+        }]
+    },
+    {
+        "id": 1002646857,
+        "nombre": "KAREN YULIETH CARTILLO PINILLA",
+        "sucursales": [{
+            "direccion": "CR 33 8 112 Zipaquira ",
+            "vendedor": "Ana Sofia Roldan Rique"
+        }]
+    },
+    {
+        "id": 900652829,
+        "nombre": "SOCIEDAD DE MERCADOS WILLIAM CASTELLANOS SAS",
+        "sucursales": [{
+            "direccion": "CL 5 2 B 42 Chiá ",
+            "vendedor": "Ana Sofia Roldan Rique"
+        }]
+    },
+    {
+        "id": 1074136176,
+        "nombre": "IVAN CAMILO GUEVARA NIETO",
+        "sucursales": [{
+            "direccion": "CL 13 SUR 11 50 ESTE  San Cristobal Sur ",
+            "vendedor": "Maria Esther Caballero Benitez"
+        }]
     }
+
 ]
