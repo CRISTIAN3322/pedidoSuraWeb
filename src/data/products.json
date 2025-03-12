@@ -291,7 +291,7 @@
         "codigo": "JAT0029",
         "nombre": "GRANOLA X 200 GR CJ X 24",
         "precio": 3320,
-        "imagen": "../assets/img_catalogo/toning/granola-200.png",
+        "imagen": "../assets/img_catalogo/toning/granola-x200.png",
         "barra": 7702622238160,
         "activo": true
     },
@@ -527,7 +527,7 @@
         "precio": 6434,
         "imagen": " ../assets/img_catalogo/toning/avena-hojuelas-1200.png ",
         "barra": 7702622521064,
-        "activo": false
+        "activo": true
     },
     {
         "id": 60,
@@ -797,7 +797,7 @@
         "precio": 6351,
         "imagen": " ../assets/img_catalogo/congrupo/palomitas-microondas-queso-cheddar.png ",
         "barra": "07615022230",
-        "activo": false
+        "activo": true
     },
     {
         "id": 90,
@@ -806,7 +806,7 @@
         "precio": 9600,
         "imagen": " ../assets/img_catalogo/congrupo/palomitas-microondas-caramelo.png ",
         "barra": "076150230383",
-        "activo": false
+        "activo": true
     },
     {
         "id": 91,
@@ -4212,6 +4212,15 @@
     },
     {
         "id": 469,
+        "codigo": "JPN0030",
+        "nombre": "PAPELS SUAVE GOLD SOLT CARE 4 PAQUETES X 12 ROLLOS",
+        "precio": 23157,
+        "imagen": "",
+        "barra": 7702120014372,
+        "activo": true
+    },
+    {
+        "id": 470,
         "codigo": "JPO0001",
         "nombre": "AREPASAN BLANCA X 1000 GR PC X 10",
         "precio": 2679,
@@ -4220,7 +4229,7 @@
         "activo": true
     },
     {
-        "id": 470,
+        "id": 471,
         "codigo": "JPO0002",
         "nombre": "AREPASAN BLANCA X 500 GR PC X 24",
         "precio": 1339,
@@ -4229,7 +4238,7 @@
         "activo": true
     },
     {
-        "id": 471,
+        "id": 472,
         "codigo": "JPO0003",
         "nombre": "HARINA LA MONJITA X 500 GR PC X 24",
         "precio": 1276,
@@ -4238,7 +4247,7 @@
         "activo": true
     },
     {
-        "id": 472,
+        "id": 473,
         "codigo": "JPO0005",
         "nombre": "MACARRON RIOKA X 250 PC X 24",
         "precio": 992,
@@ -4247,7 +4256,7 @@
         "activo": true
     },
     {
-        "id": 473,
+        "id": 474,
         "codigo": "JPO0006",
         "nombre": "FIDEOS RIOKA X 250 PC X 24",
         "precio": 992,
@@ -4256,7 +4265,7 @@
         "activo": true
     },
     {
-        "id": 474,
+        "id": 475,
         "codigo": "JPO0007",
         "nombre": "CONCHAS RIOKA X 250 PC X 24",
         "precio": 992,
@@ -4265,7 +4274,7 @@
         "activo": true
     },
     {
-        "id": 475,
+        "id": 476,
         "codigo": "JPO0008",
         "nombre": "SPAGUETTI RIOKA X 1000 PC X 12",
         "precio": 3870,
@@ -4274,7 +4283,7 @@
         "activo": true
     },
     {
-        "id": 476,
+        "id": 477,
         "codigo": "JPO0009",
         "nombre": "SPAGUETTI RIOKA X 250 PC X 24",
         "precio": 992,
@@ -4283,7 +4292,7 @@
         "activo": true
     },
     {
-        "id": 477,
+        "id": 478,
         "codigo": "JPO0010",
         "nombre": "FIDEOS RIOKA X 1000 PC X 6",
         "precio": 3870,
@@ -4292,7 +4301,7 @@
         "activo": true
     },
     {
-        "id": 478,
+        "id": 479,
         "codigo": "JPO0011",
         "nombre": "CONCHAS RIOKA X 1000 PC X 6",
         "precio": 3870,
@@ -4301,7 +4310,7 @@
         "activo": true
     },
     {
-        "id": 479,
+        "id": 480,
         "codigo": "JPO0012",
         "nombre": "MACARRON X 1000 PC X 6",
         "precio": 3870,
@@ -4310,7 +4319,7 @@
         "activo": true
     },
     {
-        "id": 480,
+        "id": 481,
         "codigo": "JPR0001",
         "nombre": "ARENA FELIGATO VALVULA X 4 KL PC X 6",
         "precio": 11877,
@@ -4319,7 +4328,7 @@
         "activo": true
     },
     {
-        "id": 481,
+        "id": 482,
         "codigo": "JPR0002",
         "nombre": "ARENA FELIGATO X 25 KL",
         "precio": 64635,
@@ -4328,7 +4337,7 @@
         "activo": true
     },
     {
-        "id": 482,
+        "id": 483,
         "codigo": "JPR0003",
         "nombre": "ARENA FELIGATO LAVANDA X 4,5 KL PC X 6",
         "precio": 14635,
@@ -4337,7 +4346,7 @@
         "activo": true
     },
     {
-        "id": 483,
+        "id": 484,
         "codigo": "JPR0006",
         "nombre": "ARENA FELIGATO X 8 KL PC X 4",
         "precio": 21961,
@@ -4346,7 +4355,7 @@
         "activo": true
     },
     {
-        "id": 484,
+        "id": 485,
         "codigo": "JPR0008",
         "nombre": "ARENA FELIGATO SIN VALVULA  X 4 KL PC X 6",
         "precio": 10487,
@@ -4355,7 +4364,7 @@
         "activo": true
     },
     {
-        "id": 485,
+        "id": 486,
         "codigo": "JPS0001",
         "nombre": "VINAGRE DE MANZANA X 500 ML CJ X 24",
         "precio": 1270,
@@ -4364,7 +4373,7 @@
         "activo": true
     },
     {
-        "id": 486,
+        "id": 487,
         "codigo": "JPS0002",
         "nombre": "VINAGRE BLANCO X 500 ML CJ X 24",
         "precio": 1270,
@@ -4373,7 +4382,7 @@
         "activo": true
     },
     {
-        "id": 487,
+        "id": 488,
         "codigo": "JPS0003",
         "nombre": "VINAGRE BLANCO X 3000 ML CJ X 6",
         "precio": 5081,
@@ -4382,7 +4391,7 @@
         "activo": true
     },
     {
-        "id": 488,
+        "id": 489,
         "codigo": "JPS0004",
         "nombre": "VINAGRE BLANCO X 1000 ML CJ X 12",
         "precio": 2542,
@@ -4391,7 +4400,7 @@
         "activo": true
     },
     {
-        "id": 489,
+        "id": 490,
         "codigo": "JPS0005",
         "nombre": "VINAGRE BLANCO X 5000 ML CJ X 4",
         "precio": 7774,
@@ -4400,7 +4409,7 @@
         "activo": true
     },
     {
-        "id": 490,
+        "id": 491,
         "codigo": "JPS0006",
         "nombre": "VINAGRE DE MANZANA X 3000 ML CJ X 6",
         "precio": 5081,
@@ -4409,7 +4418,7 @@
         "activo": true
     },
     {
-        "id": 491,
+        "id": 492,
         "codigo": "JPS0007",
         "nombre": "VINAGRE DE MANZANA X 1000 ML CJ X 12",
         "precio": 2542,
@@ -4418,7 +4427,7 @@
         "activo": true
     },
     {
-        "id": 492,
+        "id": 493,
         "codigo": "JPS0009",
         "nombre": "SALSA DE AJI CJ X 12",
         "precio": 2562,
@@ -4427,7 +4436,7 @@
         "activo": true
     },
     {
-        "id": 493,
+        "id": 494,
         "codigo": "JRR0001",
         "nombre": "TISANAS SURTIDA PC X 24 UND",
         "precio": 43102,
@@ -4436,7 +4445,7 @@
         "activo": true
     },
     {
-        "id": 494,
+        "id": 495,
         "codigo": "JRR0002",
         "nombre": "AROMATICA PANELA FRUTOS ROJOS PC X 12",
         "precio": 3630,
@@ -4445,7 +4454,7 @@
         "activo": true
     },
     {
-        "id": 495,
+        "id": 496,
         "codigo": "JRR0003",
         "nombre": "AROMATICA PANELA SURTIDA PC X 12DP",
         "precio": 3630,
@@ -4454,7 +4463,7 @@
         "activo": true
     },
     {
-        "id": 496,
+        "id": 497,
         "codigo": "JRR0005",
         "nombre": "AROMATICA PANELA MARACUYA X 12",
         "precio": 3630,
@@ -4463,7 +4472,7 @@
         "activo": true
     },
     {
-        "id": 497,
+        "id": 498,
         "codigo": "JRS0006",
         "nombre": "MEGA NATILLA AREQUIPE X 300 CJ X 20 UND",
         "precio": 2911,
@@ -4472,7 +4481,7 @@
         "activo": false
     },
     {
-        "id": 498,
+        "id": 499,
         "codigo": "JRS0007",
         "nombre": "MEGA NATILLA MARACUYA X 300 CAJA X 20 UND",
         "precio": 2911,
@@ -4481,7 +4490,7 @@
         "activo": false
     },
     {
-        "id": 499,
+        "id": 500,
         "codigo": "JRS0008",
         "nombre": "MEGA NATILLA COCO X 300 CAJA X 20 UND",
         "precio": 2911,
@@ -4490,7 +4499,7 @@
         "activo": false
     },
     {
-        "id": 500,
+        "id": 501,
         "codigo": "JRS0009",
         "nombre": "MEGA NATILLA TRACIONAL X 300 CAJA X 20 UND",
         "precio": 2911,
@@ -4499,7 +4508,7 @@
         "activo": false
     },
     {
-        "id": 501,
+        "id": 502,
         "codigo": "JRS0010",
         "nombre": "MEGA BUÑUELOS X 300 GR CAJA X 20 UND",
         "precio": 2911,
@@ -4508,7 +4517,7 @@
         "activo": false
     },
     {
-        "id": 502,
+        "id": 503,
         "codigo": "JVN0001",
         "nombre": "GELATINA FRUT DAY X 250 CJ X  50",
         "precio": 4495,
@@ -4517,7 +4526,7 @@
         "activo": true
     },
     {
-        "id": 503,
+        "id": 504,
         "codigo": "JVN0002",
         "nombre": "GELATINA FRUT DAY X 500 CJ X 50",
         "precio": 8988,
@@ -4526,7 +4535,7 @@
         "activo": true
     },
     {
-        "id": 504,
+        "id": 505,
         "codigo": "JVN0003",
         "nombre": "GELATINA FRUT DAY X 1000 CJ  X 25",
         "precio": 17977,
@@ -4535,7 +4544,7 @@
         "activo": true
     },
     {
-        "id": 505,
+        "id": 506,
         "codigo": "JVN0004",
         "nombre": "GELATINA FRUT DAY X 105 GR 3 SABORES CJ X 32",
         "precio": 3171,
