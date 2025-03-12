@@ -559,7 +559,7 @@
     {
         "id": 63,
         "codigo": "JAT0124",
-        "nombre": "AVENA MOLIDA SIN GLUTEN X 400 GR CJ X 16",
+        "nombre": "AVENA MOLIDA SIN GLUTEN X 500 GR CJ X 16",
         "precio": 6901,
         "imagen": " ../assets/img_catalogo/toning/avena-molida-sin-gluten-400.png ",
         "barra": 7702622684172,
@@ -747,11 +747,11 @@
     },
     {
         "id": 84,
-        "codigo": "JCI0016",
-        "nombre": "CARAMELO DE COCO X 100 UND CJ X 12",
-        "precio": 12597,
-        "imagen": "",
-        "barra": 772117013531,
+        "codigo": "JCC0016",
+        "nombre": "VINO IBAÑEZ MEDITERRANEO TINTO",
+        "precio": 21501,
+        "imagen": " ../assets/img_catalogo/casa-ibanez/vino-mediterraneo.png ",
+        "barra": 7707255633061,
         "activo": true
     },
     {
@@ -2713,7 +2713,7 @@
         "nombre": "ALASKA ACEITE DE CITRONELA X 250",
         "precio": 10835,
         "imagen": " ../assets/img_catalogo/cofarma/alaska-aceite-de-citronela-x250.png ",
-        "barra": "",
+        "barra": 7702532110204,
         "activo": true
     },
     {
@@ -2848,7 +2848,7 @@
         "nombre": "BON ORQUIDEA DE LOS ANDES X 400 ML  CJ X 12",
         "precio": 8092,
         "imagen": " ../assets/img_catalogo/cofarma/bon-aire-orquidea-de-los-andes-x400.png ",
-        "barra": 770253237072,
+        "barra": 7702532370721,
         "activo": true
     },
     {
@@ -3307,7 +3307,7 @@
         "nombre": "PINOLINA DOY PACK FRUTOS ROJOS X 200 CJ X 48*",
         "precio": 1353,
         "imagen": " ../assets/img_catalogo/cofarma/pinolina-frutos-rojos-x200.png ",
-        "barra": 77072532430999,
+        "barra": 7707253243099,
         "activo": true
     },
     {
@@ -3367,7 +3367,7 @@
     {
         "id": 375,
         "codigo": "JLC0074",
-        "nombre": "TERGO GLOP  X 3 LAVANDA CJ X 12",
+        "nombre": "TERGO GLOP  X 3 LAVANDA CJ X 24",
         "precio": 12242,
         "imagen": " ../assets/img_catalogo/cofarma/tergo-lavanda-x3.png ",
         "barra": 7702532896313,
@@ -3376,7 +3376,7 @@
     {
         "id": 376,
         "codigo": "JLC0075",
-        "nombre": "TERGO GLOP X 3 PINO CJ X 12",
+        "nombre": "TERGO GLOP X 3 PINO CJ X 24",
         "precio": 12242,
         "imagen": " ../assets/img_catalogo/cofarma/tergo-pino-x3.png ",
         "barra": 7702532896320,
@@ -3388,7 +3388,7 @@
         "nombre": "TERGO GLOP CITRUS X 1 CJ X 24",
         "precio": 4871,
         "imagen": " ../assets/img_catalogo/cofarma/tergo-citrus-x1.png ",
-        "barra": 77702532320376,
+        "barra": 7702532720366,
         "activo": true
     },
     {
@@ -3397,7 +3397,7 @@
         "nombre": "TERGO GLOP LAVANDA X 1 CJ X 24",
         "precio": 4871,
         "imagen": " ../assets/img_catalogo/cofarma/tergo-lavanda-x1.png ",
-        "barra": 77702532720373,
+        "barra": 7702532720373,
         "activo": true
     },
     {
@@ -3406,7 +3406,7 @@
         "nombre": "TERGO GLOP PINO X 1 CJ X 24",
         "precio": 4871,
         "imagen": " ../assets/img_catalogo/cofarma/tergo-pino-x1.png ",
-        "barra": 772532720359,
+        "barra": 7702532720359,
         "activo": true
     },
     {
@@ -3532,7 +3532,7 @@
         "nombre": "ALASKA VARSOL X 960 ML SIN OLOR",
         "precio": 20204,
         "imagen": " ../assets/img_catalogo/cofarma/alaska-varsol-sin-olor-x960.png ",
-        "barra": 77025532011129,
+        "barra": 7702532011129,
         "activo": true
     },
     {
