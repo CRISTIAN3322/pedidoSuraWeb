@@ -6159,5 +6159,13 @@
             "direccion": "CR 17 A 80 32 SUR  San Joaquin",
             "vendedor": "Berenice Herminda Muñoz Mondragon"
         }]
+    },
+    {
+        "id": 901925510,
+        "nombre": "MERKASUR EOQ SAS",
+        "sucursales": [{
+            "direccion": "CL 51 88 20 Bosa Brasil ",
+            "vendedor": "Francy Janeth Huertas Martinez"
+        }]
     }
 ]
