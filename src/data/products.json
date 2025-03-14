@@ -797,7 +797,7 @@
         "precio": 6351,
         "imagen": " ../assets/img_catalogo/congrupo/palomitas-microondas-queso-cheddar.png ",
         "barra": "07615022230",
-        "activo": true
+        "activo": false
     },
     {
         "id": 90,
@@ -806,7 +806,7 @@
         "precio": 9600,
         "imagen": " ../assets/img_catalogo/congrupo/palomitas-microondas-caramelo.png ",
         "barra": "076150230383",
-        "activo": true
+        "activo": false
     },
     {
         "id": 91,
@@ -1031,7 +1031,7 @@
         "precio": 2823,
         "imagen": " ../assets/img_catalogo/comestibles-italo/caramelo-de-coco-x20.png ",
         "barra": 7702117013067,
-        "activo": true
+        "activo": false
     },
     {
         "id": 116,
@@ -2291,7 +2291,7 @@
         "precio": 46951,
         "imagen": " ../assets/img_catalogo/global/casillero-del-diablo-cabernet-x750.png ",
         "barra": 7804320303178,
-        "activo": true
+        "activo": false
     },
     {
         "id": 256,
@@ -2300,7 +2300,7 @@
         "precio": 46950,
         "imagen": " ../assets/img_catalogo/global/casillero-del-diablo-merlot-x750.png ",
         "barra": 7804320985633,
-        "activo": true
+        "activo": false
     },
     {
         "id": 257,
@@ -2318,7 +2318,7 @@
         "precio": 46951,
         "imagen": " ../assets/img_catalogo/global/casillero-del-diablo-rose-x750.png ",
         "barra": 7804320510170,
-        "activo": true
+        "activo": false
     },
     {
         "id": 259,
@@ -2345,7 +2345,7 @@
         "precio": 29800,
         "imagen": " ../assets/img_catalogo/global/vino-frontera-carmenere.png ",
         "barra": 7804320135854,
-        "activo": true
+        "activo": false
     },
     {
         "id": 262,
@@ -2354,7 +2354,7 @@
         "precio": 29801,
         "imagen": " ../assets/img_catalogo/global/vino-frontera-cabernet.png ",
         "barra": 7804320559001,
-        "activo": true
+        "activo": false
     },
     {
         "id": 263,
@@ -2363,7 +2363,7 @@
         "precio": 29800,
         "imagen": " ../assets/img_catalogo/global/vino-frontera-merlot.png ",
         "barra": 7804320706009,
-        "activo": true
+        "activo": false
     },
     {
         "id": 264,
@@ -2372,7 +2372,7 @@
         "precio": 29801,
         "imagen": " ../assets/img_catalogo/global/vino-frontera-rose.png ",
         "barra": 7804320483115,
-        "activo": true
+        "activo": false
     },
     {
         "id": 265,
@@ -2381,7 +2381,7 @@
         "precio": 30253,
         "imagen": " ../assets/img_catalogo/global/vino-frontera-blanco.png ",
         "barra": 7804320556000,
-        "activo": true
+        "activo": false
     },
     {
         "id": 266,
@@ -2471,7 +2471,7 @@
         "precio": 47998,
         "imagen": " ../assets/img_catalogo/global/casillero-del-diablo-carmenere-x750.png ",
         "barra": 7804320087016,
-        "activo": true
+        "activo": false
     },
     {
         "id": 276,
@@ -2633,7 +2633,7 @@
         "precio": 6471,
         "imagen": " ../assets/img_catalogo/esponja-matrix/esponja-matrix.png ",
         "barra": 74530110015787,
-        "activo": false
+        "activo": true
     },
     {
         "id": 294,
@@ -2642,7 +2642,7 @@
         "precio": 6406,
         "imagen": " ../assets/img_catalogo/esponja-matrix/esponja-matrix.png ",
         "barra": 7453010015787,
-        "activo": true
+        "activo": false
     },
     {
         "id": 295,
