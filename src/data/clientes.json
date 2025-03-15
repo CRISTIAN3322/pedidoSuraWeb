@@ -6167,5 +6167,13 @@
             "direccion": "CL 51 88 20 Bosa Brasil ",
             "vendedor": "Francy Janeth Huertas Martinez"
         }]
+    },
+    {
+        "id": 1074133386,
+        "nombre": "SANDY CAROLINA PRIETO PEREZ",
+        "sucursales": [{
+            "direccion": "CL 54 SUR 35 80  Tunjuelito",
+            "vendedor": "Berenice Herminda Muñoz Mondragon"
+        }]
     }
 ]
