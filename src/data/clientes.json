@@ -6,10 +6,6 @@
                 "vendedor": "Ana Sofia Roldan Rique"
             },
             {
-                "direccion": "CR 8 6 53   Sesquilé   Sesquilé",
-                "vendedor": "Ana Sofia Roldan Rique"
-            },
-            {
                 "direccion": "CL 138 151 C 07 Suba Santa Rita ",
                 "vendedor": "Consuelo Muñoz"
             }
@@ -27,7 +23,7 @@
         "id": 10011476,
         "nombre": "FERNANDO LONDOÑO MUÑOZ",
         "sucursales": [{
-            "direccion": "CR 3 13 82 UBATE   San Diego De Ubate",
+            "direccion": "CR 3 13 82  San Diego De Ubate",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -43,7 +39,7 @@
         "id": 1007409712,
         "nombre": "ALBERTH STEVEN AVILA MENJURA",
         "sucursales": [{
-            "direccion": "VDA FONQUETA VIA LA CARLINA    Chia",
+            "direccion": "VDA FONQUETA VIA LA CARLINA  Chia",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -51,7 +47,7 @@
         "id": 1020749804,
         "nombre": "CRISTIAN CAMILO GAITAN MANCIPE",
         "sucursales": [{
-            "direccion": "CR 5 11 30 Ubate  San Diego De Ubate",
+            "direccion": "CR 5 11 30  San Diego De Ubate",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -67,7 +63,7 @@
         "id": 1057214599,
         "nombre": "OMAR EDILSON CASTELLANOS PAEZ",
         "sucursales": [{
-            "direccion": "CL 11 2B 89 Cota   Cota",
+            "direccion": "CL 11 2B 89  Cota",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -83,7 +79,7 @@
         "id": 1069258611,
         "nombre": "LUIS CARLOS RUEDA DIAZA",
         "sucursales": [{
-            "direccion": "CL 12 2 48 CHOCONTA  Chocontá",
+            "direccion": "CL 12 2 48  Chocontá",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -99,7 +95,7 @@
         "id": 1072709736,
         "nombre": "CRISTIAN ARLEY GONZALEZ CASTELLANOS",
         "sucursales": [{
-            "direccion": "CR 33 8 112     Zipaquira",
+            "direccion": "CR 33 8 112  Zipaquira",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -107,11 +103,11 @@
         "id": 1072713310,
         "nombre": "FABIO ALEXIS GONZALEZ BURGOS",
         "sucursales": [{
-                "direccion": "CL 1 A 5 24  Centro ",
+                "direccion": "CL 1 A 5 24 Centro ",
                 "vendedor": "Ana Sofia Roldan Rique"
             },
             {
-                "direccion": "CL 3  7 40  ",
+                "direccion": "CL 3  7 40 Cajica ",
                 "vendedor": "Ana Sofia Roldan Rique"
             }
         ]
@@ -120,7 +116,7 @@
         "id": 1072714095,
         "nombre": "JESICA YULIZA VELANDIA PAEZ",
         "sucursales": [{
-            "direccion": "CL 17 10 46   Chia",
+            "direccion": "CL 17 10 46  Chia",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -128,7 +124,7 @@
         "id": 1075660912,
         "nombre": "YEISON HINOJOSA CONTRERAS",
         "sucursales": [{
-            "direccion": "CR 7 17 53   Cedrales Zipaquira",
+            "direccion": "CR 7 17 53 Cedrales Zipaquira",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -136,7 +132,7 @@
         "id": 1075667435,
         "nombre": "FELIX ALBERTO CASTELLANOS MENJURA",
         "sucursales": [{
-            "direccion": "CL 4 4 64 Cogua   Cogua",
+            "direccion": "CL 4 4 64  Cogua",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -144,7 +140,7 @@
         "id": 1075669649,
         "nombre": "VICTOR DANIEL GONZALEZ GONZALEZ",
         "sucursales": [{
-            "direccion": "CR 33 9 48    Villa Maria1 Zipaquira",
+            "direccion": "CR 33 9 48 Villa Maria1 Zipaquira",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -152,7 +148,7 @@
         "id": 1075873275,
         "nombre": "BLANCA LIBIA LAITON GONZALEZ",
         "sucursales": [{
-            "direccion": "CR 4 1 25 SUR Sopó   Sopo",
+            "direccion": "CR 4 1 25 SUR  Sopó ",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -160,7 +156,7 @@
         "id": 1088237783,
         "nombre": "VICTOR MARIO LONDOÑO MUÑOZ",
         "sucursales": [{
-            "direccion": "CL 3 12 66    ",
+            "direccion": "CL 3 12 66  ",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -168,7 +164,7 @@
         "id": 11231075,
         "nombre": "NORBERTO SANCHEZ ROMERO",
         "sucursales": [{
-            "direccion": "CL 9 2 A 65 La Calera   La Calera",
+            "direccion": "CL 9 2 A 65  La Calera",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -184,7 +180,7 @@
         "id": 13750083,
         "nombre": "HECTOR SANCHEZ QUITIAN",
         "sucursales": [{
-            "direccion": "CL 7 10 52    Chia",
+            "direccion": "CL 7 10 52  Chia",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -192,7 +188,7 @@
         "id": 2829707,
         "nombre": "ILVAR PAIBA CASTILLO",
         "sucursales": [{
-            "direccion": "Cl 35 1 E 04    Chia",
+            "direccion": "Cl 35 1 E 04  Chia",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -200,7 +196,7 @@
         "id": 3003121,
         "nombre": "ALDO MISAEL CARPINTERO SARMIENTO",
         "sucursales": [{
-            "direccion": "CR 4 6 40  Chocontá   Chocontá",
+            "direccion": "CR 4 6 40  Chocontá",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -208,7 +204,7 @@
         "id": 3082327,
         "nombre": "MAURICIO GARZON OLIVARES",
         "sucursales": [{
-                "direccion": "CR 4 7 61 CHOCONTA  Chocontá",
+                "direccion": "CR 4 7 61  Chocontá",
                 "vendedor": "Ana Sofia Roldan Rique"
             },
             {
@@ -220,7 +216,7 @@
                 "vendedor": "Ana Sofia Roldan Rique"
             },
             {
-                "direccion": "CR 4 7 61 CHOCONTA  Chocontá",
+                "direccion": "CR 4 7 61  Chocontá",
                 "vendedor": "Bucky Santana Vanegas "
             },
             {
@@ -245,11 +241,11 @@
                 "vendedor": "Ana Sofia Roldan Rique"
             },
             {
-                "direccion": "CR 2  3 31 TENJO  Tenjo",
+                "direccion": "CR 2  3 31  Tenjo",
                 "vendedor": "Ana Sofia Roldan Rique"
             },
             {
-                "direccion": "CL 3 7 32 TENJO Tenjo   Tenjo",
+                "direccion": "CL 3 7 32  Tenjo",
                 "vendedor": "Ana Sofia Roldan Rique"
             },
             {
@@ -270,7 +266,7 @@
         "id": 40042122,
         "nombre": "ZONIA BAYONA BAYONA",
         "sucursales": [{
-            "direccion": "FCA EL VERGEL VDA FONQUETA   CHIA \/ FONQUETA VEREDA    Chia",
+            "direccion": "FCA EL VERGEL VDA FONQUETA  Chia",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -278,7 +274,7 @@
         "id": 4268423,
         "nombre": "ARMANDO ALBERCIO SANCHEZ REYES",
         "sucursales": [{
-            "direccion": "CR 7 24 A 06    Zipaquira",
+            "direccion": "CR 7 24 A 06  Zipaquira",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -286,7 +282,7 @@
         "id": 52166995,
         "nombre": "ANA BELSU AVENDANO AVENDANO",
         "sucursales": [{
-            "direccion": "CL 3 5 20 ZIPAQUIRA    Zipaquira",
+            "direccion": "CL 3 5 20  Zipaquira",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -294,7 +290,7 @@
         "id": 52440207,
         "nombre": "EDITH PERILLA LEON",
         "sucursales": [{
-            "direccion": "CR 5 4 25 Cogua   Cogua",
+            "direccion": "CR 5 4 25  Cogua",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -302,7 +298,7 @@
         "id": 52530962,
         "nombre": "ANA SOFIA ROLDAN RIQUE",
         "sucursales": [{
-            "direccion": "CR 19 BIS 47 14 SUR  Santa Lucia ",
+            "direccion": "CR 19 BIS 47 14 SUR Santa Lucia ",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -310,7 +306,7 @@
         "id": 52708553,
         "nombre": "SANDRA MILENA ARJONA JULIO",
         "sucursales": [{
-            "direccion": "CR 3 1 12  Tabio   Tabio",
+            "direccion": "CR 3 1 12  Tabio",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -318,7 +314,7 @@
         "id": 52710288,
         "nombre": "DERLY BIBIANA GOMEZ AVENDAÑO",
         "sucursales": [{
-            "direccion": "CR 6 3 15  Villapinzón   Villapinzón",
+            "direccion": "CR 6 3 15  Villapinzón",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -326,11 +322,11 @@
         "id": 7124541,
         "nombre": "MARCO TULIO LAITON PAEZ",
         "sucursales": [{
-                "direccion": "CR 5 4 98 Sesquilé   Sesquilé",
+                "direccion": "CR 5 4 98  Sesquilé",
                 "vendedor": "Ana Sofia Roldan Rique"
             },
             {
-                "direccion": "CR 3 1 36Tabio   Tabio",
+                "direccion": "CR 3 1 36  Tabio",
                 "vendedor": "Ana Sofia Roldan Rique"
             }
         ]
@@ -339,7 +335,7 @@
         "id": 7124683,
         "nombre": "JOSE HILARIO CASTELLANOS PAEZ",
         "sucursales": [{
-            "direccion": "DG 2 2 39  Nemocón   Nemocon",
+            "direccion": "DG 2 2 39  Nemocon",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -347,7 +343,7 @@
         "id": 7184212,
         "nombre": "JAIME JOVANNI GOMEZ PORRAS",
         "sucursales": [{
-            "direccion": "CL 3 6 106 Villapinzón   Villapinzón",
+            "direccion": "CL 3 6 106  Villapinzón",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -355,7 +351,7 @@
         "id": 7313840,
         "nombre": "NELSON ENRIQUE CASTELLANOS CASTELLANOS",
         "sucursales": [{
-            "direccion": "CL 26 26 A 59    Zipaquira",
+            "direccion": "CL 26 26 A 59  Zipaquira",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -363,7 +359,7 @@
         "id": 74439243,
         "nombre": "WILSON ORLANDO VELANDIA GONZALEZ",
         "sucursales": [{
-            "direccion": "CR 3 7 36  La Calera   La Calera",
+            "direccion": "CR 3 7 36  La Calera",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -371,7 +367,7 @@
         "id": 74439272,
         "nombre": "JOSE BERNABE PAEZ AVENDAÑO",
         "sucursales": [{
-            "direccion": "CL 31 1 28    Chia",
+            "direccion": "CL 31 1 28  Chia",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -379,7 +375,7 @@
         "id": 74439310,
         "nombre": "JAIRO JOSE VILLAMIL SOTELO",
         "sucursales": [{
-            "direccion": "CL 3 3 39 Cogua  Cogua",
+            "direccion": "CL 3 3 39  Cogua",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -387,7 +383,7 @@
         "id": 79638311,
         "nombre": "JAIRO ALONSO RIVEROS REY",
         "sucursales": [{
-            "direccion": "DG 7 1 63  Tabio   Tabio",
+            "direccion": "DG 7 1 63  Tabio",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -395,7 +391,7 @@
         "id": 79841173,
         "nombre": "JOSE HUMBERTO LINARES CARDENAS",
         "sucursales": [{
-                "direccion": "CR 5 13A 71 Cota   Cota",
+                "direccion": "CR 5 13A 71  Cota",
                 "vendedor": "Ana Sofia Roldan Rique"
             },
             {
@@ -408,7 +404,7 @@
         "id": 800126774,
         "nombre": "NUTRIPUNTO",
         "sucursales": [{
-            "direccion": "KM 1 VIA  ZIPAQUIRA    ",
+            "direccion": "KM 1 VIA  ZIPAQUIRA  ",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -416,7 +412,7 @@
         "id": 80501454,
         "nombre": "JUAN CARLOS PUENTES RUIZ",
         "sucursales": [{
-            "direccion": "CL 3 A 13 08    ",
+            "direccion": "CL 3 A 13 08  ",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -432,7 +428,7 @@
         "id": 832010731,
         "nombre": "GRUPO COMERCIAL ANDES SA",
         "sucursales": [{
-            "direccion": "CR 1  7  200 Tabio   Tabio",
+            "direccion": "CR 1  7  200  Tabio",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -440,7 +436,7 @@
         "id": 860532244,
         "nombre": "ZULUAGA   SOTO SAS",
         "sucursales": [{
-                "direccion": "CR 10 14 37   Esmerada Zipaquira",
+                "direccion": "CR 10 14 37 Esmerada Zipaquira",
                 "vendedor": "Ana Sofia Roldan Rique"
             },
             {
@@ -465,7 +461,7 @@
         "id": 900073355,
         "nombre": "INVERSIONES CORNEJO RUIZ LTDA",
         "sucursales": [{
-            "direccion": "CR 6 11 28 Ubate   San Diego De Ubate",
+            "direccion": "CR 6 11 28  San Diego De Ubate",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -473,11 +469,11 @@
         "id": 900142522,
         "nombre": "COMERCIALIZADORA LIRIFERCH SAS",
         "sucursales": [{
-                "direccion": "CR 8 7 43 UBATE   San Diego De Ubate",
+                "direccion": "CR 8 7 43  San Diego De Ubate",
                 "vendedor": "Ana Sofia Roldan Rique"
             },
             {
-                "direccion": "CL 11 7 65 UBATE   San Diego De Ubate",
+                "direccion": "CL 11 7 65  San Diego De Ubate",
                 "vendedor": "Ana Sofia Roldan Rique"
             }
         ]
@@ -486,7 +482,7 @@
         "id": 900237181,
         "nombre": "INVERSIONES Y DISTRIBUCIONES EL GUAVIO LTDA",
         "sucursales": [{
-            "direccion": "CR 3 6 15  Guasca   Guasca",
+            "direccion": "CR 3 6 15  Guasca",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -494,7 +490,7 @@
         "id": 900346558,
         "nombre": "COMERCIALIZADORA INFANTE Y PADILLA  SAS",
         "sucursales": [{
-            "direccion": "CR 7 8 17  Tocancipá   Tocancipá",
+            "direccion": "CR 7 8 17  Tocancipá",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -502,11 +498,11 @@
         "id": 900350171,
         "nombre": "AUTOSERVICIO SANTANDER HB  SAS",
         "sucursales": [{
-                "direccion": "CL 12 2A 59  20 de Julio Chía",
+                "direccion": "CL 12 2A 59 20 de Julio Chía",
                 "vendedor": "Ana Sofia Roldan Rique"
             },
             {
-                "direccion": "CL 7 3 105   Campin Chia",
+                "direccion": "CL 7 3 105 Campin Chia",
                 "vendedor": "Ana Sofia Roldan Rique"
             }
         ]
@@ -515,7 +511,7 @@
         "id": 900417042,
         "nombre": "SUPERMERCADO OLIVAN SAS",
         "sucursales": [{
-            "direccion": "CR 4 7 79  La Calera   La Calera",
+            "direccion": "CR 4 7 79  La Calera",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -523,7 +519,7 @@
         "id": 900486250,
         "nombre": "SUPERMERCADOS LATINOS 1 SAS",
         "sucursales": [{
-            "direccion": "CR 5 4 14 Chocontá   Chocontá",
+            "direccion": "CR 5 4 14  Chocontá",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -531,7 +527,7 @@
         "id": 900580849,
         "nombre": "INVERSIONES LAITON GONZALEZ SAS",
         "sucursales": [{
-                "direccion": "CR 2  1 57     Zipaquirá",
+                "direccion": "CR 2  1 57  Zipaquirá",
                 "vendedor": "Ana Sofia Roldan Rique"
             },
             {
@@ -544,19 +540,19 @@
         "id": 900598355,
         "nombre": "AUTOSERVICIOS EL SANTANDEREANO SAS",
         "sucursales": [{
-                "direccion": "VDA VERGANZO SECTOR TOLIMA FRENTE A TORRE DE SAN JUAN Tocancipá   Tocancipá",
+                "direccion": "VDA VERGANZO SECTOR TOLIMA FRENTE A TORRE DE SAN JUAN  Tocancipá",
                 "vendedor": "Ana Sofia Roldan Rique"
             },
             {
-                "direccion": "VDA LA FUENTE Tocancipá   Tocancipá",
+                "direccion": "VDA LA FUENTE  Tocancipá",
                 "vendedor": "Ana Sofia Roldan Rique"
             },
             {
-                "direccion": "CR 7 12 30 Tocancipá   Tocancipá",
+                "direccion": "CR 7 12 30  Tocancipá",
                 "vendedor": "Ana Sofia Roldan Rique"
             },
             {
-                "direccion": "CR 6 12 24 Tocancipá   Tocancipá",
+                "direccion": "CR 6 12 24  Tocancipá",
                 "vendedor": "Ana Sofia Roldan Rique"
             }
         ]
@@ -565,11 +561,11 @@
         "id": 900600935,
         "nombre": "SANCHEZ CORDOBA SAS",
         "sucursales": [{
-                "direccion": "CR 5 3 25 Villapinzón   Villapinzón",
+                "direccion": "CR 5 3 25  Villapinzón",
                 "vendedor": "Ana Sofia Roldan Rique"
             },
             {
-                "direccion": "CL 4 4 45 VILLAPINZON  Villapinzón",
+                "direccion": "CL 4 4 45  Villapinzón",
                 "vendedor": "Ana Sofia Roldan Rique"
             }
         ]
@@ -578,7 +574,7 @@
         "id": 900690873,
         "nombre": "EL CORAZON DE LAS REBAJAS SAS",
         "sucursales": [{
-            "direccion": "CR 6 09 28 Tocancipá   Tocancipá",
+            "direccion": "CR 6 09 28  Tocancipá",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -586,7 +582,7 @@
         "id": 900898646,
         "nombre": "LAVASECO PRESTIGIO SAS",
         "sucursales": [{
-            "direccion": "AV PRDADILLA 3 57 CHIA Chia Chia",
+            "direccion": "AV PRDADILLA 3 57  Chia",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -594,7 +590,7 @@
         "id": 901050418,
         "nombre": "INVERSIONES GACHA SAS",
         "sucursales": [{
-            "direccion": "CR 4 3 3 94  Gachancipá   Gachancipa",
+            "direccion": "CR 4 3 3 94  Gachancipa",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -602,7 +598,7 @@
         "id": 901148682,
         "nombre": "SUPERTIENDAS Y DROGUERIAS EL GRAN PREMIER S.A.S",
         "sucursales": [{
-            "direccion": "CR 3  5 09  Guasca   Guasca",
+            "direccion": "CR 3  5 09  Guasca",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -610,7 +606,7 @@
         "id": 901167515,
         "nombre": "UNIMERCAR DE CHOCONTA SAS",
         "sucursales": [{
-            "direccion": "CR 5 7 12 Chocontá   Chocontá",
+            "direccion": "CR 5 7 12  Chocontá",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -618,7 +614,7 @@
         "id": 901221642,
         "nombre": "VENTAS LINPAU SAS",
         "sucursales": [{
-            "direccion": "CR 38 4 A 23     Zipaquira",
+            "direccion": "CR 38 4 A 23  Zipaquira",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -626,7 +622,7 @@
         "id": 901222739,
         "nombre": "AUTOSERVICIO EL PROVEEDOR SAS",
         "sucursales": [{
-            "direccion": "CR 4 7 11  La Calera   La Calera",
+            "direccion": "CR 4 7 11  La Calera",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -634,31 +630,31 @@
         "id": 901226698,
         "nombre": "INVERSIONES 1YA SAS",
         "sucursales": [{
-                "direccion": "CR 12 10 77    Chia",
+                "direccion": "CR 12 10 77  Chia",
                 "vendedor": "Ana Sofia Roldan Rique"
             },
             {
-                "direccion": "CL 29 1A 21 Chia  Chia",
+                "direccion": "CL 29 1A 21  Chia",
                 "vendedor": "Ana Sofia Roldan Rique"
             },
             {
-                "direccion": "CL 7 12 65 CHIA Terminal Chia",
+                "direccion": "CL 7 12 65 Terminal Chia",
                 "vendedor": "Ana Sofia Roldan Rique"
             },
             {
-                "direccion": "CR 12 8 24   Plaza Chia",
+                "direccion": "CR 12 8 24 Plaza Chia",
                 "vendedor": "Ana Sofia Roldan Rique"
             },
             {
-                "direccion": "CL 15 4 17 Funza   Funza",
+                "direccion": "CL 15 4 17  Funza",
                 "vendedor": "Ana Sofia Roldan Rique"
             },
             {
-                "direccion": "CR 6 14 55 Funza  Danubio Funza",
+                "direccion": "CR 6 14 55 Danubio Funza",
                 "vendedor": "Ana Sofia Roldan Rique"
             },
             {
-                "direccion": "CR 10 11 15 ZIPAQUIRA    Zipaquira",
+                "direccion": "CR 10 11 15  Zipaquira",
                 "vendedor": "Ana Sofia Roldan Rique"
             }
         ]
@@ -667,7 +663,7 @@
         "id": 901304003,
         "nombre": "SURTICOTA FP SAS",
         "sucursales": [{
-            "direccion": "CR 4 10 77  Cota   Cota",
+            "direccion": "CR 4 10 77  Cota",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -675,7 +671,7 @@
         "id": 901310659,
         "nombre": "TDA+ SAS",
         "sucursales": [{
-            "direccion": "VDA VERGANZO SECTOR TOLIMA FRENTE A TORRE DE SAN JUAN Tocancipá   Tocancipá",
+            "direccion": "VDA VERGANZO SECTOR TOLIMA FRENTE A TORRE DE SAN JUAN  Tocancipá",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -683,7 +679,7 @@
         "id": 901312259,
         "nombre": "COMMUNAL INVESTMENTS SAS",
         "sucursales": [{
-                "direccion": "CL 3 14 64    ",
+                "direccion": "CL 3 14 64  ",
                 "vendedor": "Ana Sofia Roldan Rique"
             },
             {
@@ -708,7 +704,7 @@
         "id": 901375910,
         "nombre": "MAXIMERCAS SAS",
         "sucursales": [{
-                "direccion": "CL 7 5A ESTE 29 BODEGA 2   ",
+                "direccion": "CL 7 5A ESTE 29 BODEGA 2  ",
                 "vendedor": "Ana Sofia Roldan Rique"
             },
             {
@@ -721,7 +717,7 @@
         "id": 901383020,
         "nombre": "INVERSIONES SAMUBELLA SAS",
         "sucursales": [{
-            "direccion": "CR 5 4 83 Sesquilé   Sesquilé",
+            "direccion": "CR 5 4 83  Sesquilé",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -729,7 +725,7 @@
         "id": 901407185,
         "nombre": "AUTOSERVICIO CONTIGO JA SAS",
         "sucursales": [{
-            "direccion": "CR 4 7 53 Suesca   Suesca",
+            "direccion": "CR 4 7 53  Suesca",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -737,7 +733,7 @@
         "id": 901414843,
         "nombre": "MERCADOS CAMPOFRESH SAS",
         "sucursales": [{
-            "direccion": "CR 5 2 SUR 185    ",
+            "direccion": "CR 5 2 SUR 185  ",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -745,7 +741,7 @@
         "id": 901503350,
         "nombre": "COMERCIALIZADORA EL CANASTO MARKET SAS",
         "sucursales": [{
-            "direccion": "TRV 6 6 03  Sopó   Sopo",
+            "direccion": "TRV 6 6 03  Sopo",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -761,19 +757,19 @@
         "id": 901549752,
         "nombre": "SUPERMERCADOS DMIL ZIPAQUIRA SAS",
         "sucursales": [{
-                "direccion": "CR 12 6 90    Chia",
+                "direccion": "CR 12 6 90  Chia",
                 "vendedor": "Ana Sofia Roldan Rique"
             },
             {
-                "direccion": "CL 7 6 27Fusagasugá   Fusagasugá",
+                "direccion": "CL 7 6 27  Fusagasugá",
                 "vendedor": "Ana Sofia Roldan Rique"
             },
             {
-                "direccion": "CR 7 12 27 ZIPAQUIRA    Zipaquira",
+                "direccion": "CR 7 12 27  Zipaquira",
                 "vendedor": "Ana Sofia Roldan Rique"
             },
             {
-                "direccion": "CL 7 6 27 Fusagasugá   Fusagasugá",
+                "direccion": "CL 7 6 27  Fusagasugá",
                 "vendedor": "Ydiana Maria Sanchez Jimenez"
             },
             {
@@ -786,7 +782,7 @@
         "id": 901557242,
         "nombre": "AUTOSERVICIO DEC SAN MIGUEL SAS",
         "sucursales": [{
-            "direccion": "CR 15 A 4 E 11Tocancipá   Tocancipá",
+            "direccion": "CR 15 A 4 E 11  Tocancipá",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -794,7 +790,7 @@
         "id": 901577775,
         "nombre": "MERCA 3 DE LA SABANA",
         "sucursales": [{
-            "direccion": "CR 2 2 68  Tenjo   Tenjo",
+            "direccion": "CR 2 2 68  Tenjo",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -802,7 +798,7 @@
         "id": 901656962,
         "nombre": "INVERSIONES MERKALISTO SAS",
         "sucursales": [{
-            "direccion": "CL 14 4 A 84 Ubate  San Diego De Ubate",
+            "direccion": "CL 14 4 A 84  San Diego De Ubate",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -810,7 +806,7 @@
         "id": 901697452,
         "nombre": "INVERSIONES OMC SAS",
         "sucursales": [{
-            "direccion": "CR 11 2 B 89 Cota   Cota",
+            "direccion": "CR 11 2 B 89  Cota",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -818,7 +814,7 @@
         "id": 901826880,
         "nombre": "VALDERRAMAASCOCIADOS 3 SAS",
         "sucursales": [{
-            "direccion": "VDA VERGANZO SECTOR TOLIMA  TOCANCIPA Tocancipá   Tocancipá",
+            "direccion": "VDA VERGANZO SECTOR TOLIMA  Tocancipá",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -826,7 +822,7 @@
         "id": 901886395,
         "nombre": "INVERSIONES AHORRAMAX A G SAS",
         "sucursales": [{
-            "direccion": "CR 6 5B 38   ",
+            "direccion": "CR 6 5B 38  ",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -834,7 +830,7 @@
         "id": 91106954,
         "nombre": "HENRY RUIZ FRANCO",
         "sucursales": [{
-            "direccion": "CL 8 6 35  Suesca   Suesca",
+            "direccion": "CL 8 6 35  Suesca",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -843,6 +839,22 @@
         "nombre": "INVERSIONES PEDROPOLIS SAS",
         "sucursales": [{
             "direccion": "CL 1 5 24 Cajicá ",
+            "vendedor": "Ana Sofia Roldan Rique"
+        }]
+    },
+    {
+        "id": 1002646857,
+        "nombre": "KAREN YULIETH CARTILLO PINILLA",
+        "sucursales": [{
+            "direccion": "CR 33 8 112 Zipaquira ",
+            "vendedor": "Ana Sofia Roldan Rique"
+        }]
+    },
+    {
+        "id": 900652829,
+        "nombre": "SOCIEDAD DE MERCADOS WILLIAM CASTELLANOS SAS",
+        "sucursales": [{
+            "direccion": "CL 5 2 B 42 Chiá ",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
     },
@@ -866,7 +878,7 @@
         "id": 11410751,
         "nombre": "CARLOS RAMIRO CAGUEÑAS GUTIERREZ",
         "sucursales": [{
-            "direccion": "CR 43 58C 07 S Arborizadora Baja ",
+            "direccion": "CR 43 58C 07 SUR Arborizadora Baja ",
             "vendedor": "Berenice Herminda Muñoz Mondragon"
         }]
     },
@@ -948,7 +960,7 @@
         "id": 52286075,
         "nombre": "GLADYS ESTHER SANABRIA MORENO",
         "sucursales": [{
-            "direccion": "CR 14 81 20 SUR YOMASA Yomasa ",
+            "direccion": "CR 14 81 20 SUR Yomasa ",
             "vendedor": "Berenice Herminda Muñoz Mondragon"
         }]
     },
@@ -1067,7 +1079,7 @@
                 "vendedor": "Berenice Herminda Muñoz Mondragon"
             },
             {
-                "direccion": "CL 8 32 24 ZONA INDUSTRIAL   Zipaquira",
+                "direccion": "CL 8 32 24 ZONA INDUSTRIAL  Zipaquira",
                 "vendedor": "Berenice Herminda Muñoz Mondragon"
             }
         ]
@@ -1080,11 +1092,11 @@
                 "vendedor": "Berenice Herminda Muñoz Mondragon"
             },
             {
-                "direccion": "CR 14 26 27 SUR SOACHA Compartir Soacha",
+                "direccion": "CR 14 26 27 SUR Compartir Soacha",
                 "vendedor": "Bucky Santana Vanegas "
             },
             {
-                "direccion": "CL 30 SUR 16 F 15 Soacha  Soacha",
+                "direccion": "CL 30 SUR 16 F 15  Soacha",
                 "vendedor": "Bucky Santana Vanegas "
             }
         ]
@@ -1097,7 +1109,7 @@
                 "vendedor": "Berenice Herminda Muñoz Mondragon"
             },
             {
-                "direccion": "CL 35 SUR 15 B 11 Soacha Ciudad Latina Soacha",
+                "direccion": "CL 35 SUR 15 B 11 Ciudad Latina Soacha",
                 "vendedor": "Bucky Santana Vanegas "
             },
             {
@@ -1150,7 +1162,7 @@
                 "vendedor": "Berenice Herminda Muñoz Mondragon"
             },
             {
-                "direccion": "CL 46 3 A 15 Soacha Quintanares Soacha",
+                "direccion": "CL 46 3 A 15 Quintanares Soacha",
                 "vendedor": "Bucky Santana Vanegas "
             }
         ]
@@ -1339,6 +1351,22 @@
         }]
     },
     {
+        "id": 52227171,
+        "nombre": "ALBA DORIS ESPINDOLA MENDIVELSO",
+        "sucursales": [{
+            "direccion": "CR 17 A 80 32 SUR  San Joaquin",
+            "vendedor": "Berenice Herminda Muñoz Mondragon"
+        }]
+    },
+    {
+        "id": 1074133386,
+        "nombre": "SANDY CAROLINA PRIETO PEREZ",
+        "sucursales": [{
+            "direccion": "CL 54 SUR 35 80  Tunjuelito",
+            "vendedor": "Berenice Herminda Muñoz Mondragon"
+        }]
+    },
+    {
         "id": 13689422,
         "nombre": "LUIS ALCIDES DIAZ ROJAS",
         "sucursales": [{
@@ -1350,7 +1378,7 @@
         "id": 3022348,
         "nombre": "DANIEL ARMENJO AGUDELO PINZON",
         "sucursales": [{
-            "direccion": "DG 10 8 11 Sibaté  Sibate",
+            "direccion": "DG 10 8 11  Sibate",
             "vendedor": "Bucky Santana Vanegas "
         }]
     },
@@ -1358,7 +1386,7 @@
         "id": 11406081,
         "nombre": "CESAREO REY AGUDELO",
         "sucursales": [{
-            "direccion": "CL 15 1 37 ESTE Soacha San Humberto Soacha",
+            "direccion": "CL 15 1 37 ESTE San Humberto Soacha",
             "vendedor": "Bucky Santana Vanegas "
         }]
     },
@@ -1379,7 +1407,7 @@
         "id": 11411907,
         "nombre": "JOSE ANTONIO HERNANDEZ PEREZ",
         "sucursales": [{
-            "direccion": "TV 15 F BIS 31G SUR 28 Soacha Ciudad Latina Soacha",
+            "direccion": "TV 15 F BIS 31G SUR 28 Ciudad Latina Soacha",
             "vendedor": "Bucky Santana Vanegas "
         }]
     },
@@ -1387,7 +1415,7 @@
         "id": 11413810,
         "nombre": "YEISSON CAMILO NOVOA GUTIERREZ",
         "sucursales": [{
-            "direccion": "CL 18 SUR 13A 32 Soacha Compartir Soacha",
+            "direccion": "CL 18 SUR 13A 32 Compartir Soacha",
             "vendedor": "Bucky Santana Vanegas "
         }]
     },
@@ -1395,7 +1423,7 @@
         "id": 19493768,
         "nombre": "HECTOR ALIRIO NOVOA CAGUEÑAS",
         "sucursales": [{
-            "direccion": "CR 3 C 14 38 SUR Soacha  Soacha",
+            "direccion": "CR 3 C 14 38 SUR  Soacha",
             "vendedor": "Bucky Santana Vanegas "
         }]
     },
@@ -1403,7 +1431,7 @@
         "id": 23730881,
         "nombre": "MARIELA GUATAVA BARRAGAN",
         "sucursales": [{
-            "direccion": "DG 15 A 2 04 ESTE Soacha Hato Chico Soacha",
+            "direccion": "DG 15 A 2 04 ESTE Hato Chico Soacha",
             "vendedor": "Bucky Santana Vanegas "
         }]
     },
@@ -1411,7 +1439,7 @@
         "id": 51955215,
         "nombre": "ROSA MARIA DEL CARMEN PAREDES LAGOS",
         "sucursales": [{
-            "direccion": "CL 46 1 51 ESTE Soacha Quintanares Soacha",
+            "direccion": "CL 46 1 51 ESTE Quintanares Soacha",
             "vendedor": "Bucky Santana Vanegas "
         }]
     },
@@ -1435,7 +1463,7 @@
         "id": 52769070,
         "nombre": "ADRIANA CRISTINA NIÑO ORJUELA",
         "sucursales": [{
-            "direccion": "CR 7 16 101 Soacha Centro Soacha",
+            "direccion": "CR 7 16 101 Centro Soacha",
             "vendedor": "Bucky Santana Vanegas "
         }]
     },
@@ -1443,7 +1471,7 @@
         "id": 79207144,
         "nombre": "CARLOS ARTURO SARMIENTO HERNANDEZ",
         "sucursales": [{
-            "direccion": "CR 11 D 18 B 77 SUR Soacha Compartir Soacha",
+            "direccion": "CR 11 D 18 B 77 SUR Compartir Soacha",
             "vendedor": "Bucky Santana Vanegas "
         }]
     },
@@ -1451,7 +1479,7 @@
         "id": 79642006,
         "nombre": "LUIS CARLOS PLAZAS WILCHES",
         "sucursales": [{
-                "direccion": "CL 6 SUR  16 A 150 VIA INDUMIL Soacha  Soacha",
+                "direccion": "CL 6 SUR  16 A 150 VIA INDUMIL  Soacha",
                 "vendedor": "Bucky Santana Vanegas "
             },
             {
@@ -1464,11 +1492,11 @@
         "id": 79752083,
         "nombre": "NELSON JOANY ROMERO CASTRO",
         "sucursales": [{
-                "direccion": "CL 6 2 F 15 SOACHA Danubio Soacha",
+                "direccion": "CL 6 2 F 15 Danubio Soacha",
                 "vendedor": "Bucky Santana Vanegas "
             },
             {
-                "direccion": "TRV 18 H 6 54 SOACHA Danubio Soacha",
+                "direccion": "TRV 18 H 6 54 Danubio Soacha",
                 "vendedor": "Bucky Santana Vanegas "
             }
         ]
@@ -1477,7 +1505,7 @@
         "id": 79901324,
         "nombre": "YOBAN HELI LINARES CARDENAS",
         "sucursales": [{
-            "direccion": "CR 11 C 30 30 Soacha Compartir Soacha",
+            "direccion": "CR 11 C 30 30 Compartir Soacha",
             "vendedor": "Bucky Santana Vanegas "
         }]
     },
@@ -1493,7 +1521,7 @@
         "id": 80108950,
         "nombre": "EDWIN FERNANDO REINA BEJARANO",
         "sucursales": [{
-            "direccion": "TV 12 A 41 C 07 Soacha Leon XIII Soacha",
+            "direccion": "TV 12 A 41 C 07 Leon XIII Soacha",
             "vendedor": "Bucky Santana Vanegas "
         }]
     },
@@ -1501,7 +1529,7 @@
         "id": 80151309,
         "nombre": "LUIS ANGEL MENDEZ",
         "sucursales": [{
-            "direccion": "CR 22 ESTE 1 23 SOACHA 12 De Marzo Soacha",
+            "direccion": "CR 22 ESTE 1 23 12 De Marzo Soacha",
             "vendedor": "Bucky Santana Vanegas "
         }]
     },
@@ -1509,7 +1537,7 @@
         "id": 80387644,
         "nombre": "VLADIMIR VALERO BOHORQUEZ",
         "sucursales": [{
-            "direccion": "CL 39 A 8 F 06 Soacha Leon XIII Soacha",
+            "direccion": "CL 39 A 8 F 06 Leon XIII Soacha",
             "vendedor": "Bucky Santana Vanegas "
         }]
     },
@@ -1517,7 +1545,7 @@
         "id": 830055634,
         "nombre": "M C CONSTRUCTORES   CONSULTORES S.A.S",
         "sucursales": [{
-            "direccion": "CR 36 17 293 Soacha Ciudad Verde CJ Nardo 2 Soacha",
+            "direccion": "CR 36 17 293 Ciudad Verde CJ Nardo 2 Soacha",
             "vendedor": "Bucky Santana Vanegas "
         }]
     },
@@ -1525,7 +1553,7 @@
         "id": 900505033,
         "nombre": "CASTELLANOS Y SEGURA E HIJOS SAS",
         "sucursales": [{
-            "direccion": "CR 7 9 110 Sibaté  Sibate",
+            "direccion": "CR 7 9 110  Sibate",
             "vendedor": "Bucky Santana Vanegas "
         }]
     },
@@ -1533,11 +1561,11 @@
         "id": 900652691,
         "nombre": "MERKATELL SAS",
         "sucursales": [{
-                "direccion": "DIAG 37 18 78 SUR Soacha Mercurio Soacha",
+                "direccion": "DIAG 37 18 78 SUR Mercurio Soacha",
                 "vendedor": "Bucky Santana Vanegas "
             },
             {
-                "direccion": "CL 33 0 61 ESTE Soacha SAN MATEO Soacha",
+                "direccion": "CL 33 0 61 ESTE SAN MATEO Soacha",
                 "vendedor": "Bucky Santana Vanegas "
             }
         ]
@@ -1546,11 +1574,11 @@
         "id": 901104157,
         "nombre": "SURKAFAN SAS",
         "sucursales": [{
-                "direccion": "CL 46 3 A 15 Soacha Quintanares Soacha",
+                "direccion": "CL 46 3 A 15 Quintanares Soacha",
                 "vendedor": "Bucky Santana Vanegas "
             },
             {
-                "direccion": "CL 46 2 B 21 SOACHA Quintanares Soacha",
+                "direccion": "CL 46 2 B 21 Quintanares Soacha",
                 "vendedor": "Bucky Santana Vanegas "
             }
         ]
@@ -1559,19 +1587,19 @@
         "id": 901220256,
         "nombre": "MERCADOS CASH SAS",
         "sucursales": [{
-                "direccion": "TV 32 A 34 77 LIRIO  Soacha Ciudad Verde Soacha",
+                "direccion": "TV 32 A 34 77 Ciudad Verde Soacha",
                 "vendedor": "Bucky Santana Vanegas "
             },
             {
-                "direccion": "TRV 7 6 10 Soacha Fragua Soacha",
+                "direccion": "TRV 7 6 10 Fragua Soacha",
                 "vendedor": "Bucky Santana Vanegas "
             },
             {
-                "direccion": "CR 7 12 A 21 Sibaté  Sibate",
+                "direccion": "CR 7 12 A 21  Sibate",
                 "vendedor": "Bucky Santana Vanegas "
             },
             {
-                "direccion": "TV 7 5 6 SILO Soacha  Soacha",
+                "direccion": "TV 7 5 6 Silo Soacha",
                 "vendedor": "Bucky Santana Vanegas "
             }
         ]
@@ -1580,7 +1608,7 @@
         "id": 901256709,
         "nombre": "INVERSIONES AGRARIAS ORDIS SAS",
         "sucursales": [{
-            "direccion": "CR 7 ESTE 31 B 25 Soacha SAN MATEO Soacha",
+            "direccion": "CR 7 ESTE 31 B 25 SAN MATEO Soacha",
             "vendedor": "Bucky Santana Vanegas "
         }]
     },
@@ -1588,7 +1616,7 @@
         "id": 901274302,
         "nombre": "MERKAEXITO HNOS SAS",
         "sucursales": [{
-            "direccion": "CR 7 8 28 Sibaté  Sibate",
+            "direccion": "CR 7 8 28  Sibate",
             "vendedor": "Bucky Santana Vanegas "
         }]
     },
@@ -1596,7 +1624,7 @@
         "id": 901490182,
         "nombre": "SUPERTIENDA MERCA VALLE SUR SAS",
         "sucursales": [{
-            "direccion": "CR 7 24 A 51 Soacha La Amistad Soacha",
+            "direccion": "CR 7 24 A 51 La Amistad Soacha",
             "vendedor": "Bucky Santana Vanegas "
         }]
     },
@@ -1620,7 +1648,7 @@
         "id": 1023010895,
         "nombre": "YENNY PAOLA NOVOA SANTANA",
         "sucursales": [{
-                "direccion": "CR 18 04 B 11 SUR Soacha La Veredita Soacha",
+                "direccion": "CR 18 04 B 11 SUR La Veredita Soacha",
                 "vendedor": "Bucky Santana Vanegas "
             },
             {
@@ -1633,7 +1661,7 @@
         "id": 1023893573,
         "nombre": "JOSE ARMANDO CELIS NOVOA",
         "sucursales": [{
-            "direccion": "CR 7A 7 95 Sibaté  Sibate",
+            "direccion": "CR 7A 7 95  Sibate",
             "vendedor": "Bucky Santana Vanegas "
         }]
     },
@@ -1641,7 +1669,7 @@
         "id": 1073717909,
         "nombre": "MIGUEL ANGEL NOVOA CARRANZA",
         "sucursales": [{
-            "direccion": "CR 6 13 18 Soacha Centro Soacha",
+            "direccion": "CR 6 13 18 Centro Soacha",
             "vendedor": "Bucky Santana Vanegas "
         }]
     },
@@ -1963,7 +1991,7 @@
                 "vendedor": "Claudia Yojana Corredor Gonzalez"
             },
             {
-                "direccion": "TRA 12 C  64   31 SUR La Fiscala ",
+                "direccion": "TRA 12 C 64 31 SUR La Fiscala ",
                 "vendedor": "Claudia Yojana Corredor Gonzalez"
             },
             {
@@ -2138,7 +2166,7 @@
                 "vendedor": "Claudia Yojana Corredor Gonzalez"
             },
             {
-                "direccion": "CL 9 4 54  Silvania   Silvania",
+                "direccion": "CL 9 4 54  Silvania",
                 "vendedor": "Ydiana Maria Sanchez Jimenez"
             }
         ]
@@ -2476,7 +2504,7 @@
                 "vendedor": "Consuelo Muñoz"
             },
             {
-                "direccion": "CL 38 SUR 88 A 14 PATIO BONITO Bogota D.C. Patio Bonito ",
+                "direccion": "CL 38 SUR 88 A 14 Patio Bonito ",
                 "vendedor": "Francy Janeth Huertas Martinez"
             }
         ]
@@ -2565,7 +2593,7 @@
         "id": 900069557,
         "nombre": "INVERSIONES EL MERCADEO SAS",
         "sucursales": [{
-                "direccion": "CR 23 3 48 Madrid Barrio Sociego Madrid",
+                "direccion": "CR 23 3 48 Sociego Madrid",
                 "vendedor": "Consuelo Muñoz"
             },
             {
@@ -2585,7 +2613,7 @@
                 "vendedor": "Consuelo Muñoz"
             },
             {
-                "direccion": "CL 7 2 14 Madrid  Madrid",
+                "direccion": "CL 7 2 14  Madrid",
                 "vendedor": "Consuelo Muñoz"
             },
             {
@@ -2779,6 +2807,30 @@
         "sucursales": [{
             "direccion": "CL 132 D 150 D 23 Suba Lisboa ",
             "vendedor": "Consuelo Muñoz"
+        }]
+    },
+    {
+        "id": 830113748,
+        "nombre": "INVERSIONES JOMAYOSA SAS",
+        "sucursales": [{
+            "direccion": "CL 72 F 112 B 05  Villas del Granada",
+            "vendedor": "David Yedid Ramirez Leguizamon"
+        }]
+    },
+    {
+        "id": 901841597,
+        "nombre": "MERCAPRECIOS SAS",
+        "sucursales": [{
+            "direccion": "CL 70 A BIS 116 B 10  Villa Teresita",
+            "vendedor": "David Yedid Ramirez Leguizamon"
+        }]
+    },
+    {
+        "id": 901841598,
+        "nombre": "MERCAPRECIOS SAS",
+        "sucursales": [{
+            "direccion": "CL 70 A BIS A 116 C 04  Villa Teresita",
+            "vendedor": "David Yedid Ramirez Leguizamon"
         }]
     },
     {
@@ -3005,7 +3057,7 @@
         "id": 800165142,
         "nombre": "MERCADOS FAMILIARES MERCAFAM LTDA",
         "sucursales": [{
-            "direccion": "AV TRONCAL DEL OCCIDENTE 18 76 PARQUE SANTO DOMINGO BOD C1 Mosquera Mosquera",
+            "direccion": "AV TRONCAL DEL OCCIDENTE 18 76 PARQUE SANTO DOMINGO BOD C1  Mosquera",
             "vendedor": "David Yesid Ramirez Leguizamon"
         }]
     },
@@ -3214,7 +3266,7 @@
         "nombre": "ADENAHUER ALVEIRO ROA OVALLE",
         "sucursales": [{
             "direccion": "CR 77 B 116 C 75 IN 2AP 504  Engativa ",
-            "vendedor": "DAVID YESID RAMIREZ LEGUIZAMON"
+            "vendedor": "David Yesid Ramirez Leguizamon"
         }]
     },
     {
@@ -3222,7 +3274,7 @@
         "nombre": "GUILLERMO ANDERSON MARTINEZ LEON",
         "sucursales": [{
             "direccion": "DG 15 B 104 45 BL 1 LC 3 Fontibon ",
-            "vendedor": "DAVID YESID RAMIREZ LEGUIZAMON"
+            "vendedor": "David Yesid Ramirez Leguizamon"
         }]
     },
     {
@@ -3575,7 +3627,7 @@
         "id": 11409417,
         "nombre": "JORGE ADELMO ORTIZ QUEVEDO",
         "sucursales": [{
-            "direccion": "CL 38 SUR 87 37 PATIO BONITO Bogota D.C. Patio Bonito ",
+            "direccion": "CL 38 SUR 87 37 Patio Bonito ",
             "vendedor": "Francy Janeth Huertas Martinez"
         }]
     },
@@ -3619,11 +3671,11 @@
                 "vendedor": "Francy Janeth Huertas Martinez"
             },
             {
-                "direccion": "CR  6 13 42 MADRID   Madrid",
+                "direccion": "CR  6 13 42  Madrid",
                 "vendedor": "Helio Arturo Gamboa Rodriguez"
             },
             {
-                "direccion": "CL 19 1 A 16 Mosquera   Mosquera",
+                "direccion": "CL 19 1 A 16  Mosquera",
                 "vendedor": "Helio Arturo Gamboa Rodriguez"
             }
         ]
@@ -3671,8 +3723,8 @@
         }]
     },
     {
-        "id": 39728492,
-        "nombre": "EMILDA ORTIZ QUEVEDO",
+        "id": 901925510,
+        "nombre": "MERKASUR EOQ SAS",
         "sucursales": [{
             "direccion": "CL 51 88 20 Bosa Brasil ",
             "vendedor": "Francy Janeth Huertas Martinez"
@@ -4044,7 +4096,7 @@
         "nombre": "ALISSON DANIELA CASTILLO SANCHEZ",
         "sucursales": [{
             "direccion": "CL 57 SUR 102 10 Bosa Santafe ",
-            "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
+            "vendedor": "Francy Janeth Huertas Martinez"
         }]
     },
     {
@@ -4052,7 +4104,7 @@
         "nombre": "INGRID JANNETH NIAMPIRA ROJAS",
         "sucursales": [{
             "direccion": "CL 49 88 G 47 SUR  Bosa Brasil ",
-            "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
+            "vendedor": "Francy Janeth Huertas Martinez"
         }]
     },
     {
@@ -4060,7 +4112,7 @@
         "nombre": "PEDRO MIGUEL VIVAS ROJAS",
         "sucursales": [{
             "direccion": "CL 42 A SUR 87 D 12  El Rosario ",
-            "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
+            "vendedor": "Francy Janeth Huertas Martinez"
         }]
     },
     {
@@ -4075,7 +4127,7 @@
         "id": 1003650671,
         "nombre": "JUAN DIEGO CASTILLO RAMOS",
         "sucursales": [{
-            "direccion": "CL 3 5 50 Cachipay   Cachipay",
+            "direccion": "CL 3 5 50  Cachipay",
             "vendedor": "Helio Arturo Gamboa Rodriguez"
         }]
     },
@@ -4091,7 +4143,7 @@
         "id": 1014209468,
         "nombre": "YOHANA ORTIZ GOMEZ",
         "sucursales": [{
-            "direccion": "CL 7 7 82 Bojacá   Bojacá",
+            "direccion": "CL 7 7 82   Bojacá",
             "vendedor": "Helio Arturo Gamboa Rodriguez"
         }]
     },
@@ -4099,11 +4151,11 @@
         "id": 1015426190,
         "nombre": "JOSE JAVIER MOLINA CUESTA",
         "sucursales": [{
-                "direccion": "CL 17 11 B 02 Mosquera   Mosquera",
+                "direccion": "CL 17 11 B 02  Mosquera",
                 "vendedor": "Helio Arturo Gamboa Rodriguez"
             },
             {
-                "direccion": "CL 10 11 22 MOSQUERA  Mosquera",
+                "direccion": "CL 10 11 22  Mosquera",
                 "vendedor": "Helio Arturo Gamboa Rodriguez"
             }
         ]
@@ -4112,11 +4164,11 @@
         "id": 1061624207,
         "nombre": "JOHN FREDY PATIÑO RAMIREZ",
         "sucursales": [{
-                "direccion": "CR 15 5 39 Facatativá  Dos Caminos Facatativá",
+                "direccion": "CR 15 5 39 Dos Caminos Facatativá",
                 "vendedor": "Helio Arturo Gamboa Rodriguez"
             },
             {
-                "direccion": "CR 15 6 24S Facatativá  Dos Caminos Facatativá",
+                "direccion": "CR 15 6 24S Dos Caminos Facatativá",
                 "vendedor": "Helio Arturo Gamboa Rodriguez"
             }
         ]
@@ -4125,7 +4177,7 @@
         "id": 1073158382,
         "nombre": "URIEL ANTONIO CASTELLANOS AVENDAÑO",
         "sucursales": [{
-            "direccion": "CR 5 1B 07  Madrid   Madrid",
+            "direccion": "CR 5 1B 07  Madrid",
             "vendedor": "Helio Arturo Gamboa Rodriguez"
         }]
     },
@@ -4133,7 +4185,7 @@
         "id": 1074616041,
         "nombre": "GUILLERMO ANDRES RUIZ",
         "sucursales": [{
-            "direccion": "CR 4 7 45 Zipacón   Zipacón",
+            "direccion": "CR 4 7 45  Zipacón",
             "vendedor": "Helio Arturo Gamboa Rodriguez"
         }]
     },
@@ -4141,7 +4193,7 @@
         "id": 1077032709,
         "nombre": "CARLOS ORLANDO GARCIA WILCHES",
         "sucursales": [{
-            "direccion": "CR 5 3A 83 Madrid  PUENTE PIEDRA Madrid",
+            "direccion": "CR 5 3A 83 PUENTE PIEDRA Madrid",
             "vendedor": "Helio Arturo Gamboa Rodriguez"
         }]
     },
@@ -4149,7 +4201,7 @@
         "id": 1079232072,
         "nombre": "RABOMIR GONZALEZ ALVARADO",
         "sucursales": [{
-            "direccion": "CL 5 7 15 Supatá   Supatá",
+            "direccion": "CL 5 7 15  Supatá",
             "vendedor": "Helio Arturo Gamboa Rodriguez"
         }]
     },
@@ -4157,7 +4209,7 @@
         "id": 1096957340,
         "nombre": "ANGIE PAOLA SALCEDO GARCIA",
         "sucursales": [{
-            "direccion": "CR 12 9 10  Mosquera  A Recibe De 8Am Mosquera",
+            "direccion": "CR 12 9 10 A Recibe De 8Am Mosquera",
             "vendedor": "Helio Arturo Gamboa Rodriguez"
         }]
     },
@@ -4165,7 +4217,7 @@
         "id": 11435016,
         "nombre": "VICTOR JULIO CASTILLO SIERRA",
         "sucursales": [{
-            "direccion": "CR 1 SUR 21 A 16  Facatativá   Facatativá",
+            "direccion": "CR 1 SUR 21 A 16  Facatativá",
             "vendedor": "Helio Arturo Gamboa Rodriguez"
         }]
     },
@@ -4181,7 +4233,7 @@
         "id": 15940260,
         "nombre": "JORGE IVAN PATIÑO HENAO",
         "sucursales": [{
-            "direccion": "CR 15 5 39 Facatativa Dos Caminos Facatativá",
+            "direccion": "CR 15 5 39 Dos Caminos Facatativá",
             "vendedor": "Helio Arturo Gamboa Rodriguez"
         }]
     },
@@ -4189,7 +4241,7 @@
         "id": 20546970,
         "nombre": "LUZ MERY BARBOSA PEREZ",
         "sucursales": [{
-            "direccion": "CR 13 A 15 A 73  Mosquera  VILLA SAJONIA Mosquera",
+            "direccion": "CR 13 A 15 A 73 VILLA SAJONIA Mosquera",
             "vendedor": "Helio Arturo Gamboa Rodriguez"
         }]
     },
@@ -4197,7 +4249,7 @@
         "id": 21409773,
         "nombre": "LUZ DARY VILLA ORTIZ",
         "sucursales": [{
-            "direccion": "CL 3 5 36 Cachipay   Cachipay",
+            "direccion": "CL 3 5 36  Cachipay",
             "vendedor": "Helio Arturo Gamboa Rodriguez"
         }]
     },
@@ -4205,7 +4257,7 @@
         "id": 3023039,
         "nombre": "JAIME HELI RIVEROS REY",
         "sucursales": [{
-            "direccion": "CR 4 2 50 Subachoque  Subachoque",
+            "direccion": "CR 4 2 50  Subachoque",
             "vendedor": "Helio Arturo Gamboa Rodriguez"
         }]
     },
@@ -4213,7 +4265,7 @@
         "id": 3158710,
         "nombre": "BERNARDO ZAMORA PULIDO",
         "sucursales": [{
-            "direccion": "CL 3 8 11San Francisco   San Francisco",
+            "direccion": "CL 3 8 11  San Francisco",
             "vendedor": "Helio Arturo Gamboa Rodriguez"
         }]
     },
@@ -4221,7 +4273,7 @@
         "id": 38285755,
         "nombre": "BEATRIZ LUNA LIZ",
         "sucursales": [{
-            "direccion": "CL 4 5 16 Supatá   Supatá",
+            "direccion": "CL 4 5 16  Supatá",
             "vendedor": "Helio Arturo Gamboa Rodriguez"
         }]
     },
@@ -4229,7 +4281,7 @@
         "id": 39771009,
         "nombre": "OLGA PEÑUELA CRUZ",
         "sucursales": [{
-            "direccion": "CL 21 1A 120 ESTE Madrid  Madrid",
+            "direccion": "CL 21 1A 120 ESTE  Madrid",
             "vendedor": "Helio Arturo Gamboa Rodriguez"
         }]
     },
@@ -4237,11 +4289,11 @@
         "id": 39794913,
         "nombre": "LUZ MARINA HERRERA CASTILLO",
         "sucursales": [{
-                "direccion": "CL 5  4 24 Nocaima   Nocaima",
+                "direccion": "CL 5  4 24  Nocaima",
                 "vendedor": "Helio Arturo Gamboa Rodriguez"
             },
             {
-                "direccion": "CL 2 9 32 San Francisco   San Francisco",
+                "direccion": "CL 2 9 32  San Francisco",
                 "vendedor": "Helio Arturo Gamboa Rodriguez"
             }
         ]
@@ -4250,7 +4302,7 @@
         "id": 4228833,
         "nombre": "ALIRIO ENRIQUE CASTELLANOS CORTES",
         "sucursales": [{
-            "direccion": "CL 10 6 51 Madrid   Madrid",
+            "direccion": "CL 10 6 51  Madrid",
             "vendedor": "Helio Arturo Gamboa Rodriguez"
         }]
     },
@@ -4258,7 +4310,7 @@
         "id": 51935379,
         "nombre": "SARA MARIA PASTRAN PEÑA",
         "sucursales": [{
-            "direccion": "CL 5 7 15  Supatá   Supatá",
+            "direccion": "CL 5 7 15  Supatá",
             "vendedor": "Helio Arturo Gamboa Rodriguez"
         }]
     },
@@ -4266,7 +4318,7 @@
         "id": 52224851,
         "nombre": "RUBIELA LUNA LIZ",
         "sucursales": [{
-            "direccion": "CL 4  4 60 Supatá   Supatá",
+            "direccion": "CL 4  4 60  Supatá",
             "vendedor": "Helio Arturo Gamboa Rodriguez"
         }]
     },
@@ -4274,7 +4326,7 @@
         "id": 52474659,
         "nombre": "LUZ DARY CASTRO PULIDO",
         "sucursales": [{
-            "direccion": "CL 3 4 36 Anolaima  Anolaima",
+            "direccion": "CL 3 4 36  Anolaima",
             "vendedor": "Helio Arturo Gamboa Rodriguez"
         }]
     },
@@ -4282,7 +4334,7 @@
         "id": 52771721,
         "nombre": "BLANCA NYDIA VARGAS",
         "sucursales": [{
-            "direccion": "CR 5 SUR 2 A 37 Facatativá   Facatativá",
+            "direccion": "CR 5 SUR 2 A 37  Facatativá",
             "vendedor": "Helio Arturo Gamboa Rodriguez"
         }]
     },
@@ -4290,7 +4342,7 @@
         "id": 5608986,
         "nombre": "LUIS ANTONIO LEON CARVAJAL",
         "sucursales": [{
-            "direccion": "CL 17 8 92 MOSQUERA Mosquera Mosquera",
+            "direccion": "CL 17 8 92 Mosquera Mosquera",
             "vendedor": "Helio Arturo Gamboa Rodriguez"
         }]
     },
@@ -4298,7 +4350,7 @@
         "id": 5656994,
         "nombre": "ALFONSO BAUTISTA ORTIZ",
         "sucursales": [{
-            "direccion": "CR 21 1 05  Madrid  Sociego Madrid",
+            "direccion": "CR 21 1 05 Sociego Madrid",
             "vendedor": "Helio Arturo Gamboa Rodriguez"
         }]
     },
@@ -4306,7 +4358,7 @@
         "id": 5751150,
         "nombre": "NELSON CARREÑO ESPINOSA",
         "sucursales": [{
-            "direccion": "CR 4 1 ESTE 08 Facatativá  San Rafael Facatativá",
+            "direccion": "CR 4 1 ESTE 08 San Rafael Facatativá",
             "vendedor": "Helio Arturo Gamboa Rodriguez"
         }]
     },
@@ -4314,7 +4366,7 @@
         "id": 68306167,
         "nombre": "MAURY FABIOLA GONZALEZ SARMIENTO",
         "sucursales": [{
-            "direccion": "CL 15 8 19 Madrid  Estallon Madrid",
+            "direccion": "CL 15 8 19 Estallon Madrid",
             "vendedor": "Helio Arturo Gamboa Rodriguez"
         }]
     },
@@ -4322,7 +4374,7 @@
         "id": 7124662,
         "nombre": "HERNANDO VELANDIA GONZALEZ",
         "sucursales": [{
-            "direccion": "CR 15 8 A 05 Facatativá  Facatativá",
+            "direccion": "CR 15 8 A 05  Facatativá",
             "vendedor": "Helio Arturo Gamboa Rodriguez"
         }]
     },
@@ -4330,7 +4382,7 @@
         "id": 79568938,
         "nombre": "MIGUEL ALFONSO VARGAS FORIGUA",
         "sucursales": [{
-            "direccion": "CL 13 6 B 25 Funza  Serrezuelita Funza",
+            "direccion": "CL 13 6 B 25 Serrezuelita Funza",
             "vendedor": "Helio Arturo Gamboa Rodriguez"
         }]
     },
@@ -4338,7 +4390,7 @@
         "id": 79710830,
         "nombre": "FEDERMAN BELTRAN QUIROGA",
         "sucursales": [{
-            "direccion": "CR 15 A 6 15 MADRID Prado Madrid",
+            "direccion": "CR 15 A 6 15 Prado Madrid",
             "vendedor": "Helio Arturo Gamboa Rodriguez"
         }]
     },
@@ -4354,11 +4406,11 @@
         "id": 800205713,
         "nombre": "INVERSIONES VARGAS OTELO S.A.S",
         "sucursales": [{
-                "direccion": "CL 2 3 02 La Florida  La Florida Anapoima",
+                "direccion": "CL 2 3 02 La Florida Anapoima",
                 "vendedor": "Helio Arturo Gamboa Rodriguez"
             },
             {
-                "direccion": "CR 2 2 66  Anapoima   Anapoima",
+                "direccion": "CR 2 2 66  Anapoima",
                 "vendedor": "Ydiana Maria Sanchez Jimenez"
             }
         ]
@@ -4367,7 +4419,7 @@
         "id": 800252176,
         "nombre": "MERCACENTRO SAS",
         "sucursales": [{
-            "direccion": "CL 7 4 06 Facatativá   Facatativá",
+            "direccion": "CL 7 4 06  Facatativá",
             "vendedor": "Helio Arturo Gamboa Rodriguez"
         }]
     },
@@ -4375,7 +4427,7 @@
         "id": 80120130,
         "nombre": "YUBER YESID RUSSI PAEZ",
         "sucursales": [{
-            "direccion": "CL 19 4 12 Madrid  Madrid",
+            "direccion": "CL 19 4 12  Madrid",
             "vendedor": "Helio Arturo Gamboa Rodriguez"
         }]
     },
@@ -4391,11 +4443,11 @@
         "id": 80365476,
         "nombre": "CERBELION NOVOA ROJAS",
         "sucursales": [{
-                "direccion": "CL 4 TV 9 San Francisco   San Francisco",
+                "direccion": "CL 4 TV 9  San Francisco",
                 "vendedor": "Helio Arturo Gamboa Rodriguez"
             },
             {
-                "direccion": "CR 4 4 44 Supatá   Supatá",
+                "direccion": "CR 4 4 44  Supatá",
                 "vendedor": "Helio Arturo Gamboa Rodriguez"
             }
         ]
@@ -4404,7 +4456,7 @@
         "id": 80863520,
         "nombre": "JHON MAURICIO GARCIA",
         "sucursales": [{
-            "direccion": "CL 21 2D 37 Funza   Funza",
+            "direccion": "CL 21 2D 37  Funza",
             "vendedor": "Helio Arturo Gamboa Rodriguez"
         }]
     },
@@ -4412,7 +4464,7 @@
         "id": 900302546,
         "nombre": "GRUPO FENIX COLOMBIA SAS",
         "sucursales": [{
-            "direccion": "CL 7 7 03 Madrid   Madrid",
+            "direccion": "CL 7 7 03  Madrid",
             "vendedor": "Helio Arturo Gamboa Rodriguez"
         }]
     },
@@ -4428,7 +4480,7 @@
         "id": 901221786,
         "nombre": "MERKANDO EXPRESS RB SAS",
         "sucursales": [{
-            "direccion": "CL 2 A ESTE 7 17 Facatativá   Facatativá",
+            "direccion": "CL 2 A ESTE 7 17  Facatativá",
             "vendedor": "Helio Arturo Gamboa Rodriguez"
         }]
     },
@@ -4436,7 +4488,7 @@
         "id": 901349629,
         "nombre": "INVERSIONES RODMON SAS",
         "sucursales": [{
-            "direccion": "CR 11 12 42 Funza   Funza",
+            "direccion": "CR 11 12 42  Funza",
             "vendedor": "Helio Arturo Gamboa Rodriguez"
         }]
     },
@@ -4444,11 +4496,11 @@
         "id": 901354639,
         "nombre": "INVERSIONES AHORREMAS SAS",
         "sucursales": [{
-                "direccion": "CR 3 5A 12 Cachipay   Cachipay",
+                "direccion": "CR 3 5A 12  Cachipay",
                 "vendedor": "Helio Arturo Gamboa Rodriguez"
             },
             {
-                "direccion": "CR 3 3 41 Cachipay   Cachipay",
+                "direccion": "CR 3 3 41  Cachipay",
                 "vendedor": "Helio Arturo Gamboa Rodriguez"
             }
         ]
@@ -4457,7 +4509,7 @@
         "id": 901413657,
         "nombre": "AUTOSERVICIO GIRARDOT DUQUE SAS",
         "sucursales": [{
-            "direccion": "CL 1 3 52 Facatativá   Facatativá",
+            "direccion": "CL 1 3 52  Facatativá",
             "vendedor": "Helio Arturo Gamboa Rodriguez"
         }]
     },
@@ -4465,11 +4517,11 @@
         "id": 901479509,
         "nombre": "MERCADOS EL SOL SAS",
         "sucursales": [{
-                "direccion": "CR 5 6 12 Facatativá   Facatativá",
+                "direccion": "CR 5 6 12  Facatativá",
                 "vendedor": "Helio Arturo Gamboa Rodriguez"
             },
             {
-                "direccion": "CL 5 4 73  Facatativá   Facatativá",
+                "direccion": "CL 5 4 73  Facatativá",
                 "vendedor": "Helio Arturo Gamboa Rodriguez"
             }
         ]
@@ -4478,7 +4530,7 @@
         "id": 901511815,
         "nombre": "SUPERMERCADOS DMIL FUNZA SAS",
         "sucursales": [{
-            "direccion": "CL 15 12 63 FUNZA  Funza",
+            "direccion": "CL 15 12 63  Funza",
             "vendedor": "Helio Arturo Gamboa Rodriguez"
         }]
     },
@@ -4486,7 +4538,7 @@
         "id": 901583452,
         "nombre": "ROA RAMIREZ   ASOCIADOS SCS",
         "sucursales": [{
-            "direccion": "CR 5 2 37 Anolaima   Anolaima",
+            "direccion": "CR 5 2 37  Anolaima",
             "vendedor": "Helio Arturo Gamboa Rodriguez"
         }]
     },
@@ -4494,7 +4546,7 @@
         "id": 91109237,
         "nombre": "GUSTAVO RUIZ FRANCO",
         "sucursales": [{
-            "direccion": "CR 2 SUR 24 27  Facatativá  Cartagenita Facatativá",
+            "direccion": "CR 2 SUR 24 27  Cartagenita Facatativá",
             "vendedor": "Helio Arturo Gamboa Rodriguez"
         }]
     },
@@ -4502,7 +4554,7 @@
         "id": 91455947,
         "nombre": "EMMANUEL SANTOS GARCIA PATIÑO",
         "sucursales": [{
-            "direccion": "CL 4 8 45 San Francisco  San Francisco",
+            "direccion": "CL 4 8 45  San Francisco",
             "vendedor": "Helio Arturo Gamboa Rodriguez"
         }]
     },
@@ -4510,7 +4562,7 @@
         "id": 93382941,
         "nombre": "RICARDO CADENA BERNAL",
         "sucursales": [{
-            "direccion": "CR 6 13 18  Madrid   Madrid",
+            "direccion": "CR 6 13 18  Madrid",
             "vendedor": "Helio Arturo Gamboa Rodriguez"
         }]
     },
@@ -4534,7 +4586,7 @@
         "id": 7332500,
         "nombre": "JORGE IGNACIO JIMENEZ AMAYA",
         "sucursales": [{
-            "direccion": "DIAGONAL 43 A BIS SUR 7 23 ESTE La Gloria ",
+            "direccion": "DG 43 A BIS SUR 7 23 ESTE La Gloria ",
             "vendedor": "Maria Esther Caballero Benitez"
         }]
     },
@@ -4661,7 +4713,7 @@
         "id": 52741096,
         "nombre": "DIANA YAMIRA GUTIERREZ NOVOA",
         "sucursales": [{
-            "direccion": "CL 37 F NO. 2 A 07 SUR Guacamayas ",
+            "direccion": "CL 37 F 2 A 07 SUR Guacamayas ",
             "vendedor": "Maria Esther Caballero Benitez"
         }]
     },
@@ -4767,7 +4819,7 @@
         "id": 80224222,
         "nombre": "JAVIER PEÑA LANCHEROS",
         "sucursales": [{
-            "direccion": "DIAGONAL 4  7  94 Los Laches ",
+            "direccion": "DG 4  7  94 Los Laches ",
             "vendedor": "Maria Esther Caballero Benitez"
         }]
     },
@@ -5021,7 +5073,7 @@
         "nombre": "GLORIA OFIR MENDOZA LEGUIZAMON",
         "sucursales": [{
             "direccion": "CL 17 SUR 29 A 92  La Fragua ",
-            "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
+            "vendedor": "Maria Esther Caballero Benitez"
         }]
     },
     {
@@ -5029,26 +5081,34 @@
         "nombre": "JOHAN ESTEBAN PEREZ WILCHES",
         "sucursales": [{
             "direccion": "CL 36 B SUR 4 51 ESTE Guacamayas ",
-            "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
+            "vendedor": "Maria Esther Caballero Benitez"
         }]
     },
     {
         "id": 52371206,
         "nombre": "LUZ ALCIRA LOPEZ LOPEZ",
         "sucursales": [{
-            "direccion": "CR 27 14 A 15 SUR  LA FRAGUA La Fragua ",
-            "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
+            "direccion": "CR 27 14 A 15 SUR La Fragua ",
+            "vendedor": "Maria Esther Caballero Benitez"
+        }]
+    },
+    {
+        "id": 1074136176,
+        "nombre": "IVAN CAMILO GUEVARA NIETO",
+        "sucursales": [{
+            "direccion": "CL 13 SUR 11 50 ESTE  San Cristobal Sur",
+            "vendedor": "Maria Esther Caballero Benitez"
         }]
     },
     {
         "id": 1000594691,
         "nombre": "MIGUEL ANGEL PABON GUATAVA",
         "sucursales": [{
-                "direccion": "CL 4 4 06 San Antonio Del Tequendama   San Antonio Del Tequendama",
+                "direccion": "CL 4 4 06  San Antonio Del Tequendama",
                 "vendedor": "Ydiana Maria Sanchez Jimenez"
             },
             {
-                "direccion": "CL 4 2 22 San Antonio Del Tequendama  Pradilla San Antonio Del Tequendama",
+                "direccion": "CL 4 2 22 Pradilla San Antonio Del Tequendama",
                 "vendedor": "Ydiana Maria Sanchez Jimenez"
             }
         ]
@@ -5057,20 +5117,15 @@
         "id": 1001326047,
         "nombre": "HECTOR JAVIER MORA SUSA",
         "sucursales": [{
-                "direccion": "Tocaima   Tocaima",
-                "vendedor": "Ydiana Maria Sanchez Jimenez"
-            },
-            {
-                "direccion": "CR 9 4 58 Tocaima  Centro parque Tocaima",
-                "vendedor": "Ydiana Maria Sanchez Jimenez"
-            }
-        ]
+            "direccion": "CR 9 4 58 Centro parque Tocaima",
+            "vendedor": "Ydiana Maria Sanchez Jimenez"
+        }]
     },
     {
         "id": 1003586831,
         "nombre": "OMAR SNEIDER CLAVIJO VELASQUEZ",
         "sucursales": [{
-            "direccion": "CL 3 2 02 PUENTE QUETAME  Puente Quetame",
+            "direccion": "CL 3 2 02  Puente Quetame",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5078,7 +5133,7 @@
         "id": 1069403428,
         "nombre": "JOHN ALEXANDER RODRIGUEZ GOMEZ",
         "sucursales": [{
-            "direccion": "CL 4 4 18 San Antonio Del Tequendama   San Antonio Del Tequendama",
+            "direccion": "CL 4 4 18  San Antonio Del Tequendama",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5086,15 +5141,15 @@
         "id": 1069727373,
         "nombre": "GISELLA CAROLINA GIL LINARES",
         "sucursales": [{
-                "direccion": "CR 10 7 A 32 Fusagasugá  Fusagasugá",
+                "direccion": "CR 10 7 A 32  Fusagasugá",
                 "vendedor": "Ydiana Maria Sanchez Jimenez"
             },
             {
-                "direccion": "CL 6 7 22 Fusagasugá   Fusagasugá",
+                "direccion": "CL 6 7 22  Fusagasugá",
                 "vendedor": "Ydiana Maria Sanchez Jimenez"
             },
             {
-                "direccion": "CL 10 A 10 02 Fusagasugá  Fusagasugá",
+                "direccion": "CL 10 A 10 02  Fusagasugá",
                 "vendedor": "Ydiana Maria Sanchez Jimenez"
             }
         ]
@@ -5103,7 +5158,7 @@
         "id": 1069733233,
         "nombre": "FABIO ANDERSSON CASTELLANOS MOLINA",
         "sucursales": [{
-            "direccion": "CR 10 8 04  Fusagasugá   Fusagasugá",
+            "direccion": "CR 10 8 04  Fusagasugá",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5111,7 +5166,7 @@
         "id": 1069756670,
         "nombre": "NELLY JOHANA GUTIERREZ MORA",
         "sucursales": [{
-            "direccion": "CR 11 7 A 66 Fusagasugá  Fusagasugá",
+            "direccion": "CR 11 7 A 66  Fusagasugá",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5119,7 +5174,7 @@
         "id": 1072718251,
         "nombre": "OMAR ALIRIO GUTIERREZ ACOSTA",
         "sucursales": [{
-            "direccion": "AV PRINCIPAL 3 26 PUENTE QUETAME Puente Quetame Puente Quetame",
+            "direccion": "AV PRINCIPAL 3 26 Puente Quetame Puente Quetame",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5127,7 +5182,7 @@
         "id": 1074128678,
         "nombre": "GERARDO ALONSO MORENO AYA",
         "sucursales": [{
-            "direccion": "CL 4 3 47 Chipaque   Chipaque",
+            "direccion": "CL 4 3 47  Chipaque",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5135,7 +5190,7 @@
         "id": 1074130156,
         "nombre": "SANDI LUZDEY BETANCOURT CLAVIJO",
         "sucursales": [{
-            "direccion": "AV PRINCIPAL 2 76 PUENTE QUETAME Puente Quetame Puente Quetame",
+            "direccion": "AV PRINCIPAL 2 76 Puente Quetame Puente Quetame",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5143,11 +5198,11 @@
         "id": 1074131630,
         "nombre": "ELIECER ADELMO GUTIERREZ ACOSTA",
         "sucursales": [{
-                "direccion": "CL 2 A 5 53 Caqueza  Caqueza",
+                "direccion": "CL 2 A 5 53  Caqueza",
                 "vendedor": "Ydiana Maria Sanchez Jimenez"
             },
             {
-                "direccion": "CL 2 A 4 53 Caqueza  Caqueza",
+                "direccion": "CL 2 A 4 53  Caqueza",
                 "vendedor": "Ydiana Maria Sanchez Jimenez"
             }
         ]
@@ -5156,7 +5211,7 @@
         "id": 1075628435,
         "nombre": "CARLOS FABIAN RIOS ROJAS",
         "sucursales": [{
-            "direccion": "CR 10 15 62 Viotá   Viotá",
+            "direccion": "CR 10 15 62  Viotá",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5164,15 +5219,15 @@
         "id": 11228957,
         "nombre": "DANIEL ORLANDO MEDINA BALAGUERA",
         "sucursales": [{
-                "direccion": "CR 7 74 128 Flandes   Flandes",
+                "direccion": "CR 7 74 128  Flandes",
                 "vendedor": "Ydiana Maria Sanchez Jimenez"
             },
             {
-                "direccion": "CR 10 26 40Girardot   Girardot",
+                "direccion": "CR 10 26 40  Girardot",
                 "vendedor": "Ydiana Maria Sanchez Jimenez"
             },
             {
-                "direccion": "CR 10 11 27Girardot  San Miguel Girardot",
+                "direccion": "CR 10 11 27 San Miguel Girardot",
                 "vendedor": "Ydiana Maria Sanchez Jimenez"
             }
         ]
@@ -5181,7 +5236,7 @@
         "id": 11411119,
         "nombre": "NELSON AUGUSTO AGUDELO ACOSTA",
         "sucursales": [{
-            "direccion": "CL 4 2 17 Une   Une",
+            "direccion": "CL 4 2 17  Une",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5189,7 +5244,7 @@
         "id": 11413742,
         "nombre": "RODRIGO HERNANDEZ CHINGATE",
         "sucursales": [{
-            "direccion": "CL 3 3 39 Caqueza  Caqueza",
+            "direccion": "CL 3 3 39  Caqueza",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5197,7 +5252,7 @@
         "id": 11450004,
         "nombre": "ANGEL GABRIEL MORENO SILVA",
         "sucursales": [{
-            "direccion": "AV COLOMBIA CL 12  5 21 APULO Apulo Apulo",
+            "direccion": "AV COLOMBIA CL 12  5 21 Apulo Apulo",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5205,7 +5260,7 @@
         "id": 19499365,
         "nombre": "LUIS ALFONSO BUITRAGO",
         "sucursales": [{
-            "direccion": "CLE  12 9 42   Agua De Dios  Agua de Dios Agua de Dios",
+            "direccion": "CLE  12 9 42 Agua de Dios Agua de Dios",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5213,7 +5268,7 @@
         "id": 20491426,
         "nombre": "FLOR MARIA AREVALO RODRIGUEZ",
         "sucursales": [{
-            "direccion": "CL 3 5 10 San Antonio Del Tequendama   San Antonio Del Tequendama",
+            "direccion": "CL 3 5 10  San Antonio Del Tequendama",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5221,7 +5276,7 @@
         "id": 20851645,
         "nombre": "MARLENY AIDEE REY TORRES",
         "sucursales": [{
-            "direccion": "AV PRINCIPAL 2 50 PUENTE QUETAME Puente Quetame Puente Quetame",
+            "direccion": "AV PRINCIPAL 2 50 Puente Quetame Puente Quetame",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5229,7 +5284,7 @@
         "id": 21061902,
         "nombre": "NUBIA JANETH MEDINA GAITAN",
         "sucursales": [{
-            "direccion": "CL 3  4  25 Une   Une",
+            "direccion": "CL 3  4  25  Une",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5237,7 +5292,7 @@
         "id": 28636833,
         "nombre": "AMPARO PEDROZO YARA",
         "sucursales": [{
-            "direccion": "CL 8 16 90 La Mesa   La Mesa",
+            "direccion": "CL 8 16 90  La Mesa",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5245,7 +5300,7 @@
         "id": 2997233,
         "nombre": "NORLEY BASTO VELASQUEZ",
         "sucursales": [{
-            "direccion": "CL 4 3 47 Chipaque   Chipaque",
+            "direccion": "CL 4 3 47  Chipaque",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5253,7 +5308,7 @@
         "id": 3208282,
         "nombre": "JOSE GUSTAVO SUAREZ HUERTAS",
         "sucursales": [{
-            "direccion": "CR 9 3 34   Tocaima   Tocaima",
+            "direccion": "CR 9 3 34  Tocaima",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5261,7 +5316,7 @@
         "id": 3209683,
         "nombre": "NARCISO VILLALOBOS FONSECA",
         "sucursales": [{
-            "direccion": "CL 8 20 38 La Mesa   La Mesa",
+            "direccion": "CL 8 20 38  La Mesa",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5269,7 +5324,7 @@
         "id": 3249833,
         "nombre": "ANDRES ALDANA",
         "sucursales": [{
-            "direccion": "CR 7 6B 05 MESITAS El Colegio   Mesitas del Colegio",
+            "direccion": "CR 7 6B 05  Mesitas del Colegio",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5277,7 +5332,7 @@
         "id": 35251032,
         "nombre": "AURORA RODRIGUEZ PUIN",
         "sucursales": [{
-            "direccion": "CL 7 10 A 19 LC 4  Fusagasugá  Plaza Fusagasugá",
+            "direccion": "CL 7 10 A 19 LC 4 Plaza Fusagasugá",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5285,7 +5340,7 @@
         "id": 35254242,
         "nombre": "MARIA ESTRELLA CABRERA RAMIREZ",
         "sucursales": [{
-            "direccion": "CL 4 A 22 26  La Mesa   La Mesa",
+            "direccion": "CL 4 A 22 26  La Mesa",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5293,7 +5348,7 @@
         "id": 35375254,
         "nombre": "LUZ STELLA TOVAR",
         "sucursales": [{
-            "direccion": "CR 7 2 29 MESITAS El Colegio   Mesitas del Colegio",
+            "direccion": "CR 7 2 29  Mesitas del Colegio",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5301,7 +5356,7 @@
         "id": 37825719,
         "nombre": "ORFIDIA GOMEZ DIAZ",
         "sucursales": [{
-            "direccion": "CR 2 D 23 20  Fusagasugá   Fusagasugá",
+            "direccion": "CR 2 D 23 20  Fusagasugá",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5309,7 +5364,7 @@
         "id": 38246976,
         "nombre": "GLADYS ARDILA POVEDA",
         "sucursales": [{
-            "direccion": "AV 5 2 64  UNE Une Une",
+            "direccion": "AV 5 2 64 Une Une",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5317,7 +5372,7 @@
         "id": 39730932,
         "nombre": "ALCIRA VIZCAINO ORTIZ",
         "sucursales": [{
-            "direccion": "CL 3 3 56 SUR Caqueza   Caqueza",
+            "direccion": "CL 3 3 56 SUR  Caqueza",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5325,7 +5380,7 @@
         "id": 39805276,
         "nombre": "LEONOR VALENZUELA",
         "sucursales": [{
-            "direccion": "CL 4 22 07 La Mesa   La Mesa",
+            "direccion": "CL 4 22 07  La Mesa",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5333,7 +5388,7 @@
         "id": 43676882,
         "nombre": "YDIANA MARIA SANCHEZ JIMENEZ",
         "sucursales": [{
-            "direccion": "TRV 70 C 68 33 SUR Bogotá El Ensueño Bogota D.C.",
+            "direccion": "TRV 70 C 68 33 SUR El Ensueño ",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5341,11 +5396,11 @@
         "id": 51610981,
         "nombre": "LUZ STELLA MENDEZ ROJAS",
         "sucursales": [{
-                "direccion": "PLAZA SATELITE KENEDY LOCAL 10 Girardot  Kennedy Girardot",
+                "direccion": "PLAZA SATELITE KENEDY LOCAL 10 Kennedy Girardot",
                 "vendedor": "Ydiana Maria Sanchez Jimenez"
             },
             {
-                "direccion": "CC EL PEÑON INN PLAZA LOCAL 7 Girardot Girardot Girardot",
+                "direccion": "CC EL PEÑON INN PLAZA LOCAL 7 Girardot Girardot",
                 "vendedor": "Ydiana Maria Sanchez Jimenez"
             }
         ]
@@ -5354,7 +5409,7 @@
         "id": 51793924,
         "nombre": "DANNY PATRICIA CAVANZO FLOREZ",
         "sucursales": [{
-            "direccion": "CR 9 13 39 Agua De Dios   Agua de Dios",
+            "direccion": "CR 9 13 39  Agua de Dios",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5362,7 +5417,7 @@
         "id": 51981616,
         "nombre": "OLGA GUATAVA BARRAGAN",
         "sucursales": [{
-            "direccion": "CR 2 A 11 A 08  Silvania   Silvania",
+            "direccion": "CR 2 A 11 A 08  Silvania",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5370,7 +5425,7 @@
         "id": 52210494,
         "nombre": "SANDRA BIBIANA RODRIGUEZ HUERFANO",
         "sucursales": [{
-            "direccion": "CL 4 4 11 Une   Une",
+            "direccion": "CL 4 4 11  Une",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5378,7 +5433,7 @@
         "id": 52616246,
         "nombre": "GIOANA DEL PILAR GALINDO POVEDA",
         "sucursales": [{
-            "direccion": "PLAZA MERCADO LOCAL 36  La Mesa   La Mesa",
+            "direccion": "PLAZA MERCADO LOCAL 36   La Mesa",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5386,7 +5441,7 @@
         "id": 74280374,
         "nombre": "ANCELMO MAHECHA CUESTA",
         "sucursales": [{
-            "direccion": "CR 2 23A  20  Fusagasugá   Fusagasugá",
+            "direccion": "CR 2 23A 20  Fusagasugá",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5394,7 +5449,7 @@
         "id": 74321460,
         "nombre": "FAUSTO ANTONIO GIL GARCIA",
         "sucursales": [{
-            "direccion": "CR 10 9 22  Fusagasugá   Fusagasugá",
+            "direccion": "CR 10 9 22   Fusagasugá",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5402,7 +5457,7 @@
         "id": 79263633,
         "nombre": "JAIME EDUARDO MARTINEZ CASTILLO",
         "sucursales": [{
-            "direccion": "CR 64 23B 71  Fusagasugá   Fusagasugá",
+            "direccion": "CR 64 23B 71  Fusagasugá",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5410,7 +5465,7 @@
         "id": 79288961,
         "nombre": "EDGAR DUARTE MOLINA",
         "sucursales": [{
-            "direccion": "CR 9  2 67  Tocaima   Tocaima",
+            "direccion": "CR 9  2 67   Tocaima",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5418,7 +5473,7 @@
         "id": 79393812,
         "nombre": "JOHN GUSTAVO MATIZ CASTRO",
         "sucursales": [{
-            "direccion": "CR 7 No. 2 45 MESITAS  Centro Mesitas del Colegio",
+            "direccion": "CR 7 2 45 Centro Mesitas del Colegio",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5426,7 +5481,7 @@
         "id": 79646306,
         "nombre": "CESAR HERNANDO DELGADO ORTIZ",
         "sucursales": [{
-            "direccion": "AV 4 3 36 Caqueza Caqueza Caqueza",
+            "direccion": "AV 4 3 36 Caqueza Caqueza",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5434,7 +5489,7 @@
         "id": 79758621,
         "nombre": "ROOSEVELT CASTELLANOS MORALES",
         "sucursales": [{
-            "direccion": "CR 64 20 17 Fusagasugá  Maiz Amarillo Fusagasugá",
+            "direccion": "CR 64 20 17 Maiz Amarillo Fusagasugá",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5442,7 +5497,7 @@
         "id": 79994181,
         "nombre": "CHRISTIAN GIRARDI CIFUENTES",
         "sucursales": [{
-            "direccion": "CL 4 A 22 49 LC 2 La Mesa   La Mesa",
+            "direccion": "CL 4 A 22 49 LC 2  La Mesa",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5450,7 +5505,7 @@
         "id": 80360709,
         "nombre": "NESTOR HOLGUIN DIAZ",
         "sucursales": [{
-            "direccion": "KM 23.5 VIA MESITAS LA GRAN VIA El Colegio   Mesitas del Colegio",
+            "direccion": "KM 23.5 VIA MESITAS LA GRAN VIA  Mesitas del Colegio",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5458,11 +5513,11 @@
         "id": 80500134,
         "nombre": "WILLIAM RENE ACOSTA LOPEZ",
         "sucursales": [{
-                "direccion": "CL 17 8 15 Fusagasugá Balmoral Fusagasugá",
+                "direccion": "CL 17 8 15 Balmoral Fusagasugá",
                 "vendedor": "Ydiana Maria Sanchez Jimenez"
             },
             {
-                "direccion": "DG 23 B 9 16  Fusagasugá  Manila Fusagasugá",
+                "direccion": "DG 23 B 9 16 Manila Fusagasugá",
                 "vendedor": "Ydiana Maria Sanchez Jimenez"
             }
         ]
@@ -5471,7 +5526,7 @@
         "id": 80501869,
         "nombre": "GEOVANY VARGAS VASQUEZ",
         "sucursales": [{
-            "direccion": "CR 4 4 14  San Antonio Del Tequendama   San Antonio Del Tequendama",
+            "direccion": "CR 4 4 14  San Antonio Del Tequendama",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5479,7 +5534,7 @@
         "id": 80659361,
         "nombre": "JHON CARLOS AVILA BAQUERO",
         "sucursales": [{
-            "direccion": "CR 10 14 72   Viotá   Viotá",
+            "direccion": "CR 10 14 72  Viotá",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5487,7 +5542,7 @@
         "id": 80767726,
         "nombre": "JOHN FREDDY CARRANZA MOJICA",
         "sucursales": [{
-            "direccion": "CL 20 11 26 Viotá  Viotá",
+            "direccion": "CL 20 11 26  Viotá",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5495,7 +5550,7 @@
         "id": 808002857,
         "nombre": "AUTOSERVICIO MITAD DE PRECIO SAS",
         "sucursales": [{
-            "direccion": "CR 8 11 85 BODEGA  Fusagasugá   Fusagasugá",
+            "direccion": "CR 8 11 85 BODEGA  Fusagasugá",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5503,7 +5558,7 @@
         "id": 900415552,
         "nombre": "SUPERMERCADO GUAILAMA SAS",
         "sucursales": [{
-            "direccion": "CR 9 1 39 Tocaima   Tocaima",
+            "direccion": "CR 9 1 39  Tocaima",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5511,7 +5566,7 @@
         "id": 900728213,
         "nombre": "INVERSIONES LA GRAN VIA DE TENA SAS",
         "sucursales": [{
-            "direccion": "CR 2 5 24  Tena   Tena",
+            "direccion": "CR 2 5 24  Tena",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5519,7 +5574,7 @@
         "id": 900734493,
         "nombre": "AUTOSERVICIO MI LLANITO NM SAS",
         "sucursales": [{
-            "direccion": "URB MI LLANITO CASA 46 Tena   Tena",
+            "direccion": "URB MI LLANITO CASA 46  Tena",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5527,7 +5582,7 @@
         "id": 901005247,
         "nombre": "MERKAQUEZA S.A.S.",
         "sucursales": [{
-            "direccion": "CL 2 4  84 Caqueza  Caqueza",
+            "direccion": "CL 2 4  84  Caqueza",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5535,7 +5590,7 @@
         "id": 901242905,
         "nombre": "AHORRACENTRO SAS",
         "sucursales": [{
-            "direccion": "CR 7 6B 28 Mesitas Del Colegia  Mesitas del Colegio",
+            "direccion": "CR 7 6B 28  Mesitas del Colegio",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5543,7 +5598,7 @@
         "id": 901388086,
         "nombre": "SOLUCIONES INTEGRALES EL IMPERIO DEL ASEO SAS",
         "sucursales": [{
-            "direccion": "CL 8 5 49 AV Fusagasugá  Fusagasugá",
+            "direccion": "CL 8 5 49  Fusagasugá",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5551,7 +5606,7 @@
         "id": 901404531,
         "nombre": "SUPERMERCADO DUARTE SAS",
         "sucursales": [{
-            "direccion": "CR 5 13 27 Apulo   Apulo",
+            "direccion": "CR 5 13 27  Apulo",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5559,7 +5614,7 @@
         "id": 901406868,
         "nombre": "AUTOSERVICIO MERKETODO JYC SAS",
         "sucursales": [{
-            "direccion": "CL 10  5 37 Silvania   Silvania",
+            "direccion": "CL 10  5 37  Silvania",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5567,7 +5622,7 @@
         "id": 901444609,
         "nombre": "AUTOSERVICIO EL SHADDAI SAS",
         "sucursales": [{
-            "direccion": "CL 2 6 103 Jerusalen Jerusalén Jerusalén",
+            "direccion": "CL 2 6 103 Jerusalén Jerusalén",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5575,7 +5630,7 @@
         "id": 901524686,
         "nombre": "INVERSIONES YOSAN SAS",
         "sucursales": [{
-            "direccion": "CR 7 4 73 Mesitas del Colegio  Mesitas del Colegio",
+            "direccion": "CR 7 4 73  Mesitas del Colegio",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5583,11 +5638,11 @@
         "id": 901560984,
         "nombre": "AHORRATIENDAS SAS",
         "sucursales": [{
-                "direccion": "CL 5 7 45 Fusagasugá   Fusagasugá",
+                "direccion": "CL 5 7 45  Fusagasugá",
                 "vendedor": "Ydiana Maria Sanchez Jimenez"
             },
             {
-                "direccion": "CR 26 7 71  Melgar  Centro Melgar",
+                "direccion": "CR 26 7 71 Centro Melgar",
                 "vendedor": "Ydiana Maria Sanchez Jimenez"
             }
         ]
@@ -5596,7 +5651,7 @@
         "id": 901684774,
         "nombre": "MACRODESPENSA SAS",
         "sucursales": [{
-            "direccion": "CR 20 3 43 La Mesa   La Mesa",
+            "direccion": "CR 20 3 43  La Mesa",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5604,11 +5659,11 @@
         "id": 901796206,
         "nombre": "LOSMERKAS SAS",
         "sucursales": [{
-                "direccion": "CR 10 9 22  Fusagasugá   Fusagasugá",
+                "direccion": "CR 10 9 22  Fusagasugá",
                 "vendedor": "Ydiana Maria Sanchez Jimenez"
             },
             {
-                "direccion": "CR 2 A 11 A 08  Silvania   Silvania",
+                "direccion": "CR 2 A 11 A 08  Silvania",
                 "vendedor": "Ydiana Maria Sanchez Jimenez"
             }
         ]
@@ -5617,7 +5672,7 @@
         "id": 901815616,
         "nombre": "COMERCIALIZADORA LA EMPERATRIZ Y CIA SAS",
         "sucursales": [{
-            "direccion": "CR 15 03 15  La Mesa   La Mesa",
+            "direccion": "CR 15 03 15  La Mesa",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5625,7 +5680,7 @@
         "id": 901828723,
         "nombre": "SUPERMERCADOS MAXIOFERTAS SAS",
         "sucursales": [{
-            "direccion": "CL 7 6 27 Fusagasugá   Fusagasugá",
+            "direccion": "CL 7 6 27  Fusagasugá",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5633,7 +5688,15 @@
         "id": 91455724,
         "nombre": "JOSE GREGORIO PALACIOS BRAVO",
         "sucursales": [{
-            "direccion": "CL 19 10 12 Viotá  Viotá",
+            "direccion": "CL 19 10 12  Viotá",
+            "vendedor": "Ydiana Maria Sanchez Jimenez"
+        }]
+    },
+    {
+        "id": 901909515,
+        "nombre": "LA CANASTA CAMPESINA M Y N SAS",
+        "sucursales": [{
+            "direccion": "CL 7 16 31 Melgar ",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
     },
@@ -5649,7 +5712,7 @@
         "id": 11408989,
         "nombre": "CARLOS JULIO PUENTES CESPEDES",
         "sucursales": [{
-            "direccion": "CL 2 BIS N 16 34 Eduardo Santos ",
+            "direccion": "CL 2 BIS 16 34 Eduardo Santos ",
             "vendedor": "Yeny Maribel Monroy Patiño"
         }]
     },
@@ -5657,7 +5720,7 @@
         "id": 13616263,
         "nombre": "JOSE GREGORIO HURTADO ACOSTA",
         "sucursales": [{
-            "direccion": "CL 58 K 78 M 03 SUR Bosa Antonio Galan ",
+            "direccion": "CL 58  K 78 M 03 SUR Bosa Antonio Galan ",
             "vendedor": "Yeny Maribel Monroy Patiño"
         }]
     },
@@ -5673,7 +5736,7 @@
         "id": 17076451,
         "nombre": "GABRIEL FINO MENDIETA",
         "sucursales": [{
-                "direccion": "AV 30 5 15 Soacha SAN MATEO Soacha",
+                "direccion": "AV 30 5 15 SAN MATEO Soacha",
                 "vendedor": "Yeny Maribel Monroy Patiño"
             },
             {
@@ -5690,7 +5753,7 @@
         "id": 17077445,
         "nombre": "ADOLFO GUERRERO MONTENEGRO",
         "sucursales": [{
-            "direccion": "BG 4 LC 6 CORABASTOS Corabastos ",
+            "direccion": "BG 4 LC 6 Corabastos ",
             "vendedor": "Yeny Maribel Monroy Patiño"
         }]
     },
@@ -5807,7 +5870,7 @@
         "id": 80463287,
         "nombre": "GRANERO MERKAFACIL",
         "sucursales": [{
-            "direccion": "DIAG 42 A 81 G24 SUR El Amparo ",
+            "direccion": "DG 42 A 81 G24 SUR El Amparo ",
             "vendedor": "Yeny Maribel Monroy Patiño"
         }]
     },
@@ -5903,7 +5966,7 @@
         "id": 901112101,
         "nombre": "DEPOSITO GIRARDOT SUCESORES SAS",
         "sucursales": [{
-            "direccion": "BODEGA 8 LOCAL 7 CORABASTOS Corabastos ",
+            "direccion": "BODEGA 8 LOCAL 7  Corabastos ",
             "vendedor": "Yeny Maribel Monroy Patiño"
         }]
     },
@@ -6060,7 +6123,7 @@
         "id": 79538386,
         "nombre": "ALBEIRO GIRALDO FRANCO",
         "sucursales": [{
-            "direccion": "CL 45 SUR 78 A 04 TIMIZA Timiza ",
+            "direccion": "CL 45 SUR 78 A 04 Timiza ",
             "vendedor": "Yeny Maribel Monroy Patiño"
         }]
     },
@@ -6094,86 +6157,6 @@
         "sucursales": [{
             "direccion": "CR 69 D 1 34 LOCAL 3 La Floresta Sur ",
             "vendedor": "Yeny Maribel Monroy Patiño"
-        }]
-    },
-    {
-        "id": 901909515,
-        "nombre": "LA CANASTA CAMPESINA M Y N SAS",
-        "sucursales": [{
-            "direccion": "CL 7 16 31 Melgar ",
-            "vendedor": "Ydiana Maria Sanchez Jimenez"
-        }]
-    },
-    {
-        "id": 1002646857,
-        "nombre": "KAREN YULIETH CARTILLO PINILLA",
-        "sucursales": [{
-            "direccion": "CR 33 8 112 Zipaquira ",
-            "vendedor": "Ana Sofia Roldan Rique"
-        }]
-    },
-    {
-        "id": 900652829,
-        "nombre": "SOCIEDAD DE MERCADOS WILLIAM CASTELLANOS SAS",
-        "sucursales": [{
-            "direccion": "CL 5 2 B 42 Chiá ",
-            "vendedor": "Ana Sofia Roldan Rique"
-        }]
-    },
-    {
-        "id": 1074136176,
-        "nombre": "IVAN CAMILO GUEVARA NIETO",
-        "sucursales": [{
-            "direccion": "CL 13 SUR 11 50 ESTE  San Cristobal Sur",
-            "vendedor": "Maria Esther Caballero Benitez"
-        }]
-    },
-    {
-        "id": 830113748,
-        "nombre": "INVERSIONES JOMAYOSA SAS",
-        "sucursales": [{
-            "direccion": "CL 72 F 112 B 05  Villas del Granada",
-            "vendedor": "David Yedid Ramirez Leguizamon"
-        }]
-    },
-    {
-        "id": 901841597,
-        "nombre": "MERCAPRECIOS SAS",
-        "sucursales": [{
-            "direccion": "CL 70 A BIS 116 B 10  Villa Teresita",
-            "vendedor": "David Yedid Ramirez Leguizamon"
-        }]
-    },
-    {
-        "id": 901841598,
-        "nombre": "MERCAPRECIOS SAS",
-        "sucursales": [{
-            "direccion": "CL 70 A BIS A 116 C 04  Villa Teresita",
-            "vendedor": "David Yedid Ramirez Leguizamon"
-        }]
-    },
-    {
-        "id": 52227171,
-        "nombre": "ALBA DORIS ESPINDOLA MENDIVELSO",
-        "sucursales": [{
-            "direccion": "CR 17 A 80 32 SUR  San Joaquin",
-            "vendedor": "Berenice Herminda Muñoz Mondragon"
-        }]
-    },
-    {
-        "id": 901925510,
-        "nombre": "MERKASUR EOQ SAS",
-        "sucursales": [{
-            "direccion": "CL 51 88 20 Bosa Brasil ",
-            "vendedor": "Francy Janeth Huertas Martinez"
-        }]
-    },
-    {
-        "id": 1074133386,
-        "nombre": "SANDY CAROLINA PRIETO PEREZ",
-        "sucursales": [{
-            "direccion": "CL 54 SUR 35 80  Tunjuelito",
-            "vendedor": "Berenice Herminda Muñoz MondragonB"
         }]
     }
 ]
