@@ -198,6 +198,13 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         mensaje += `Dirección: *${direccion}*%0A`;
         mensaje += `Vendedor: ${vendedor}%0A%0A`;
         
+        // Obtener el contenido del textarea de observaciones
+        const observacion = document.getElementById('observacion') as HTMLTextAreaElement;
+        if (observacion && observacion.value.trim()) {
+            mensaje += `%0A*Observaciones:*%0A${observacion.value.trim()}%0A%0A`;
+        }
+
+
         mensaje += `*Productos:*%0A`;
         let total = 0;
         
@@ -210,11 +217,6 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         
         mensaje += `*Total del Pedido: ${formatCurrency(total)}*`;
         
-        // Obtener el contenido del textarea de observaciones
-        const observacion = document.getElementById('observacion') as HTMLTextAreaElement;
-        if (observacion && observacion.value.trim()) {
-            mensaje += `%0A*Observaciones:*%0A${observacion.value.trim()}%0A%0A`;
-        }
 
 
         // Número de WhatsApp al que se enviará el mensaje
