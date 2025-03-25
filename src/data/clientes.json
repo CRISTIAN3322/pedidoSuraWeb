@@ -5675,9 +5675,14 @@
         "id": 901815616,
         "nombre": "COMERCIALIZADORA LA EMPERATRIZ Y CIA SAS",
         "sucursales": [{
-            "direccion": "CR 15 03 15  La Mesa",
-            "vendedor": "Ydiana Maria Sanchez Jimenez"
-        }]
+                "direccion": "CR 15 03 15  La Mesa",
+                "vendedor": "Ydiana Maria Sanchez Jimenez"
+            },
+            {
+                "direccion": "CL 6 7 29 Mesitas del Colegio ",
+                "vendedor": "Ydiana Maria Sanchez Jimenez"
+            }
+        ]
     },
     {
         "id": 901828723,
