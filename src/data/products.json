@@ -47,7 +47,7 @@
         "id": 6,
         "codigo": "JAT0001",
         "nombre": "ARITOS SABOR FRUTAS X 1000 GR CJ X 8",
-        "precio": 15740,
+        "precio": 16606,
         "imagen": "../assets/img_catalogo/toning/cereal-aritos-1000.png",
         "barra": 7702622724137,
         "activo": true
@@ -83,7 +83,7 @@
         "id": 10,
         "codigo": "JAT0005",
         "nombre": "AVENA INST FRESA TONING X 180 GR CJ X 24",
-        "precio": 2894,
+        "precio": 3054,
         "imagen": "../assets/img_catalogo/toning/avena-insta-fresa-180.png",
         "barra": 7702622522139,
         "activo": true
@@ -92,7 +92,7 @@
         "id": 11,
         "codigo": "JAT0006",
         "nombre": "AVENA INST MORA TONING X 180 GR CJ X 24",
-        "precio": 2894,
+        "precio": 3054,
         "imagen": "../assets/img_catalogo/toning/avena-insta-mora-180.png",
         "barra": 7702622522016,
         "activo": true
@@ -101,7 +101,7 @@
         "id": 12,
         "codigo": "JAT0007",
         "nombre": "AVENA INST VAINILLA TONING X 180 GR CJ X 24",
-        "precio": 2894,
+        "precio": 3054,
         "imagen": "../assets/img_catalogo/toning/avena-insta-vainilla-180.png",
         "barra": 7702622522023,
         "activo": true
@@ -119,7 +119,7 @@
         "id": 14,
         "codigo": "JAT0009",
         "nombre": "CHOCO CHOC X 1000 GR CJ X 12",
-        "precio": 16104,
+        "precio": 16990,
         "imagen": "../assets/img_catalogo/toning/cereal-choco-choc-1000.png",
         "barra": 7702622724045,
         "activo": true
@@ -128,7 +128,7 @@
         "id": 15,
         "codigo": "JAT0010",
         "nombre": "COLADA 7 GRANOS FRESA X 200 GR PC X 48",
-        "precio": 3519,
+        "precio": 3713,
         "imagen": "../assets/img_catalogo/toning/colada-7-granos-200-fresa.png",
         "barra": 7702622423146,
         "activo": true
@@ -137,7 +137,7 @@
         "id": 16,
         "codigo": "JAT0011",
         "nombre": "COLADA 7 GRANOS NATURAL X 200 GR PC X 48",
-        "precio": 3519,
+        "precio": 3713,
         "imagen": "../assets/img_catalogo/toning/colada-7-granos-200-natural.png",
         "barra": 7702622423139,
         "activo": true
@@ -146,7 +146,7 @@
         "id": 17,
         "codigo": "JAT0012",
         "nombre": "COLADA 7 GRANOS VAINILLA X 200 GR PC X 48",
-        "precio": 3519,
+        "precio": 3713,
         "imagen": "../assets/img_catalogo/toning/colada-7-granos-200-vainilla.png ",
         "barra": 7702622423153,
         "activo": true
@@ -155,7 +155,7 @@
         "id": 18,
         "codigo": "JAT0013",
         "nombre": "FECULA DE PLATANO TONING X 200 GR PC X 48",
-        "precio": 3181,
+        "precio": 3356,
         "imagen": "../assets/img_catalogo/toning/colada-de-platano-200.png ",
         "barra": 7702622422132,
         "activo": true
@@ -164,7 +164,7 @@
         "id": 19,
         "codigo": "JAT0014",
         "nombre": "FORZA ALMENDRAS ORIGINAL POLVO X 200 GR CJ X 12",
-        "precio": 15032,
+        "precio": 15859,
         "imagen": "../assets/img_catalogo/toning/forza-almendra-original-200.png ",
         "barra": 7702622725011,
         "activo": true
@@ -173,7 +173,7 @@
         "id": 20,
         "codigo": "JAT0015",
         "nombre": "FORZA ALMENDRAS VAINILLA POLVO X 200 GR CJ X 12",
-        "precio": 15032,
+        "precio": 15859,
         "imagen": "../assets/img_catalogo/toning/forza-almendra-vainilla-200.png ",
         "barra": 7702622423559,
         "activo": true
@@ -182,7 +182,7 @@
         "id": 21,
         "codigo": "JAT0016",
         "nombre": "FORZA SOYA MUJER POLVO X 200 GR CJ X 12",
-        "precio": 15535,
+        "precio": 16342,
         "imagen": "../assets/img_catalogo/toning/forza-almendra-mujer-200.png ",
         "barra": 7702622627070,
         "activo": true
@@ -191,7 +191,7 @@
         "id": 22,
         "codigo": "JAT0018",
         "nombre": "FECULA DE MAIZ TONING X 200 GR PC X 48",
-        "precio": 3196,
+        "precio": 3372,
         "imagen": "../assets/img_catalogo/toning/fecula-de-maiz-toning-200.png ",
         "barra": 7702622585103,
         "activo": true
@@ -200,7 +200,7 @@
         "id": 23,
         "codigo": "JAT0019",
         "nombre": "GRANOLA TONING X 500 GR CJ X 24",
-        "precio": 7313,
+        "precio": 7715,
         "imagen": "../assets/img_catalogo/toning/granola-500.png ",
         "barra": 7702622226143,
         "activo": true
@@ -209,7 +209,7 @@
         "id": 24,
         "codigo": "JAT0020",
         "nombre": "GUSTARINA NATURAL X 200 GR PC X 48",
-        "precio": 3232,
+        "precio": 3409,
         "imagen": "../assets/img_catalogo/toning/gustarina-200-natural.png",
         "barra": 7702622425102,
         "activo": true
@@ -218,7 +218,7 @@
         "id": 25,
         "codigo": "JAT0021",
         "nombre": "GUSTARINA VAINILLA X 200 GR PC X 48",
-        "precio": 3232,
+        "precio": 3409,
         "imagen": "../assets/img_catalogo/toning/gustarina-200-vainilla.png",
         "barra": 7702622423191,
         "activo": true
@@ -227,7 +227,7 @@
         "id": 26,
         "codigo": "JAT0022",
         "nombre": "HOJUELAS AZUCARADAS X 1000 GR CJ X 12",
-        "precio": 15740,
+        "precio": 16606,
         "imagen": "../assets/img_catalogo/toning/cereal-hojuelas-azucaradas-1000.png",
         "barra": 7702622724151,
         "activo": true
@@ -236,7 +236,7 @@
         "id": 27,
         "codigo": "JAT0023",
         "nombre": "LECHE SOYA NATURAL X 750 GR PC X 12",
-        "precio": 22612,
+        "precio": 23856,
         "imagen": "../assets/img_catalogo/toning/leche-soya-750-natural.png",
         "barra": 7702622629159,
         "activo": true
@@ -245,7 +245,7 @@
         "id": 28,
         "codigo": "JAT0024",
         "nombre": "LECHE SOYA TONING 40 Y TANTOS X 250 GR PC X 48",
-        "precio": 8691,
+        "precio": 9169,
         "imagen": "../assets/img_catalogo/toning/leche-soya-250-40-y-tantos.png",
         "barra": 7702622628060,
         "activo": true
@@ -254,7 +254,7 @@
         "id": 29,
         "codigo": "JAT0025",
         "nombre": "LECHE SOYA TONING MIEL X 250 GR PC X 48",
-        "precio": 8691,
+        "precio": 9169,
         "imagen": "../assets/img_catalogo/toning/leche-soya-250-miel.png",
         "barra": 7702622624116,
         "activo": true
@@ -263,7 +263,7 @@
         "id": 30,
         "codigo": "JAT0026",
         "nombre": "LECHE SOYA TONING NATURAL X 250 GR PC X 48",
-        "precio": 8691,
+        "precio": 9169,
         "imagen": "../assets/img_catalogo/toning/leche-soya-250-natural.png",
         "barra": 7702622624109,
         "activo": true
@@ -272,7 +272,7 @@
         "id": 31,
         "codigo": "JAT0027",
         "nombre": "LECHE SOYA TONING VAINILLA X 250 GR PC X 48",
-        "precio": 8691,
+        "precio": 9169,
         "imagen": "../assets/img_catalogo/toning/leche-soya-250-vainilla.png",
         "barra": 7702622624154,
         "activo": true
@@ -281,7 +281,7 @@
         "id": 32,
         "codigo": "JAT0028",
         "nombre": "LECHE SOYA VAINILLA X 750 GR PC X 12",
-        "precio": 22612,
+        "precio": 23856,
         "imagen": "../assets/img_catalogo/toning/leche-soya-750-vainilla.png",
         "barra": 7702622628008,
         "activo": true
@@ -290,7 +290,7 @@
         "id": 33,
         "codigo": "JAT0029",
         "nombre": "GRANOLA X 200 GR CJ X 24",
-        "precio": 3320,
+        "precio": 3502,
         "imagen": "../assets/img_catalogo/toning/granola-x200.png",
         "barra": 7702622238160,
         "activo": true
@@ -299,7 +299,7 @@
         "id": 34,
         "codigo": "JAT0033",
         "nombre": "SALVADO NATURAL X 450 gr PC X 24 und",
-        "precio": 3834,
+        "precio": 4045,
         "imagen": "../assets/img_catalogo/toning/salvado-450.png",
         "barra": 7702622329127,
         "activo": true
@@ -308,7 +308,7 @@
         "id": 35,
         "codigo": "JAT0034",
         "nombre": "PROTEINA X 250 gr PC X 24 und",
-        "precio": 11366,
+        "precio": 11990,
         "imagen": "../assets/img_catalogo/toning/proteina-250.png",
         "barra": 7702622624031,
         "activo": true
@@ -317,7 +317,7 @@
         "id": 36,
         "codigo": "JAT0037",
         "nombre": "PROTEINA X 500 gr PC X 12 und",
-        "precio": 21673,
+        "precio": 22866,
         "imagen": "../assets/img_catalogo/toning/proteina-500.png",
         "barra": 7702622624093,
         "activo": true
@@ -326,7 +326,7 @@
         "id": 37,
         "codigo": "JAT0039",
         "nombre": "AVENA HOJUELAS VAINILLA ZANARA TARRO X 45 gr CJ X 48 und",
-        "precio": 2600,
+        "precio": 2743,
         "imagen": "../assets/img_catalogo/toning/avena-zanara-tarro-45-vainilla.png",
         "barra": 7702622104489,
         "activo": true
@@ -335,7 +335,7 @@
         "id": 38,
         "codigo": "JAT0040",
         "nombre": "AVENA HOJUELAS MIEL ZANARA TARRO X 45 gr CJ X 48 und",
-        "precio": 2600,
+        "precio": 2743,
         "imagen": "../assets/img_catalogo/toning/avena-zanara-tarro-45-miel.png",
         "barra": 7702622550064,
         "activo": true
@@ -344,7 +344,7 @@
         "id": 39,
         "codigo": "JAT0041",
         "nombre": "AVENA HOJUELAS CANELA ZANARA TARRO X 45 gr CJ X 48 und",
-        "precio": 2600,
+        "precio": 2743,
         "imagen": "../assets/img_catalogo/toning/avena-zanara-tarro-45-canela.png",
         "barra": 7702622884381,
         "activo": true
@@ -353,7 +353,7 @@
         "id": 40,
         "codigo": "JAT0042",
         "nombre": "MEZCLA PARA PANCAKES DE AVENA X 280 GR CJ X 24",
-        "precio": 4421,
+        "precio": 4664,
         "imagen": "../assets/img_catalogo/toning/pancakes-280.png",
         "barra": 7702622678263,
         "activo": true
@@ -362,7 +362,7 @@
         "id": 41,
         "codigo": "JAT0043",
         "nombre": "MEZCLA PARA PANCAKES DE AVENA SIN GLUTEN X 500 GR CJ X 12",
-        "precio": 8188,
+        "precio": 8639,
         "imagen": "../assets/img_catalogo/toning/pancakes-sin-gluten-500.png",
         "barra": 7702622755582,
         "activo": true
@@ -371,7 +371,7 @@
         "id": 42,
         "codigo": "JAT0044",
         "nombre": "MULTIGRANOLA X 1000 gr PC X 12 und",
-        "precio": 15535,
+        "precio": 16390,
         "imagen": "../assets/img_catalogo/toning/multigranola-1000.png",
         "barra": 7702622229151,
         "activo": true
@@ -398,7 +398,7 @@
         "id": 45,
         "codigo": "JAT0053",
         "nombre": "COLADA 7 CEREALES VAINILLA X 1000 gr PC X 12 und",
-        "precio": 15131,
+        "precio": 15963,
         "imagen": "../assets/img_catalogo/toning/colada-7-granos-200-vainilla.png",
         "barra": 7702622429186,
         "activo": true
@@ -407,7 +407,7 @@
         "id": 46,
         "codigo": "JAT0054",
         "nombre": "COLADA 7 CEREALES NATURAL X 1000 gr PC X 12 und",
-        "precio": 15131,
+        "precio": 15963,
         "imagen": "../assets/img_catalogo/toning/colada-7-granos-1000-natural.png",
         "barra": 7702622429124,
         "activo": true
@@ -416,7 +416,7 @@
         "id": 47,
         "codigo": "JAT0057",
         "nombre": "GRANOLA ECONOPACK X 1000 gr CJ X 12 und",
-        "precio": 12303,
+        "precio": 12981,
         "imagen": " ../assets/img_catalogo/toning/granola-1000.png ",
         "barra": 7702622529183,
         "activo": true
@@ -425,7 +425,7 @@
         "id": 48,
         "codigo": "JAT0058",
         "nombre": "CORN FLAKES X 1000 gr CJ X 12 und",
-        "precio": 15740,
+        "precio": 16606,
         "imagen": " ../assets/img_catalogo/toning/cereal-corn-flakes-1000.png ",
         "barra": 7702622100214,
         "activo": true
@@ -497,7 +497,7 @@
         "id": 56,
         "codigo": "JAT0110",
         "nombre": "CHOCOGRANOLA X 900 gr CJ X 12 und",
-        "precio": 16503,
+        "precio": 17423,
         "imagen": " ../assets/img_catalogo/toning/choco-granola-900.png ",
         "barra": 7702622767585,
         "activo": true
@@ -506,7 +506,7 @@
         "id": 57,
         "codigo": "JAT0113",
         "nombre": "FORZA ORIGINAL ECONOPACK POLVO X 400 gr CJ X 12 und",
-        "precio": 24526,
+        "precio": 25875,
         "imagen": " ../assets/img_catalogo/toning/forza-almendra-original-400.png ",
         "barra": 7702622227355,
         "activo": true
@@ -515,7 +515,7 @@
         "id": 58,
         "codigo": "JAT0114",
         "nombre": "FORZA VAINILLA ECONOPACK POLVO X 400 gr CJ X 12 und",
-        "precio": 24526,
+        "precio": 25875,
         "imagen": " ../assets/img_catalogo/toning/forza-almendra-vainilla-400.png ",
         "barra": 7702622225283,
         "activo": true
@@ -524,7 +524,7 @@
         "id": 59,
         "codigo": "JAT0115",
         "nombre": "AVENA TONING X 1000 EXTRA CONTENIDO PACA X 12",
-        "precio": 6434,
+        "precio": 6881,
         "imagen": " ../assets/img_catalogo/toning/avena-hojuelas-1200.png ",
         "barra": 7702622521064,
         "activo": true
@@ -2387,7 +2387,7 @@
         "id": 266,
         "codigo": "JFW0018",
         "nombre": "WHISKY JACK DANIEL´S HONEY",
-        "precio": 108600,
+        "precio": 108816,
         "imagen": " ../assets/img_catalogo/global/jack-daniel-honey.png ",
         "barra": 5099873001370,
         "activo": true
@@ -2441,7 +2441,7 @@
         "id": 272,
         "codigo": "JFW0032",
         "nombre": "TEQUILA JIMADOR BLANCO X 700 ML",
-        "precio": 94168,
+        "precio": 96569,
         "imagen": "../assets/img_catalogo/global/tequila-jimador-silver-x700.png ",
         "barra": 74460704810,
         "activo": true
@@ -3035,7 +3035,7 @@
         "id": 338,
         "codigo": "JLC0037",
         "nombre": "PINOLINA BABY FRESH X 460 *",
-        "precio": 3118,
+        "precio": 2649,
         "imagen": " ../assets/img_catalogo/cofarma/pinolina-baby-fresh-x460.png ",
         "barra": 7702532430807,
         "activo": true
@@ -3044,7 +3044,7 @@
         "id": 339,
         "codigo": "JLC0038",
         "nombre": "PINOLINA BAMBU X 460 *",
-        "precio": 3118,
+        "precio": 2649,
         "imagen": " ../assets/img_catalogo/cofarma/pinolina-bambu-x460.png ",
         "barra": 7702532430852,
         "activo": true
@@ -3655,7 +3655,7 @@
     {
         "id": 407,
         "codigo": "JLT0001",
-        "nombre": "GUANTE  DOMESTICO TALLA 7",
+        "nombre": "GUANTE DOMESTICO TALLA 7",
         "precio": 3577,
         "imagen": "",
         "barra": 7702764022504,
@@ -4324,7 +4324,7 @@
         "nombre": "ARENA FELIGATO VALVULA X 4 KL PC X 6",
         "precio": 11877,
         "imagen": " ../assets/img_catalogo/propets/feligatos-x4kl-valvula.jpg ",
-        "barra": 2222070752520,
+        "barra": "2222070752520 1",
         "activo": true
     },
     {
@@ -4360,7 +4360,7 @@
         "nombre": "ARENA FELIGATO SIN VALVULA  X 4 KL PC X 6",
         "precio": 10487,
         "imagen": " ../assets/img_catalogo/propets/feligato-x4kl.jpg ",
-        "barra": "",
+        "barra": 2222070752520,
         "activo": true
     },
     {

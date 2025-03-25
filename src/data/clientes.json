@@ -6161,5 +6161,13 @@
             "direccion": "CR 69 D 1 34 LOCAL 3 La Floresta Sur ",
             "vendedor": "Yeny Maribel Monroy Patiño"
         }]
+    },
+    {
+        "id": 1136885836,
+        "nombre": "JHON EMERSON ALFONSO GUACHETA",
+        "sucursales": [{
+            "direccion": "CR 109 A 64 D 04 Villas Del Dorado ",
+            "vendedor": "David Yesid Ramirez Leguizamon"
+        }]
     }
 ]
