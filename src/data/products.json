@@ -596,7 +596,7 @@
         "id": 67,
         "codigo": "JAW0001",
         "nombre": "PAÑITOS HUMEDOS FRESQUITOS  X 10 UN PQ X 48 UND *",
-        "precio": 793,
+        "precio": 857,
         "imagen": " ../assets/img_catalogo/atw/freskitos-10.png ",
         "barra": 7709990840643,
         "activo": true
@@ -605,7 +605,7 @@
         "id": 68,
         "codigo": "JAW0002",
         "nombre": "PAÑITOS PEPINO DESMAQUILLADORES X 10 UN PC X 48 DERMODIVA",
-        "precio": 762,
+        "precio": 796,
         "imagen": " ../assets/img_catalogo/atw/dermadiva-pepino.png ",
         "barra": 7709990968538,
         "activo": true
@@ -614,7 +614,7 @@
         "id": 69,
         "codigo": "JAW0003",
         "nombre": "PAÑITOS DESMAQUILLADORES COLAGENO X 10 UN PC X 48",
-        "precio": 763,
+        "precio": 796,
         "imagen": " ../assets/img_catalogo/atw/dermadiva-colageno.png ",
         "barra": 7709990968590,
         "activo": true
@@ -623,7 +623,7 @@
         "id": 70,
         "codigo": "JAW0004",
         "nombre": "PAÑITOS  FRESQUITOS HUMEDOS  PQ X 102 UND *",
-        "precio": 4750,
+        "precio": 5075,
         "imagen": " ../assets/img_catalogo/atw/freskitos-102.png ",
         "barra": 7709990968569,
         "activo": true
@@ -650,7 +650,7 @@
         "id": 73,
         "codigo": "JAW0007",
         "nombre": "ENJUAGUE BUCAL ACTIVMINT MENTA X 300 ML CJ X 15",
-        "precio": 4789,
+        "precio": 4806,
         "imagen": " ../assets/img_catalogo/atw/enjuage-bucal-menta.png ",
         "barra": 7708977668294,
         "activo": true
