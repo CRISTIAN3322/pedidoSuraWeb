@@ -6179,7 +6179,15 @@
         "id": 78581762,
         "nombre": "LUIS FERNANDO ROJAS PINTO",
         "sucursales": [{
-            "direccion": "CL 35 SUR 15 D 11 San Nicolas Soacha ",
+            "direccion": "CL 35 SUR 15B 11 Ciudad Latina Soacha ",
+            "vendedor": "Bucky Santana Vanegas "
+        }]
+    },
+    {
+        "id": 901753562,
+        "nombre": "MORA SUPERMARKET Y LICORERA SAS",
+        "sucursales": [{
+            "direccion": "DG 34 14 0 Rincon de Santafe Soacha",
             "vendedor": "Bucky Santana Vanegas "
         }]
     }
