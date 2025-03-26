@@ -6190,5 +6190,13 @@
             "direccion": "DG 34 14 0 Rincon de Santafe Soacha",
             "vendedor": "Bucky Santana Vanegas "
         }]
+    },
+    {
+        "id": 1032415217,
+        "nombre": "HECTOR FAVIO CHAVEZ VIVEROS",
+        "sucursales": [{
+            "direccion": "CL 56 SUR 13 28 ESTE Tunjuelito ",
+            "vendedor": "Maria Esther Caballero Benitez"
+        }]
     }
 ]
