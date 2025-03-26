@@ -6195,7 +6195,10 @@
         "id": 1032415217,
         "nombre": "HECTOR FAVIO CHAVEZ VIVEROS",
         "sucursales": [{
-            "direccion": "CL 56 SUR 13 28 ESTE Tunjuelito ",
+            "direccion": "CL 56 SUR 13 28 ESTE Libertadores  ",
+            "vendedor": "Maria Esther Caballero Benitez"
+        }, {
+            "direccion": "CR 3 1 28 Triunfo ",
             "vendedor": "Maria Esther Caballero Benitez"
         }]
     }
