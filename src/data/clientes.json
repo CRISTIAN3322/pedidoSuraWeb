@@ -6205,5 +6205,29 @@
             "direccion": "CR 3 1 28 Triunfo ",
             "vendedor": "Maria Esther Caballero Benitez"
         }]
+    },
+    {
+        "id": 901927852,
+        "nombre": "AUTOSERVICIO SURTIHOGAR JO BE SAS",
+        "sucursales": [{
+            "direccion": "CL 24 SUR 1 43 Granada Sur ",
+            "vendedor": "Maria Esther Caballero Benitez"
+        }]
+    },
+    {
+        "id": 52951174,
+        "nombre": "NIDIA JOHANNA CARRILLO ORTIZ",
+        "sucursales": [{
+            "direccion": "CR 47 59 C 27 SUR Tunal ",
+            "vendedor": "Berenice Herminda Muñoz Mondragon"
+        }]
+    },
+    {
+        "id": 80056504,
+        "nombre": "JOHN FREDY RICO RUEDA",
+        "sucursales": [{
+            "direccion": "CL 64 118B 58 Engativa ",
+            "vendedor": "David Yesid Ramirez Leguizamon"
+        }]
     }
 ]
