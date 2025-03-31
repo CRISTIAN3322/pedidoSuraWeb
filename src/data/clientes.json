@@ -6232,5 +6232,13 @@
             "direccion": "CL 64 118B 58 Engativa ",
             "vendedor": "David Yesid Ramirez Leguizamon"
         }]
+    },
+    {
+        "id": 1118559112,
+        "nombre": "CRISTIAN JOSE MOLINA LOMBANA",
+        "sucursales": [{
+            "direccion": "CL 138 153 23 Suba Lisbora ",
+            "vendedor": "Consuelo Muñoz"
+        }]
     }
 ]
