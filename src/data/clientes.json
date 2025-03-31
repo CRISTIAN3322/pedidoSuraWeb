@@ -4601,9 +4601,14 @@
         "id": 11205736,
         "nombre": "EDILSON MUÑOZ URBANO",
         "sucursales": [{
-            "direccion": "DG 32 A SUR 3 06 Villa De Los Alpes ",
-            "vendedor": "Maria Esther Caballero Benitez"
-        }]
+                "direccion": "DG 32 A SUR 3 06 Villa De Los Alpes ",
+                "vendedor": "Maria Esther Caballero Benitez"
+            },
+            {
+                "direccion": "CR 9 E 36 I 25 SUR La Ye  ",
+                "vendedor": "Maria Esther Caballero Benitez"
+            }
+        ]
     },
     {
         "id": 11406189,
@@ -6237,7 +6242,7 @@
         "id": 1118559112,
         "nombre": "CRISTIAN JOSE MOLINA LOMBANA",
         "sucursales": [{
-            "direccion": "CL 138 153 23 Suba Lisbora ",
+            "direccion": "CL 138 153 23 Suba Lisboa ",
             "vendedor": "Consuelo Muñoz"
         }]
     }
