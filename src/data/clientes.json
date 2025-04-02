@@ -6267,5 +6267,13 @@
             "direccion": "CR 69 D 1 34 LOCAL 3 La Floresta Sur ",
             "vendedor": "Yeny Maribel Monroy Patiño"
         }]
+    },
+    {
+        "id": 901925956,
+        "nombre": "SUPERMERCADO MAX MADRID SAS",
+        "sucursales": [{
+            "direccion": "CR 6 13 42  Madrid ",
+            "vendedor": "Helio Arturo Gamboa Rodriguez"
+        }]
     }
 ]
