@@ -6275,5 +6275,13 @@
             "direccion": "CR 6 13 42  Madrid ",
             "vendedor": "Helio Arturo Gamboa Rodriguez"
         }]
+    },
+    {
+        "id": 74242403,
+        "nombre": "LUIS JAVIER FRANCO SAENZ",
+        "sucursales": [{
+            "direccion": "CR 98 A 131 B 18 Suba Gloria Lara ",
+            "vendedor": "Suba Gloria Lara"
+        }]
     }
 ]
