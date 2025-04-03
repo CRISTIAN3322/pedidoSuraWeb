@@ -6291,5 +6291,13 @@
             "direccion": "CL 30 C SUR 2 14 Atenas ",
             "vendedor": "Maria Esther Caballero Benitez"
         }]
+    },
+    {
+        "id": 1024523835,
+        "nombre": "DORIS CENED VASQUEZ GIRALDO",
+        "sucursales": [{
+            "direccion": "CL 56 SUR 3 H 23 Danubio Azul ",
+            "vendedor": "Claudia Yojana Corredor Gonzalez"
+        }]
     }
 ]
