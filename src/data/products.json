@@ -1850,7 +1850,7 @@
         "precio": 26250,
         "imagen": "../assets/img_catalogo/comestibles-italo/enamorados-x145.png",
         "barra": 7702117005628,
-        "activo": true
+        "activo": false
     },
     {
         "id": 207,
