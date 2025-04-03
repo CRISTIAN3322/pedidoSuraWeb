@@ -6283,5 +6283,13 @@
             "direccion": "CR 98 A 131 B 18 Suba Gloria Lara ",
             "vendedor": "Suba Gloria Lara"
         }]
+    },
+    {
+        "id": 1019093998,
+        "nombre": "ANGIE PAOLA URREGO PEÑA",
+        "sucursales": [{
+            "direccion": "CL 30 C SUR 2 14 Atenas ",
+            "vendedor": "Maria Esther Caballero Benitez"
+        }]
     }
 ]
