@@ -6299,5 +6299,13 @@
             "direccion": "CL 56 SUR 3 H 23 Danubio Azul ",
             "vendedor": "Claudia Yojana Corredor Gonzalez"
         }]
+    },
+    {
+        "id": 1056410061,
+        "nombre": "URIEL RICARDO ARIZA FORERO",
+        "sucursales": [{
+            "direccion": "CL 17 8 92  Mosquera ",
+            "vendedor": "Helio Arturo Gamboa Rodriguez"
+        }]
     }
 ]
