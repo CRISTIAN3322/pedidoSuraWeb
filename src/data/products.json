@@ -77,7 +77,7 @@
         "precio": 6434,
         "imagen": "../assets/img_catalogo/toning/avena-hojuelas-1000.png",
         "barra": 7702622529145,
-        "activo": false
+        "activo": true
     },
     {
         "id": 10,
@@ -288,21 +288,21 @@
     },
     {
         "id": 33,
-        "codigo": "JAT0031",
-        "nombre": "AVENA HOJUELA TONING X 1000 GR GRATIS 100 GR PC X 12",
-        "precio": 6468,
-        "imagen": "../assets/img_catalogo/toning/avena-hojuelas-1100.png",
-        "barra": 7702622131577,
-        "activo": true
-    },
-    {
-        "id": 34,
         "codigo": "JAT0029",
         "nombre": "GRANOLA X 200 GR CJ X 24",
         "precio": 3502,
         "imagen": "../assets/img_catalogo/toning/granola-x200.png",
         "barra": 7702622238160,
         "activo": true
+    },
+    {
+        "id": 34,
+        "codigo": "JAT0031",
+        "nombre": "AVENA HOJUELA TONING X 1000 GR GRATIS 100 GR PC X 12",
+        "precio": 6468,
+        "imagen": "../assets/img_catalogo/toning/avena-hojuelas-1100.png",
+        "barra": 7702622131577,
+        "activo": false
     },
     {
         "id": 35,
@@ -1850,7 +1850,7 @@
         "precio": 26250,
         "imagen": "../assets/img_catalogo/comestibles-italo/enamorados-x145.png",
         "barra": 7702117005628,
-        "activo": false
+        "activo": true
     },
     {
         "id": 207,
@@ -2297,7 +2297,7 @@
         "id": 256,
         "codigo": "JFW0002",
         "nombre": "TEQUILA JIMADOR REPOSADO 700",
-        "precio": 97225,
+        "precio": 99803,
         "imagen": " ../assets/img_catalogo/global/tequila-jimador-reposado-x700.png ",
         "barra": 74460704910,
         "activo": true
@@ -2450,7 +2450,7 @@
         "id": 273,
         "codigo": "JFW0023",
         "nombre": "WHISKY JACK DANIEL 'S APPLE",
-        "precio": 100001,
+        "precio": 108802,
         "imagen": "../assets/img_catalogo/global/jack-daniel-apple.png ",
         "barra": 5099873017623,
         "activo": true
@@ -3618,33 +3618,6 @@
     },
     {
         "id": 403,
-        "codigo": "JOF0005",
-        "nombre": "PINOLINA BAMBU X 800 LLEVE 960 ML CJ X 12 *",
-        "precio": 5608,
-        "imagen": " ../assets/img_catalogo/cofarma/pinolina-bambu-oferta-960.png ",
-        "barra": 7702532894692,
-        "activo": true
-    },
-    {
-        "id": 404,
-        "codigo": "JOF0008",
-        "nombre": "PINOLINA CITRONELA X 800 LLEVE 960 ML CJ X 12 *",
-        "precio": 5608,
-        "imagen": " ../assets/img_catalogo/cofarma/pinolina-citronela-oferta-960.png ",
-        "barra": 7702532224482,
-        "activo": false
-    },
-    {
-        "id": 405,
-        "codigo": "JOF0014",
-        "nombre": "PINOLINA GALON LAVANDA GRATIS 1 LITRO",
-        "precio": 13388,
-        "imagen": " ../assets/img_catalogo/cofarma/pinolina-lavanda-oferta-galon.png ",
-        "barra": 8852070203,
-        "activo": true
-    },
-    {
-        "id": 406,
         "codigo": "JLH0001",
         "nombre": "CEBADA PERLADA 500 GR PACA X25",
         "precio": 2244,
@@ -3653,7 +3626,7 @@
         "activo": true
     },
     {
-        "id": 407,
+        "id": 404,
         "codigo": "JLH0002",
         "nombre": "CUCHUCO CEBADA 500 GR PACA X 25 UND",
         "precio": 2244,
@@ -3662,7 +3635,7 @@
         "activo": true
     },
     {
-        "id": 408,
+        "id": 405,
         "codigo": "JLH0003",
         "nombre": "CUCHUCO DE MAIZ 500 GR PACA X 25 UND",
         "precio": 1892,
@@ -3671,7 +3644,7 @@
         "activo": true
     },
     {
-        "id": 409,
+        "id": 406,
         "codigo": "JLH0004",
         "nombre": "CUCHUCO DE TRIGO 500 GR PACA X 25 UND",
         "precio": 1731,
@@ -3680,7 +3653,7 @@
         "activo": true
     },
     {
-        "id": 410,
+        "id": 407,
         "codigo": "JLH0005",
         "nombre": "HARINA DE MAIZ  PINTADO 500 GR PACA X 25 UND",
         "precio": 1707,
@@ -3689,7 +3662,7 @@
         "activo": true
     },
     {
-        "id": 411,
+        "id": 408,
         "codigo": "JLH0006",
         "nombre": "HARINA DE MAIZ AMARILLA X 500 PC X 25",
         "precio": 1318,
@@ -3698,7 +3671,7 @@
         "activo": true
     },
     {
-        "id": 412,
+        "id": 409,
         "codigo": "JLH0007",
         "nombre": "HARINA DE MAIZ BLANCO X 500 GR PC X  25",
         "precio": 1376,
@@ -3707,7 +3680,7 @@
         "activo": true
     },
     {
-        "id": 413,
+        "id": 410,
         "codigo": "JLT0001",
         "nombre": "GUANTE DOMESTICO TALLA 7",
         "precio": 3577,
@@ -3716,7 +3689,7 @@
         "activo": true
     },
     {
-        "id": 414,
+        "id": 411,
         "codigo": "JLT0002",
         "nombre": "GUANTE DOMESTICO TALLA 7 1/2 *",
         "precio": 3577,
@@ -3725,7 +3698,7 @@
         "activo": true
     },
     {
-        "id": 415,
+        "id": 412,
         "codigo": "JLT0003",
         "nombre": "GUANTE DOMESTICO TALLA 8 *",
         "precio": 3577,
@@ -3734,7 +3707,7 @@
         "activo": true
     },
     {
-        "id": 416,
+        "id": 413,
         "codigo": "JLT0004",
         "nombre": "GUANTE DOMESTICO TALLA 8 1/2 *",
         "precio": 3577,
@@ -3743,7 +3716,7 @@
         "activo": true
     },
     {
-        "id": 417,
+        "id": 414,
         "codigo": "JLT0005",
         "nombre": "GUANTE DOMESTICO TALLA 9 *",
         "precio": 3577,
@@ -3752,7 +3725,7 @@
         "activo": true
     },
     {
-        "id": 418,
+        "id": 415,
         "codigo": "JLT0006",
         "nombre": "GUANTE CALIBRE 25 TALLA 7",
         "precio": 3720,
@@ -3761,7 +3734,7 @@
         "activo": true
     },
     {
-        "id": 419,
+        "id": 416,
         "codigo": "JLT0007",
         "nombre": "GUANTE CALIBRE 25 TALLA 7 1/2 *",
         "precio": 3720,
@@ -3770,7 +3743,7 @@
         "activo": true
     },
     {
-        "id": 420,
+        "id": 417,
         "codigo": "JLT0008",
         "nombre": "GUANTE CALIBRE 25 TALLA 8 *",
         "precio": 3720,
@@ -3779,7 +3752,7 @@
         "activo": true
     },
     {
-        "id": 421,
+        "id": 418,
         "codigo": "JLT0009",
         "nombre": "GUANTE CALIBRE 25 TALLA 8 1/2 *",
         "precio": 3720,
@@ -3788,7 +3761,7 @@
         "activo": true
     },
     {
-        "id": 422,
+        "id": 419,
         "codigo": "JLT0010",
         "nombre": "GUANTE CALIBRE 25 TALLA 9 *",
         "precio": 3720,
@@ -3797,7 +3770,7 @@
         "activo": true
     },
     {
-        "id": 423,
+        "id": 420,
         "codigo": "JLT0011",
         "nombre": "GUANTE CALIBRE 35 TALLA 7",
         "precio": 5323,
@@ -3806,7 +3779,7 @@
         "activo": true
     },
     {
-        "id": 424,
+        "id": 421,
         "codigo": "JLT0012",
         "nombre": "GUANTE CALIBRE 35 TALLA 7 1/2 *",
         "precio": 5323,
@@ -3815,7 +3788,7 @@
         "activo": true
     },
     {
-        "id": 425,
+        "id": 422,
         "codigo": "JLT0013",
         "nombre": "GUANTE CALIBRE 35 TALLA 8 *",
         "precio": 5323,
@@ -3824,7 +3797,7 @@
         "activo": true
     },
     {
-        "id": 426,
+        "id": 423,
         "codigo": "JLT0014",
         "nombre": "GUANTE CALIBRE 35 TALLA 8 1/2 *",
         "precio": 5323,
@@ -3833,7 +3806,7 @@
         "activo": true
     },
     {
-        "id": 427,
+        "id": 424,
         "codigo": "JLT0015",
         "nombre": "GUANTE CALIBRE 35 TALLA 9 *",
         "precio": 5323,
@@ -3842,7 +3815,7 @@
         "activo": true
     },
     {
-        "id": 428,
+        "id": 425,
         "codigo": "JMB0001",
         "nombre": "VITACHOCOLATE X 500 GR EN BARRA CJ X 50 UND",
         "precio": 8963,
@@ -3851,7 +3824,7 @@
         "activo": true
     },
     {
-        "id": 429,
+        "id": 426,
         "codigo": "JMB0002",
         "nombre": "VITACHOCOLATE X 250 GR EN BARRA CJ X 50 UND",
         "precio": 4574,
@@ -3860,7 +3833,7 @@
         "activo": true
     },
     {
-        "id": 430,
+        "id": 427,
         "codigo": "JMN0001",
         "nombre": "SAL MI SAL X 500 PC X 25",
         "precio": 850,
@@ -3869,7 +3842,7 @@
         "activo": true
     },
     {
-        "id": 431,
+        "id": 428,
         "codigo": "JMN0002",
         "nombre": "SAL MI SAL  X 1000 PC X 20",
         "precio": 1625,
@@ -3878,7 +3851,7 @@
         "activo": true
     },
     {
-        "id": 432,
+        "id": 429,
         "codigo": "JMN0003",
         "nombre": "JABON BIG BLU CUADRADO X 300 G CJ X 25",
         "precio": 1547,
@@ -3887,7 +3860,7 @@
         "activo": true
     },
     {
-        "id": 433,
+        "id": 430,
         "codigo": "JMN0004",
         "nombre": "JABON BIG BLU CUADRADO X 3 CJ X 16",
         "precio": 4641,
@@ -3896,12 +3869,39 @@
         "activo": true
     },
     {
-        "id": 434,
+        "id": 431,
         "codigo": "JMN0005",
         "nombre": "SAL X 50 KL",
         "precio": 47500,
         "imagen": "../assets/img_catalogo/marchen/mi-sal-50-kilos.png",
         "barra": "",
+        "activo": true
+    },
+    {
+        "id": 432,
+        "codigo": "JOF0005",
+        "nombre": "PINOLINA BAMBU X 800 LLEVE 960 ML CJ X 12 *",
+        "precio": 5608,
+        "imagen": " ../assets/img_catalogo/cofarma/pinolina-bambu-oferta-960.png ",
+        "barra": 7702532894692,
+        "activo": true
+    },
+    {
+        "id": 433,
+        "codigo": "JOF0008",
+        "nombre": "PINOLINA CITRONELA X 800 LLEVE 960 ML CJ X 12 *",
+        "precio": 5608,
+        "imagen": " ../assets/img_catalogo/cofarma/pinolina-citronela-oferta-960.png ",
+        "barra": 7702532224482,
+        "activo": false
+    },
+    {
+        "id": 434,
+        "codigo": "JOF0014",
+        "nombre": "PINOLINA GALON LAVANDA GRATIS 1 LITRO",
+        "precio": 13388,
+        "imagen": " ../assets/img_catalogo/cofarma/pinolina-lavanda-oferta-galon.png ",
+        "barra": 8852070203,
         "activo": true
     },
     {
@@ -4259,7 +4259,7 @@
         "id": 474,
         "codigo": "JPN0029",
         "nombre": "PAPEL ROSAL MAXIMO 4PAQUETES X 12 ROLLOS",
-        "precio": 12001,
+        "precio": 14645,
         "imagen": "",
         "barra": 7702120014105,
         "activo": true
