@@ -1154,9 +1154,14 @@
         "id": 900495748,
         "nombre": "MERCADOGAR SAS",
         "sucursales": [{
-            "direccion": "CL 54 BIS SUR 14A 15 Tunjuelito ",
-            "vendedor": "Berenice Herminda Muñoz Mondragon"
-        }]
+                "direccion": "CL 54 BIS SUR 14A 15 Tunjuelito ",
+                "vendedor": "Berenice Herminda Muñoz Mondragon"
+            },
+            {
+                "direccion": "CL 59 SUR 22 G 12 LC 101 Casa Linda ",
+                "vendedor": "Berenice Herminda Muñoz Mondragon"
+            }
+        ]
     },
     {
         "id": 900603085,
