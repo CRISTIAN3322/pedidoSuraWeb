@@ -77,7 +77,7 @@
         "precio": 6434,
         "imagen": "../assets/img_catalogo/toning/avena-hojuelas-1000.png",
         "barra": 7702622529145,
-        "activo": true
+        "activo": false
     },
     {
         "id": 10,
@@ -302,7 +302,7 @@
         "precio": 6468,
         "imagen": "../assets/img_catalogo/toning/avena-hojuelas-1100.png",
         "barra": 7702622131577,
-        "activo": false
+        "activo": true
     },
     {
         "id": 35,
