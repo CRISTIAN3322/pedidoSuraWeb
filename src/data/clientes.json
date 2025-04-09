@@ -6312,5 +6312,13 @@
             "direccion": "CL 17 8 92  Mosquera ",
             "vendedor": "Helio Arturo Gamboa Rodriguez"
         }]
+    },
+    {
+        "id": 1012451645,
+        "nombre": "LUIS MIGUEL MARTINEZ CHALA",
+        "sucursales": [{
+            "direccion": "CR 71 A 3 12 Bosa La Independencia ",
+            "vendedor": "Francy Janeth Huertas Martinez"
+        }]
     }
 ]
