@@ -6317,8 +6317,13 @@
         "id": 1012451645,
         "nombre": "LUIS MIGUEL MARTINEZ CHALA",
         "sucursales": [{
-            "direccion": "CR 71 A 3 12 Bosa La Independencia ",
-            "vendedor": "Francy Janeth Huertas Martinez"
-        }]
+                "direccion": "CR 71 A 3 12 Nueva Marsella ",
+                "vendedor": "Francy Janeth Huertas Martinez"
+            },
+            {
+                "direccion": "CR 88 C 71 A 59 SUR Bosa La Independecia ",
+                "vendedor": "Francy Janeth Huertas Martinez"
+            }
+        ]
     }
 ]
