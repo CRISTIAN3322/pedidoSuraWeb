@@ -1005,26 +1005,9 @@
         "id": 79452689,
         "nombre": "JUAN CARLOS BECERRA MARTINEZ",
         "sucursales": [{
-                "direccion": "DG 52 CR 27 05 SUR El Carmen ",
-                "vendedor": "Berenice Herminda Muñoz Mondragon"
-            },
-            {
-                "direccion": "DG 51 A 56 B 86 SUR Rincon De Venecia ",
-                "vendedor": "Berenice Herminda Muñoz Mondragon"
-            },
-            {
-                "direccion": "DG 51 A 60 C 86 Rincon De Venecia ",
-                "vendedor": "Berenice Herminda Muñoz Mondragon"
-            },
-            {
-                "direccion": "CL 44 SUR 21 45 Santa Lucia ",
-                "vendedor": "Berenice Herminda Muñoz Mondragon"
-            },
-            {
-                "direccion": "CL 23 D 110 17 Fontibon Versalles ",
-                "vendedor": "David Yesid Ramirez Leguizamon"
-            }
-        ]
+            "direccion": "CL 23 D 110 17 Fontibon Versalles ",
+            "vendedor": "David Yesid Ramirez Leguizamon"
+        }]
     },
     {
         "id": 79486816,
@@ -1253,11 +1236,19 @@
         "id": 901729775,
         "nombre": "MERCAPITAL FULL SAS",
         "sucursales": [{
-                "direccion": "DG 51 A 60 C 51 SUR Rincon De Venecia ",
+                "direccion": "DG 52 CR 27 05 SUR El Carmen ",
                 "vendedor": "Berenice Herminda Muñoz Mondragon"
             },
             {
-                "direccion": "CR 7 A SUR 34 56 San Isidro ",
+                "direccion": "DG 51 A 56 B 86 SUR Rincon De Venecia ",
+                "vendedor": "Berenice Herminda Muñoz Mondragon"
+            },
+            {
+                "direccion": "DG 51 A 60 C 86 Rincon De Venecia ",
+                "vendedor": "Berenice Herminda Muñoz Mondragon"
+            },
+            {
+                "direccion": "CL 44 SUR 21 45 Santa Lucia ",
                 "vendedor": "Berenice Herminda Muñoz Mondragon"
             }
         ]
