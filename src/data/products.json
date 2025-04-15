@@ -2819,7 +2819,7 @@
         "id": 314,
         "codigo": "JLC0002",
         "nombre": "AUTOMATICO + REPUESTO FLORAL CJ X 6",
-        "precio": 28919,
+        "precio": 30365,
         "imagen": " ../assets/img_catalogo/cofarma/automatico-aparato-floral.png ",
         "barra": 7702532462563,
         "activo": true
@@ -2828,7 +2828,7 @@
         "id": 315,
         "codigo": "JLC0003",
         "nombre": "AUTOMATICO + REPUESTO VAINILLA CJ X 6",
-        "precio": 28919,
+        "precio": 30365,
         "imagen": " ../assets/img_catalogo/cofarma/automatico-aparato-vainilla.png ",
         "barra": 7702532911672,
         "activo": true
@@ -2837,7 +2837,7 @@
         "id": 316,
         "codigo": "JLC0004",
         "nombre": "AUTOMATICO REPT FLORAL X 12",
-        "precio": 15270,
+        "precio": 16033,
         "imagen": " ../assets/img_catalogo/cofarma/automatico-repuesta-floral.png ",
         "barra": 7702532372107,
         "activo": true
@@ -2846,7 +2846,7 @@
         "id": 317,
         "codigo": "JLC0005",
         "nombre": "AUTOMATICO REPT VAINILLA X 12",
-        "precio": 15270,
+        "precio": 16033,
         "imagen": " ../assets/img_catalogo/cofarma/automatico-repuesta-vainilla.png ",
         "barra": 7702532372121,
         "activo": true
@@ -2855,7 +2855,7 @@
         "id": 318,
         "codigo": "JLC0006",
         "nombre": "BON BRISA TROPICAL X 250 ML SPRAY CJ X 12",
-        "precio": 4962,
+        "precio": 4495,
         "imagen": " ../assets/img_catalogo/cofarma/bon-aire-brisa-tropical-x250.png ",
         "barra": 7702532370899,
         "activo": true
@@ -2864,7 +2864,7 @@
         "id": 319,
         "codigo": "JLC0007",
         "nombre": "BON FRUTOS ROJOS  X 250 ML SPRAY CJ X 12",
-        "precio": 4962,
+        "precio": 4495,
         "imagen": " ../assets/img_catalogo/cofarma/bon-aire-frutos-rojos-x250.png ",
         "barra": 7702532370882,
         "activo": true
@@ -2954,7 +2954,7 @@
         "id": 329,
         "codigo": "JLC0017",
         "nombre": "ELEC X 1 FRUTOS ROJOS CJ X 12 UND",
-        "precio": 8420,
+        "precio": 8842,
         "imagen": " ../assets/img_catalogo/cofarma/bon-aire-electrico-frutos-rojos-x1.png ",
         "barra": 7702532312448,
         "activo": true
@@ -2963,7 +2963,7 @@
         "id": 330,
         "codigo": "JLC0018",
         "nombre": "ELEC X 1 MANDARINA Y TOROJA CJ X 12",
-        "precio": 8420,
+        "precio": 8842,
         "imagen": " ../assets/img_catalogo/cofarma/bon-aire-electrico-mandarina-y-toronja-x1.png ",
         "barra": 7702532164498,
         "activo": true
@@ -2972,7 +2972,7 @@
         "id": 331,
         "codigo": "JLC0019",
         "nombre": "ELEC X 1 VAINILLA CJ X 12 UND",
-        "precio": 8420,
+        "precio": 8842,
         "imagen": " ../assets/img_catalogo/cofarma/bon-aire-electrico-vainilla-x1.png ",
         "barra": 7702532300117,
         "activo": true
@@ -3053,7 +3053,7 @@
         "id": 340,
         "codigo": "JLC0028",
         "nombre": "BON GEL AGUA DE VERBENA X 170 ML CJ X 12",
-        "precio": 5263,
+        "precio": 5791,
         "imagen": " ../assets/img_catalogo/cofarma/bon-aire-gel-agua-de-verbena-x170.png ",
         "barra": 7702532957922,
         "activo": true
@@ -3062,7 +3062,7 @@
         "id": 341,
         "codigo": "JLC0029",
         "nombre": "BON GEL FRUTAS DEL CARIBE X 170 ML CJ X 12",
-        "precio": 5263,
+        "precio": 5791,
         "imagen": " ../assets/img_catalogo/cofarma/bon-aire-gel-frutas-del-caribe-x170.png ",
         "barra": 7702532992077,
         "activo": true
@@ -3071,7 +3071,7 @@
         "id": 342,
         "codigo": "JLC0030",
         "nombre": "BON GEL FRUTOS ROJOS X 170 ML CJ X 12",
-        "precio": 5263,
+        "precio": 5791,
         "imagen": " ../assets/img_catalogo/cofarma/bon-aire-gel-frutos-rojos-x170.png ",
         "barra": 7702532226530,
         "activo": true
@@ -3080,7 +3080,7 @@
         "id": 343,
         "codigo": "JLC0031",
         "nombre": "GEL FRUTOS ROJOS MORA SILVESTRE X 80 ML CJ X 12",
-        "precio": 3677,
+        "precio": 3787,
         "imagen": " ../assets/img_catalogo/cofarma/bon-aire-frutos-rojos-x80.png ",
         "barra": 7702532447041,
         "activo": true
@@ -3089,7 +3089,7 @@
         "id": 344,
         "codigo": "JLC0032",
         "nombre": "BONAIRE AUTO MADEIRA BRISA TROPICAL X 6 ML",
-        "precio": 11620,
+        "precio": 8680,
         "imagen": " ../assets/img_catalogo/cofarma/bon-aire-madeira-brisa-tropical.png ",
         "barra": 7702532314404,
         "activo": true
@@ -3098,7 +3098,7 @@
         "id": 345,
         "codigo": "JLC0033",
         "nombre": "BONAIRE AUTO MADEIRA VAINILLA X 6 ML",
-        "precio": 11619,
+        "precio": 8680,
         "imagen": " ../assets/img_catalogo/cofarma/bon-aire-madeira-vainilla.png ",
         "barra": 7702532188579,
         "activo": true
@@ -3422,7 +3422,7 @@
         "id": 381,
         "codigo": "JLC0069",
         "nombre": "RAYOL MATATODO X 230 ML CJ X 12",
-        "precio": 7260,
+        "precio": 7623,
         "imagen": " ../assets/img_catalogo/cofarma/rayol-matatodo-x230.png ",
         "barra": 7702532630108,
         "activo": true
@@ -3431,7 +3431,7 @@
         "id": 382,
         "codigo": "JLC0070",
         "nombre": "RAYOL VOLADORES X 230 ML CJ X 12",
-        "precio": 6934,
+        "precio": 7143,
         "imagen": " ../assets/img_catalogo/cofarma/rayol-voladores-x230.png ",
         "barra": 7702532863131,
         "activo": true
@@ -3440,7 +3440,7 @@
         "id": 383,
         "codigo": "JLC0071",
         "nombre": "RAYOL MATATODO X 400 ML CJ X 12",
-        "precio": 12037,
+        "precio": 12639,
         "imagen": " ../assets/img_catalogo/cofarma/rayol-matatodo-x400.png ",
         "barra": 7702532630207,
         "activo": true
@@ -3458,7 +3458,7 @@
         "id": 385,
         "codigo": "JLC0073",
         "nombre": "RAYOL VOLADORES X 400 ML CJ X 12",
-        "precio": 10380,
+        "precio": 10690,
         "imagen": " ../assets/img_catalogo/cofarma/rayol-voladores-x400.png ",
         "barra": 7702532863155,
         "activo": true
@@ -3467,7 +3467,7 @@
         "id": 386,
         "codigo": "JLC0074",
         "nombre": "TERGO GLOP  X 3 LAVANDA CJ X 24",
-        "precio": 12242,
+        "precio": 12853,
         "imagen": " ../assets/img_catalogo/cofarma/tergo-lavanda-x3.png ",
         "barra": 7702532896313,
         "activo": true
@@ -3476,7 +3476,7 @@
         "id": 387,
         "codigo": "JLC0075",
         "nombre": "TERGO GLOP X 3 PINO CJ X 24",
-        "precio": 12242,
+        "precio": 12853,
         "imagen": " ../assets/img_catalogo/cofarma/tergo-pino-x3.png ",
         "barra": 7702532896320,
         "activo": true
@@ -3512,7 +3512,7 @@
         "id": 391,
         "codigo": "JLC0079",
         "nombre": "VARITAS BAMBU X 40 CJ X 12",
-        "precio": 7320,
+        "precio": 7685,
         "imagen": " ../assets/img_catalogo/cofarma/varitas-bambu-x40.png ",
         "barra": 7702532476836,
         "activo": true
@@ -3521,7 +3521,7 @@
         "id": 392,
         "codigo": "JLC0080",
         "nombre": "VARITAS FRUTOS ROJOSX40 ML",
-        "precio": 7320,
+        "precio": 7685,
         "imagen": " ../assets/img_catalogo/cofarma/varitas-frutos-rojos-x40.png ",
         "barra": 7702532312103,
         "activo": true
@@ -3530,7 +3530,7 @@
         "id": 393,
         "codigo": "JLC0081",
         "nombre": "VARITAS MANZANA CANELA X  40 ML",
-        "precio": 5612,
+        "precio": 6005,
         "imagen": " ../assets/img_catalogo/cofarma/varitas-manzana-canala-x40.png ",
         "barra": 7702532312110,
         "activo": true
@@ -3539,7 +3539,7 @@
         "id": 394,
         "codigo": "JLC0082",
         "nombre": "VARITAS VAINILLA X 40 ML",
-        "precio": 7320,
+        "precio": 7685,
         "imagen": " ../assets/img_catalogo/cofarma/varitas-vainilla-x40.png ",
         "barra": 7702532312127,
         "activo": true
@@ -3611,7 +3611,7 @@
         "id": 402,
         "codigo": "JLC0090",
         "nombre": "VARITAS SECAS MORA FRAMBUESA CJ X 12",
-        "precio": 9149,
+        "precio": 9422,
         "imagen": "../assets/img_catalogo/cofarma/varitas-secas-mora-frambuesa.png ",
         "barra": 7702532788250,
         "activo": true
@@ -4349,7 +4349,7 @@
         "id": 484,
         "codigo": "JPO0005",
         "nombre": "MACARRON RIOKA X 250 PC X 24",
-        "precio": 992,
+        "precio": 964,
         "imagen": " ../assets/img_catalogo/precocidos/pasta-macarron-250.jpg ",
         "barra": 7705525095014,
         "activo": true
@@ -4358,7 +4358,7 @@
         "id": 485,
         "codigo": "JPO0006",
         "nombre": "FIDEOS RIOKA X 250 PC X 24",
-        "precio": 992,
+        "precio": 964,
         "imagen": " ../assets/img_catalogo/precocidos/pasta-fideos-250.jpg ",
         "barra": 7705525093072,
         "activo": true
@@ -4367,7 +4367,7 @@
         "id": 486,
         "codigo": "JPO0007",
         "nombre": "CONCHAS RIOKA X 250 PC X 24",
-        "precio": 992,
+        "precio": 964,
         "imagen": " ../assets/img_catalogo/precocidos/psta-conchas-250.jpg ",
         "barra": 7707525092013,
         "activo": true
@@ -4376,7 +4376,7 @@
         "id": 487,
         "codigo": "JPO0008",
         "nombre": "SPAGUETTI RIOKA X 1000 PC X 12",
-        "precio": 3870,
+        "precio": 3775,
         "imagen": " ../assets/img_catalogo/precocidos/pasta-espaguetti-1000.jpg ",
         "barra": 770705525091054,
         "activo": true
@@ -4385,7 +4385,7 @@
         "id": 488,
         "codigo": "JPO0009",
         "nombre": "SPAGUETTI RIOKA X 250 PC X 24",
-        "precio": 992,
+        "precio": 964,
         "imagen": " ../assets/img_catalogo/precocidos/pasta-espaguetti-250.jpg ",
         "barra": 77070525091016,
         "activo": true
@@ -4394,7 +4394,7 @@
         "id": 489,
         "codigo": "JPO0010",
         "nombre": "FIDEOS RIOKA X 1000 PC X 6",
-        "precio": 3870,
+        "precio": 3775,
         "imagen": " ../assets/img_catalogo/precocidos/pasta-fideos-1000.jpg ",
         "barra": 770705525093089,
         "activo": true
@@ -4403,7 +4403,7 @@
         "id": 490,
         "codigo": "JPO0011",
         "nombre": "CONCHAS RIOKA X 1000 PC X 6",
-        "precio": 3870,
+        "precio": 3775,
         "imagen": " ../assets/img_catalogo/precocidos/pasta-conchas-1000.jpg ",
         "barra": 7705525092037,
         "activo": true
@@ -4412,7 +4412,7 @@
         "id": 491,
         "codigo": "JPO0012",
         "nombre": "MACARRON X 1000 PC X 6",
-        "precio": 3870,
+        "precio": 3775,
         "imagen": " ../assets/img_catalogo/precocidos/pasta-macarron-1000.jpg ",
         "barra": 770552509354,
         "activo": true
@@ -4617,6 +4617,33 @@
     },
     {
         "id": 514,
+        "codigo": "JSA0001",
+        "nombre": "PIÑA COLADA MAUI X 700 ML CJ X 12",
+        "precio": 30965,
+        "imagen": " ../assets/img_catalogo/sabajon-apolo/pina-colada-maui.png",
+        "barra": 7702534200026,
+        "activo": true
+    },
+    {
+        "id": 515,
+        "codigo": "JSA0002",
+        "nombre": "SABAJON APOLO SABOR A BRANDY X 700 ML CJ X 12",
+        "precio": 31201,
+        "imagen": " ../assets/img_catalogo/sabajon-apolo/sabajon-apolo-brandy.png",
+        "barra": 7702534100029,
+        "activo": true
+    },
+    {
+        "id": 516,
+        "codigo": "JSA0003",
+        "nombre": "SABAJON APOLO SABOR A VAINILLA X 700 ML CJ X 12",
+        "precio": 30783,
+        "imagen": " ../assets/img_catalogo/sabajon-apolo/sabajon-apolo-vainilla.png",
+        "barra": 770253410012,
+        "activo": true
+    },
+    {
+        "id": 517,
         "codigo": "JVN0001",
         "nombre": "GELATINA FRUT DAY X 250 CJ X  50",
         "precio": 4495,
@@ -4625,7 +4652,7 @@
         "activo": true
     },
     {
-        "id": 515,
+        "id": 518,
         "codigo": "JVN0002",
         "nombre": "GELATINA FRUT DAY X 500 CJ X 50",
         "precio": 8988,
@@ -4634,7 +4661,7 @@
         "activo": true
     },
     {
-        "id": 516,
+        "id": 519,
         "codigo": "JVN0003",
         "nombre": "GELATINA FRUT DAY X 1000 CJ  X 25",
         "precio": 17977,
@@ -4643,7 +4670,7 @@
         "activo": true
     },
     {
-        "id": 517,
+        "id": 520,
         "codigo": "JVN0004",
         "nombre": "GELATINA FRUT DAY X 105 GR 3 SABORES CJ X 32",
         "precio": 3334,
