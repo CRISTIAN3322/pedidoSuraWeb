@@ -4145,9 +4145,14 @@
         "id": 1110467835,
         "nombre": "CESAR EDUARDO DIAZ ORTIZ",
         "sucursales": [{
-            "direccion": "CL 59 90 B 22 SUR Bosa La Cabaña ",
-            "vendedor": "Francy Janeth Huertas Martinez"
-        }]
+                "direccion": "CL 59 90 B 22 SUR Bosa La Cabaña ",
+                "vendedor": "Francy Janeth Huertas Martinez"
+            },
+            {
+                "direccion": "CR 86 D 51 B SUR 93 Chicala ",
+                "vendedor": "Francy Janeth Huertas Martinez"
+            }
+        ]
     },
     {
         "id": 1110468157,
