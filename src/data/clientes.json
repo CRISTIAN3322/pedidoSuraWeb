@@ -6321,5 +6321,13 @@
                 "vendedor": "Francy Janeth Huertas Martinez"
             }
         ]
+    },
+    {
+        "id": 1083884466,
+        "nombre": "DIANA MARCELA SALAZAR CAMARGO",
+        "sucursales": [{
+            "direccion": "VEREDA EL VERGANZO Tocancipá ",
+            "vendedor": "Ana Sofia Roldan Rique"
+        }]
     }
 ]
