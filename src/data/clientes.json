@@ -1562,9 +1562,14 @@
         "id": 830055634,
         "nombre": "M C CONSTRUCTORES   CONSULTORES S.A.S",
         "sucursales": [{
-            "direccion": "CR 36 17 293 Ciudad Verde CJ Nardo 2 Soacha",
-            "vendedor": "Bucky Santana Vanegas "
-        }]
+                "direccion": "CR 36 17 293 Ciudad Verde CJ Nardo 2 Soacha",
+                "vendedor": "Bucky Santana Vanegas "
+            },
+            {
+                "direccion": "CR 7 12 A 21 Sibaté ",
+                "vendedor": "Bucky Santana Vanegas "
+            }
+        ]
     },
     {
         "id": 900505033,
