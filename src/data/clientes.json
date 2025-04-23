@@ -6334,5 +6334,13 @@
             "direccion": "VEREDA EL VERGANZO Tocancipá ",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
+    },
+    {
+        "id": 80804414,
+        "nombre": "MARTIN EMILIO LAITON PAEZ",
+        "sucursales": [{
+            "direccion": "CL 9 11 50 Funza ",
+            "vendedor": "Helio Arturo Gamboa Rodriguez"
+        }]
     }
 ]
