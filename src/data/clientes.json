@@ -6347,5 +6347,13 @@
             "direccion": "CL 9 11 50 Funza ",
             "vendedor": "Helio Arturo Gamboa Rodriguez"
         }]
+    },
+    {
+        "id": 1069584478,
+        "nombre": "JULIAN DARIO LEON CORREA",
+        "sucursales": [{
+            "direccion": "VDA PETALUMA  Cachipay",
+            "vendedor": "Helio Arturo Gamboa Rodriguez"
+        }]
     }
 ]
