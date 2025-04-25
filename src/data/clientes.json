@@ -6355,5 +6355,13 @@
             "direccion": "VDA PETALUMA  Cachipay",
             "vendedor": "Helio Arturo Gamboa Rodriguez"
         }]
+    },
+    {
+        "id": 900310881,
+        "nombre": "JDISTRIBUIDORA SURTIORIENTE JR S A S",
+        "sucursales": [{
+            "direccion": "CL 40 SUR 3 D 05 ESTE La Victoria ",
+            "vendedor": "Maria Esther Caballero Benitez"
+        }]
     }
 ]
