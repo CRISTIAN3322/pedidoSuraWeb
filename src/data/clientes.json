@@ -6358,10 +6358,26 @@
     },
     {
         "id": 900310881,
-        "nombre": "JDISTRIBUIDORA SURTIORIENTE JR S A S",
+        "nombre": "DISTRIBUIDORA SURTIORIENTE JR S A S",
         "sucursales": [{
             "direccion": "CL 40 SUR 3 D 05 ESTE La Victoria ",
             "vendedor": "Maria Esther Caballero Benitez"
+        }]
+    },
+    {
+        "id": 901706517,
+        "nombre": "GRUPO LEFRADE SAS",
+        "sucursales": [{
+            "direccion": "CL 8 SUR 35 36 Puente Aranda ",
+            "vendedor": "Yeny Maribel Monroy Patiño"
+        }]
+    },
+    {
+        "id": 900100796,
+        "nombre": "COMERCIAL DE VIVERES SAN ANDRES SAS",
+        "sucursales": [{
+            "direccion": "AV CR 80 2 51 BG 4 LC 1 Corabastos ",
+            "vendedor": "Yeny Maribel Monroy Patiño"
         }]
     }
 ]
