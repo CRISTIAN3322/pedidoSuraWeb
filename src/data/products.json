@@ -734,7 +734,7 @@
         "precio": 4076,
         "imagen": " ../assets/img_catalogo/bellini/tuffy-x500.png ",
         "barra": 7707205150648,
-        "activo": false
+        "activo": true
     },
     {
         "id": 83,
