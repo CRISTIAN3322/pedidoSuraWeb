@@ -6379,5 +6379,16 @@
             "direccion": "AV CR 80 2 51 BG 4 LC 1 Corabastos ",
             "vendedor": "Yeny Maribel Monroy Patiño"
         }]
+    },
+    {
+        "id": 79399876,
+        "nombre": "MODESTO ORJUELA CALDERON",
+        "sucursales": [{
+            "direccion": "CR 10 11 18   Zipaquirá",
+            "vendedor": "Ana Sofia Roldan Rique"
+        }, {
+            "direccion": "CR 10 10 35   Zipaquirá",
+            "vendedor": "Ana Sofia Roldan Rique"
+        }]
     }
 ]
