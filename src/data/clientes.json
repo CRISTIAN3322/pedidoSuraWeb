@@ -6390,5 +6390,16 @@
             "direccion": "CR 10 10 35   Zipaquirá",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
+    },
+    {
+        "id": 79753340,
+        "nombre": "JOSE ALIRIO TRIANA GARCIA",
+        "sucursales": [{
+            "direccion": "CR 77 R 51 A 89 SUR Catalina ",
+            "vendedor": "Yeny Maribel Monroy Patiño"
+        }, {
+            "direccion": "CL 56 A 78 N 41 SUR Barrios Unidos ",
+            "vendedor": "Yeny Maribel Monroy Patiño"
+        }]
     }
 ]
