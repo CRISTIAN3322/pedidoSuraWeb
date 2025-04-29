@@ -6401,5 +6401,13 @@
             "direccion": "CL 56 A 78 N 41 SUR Barrios Unidos ",
             "vendedor": "Yeny Maribel Monroy Patiño"
         }]
+    },
+    {
+        "id": 82391916,
+        "nombre": "EDWAR FABRICIO TORRES CARDONA",
+        "sucursales": [{
+            "direccion": "CR 13 7 32  Fusagasugá",
+            "vendedor": "Ydiana Maria Sanchez Jimenez"
+        }]
     }
 ]
