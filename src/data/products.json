@@ -968,7 +968,7 @@
         "precio": 12878,
         "imagen": " ../assets/img_catalogo/congrupo/botilito-3-palomitas.png ",
         "barra": 7702807995093,
-        "activo": false
+        "activo": true
     },
     {
         "id": 109,
