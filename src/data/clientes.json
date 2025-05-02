@@ -6409,5 +6409,13 @@
             "direccion": "CR 13 7 32  Fusagasugá",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
+    },
+    {
+        "id": 24133739,
+        "nombre": "EDELVINA BURGOS REYES",
+        "sucursales": [{
+            "direccion": "CR 121 69 A 09 Engativa ",
+            "vendedor": "David Yesid Ramirez Leguizamon"
+        }]
     }
 ]
