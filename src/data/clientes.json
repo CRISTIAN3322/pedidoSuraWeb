@@ -6436,5 +6436,13 @@
             "direccion": "CL 45 SUR 72 J 14 Boita ",
             "vendedor": "Yeny Maribel Monroy Patiño"
         }]
+    },
+    {
+        "id": 79331033,
+        "nombre": "WILSON BECERRA JARAMILLO",
+        "sucursales": [{
+            "direccion": "CR 12 B 52 80 Policarpa ",
+            "vendedor": "Berenice Herminda Muñoz Mondragon"
+        }]
     }
 ]
