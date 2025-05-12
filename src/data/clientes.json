@@ -6444,5 +6444,13 @@
             "direccion": "CR 12 B 52 80 Tunjuelito ",
             "vendedor": "Berenice Herminda Muñoz Mondragon"
         }]
+    },
+    {
+        "id": 57650904,
+        "nombre": "LUIS CARLOS ARDILA RINCON",
+        "sucursales": [{
+            "direccion": "CL 138 150 B 05 Suba Lisboa ",
+            "vendedor": "Consuelo Muñoz"
+        }]
     }
 ]
