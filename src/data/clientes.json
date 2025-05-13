@@ -933,6 +933,10 @@
             {
                 "direccion": "CR 19D 66 61 SUR San Francisco ",
                 "vendedor": "Berenice Herminda Muñoz Mondragon"
+            },
+            {
+                "direccion": "CL 64 26 04 SUR  La Candelaria  ",
+                "vendedor": "Berenice Herminda Muñoz Mondragon"
             }
         ]
     },
@@ -6451,6 +6455,14 @@
         "sucursales": [{
             "direccion": "CL 138 150 B 05 Suba Lisboa ",
             "vendedor": "Consuelo Muñoz"
+        }]
+    },
+    {
+        "id": 901059741,
+        "nombre": "AUTOSERVICIO SUPER MAX SAS",
+        "sucursales": [{
+            "direccion": "CL 163 A 8 D 73 San Cristobal Norte ",
+            "vendedor": "Diana Marcela Bermudez Serrano"
         }]
     }
 ]
