@@ -6464,5 +6464,13 @@
             "direccion": "CL 163 A 8 D 73 San Cristobal Norte ",
             "vendedor": "Diana Marcela Bermudez Serrano"
         }]
+    },
+    {
+        "id": 901388396,
+        "nombre": "BODEGA AGRO SAN JOSE SAS",
+        "sucursales": [{
+            "direccion": "CR 4 7 85  La Calera ",
+            "vendedor": "Ana Sofia Roldan Rique"
+        }]
     }
 ]
