@@ -32,7 +32,7 @@
         "precio": 5874,
         "imagen": "../assets/img_catalogo/alumina/papel-alumina-16.png",
         "barra": 7702110440242,
-        "activo": false
+        "activo": true
     },
     {
         "id": 5,
