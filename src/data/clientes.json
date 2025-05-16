@@ -6472,5 +6472,13 @@
             "direccion": "CR 4 7 85  La Calera ",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
+    },
+    {
+        "id": 13761189,
+        "nombre": "EVER ALONSO RUIZ GARAVITO",
+        "sucursales": [{
+            "direccion": "CL 81 116 A 36 LC 103 El Cortijo ",
+            "vendedor": "Consuelo Muñoz"
+        }]
     }
 ]
