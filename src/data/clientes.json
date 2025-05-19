@@ -6480,5 +6480,13 @@
             "direccion": "CL 81 116 A 36 LC 103 El Cortijo ",
             "vendedor": "Consuelo Muñoz"
         }]
+    },
+    {
+        "id": 79726717,
+        "nombre": "JOHN FREDY VIVAS ZAMORA",
+        "sucursales": [{
+            "direccion": "CR 79 SUR 44 50 Casa Linda ",
+            "vendedor": "Yeny Maribel Monroy Patiño"
+        }]
     }
 ]
