@@ -6488,5 +6488,13 @@
             "direccion": "CR 79 SUR 44 50 Casa Linda ",
             "vendedor": "Yeny Maribel Monroy Patiño"
         }]
+    },
+    {
+        "id": 1024536333,
+        "nombre": "DAVID ANDRES GOMEZ CORREDOR",
+        "sucursales": [{
+            "direccion": "CL 108 SUR 7 C 21 Puerta al Llano ",
+            "vendedor": "Claudia Yojana Corredor Gonzalez"
+        }]
     }
 ]
