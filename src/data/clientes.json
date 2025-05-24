@@ -6496,5 +6496,13 @@
             "direccion": "CL 108 SUR 7 C 21 Puerta al Llano ",
             "vendedor": "Claudia Yojana Corredor Gonzalez"
         }]
+    },
+    {
+        "id": 1030559175,
+        "nombre": "JUAN MAURICIO PABON MORA",
+        "sucursales": [{
+            "direccion": "CL 79 BIS B S 18 J 03 El Tesoro ",
+            "vendedor": "Berenice Herminda Muñoz Mondragon"
+        }]
     }
 ]
