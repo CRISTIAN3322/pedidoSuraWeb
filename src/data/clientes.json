@@ -5949,9 +5949,14 @@
         "id": 91455724,
         "nombre": "JOSE GREGORIO PALACIOS BRAVO",
         "sucursales": [{
-            "direccion": "CL 19 10 12  Viotá",
-            "vendedor": "Ydiana Maria Sanchez Jimenez"
-        }]
+                "direccion": "CL 19 10 12  Viotá ",
+                "vendedor": "Ydiana Maria Sanchez Jimenez"
+            },
+            {
+                "direccion": "CL 19 10 12 Viotá ",
+                "vendedor": "Ydiana Maria Sanchez Jimenez"
+            }
+        ]
     },
     {
         "id": 4090430,
