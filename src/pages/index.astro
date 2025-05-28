@@ -12,8 +12,9 @@ import '../styles/global.css';
 <body>
     <header>
         <h1> Productos </h1>
-        <h3>Actualizado: 27 de mayo del 2025</h3>
+        <h3>Actualizado: 28 de mayo del 2025</h3>
         <a class="btn-secondary" href="/carrito">Carrito </a>
+        <a class="btn-primary" href="/principal">Cliente </a>
     </header>
     <ProductosSelector/>    
 </body>
@@ -22,6 +23,21 @@ import '../styles/global.css';
 <style>
     header {
         text-align: center;
+    }
+    .btn-primary {
+        text-align: center;
+        border: none;
+        padding: 0.75rem 1.5rem;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: background-color 0.2s;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    .btn-primary {
+        background-color: #73f806;
+        color: white;
     }
 
       .btn-secondary {
