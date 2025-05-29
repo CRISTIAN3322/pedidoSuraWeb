@@ -1,4 +1,5 @@
-[{
+[
+    {
         "id": 1,
         "codigo": "JAL0001",
         "nombre": "PAPEL ALUMINIO ALUMIFLEX X 7 MTS CJ X 24 - 1000037",
@@ -1595,7 +1596,7 @@
         "id": 178,
         "codigo": "JCI0069",
         "nombre": "PIKIS MONEDAS CJ X 40",
-        "precio": 10086,
+        "precio": 8676,
         "imagen": " ../assets/img_catalogo/comestibles-italo/pikis-monedas.png ",
         "barra": 7700117018581,
         "activo": true
