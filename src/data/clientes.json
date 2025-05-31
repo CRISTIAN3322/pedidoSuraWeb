@@ -6509,5 +6509,13 @@
             "direccion": "CL 79 BIS B S 18 J 03 El Tesoro ",
             "vendedor": "Berenice Herminda Muñoz Mondragon"
         }]
+    },
+    {
+        "id": 900216757,
+        "nombre": "DISTRIBUIDORS Y REPRESENTACIONES J F E U",
+        "sucursales": [{
+            "direccion": "CR 4 ESTE 40 A 02 SUR Atenas ",
+            "vendedor": "Maria Esther Caballero Benitez"
+        }]
     }
 ]
