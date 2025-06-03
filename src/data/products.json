@@ -2081,7 +2081,7 @@
         "id": 232,
         "codigo": "JDL0001",
         "nombre": "VINO GATO NEGRO CABERNET X 750 CJ X 12",
-        "precio": 32050,
+        "precio": 31501,
         "imagen": " ../assets/img_catalogo/dislicores/gato-negro-cabernet-sauvignon-750.png ",
         "barra": 7804300010638,
         "activo": true
@@ -2621,7 +2621,7 @@
         "id": 292,
         "codigo": "JFW0074",
         "nombre": "RON BACARDI MOJITO X 750 CJ X 12 UND",
-        "precio": 43058,
+        "precio": 43723,
         "imagen": " ../assets/img_catalogo/global/bacardi-mojito-750.png ",
         "barra": "080480985462",
         "activo": true
@@ -2648,7 +2648,7 @@
         "id": 295,
         "codigo": "JFW0077",
         "nombre": "RON BACARDI AÑEJO X 750 CJ X 12 UND",
-        "precio": 44036,
+        "precio": 45245,
         "imagen": " ../assets/img_catalogo/global/bacardi-añejo-700.png ",
         "barra": 7501008611135,
         "activo": true
@@ -2720,7 +2720,7 @@
         "id": 303,
         "codigo": "JFW0114",
         "nombre": "RON BACARDI MANDARINA 750 ML CJ X 12",
-        "precio": 43662,
+        "precio": 43486,
         "imagen": " ../assets/img_catalogo/global/bacardi-mandarina-x750.png ",
         "barra": 7610113011898,
         "activo": true
@@ -2738,7 +2738,7 @@
         "id": 305,
         "codigo": "JFW0126",
         "nombre": "RON BACARDI HURACANE X 750 CJ X 12",
-        "precio": 43209,
+        "precio": 44139,
         "imagen": " ../assets/img_catalogo/global/bacardi-hurricane-750.png ",
         "barra": "08048098550",
         "activo": true
@@ -5105,19 +5105,19 @@
         "id": 568,
         "codigo": "JRD0001",
         "nombre": "SALCHICHA RONDA VIENA X 7 UND CJ X 48",
-        "precio": 0,
+        "precio": 3878,
         "imagen": "../assets/img_catalogo/ronda/7702160000601.png",
         "barra": 7702160000601,
-        "activo": false
+        "activo": true
     },
     {
         "id": 569,
         "codigo": "JRD0002",
         "nombre": "SALCHICHA RONDA FRANKFURT X 7 CJ X 24",
-        "precio": 0,
+        "precio": 7756,
         "imagen": "../assets/img_catalogo/ronda/7702160000038.png",
         "barra": 7702160000038,
-        "activo": false
+        "activo": true
     },
     {
         "id": 570,
