@@ -2081,7 +2081,7 @@
         "id": 232,
         "codigo": "JDL0001",
         "nombre": "VINO GATO NEGRO CABERNET X 750 CJ X 12",
-        "precio": 31501,
+        "precio": 30700,
         "imagen": " ../assets/img_catalogo/dislicores/gato-negro-cabernet-sauvignon-750.png ",
         "barra": 7804300010638,
         "activo": true
@@ -2090,7 +2090,7 @@
         "id": 233,
         "codigo": "JDL0002",
         "nombre": "VINO GATO NEGRO MERLOT X 750 CJ X 12",
-        "precio": 31500,
+        "precio": 30700,
         "imagen": " ../assets/img_catalogo/dislicores/gato-negro-merlot-750.png ",
         "barra": 7804300120603,
         "activo": true
@@ -2099,7 +2099,7 @@
         "id": 234,
         "codigo": "JDL0003",
         "nombre": "VINO GATO NEGRO BLANCO X 750 CJ X 12",
-        "precio": 31501,
+        "precio": 30700,
         "imagen": " ../assets/img_catalogo/dislicores/gato-negro-blanco-750.png ",
         "barra": 7804300010645,
         "activo": true
@@ -2108,7 +2108,7 @@
         "id": 235,
         "codigo": "JDL0004",
         "nombre": "VINO GATO NEGRO MALBEC X 750 CJ X 12",
-        "precio": 31501,
+        "precio": 30700,
         "imagen": " ../assets/img_catalogo/dislicores/gato-negro-malbec-750.png ",
         "barra": 7703562105413,
         "activo": true
@@ -5105,7 +5105,7 @@
         "id": 568,
         "codigo": "JRD0001",
         "nombre": "SALCHICHA RONDA VIENA X 7 UND CJ X 48",
-        "precio": 3949,
+        "precio": 3948,
         "imagen": "../assets/img_catalogo/ronda/7702160000601.png",
         "barra": 7702160000601,
         "activo": true
