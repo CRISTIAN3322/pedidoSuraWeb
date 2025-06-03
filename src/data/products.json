@@ -5105,7 +5105,7 @@
         "id": 568,
         "codigo": "JRD0001",
         "nombre": "SALCHICHA RONDA VIENA X 7 UND CJ X 48",
-        "precio": 3878,
+        "precio": 3949,
         "imagen": "../assets/img_catalogo/ronda/7702160000601.png",
         "barra": 7702160000601,
         "activo": true
@@ -5114,7 +5114,7 @@
         "id": 569,
         "codigo": "JRD0002",
         "nombre": "SALCHICHA RONDA FRANKFURT X 7 CJ X 24",
-        "precio": 7756,
+        "precio": 7898,
         "imagen": "../assets/img_catalogo/ronda/7702160000038.png",
         "barra": 7702160000038,
         "activo": true
