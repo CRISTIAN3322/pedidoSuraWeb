@@ -407,10 +407,10 @@
         "id": 46,
         "codigo": "JAT0049",
         "nombre": "FORZA ALMENDRAS LIQUIDA FREE X 900 ml CJ X 12 und",
-        "precio": 0,
+        "precio": 10848,
         "imagen": "../assets/img_catalogo/toning/7702622009302.png",
         "barra": 7702622009302,
-        "activo": false
+        "activo": true
     },
     {
         "id": 47,
@@ -1982,7 +1982,7 @@
         "id": 221,
         "codigo": "JCR0008",
         "nombre": "CREMA DE WHISKY CASA DEL RHIN X 750 CJ X 12",
-        "precio": 39274,
+        "precio": 38400,
         "imagen": " ../assets/img_catalogo/casa-rhin/crema-de-whisky-x750.png ",
         "barra": 7702307330509,
         "activo": true
@@ -3989,28 +3989,28 @@
         "id": 444,
         "codigo": "JPB0001",
         "nombre": "ARDEN FOR MEN DISPLAY ORIGINAL X 18 COJINES CJ X 24",
-        "precio": 0,
+        "precio": 13090,
         "imagen": "../assets/img_catalogo/prebel/7702044198271.png",
         "barra": 7702044198271,
-        "activo": false
+        "activo": true
     },
     {
         "id": 445,
         "codigo": "JPB0002",
-        "nombre": "ARDEN FOR MEN MINI ROLL ON ORIGINAL  X 30 CJ X 6",
-        "precio": 0,
+        "nombre": "ARDEN FOR MEN MINI ROLL ON ORIGINAL  X 30 ML CJ X 6",
+        "precio": 3313,
         "imagen": "../assets/img_catalogo/prebel/7702044236577.png",
         "barra": 7702044236577,
-        "activo": false
+        "activo": true
     },
     {
         "id": 446,
         "codigo": "JPB0003",
         "nombre": "ARDEN FOR MEN MINI COLAPSIBLE ORIGINAL X 40 CJ X 6",
-        "precio": 0,
+        "precio": 3313,
         "imagen": "../assets/img_catalogo/prebel/7702044191906.png",
         "barra": 7702044191906,
-        "activo": false
+        "activo": true
     },
     {
         "id": 447,
@@ -4025,127 +4025,127 @@
         "id": 448,
         "codigo": "JPB0005",
         "nombre": "ARDEN FOR MEN CREMA ORIGINAL X 100 X 2 CJ X 12",
-        "precio": 0,
+        "precio": 15653,
         "imagen": "../assets/img_catalogo/prebel/7702044181600.png",
         "barra": 7702044181600,
-        "activo": false
+        "activo": true
     },
     {
         "id": 449,
         "codigo": "JPB0006",
         "nombre": "ARDEN FOR MEN CREMA ORIGINAL X 135  X 2 CJ X 12",
-        "precio": 0,
+        "precio": 18138,
         "imagen": "../assets/img_catalogo/prebel/7702044199858.png",
         "barra": 7702044199858,
-        "activo": false
+        "activo": true
     },
     {
         "id": 450,
         "codigo": "JPB0007",
         "nombre": "ARDEN FOR MEN ROLL ON ORIGINAL X 50 X 2 CJ X 12",
-        "precio": 0,
+        "precio": 17807,
         "imagen": "../assets/img_catalogo/prebel/7702044285780.png",
         "barra": 7702044285780,
-        "activo": false
+        "activo": true
     },
     {
         "id": 451,
         "codigo": "JPB0008",
         "nombre": "ARDEN FOR MEN DISPLAY CLINICAL X 18 COJINES CJ 24",
-        "precio": 0,
+        "precio": 14399,
         "imagen": "../assets/img_catalogo/prebel/7702044289061.png",
         "barra": 7702044289061,
-        "activo": false
+        "activo": true
     },
     {
         "id": 452,
         "codigo": "JPB0009",
         "nombre": "ARDEN FOR MEN MINI ROLL ON CLINICAL X 12 GR CJ 6",
-        "precio": 0,
+        "precio": 3313,
         "imagen": "../assets/img_catalogo/prebel/7702044283595.png",
         "barra": 7702044283595,
-        "activo": false
+        "activo": true
     },
     {
         "id": 453,
         "codigo": "JPB0010",
         "nombre": "ARDEN FOR MEN MINI COLAPSIBLE CLINICAL X 30 CJ X 6",
-        "precio": 0,
+        "precio": 3313,
         "imagen": "../assets/img_catalogo/prebel/7702044283601.png",
         "barra": 7702044283601,
-        "activo": false
+        "activo": true
     },
     {
         "id": 454,
         "codigo": "JPB0011",
         "nombre": "ARDEN FOR MEN MINI COLAPSIBLE GEL CLINICAL X 30 CJ X 6",
-        "precio": 0,
+        "precio": 4058,
         "imagen": "../assets/img_catalogo/prebel/7702044283571.png",
         "barra": 7702044283571,
-        "activo": false
+        "activo": true
     },
     {
         "id": 455,
         "codigo": "JPB0012",
         "nombre": "ARDEN FOR MEN MINI COLAPSIBLE GEL CLINICAL X 70 CJ X 6",
-        "precio": 0,
+        "precio": 8695,
         "imagen": "../assets/img_catalogo/prebel/7702044293853.png",
         "barra": 7702044293853,
-        "activo": false
+        "activo": true
     },
     {
         "id": 456,
         "codigo": "JPB0013",
         "nombre": "ARDEN FOR MEN MINI COLAPSIBLE CLINICAL X 70 CJ X 6",
-        "precio": 0,
+        "precio": 6543,
         "imagen": "../assets/img_catalogo/prebel/7702044289054.png",
         "barra": 7702044289054,
-        "activo": false
+        "activo": true
     },
     {
         "id": 457,
         "codigo": "JPB0014",
         "nombre": "ARDEN FOR MEN ROLL ON CLINICAL X 50 X 2 CJ X 6",
-        "precio": 0,
+        "precio": 20291,
         "imagen": "../assets/img_catalogo/prebel/7702044285797.png",
         "barra": 7702044285797,
-        "activo": false
+        "activo": true
     },
     {
         "id": 458,
         "codigo": "JPB0015",
         "nombre": "ARDEN FOR MEN GEL CLINICAL X 85 X 2 CJ X 6",
-        "precio": 0,
+        "precio": 26419,
         "imagen": "../assets/img_catalogo/prebel/7702044283588.png",
         "barra": 7702044283588,
-        "activo": false
+        "activo": true
     },
     {
         "id": 459,
         "codigo": "JPB0016",
         "nombre": "ARDEN FOR MEN CREMA CLINICAL X 100 X 2 CJ X 12",
-        "precio": 0,
+        "precio": 17807,
         "imagen": "../assets/img_catalogo/prebel/7702044283618.png",
         "barra": 7702044283618,
-        "activo": false
+        "activo": true
     },
     {
         "id": 460,
         "codigo": "JPB0017",
         "nombre": "ARDEN FOR MEN CREMA SPORT X 100 X 2 CJ X 12",
-        "precio": 0,
+        "precio": 15322,
         "imagen": "../assets/img_catalogo/prebel/7702044181853.png",
         "barra": 7702044181853,
-        "activo": false
+        "activo": true
     },
     {
         "id": 461,
         "codigo": "JPB0018",
         "nombre": "ARDEN FOR MEN ROLL ON SPORT X 50 X 2 CJ X 12",
-        "precio": 0,
+        "precio": 19794,
         "imagen": "../assets/img_catalogo/prebel/7702044286190.png",
         "barra": 7702044286190,
-        "activo": false
+        "activo": true
     },
     {
         "id": 462,
@@ -4159,11 +4159,11 @@
     {
         "id": 463,
         "codigo": "JPB0020",
-        "nombre": "ARDEN FOR MEN AEROSOL ORIGINAL X 165 X 2 CJ 6",
-        "precio": 0,
+        "nombre": "ARDEN FOR MEN AEROSOL ORIGINAL X 165 ML X 2 CJ 6",
+        "precio": 22279,
         "imagen": "../assets/img_catalogo/prebel/7702044243797.png",
         "barra": 7702044243797,
-        "activo": false
+        "activo": true
     },
     {
         "id": 464,
@@ -4187,109 +4187,109 @@
         "id": 466,
         "codigo": "JPB0023",
         "nombre": "SHAMPOO ANTICASPA CONNECT FOR MEN X 310 CJ X 12",
-        "precio": 0,
+        "precio": 13169,
         "imagen": "../assets/img_catalogo/prebel/7702044282994.png",
         "barra": 7702044282994,
-        "activo": false
+        "activo": true
     },
     {
         "id": 467,
         "codigo": "JPB0024",
         "nombre": "SHAMPOO ANTICASPA CONNECT FOR MEN X 310 X 2 CJ X 6",
-        "precio": 0,
+        "precio": 17945,
         "imagen": "../assets/img_catalogo/prebel/7702044283076.png",
         "barra": 7702044283076,
-        "activo": false
+        "activo": true
     },
     {
         "id": 468,
         "codigo": "JPB0025",
         "nombre": "GEL CONNECT FOR MEN X 275 CJ X 12",
-        "precio": 0,
+        "precio": 9525,
         "imagen": "../assets/img_catalogo/prebel/7702044288453.png",
         "barra": 7702044288453,
-        "activo": false
+        "activo": true
     },
     {
         "id": 469,
         "codigo": "JPB0026",
         "nombre": "ELIZABETH ARDEN DISPLAY CLASSIC X 18 COJINES CJ X 24",
-        "precio": 0,
+        "precio": 13090,
         "imagen": "../assets/img_catalogo/prebel/7702044246477.png",
         "barra": 7702044246477,
-        "activo": false
+        "activo": true
     },
     {
         "id": 470,
         "codigo": "JPB0027",
-        "nombre": "ELIZABETH ARDEN MINI ROLL ON CLASSIC X 30 CJ X 6",
-        "precio": 0,
+        "nombre": "ELIZABETH ARDEN MINI ROLL ON CLASSIC X 30 ML CJ X 6",
+        "precio": 3148,
         "imagen": "../assets/img_catalogo/prebel/7702044246378.png",
         "barra": 7702044246378,
-        "activo": false
+        "activo": true
     },
     {
         "id": 471,
         "codigo": "JPB0028",
-        "nombre": "ELIZABETH ARDEN MINI COLAPSIBLE CLASSIC X 40 CJ X 6",
-        "precio": 0,
+        "nombre": "ELIZABETH ARDEN MINI COLAPSIBLE CLASSIC X 40 ML CJ X 6",
+        "precio": 3148,
         "imagen": "../assets/img_catalogo/prebel/7702044246408.png",
         "barra": 7702044246408,
-        "activo": false
+        "activo": true
     },
     {
         "id": 472,
         "codigo": "JPB0029",
         "nombre": "ELIZABETH ARDEN ROLL ON CLASSIC X 50 X 2 CJ X 12",
-        "precio": 0,
+        "precio": 18495,
         "imagen": "../assets/img_catalogo/prebel/7702044285865.png",
         "barra": 7702044285865,
-        "activo": false
+        "activo": true
     },
     {
         "id": 473,
         "codigo": "JPB0030",
         "nombre": "ELIZABETH ARDEN ROLL ON BICARBONATO Y COCO X 50 X 2 CJ X 12",
-        "precio": 0,
+        "precio": 18965,
         "imagen": "../assets/img_catalogo/prebel/7702044284585.png",
         "barra": 7702044284585,
-        "activo": false
+        "activo": true
     },
     {
         "id": 474,
         "codigo": "JPB0031",
         "nombre": "ELIZABETH ARDEN CREMA BICARBONATO Y COCO X 100 X 2 CJ X 6",
-        "precio": 0,
+        "precio": 8695,
         "imagen": "../assets/img_catalogo/prebel/7702044284554.png",
         "barra": 7702044284554,
-        "activo": false
+        "activo": true
     },
     {
         "id": 475,
         "codigo": "JPB0032",
         "nombre": "ELIZABETH ARDEN CREMA CLASSIC X 60 X 2 CJ X 12",
-        "precio": 0,
+        "precio": 12340,
         "imagen": "../assets/img_catalogo/prebel/7702044246866.png",
         "barra": 7702044246866,
-        "activo": false
+        "activo": true
     },
     {
         "id": 476,
         "codigo": "JPB0033",
         "nombre": "ELIZABETH ARDEN CREMA CLASSIC X 100 X 2 CJ X 12",
-        "precio": 0,
+        "precio": 15322,
         "imagen": "../assets/img_catalogo/prebel/7702044246842.png",
         "barra": 7702044246842,
-        "activo": false
+        "activo": true
     },
     {
         "id": 477,
         "codigo": "JPB0034",
         "nombre": "ELIZABETH ARDEN CREMA CLASSIC X 135 X 2 CJ X 12",
-        "precio": 0,
+        "precio": 18634,
         "imagen": "../assets/img_catalogo/prebel/7702044246859.png",
         "barra": 7702044246859,
-        "activo": false
+        "activo": true
     },
     {
         "id": 478,
@@ -4304,10 +4304,10 @@
         "id": 479,
         "codigo": "JPB0036",
         "nombre": "NUDE AUTOBRONCEADOR RISTRA SACHET X 6 CJ X 12",
-        "precio": 0,
+        "precio": 39671,
         "imagen": "../assets/img_catalogo/prebel/7702044244244.png",
         "barra": 7702044244244,
-        "activo": false
+        "activo": true
     },
     {
         "id": 480,
@@ -4322,37 +4322,37 @@
         "id": 481,
         "codigo": "JPB0038",
         "nombre": "NUDE PROTECTOR SOLAR FACIAL SPF50 X 10 ML DISPLAY X 12 CJ X 10",
-        "precio": 0,
+        "precio": 33045,
         "imagen": "../assets/img_catalogo/prebel/7702044260909.png",
         "barra": 7702044260909,
-        "activo": false
+        "activo": true
     },
     {
         "id": 482,
         "codigo": "JPB0039",
         "nombre": "NUDE PROTECTOR SOLAR FACIAL COLOR SPF50 X 10 ML DISPLAY X 12 CJ X 10",
-        "precio": 0,
+        "precio": 33045,
         "imagen": "../assets/img_catalogo/prebel/7702044280587.png",
         "barra": 7702044280587,
-        "activo": false
+        "activo": true
     },
     {
         "id": 483,
         "codigo": "JPB0040",
         "nombre": "NUDE PROTECTOR SOLAR FACIAL SPF60 X 10 ML DISPLAY X 24 CJ X 12",
-        "precio": 0,
+        "precio": 41328,
         "imagen": "../assets/img_catalogo/prebel/7702044283670.png",
         "barra": 7702044283670,
-        "activo": false
+        "activo": true
     },
     {
         "id": 484,
         "codigo": "JPB0041",
         "nombre": "NUDE PROTECTOR SOLAR FACIAL SPF50 X 60 ML + NUDE LABIAL SPF15 CJ X 12",
-        "precio": 0,
+        "precio": 31389,
         "imagen": "../assets/img_catalogo/prebel/7702044193986.png",
         "barra": 7702044193986,
-        "activo": false
+        "activo": true
     },
     {
         "id": 485,
@@ -4367,7 +4367,7 @@
         "id": 486,
         "codigo": "JPB0043",
         "nombre": "NUDE PROTECTOR SOLAR CARA Y CUERPO SPF60  X 90 ML CJ X 6",
-        "precio": 0,
+        "precio": 23934,
         "imagen": "../assets/img_catalogo/prebel/7702044285407.png",
         "barra": 7702044285407,
         "activo": false
@@ -4376,37 +4376,37 @@
         "id": 487,
         "codigo": "JPB0044",
         "nombre": "NUDE PROTECTOR SOLAR LIVIANA SENSACION SPF80 X 40 ML X 2 CJ X 12",
-        "precio": 0,
+        "precio": 24764,
         "imagen": "../assets/img_catalogo/prebel/7702044288415.png",
         "barra": 7702044288415,
-        "activo": false
+        "activo": true
     },
     {
         "id": 488,
         "codigo": "JPB0045",
         "nombre": "NUDE PROTECTOR SOLAR LIVIANA SENSACION SPF80 X 120 ML X 2 CJ X 6",
-        "precio": 0,
+        "precio": 69486,
         "imagen": "../assets/img_catalogo/prebel/7702044288422.png",
         "barra": 7702044288422,
-        "activo": false
+        "activo": true
     },
     {
         "id": 489,
         "codigo": "JPB0046",
         "nombre": "NUDE PROTECTOR SOLAR FACIAL COLOR FLUIDO SPF60 X 50 ML CJ X 6",
-        "precio": 0,
+        "precio": 41328,
         "imagen": "../assets/img_catalogo/prebel/7702044294157.png",
         "barra": 7702044294157,
-        "activo": false
+        "activo": true
     },
     {
         "id": 490,
         "codigo": "JPB0047",
         "nombre": "NUDE PROTECTOR SOLAR FACIAL FLUIDO SPF60 X 50 ML CJ X 6",
-        "precio": 0,
+        "precio": 41328,
         "imagen": "../assets/img_catalogo/prebel/7702044294164.png",
         "barra": 7702044294164,
-        "activo": false
+        "activo": true
     },
     {
         "id": 491,
@@ -4421,37 +4421,37 @@
         "id": 492,
         "codigo": "JPB0049",
         "nombre": "VITU CREMA YOGURT Y FRUTOS ROJOS 1 LITRO CJ X 6",
-        "precio": 0,
+        "precio": 22774,
         "imagen": "../assets/img_catalogo/prebel/7702044213301.png",
         "barra": 7702044213301,
-        "activo": false
+        "activo": true
     },
     {
         "id": 493,
         "codigo": "JPB0050",
         "nombre": "VITU LOCION CORPORAL PISTACHO Y NUECES 1 LITRO CJ X 6",
-        "precio": 0,
+        "precio": 18138,
         "imagen": "../assets/img_catalogo/prebel/7702044255752.png",
         "barra": 7702044255752,
-        "activo": false
+        "activo": true
     },
     {
         "id": 494,
         "codigo": "JPB0051",
         "nombre": "VITU LOCION CORPORAL MORA Y ALMENDRAS 1 LITRO CJ X 6",
-        "precio": 0,
+        "precio": 18138,
         "imagen": "../assets/img_catalogo/prebel/7702044258821.png",
         "barra": 7702044258821,
-        "activo": false
+        "activo": true
     },
     {
         "id": 495,
         "codigo": "JPB0052",
-        "nombre": "VITU LOCION CORPORAL MAGO Y LICHI 1 LITRO CJ X 6",
-        "precio": 0,
+        "nombre": "VITU LOCION CORPORAL MANGO Y LICHI 1 LITRO CJ X 6",
+        "precio": 18138,
         "imagen": "../assets/img_catalogo/prebel/7702044257831.png",
         "barra": 7702044257831,
-        "activo": false
+        "activo": true
     },
     {
         "id": 496,
@@ -4466,19 +4466,19 @@
         "id": 497,
         "codigo": "JPB0054",
         "nombre": "YARLEY APRIL VIOLET ROLLO ON X 2 CJ X 6",
-        "precio": 0,
+        "precio": 16165,
         "imagen": "../assets/img_catalogo/prebel/7702044016520.png",
         "barra": 7702044016520,
-        "activo": false
+        "activo": true
     },
     {
         "id": 498,
         "codigo": "JPB0055",
         "nombre": "YARLEY BOND STREET ROLLO ON X 2 CJ X 6",
-        "precio": 0,
+        "precio": 16164,
         "imagen": "../assets/img_catalogo/prebel/7702044016339.png",
         "barra": 7702044016339,
-        "activo": false
+        "activo": true
     },
     {
         "id": 499,
