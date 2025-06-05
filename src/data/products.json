@@ -4096,7 +4096,7 @@
     {
         "id": 456,
         "codigo": "JPB0013",
-        "nombre": "ARDEN FOR MEN MINI COLAPSIBLE CLINICAL X 70 CJ X 6",
+        "nombre": "ARDEN FOR MEN MINI COLAPSIBLE CREMA CLINICAL X 70 CJ X 6",
         "precio": 6543,
         "imagen": "../assets/img_catalogo/prebel/7702044289054.png",
         "barra": 7702044289054,
@@ -4258,7 +4258,7 @@
     {
         "id": 474,
         "codigo": "JPB0031",
-        "nombre": "ELIZABETH ARDEN CREMA BICARBONATO Y COCO X 100 X 2 CJ X 6",
+        "nombre": "ELIZABETH ARDEN COLAPSIBLE BICARBONATO Y COCO X 100 CJ X 6",
         "precio": 8695,
         "imagen": "../assets/img_catalogo/prebel/7702044284554.png",
         "barra": 7702044284554,
@@ -4628,7 +4628,7 @@
         "id": 515,
         "codigo": "JPN0002",
         "nombre": "PAPELS ROSAL XXG 4 PAQUETES X 12 ROLLOS",
-        "precio": 16561,
+        "precio": 16421,
         "imagen": "",
         "barra": 7702120012972,
         "activo": true
@@ -4655,7 +4655,7 @@
         "id": 518,
         "codigo": "JPN0005",
         "nombre": "PAPELS ROSAL XG 4 PAQUETES X 12 ROLLOS X 25 MTS",
-        "precio": 13541,
+        "precio": 12682,
         "imagen": "",
         "barra": 7702120013078,
         "activo": true
@@ -4664,7 +4664,7 @@
         "id": 519,
         "codigo": "JPN0006",
         "nombre": "PAPELS SUAVE GOLD 12 PAQUETES X 4 ROLLOS",
-        "precio": 9401,
+        "precio": 9303,
         "imagen": "",
         "barra": 7702120012736,
         "activo": true
@@ -4673,7 +4673,7 @@
         "id": 520,
         "codigo": "JPN0007",
         "nombre": "PAPELS SUAVE GOLD 4 PAQUETES X 12 ROLLOS",
-        "precio": 26858,
+        "precio": 26257,
         "imagen": "",
         "barra": 7702120012743,
         "activo": true
@@ -4682,7 +4682,7 @@
         "id": 521,
         "codigo": "JPN0008",
         "nombre": "TOALLA DE COCINA FAVORITA CJ X 24",
-        "precio": 1767,
+        "precio": 1746,
         "imagen": "",
         "barra": 7702120009569,
         "activo": true
@@ -4691,7 +4691,7 @@
         "id": 522,
         "codigo": "JPN0009",
         "nombre": "TOALLA DE COCINA FAVORITA POR X 3  CJ X 8",
-        "precio": 5259,
+        "precio": 5136,
         "imagen": "",
         "barra": 7702120014457,
         "activo": true
@@ -4736,7 +4736,7 @@
         "id": 527,
         "codigo": "JPN0014",
         "nombre": "TOALLA HIGIENICA SUAVE NOCTURNA MIX CJ X 24",
-        "precio": 3493,
+        "precio": 3274,
         "imagen": "",
         "barra": 7702120013252,
         "activo": true
@@ -4745,7 +4745,7 @@
         "id": 528,
         "codigo": "JPN0015",
         "nombre": "TOALLA HIGIENICA SUAVE DELGADA MIX CJ X 36",
-        "precio": 3984,
+        "precio": 2866,
         "imagen": "",
         "barra": 7702120013269,
         "activo": true
@@ -4763,7 +4763,7 @@
         "id": 530,
         "codigo": "JPN0017",
         "nombre": "PAPELS ROSAL XXG PC X 48 UND",
-        "precio": 1781,
+        "precio": 1647,
         "imagen": "",
         "barra": 7702120013009,
         "activo": true
@@ -4790,7 +4790,7 @@
         "id": 533,
         "codigo": "JPN0020",
         "nombre": "PAPELS ROSAL XXG 8 PAQUETES X 6 ROLLOS",
-        "precio": 8543,
+        "precio": 8844,
         "imagen": "",
         "barra": 7702120012989,
         "activo": true
@@ -4799,7 +4799,7 @@
         "id": 534,
         "codigo": "JPN0021",
         "nombre": "SERVILLETA FAVORITA X 300  CJ X 15",
-        "precio": 3681,
+        "precio": 3896,
         "imagen": "",
         "barra": 7702120012682,
         "activo": true
@@ -4880,7 +4880,7 @@
         "id": 543,
         "codigo": "JPN0030",
         "nombre": "PAPELS SUAVE GOLD SOLT CARE 4 PAQUETES X 12 ROLLOS",
-        "precio": 23157,
+        "precio": 20472,
         "imagen": "",
         "barra": 7702120014372,
         "activo": true
