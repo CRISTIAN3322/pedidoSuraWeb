@@ -6517,5 +6517,13 @@
             "direccion": "CR 4 ESTE 40 A 02 SUR Atenas ",
             "vendedor": "Maria Esther Caballero Benitez"
         }]
+    },
+    {
+        "id": 1071302197,
+        "nombre": "DEISY YOMARA CESPEDES CUELLAR",
+        "sucursales": [{
+            "direccion": "CR 4 3 37  Puente Quetame ",
+            "vendedor": "Ydiana Maria Sanchez Jimenez"
+        }]
     }
 ]
