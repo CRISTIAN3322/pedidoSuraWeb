@@ -4907,7 +4907,7 @@
         "id": 546,
         "codigo": "JPO0001",
         "nombre": "AREPASAN BLANCA X 1000 GR PC X 10",
-        "precio": 2679,
+        "precio": 2785,
         "imagen": " ../assets/img_catalogo/precocidos/arepasan-1000.png ",
         "barra": 7705525010123,
         "activo": true
@@ -4934,7 +4934,7 @@
         "id": 549,
         "codigo": "JPO0005",
         "nombre": "MACARRON RIOKA X 250 PC X 24",
-        "precio": 964,
+        "precio": 898,
         "imagen": " ../assets/img_catalogo/precocidos/pasta-macarron-250.jpg ",
         "barra": 7705525095014,
         "activo": true
@@ -4943,7 +4943,7 @@
         "id": 550,
         "codigo": "JPO0006",
         "nombre": "FIDEOS RIOKA X 250 PC X 24",
-        "precio": 964,
+        "precio": 898,
         "imagen": " ../assets/img_catalogo/precocidos/pasta-fideos-250.jpg ",
         "barra": 7705525093072,
         "activo": true
@@ -4952,7 +4952,7 @@
         "id": 551,
         "codigo": "JPO0007",
         "nombre": "CONCHAS RIOKA X 250 PC X 24",
-        "precio": 964,
+        "precio": 898,
         "imagen": " ../assets/img_catalogo/precocidos/psta-conchas-250.jpg ",
         "barra": 7707525092013,
         "activo": true
@@ -4961,7 +4961,7 @@
         "id": 552,
         "codigo": "JPO0008",
         "nombre": "SPAGUETTI RIOKA X 1000 PC X 12",
-        "precio": 3775,
+        "precio": 3585,
         "imagen": " ../assets/img_catalogo/precocidos/pasta-espaguetti-1000.jpg ",
         "barra": 770705525091054,
         "activo": true
@@ -4970,7 +4970,7 @@
         "id": 553,
         "codigo": "JPO0009",
         "nombre": "SPAGUETTI RIOKA X 250 PC X 24",
-        "precio": 964,
+        "precio": 898,
         "imagen": " ../assets/img_catalogo/precocidos/pasta-espaguetti-250.jpg ",
         "barra": 77070525091016,
         "activo": true
@@ -4979,7 +4979,7 @@
         "id": 554,
         "codigo": "JPO0010",
         "nombre": "FIDEOS RIOKA X 1000 PC X 6",
-        "precio": 3775,
+        "precio": 3585,
         "imagen": " ../assets/img_catalogo/precocidos/pasta-fideos-1000.jpg ",
         "barra": 770705525093089,
         "activo": true
@@ -4988,7 +4988,7 @@
         "id": 555,
         "codigo": "JPO0011",
         "nombre": "CONCHAS RIOKA X 1000 PC X 6",
-        "precio": 3775,
+        "precio": 3585,
         "imagen": " ../assets/img_catalogo/precocidos/pasta-conchas-1000.jpg ",
         "barra": 7705525092037,
         "activo": true
@@ -4997,7 +4997,7 @@
         "id": 556,
         "codigo": "JPO0012",
         "nombre": "MACARRON X 1000 PC X 6",
-        "precio": 3775,
+        "precio": 3585,
         "imagen": " ../assets/img_catalogo/precocidos/pasta-macarron-1000.jpg ",
         "barra": 770552509354,
         "activo": true
