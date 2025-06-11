@@ -6533,5 +6533,13 @@
             "direccion": "BG 5 LC 5 LC 6 CC  Corabastos ",
             "vendedor": "Yeny Maribel Monroy Patiño"
         }]
+    },
+    {
+        "id": 79061468,
+        "nombre": "JOAQUIN AUGUSTO MORENO MARTINEZ",
+        "sucursales": [{
+            "direccion": "CL 4 A 21 5 La Mesa ",
+            "vendedor": "Ydiana Maria Sanchez Jimenez"
+        }]
     }
 ]
