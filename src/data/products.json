@@ -4397,7 +4397,7 @@
         "precio": 23934,
         "imagen": "../assets/img_catalogo/prebel/7702044285407.png",
         "barra": 7702044285407,
-        "activo": false
+        "activo": true
     },
     {
         "id": 490,
