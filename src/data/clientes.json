@@ -4399,9 +4399,14 @@
         "id": 1096957340,
         "nombre": "ANGIE PAOLA SALCEDO GARCIA",
         "sucursales": [{
-            "direccion": "CR 12 9 10 A Recibe De 8Am Mosquera",
-            "vendedor": "Helio Arturo Gamboa Rodriguez"
-        }]
+                "direccion": "CR 12 9 10 Mosquera",
+                "vendedor": "Helio Arturo Gamboa Rodriguez"
+            },
+            {
+                "direccion": "CL 10 14 07  Mosquera",
+                "vendedor": "Helio Arturo Gamboa Rodriguez"
+            }
+        ]
     },
     {
         "id": 11435016,
