@@ -6554,5 +6554,13 @@
             "direccion": "CRA 77 C 57 X 22 SUR Casa Bianca ",
             "vendedor": "Bucky Santana Vanegas"
         }]
+    },
+    {
+        "id": 1013111661,
+        "nombre": "SANTIAGO ALEXANDER MORENO JIMENEZ",
+        "sucursales": [{
+            "direccion": "CL 51 SUR 88 F 51 Bosa Brasil ",
+            "vendedor": "Francy Janeth Huertas Martinez"
+        }]
     }
 ]

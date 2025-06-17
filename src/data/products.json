@@ -579,7 +579,7 @@
         "codigo": "JAT0114",
         "nombre": "FORZA VAINILLA ECONOPACK POLVO X 400 gr CJ X 12 und",
         "precio": 25875,
-        "imagen": " ../assets/img_catalogo/toning/forza-almendra-vainilla-400.png ",
+        "imagen": "../assets/img_catalogo/toning/7702622225283.png",
         "barra": 7702622225283,
         "activo": true
     },
@@ -2740,7 +2740,7 @@
         "nombre": "RON BACARDI MANDARINA 750 ML CJ X 12",
         "precio": 43486,
         "imagen": " ../assets/img_catalogo/global/bacardi-mandarina-x750.png ",
-        "barra": 7610113011898,
+        "barra": 7610113025307,
         "activo": true
     },
     {
@@ -4554,6 +4554,15 @@
     },
     {
         "id": 507,
+        "codigo": "JPB0061",
+        "nombre": "ARDEN FOR MEN AEROSOL PIES ANTIBACTERIAL X 240 ML X 2 CJ 6",
+        "precio": 0,
+        "imagen": "",
+        "barra": 7702044266390,
+        "activo": false
+    },
+    {
+        "id": 508,
         "codigo": "JPB0062",
         "nombre": "ARDEN FOR MEN CREMA ORIGINAL X 135  X 2 + SHAMPOO X 310ML CJ X 12",
         "precio": 22253,
@@ -4562,7 +4571,7 @@
         "activo": true
     },
     {
-        "id": 508,
+        "id": 509,
         "codigo": "JPD0001",
         "nombre": "PROTECTOR  X 15 PRECIO ESPECIAL CAJA X 36",
         "precio": 3161,
@@ -4571,7 +4580,7 @@
         "activo": true
     },
     {
-        "id": 509,
+        "id": 510,
         "codigo": "JPD0002",
         "nombre": "PROTECTOR ELLAS ANATOMICO PAGUE 160 LLEV 180 CJ X 10",
         "precio": 14217,
@@ -4580,7 +4589,7 @@
         "activo": true
     },
     {
-        "id": 510,
+        "id": 511,
         "codigo": "JPD0003",
         "nombre": "PROTECTOR X 30 PRECIO ESPECIAL CAJA X 18",
         "precio": 6084,
@@ -4589,7 +4598,7 @@
         "activo": true
     },
     {
-        "id": 511,
+        "id": 512,
         "codigo": "JPD0006",
         "nombre": "TOALLA NOCTURNA + NOCTURNA PC X 18",
         "precio": 6610,
@@ -4598,7 +4607,7 @@
         "activo": true
     },
     {
-        "id": 512,
+        "id": 513,
         "codigo": "JPD0007",
         "nombre": "TOALLAS ELLAS CON ALAS  PC X 24 (VERDE)",
         "precio": 4304,
@@ -4607,7 +4616,7 @@
         "activo": true
     },
     {
-        "id": 513,
+        "id": 514,
         "codigo": "JPD0011",
         "nombre": "TOALLA NOCTURNA +DELGADA PC X 24",
         "precio": 4454,
@@ -4616,7 +4625,7 @@
         "activo": true
     },
     {
-        "id": 514,
+        "id": 515,
         "codigo": "JPD0012",
         "nombre": "TOALLA ELLAS DESGADAS X 40 UND PCA X 12",
         "precio": 8411,
@@ -4625,7 +4634,7 @@
         "activo": true
     },
     {
-        "id": 515,
+        "id": 516,
         "codigo": "JPD0013",
         "nombre": "TOALLA ELLAS DELGA. NARANJA  PAGUE 10 LLEVE 20 PC X 24",
         "precio": 5060,
@@ -4634,7 +4643,7 @@
         "activo": true
     },
     {
-        "id": 516,
+        "id": 517,
         "codigo": "JPD0016",
         "nombre": "PROTECTOR ELLAS X 10 PACA X 144 UND",
         "precio": 1053,
@@ -4643,7 +4652,7 @@
         "activo": true
     },
     {
-        "id": 517,
+        "id": 518,
         "codigo": "JPD0018",
         "nombre": "JABON INTIMO ELLAS X 200 ML CAJA X 12 UND",
         "precio": 6992,
@@ -4652,7 +4661,7 @@
         "activo": true
     },
     {
-        "id": 518,
+        "id": 519,
         "codigo": "JPD0023",
         "nombre": "TOALLAS ELLAS CON ALAS PACA X 48 (VERDE)",
         "precio": 2298,
@@ -4661,7 +4670,7 @@
         "activo": true
     },
     {
-        "id": 519,
+        "id": 520,
         "codigo": "JPN0001",
         "nombre": "PAPELS ROSAL XXG 12 PAQUETES X 4 ROLLOS",
         "precio": 6902,
@@ -4670,7 +4679,7 @@
         "activo": true
     },
     {
-        "id": 520,
+        "id": 521,
         "codigo": "JPN0002",
         "nombre": "PAPELS ROSAL XXG 4 PAQUETES X 12 ROLLOS",
         "precio": 16421,
@@ -4679,7 +4688,7 @@
         "activo": true
     },
     {
-        "id": 521,
+        "id": 522,
         "codigo": "JPN0003",
         "nombre": "PAPELS ROSAL XXG 3 PAQUETES X 15 ROLLOS",
         "precio": 21551,
@@ -4688,7 +4697,7 @@
         "activo": true
     },
     {
-        "id": 522,
+        "id": 523,
         "codigo": "JPN0004",
         "nombre": "PAPELS ROSAL XG 12 PAQUETES X 4 ROLLOS",
         "precio": 5908,
@@ -4697,7 +4706,7 @@
         "activo": true
     },
     {
-        "id": 523,
+        "id": 524,
         "codigo": "JPN0005",
         "nombre": "PAPELS ROSAL XG 4 PAQUETES X 12 ROLLOS X 25 MTS",
         "precio": 12682,
@@ -4706,7 +4715,7 @@
         "activo": true
     },
     {
-        "id": 524,
+        "id": 525,
         "codigo": "JPN0006",
         "nombre": "PAPELS SUAVE GOLD 12 PAQUETES X 4 ROLLOS",
         "precio": 9303,
@@ -4715,7 +4724,7 @@
         "activo": true
     },
     {
-        "id": 525,
+        "id": 526,
         "codigo": "JPN0007",
         "nombre": "PAPELS SUAVE GOLD 4 PAQUETES X 12 ROLLOS",
         "precio": 26257,
@@ -4724,7 +4733,7 @@
         "activo": true
     },
     {
-        "id": 526,
+        "id": 527,
         "codigo": "JPN0008",
         "nombre": "TOALLA DE COCINA FAVORITA CJ X 24",
         "precio": 1746,
@@ -4733,7 +4742,7 @@
         "activo": true
     },
     {
-        "id": 527,
+        "id": 528,
         "codigo": "JPN0009",
         "nombre": "TOALLA DE COCINA FAVORITA POR X 3  CJ X 8",
         "precio": 5136,
@@ -4742,7 +4751,7 @@
         "activo": true
     },
     {
-        "id": 528,
+        "id": 529,
         "codigo": "JPN0010",
         "nombre": "PAÑUELO FACIAL SUAVE PEQUEÑO CJ X 18",
         "precio": 3450,
@@ -4751,7 +4760,7 @@
         "activo": true
     },
     {
-        "id": 529,
+        "id": 530,
         "codigo": "JPN0011",
         "nombre": "PAÑUELO FACIAL SUAVE BOLSILLO 30 PAQUETES X 4 UNIDADES",
         "precio": 3195,
@@ -4760,7 +4769,7 @@
         "activo": true
     },
     {
-        "id": 530,
+        "id": 531,
         "codigo": "JPN0012",
         "nombre": "PAÑAL BEBE DREAMS ETAPA 3 TALLA G PACA X 8",
         "precio": 23717,
@@ -4769,7 +4778,7 @@
         "activo": true
     },
     {
-        "id": 531,
+        "id": 532,
         "codigo": "JPN0013",
         "nombre": "PAÑAL BEBE DREAMS ETAPA 4 TALLA XG PACA X 8",
         "precio": 29889,
@@ -4778,7 +4787,7 @@
         "activo": true
     },
     {
-        "id": 532,
+        "id": 533,
         "codigo": "JPN0014",
         "nombre": "TOALLA HIGIENICA SUAVE NOCTURNA MIX CJ X 24",
         "precio": 3274,
@@ -4787,7 +4796,7 @@
         "activo": true
     },
     {
-        "id": 533,
+        "id": 534,
         "codigo": "JPN0015",
         "nombre": "TOALLA HIGIENICA SUAVE DELGADA MIX CJ X 36",
         "precio": 2866,
@@ -4796,7 +4805,7 @@
         "activo": true
     },
     {
-        "id": 534,
+        "id": 535,
         "codigo": "JPN0016",
         "nombre": "PROTECTOR DIARIO SUAVE X 15 CJ X 36",
         "precio": 1717,
@@ -4805,7 +4814,7 @@
         "activo": true
     },
     {
-        "id": 535,
+        "id": 536,
         "codigo": "JPN0017",
         "nombre": "PAPELS ROSAL XXG PC X 48 UND",
         "precio": 1647,
@@ -4814,7 +4823,7 @@
         "activo": true
     },
     {
-        "id": 536,
+        "id": 537,
         "codigo": "JPN0018",
         "nombre": "PAPELS ROSAL G PC X 54 UND",
         "precio": 1179,
@@ -4823,7 +4832,7 @@
         "activo": true
     },
     {
-        "id": 537,
+        "id": 538,
         "codigo": "JPN0019",
         "nombre": "PAPELS ROSAL G 4 PAQUETES X 12 ROLLOS",
         "precio": 12731,
@@ -4832,7 +4841,7 @@
         "activo": true
     },
     {
-        "id": 538,
+        "id": 539,
         "codigo": "JPN0020",
         "nombre": "PAPELS ROSAL XXG 8 PAQUETES X 6 ROLLOS",
         "precio": 8844,
@@ -4841,7 +4850,7 @@
         "activo": true
     },
     {
-        "id": 539,
+        "id": 540,
         "codigo": "JPN0021",
         "nombre": "SERVILLETA FAVORITA X 300  CJ X 15",
         "precio": 3896,
@@ -4850,7 +4859,7 @@
         "activo": true
     },
     {
-        "id": 540,
+        "id": 541,
         "codigo": "JPN0022",
         "nombre": "SERVILLETA SUAVE GOLD  X 40  CJ X 24",
         "precio": 4748,
@@ -4859,7 +4868,7 @@
         "activo": true
     },
     {
-        "id": 541,
+        "id": 542,
         "codigo": "JPN0023",
         "nombre": "SERVILLETA ROSAL X 100 CJ X 30",
         "precio": 3357,
@@ -4868,7 +4877,7 @@
         "activo": true
     },
     {
-        "id": 542,
+        "id": 543,
         "codigo": "JPN0024",
         "nombre": "SERVILLETA ROSAL MEGAPACK CJ X 10",
         "precio": 9299,
@@ -4877,7 +4886,7 @@
         "activo": true
     },
     {
-        "id": 543,
+        "id": 544,
         "codigo": "JPN0025",
         "nombre": "SERVILLETA SUAVE GOLD  X 100  CJ X 24",
         "precio": 6014,
@@ -4886,7 +4895,7 @@
         "activo": true
     },
     {
-        "id": 544,
+        "id": 545,
         "codigo": "JPN0026",
         "nombre": "SERVILLETA FAVORITA CAFETERIA X 100 CJ X 30",
         "precio": 2121,
@@ -4895,7 +4904,7 @@
         "activo": true
     },
     {
-        "id": 545,
+        "id": 546,
         "codigo": "JPN0027",
         "nombre": "TOALLA COCINA ROSAL X 1 CJ X 12",
         "precio": 6501,
@@ -4904,7 +4913,7 @@
         "activo": true
     },
     {
-        "id": 546,
+        "id": 547,
         "codigo": "JPN0028",
         "nombre": "TOALLA COCINA ROSAL X 3 CJ X 4",
         "precio": 14801,
@@ -4913,7 +4922,7 @@
         "activo": true
     },
     {
-        "id": 547,
+        "id": 548,
         "codigo": "JPN0029",
         "nombre": "PAPEL ROSAL MAXIMO 4PAQUETES X 12 ROLLOS",
         "precio": 13111,
@@ -4922,7 +4931,7 @@
         "activo": true
     },
     {
-        "id": 548,
+        "id": 549,
         "codigo": "JPN0030",
         "nombre": "PAPELS SUAVE GOLD SOLT CARE 4 PAQUETES X 12 ROLLOS",
         "precio": 20472,
@@ -4931,7 +4940,7 @@
         "activo": true
     },
     {
-        "id": 549,
+        "id": 550,
         "codigo": "JPO0001",
         "nombre": "AREPASAN BLANCA X 1000 GR PC X 10",
         "precio": 2785,
@@ -4940,7 +4949,7 @@
         "activo": true
     },
     {
-        "id": 550,
+        "id": 551,
         "codigo": "JPO0002",
         "nombre": "AREPASAN BLANCA X 500 GR PC X 24",
         "precio": 1339,
@@ -4949,7 +4958,7 @@
         "activo": true
     },
     {
-        "id": 551,
+        "id": 552,
         "codigo": "JPO0003",
         "nombre": "HARINA LA MONJITA X 500 GR PC X 24",
         "precio": 1276,
@@ -4958,7 +4967,7 @@
         "activo": true
     },
     {
-        "id": 552,
+        "id": 553,
         "codigo": "JPO0005",
         "nombre": "MACARRON RIOKA X 250 PC X 24",
         "precio": 898,
@@ -4967,7 +4976,7 @@
         "activo": true
     },
     {
-        "id": 553,
+        "id": 554,
         "codigo": "JPO0006",
         "nombre": "FIDEOS RIOKA X 250 PC X 24",
         "precio": 898,
@@ -4976,7 +4985,7 @@
         "activo": true
     },
     {
-        "id": 554,
+        "id": 555,
         "codigo": "JPO0007",
         "nombre": "CONCHAS RIOKA X 250 PC X 24",
         "precio": 898,
@@ -4985,7 +4994,7 @@
         "activo": true
     },
     {
-        "id": 555,
+        "id": 556,
         "codigo": "JPO0008",
         "nombre": "SPAGUETTI RIOKA X 1000 PC X 12",
         "precio": 3585,
@@ -4994,7 +5003,7 @@
         "activo": true
     },
     {
-        "id": 556,
+        "id": 557,
         "codigo": "JPO0009",
         "nombre": "SPAGUETTI RIOKA X 250 PC X 24",
         "precio": 898,
@@ -5003,7 +5012,7 @@
         "activo": true
     },
     {
-        "id": 557,
+        "id": 558,
         "codigo": "JPO0010",
         "nombre": "FIDEOS RIOKA X 1000 PC X 6",
         "precio": 3585,
@@ -5012,7 +5021,7 @@
         "activo": true
     },
     {
-        "id": 558,
+        "id": 559,
         "codigo": "JPO0011",
         "nombre": "CONCHAS RIOKA X 1000 PC X 6",
         "precio": 3585,
@@ -5021,7 +5030,7 @@
         "activo": true
     },
     {
-        "id": 559,
+        "id": 560,
         "codigo": "JPO0012",
         "nombre": "MACARRON X 1000 PC X 6",
         "precio": 3585,
@@ -5030,7 +5039,7 @@
         "activo": true
     },
     {
-        "id": 560,
+        "id": 561,
         "codigo": "JPR0001",
         "nombre": "ARENA FELIGATO VALVULA X 4 KL PC X 6",
         "precio": 11877,
@@ -5039,7 +5048,7 @@
         "activo": true
     },
     {
-        "id": 561,
+        "id": 562,
         "codigo": "JPR0002",
         "nombre": "ARENA FELIGATO X 25 KL",
         "precio": 64635,
@@ -5048,7 +5057,7 @@
         "activo": true
     },
     {
-        "id": 562,
+        "id": 563,
         "codigo": "JPR0003",
         "nombre": "ARENA FELIGATO LAVANDA X 4,5 KL PC X 6",
         "precio": 14635,
@@ -5057,7 +5066,7 @@
         "activo": true
     },
     {
-        "id": 563,
+        "id": 564,
         "codigo": "JPR0006",
         "nombre": "ARENA FELIGATO X 8 KL PC X 4",
         "precio": 21961,
@@ -5066,7 +5075,7 @@
         "activo": true
     },
     {
-        "id": 564,
+        "id": 565,
         "codigo": "JPR0008",
         "nombre": "ARENA FELIGATO SIN VALVULA  X 4 KL PC X 6",
         "precio": 10487,
@@ -5075,7 +5084,7 @@
         "activo": true
     },
     {
-        "id": 565,
+        "id": 566,
         "codigo": "JPS0001",
         "nombre": "VINAGRE DE MANZANA X 500 ML CJ X 24",
         "precio": 1270,
@@ -5084,7 +5093,7 @@
         "activo": true
     },
     {
-        "id": 566,
+        "id": 567,
         "codigo": "JPS0002",
         "nombre": "VINAGRE BLANCO X 500 ML CJ X 24",
         "precio": 1270,
@@ -5093,7 +5102,7 @@
         "activo": true
     },
     {
-        "id": 567,
+        "id": 568,
         "codigo": "JPS0003",
         "nombre": "VINAGRE BLANCO X 3000 ML CJ X 6",
         "precio": 5081,
@@ -5102,7 +5111,7 @@
         "activo": true
     },
     {
-        "id": 568,
+        "id": 569,
         "codigo": "JPS0004",
         "nombre": "VINAGRE BLANCO X 1000 ML CJ X 12",
         "precio": 2542,
@@ -5111,7 +5120,7 @@
         "activo": true
     },
     {
-        "id": 569,
+        "id": 570,
         "codigo": "JPS0005",
         "nombre": "VINAGRE BLANCO X 5000 ML CJ X 4",
         "precio": 7774,
@@ -5120,7 +5129,7 @@
         "activo": true
     },
     {
-        "id": 570,
+        "id": 571,
         "codigo": "JPS0006",
         "nombre": "VINAGRE DE MANZANA X 3000 ML CJ X 6",
         "precio": 5081,
@@ -5129,7 +5138,7 @@
         "activo": true
     },
     {
-        "id": 571,
+        "id": 572,
         "codigo": "JPS0007",
         "nombre": "VINAGRE DE MANZANA X 1000 ML CJ X 12",
         "precio": 2542,
@@ -5138,7 +5147,7 @@
         "activo": true
     },
     {
-        "id": 572,
+        "id": 573,
         "codigo": "JPS0009",
         "nombre": "SALSA DE AJI CJ X 12",
         "precio": 2562,
@@ -5147,7 +5156,7 @@
         "activo": true
     },
     {
-        "id": 573,
+        "id": 574,
         "codigo": "JRD0001",
         "nombre": "SALCHICHA RONDA VIENA X 7 UND CJ X 48",
         "precio": 3948,
@@ -5156,7 +5165,7 @@
         "activo": true
     },
     {
-        "id": 574,
+        "id": 575,
         "codigo": "JRD0002",
         "nombre": "SALCHICHA RONDA FRANKFURT X 7 CJ X 24",
         "precio": 7898,
@@ -5165,7 +5174,7 @@
         "activo": true
     },
     {
-        "id": 575,
+        "id": 576,
         "codigo": "JRR0001",
         "nombre": "TISANAS SURTIDA PC X 24 UND",
         "precio": 43102,
@@ -5174,7 +5183,7 @@
         "activo": true
     },
     {
-        "id": 576,
+        "id": 577,
         "codigo": "JRR0002",
         "nombre": "AROMATICA PANELA FRUTOS ROJOS PC X 12",
         "precio": 3630,
@@ -5183,7 +5192,7 @@
         "activo": true
     },
     {
-        "id": 577,
+        "id": 578,
         "codigo": "JRR0003",
         "nombre": "AROMATICA PANELA SURTIDA PC X 12DP",
         "precio": 3630,
@@ -5192,7 +5201,7 @@
         "activo": true
     },
     {
-        "id": 578,
+        "id": 579,
         "codigo": "JRR0005",
         "nombre": "AROMATICA PANELA MARACUYA X 12",
         "precio": 3630,
@@ -5201,7 +5210,7 @@
         "activo": true
     },
     {
-        "id": 579,
+        "id": 580,
         "codigo": "JRS0006",
         "nombre": "MEGA NATILLA AREQUIPE X 300 CJ X 20 UND",
         "precio": 2911,
@@ -5210,7 +5219,7 @@
         "activo": false
     },
     {
-        "id": 580,
+        "id": 581,
         "codigo": "JRS0007",
         "nombre": "MEGA NATILLA MARACUYA X 300 CAJA X 20 UND",
         "precio": 2911,
@@ -5219,7 +5228,7 @@
         "activo": false
     },
     {
-        "id": 581,
+        "id": 582,
         "codigo": "JRS0008",
         "nombre": "MEGA NATILLA COCO X 300 CAJA X 20 UND",
         "precio": 2911,
@@ -5228,7 +5237,7 @@
         "activo": false
     },
     {
-        "id": 582,
+        "id": 583,
         "codigo": "JRS0009",
         "nombre": "MEGA NATILLA TRACIONAL X 300 CAJA X 20 UND",
         "precio": 2911,
@@ -5237,7 +5246,7 @@
         "activo": false
     },
     {
-        "id": 583,
+        "id": 584,
         "codigo": "JRS0010",
         "nombre": "MEGA BUÑUELOS X 300 GR CAJA X 20 UND",
         "precio": 2911,
@@ -5246,7 +5255,7 @@
         "activo": false
     },
     {
-        "id": 584,
+        "id": 585,
         "codigo": "JSA0001",
         "nombre": "PIÑA COLADA MAUI X 700 ML CJ X 12",
         "precio": 30965,
@@ -5255,7 +5264,7 @@
         "activo": true
     },
     {
-        "id": 585,
+        "id": 586,
         "codigo": "JSA0002",
         "nombre": "SABAJON APOLO SABOR A BRANDY X 700 ML CJ X 12",
         "precio": 31201,
@@ -5264,7 +5273,7 @@
         "activo": true
     },
     {
-        "id": 586,
+        "id": 587,
         "codigo": "JSA0003",
         "nombre": "SABAJON APOLO SABOR A VAINILLA X 700 ML CJ X 12",
         "precio": 30783,
@@ -5273,7 +5282,7 @@
         "activo": true
     },
     {
-        "id": 587,
+        "id": 588,
         "codigo": "JVN0001",
         "nombre": "GELATINA FRUT DAY X 250 CJ X  50",
         "precio": 4495,
@@ -5282,7 +5291,7 @@
         "activo": true
     },
     {
-        "id": 588,
+        "id": 589,
         "codigo": "JVN0002",
         "nombre": "GELATINA FRUT DAY X 500 CJ X 50",
         "precio": 8988,
@@ -5291,7 +5300,7 @@
         "activo": true
     },
     {
-        "id": 589,
+        "id": 590,
         "codigo": "JVN0003",
         "nombre": "GELATINA FRUT DAY X 1000 CJ  X 25",
         "precio": 17977,
@@ -5300,7 +5309,7 @@
         "activo": true
     },
     {
-        "id": 590,
+        "id": 591,
         "codigo": "JVN0004",
         "nombre": "GELATINA FRUT DAY X 105 GR 3 SABORES CJ X 32",
         "precio": 3369,
