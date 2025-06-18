@@ -4325,7 +4325,7 @@
         "precio": 0,
         "imagen": "../assets/img_catalogo/prebel/7702044243889.png",
         "barra": 7702044243889,
-        "activo": false
+        "activo": true
     },
     {
         "id": 482,
@@ -4397,7 +4397,7 @@
         "precio": 23934,
         "imagen": "../assets/img_catalogo/prebel/7702044285407.png",
         "barra": 7702044285407,
-        "activo": false
+        "activo": true
     },
     {
         "id": 490,
@@ -4514,7 +4514,7 @@
         "precio": 24967,
         "imagen": "../assets/img_catalogo/prebel/7702044085434.png",
         "barra": 7702044085434,
-        "activo": false
+        "activo": true
     },
     {
         "id": 503,
@@ -4523,7 +4523,7 @@
         "precio": 22542,
         "imagen": "../assets/img_catalogo/prebel/7702044082969.png",
         "barra": 7702044082969,
-        "activo": false
+        "activo": true
     },
     {
         "id": 504,
