@@ -6562,5 +6562,13 @@
             "direccion": "CL 51 SUR 88 F 51 Bosa Brasil ",
             "vendedor": "Francy Janeth Huertas Martinez"
         }]
+    },
+    {
+        "id": 1070326937,
+        "nombre": "JHON HENRY HERRERA PARRA",
+        "sucursales": [{
+            "direccion": "CL 4 2A 24  Pradilla ",
+            "vendedor": "Ydiana Maria Sanchez Jimenez"
+        }]
     }
 ]
