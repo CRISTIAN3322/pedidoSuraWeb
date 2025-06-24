@@ -6586,5 +6586,13 @@
             "direccion": "DG 89 A SUR 02 B 09 Chuniza ",
             "vendedor": "Claudia Yojana Corredor Gonzalez"
         }]
+    },
+    {
+        "id": 830020406,
+        "nombre": "SALAS CASTILLO SAS",
+        "sucursales": [{
+            "direccion": "CR 141A BIS A 143 B11 Suba Bilbao ",
+            "vendedor": "Consuelo Muñoz"
+        }]
     }
 ]
