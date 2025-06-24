@@ -6570,5 +6570,21 @@
             "direccion": "CL 4 2A 24  Pradilla ",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
+    },
+    {
+        "id": 52071782,
+        "nombre": "CLARA INES GARCIA ZAMBRANO",
+        "sucursales": [{
+            "direccion": "CR 17 51 B 61 SUR Puente Aranda ",
+            "vendedor": "Claudia Yojana Corredor Gonzalez"
+        }]
+    },
+    {
+        "id": 1000989371,
+        "nombre": "KEVIN ANDRES NOVOA SANTANA",
+        "sucursales": [{
+            "direccion": "DG 89 A SUR 02 B 09 Chuniza ",
+            "vendedor": "Claudia Yojana Corredor Gonzalez"
+        }]
     }
 ]
