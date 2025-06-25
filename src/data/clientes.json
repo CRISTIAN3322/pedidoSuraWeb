@@ -6594,5 +6594,22 @@
             "direccion": "CR 141A BIS A 143 B11 Suba Bilbao ",
             "vendedor": "Consuelo Muñoz"
         }]
+    },
+    {
+        "id": 1032477458,
+        "nombre": "NEIDY DAYANA MAYORGA ACEVEDO",
+        "sucursales": [{
+            "direccion": "CL 15 2B 08 LC 03 Las Villas Soacha ",
+            "vendedor": "Bucky Santana Vanegas"
+        }]
+    },
+    {
+        "id": 9850279,
+        "nombre": "NELSON ALBERTO MORALES OSORIO",
+        "sucursales": [{
+            "direccion": "CR 15 G BIS 15 76  Las Villas Soacha ",
+            "vendedor": "Bucky Santana Vanegas"
+        }]
     }
+
 ]
