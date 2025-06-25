@@ -1811,7 +1811,7 @@
         "id": 202,
         "codigo": "JCI0089",
         "nombre": "WAFER PAQUETACO CHOCOLATE X 117 GR CJ X 48",
-        "precio": 2836,
+        "precio": 2698,
         "imagen": " ../assets/img_catalogo/comestibles-italo/paquetaco-chocolate.png ",
         "barra": 7702117009114,
         "activo": true
@@ -1820,7 +1820,7 @@
         "id": 203,
         "codigo": "JCI0090",
         "nombre": "WAFER PAQUETACO COCO X 117 GR X CJ X 48",
-        "precio": 2836,
+        "precio": 2698,
         "imagen": " ../assets/img_catalogo/comestibles-italo/paquetaco-coco.png ",
         "barra": 7702117008704,
         "activo": true
@@ -1829,7 +1829,7 @@
         "id": 204,
         "codigo": "JCI0091",
         "nombre": "WAFER PAQUETACO FRESA X 117 CJ X 48",
-        "precio": 2836,
+        "precio": 2698,
         "imagen": " ../assets/img_catalogo/comestibles-italo/paquetaco-fresa.png ",
         "barra": 7702117160068,
         "activo": true
@@ -1838,7 +1838,7 @@
         "id": 205,
         "codigo": "JCI0092",
         "nombre": "WAFER PAQUETACO AREQUIPE X 117 GR CJ X 48",
-        "precio": 2836,
+        "precio": 2698,
         "imagen": " ../assets/img_catalogo/comestibles-italo/paquetaco-arequipe.png ",
         "barra": 7702117008711,
         "activo": true
@@ -1847,7 +1847,7 @@
         "id": 206,
         "codigo": "JCI0093",
         "nombre": "WAFER PAQUETACO NARANJA X 117 GR CJ X 48",
-        "precio": 2836,
+        "precio": 2698,
         "imagen": " ../assets/img_catalogo/comestibles-italo/paquetaco-naranja.png ",
         "barra": 7702117160990,
         "activo": true
@@ -1856,7 +1856,7 @@
         "id": 207,
         "codigo": "JCI0094",
         "nombre": "WAFER PAQUETACO GUANABANA  X 117 GR CJ X 48",
-        "precio": 2836,
+        "precio": 2698,
         "imagen": " ../assets/img_catalogo/comestibles-italo/paquetaco-guanabana.png ",
         "barra": 7702117009626,
         "activo": true
@@ -1865,7 +1865,7 @@
         "id": 208,
         "codigo": "JCI0095",
         "nombre": "WAFER PAQUETACO VAINILLA X 117 GR CJ X 48",
-        "precio": 2836,
+        "precio": 2698,
         "imagen": " ../assets/img_catalogo/comestibles-italo/paquetaco-vainilla.png ",
         "barra": 7702117160259,
         "activo": true
@@ -1874,7 +1874,7 @@
         "id": 209,
         "codigo": "JCI0096",
         "nombre": "WAFER PAQUETACO LIMON X 117 GR CJ X 48",
-        "precio": 2836,
+        "precio": 2698,
         "imagen": " ../assets/img_catalogo/comestibles-italo/paquetaco-limon.png ",
         "barra": 7702117160679,
         "activo": true
@@ -1883,7 +1883,7 @@
         "id": 210,
         "codigo": "JCI0097",
         "nombre": "WAFER PAQUETACO MORA X 117 GR CJ X 48",
-        "precio": 2836,
+        "precio": 2698,
         "imagen": " ../assets/img_catalogo/comestibles-italo/paquetaco-mora.png ",
         "barra": 7702117012374,
         "activo": true
