@@ -4610,28 +4610,28 @@
         "id": 513,
         "codigo": "JPB0063",
         "nombre": "BALSAMO POST AFEITADO CONNECT FOR MEN X 130 ML CJ X 6",
-        "precio": 0,
+        "precio": "16711,17",
         "imagen": "../assets/img_catalogo/prebel/7702044282956.png",
         "barra": 7702044282956,
-        "activo": false
+        "activo": true
     },
     {
         "id": 514,
         "codigo": "JPB0064",
         "nombre": "ESPUMA PARA AFEITAR CONNECT FOR MEN X 195 ML  CJ X 12",
-        "precio": 0,
+        "precio": "16712,36",
         "imagen": "../assets/img_catalogo/prebel/7702044282987.png",
         "barra": 7702044282987,
-        "activo": false
+        "activo": true
     },
     {
         "id": 515,
         "codigo": "JPB0065",
         "nombre": "NUDE PROTECTOR SPF 50 FACIAL MATE X 50 ML CJ X 12",
-        "precio": 0,
+        "precio": "41903,47",
         "imagen": "../assets/img_catalogo/prebel/7702044245234.png",
         "barra": 7702044245234,
-        "activo": false
+        "activo": true
     },
     {
         "id": 516,
@@ -4646,10 +4646,10 @@
         "id": 517,
         "codigo": "JPB0067",
         "nombre": "PESTAÑIA LASH MARKER X 2 CJ X 6",
-        "precio": 0,
+        "precio": "27446,16",
         "imagen": "../assets/img_catalogo/prebel/7702044160353.png",
         "barra": 7702044160353,
-        "activo": false
+        "activo": true
     },
     {
         "id": 518,
