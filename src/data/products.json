@@ -722,37 +722,37 @@
         "id": 81,
         "codigo": "JAW0008",
         "nombre": "JABON LIQUIDO FRESKITOS AVENA X 1000 ML CJ X 16",
-        "precio": 0,
+        "precio": "5763,17",
         "imagen": " ../assets/img_catalogo/atw/7709586352369.png ",
         "barra": 7709586352369,
-        "activo": false
+        "activo": true
     },
     {
         "id": 82,
         "codigo": "JAW0009",
         "nombre": "JABON LIQUIDO FRESKITOS FRUTOS ROJOS X 1000 ML CJ X 16",
-        "precio": 0,
+        "precio": "5763,17",
         "imagen": " ../assets/img_catalogo/atw/7709643563851.png ",
         "barra": 7709643563851,
-        "activo": false
+        "activo": true
     },
     {
         "id": 83,
         "codigo": "JAW0010",
         "nombre": "JABON LIQUIDO FRESKITOS MANZANA VERDE X 1000 ML CJ X 16",
-        "precio": 0,
+        "precio": "5763,17",
         "imagen": " ../assets/img_catalogo/atw/7709808402223.png ",
         "barra": 7709808402223,
-        "activo": false
+        "activo": true
     },
     {
         "id": 84,
         "codigo": "JAW0011",
         "nombre": "PAÑITOS HUMEDOS FRESQUITOS  X 25 UN PQ X 48 UND",
-        "precio": 0,
+        "precio": 2234,
         "imagen": " ../assets/img_catalogo/atw/7709745310063.png ",
         "barra": 7709745310063,
-        "activo": false
+        "activo": true
     },
     {
         "id": 85,
@@ -2180,19 +2180,19 @@
         "id": 243,
         "codigo": "JDL0010",
         "nombre": "TAJIN CLASICO X 45 GR CJ X 24",
-        "precio": 0,
+        "precio": "6672,33",
         "imagen": " ../assets/img_catalogo/dislicores/633148100099.png ",
         "barra": 633148100099,
-        "activo": false
+        "activo": true
     },
     {
         "id": 244,
         "codigo": "JDL0011",
         "nombre": "TAJIN CLASICO X 142 GR CJ X 24",
-        "precio": 0,
+        "precio": "13520,78",
         "imagen": " ../assets/img_catalogo/dislicores/633148100013.png ",
         "barra": 633148100013,
-        "activo": false
+        "activo": true
     },
     {
         "id": 245,
@@ -4592,10 +4592,10 @@
         "id": 511,
         "codigo": "JPB0061",
         "nombre": "ARDEN FOR MEN AEROSOL PIES ANTIBACTERIAL X 240 ML X 2 CJ 6",
-        "precio": 0,
+        "precio": "27628,23",
         "imagen": "../assets/img_catalogo/prebel/7702044266390.png",
         "barra": 7702044266390,
-        "activo": false
+        "activo": true
     },
     {
         "id": 512,
