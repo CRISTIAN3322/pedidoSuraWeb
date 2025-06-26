@@ -6610,6 +6610,14 @@
             "direccion": "CR 15 G BIS 15 76  Las Villas Soacha ",
             "vendedor": "Bucky Santana Vanegas"
         }]
+    },
+    {
+        "id": 52025478,
+        "nombre": "VILMA RAQUEL USME MEDINA",
+        "sucursales": [{
+            "direccion": "CL 54 SUR 78 A 22 Timiza ",
+            "vendedor": "Yeny Maribel Monroy Patiño"
+        }]
     }
 
 ]
