@@ -6618,6 +6618,14 @@
             "direccion": "CL 54 SUR 78 A 22 Timiza ",
             "vendedor": "Yeny Maribel Monroy Patiño"
         }]
+    },
+    {
+        "id": 901848732,
+        "nombre": "MERCADOS SURTICENTRO SAS",
+        "sucursales": [{
+            "direccion": "CL 23 A 17 17 Centro ",
+            "vendedor": "Maria Esther Caballero Benitez"
+        }]
     }
 
 ]
