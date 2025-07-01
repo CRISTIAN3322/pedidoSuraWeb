@@ -2,7 +2,13 @@
 // Import products data from JSON file
 import products from '../data/products.json';
 // Obtener proveedores únicos
-const proveedores = Array.from(new Set(products.map(p => p.proveedor)));
+const proveedores = Array.from(
+  new Set(
+    products
+      .filter(p => p.activo)
+      .map(p => p.proveedor)
+  )
+);
 ---
 
 <div class="filter-container">
