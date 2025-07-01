@@ -1,7 +1,19 @@
 ---
 // Import products data from JSON file
 import products from '../data/products.json';
+// Obtener proveedores únicos
+const proveedores = Array.from(new Set(products.map(p => p.proveedor)));
 ---
+
+<div class="filter-container">
+    <label for="proveedorSelect">Filtrar por proveedor:</label>
+    <select id="proveedorSelect" class="proveedor-select">
+        <option value="">Todos</option>
+        {proveedores.map((prov) => (
+            <option value={prov}>{prov}</option>
+        ))}
+    </select>
+</div>
 
 <div class="search-container">
     <input 
@@ -14,7 +26,7 @@ import products from '../data/products.json';
 
 <div class="products-container">
     {products.map((product) => (
-        <div class="product-card" data-active={product.activo} data-product-name={product.nombre.toLowerCase()} data-product-code={product.codigo} data-product-barcode={product.barra}>
+        <div class="product-card" data-active={product.activo} data-product-name={product.nombre.toLowerCase()} data-product-code={product.codigo} data-product-barcode={product.barra} data-product-proveedor={product.proveedor}>
         <div class="imagen-card">
             {product.imagen && <img src={product.imagen} alt={product.nombre} class="imagen-Product"/>}
         </div>
@@ -42,39 +54,45 @@ import products from '../data/products.json';
 </div>
 
 <script>
-    // Función de búsqueda
-    function filterProducts(searchTerm: string) {
+    // Filtro por proveedor y búsqueda
+    function filterProducts(searchTerm = '', proveedor = '') {
         const productCards = document.querySelectorAll('.product-card');
         searchTerm = searchTerm.toLowerCase().trim();
+        proveedor = proveedor.trim();
 
         productCards.forEach(card => {
             const productName = (card as HTMLElement).dataset.productName || '';
             const productCode = (card as HTMLElement).dataset.productCode || '';
             const productBarcode = (card as HTMLElement).dataset.productBarcode || '';
+            const productProveedor = (card as HTMLElement).dataset.productProveedor || '';
             const isActive = (card as HTMLElement).dataset.active === 'true';
-            
+
+            const matchesProveedor = !proveedor || productProveedor === proveedor;
             const matches = (
-                productName.includes(searchTerm) || 
+                (productName.includes(searchTerm) || 
                 productCode.toLowerCase().includes(searchTerm) || 
-                productBarcode.toLowerCase().includes(searchTerm)
-            ) && isActive;
-            
+                productBarcode.toLowerCase().includes(searchTerm)) &&
+                isActive &&
+                matchesProveedor
+            );
             (card as HTMLElement).style.display = matches ? 'block' : 'none';
         });
     }
 
     // Ejecutar el filtro inicial para ocultar productos inactivos al cargar
     window.addEventListener('DOMContentLoaded', () => {
-        filterProducts('');
+        filterProducts('', '');
     });
 
-    // Evento de búsqueda
+    // Evento de búsqueda y proveedor
     const searchInput = document.getElementById('searchInput');
-    if (searchInput) {
-        searchInput.addEventListener('input', (e) => {
-            const target = e.target as HTMLInputElement;
-            filterProducts(target.value);
-        });
+    const proveedorSelect = document.getElementById('proveedorSelect');
+    if (searchInput && proveedorSelect) {
+        const updateFilter = () => {
+            filterProducts((searchInput as HTMLInputElement).value, (proveedorSelect as HTMLSelectElement).value);
+        };
+        searchInput.addEventListener('input', updateFilter);
+        proveedorSelect.addEventListener('change', updateFilter);
     }
 
     // Manejo de la cantidad de productos
@@ -158,6 +176,46 @@ import products from '../data/products.json';
 </script>
 
 <style>
+    .filter-container {
+        max-width: 1400px;
+        margin: 1.5rem auto 1rem;
+        padding: 0 1.5rem;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        background: #f7fafc;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(44, 82, 130, 0.08);
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .filter-container label {
+        font-weight: bold;
+        color: #2c5282;
+        font-size: 1.1rem;
+        margin-right: 0.5rem;
+    }
+    .proveedor-select {
+        padding: 0.6rem 1.2rem;
+        border-radius: 8px;
+        border: 2px solid #73f806;
+        font-size: 1rem;
+        background: #fff;
+        color: #2c5282;
+        box-shadow: 0 1px 4px rgba(44, 82, 130, 0.07);
+        transition: border-color 0.2s, box-shadow 0.2s;
+        outline: none;
+        cursor: pointer;
+    }
+    .proveedor-select:focus, .proveedor-select:hover {
+        border-color: #38a169;
+        box-shadow: 0 2px 8px rgba(56, 161, 105, 0.12);
+    }
+    .proveedor-select option {
+        color: #2c5282;
+        background: #f7fafc;
+    }
+
     .search-container {
         max-width: 1400px;
         margin: 2rem auto 1rem;
