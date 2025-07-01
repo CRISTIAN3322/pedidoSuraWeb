@@ -321,6 +321,21 @@ const proveedores = Array.from(new Set(products.map(p => p.proveedor)));
 
     /* Media queries para mejor responsividad */
     @media (max-width: 640px) {
+        .filter-container {
+            flex-direction: column;
+            align-items: stretch;
+            gap: 0.5rem;
+            padding: 1rem 0.5rem;
+        }
+        .filter-container label {
+            margin-bottom: 0.25rem;
+            font-size: 1rem;
+        }
+        .proveedor-select {
+            width: 100%;
+            font-size: 1rem;
+            padding: 0.7rem 1rem;
+        }
         .products-container {
             padding: 1rem;
             gap: 1rem;
@@ -328,6 +343,18 @@ const proveedores = Array.from(new Set(products.map(p => p.proveedor)));
 
         .product-card {
             padding: 1rem;
+        }
+        .search-container {
+            padding: 0.5rem 0.5rem 1rem 0.5rem;
+            margin: 0.5rem 0 1rem 0;
+        }
+        .search-input {
+            width: 90%;
+            font-size: 1.1rem;
+            padding: 1rem 1.2rem;
+            border-radius: 10px;
+            border: 2px solid #73f806;
+            box-shadow: 0 1px 4px rgba(44, 82, 130, 0.07);
         }
     }
 
