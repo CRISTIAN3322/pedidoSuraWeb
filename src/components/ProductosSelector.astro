@@ -39,7 +39,7 @@ const proveedores = Array.from(
             <h3>{product.nombre}</h3>
             <p class="code">Código: {product.codigo}</p>
             <p class="price">${product.precio}</p>
-            <p class="inventory">Stock: {product.invetario}</p>
+            <p class={"inventory" + (Number(product.invetario) < 1 ? ' inventory-low' : '')}>Stock: {product.invetario}</p>
             <p class="barcode">Código de Barras: {product.barra}</p>
             
             <div class="quantity-control">
@@ -255,29 +255,37 @@ const proveedores = Array.from(
     .product-card {
         border: 1px solid #ddd;
         border-radius: 12px;
-        padding: 1.5rem;
+        padding: 1.2rem 1rem 1rem 1rem;
         text-align: center;
         background: white;
         box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         transition: transform 0.2s ease, box-shadow 0.2s ease;
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
         height: 500px; /* Altura fija para todas las tarjetas */
+        box-sizing: border-box;
+        overflow: hidden;
     }
 
     .imagen-card {
-        height: 200px; /* Altura fija para el contenedor de la imagen */
+        height: 160px;
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-bottom: 1rem;
+        margin-bottom: 0.7rem;
+        overflow: hidden;
     }
 
     .imagen-Product {
-        max-width: 150px;
-        max-height: 180px; /* Altura máxima para la imagen */
+        max-width: 120px;
+        max-height: 140px;
         width: auto;
         object-fit: contain;
+        margin: 0 auto;
+        display: block;
     }
 
     .product-card:hover {
@@ -294,37 +302,49 @@ const proveedores = Array.from(
 
     .product-card h3 {
         color: #1a365d;
-        margin-bottom: 0.75rem;
-    }
-
-    .price {
-        font-weight: bold;
-        color: #2c5282;
-        font-size: 1.25rem;
-        margin: 0.75rem 0;
-    }
-
-    .code {
-        font-size: 0.9rem;
-        color: #666;
-        margin: 0.75rem 0;
+        margin-bottom: 0.4rem;
+        font-size: 1.1rem;
+        min-height: 2.2em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
 
     .inventory {
         font-size: 1rem;
         color: #38a169;
         font-weight: bold;
-        margin: 0.5rem 0;
+        margin: 0.2rem 0 0.4rem 0;
+    }
+    .inventory-low {
+        color: #e53e3e !important;
+    }
+
+    .code {
+        font-size: 0.9rem;
+        color: #666;
+        margin: 0.2rem 0;
+    }
+
+    .price {
+        font-weight: bold;
+        color: #2c5282;
+        font-size: 1.15rem;
+        margin: 0.2rem 0 0.4rem 0;
     }
 
     .barcode {
         font-family: monospace;
         font-size: 0.9rem;
         color: #4a5568;
-        margin-top: 0.75rem;
-        padding: 0.5rem;
+        margin: 0.2rem 0 0.5rem 0;
+        padding: 0.3rem;
         background: #f7fafc;
         border-radius: 6px;
+        width: 100%;
+        box-sizing: border-box;
+        word-break: break-all;
     }
 
     /* Estilo para productos inactivos */
@@ -356,19 +376,24 @@ const proveedores = Array.from(
         }
 
         .product-card {
-            padding: 1rem;
+            height: auto;
+            min-height: 420px;
+            padding: 0.7rem 0.3rem 1rem 0.3rem;
         }
-        .search-container {
-            padding: 0.5rem 0.5rem 1rem 0.5rem;
-            margin: 0.5rem 0 1rem 0;
+        .imagen-card {
+            height: 120px;
         }
-        .search-input {
-            width: 90%;
-            font-size: 1.1rem;
-            padding: 1rem 1.2rem;
-            border-radius: 10px;
-            border: 2px solid #73f806;
-            box-shadow: 0 1px 4px rgba(44, 82, 130, 0.07);
+        .imagen-Product {
+            max-width: 90px;
+            max-height: 100px;
+        }
+        .barcode {
+            font-size: 0.8rem;
+            padding: 0.2rem;
+        }
+        .add-to-cart-btn {
+            font-size: 0.95rem;
+            padding: 0.5rem 0.7rem;
         }
     }
 
@@ -377,7 +402,9 @@ const proveedores = Array.from(
         align-items: center;
         justify-content: center;
         gap: 0.5rem;
-        margin-top: 1rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        width: 100%;
     }
 
     .quantity-btn {
@@ -400,7 +427,7 @@ const proveedores = Array.from(
     }
 
     .quantity-input {
-        width: 60px;
+        width: 50px;
         height: 30px;
         text-align: center;
         border: 1px solid #ddd;
@@ -425,16 +452,17 @@ const proveedores = Array.from(
     }
 
     .add-to-cart-btn {
-        margin-top: 1rem;
+        margin-top: 0.5rem;
         background-color: #48bb78;
         color: white;
         border: none;
         border-radius: 6px;
-        padding: 0.75rem 1.5rem;
+        padding: 0.6rem 1.2rem;
         font-size: 1rem;
         cursor: pointer;
         transition: background-color 0.2s ease;
         width: 100%;
+        box-sizing: border-box;
     }
 
     .add-to-cart-btn:hover {
