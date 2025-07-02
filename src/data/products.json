@@ -962,7 +962,7 @@
         "precio": 97187,
         "imagen": " ../assets/img_catalogo/bellini/italcan-30-kl.png ",
         "barra": 7707205157142,
-        "invetario": 38,
+        "invetario": 0,
         "proveedor": "BELLINI",
         "activo": true
     },
