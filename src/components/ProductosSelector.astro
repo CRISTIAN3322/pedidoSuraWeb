@@ -8,7 +8,7 @@ const proveedores = Array.from(
       .filter(p => p.activo)
       .map(p => p.proveedor)
   )
-);
+).sort((a, b) => a.localeCompare(b));
 ---
 
 <div class="filter-container">
