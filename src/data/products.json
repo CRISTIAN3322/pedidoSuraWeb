@@ -2788,7 +2788,7 @@
         "precio": 129480,
         "imagen": " ../assets/img_catalogo/duquesa/margarina-preferida-125.png ",
         "barra": 7707142301660,
-        "invetario": "68,275",
+        "invetario": "118",
         "proveedor": "DUQUESA",
         "activo": true
     },
@@ -2799,7 +2799,7 @@
         "precio": 122693,
         "imagen": " ../assets/img_catalogo/duquesa/margarina-preferida-250.png ",
         "barra": 7707142301677,
-        "invetario": "60,3",
+        "invetario": "112",
         "proveedor": "DUQUESA",
         "activo": true
     },
@@ -2810,7 +2810,7 @@
         "precio": 117554,
         "imagen": " ../assets/img_catalogo/duquesa/margarina-preferida-500.png ",
         "barra": 7707142301639,
-        "invetario": "73,65",
+        "invetario": "123",
         "proveedor": "DUQUESA",
         "activo": true
     },
