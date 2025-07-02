@@ -1424,7 +1424,7 @@
         "precio": 3415,
         "imagen": " ../assets/img_catalogo/comestibles-italo/caramelo-cafe-x25.png ",
         "barra": 7702117007356,
-        "invetario": 0,
+        "invetario": 19,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
