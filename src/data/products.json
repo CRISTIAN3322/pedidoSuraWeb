@@ -60,7 +60,7 @@
         "precio": 16606,
         "imagen": "../assets/img_catalogo/toning/cereal-aritos-1000.png",
         "barra": 7702622724137,
-        "invetario": 883,
+        "invetario": 853,
         "proveedor": "TONING",
         "activo": true
     },
@@ -71,7 +71,7 @@
         "precio": 1625,
         "imagen": "../assets/img_catalogo/toning/avena-hojuelas-200.png",
         "barra": 7702622525093,
-        "invetario": 3134,
+        "invetario": 3098,
         "proveedor": "TONING",
         "activo": true
     },
@@ -82,7 +82,7 @@
         "precio": 3765,
         "imagen": "../assets/img_catalogo/toning/avena-hojuelas-500.png",
         "barra": 7702622527103,
-        "invetario": 6475,
+        "invetario": 6367,
         "proveedor": "TONING",
         "activo": true
     },
@@ -104,7 +104,7 @@
         "precio": 3054,
         "imagen": "../assets/img_catalogo/toning/avena-insta-fresa-180.png",
         "barra": 7702622522139,
-        "invetario": 1081,
+        "invetario": 1056,
         "proveedor": "TONING",
         "activo": true
     },
@@ -115,7 +115,7 @@
         "precio": 3054,
         "imagen": "../assets/img_catalogo/toning/avena-insta-mora-180.png",
         "barra": 7702622522016,
-        "invetario": 1236,
+        "invetario": 1205,
         "proveedor": "TONING",
         "activo": true
     },
@@ -126,7 +126,7 @@
         "precio": 3054,
         "imagen": "../assets/img_catalogo/toning/avena-insta-vainilla-180.png",
         "barra": 7702622522023,
-        "invetario": 1340,
+        "invetario": 1327,
         "proveedor": "TONING",
         "activo": true
     },
@@ -137,7 +137,7 @@
         "precio": 1625,
         "imagen": "../assets/img_catalogo/toning/avena-molida-200.png",
         "barra": 7702622528131,
-        "invetario": 1305,
+        "invetario": 1293,
         "proveedor": "TONING",
         "activo": true
     },
@@ -148,7 +148,7 @@
         "precio": 16990,
         "imagen": "../assets/img_catalogo/toning/cereal-choco-choc-1000.png",
         "barra": 7702622724045,
-        "invetario": 921,
+        "invetario": 879,
         "proveedor": "TONING",
         "activo": true
     },
@@ -159,7 +159,7 @@
         "precio": 3713,
         "imagen": "../assets/img_catalogo/toning/colada-7-granos-200-fresa.png",
         "barra": 7702622423146,
-        "invetario": 1842,
+        "invetario": 1794,
         "proveedor": "TONING",
         "activo": true
     },
@@ -170,7 +170,7 @@
         "precio": 3713,
         "imagen": "../assets/img_catalogo/toning/colada-7-granos-200-natural.png",
         "barra": 7702622423139,
-        "invetario": 2067,
+        "invetario": 1959,
         "proveedor": "TONING",
         "activo": true
     },
@@ -181,7 +181,7 @@
         "precio": 3713,
         "imagen": "../assets/img_catalogo/toning/colada-7-granos-200-vainilla.png ",
         "barra": 7702622423153,
-        "invetario": 1791,
+        "invetario": 1695,
         "proveedor": "TONING",
         "activo": true
     },
@@ -192,7 +192,7 @@
         "precio": 3356,
         "imagen": "../assets/img_catalogo/toning/colada-de-platano-200.png ",
         "barra": 7702622422132,
-        "invetario": 246,
+        "invetario": 222,
         "proveedor": "TONING",
         "activo": true
     },
@@ -203,7 +203,7 @@
         "precio": 15859,
         "imagen": "../assets/img_catalogo/toning/forza-almendra-original-200.png ",
         "barra": 7702622725011,
-        "invetario": 376,
+        "invetario": 361,
         "proveedor": "TONING",
         "activo": true
     },
@@ -214,7 +214,7 @@
         "precio": 15859,
         "imagen": "../assets/img_catalogo/toning/forza-almendra-vainilla-200.png ",
         "barra": 7702622423559,
-        "invetario": 386,
+        "invetario": 365,
         "proveedor": "TONING",
         "activo": true
     },
@@ -247,7 +247,7 @@
         "precio": 7715,
         "imagen": "../assets/img_catalogo/toning/granola-500.png ",
         "barra": 7702622226143,
-        "invetario": 749,
+        "invetario": 701,
         "proveedor": "TONING",
         "activo": true
     },
@@ -280,7 +280,7 @@
         "precio": 16606,
         "imagen": "../assets/img_catalogo/toning/cereal-hojuelas-azucaradas-1000.png",
         "barra": 7702622724151,
-        "invetario": 1653,
+        "invetario": 1599,
         "proveedor": "TONING",
         "activo": true
     },
@@ -291,7 +291,7 @@
         "precio": 23856,
         "imagen": "../assets/img_catalogo/toning/leche-soya-750-natural.png",
         "barra": 7702622629159,
-        "invetario": 256,
+        "invetario": 253,
         "proveedor": "TONING",
         "activo": true
     },
@@ -302,7 +302,7 @@
         "precio": 9169,
         "imagen": "../assets/img_catalogo/toning/leche-soya-250-40-y-tantos.png",
         "barra": 7702622628060,
-        "invetario": 313,
+        "invetario": 300,
         "proveedor": "TONING",
         "activo": true
     },
@@ -313,7 +313,7 @@
         "precio": 9169,
         "imagen": "../assets/img_catalogo/toning/leche-soya-250-miel.png",
         "barra": 7702622624116,
-        "invetario": 605,
+        "invetario": 589,
         "proveedor": "TONING",
         "activo": true
     },
@@ -324,7 +324,7 @@
         "precio": 9169,
         "imagen": "../assets/img_catalogo/toning/leche-soya-250-natural.png",
         "barra": 7702622624109,
-        "invetario": 696,
+        "invetario": 678,
         "proveedor": "TONING",
         "activo": true
     },
@@ -335,7 +335,7 @@
         "precio": 9169,
         "imagen": "../assets/img_catalogo/toning/leche-soya-250-vainilla.png",
         "barra": 7702622624154,
-        "invetario": 591,
+        "invetario": 557,
         "proveedor": "TONING",
         "activo": true
     },
@@ -346,7 +346,7 @@
         "precio": 23856,
         "imagen": "../assets/img_catalogo/toning/leche-soya-750-vainilla.png",
         "barra": 7702622628008,
-        "invetario": 210,
+        "invetario": 195,
         "proveedor": "TONING",
         "activo": true
     },
@@ -368,7 +368,7 @@
         "precio": 6468,
         "imagen": "../assets/img_catalogo/toning/avena-hojuelas-1100.png",
         "barra": 7702622131577,
-        "invetario": 6130,
+        "invetario": 5949,
         "proveedor": "TONING",
         "activo": true
     },
@@ -390,7 +390,7 @@
         "precio": 4045,
         "imagen": "../assets/img_catalogo/toning/salvado-450.png",
         "barra": 7702622329127,
-        "invetario": 561,
+        "invetario": 531,
         "proveedor": "TONING",
         "activo": true
     },
@@ -401,7 +401,7 @@
         "precio": 11990,
         "imagen": "../assets/img_catalogo/toning/proteina-250.png",
         "barra": 7702622624031,
-        "invetario": 301,
+        "invetario": 293,
         "proveedor": "TONING",
         "activo": true
     },
@@ -434,7 +434,7 @@
         "precio": 22866,
         "imagen": "../assets/img_catalogo/toning/proteina-500.png",
         "barra": 7702622624093,
-        "invetario": 161,
+        "invetario": 149,
         "proveedor": "TONING",
         "activo": true
     },
@@ -445,7 +445,7 @@
         "precio": 2743,
         "imagen": "../assets/img_catalogo/toning/avena-zanara-tarro-45-vainilla.png",
         "barra": 7702622104489,
-        "invetario": 48,
+        "invetario": 47,
         "proveedor": "TONING",
         "activo": false
     },
@@ -478,7 +478,7 @@
         "precio": 4664,
         "imagen": "../assets/img_catalogo/toning/pancakes-280.png",
         "barra": 7702622678263,
-        "invetario": 496,
+        "invetario": 484,
         "proveedor": "TONING",
         "activo": true
     },
@@ -489,7 +489,7 @@
         "precio": 8639,
         "imagen": "../assets/img_catalogo/toning/pancakes-sin-gluten-500.png",
         "barra": 7702622755582,
-        "invetario": 484,
+        "invetario": 466,
         "proveedor": "TONING",
         "activo": true
     },
@@ -511,7 +511,7 @@
         "precio": 10840,
         "imagen": "../assets/img_catalogo/toning/forza-almendra-liquida-original-946.png",
         "barra": 7702622012302,
-        "invetario": 231,
+        "invetario": 208,
         "proveedor": "TONING",
         "activo": true
     },
@@ -522,7 +522,7 @@
         "precio": 10840,
         "imagen": " ../assets/img_catalogo/toning/forza-almendra-liquida-vainilla-946.png ",
         "barra": 7702622012319,
-        "invetario": 189,
+        "invetario": 167,
         "proveedor": "TONING",
         "activo": true
     },
@@ -577,7 +577,7 @@
         "precio": 12981,
         "imagen": " ../assets/img_catalogo/toning/granola-1000.png ",
         "barra": 7702622529183,
-        "invetario": 1006,
+        "invetario": 994,
         "proveedor": "TONING",
         "activo": true
     },
@@ -588,7 +588,7 @@
         "precio": 16606,
         "imagen": " ../assets/img_catalogo/toning/cereal-corn-flakes-1000.png ",
         "barra": 7702622100214,
-        "invetario": 366,
+        "invetario": 354,
         "proveedor": "TONING",
         "activo": true
     },
@@ -599,7 +599,7 @@
         "precio": 11388,
         "imagen": " ../assets/img_catalogo/toning/forza-almendra-liquida-cero-946.png ",
         "barra": 7702622955128,
-        "invetario": 121,
+        "invetario": 73,
         "proveedor": "TONING",
         "activo": true
     },
@@ -610,7 +610,7 @@
         "precio": 6064,
         "imagen": "../assets/img_catalogo/toning/aritos-x360.png",
         "barra": 7702622069603,
-        "invetario": 44,
+        "invetario": 40,
         "proveedor": "TONING",
         "activo": true
     },
@@ -621,7 +621,7 @@
         "precio": 6064,
         "imagen": "../assets/img_catalogo/toning/choco-choc-360.png",
         "barra": 7702622392091,
-        "invetario": 339,
+        "invetario": 335,
         "proveedor": "TONING",
         "activo": true
     },
@@ -643,7 +643,7 @@
         "precio": 6064,
         "imagen": "../assets/img_catalogo/toning/hojuelas-azucaradas-x360.png",
         "barra": 7702622746146,
-        "invetario": 302,
+        "invetario": 298,
         "proveedor": "TONING",
         "activo": true
     },
@@ -676,7 +676,7 @@
         "precio": 13834,
         "imagen": "../assets/img_catalogo/toning/coladita-arequipe-x28.png",
         "barra": 7702622830081,
-        "invetario": 82,
+        "invetario": 81,
         "proveedor": "TONING",
         "activo": true
     },
@@ -709,7 +709,7 @@
         "precio": 14968,
         "imagen": " ../assets/img_catalogo/toning/avena-hojuelas-2000.png ",
         "barra": 7702622423405,
-        "invetario": 750,
+        "invetario": 687,
         "proveedor": "TONING",
         "activo": true
     },
@@ -797,7 +797,7 @@
         "precio": 6901,
         "imagen": " ../assets/img_catalogo/toning/avena-molida-sin-gluten-400.png ",
         "barra": 7702622684172,
-        "invetario": 433,
+        "invetario": 389,
         "proveedor": "TONING",
         "activo": true
     },
@@ -808,7 +808,7 @@
         "precio": 9850,
         "imagen": "../assets/img_catalogo/toning/avena-sin-gluten-hojuelas-x800.png",
         "barra": 7702622668462,
-        "invetario": 859,
+        "invetario": 702,
         "proveedor": "TONING",
         "activo": true
     },
@@ -819,7 +819,7 @@
         "precio": 12953,
         "imagen": "../assets/img_catalogo/toning/granola-sin-gluten-x450.png",
         "barra": 7702622221933,
-        "invetario": 1223,
+        "invetario": 1193,
         "proveedor": "TONING",
         "activo": true
     },
@@ -830,7 +830,7 @@
         "precio": 6476,
         "imagen": "../assets/img_catalogo/toning/avena-sin-gluten-hojuelas-x400.png",
         "barra": 7702622713414,
-        "invetario": 408,
+        "invetario": 324,
         "proveedor": "TONING",
         "activo": true
     },
@@ -841,7 +841,7 @@
         "precio": 857,
         "imagen": " ../assets/img_catalogo/atw/freskitos-10.png ",
         "barra": 7709990840643,
-        "invetario": 1782,
+        "invetario": 1704,
         "proveedor": "ATW INTERNACIONAL SAS",
         "activo": true
     },
@@ -885,7 +885,7 @@
         "precio": 3750,
         "imagen": " ../assets/img_catalogo/atw/freskitos-105.png ",
         "barra": 7709888659173,
-        "invetario": 21483,
+        "invetario": 20487,
         "proveedor": "ATW INTERNACIONAL SAS",
         "activo": true
     },
@@ -896,7 +896,7 @@
         "precio": 4789,
         "imagen": " ../assets/img_catalogo/atw/enjuage-bucal-yerbabuena.png ",
         "barra": 7709808402230,
-        "invetario": 35,
+        "invetario": 20,
         "proveedor": "ATW INTERNACIONAL SAS",
         "activo": true
     },
@@ -907,7 +907,7 @@
         "precio": 4806,
         "imagen": " ../assets/img_catalogo/atw/enjuage-bucal-menta.png ",
         "barra": 7708977668294,
-        "invetario": 255,
+        "invetario": 240,
         "proveedor": "ATW INTERNACIONAL SAS",
         "activo": true
     },
@@ -951,7 +951,7 @@
         "precio": 2234,
         "imagen": " ../assets/img_catalogo/atw/7709745310063.png ",
         "barra": 7709745310063,
-        "invetario": 1520,
+        "invetario": 1508,
         "proveedor": "ATW INTERNACIONAL SAS",
         "activo": true
     },
@@ -1006,7 +1006,7 @@
         "precio": 7983,
         "imagen": " ../assets/img_catalogo/casa-ibanez/aceite-de-oliva-200.png ",
         "barra": 7707255630053,
-        "invetario": 627,
+        "invetario": 603,
         "proveedor": "CASA IBAÑEZ",
         "activo": true
     },
@@ -1017,7 +1017,7 @@
         "precio": 17414,
         "imagen": " ../assets/img_catalogo/casa-ibanez/aceite-de-oliva-500.png ",
         "barra": 7707255635621,
-        "invetario": 590,
+        "invetario": 584,
         "proveedor": "CASA IBAÑEZ",
         "activo": true
     },
@@ -1083,7 +1083,7 @@
         "precio": 23901,
         "imagen": " ../assets/img_catalogo/casa-ibanez/aceita-canoliva-1000.png ",
         "barra": 7707255634983,
-        "invetario": 1206,
+        "invetario": 1203,
         "proveedor": "CASA IBAÑEZ",
         "activo": true
     },
@@ -1226,7 +1226,7 @@
         "precio": 4355,
         "imagen": " ../assets/img_catalogo/congrupo/flips-chocolate-120.png ",
         "barra": 7707200710342,
-        "invetario": 619,
+        "invetario": 599,
         "proveedor": "CONGRUPO",
         "activo": true
     },
@@ -1237,7 +1237,7 @@
         "precio": 4355,
         "imagen": " ../assets/img_catalogo/congrupo/flips-dulce-de-leche-120.png ",
         "barra": 7707200710359,
-        "invetario": 124,
+        "invetario": 110,
         "proveedor": "CONGRUPO",
         "activo": true
     },
@@ -1281,7 +1281,7 @@
         "precio": 2624,
         "imagen": " ../assets/img_catalogo/comestibles-italo/almendra-francesa-50.png ",
         "barra": 7702117008216,
-        "invetario": 814,
+        "invetario": 640,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1292,7 +1292,7 @@
         "precio": 6621,
         "imagen": " ../assets/img_catalogo/comestibles-italo/almendra-francesa-135.png ",
         "barra": 7702117008193,
-        "invetario": 632,
+        "invetario": 533,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1303,7 +1303,7 @@
         "precio": 11674,
         "imagen": " ../assets/img_catalogo/comestibles-italo/almendra-francesa-250.png ",
         "barra": 7702117008179,
-        "invetario": 195,
+        "invetario": 189,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1314,7 +1314,7 @@
         "precio": 4054,
         "imagen": " ../assets/img_catalogo/comestibles-italo/almendra-francesa-piramide-50.png ",
         "barra": 7702117111121,
-        "invetario": 198,
+        "invetario": 111,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1325,7 +1325,7 @@
         "precio": 10794,
         "imagen": " ../assets/img_catalogo/comestibles-italo/almendra-piramide-x150.png ",
         "barra": 7702117011056,
-        "invetario": 84,
+        "invetario": 42,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1380,7 +1380,7 @@
         "precio": 4781,
         "imagen": " ../assets/img_catalogo/comestibles-italo/bom-bon-cookies-n-cream-x5.png",
         "barra": 7702117017157,
-        "invetario": 7,
+        "invetario": 0,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1402,7 +1402,7 @@
         "precio": 2701,
         "imagen": " ../assets/img_catalogo/comestibles-italo/caramelo-blando-menta.png ",
         "barra": 7702117006571,
-        "invetario": 1130,
+        "invetario": 1082,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1479,7 +1479,7 @@
         "precio": 3490,
         "imagen": " ../assets/img_catalogo/comestibles-italo/caramelo-lactys-durazno.png ",
         "barra": 7702117007271,
-        "invetario": 423,
+        "invetario": 85,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1490,7 +1490,7 @@
         "precio": 3490,
         "imagen": " ../assets/img_catalogo/comestibles-italo/caramelo-lactys-fresa.png ",
         "barra": 7702117007219,
-        "invetario": 46,
+        "invetario": 0,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1501,7 +1501,7 @@
         "precio": 2238,
         "imagen": " ../assets/img_catalogo/comestibles-italo/caramelo-moritas.png ",
         "barra": 7702117002498,
-        "invetario": 2524,
+        "invetario": 2164,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1523,7 +1523,7 @@
         "precio": 2661,
         "imagen": " ../assets/img_catalogo/comestibles-italo/caramelo-surtido-80.png ",
         "barra": 7702117161102,
-        "invetario": 1107,
+        "invetario": 1071,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1534,7 +1534,7 @@
         "precio": 5944,
         "imagen": " ../assets/img_catalogo/comestibles-italo/caramelo-surtido-135.png ",
         "barra": 7702117161041,
-        "invetario": 931,
+        "invetario": 676,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1556,7 +1556,7 @@
         "precio": 5156,
         "imagen": " ../assets/img_catalogo/comestibles-italo/choco-baby-90.png ",
         "barra": 7702117008087,
-        "invetario": 993,
+        "invetario": 783,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1567,7 +1567,7 @@
         "precio": 11201,
         "imagen": " ../assets/img_catalogo/comestibles-italo/choco-baby-180.png ",
         "barra": 7702117008384,
-        "invetario": 870,
+        "invetario": 720,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1578,7 +1578,7 @@
         "precio": 15226,
         "imagen": " ../assets/img_catalogo/comestibles-italo/chocolatina-pequeña-6.png ",
         "barra": 7702117018796,
-        "invetario": 35,
+        "invetario": 30,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1589,7 +1589,7 @@
         "precio": 25138,
         "imagen": " ../assets/img_catalogo/comestibles-italo/chocolatina-mediana-6.png ",
         "barra": 7702117018789,
-        "invetario": 40,
+        "invetario": 34,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1600,7 +1600,7 @@
         "precio": 49781,
         "imagen": " ../assets/img_catalogo/comestibles-italo/chocolatina-grande-6.png ",
         "barra": 7702117017294,
-        "invetario": 32,
+        "invetario": 29,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1633,7 +1633,7 @@
         "precio": 9133,
         "imagen": " ../assets/img_catalogo/comestibles-italo/chupeta-de-chocolate.png ",
         "barra": 7702117010707,
-        "invetario": 767,
+        "invetario": 382,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1644,7 +1644,7 @@
         "precio": 14015,
         "imagen": " ../assets/img_catalogo/comestibles-italo/estuche-ositos.png ",
         "barra": 7702117005666,
-        "invetario": 36,
+        "invetario": 0,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1655,7 +1655,7 @@
         "precio": 12128,
         "imagen": " ../assets/img_catalogo/comestibles-italo/estuche-enamorados.png ",
         "barra": 7702117004218,
-        "invetario": 27,
+        "invetario": 25,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1666,7 +1666,7 @@
         "precio": 8823,
         "imagen": " ../assets/img_catalogo/comestibles-italo/estuche-mensajes.png ",
         "barra": 7702117011193,
-        "invetario": 54,
+        "invetario": 16,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1688,7 +1688,7 @@
         "precio": 12128,
         "imagen": " ../assets/img_catalogo/comestibles-italo/estuche-pensamientos.png ",
         "barra": 7702117005680,
-        "invetario": 42,
+        "invetario": 41,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1699,7 +1699,7 @@
         "precio": 12977,
         "imagen": " ../assets/img_catalogo/comestibles-italo/estuche-variedad.png ",
         "barra": 7702117005673,
-        "invetario": 13,
+        "invetario": 0,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1710,7 +1710,7 @@
         "precio": 10963,
         "imagen": " ../assets/img_catalogo/comestibles-italo/galleta-animada-win.png ",
         "barra": 7702117012053,
-        "invetario": 678,
+        "invetario": 648,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1721,7 +1721,7 @@
         "precio": 7501,
         "imagen": " ../assets/img_catalogo/comestibles-italo/galleta-de-leche.png ",
         "barra": 7702117010653,
-        "invetario": 417,
+        "invetario": 105,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1754,7 +1754,7 @@
         "precio": 1590,
         "imagen": " ../assets/img_catalogo/comestibles-italo/goma-media-luna-40.png ",
         "barra": 7702117006816,
-        "invetario": 42,
+        "invetario": 30,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1776,7 +1776,7 @@
         "precio": 6829,
         "imagen": " ../assets/img_catalogo/comestibles-italo/goma-moritas-200.png ",
         "barra": 7702117160914,
-        "invetario": 1347,
+        "invetario": 1167,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1787,7 +1787,7 @@
         "precio": 3875,
         "imagen": " ../assets/img_catalogo/comestibles-italo/goma-surtida-125.png ",
         "barra": 7702117006717,
-        "invetario": 1034,
+        "invetario": 794,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1798,7 +1798,7 @@
         "precio": 1451,
         "imagen": " ../assets/img_catalogo/comestibles-italo/pikis-acidulces.png ",
         "barra": 7702117019205,
-        "invetario": 443,
+        "invetario": 263,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1809,7 +1809,7 @@
         "precio": 2202,
         "imagen": " ../assets/img_catalogo/comestibles-italo/pikis-gomi-masmelo.png ",
         "barra": 7702117015078,
-        "invetario": 280,
+        "invetario": 226,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1820,7 +1820,7 @@
         "precio": 2539,
         "imagen": " ../assets/img_catalogo/comestibles-italo/pikis-ositos-en-pijama.png ",
         "barra": 7702117015160,
-        "invetario": 464,
+        "invetario": 446,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1831,7 +1831,7 @@
         "precio": 2668,
         "imagen": " ../assets/img_catalogo/comestibles-italo/gragea-125.png ",
         "barra": 7702117007769,
-        "invetario": 134,
+        "invetario": 71,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1842,7 +1842,7 @@
         "precio": 10095,
         "imagen": " ../assets/img_catalogo/comestibles-italo/gragea-500.png ",
         "barra": 7702117007745,
-        "invetario": 115,
+        "invetario": 100,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1853,7 +1853,7 @@
         "precio": 5819,
         "imagen": " ../assets/img_catalogo/comestibles-italo/hiper-lonch-fresa.png ",
         "barra": 7702117002641,
-        "invetario": 780,
+        "invetario": 684,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1864,7 +1864,7 @@
         "precio": 5819,
         "imagen": " ../assets/img_catalogo/comestibles-italo/hiper-lonch-vainilla.png ",
         "barra": 7702117002504,
-        "invetario": 862,
+        "invetario": 766,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1875,7 +1875,7 @@
         "precio": 5974,
         "imagen": " ../assets/img_catalogo/comestibles-italo/hiper-208-arequipe.png ",
         "barra": 7702117001941,
-        "invetario": 474,
+        "invetario": 427,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1886,7 +1886,7 @@
         "precio": 5974,
         "imagen": " ../assets/img_catalogo/comestibles-italo/hiper-208-fresa.png ",
         "barra": 7702117001866,
-        "invetario": 300,
+        "invetario": 257,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1897,7 +1897,7 @@
         "precio": 5974,
         "imagen": " ../assets/img_catalogo/comestibles-italo/hiper-208-vainilla.png ",
         "barra": 7702117001774,
-        "invetario": 207,
+        "invetario": 164,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1919,7 +1919,7 @@
         "precio": 27646,
         "imagen": " ../assets/img_catalogo/comestibles-italo/huevos-no-me-olvides-x10.png ",
         "barra": 7702117003259,
-        "invetario": 14,
+        "invetario": 12,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1930,7 +1930,7 @@
         "precio": 1891,
         "imagen": " ../assets/img_catalogo/comestibles-italo/masmelo-50.png ",
         "barra": 7702117006939,
-        "invetario": 497,
+        "invetario": 413,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1941,7 +1941,7 @@
         "precio": 2393,
         "imagen": " ../assets/img_catalogo/comestibles-italo/masmelo-80.png ",
         "barra": 7702117012527,
-        "invetario": 155,
+        "invetario": 51,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1963,7 +1963,7 @@
         "precio": 3972,
         "imagen": " ../assets/img_catalogo/comestibles-italo/masmelos-blanco-x120.png",
         "barra": 7702117006076,
-        "invetario": 596,
+        "invetario": 530,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1974,7 +1974,7 @@
         "precio": 3495,
         "imagen": " ../assets/img_catalogo/comestibles-italo/merci-2.png ",
         "barra": 7702117017348,
-        "invetario": 24,
+        "invetario": 11,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1985,7 +1985,7 @@
         "precio": 12531,
         "imagen": " ../assets/img_catalogo/comestibles-italo/merci-6.png ",
         "barra": 7702117003358,
-        "invetario": 21,
+        "invetario": 1,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1996,7 +1996,7 @@
         "precio": 17201,
         "imagen": " ../assets/img_catalogo/comestibles-italo/merci-flor.png ",
         "barra": 7702117004197,
-        "invetario": 15,
+        "invetario": 0,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2007,7 +2007,7 @@
         "precio": 24445,
         "imagen": " ../assets/img_catalogo/comestibles-italo/merci-corazon-x7.png ",
         "barra": 7702117018376,
-        "invetario": 9,
+        "invetario": 0,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2018,7 +2018,7 @@
         "precio": 6169,
         "imagen": " ../assets/img_catalogo/comestibles-italo/pikis-choco-gomita-acidulces-x125.png ",
         "barra": 7702117005802,
-        "invetario": 480,
+        "invetario": 468,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2029,7 +2029,7 @@
         "precio": 8676,
         "imagen": " ../assets/img_catalogo/comestibles-italo/pikis-monedas.png ",
         "barra": 7700117018581,
-        "invetario": 257,
+        "invetario": 242,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2062,7 +2062,7 @@
         "precio": 4578,
         "imagen": " ../assets/img_catalogo/comestibles-italo/uvas-con-chocolate.png ",
         "barra": 7702117011148,
-        "invetario": 151,
+        "invetario": 56,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2106,7 +2106,7 @@
         "precio": 1990,
         "imagen": " ../assets/img_catalogo/comestibles-italo/minitaco-arequipe.png ",
         "barra": 7702117009404,
-        "invetario": 1266,
+        "invetario": 1184,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2117,7 +2117,7 @@
         "precio": 1990,
         "imagen": " ../assets/img_catalogo/comestibles-italo/minitaco-chocolate.png ",
         "barra": 7702117008841,
-        "invetario": 3,
+        "invetario": 0,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2128,7 +2128,7 @@
         "precio": 1990,
         "imagen": " ../assets/img_catalogo/comestibles-italo/minitaco-coco.png ",
         "barra": 7702117009398,
-        "invetario": 633,
+        "invetario": 553,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2139,7 +2139,7 @@
         "precio": 1990,
         "imagen": " ../assets/img_catalogo/comestibles-italo/minitaco-fresa.png ",
         "barra": 7702117009312,
-        "invetario": 1325,
+        "invetario": 1229,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2150,7 +2150,7 @@
         "precio": 1990,
         "imagen": " ../assets/img_catalogo/comestibles-italo/minitaco-guanabana.png ",
         "barra": 7702117009640,
-        "invetario": 1175,
+        "invetario": 1107,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2161,7 +2161,7 @@
         "precio": 1980,
         "imagen": " ../assets/img_catalogo/comestibles-italo/7702117019236.png",
         "barra": 7702117019236,
-        "invetario": 391,
+        "invetario": 312,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2172,7 +2172,7 @@
         "precio": 1990,
         "imagen": " ../assets/img_catalogo/comestibles-italo/minitaco-mora.png ",
         "barra": 7702117012367,
-        "invetario": 1253,
+        "invetario": 1160,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2183,7 +2183,7 @@
         "precio": 1990,
         "imagen": " ../assets/img_catalogo/comestibles-italo/minitaco-naranja.png ",
         "barra": 7702117009374,
-        "invetario": 1381,
+        "invetario": 1254,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2194,7 +2194,7 @@
         "precio": 1980,
         "imagen": " ../assets/img_catalogo/comestibles-italo/7702117019182.png",
         "barra": 7702117019182,
-        "invetario": 225,
+        "invetario": 86,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2238,7 +2238,7 @@
         "precio": 2429,
         "imagen": " ../assets/img_catalogo/comestibles-italo/paquetaco-x94-vainilla.png ",
         "barra": 7702117001842,
-        "invetario": 574,
+        "invetario": 550,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2249,7 +2249,7 @@
         "precio": 2698,
         "imagen": " ../assets/img_catalogo/comestibles-italo/paquetaco-chocolate.png ",
         "barra": 7702117009114,
-        "invetario": 3684,
+        "invetario": 3498,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2260,7 +2260,7 @@
         "precio": 2698,
         "imagen": " ../assets/img_catalogo/comestibles-italo/paquetaco-coco.png ",
         "barra": 7702117008704,
-        "invetario": 2959,
+        "invetario": 2800,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2271,7 +2271,7 @@
         "precio": 2698,
         "imagen": " ../assets/img_catalogo/comestibles-italo/paquetaco-fresa.png ",
         "barra": 7702117160068,
-        "invetario": 3845,
+        "invetario": 3176,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2282,7 +2282,7 @@
         "precio": 2698,
         "imagen": " ../assets/img_catalogo/comestibles-italo/paquetaco-arequipe.png ",
         "barra": 7702117008711,
-        "invetario": 4666,
+        "invetario": 4006,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2293,7 +2293,7 @@
         "precio": 2698,
         "imagen": " ../assets/img_catalogo/comestibles-italo/paquetaco-naranja.png ",
         "barra": 7702117160990,
-        "invetario": 4079,
+        "invetario": 3890,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2304,7 +2304,7 @@
         "precio": 2698,
         "imagen": " ../assets/img_catalogo/comestibles-italo/paquetaco-guanabana.png ",
         "barra": 7702117009626,
-        "invetario": 4071,
+        "invetario": 3915,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2315,7 +2315,7 @@
         "precio": 2698,
         "imagen": " ../assets/img_catalogo/comestibles-italo/paquetaco-vainilla.png ",
         "barra": 7702117160259,
-        "invetario": 4032,
+        "invetario": 3366,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2326,7 +2326,7 @@
         "precio": 2698,
         "imagen": " ../assets/img_catalogo/comestibles-italo/paquetaco-limon.png ",
         "barra": 7702117160679,
-        "invetario": 4097,
+        "invetario": 3911,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2337,7 +2337,7 @@
         "precio": 2698,
         "imagen": " ../assets/img_catalogo/comestibles-italo/paquetaco-mora.png ",
         "barra": 7702117012374,
-        "invetario": 3745,
+        "invetario": 3069,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2348,7 +2348,7 @@
         "precio": 6193,
         "imagen": " ../assets/img_catalogo/comestibles-italo/wafer-taquito-arequipe.png ",
         "barra": 7702117008452,
-        "invetario": 977,
+        "invetario": 912,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2359,7 +2359,7 @@
         "precio": 6193,
         "imagen": " ../assets/img_catalogo/comestibles-italo/wafer-taquito-fresa.png ",
         "barra": 7702117008438,
-        "invetario": 1032,
+        "invetario": 937,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2370,7 +2370,7 @@
         "precio": 6193,
         "imagen": " ../assets/img_catalogo/comestibles-italo/wafer-taquito-naranja.png ",
         "barra": 7702117003815,
-        "invetario": 1110,
+        "invetario": 1027,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2381,7 +2381,7 @@
         "precio": 6193,
         "imagen": " ../assets/img_catalogo/comestibles-italo/wafer-taquito-vainilla.png ",
         "barra": 7702117007875,
-        "invetario": 1730,
+        "invetario": 1647,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2392,7 +2392,7 @@
         "precio": 11705,
         "imagen": "../assets/img_catalogo/comestibles-italo/galleta-classic-vainilla.png",
         "barra": 7702117003792,
-        "invetario": 327,
+        "invetario": 81,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2403,7 +2403,7 @@
         "precio": 11705,
         "imagen": "../assets/img_catalogo/comestibles-italo/galleta-classic-fresa.png",
         "barra": 7702117010431,
-        "invetario": 225,
+        "invetario": 219,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2425,7 +2425,7 @@
         "precio": 4179,
         "imagen": "../assets/img_catalogo/comestibles-italo/bonkiss-x3.png",
         "barra": 7702117016037,
-        "invetario": 36,
+        "invetario": 32,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2623,7 +2623,7 @@
         "precio": 30700,
         "imagen": " ../assets/img_catalogo/dislicores/gato-negro-cabernet-sauvignon-750.png ",
         "barra": 7804300010638,
-        "invetario": 16,
+        "invetario": 7,
         "proveedor": "DISLICORES",
         "activo": true
     },
@@ -2634,7 +2634,7 @@
         "precio": 30700,
         "imagen": " ../assets/img_catalogo/dislicores/gato-negro-merlot-750.png ",
         "barra": 7804300120603,
-        "invetario": 241,
+        "invetario": 232,
         "proveedor": "DISLICORES",
         "activo": true
     },
@@ -2667,7 +2667,7 @@
         "precio": 19974,
         "imagen": " ../assets/img_catalogo/dislicores/gato-negro-cabernet-sauvignon-375.png ",
         "barra": 78043000110676,
-        "invetario": 57,
+        "invetario": 51,
         "proveedor": "DISLICORES",
         "activo": true
     },
@@ -2700,7 +2700,7 @@
         "precio": "6672,33",
         "imagen": " ../assets/img_catalogo/dislicores/633148100099.png ",
         "barra": 633148100099,
-        "invetario": 333,
+        "invetario": 321,
         "proveedor": "DISLICORES",
         "activo": true
     },
@@ -2744,7 +2744,7 @@
         "precio": 3725,
         "imagen": " ../assets/img_catalogo/distri-samy/vinipel-tabaco-x50-mts.png ",
         "barra": 7709947872277,
-        "invetario": 1095,
+        "invetario": 1083,
         "proveedor": "DISTRI SAMY",
         "activo": true
     },
@@ -2788,7 +2788,7 @@
         "precio": 129480,
         "imagen": " ../assets/img_catalogo/duquesa/margarina-preferida-125.png ",
         "barra": 7707142301660,
-        "invetario": 105,
+        "invetario": 103,
         "proveedor": "DUQUESA",
         "activo": true
     },
@@ -2799,7 +2799,7 @@
         "precio": 122693,
         "imagen": " ../assets/img_catalogo/duquesa/margarina-preferida-250.png ",
         "barra": 7707142301677,
-        "invetario": 101,
+        "invetario": 99,
         "proveedor": "DUQUESA",
         "activo": true
     },
@@ -2810,7 +2810,7 @@
         "precio": 117554,
         "imagen": " ../assets/img_catalogo/duquesa/margarina-preferida-500.png ",
         "barra": 7707142301639,
-        "invetario": 106,
+        "invetario": 101,
         "proveedor": "DUQUESA",
         "activo": true
     },
@@ -2832,7 +2832,7 @@
         "precio": 5536,
         "imagen": " ../assets/img_catalogo/puertomar-zomac/conservas-de-pescado-en-salsa-de-tomate-don-sancho-ovalada.png ",
         "barra": 7862119507589,
-        "invetario": 1636,
+        "invetario": 1588,
         "proveedor": "PUERTOMAR ZOMAC",
         "activo": true
     },
@@ -2843,7 +2843,7 @@
         "precio": 2851,
         "imagen": " ../assets/img_catalogo/puertomar-zomac/conservas-de-pescado-en-salsa-de-tomate-don-sancho-tinapa.png ",
         "barra": 7862119500153,
-        "invetario": 4268,
+        "invetario": 4218,
         "proveedor": "PUERTOMAR ZOMAC",
         "activo": true
     },
@@ -2920,7 +2920,7 @@
         "precio": 3967,
         "imagen": " ../assets/img_catalogo/farina/farina-250-canela.png ",
         "barra": 7707096600031,
-        "invetario": 1112,
+        "invetario": 1062,
         "proveedor": "FARINA CIA",
         "activo": true
     },
@@ -2931,7 +2931,7 @@
         "precio": 7417,
         "imagen": " ../assets/img_catalogo/farina/farina-500-canela.png ",
         "barra": 7707096600055,
-        "invetario": 834,
+        "invetario": 786,
         "proveedor": "FARINA CIA",
         "activo": true
     },
@@ -2942,7 +2942,7 @@
         "precio": 3023,
         "imagen": " ../assets/img_catalogo/farina/farina-200-surtida.png ",
         "barra": 7707096000000,
-        "invetario": 413,
+        "invetario": 401,
         "proveedor": "FARINA CIA",
         "activo": true
     },
@@ -2953,7 +2953,7 @@
         "precio": 3967,
         "imagen": " ../assets/img_catalogo/farina/farina-250-vainilla.png ",
         "barra": 7707096600147,
-        "invetario": 674,
+        "invetario": 634,
         "proveedor": "FARINA CIA",
         "activo": true
     },
@@ -2964,7 +2964,7 @@
         "precio": 3967,
         "imagen": " ../assets/img_catalogo/farina/farina-250-leche-condensada.png ",
         "barra": 7707096600178,
-        "invetario": 780,
+        "invetario": 730,
         "proveedor": "FARINA CIA",
         "activo": true
     },
@@ -2975,7 +2975,7 @@
         "precio": 1683,
         "imagen": " ../assets/img_catalogo/farina/farina-100-canela.png ",
         "barra": 7707096600017,
-        "invetario": 1872,
+        "invetario": 1680,
         "proveedor": "FARINA CIA",
         "activo": true
     },
@@ -2986,7 +2986,7 @@
         "precio": 1683,
         "imagen": " ../assets/img_catalogo/farina/farina-100-surtida.png ",
         "barra": 7707096600000,
-        "invetario": 924,
+        "invetario": 828,
         "proveedor": "FARINA CIA",
         "activo": true
     },
@@ -3294,7 +3294,7 @@
         "precio": 43563,
         "imagen": " ../assets/img_catalogo/global/bacardi-zombie-750.png ",
         "barra": "080480985493",
-        "invetario": 176,
+        "invetario": 167,
         "proveedor": "GLOBAL",
         "activo": true
     },
@@ -3305,7 +3305,7 @@
         "precio": 43723,
         "imagen": " ../assets/img_catalogo/global/bacardi-mojito-750.png ",
         "barra": "080480985462",
-        "invetario": 442,
+        "invetario": 433,
         "proveedor": "GLOBAL",
         "activo": true
     },
@@ -3316,7 +3316,7 @@
         "precio": 42381,
         "imagen": " ../assets/img_catalogo/global/bacardi-limon-700.png ",
         "barra": 7610113006184,
-        "invetario": 53,
+        "invetario": 47,
         "proveedor": "GLOBAL",
         "activo": true
     },
@@ -3426,7 +3426,7 @@
         "precio": 43486,
         "imagen": " ../assets/img_catalogo/global/bacardi-mandarina-x750.png ",
         "barra": 7610113025307,
-        "invetario": 41,
+        "invetario": 35,
         "proveedor": "GLOBAL",
         "activo": true
     },
@@ -3470,7 +3470,7 @@
         "precio": 51139,
         "imagen": " ../assets/img_catalogo/global/5010327000404.png ",
         "barra": 5010327000404,
-        "invetario": 32,
+        "invetario": 20,
         "proveedor": "GLOBAL",
         "activo": true
     },
@@ -3635,7 +3635,7 @@
         "precio": 4495,
         "imagen": " ../assets/img_catalogo/cofarma/bon-aire-brisa-tropical-x250.png ",
         "barra": 7702532370899,
-        "invetario": 104,
+        "invetario": 92,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -3646,7 +3646,7 @@
         "precio": 4495,
         "imagen": " ../assets/img_catalogo/cofarma/bon-aire-frutos-rojos-x250.png ",
         "barra": 7702532370882,
-        "invetario": 119,
+        "invetario": 107,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -3657,7 +3657,7 @@
         "precio": 8092,
         "imagen": " ../assets/img_catalogo/cofarma/bon-aire-baby-fresh-x400.png ",
         "barra": 7702532370974,
-        "invetario": 97,
+        "invetario": 94,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -3690,7 +3690,7 @@
         "precio": 8092,
         "imagen": " ../assets/img_catalogo/cofarma/bon-aire-canela-x400.png ",
         "barra": 7702532370912,
-        "invetario": 79,
+        "invetario": 76,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -3701,7 +3701,7 @@
         "precio": 8092,
         "imagen": " ../assets/img_catalogo/cofarma/bon-aire-frutas-del-caribe-x400.png ",
         "barra": 7702532828901,
-        "invetario": 92,
+        "invetario": 89,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -3712,7 +3712,7 @@
         "precio": 8092,
         "imagen": " ../assets/img_catalogo/cofarma/bon-aire-frutos-rojos-x400.png ",
         "barra": 7702532370707,
-        "invetario": 96,
+        "invetario": 93,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -3723,7 +3723,7 @@
         "precio": 8092,
         "imagen": " ../assets/img_catalogo/cofarma/bon-aire-lavanda-x400.png ",
         "barra": 7702532370943,
-        "invetario": 90,
+        "invetario": 87,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -3734,7 +3734,7 @@
         "precio": 8092,
         "imagen": " ../assets/img_catalogo/cofarma/bon-aire-vainilla-y-ambar-x400.png ",
         "barra": 7702532370981,
-        "invetario": 86,
+        "invetario": 83,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -3745,7 +3745,7 @@
         "precio": 8092,
         "imagen": " ../assets/img_catalogo/cofarma/bon-aire-orquidea-de-los-andes-x400.png ",
         "barra": 7702532370721,
-        "invetario": 83,
+        "invetario": 80,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -3756,7 +3756,7 @@
         "precio": 8842,
         "imagen": " ../assets/img_catalogo/cofarma/bon-aire-electrico-frutos-rojos-x1.png ",
         "barra": 7702532312448,
-        "invetario": 56,
+        "invetario": 50,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -3767,7 +3767,7 @@
         "precio": 8842,
         "imagen": " ../assets/img_catalogo/cofarma/bon-aire-electrico-mandarina-y-toronja-x1.png ",
         "barra": 7702532164498,
-        "invetario": 49,
+        "invetario": 37,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -3778,7 +3778,7 @@
         "precio": 8842,
         "imagen": " ../assets/img_catalogo/cofarma/bon-aire-electrico-vainilla-x1.png ",
         "barra": 7702532300117,
-        "invetario": 56,
+        "invetario": 44,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -3800,7 +3800,7 @@
         "precio": 22059,
         "imagen": " ../assets/img_catalogo/cofarma/bon-aire-combianado-x3.png",
         "barra": 7702532840187,
-        "invetario": 62,
+        "invetario": 57,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -3811,7 +3811,7 @@
         "precio": 22059,
         "imagen": " ../assets/img_catalogo/cofarma/bon-aire-frutas-del-caribe-x3.png ",
         "barra": 7702532371803,
-        "invetario": 23,
+        "invetario": 20,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -3833,7 +3833,7 @@
         "precio": 22059,
         "imagen": " ../assets/img_catalogo/cofarma/bon-aire-vainilla-x3.png ",
         "barra": 7702532300131,
-        "invetario": 23,
+        "invetario": 21,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -3844,7 +3844,7 @@
         "precio": 12575,
         "imagen": " ../assets/img_catalogo/cofarma/vapo-frutas-del-caribe.png ",
         "barra": 7702532087059,
-        "invetario": 48,
+        "invetario": 46,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -3855,7 +3855,7 @@
         "precio": 12575,
         "imagen": " ../assets/img_catalogo/cofarma/vapo-frutos-rojos.png ",
         "barra": 7702532312394,
-        "invetario": 48,
+        "invetario": 43,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -3866,7 +3866,7 @@
         "precio": 12575,
         "imagen": " ../assets/img_catalogo/cofarma/vapo-vainilla.png ",
         "barra": 7702532300124,
-        "invetario": 34,
+        "invetario": 29,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -3998,7 +3998,7 @@
         "precio": 3118,
         "imagen": " ../assets/img_catalogo/cofarma/pinolina-canela-x460.png ",
         "barra": 7702532430814,
-        "invetario": 276,
+        "invetario": 273,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4009,7 +4009,7 @@
         "precio": 3118,
         "imagen": " ../assets/img_catalogo/cofarma/pinolina-citronela-x460.png ",
         "barra": 7702532430845,
-        "invetario": 391,
+        "invetario": 373,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4042,7 +4042,7 @@
         "precio": 3118,
         "imagen": " ../assets/img_catalogo/cofarma/pinolina-lavanda-x460.png ",
         "barra": 7702532430821,
-        "invetario": 298,
+        "invetario": 295,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4229,7 +4229,7 @@
         "precio": 18196,
         "imagen": " ../assets/img_catalogo/cofarma/pinolina-lavanda-galon.png ",
         "barra": 7702532450614,
-        "invetario": 31,
+        "invetario": 30,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4284,7 +4284,7 @@
         "precio": 1353,
         "imagen": " ../assets/img_catalogo/cofarma/pinolina-canela-x200.png ",
         "barra": 7702532430661,
-        "invetario": 199,
+        "invetario": 193,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4295,7 +4295,7 @@
         "precio": 1353,
         "imagen": " ../assets/img_catalogo/cofarma/pinolina-citronela-x200.png ",
         "barra": 7702532430678,
-        "invetario": 210,
+        "invetario": 204,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4306,7 +4306,7 @@
         "precio": 1353,
         "imagen": " ../assets/img_catalogo/cofarma/pinolina-frutos-rojos-x200.png ",
         "barra": 7707253243099,
-        "invetario": 221,
+        "invetario": 215,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4317,7 +4317,7 @@
         "precio": 1353,
         "imagen": " ../assets/img_catalogo/cofarma/pinolina-lavanda-x200.png ",
         "barra": 7702532430685,
-        "invetario": 202,
+        "invetario": 196,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4339,7 +4339,7 @@
         "precio": 7143,
         "imagen": " ../assets/img_catalogo/cofarma/rayol-voladores-x230.png ",
         "barra": 7702532863131,
-        "invetario": 150,
+        "invetario": 144,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4350,7 +4350,7 @@
         "precio": 12639,
         "imagen": " ../assets/img_catalogo/cofarma/rayol-matatodo-x400.png ",
         "barra": 7702532630207,
-        "invetario": 70,
+        "invetario": 58,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4361,7 +4361,7 @@
         "precio": 12159,
         "imagen": " ../assets/img_catalogo/cofarma/rayol-rastreros-x400.png ",
         "barra": 7702532863148,
-        "invetario": 86,
+        "invetario": 64,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4372,7 +4372,7 @@
         "precio": 10690,
         "imagen": " ../assets/img_catalogo/cofarma/rayol-voladores-x400.png ",
         "barra": 7702532863155,
-        "invetario": 62,
+        "invetario": 56,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4438,7 +4438,7 @@
         "precio": 7685,
         "imagen": " ../assets/img_catalogo/cofarma/varitas-bambu-x40.png ",
         "barra": 7702532476836,
-        "invetario": 204,
+        "invetario": 199,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4449,7 +4449,7 @@
         "precio": 7685,
         "imagen": " ../assets/img_catalogo/cofarma/varitas-frutos-rojos-x40.png ",
         "barra": 7702532312103,
-        "invetario": 148,
+        "invetario": 135,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4460,7 +4460,7 @@
         "precio": 6005,
         "imagen": " ../assets/img_catalogo/cofarma/varitas-manzana-canala-x40.png ",
         "barra": 7702532312110,
-        "invetario": 234,
+        "invetario": 221,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4471,7 +4471,7 @@
         "precio": 7685,
         "imagen": " ../assets/img_catalogo/cofarma/varitas-vainilla-x40.png ",
         "barra": 7702532312127,
-        "invetario": 231,
+        "invetario": 218,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4482,7 +4482,7 @@
         "precio": 12358,
         "imagen": " ../assets/img_catalogo/cofarma/varitas-armonia-floral-x80.png ",
         "barra": 7702532312721,
-        "invetario": 35,
+        "invetario": 34,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4493,7 +4493,7 @@
         "precio": 12358,
         "imagen": " ../assets/img_catalogo/cofarma/varitas-bambu-x80.png ",
         "barra": 7702532313056,
-        "invetario": 39,
+        "invetario": 38,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4515,7 +4515,7 @@
         "precio": 12358,
         "imagen": " ../assets/img_catalogo/cofarma/varitas-granadilla-x80.png ",
         "barra": 7702532312707,
-        "invetario": 47,
+        "invetario": 46,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4526,7 +4526,7 @@
         "precio": 12358,
         "imagen": " ../assets/img_catalogo/cofarma/varitas-lavanda-x80.png ",
         "barra": 7702532312738,
-        "invetario": 39,
+        "invetario": 38,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4548,7 +4548,7 @@
         "precio": 12358,
         "imagen": " ../assets/img_catalogo/cofarma/varitas-vainilla-x80.png ",
         "barra": 7702532312820,
-        "invetario": 23,
+        "invetario": 22,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4625,7 +4625,7 @@
         "precio": 2244,
         "imagen": " ../assets/img_catalogo/doris-patricia-fonseca/cebada-perlada-500.png ",
         "barra": 7709990961584,
-        "invetario": 221,
+        "invetario": 196,
         "proveedor": "DORIS PATRICIA FONSECA",
         "activo": true
     },
@@ -4647,7 +4647,7 @@
         "precio": 1892,
         "imagen": "../assets/img_catalogo/doris-patricia-fonseca/cuchuco-de-maiz-500.png ",
         "barra": 7709990202465,
-        "invetario": 257,
+        "invetario": 182,
         "proveedor": "DORIS PATRICIA FONSECA",
         "activo": true
     },
@@ -4669,7 +4669,7 @@
         "precio": 1707,
         "imagen": " ../assets/img_catalogo/doris-patricia-fonseca/harina-de-maiz-pintado-500.png ",
         "barra": 7709990584080,
-        "invetario": 1200,
+        "invetario": 1100,
         "proveedor": "DORIS PATRICIA FONSECA",
         "activo": true
     },
@@ -4702,7 +4702,7 @@
         "precio": 3577,
         "imagen": "",
         "barra": 7702764022504,
-        "invetario": 304,
+        "invetario": 256,
         "proveedor": "LATEXQUIM",
         "activo": true
     },
@@ -4713,7 +4713,7 @@
         "precio": 3577,
         "imagen": "",
         "barra": 7702764023006,
-        "invetario": 544,
+        "invetario": 484,
         "proveedor": "LATEXQUIM",
         "activo": true
     },
@@ -4724,7 +4724,7 @@
         "precio": 3577,
         "imagen": "",
         "barra": 7702764024003,
-        "invetario": 176,
+        "invetario": 128,
         "proveedor": "LATEXQUIM",
         "activo": true
     },
@@ -4735,7 +4735,7 @@
         "precio": 3577,
         "imagen": "",
         "barra": 7702764025000,
-        "invetario": 757,
+        "invetario": 697,
         "proveedor": "LATEXQUIM",
         "activo": true
     },
@@ -4746,7 +4746,7 @@
         "precio": 3577,
         "imagen": "",
         "barra": 7702764026007,
-        "invetario": 828,
+        "invetario": 780,
         "proveedor": "LATEXQUIM",
         "activo": true
     },
@@ -4757,7 +4757,7 @@
         "precio": 3720,
         "imagen": "",
         "barra": 7702764026502,
-        "invetario": 437,
+        "invetario": 377,
         "proveedor": "LATEXQUIM",
         "activo": true
     },
@@ -4768,7 +4768,7 @@
         "precio": 3720,
         "imagen": "",
         "barra": 7702764027004,
-        "invetario": 396,
+        "invetario": 336,
         "proveedor": "LATEXQUIM",
         "activo": true
     },
@@ -4779,7 +4779,7 @@
         "precio": 3720,
         "imagen": "",
         "barra": 7702764028001,
-        "invetario": 232,
+        "invetario": 172,
         "proveedor": "LATEXQUIM",
         "activo": true
     },
@@ -4790,7 +4790,7 @@
         "precio": 3720,
         "imagen": "",
         "barra": 7702764029008,
-        "invetario": 613,
+        "invetario": 553,
         "proveedor": "LATEXQUIM",
         "activo": true
     },
@@ -4801,7 +4801,7 @@
         "precio": 3720,
         "imagen": "",
         "barra": 7702764020004,
-        "invetario": 269,
+        "invetario": 233,
         "proveedor": "LATEXQUIM",
         "activo": true
     },
@@ -4823,7 +4823,7 @@
         "precio": 5323,
         "imagen": "",
         "barra": 7702764021001,
-        "invetario": 369,
+        "invetario": 333,
         "proveedor": "LATEXQUIM",
         "activo": true
     },
@@ -4834,7 +4834,7 @@
         "precio": 5323,
         "imagen": "",
         "barra": 7702764032008,
-        "invetario": 316,
+        "invetario": 292,
         "proveedor": "LATEXQUIM",
         "activo": true
     },
@@ -4845,7 +4845,7 @@
         "precio": 5323,
         "imagen": "",
         "barra": 7702764023005,
-        "invetario": 288,
+        "invetario": 252,
         "proveedor": "LATEXQUIM",
         "activo": true
     },
@@ -4856,7 +4856,7 @@
         "precio": 5323,
         "imagen": "",
         "barra": 7702764024002,
-        "invetario": 389,
+        "invetario": 353,
         "proveedor": "LATEXQUIM",
         "activo": true
     },
@@ -4911,7 +4911,7 @@
         "precio": 1547,
         "imagen": "../assets/img_catalogo/marchen/jabon-big-x1.png",
         "barra": 7707181391959,
-        "invetario": 1575,
+        "invetario": 1500,
         "proveedor": "MARCHEN",
         "activo": true
     },
@@ -4988,7 +4988,7 @@
         "precio": 13090,
         "imagen": "../assets/img_catalogo/prebel/7702044198271.png",
         "barra": 7702044198271,
-        "invetario": 115,
+        "invetario": 99,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5010,7 +5010,7 @@
         "precio": 3313,
         "imagen": "../assets/img_catalogo/prebel/7702044191906.png",
         "barra": 7702044191906,
-        "invetario": 40,
+        "invetario": 22,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5032,7 +5032,7 @@
         "precio": 15653,
         "imagen": "../assets/img_catalogo/prebel/7702044181600.png",
         "barra": 7702044181600,
-        "invetario": 56,
+        "invetario": 45,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5043,7 +5043,7 @@
         "precio": 18138,
         "imagen": "../assets/img_catalogo/prebel/7702044199858.png",
         "barra": 7702044199858,
-        "invetario": 58,
+        "invetario": 52,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5054,7 +5054,7 @@
         "precio": 17807,
         "imagen": "../assets/img_catalogo/prebel/7702044285780.png",
         "barra": 7702044285780,
-        "invetario": 89,
+        "invetario": 75,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5065,7 +5065,7 @@
         "precio": 14399,
         "imagen": "../assets/img_catalogo/prebel/7702044289061.png",
         "barra": 7702044289061,
-        "invetario": 8,
+        "invetario": 2,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5076,7 +5076,7 @@
         "precio": 3313,
         "imagen": "../assets/img_catalogo/prebel/7702044283595.png",
         "barra": 7702044283595,
-        "invetario": 66,
+        "invetario": 60,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5087,7 +5087,7 @@
         "precio": 3313,
         "imagen": "../assets/img_catalogo/prebel/7702044283601.png",
         "barra": 7702044283601,
-        "invetario": 6,
+        "invetario": 3,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5109,7 +5109,7 @@
         "precio": 8695,
         "imagen": "../assets/img_catalogo/prebel/7702044293853.png",
         "barra": 7702044293853,
-        "invetario": 53,
+        "invetario": 41,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5120,7 +5120,7 @@
         "precio": 6543,
         "imagen": "../assets/img_catalogo/prebel/7702044289054.png",
         "barra": 7702044289054,
-        "invetario": 207,
+        "invetario": 201,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5142,7 +5142,7 @@
         "precio": 26419,
         "imagen": "../assets/img_catalogo/prebel/7702044283588.png",
         "barra": 7702044283588,
-        "invetario": 49,
+        "invetario": 43,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5153,7 +5153,7 @@
         "precio": 17807,
         "imagen": "../assets/img_catalogo/prebel/7702044283618.png",
         "barra": 7702044283618,
-        "invetario": 36,
+        "invetario": 33,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5186,7 +5186,7 @@
         "precio": 21947,
         "imagen": "../assets/img_catalogo/prebel/7702044194587.png",
         "barra": 7702044194587,
-        "invetario": 4,
+        "invetario": 1,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5197,7 +5197,7 @@
         "precio": 22279,
         "imagen": "../assets/img_catalogo/prebel/7702044243797.png",
         "barra": 7702044243797,
-        "invetario": 97,
+        "invetario": 91,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5230,7 +5230,7 @@
         "precio": 13169,
         "imagen": "../assets/img_catalogo/prebel/7702044282994.png",
         "barra": 7702044282994,
-        "invetario": 56,
+        "invetario": 52,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5263,7 +5263,7 @@
         "precio": 13090,
         "imagen": "../assets/img_catalogo/prebel/7702044246477.png",
         "barra": 7702044246477,
-        "invetario": 250,
+        "invetario": 240,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5274,7 +5274,7 @@
         "precio": 3148,
         "imagen": "../assets/img_catalogo/prebel/7702044246378.png",
         "barra": 7702044246378,
-        "invetario": 65,
+        "invetario": 47,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5285,7 +5285,7 @@
         "precio": 3148,
         "imagen": "../assets/img_catalogo/prebel/7702044246408.png",
         "barra": 7702044246408,
-        "invetario": 33,
+        "invetario": 15,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5296,7 +5296,7 @@
         "precio": 18495,
         "imagen": "../assets/img_catalogo/prebel/7702044285865.png",
         "barra": 7702044285865,
-        "invetario": 56,
+        "invetario": 50,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5340,7 +5340,7 @@
         "precio": 15322,
         "imagen": "../assets/img_catalogo/prebel/7702044246842.png",
         "barra": 7702044246842,
-        "invetario": 101,
+        "invetario": 98,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5395,7 +5395,7 @@
         "precio": 33045,
         "imagen": "../assets/img_catalogo/prebel/7702044260909.png",
         "barra": 7702044260909,
-        "invetario": 29,
+        "invetario": 28,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5725,7 +5725,7 @@
         "precio": 3161,
         "imagen": "",
         "barra": 7702108205556,
-        "invetario": 830,
+        "invetario": 794,
         "proveedor": "PRODUSA",
         "activo": true
     },
@@ -5747,7 +5747,7 @@
         "precio": 6084,
         "imagen": "",
         "barra": 7702108205457,
-        "invetario": 377,
+        "invetario": 359,
         "proveedor": "PRODUSA",
         "activo": true
     },
@@ -5758,7 +5758,7 @@
         "precio": 6610,
         "imagen": "",
         "barra": 7702108209714,
-        "invetario": 728,
+        "invetario": 620,
         "proveedor": "PRODUSA",
         "activo": true
     },
@@ -5769,7 +5769,7 @@
         "precio": 4304,
         "imagen": "",
         "barra": 7702108209813,
-        "invetario": 265,
+        "invetario": 49,
         "proveedor": "PRODUSA",
         "activo": true
     },
@@ -5780,7 +5780,7 @@
         "precio": 4454,
         "imagen": "",
         "barra": 7702108850794,
-        "invetario": 5672,
+        "invetario": 5504,
         "proveedor": "PRODUSA",
         "activo": true
     },
@@ -5791,7 +5791,7 @@
         "precio": 8411,
         "imagen": "",
         "barra": 7702108201770,
-        "invetario": 11,
+        "invetario": 5,
         "proveedor": "PRODUSA",
         "activo": true
     },
@@ -5802,7 +5802,7 @@
         "precio": 5060,
         "imagen": "",
         "barra": 7702108200919,
-        "invetario": 917,
+        "invetario": 869,
         "proveedor": "PRODUSA",
         "activo": true
     },
@@ -5824,7 +5824,7 @@
         "precio": 6992,
         "imagen": "",
         "barra": 7702108207819,
-        "invetario": 72,
+        "invetario": 69,
         "proveedor": "PRODUSA",
         "activo": true
     },
@@ -5846,7 +5846,7 @@
         "precio": 6902,
         "imagen": "",
         "barra": 7702120012996,
-        "invetario": 240,
+        "invetario": 228,
         "proveedor": "PAPELES NACIONALES",
         "activo": true
     },
@@ -5857,7 +5857,7 @@
         "precio": 16421,
         "imagen": "",
         "barra": 7702120012972,
-        "invetario": 522,
+        "invetario": 118,
         "proveedor": "PAPELES NACIONALES",
         "activo": true
     },
@@ -5879,7 +5879,7 @@
         "precio": 5908,
         "imagen": "",
         "barra": 7702120013061,
-        "invetario": 48,
+        "invetario": 36,
         "proveedor": "PAPELES NACIONALES",
         "activo": true
     },
@@ -5890,7 +5890,7 @@
         "precio": 12682,
         "imagen": "",
         "barra": 7702120013078,
-        "invetario": 2064,
+        "invetario": 2012,
         "proveedor": "PAPELES NACIONALES",
         "activo": true
     },
@@ -5923,7 +5923,7 @@
         "precio": 1746,
         "imagen": "",
         "barra": 7702120009569,
-        "invetario": 494,
+        "invetario": 452,
         "proveedor": "PAPELES NACIONALES",
         "activo": true
     },
@@ -5934,7 +5934,7 @@
         "precio": 5136,
         "imagen": "",
         "barra": 7702120014457,
-        "invetario": 167,
+        "invetario": 164,
         "proveedor": "PAPELES NACIONALES",
         "activo": true
     },
@@ -6022,7 +6022,7 @@
         "precio": 1647,
         "imagen": "",
         "barra": 7702120013009,
-        "invetario": 2544,
+        "invetario": 2496,
         "proveedor": "PAPELES NACIONALES",
         "activo": true
     },
@@ -6033,7 +6033,7 @@
         "precio": 1179,
         "imagen": "",
         "barra": 7702120013030,
-        "invetario": 1296,
+        "invetario": 1242,
         "proveedor": "PAPELES NACIONALES",
         "activo": true
     },
@@ -6066,7 +6066,7 @@
         "precio": 3896,
         "imagen": "",
         "barra": 7702120012682,
-        "invetario": 1530,
+        "invetario": 1440,
         "proveedor": "PAPELES NACIONALES",
         "activo": true
     },
@@ -6154,7 +6154,7 @@
         "precio": 13111,
         "imagen": "",
         "barra": 7702120014105,
-        "invetario": 188,
+        "invetario": 148,
         "proveedor": "PAPELES NACIONALES",
         "activo": true
     },
@@ -6176,7 +6176,7 @@
         "precio": 2785,
         "imagen": " ../assets/img_catalogo/precocidos/arepasan-1000.png ",
         "barra": 7705525010123,
-        "invetario": 4383,
+        "invetario": 4072,
         "proveedor": "PRECOCIDOS",
         "activo": true
     },
@@ -6187,7 +6187,7 @@
         "precio": 1339,
         "imagen": " ../assets/img_catalogo/precocidos/arepasan-500.PNG ",
         "barra": 7705525010017,
-        "invetario": 3598,
+        "invetario": 3200,
         "proveedor": "PRECOCIDOS",
         "activo": true
     },
@@ -6209,7 +6209,7 @@
         "precio": 898,
         "imagen": " ../assets/img_catalogo/precocidos/pasta-macarron-250.jpg ",
         "barra": 7705525095014,
-        "invetario": 1383,
+        "invetario": 4623,
         "proveedor": "PRECOCIDOS",
         "activo": true
     },
@@ -6220,7 +6220,7 @@
         "precio": 898,
         "imagen": " ../assets/img_catalogo/precocidos/pasta-fideos-250.jpg ",
         "barra": 7705525093072,
-        "invetario": 2229,
+        "invetario": 8373,
         "proveedor": "PRECOCIDOS",
         "activo": true
     },
@@ -6231,7 +6231,7 @@
         "precio": 898,
         "imagen": " ../assets/img_catalogo/precocidos/psta-conchas-250.jpg ",
         "barra": 7707525092013,
-        "invetario": 2256,
+        "invetario": 4512,
         "proveedor": "PRECOCIDOS",
         "activo": true
     },
@@ -6242,7 +6242,7 @@
         "precio": 3585,
         "imagen": " ../assets/img_catalogo/precocidos/pasta-espaguetti-1000.jpg ",
         "barra": 770705525091054,
-        "invetario": 1740,
+        "invetario": 6239,
         "proveedor": "PRECOCIDOS",
         "activo": true
     },
@@ -6253,7 +6253,7 @@
         "precio": 898,
         "imagen": " ../assets/img_catalogo/precocidos/pasta-espaguetti-250.jpg ",
         "barra": 77070525091016,
-        "invetario": 18,
+        "invetario": 6450,
         "proveedor": "PRECOCIDOS",
         "activo": true
     },
@@ -6264,7 +6264,7 @@
         "precio": 3585,
         "imagen": " ../assets/img_catalogo/precocidos/pasta-fideos-1000.jpg ",
         "barra": 770705525093089,
-        "invetario": 844,
+        "invetario": 2860,
         "proveedor": "PRECOCIDOS",
         "activo": true
     },
@@ -6275,7 +6275,7 @@
         "precio": 3585,
         "imagen": " ../assets/img_catalogo/precocidos/pasta-conchas-1000.jpg ",
         "barra": 7705525092037,
-        "invetario": 91,
+        "invetario": 877,
         "proveedor": "PRECOCIDOS",
         "activo": true
     },
@@ -6286,7 +6286,7 @@
         "precio": 3585,
         "imagen": " ../assets/img_catalogo/precocidos/pasta-macarron-1000.jpg ",
         "barra": 770552509354,
-        "invetario": 199,
+        "invetario": 805,
         "proveedor": "PRECOCIDOS",
         "activo": true
     },
@@ -6341,7 +6341,7 @@
         "precio": 10487,
         "imagen": " ../assets/img_catalogo/propets/feligato-x4kl.jpg ",
         "barra": 2222070752520,
-        "invetario": 162,
+        "invetario": 54,
         "proveedor": "PROPETS",
         "activo": true
     },
@@ -6363,7 +6363,7 @@
         "precio": 1270,
         "imagen": "",
         "barra": 7709645809889,
-        "invetario": 1922,
+        "invetario": 1826,
         "proveedor": "LA SABANA",
         "activo": true
     },
@@ -6374,7 +6374,7 @@
         "precio": 5081,
         "imagen": "",
         "barra": 7709645809896,
-        "invetario": 703,
+        "invetario": 679,
         "proveedor": "LA SABANA",
         "activo": true
     },
@@ -6385,7 +6385,7 @@
         "precio": 2542,
         "imagen": "",
         "barra": 7709645809865,
-        "invetario": 85,
+        "invetario": 49,
         "proveedor": "LA SABANA",
         "activo": true
     },
@@ -6396,7 +6396,7 @@
         "precio": 7774,
         "imagen": "",
         "barra": 7709645809841,
-        "invetario": 402,
+        "invetario": 394,
         "proveedor": "LA SABANA",
         "activo": true
     },
@@ -6462,7 +6462,7 @@
         "precio": 43102,
         "imagen": "",
         "barra": 7709990899,
-        "invetario": 101,
+        "invetario": 95,
         "proveedor": "HERBAR",
         "activo": true
     },
@@ -6484,7 +6484,7 @@
         "precio": 3630,
         "imagen": "",
         "barra": 7709990000000,
-        "invetario": 1428,
+        "invetario": 1284,
         "proveedor": "HERBAR",
         "activo": true
     },
@@ -6594,7 +6594,7 @@
         "precio": 4495,
         "imagen": " ../assets/img_catalogo/ventas-nacionales/gelatina-frutday-250.png ",
         "barra": 7700718564000,
-        "invetario": 412,
+        "invetario": 388,
         "proveedor": "VENTAS NACIONALES",
         "activo": true
     },
