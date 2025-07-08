@@ -137,7 +137,7 @@
         "precio": 1625,
         "imagen": "../assets/img_catalogo/toning/avena-molida-200.png",
         "barra": 7702622528131,
-        "invetario": 1281,
+        "invetario": 1280,
         "proveedor": "TONING",
         "activo": true
     },
@@ -808,7 +808,7 @@
         "precio": 9850,
         "imagen": "../assets/img_catalogo/toning/avena-sin-gluten-hojuelas-x800.png",
         "barra": 7702622668462,
-        "invetario": 633,
+        "invetario": 630,
         "proveedor": "TONING",
         "activo": true
     },
@@ -885,7 +885,7 @@
         "precio": 3750,
         "imagen": " ../assets/img_catalogo/atw/freskitos-105.png ",
         "barra": 7709888659173,
-        "invetario": 20319,
+        "invetario": 19935,
         "proveedor": "ATW INTERNACIONAL SAS",
         "activo": true
     },
@@ -1930,7 +1930,7 @@
         "precio": 1891,
         "imagen": " ../assets/img_catalogo/comestibles-italo/masmelo-50.png ",
         "barra": 7702117006939,
-        "invetario": 413,
+        "invetario": 407,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1941,7 +1941,7 @@
         "precio": 2393,
         "imagen": " ../assets/img_catalogo/comestibles-italo/masmelo-80.png ",
         "barra": 7702117012527,
-        "invetario": 39,
+        "invetario": 33,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2106,7 +2106,7 @@
         "precio": 1990,
         "imagen": " ../assets/img_catalogo/comestibles-italo/minitaco-arequipe.png ",
         "barra": 7702117009404,
-        "invetario": 1154,
+        "invetario": 1136,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2128,7 +2128,7 @@
         "precio": 1990,
         "imagen": " ../assets/img_catalogo/comestibles-italo/minitaco-coco.png ",
         "barra": 7702117009398,
-        "invetario": 541,
+        "invetario": 535,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2139,7 +2139,7 @@
         "precio": 1990,
         "imagen": " ../assets/img_catalogo/comestibles-italo/minitaco-fresa.png ",
         "barra": 7702117009312,
-        "invetario": 1217,
+        "invetario": 1199,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2150,7 +2150,7 @@
         "precio": 1990,
         "imagen": " ../assets/img_catalogo/comestibles-italo/minitaco-guanabana.png ",
         "barra": 7702117009640,
-        "invetario": 1077,
+        "invetario": 1071,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2161,7 +2161,7 @@
         "precio": 1980,
         "imagen": " ../assets/img_catalogo/comestibles-italo/7702117019236.png",
         "barra": 7702117019236,
-        "invetario": 306,
+        "invetario": 288,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2172,7 +2172,7 @@
         "precio": 1990,
         "imagen": " ../assets/img_catalogo/comestibles-italo/minitaco-mora.png ",
         "barra": 7702117012367,
-        "invetario": 1148,
+        "invetario": 1130,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2183,7 +2183,7 @@
         "precio": 1990,
         "imagen": " ../assets/img_catalogo/comestibles-italo/minitaco-naranja.png ",
         "barra": 7702117009374,
-        "invetario": 1224,
+        "invetario": 1206,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2194,7 +2194,7 @@
         "precio": 1980,
         "imagen": " ../assets/img_catalogo/comestibles-italo/7702117019182.png",
         "barra": 7702117019182,
-        "invetario": 75,
+        "invetario": 57,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2249,7 +2249,7 @@
         "precio": 2698,
         "imagen": " ../assets/img_catalogo/comestibles-italo/paquetaco-chocolate.png ",
         "barra": 7702117009114,
-        "invetario": 3408,
+        "invetario": 3388,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2271,7 +2271,7 @@
         "precio": 2698,
         "imagen": " ../assets/img_catalogo/comestibles-italo/paquetaco-fresa.png ",
         "barra": 7702117160068,
-        "invetario": 3098,
+        "invetario": 3078,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2282,7 +2282,7 @@
         "precio": 2698,
         "imagen": " ../assets/img_catalogo/comestibles-italo/paquetaco-arequipe.png ",
         "barra": 7702117008711,
-        "invetario": 3958,
+        "invetario": 3938,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2293,7 +2293,7 @@
         "precio": 2698,
         "imagen": " ../assets/img_catalogo/comestibles-italo/paquetaco-naranja.png ",
         "barra": 7702117160990,
-        "invetario": 3812,
+        "invetario": 3792,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2304,7 +2304,7 @@
         "precio": 2698,
         "imagen": " ../assets/img_catalogo/comestibles-italo/paquetaco-guanabana.png ",
         "barra": 7702117009626,
-        "invetario": 3855,
+        "invetario": 3849,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2315,7 +2315,7 @@
         "precio": 2698,
         "imagen": " ../assets/img_catalogo/comestibles-italo/paquetaco-vainilla.png ",
         "barra": 7702117160259,
-        "invetario": 3264,
+        "invetario": 3244,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2326,7 +2326,7 @@
         "precio": 2698,
         "imagen": " ../assets/img_catalogo/comestibles-italo/paquetaco-limon.png ",
         "barra": 7702117160679,
-        "invetario": 3815,
+        "invetario": 3795,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2337,7 +2337,7 @@
         "precio": 2698,
         "imagen": " ../assets/img_catalogo/comestibles-italo/paquetaco-mora.png ",
         "barra": 7702117012374,
-        "invetario": 2967,
+        "invetario": 2947,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2348,7 +2348,7 @@
         "precio": 6193,
         "imagen": " ../assets/img_catalogo/comestibles-italo/wafer-taquito-arequipe.png ",
         "barra": 7702117008452,
-        "invetario": 900,
+        "invetario": 898,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -3483,7 +3483,7 @@
         "barra": 74530110015787,
         "invetario": 56,
         "proveedor": "COMERCIALIZADORA JS",
-        "activo": true
+        "activo": false
     },
     {
         "id": 318,
@@ -3492,9 +3492,9 @@
         "precio": 6406,
         "imagen": " ../assets/img_catalogo/esponja-matrix/esponja-matrix.png ",
         "barra": 7453010015787,
-        "invetario": 0,
+        "invetario": 1440,
         "proveedor": "COMERCIALIZADORA JS",
-        "activo": false
+        "activo": true
     },
     {
         "id": 319,
@@ -4911,7 +4911,7 @@
         "precio": 1547,
         "imagen": "../assets/img_catalogo/marchen/jabon-big-x1.png",
         "barra": 7707181391959,
-        "invetario": 1500,
+        "invetario": 1475,
         "proveedor": "MARCHEN",
         "activo": true
     },
@@ -4988,7 +4988,7 @@
         "precio": 13090,
         "imagen": "../assets/img_catalogo/prebel/7702044198271.png",
         "barra": 7702044198271,
-        "invetario": 93,
+        "invetario": 92,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5219,7 +5219,7 @@
         "precio": 26087,
         "imagen": "../assets/img_catalogo/prebel/7702044273879.png",
         "barra": 7702044273879,
-        "invetario": 77,
+        "invetario": 75,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -6572,7 +6572,7 @@
         "precio": 31201,
         "imagen": " ../assets/img_catalogo/sabajon-apolo/sabajon-apolo-brandy.png",
         "barra": 7702534100029,
-        "invetario": 96,
+        "invetario": 93,
         "proveedor": "SABAJON APOLO",
         "activo": true
     },
@@ -6583,7 +6583,7 @@
         "precio": 30783,
         "imagen": " ../assets/img_catalogo/sabajon-apolo/sabajon-apolo-vainilla.png",
         "barra": 770253410012,
-        "invetario": 231,
+        "invetario": 228,
         "proveedor": "SABAJON APOLO",
         "activo": true
     },
@@ -6594,7 +6594,7 @@
         "precio": 4495,
         "imagen": " ../assets/img_catalogo/ventas-nacionales/gelatina-frutday-250.png ",
         "barra": 7700718564000,
-        "invetario": 388,
+        "invetario": 376,
         "proveedor": "VENTAS NACIONALES",
         "activo": true
     },
