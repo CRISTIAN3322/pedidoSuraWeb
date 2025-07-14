@@ -1514,9 +1514,14 @@
         "id": 52301907,
         "nombre": "ANA ORFILIA QUINTERO CASTELLANOS",
         "sucursales": [{
-            "direccion": "TV 79 D 74 44 SUR Bosa Laureles ",
-            "vendedor": "Bucky Santana Vanegas "
-        }]
+                "direccion": "TV 79 D 74 44 SUR Bosa Laureles ",
+                "vendedor": "Bucky Santana Vanegas "
+            },
+            {
+                "direccion": "CL 66 SUR 78 J 42 Bosa San Pablo ",
+                "vendedor": "Bucky Santana Vanegas "
+            }
+        ]
     },
     {
         "id": 52769070,
@@ -1651,6 +1656,10 @@
             },
             {
                 "direccion": "CL 46 2 B 21 Quintanares Soacha",
+                "vendedor": "Bucky Santana Vanegas "
+            },
+            {
+                "direccion": "CL 37 SUR 33 A 88  Villa Mayor",
                 "vendedor": "Bucky Santana Vanegas "
             }
         ]
