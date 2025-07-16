@@ -6659,6 +6659,14 @@
             "direccion": "CL 4 7 02  El Colegio ",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
+    },
+    {
+        "id": 900965940,
+        "nombre": "SUPERTIENDAS AUTOSERVICIO LA DESPENSA SAS",
+        "sucursales": [{
+            "direccion": "CL 27 SUR 11 24 Sosiego Sur ",
+            "vendedor": "Maria Esther Caballero Benitez"
+        }]
     }
 
 
