@@ -90,10 +90,11 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                         <p><strong>ID Cliente:</strong> ${datosCliente.clienteId}</p>
                         <p><strong>Dirección:</strong> ${datosCliente.sucursalDireccion}</p>
                         <p><strong>Vendedor:</strong> ${datosCliente.sucursalVendedor}</p>
+                        ${datosCliente.sinCupo ? '<p><strong style="color: red;">⚠️ CLIENTE SIN CUPO</strong></p>' : ''}
                     </div>
                 `;
                 
-                localStorage.removeItem('datosCliente');
+                // No eliminar los datos del localStorage aquí, se eliminarán después del envío del pedido
             }
         };
 
@@ -171,6 +172,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
     // Proceder al pago
     document.getElementById('checkout')?.addEventListener('click', () => {
+        console.log('Botón checkout clickeado');
         const cartItems = JSON.parse(localStorage.getItem('cartItems') || '[]');
         if (cartItems.length === 0) {
             alert('El carrito está vacío');
@@ -190,32 +192,62 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         const direccion = document.querySelector('.datos-card p:nth-child(3)')?.textContent?.split(':')[1].trim() || '';
         const vendedor = document.querySelector('.datos-card p:nth-child(4)')?.textContent?.split(':')[1].trim() || '';
 
-        // Crear el mensaje para WhatsApp
-        let mensaje = `*NUEVO PEDIDO*%0A%0A`;
-        mensaje += `Datos del Cliente%0A`;
-        mensaje += `Cliente: ${clienteNombre}%0A`;
-        mensaje += `ID: *${clienteId}*%0A`;
-        mensaje += `Dirección: *${direccion}*%0A`;
-        mensaje += `Vendedor: ${vendedor}%0A%0A`;
+        // Verificar si el cliente tiene cupo
+        const datosCliente = JSON.parse(localStorage.getItem('datosCliente') || '{}');
+        console.log('Datos del cliente:', datosCliente);
+        console.log('sinCupo:', datosCliente.sinCupo);
+        console.log('totalCartera:', datosCliente.totalCartera);
+        console.log('cupoDisponible:', datosCliente.cupoDisponible);
         
-        // Obtener el contenido del textarea de observaciones
-        const observacion = document.getElementById('observacion') as HTMLTextAreaElement;
-        if (observacion && observacion.value.trim()) {
-            mensaje += `%0A*Observaciones:*%0A${observacion.value.trim()}%0A%0A`;
+        let mensaje = '';
+        
+        if (datosCliente.sinCupo) {
+            console.log('Cliente SIN cupo - construyendo mensaje de alerta');
+            // Cliente sin cupo - enviar mensaje específico
+            mensaje = `*🚨 CLIENTE SIN CUPO 🚨*%0A%0A`;
+            mensaje += `*NO SE PUEDE PROCESAR EL PEDIDO*%0A%0A`;
+            mensaje += `Cliente: *${clienteNombre}*%0A`;
+            mensaje += `ID: *${clienteId}*%0A`;
+            mensaje += `Dirección: *${direccion}*%0A`;
+            mensaje += `Vendedor: *${vendedor}*%0A%0A`;
+            mensaje += `Cupo Disponible: $${datosCliente.cupoDisponible?.toLocaleString('es-CO') || '0'}%0A`;
+            mensaje += `Total Cartera: $${datosCliente.totalCartera?.toLocaleString('es-CO') || '0'}%0A%0A`;
+            mensaje += `*🚨 CLIENTE SIN CUPO DISPONIBLE 🚨*`;
+        } else {
+            console.log('Cliente CON cupo - construyendo mensaje de pedido normal');
+            // Cliente con cupo - enviar pedido normal
+            mensaje = `*NUEVO PEDIDO*%0A%0A`;
+            mensaje += `Datos del Cliente%0A`;
+            mensaje += `Cliente: ${clienteNombre}%0A`;
+            mensaje += `ID: *${clienteId}*%0A`;
+            mensaje += `Dirección: *${direccion}*%0A`;
+            mensaje += `Vendedor: ${vendedor}%0A%0A`;
+            
+            // Agregar información de cupo y cartera
+            if (datosCliente.totalCartera !== undefined && datosCliente.cupoDisponible !== undefined) {
+                mensaje += `*Información de Cupo:*%0A`;
+                mensaje += `Cupo Disponible: $${datosCliente.cupoDisponible.toLocaleString('es-CO')}%0A`;
+                mensaje += `Total Cartera: $${datosCliente.totalCartera.toLocaleString('es-CO')}%0A`;
+                mensaje += `✅ Con cupo disponible%0A%0A`;
+            }
+            
+            // Obtener el contenido del textarea de observaciones
+            const observacion = document.getElementById('observacion') as HTMLTextAreaElement;
+            if (observacion && observacion.value.trim()) {
+                mensaje += `%0A*Observaciones:*%0A${observacion.value.trim()}%0A%0A`;
+            }
+
+            mensaje += `*Productos:*%0A`;
+            let total = 0;
+            
+            cartItems.forEach((item: any) => {
+                const subtotal = item.precio * item.cantidad;
+                total += subtotal;
+                mensaje += `- ${item.nombre}%0A *Codigo: ${item.codigo}* *= ${item.cantidad}*%0A `;
+            });
+
+            mensaje += `*Total del Pedido: ${formatCurrency(total)}*`;
         }
-
-
-        mensaje += `*Productos:*%0A`;
-        let total = 0;
-        
-        cartItems.forEach((item: any) => {
-            const subtotal = item.precio * item.cantidad;
-            total += subtotal;
-            mensaje += `- ${item.nombre}%0A *Codigo: ${item.codigo}* *= ${item.cantidad}*%0A `;
-        });
-
-        
-        mensaje += `*Total del Pedido: ${formatCurrency(total)}*`;
         
 
 
@@ -224,6 +256,9 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         
         // Crear el enlace de WhatsApp
         const whatsappLink = `https://wa.me/${numeroWhatsApp}?text=${mensaje}`;
+        
+        console.log('Mensaje a enviar:', mensaje);
+        console.log('Enlace de WhatsApp:', whatsappLink);
         
         // Abrir WhatsApp en una nueva ventana
         window.open(whatsappLink, '_blank');
@@ -237,6 +272,9 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         if (contenidoDatosCliente) {
             contenidoDatosCliente.innerHTML = '';
         }
+        
+        // Limpiar los datos del cliente del localStorage después del envío
+        localStorage.removeItem('datosCliente');
     });
 
     // Renderizar items al cargar la página

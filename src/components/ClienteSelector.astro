@@ -1,5 +1,7 @@
 ---
 import clientes from "../data/clientes.json";
+import cupos from "../data/cupo.json";
+import cartera from "../data/cartera.json";
 ---
 
 <div class="cliente-selector">
@@ -14,6 +16,7 @@ import clientes from "../data/clientes.json";
 
     <div class="sucursales" id="sucursalesContainer" style="display: none;">
         <h3 id="clienteSeleccionadoNombre"></h3>
+        <p id="clienteCupo" class="cupo-cliente"></p>
         <ul class="lista-sucursales" id="listaSucursales"></ul>
         <div id="datosSeleccionados" class="datos-seleccionados" style="display: none;">
             <h4>Datos Seleccionados:</h4>
@@ -21,6 +24,29 @@ import clientes from "../data/clientes.json";
             <p id="sucursalDireccion"></p>
             <p id="sucursalVendedor"></p>
         </div>
+        
+        <!-- Tabla de cartera justo antes del botón -->
+        <div class="tabla-cartera" id="tablaCartera" style="display: none;">
+            <h4>Cartera del Cliente</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Factura</th>
+                        <th>Fecha</th>
+                        <th>Valor</th>
+                        <th>Días</th>
+                    </tr>
+                </thead>
+                <tbody id="carteraTableBody"></tbody>
+                <tfoot id="carteraTableFoot" style="display: none;">
+                    <tr>
+                        <td colspan="2"><strong>Total Cartera:</strong></td>
+                        <td id="totalCartera" colspan="2"><strong>$0</strong></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        
         <button id="irAlCarrito" class="boton-carrito" style="display: none;">
             Ir al Carrito
         </button>
@@ -35,9 +61,10 @@ import clientes from "../data/clientes.json";
     ></textarea>
 </div>
 
-<script define:vars={{ clientes }}>
+<script define:vars={{ clientes, cupos, cartera }}>
     // Datos iniciales
     const clientesData = clientes;
+    const cuposData = cupos;
     let clienteSeleccionado = null;
     let sucursalSeleccionada = null;
 
@@ -46,6 +73,7 @@ import clientes from "../data/clientes.json";
     const listaClientes = document.getElementById('listaClientes');
     const sucursalesContainer = document.getElementById('sucursalesContainer');
     const clienteSeleccionadoNombre = document.getElementById('clienteSeleccionadoNombre');
+    const clienteCupo = document.getElementById('clienteCupo');
     const listaSucursales = document.getElementById('listaSucursales');
     const resultadoTextarea = document.getElementById('resultadoTextarea');
 
@@ -81,6 +109,95 @@ import clientes from "../data/clientes.json";
         clienteSeleccionado = cliente;
         sucursalSeleccionada = null;
         clienteSeleccionadoNombre.textContent = `Sucursales de ${cliente.nombre}:`;
+        
+        // Mostrar el cupo del cliente
+        const cupoInfo = cuposData.find(c => c.id === cliente.id);
+        if (cupoInfo) {
+            clienteCupo.textContent = `Cupo disponible: $${cupoInfo.cupo}`;
+            clienteCupo.style.display = 'block';
+        } else {
+            clienteCupo.textContent = 'Cupo no disponible';
+            clienteCupo.style.display = 'block';
+        }
+
+        // Mostrar la cartera del cliente
+        const carteraCliente = cartera.filter(c => c.id === cliente.id);
+        const tablaCartera = document.getElementById('tablaCartera');
+        const carteraTableBody = document.getElementById('carteraTableBody');
+        
+        if (carteraCliente.length > 0) {
+            carteraTableBody.innerHTML = '';
+            let totalCartera = 0;
+            
+            carteraCliente.forEach(factura => {
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+                    <td>${factura.fac}</td>
+                    <td>${factura.fecha}</td>
+                    <td>$${factura.valor}</td>
+                    <td>${factura.dias}</td>
+                `;
+                
+                // Agregar clases para resaltar filas según los días
+                const dias = parseInt(factura.dias);
+                console.log('Días:', factura.dias, 'Tipo:', typeof factura.dias, 'Días parseados:', dias);
+                
+                if (dias >= 30) {
+                    tr.classList.add('dias-mayor-treinta');
+                } else if (dias >= 11) {
+                    tr.classList.add('dias-mayor-diez');
+                } else if (dias >= 1) {
+                    tr.classList.add('dias-mayor-uno');
+                }
+                
+                // Sumar el valor de la factura
+                const valorNumerico = parseFloat(factura.valor.replace(/,/g, ''));
+                totalCartera += valorNumerico;
+                
+                carteraTableBody.appendChild(tr);
+            });
+            
+            // Mostrar el total
+            const totalCarteraElement = document.getElementById('totalCartera');
+            const carteraTableFoot = document.getElementById('carteraTableFoot');
+            if (totalCarteraElement && carteraTableFoot) {
+                totalCarteraElement.innerHTML = `<strong>$${totalCartera.toLocaleString('es-CO')}</strong>`;
+                carteraTableFoot.style.display = 'table-footer-group';
+            }
+            
+            // Comparar con cupo disponible
+            const cupoInfo = cuposData.find(c => c.id === cliente.id);
+            if (cupoInfo) {
+                const cupoDisponible = parseFloat(cupoInfo.cupo.replace(/,/g, ''));
+                const sinCupo = totalCartera > cupoDisponible;
+                
+                // Guardar información para WhatsApp
+                clienteSeleccionado.totalCartera = totalCartera;
+                clienteSeleccionado.cupoDisponible = cupoDisponible;
+                clienteSeleccionado.sinCupo = sinCupo;
+                
+                console.log('Cliente seleccionado:', clienteSeleccionado);
+                console.log('Total cartera:', totalCartera);
+                console.log('Cupo disponible:', cupoDisponible);
+                console.log('Sin cupo:', sinCupo);
+                
+                // Mostrar alerta visual si no hay cupo
+                if (sinCupo) {
+                    clienteCupo.style.color = 'red';
+                    clienteCupo.style.fontWeight = 'bold';
+                    clienteCupo.innerHTML = `⚠️ SIN CUPO - Cupo: $${cupoDisponible.toLocaleString('es-CO')} | Cartera: $${totalCartera.toLocaleString('es-CO')}`;
+                } else {
+                    clienteCupo.style.color = 'green';
+                    clienteCupo.style.fontWeight = 'normal';
+                    clienteCupo.innerHTML = `✅ Con Cupo - Cupo: $${cupoDisponible.toLocaleString('es-CO')} | Cartera: $${totalCartera.toLocaleString('es-CO')}`;
+                }
+            }
+            
+            tablaCartera.style.display = 'block';
+        } else {
+            tablaCartera.style.display = 'none';
+        }
+
         sucursalesContainer.style.display = 'block';
         
         listaSucursales.innerHTML = '';
@@ -138,11 +255,15 @@ import clientes from "../data/clientes.json";
                 clienteId: clienteSeleccionado.id,
                 clienteNombre: clienteSeleccionado.nombre,
                 sucursalDireccion: sucursalSeleccionada.direccion,
-                sucursalVendedor: sucursalSeleccionada.vendedor
+                sucursalVendedor: sucursalSeleccionada.vendedor,
+                totalCartera: clienteSeleccionado.totalCartera || 0,
+                cupoDisponible: clienteSeleccionado.cupoDisponible || 0,
+                sinCupo: clienteSeleccionado.sinCupo || false
             };
             
             // Guardar datos en localStorage
             localStorage.setItem('datosCliente', JSON.stringify(datosCliente));
+            console.log('Datos guardados en localStorage:', datosCliente);
             
             // Redirigir a la página del carrito
             window.location.href = '/carrito';
@@ -229,6 +350,93 @@ import clientes from "../data/clientes.json";
     .datos-seleccionados p {
         margin: 5px 0;
         color: #666;
+    }
+
+    .cupo-cliente {
+        font-size: 1.1em;
+        color: olive;
+        font-weight: bold;
+        margin: 10px 0;
+        padding: 5px;
+        background-color: #f8f9fa;
+        border-radius: 4px;
+    }
+</style>
+
+<style>
+    .tabla-cartera {
+        margin: 20px 0;
+        overflow-x: auto;
+    }
+
+    .tabla-cartera table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+    }
+
+    .tabla-cartera th,
+    .tabla-cartera td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    .tabla-cartera th {
+        background-color: #f4f4f4;
+    }
+
+    .tabla-cartera tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    .tabla-cartera tr:hover {
+        background-color: #f5f5f5;
+    }
+
+    /* Días >= 1: Amarillo */
+    .tabla-cartera tr.dias-mayor-uno {
+        background-color: #fff3cd !important;
+    }
+
+    .tabla-cartera tr.dias-mayor-uno:hover {
+        background-color: #ffeaa7 !important;
+    }
+
+    /* Días >= 11: Rojo */
+    .tabla-cartera tr.dias-mayor-diez {
+        background-color: #f8d7da !important;
+    }
+
+    .tabla-cartera tr.dias-mayor-diez:hover {
+        background-color: #f5c6cb !important;
+    }
+
+    /* Días >= 30: Rojo intenso */
+    .tabla-cartera tr.dias-mayor-treinta {
+        background-color: #dc3545 !important;
+        color: white !important;
+    }
+
+    .tabla-cartera tr.dias-mayor-treinta:hover {
+        background-color: #c82333 !important;
+        color: white !important;
+    }
+
+    /* Estilos para el pie de tabla con el total */
+    .tabla-cartera tfoot {
+        background-color: #f8f9fa;
+        border-top: 2px solid #dee2e6;
+    }
+
+    .tabla-cartera tfoot td {
+        font-weight: bold;
+        text-align: right;
+        padding: 12px 8px;
+    }
+
+    .tabla-cartera tfoot td:first-child {
+        text-align: left;
     }
 </style>
 
