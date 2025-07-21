@@ -201,13 +201,17 @@ import cartera from "../data/cartera.json";
         sucursalesContainer.style.display = 'block';
         
         listaSucursales.innerHTML = '';
-        cliente.sucursales.forEach((sucursal) => {
-            const li = document.createElement('li');
-            li.className = 'sucursal-item';
-            li.textContent = `Dirección: ${sucursal.direccion} | Vendedor: ${sucursal.vendedor}`;
-            li.onclick = () => seleccionarSucursal(sucursal);
-            listaSucursales.appendChild(li);
-        });
+        if (Array.isArray(cliente.sucursales)) {
+            cliente.sucursales.forEach((sucursal) => {
+                const li = document.createElement('li');
+                li.className = 'sucursal-item';
+                li.textContent = `Dirección: ${sucursal.direccion} | Vendedor: ${sucursal.vendedor}`;
+                li.onclick = () => seleccionarSucursal(sucursal);
+                listaSucursales.appendChild(li);
+            });
+        } else {
+            listaSucursales.innerHTML = '<li>No hay sucursales registradas</li>';
+        }
         
         actualizarTextarea();
     }

@@ -2135,14 +2135,6 @@
         }]
     },
     {
-        "id": 80220194,
-        "nombre": "OSCAR FERNEY ORTIZ CUBILLOS",
-        "sucursales": [{
-            "direccion": "CR 1F 91 94 Comuneros ",
-            "vendedor": "Claudia Yojana Corredor Gonzalez"
-        }]
-    },
-    {
         "id": 80238557,
         "nombre": "JOHN ALEXANDER SALAZAR BUITRAGO",
         "sucursales": [{
@@ -6683,7 +6675,13 @@
             "direccion": "DG 44 B SUR 22 A 59  Santa Lucia ",
             "vendedor": "Berenice Herminda Muñoz Mondragon"
         }]
+    },
+    {
+        "id": 8022019,
+        "nombre": "OSCAR FERNEY ORTIZ CUBILLOS",
+        "sucursales": [{
+            "direccion": "CR 1F 91 94 Comuneros ",
+            "vendedor": "Claudia Yojana Corredor Gonzalez"
+        }]
     }
-
-
 ]
