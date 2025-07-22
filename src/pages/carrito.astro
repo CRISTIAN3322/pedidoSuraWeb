@@ -228,7 +228,23 @@ import CarteraCliente from '../components/CarteraCliente.astro';
             mensaje += `Vendedor: *${vendedor}*%0A%0A`;
             mensaje += `Cupo Disponible: $${datosCliente.cupoDisponible?.toLocaleString('es-CO') || '0'}%0A`;
             mensaje += `Total Cartera: $${datosCliente.totalCartera?.toLocaleString('es-CO') || '0'}%0A%0A`;
-            mensaje += `*🚨 CLIENTE SIN CUPO DISPONIBLE 🚨*`;
+            mensaje += `*🚨 CLIENTE SIN CUPO DISPONIBLE 🚨*%0A%0A`;
+
+            // Agregar observaciones si existen
+            const observacion = document.getElementById('observacion') as HTMLTextAreaElement;
+            if (observacion && observacion.value.trim()) {
+                mensaje += `%0A*Observaciones:*%0A${observacion.value.trim()}%0A%0A`;
+            }
+
+            // Agregar productos y total
+            mensaje += `*Productos:*%0A`;
+            let total = 0;
+            cartItems.forEach((item: any) => {
+                const subtotal = item.precio * item.cantidad;
+                total += subtotal;
+                mensaje += `- ${item.nombre}%0A *Codigo: ${item.codigo}* *= ${item.cantidad}*%0A `;
+            });
+            mensaje += `*Total del Pedido: ${formatCurrency(total)}*`;
         } else {
             console.log('Cliente CON cupo - construyendo mensaje de pedido normal');
             // Cliente con cupo - enviar pedido normal
