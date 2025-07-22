@@ -5,6 +5,7 @@ const clienteNombre = params.get('clienteNombre');
 const sucursalDireccion = params.get('sucursalDireccion');
 const sucursalVendedor = params.get('sucursalVendedor');
 import BaseLayout from '../layouts/BaseLayout.astro';
+import CarteraCliente from '../components/CarteraCliente.astro';
 ---
 
 <html lang="es">
@@ -30,6 +31,21 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                         <p><strong>Vendedor:</strong> {sucursalVendedor}</p>
                     </div>
                 )}
+                {/* Renderizar área de cartera si hay datos en localStorage (solo en cliente seleccionado) */}
+                {typeof window !== 'undefined' && (() => {
+                  const datosClienteString = localStorage.getItem('datosCliente');
+                  if (datosClienteString) {
+                    const datosCliente = JSON.parse(datosClienteString);
+                    // Si existen datos de cartera, cupo, etc, los pasamos al componente
+                    return <CarteraCliente 
+                      cartera={datosCliente.cartera || []}
+                      totalCartera={datosCliente.totalCartera || 0}
+                      cupoDisponible={datosCliente.cupoDisponible || 0}
+                      sinCupo={datosCliente.sinCupo || false}
+                    />;
+                  }
+                  return null;
+                })()}
             </div>
         </div>
         <hr>

@@ -1,0 +1,26 @@
+---
+// Props esperados:
+// cupoDisponible: número
+// totalCartera: número
+// sinCupo: boolean
+const { cupoDisponible = 0, totalCartera = 0, sinCupo = false } = Astro.props;
+---
+<div class="cupo-cliente">
+  {sinCupo ? (
+    <span style="color: red; font-weight: bold;">⚠️ SIN CUPO - Cupo: ${cupoDisponible.toLocaleString('es-CO')} | Cartera: ${totalCartera.toLocaleString('es-CO')}</span>
+  ) : (
+    <span style="color: green;">✅ Con Cupo - Cupo: ${cupoDisponible.toLocaleString('es-CO')} | Cartera: ${totalCartera.toLocaleString('es-CO')}</span>
+  )}
+</div>
+
+<style>
+.cupo-cliente {
+    font-size: 1.1em;
+    margin: 10px 0;
+    padding: 5px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    font-weight: bold;
+    text-align: left;
+}
+</style> 

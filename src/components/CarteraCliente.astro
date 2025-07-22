@@ -1,0 +1,112 @@
+---
+// Props esperados:
+// cartera: array de facturas del cliente
+// totalCartera: número
+// cupoDisponible: número
+// sinCupo: boolean
+// mostrar: boolean (opcional, default true)
+const { cartera = [], totalCartera = 0, cupoDisponible = 0, sinCupo = false, mostrar = true } = Astro.props;
+---
+{mostrar && (
+  <div class="tabla-cartera">
+    <h4>Cartera del Cliente</h4>
+    <table>
+      <thead>
+        <tr>
+          <th>Factura</th>
+          <th>Fecha</th>
+          <th>Valor</th>
+          <th>Días</th>
+        </tr>
+      </thead>
+      <tbody>
+        {cartera.length > 0 ? cartera.map(factura => (
+          <tr class={
+            Number(factura.dias) >= 30 ? 'dias-mayor-treinta' :
+            Number(factura.dias) >= 11 ? 'dias-mayor-diez' :
+            Number(factura.dias) >= 1 ? 'dias-mayor-uno' : ''
+          }>
+            <td>{factura.fac}</td>
+            <td>{factura.fecha}</td>
+            <td>${factura.valor}</td>
+            <td>{factura.dias}</td>
+          </tr>
+        )) : (
+          <tr><td colspan="4">Sin facturas pendientes</td></tr>
+        )}
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2"><strong>Total Cartera:</strong></td>
+          <td colspan="2"><strong>${totalCartera.toLocaleString('es-CO')}</strong></td>
+        </tr>
+      </tfoot>
+    </table>
+    <div class="info-cupo" style="margin-top: 10px;">
+      {sinCupo ? (
+        <span style="color: red; font-weight: bold;">⚠️ SIN CUPO - Cupo: ${cupoDisponible.toLocaleString('es-CO')} | Cartera: ${totalCartera.toLocaleString('es-CO')}</span>
+      ) : (
+        <span style="color: green;">✅ Con Cupo - Cupo: ${cupoDisponible.toLocaleString('es-CO')} | Cartera: ${totalCartera.toLocaleString('es-CO')}</span>
+      )}
+    </div>
+  </div>
+)}
+
+<style>
+.tabla-cartera {
+    margin: 20px 0;
+    overflow-x: auto;
+}
+.tabla-cartera table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+.tabla-cartera th,
+.tabla-cartera td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+.tabla-cartera th {
+    background-color: #f4f4f4;
+}
+.tabla-cartera tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+.tabla-cartera tr:hover {
+    background-color: #f5f5f5;
+}
+.tabla-cartera tr.dias-mayor-uno {
+    background-color: #fff3cd !important;
+}
+.tabla-cartera tr.dias-mayor-uno:hover {
+    background-color: #ffeaa7 !important;
+}
+.tabla-cartera tr.dias-mayor-diez {
+    background-color: #f8d7da !important;
+}
+.tabla-cartera tr.dias-mayor-diez:hover {
+    background-color: #f5c6cb !important;
+}
+.tabla-cartera tr.dias-mayor-treinta {
+    background-color: #dc3545 !important;
+    color: white !important;
+}
+.tabla-cartera tr.dias-mayor-treinta:hover {
+    background-color: #c82333 !important;
+    color: white !important;
+}
+.tabla-cartera tfoot {
+    background-color: #f8f9fa;
+    border-top: 2px solid #dee2e6;
+}
+.tabla-cartera tfoot td {
+    font-weight: bold;
+    text-align: right;
+    padding: 12px 8px;
+}
+.tabla-cartera tfoot td:first-child {
+    text-align: left;
+}
+</style> 
