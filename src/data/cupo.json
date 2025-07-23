@@ -66,7 +66,7 @@
     {
         "id": 901312259,
         "nombre": "COMMUNAL INVESTMENTS SAS",
-        "cupo": 25000000
+        "cupo": 30000000
     },
     {
         "id": 1020749804,
@@ -162,6 +162,11 @@
         "id": 900237181,
         "nombre": "INVERSIONES Y DISTRIBUCIONES EL GUAVIO LTDA",
         "cupo": 6000000
+    },
+    {
+        "id": 79136082,
+        "nombre": "JAIME ALONSO LAITON CASTELLANOS",
+        "cupo": 2000000
     },
     {
         "id": 7184212,
@@ -361,7 +366,7 @@
     {
         "id": 1075669649,
         "nombre": "VICTOR DANIEL GONZALEZ GONZALEZ",
-        "cupo": 1000000
+        "cupo": 2800000
     },
     {
         "id": 1088237783,
@@ -449,6 +454,11 @@
         "cupo": 12000000
     },
     {
+        "id": 1013621293,
+        "nombre": "CRISTIAN ERNESTO PABON BETANCOURT",
+        "cupo": 3000000
+    },
+    {
         "id": 901519639,
         "nombre": "DIAMANTE V.E.D SAS",
         "cupo": 1000000
@@ -481,7 +491,7 @@
     {
         "id": 20440535,
         "nombre": "GLADYS QUEVEDO ROJAS",
-        "cupo": 4000000
+        "cupo": 5000000
     },
     {
         "id": 900814358,
@@ -512,6 +522,11 @@
         "id": 80254079,
         "nombre": "JAIRO ANDRES PARRADO GUTIERREZ",
         "cupo": 2500000
+    },
+    {
+        "id": 900578509,
+        "nombre": "MERCADOS MERKA HOGAR LA 91 SAS",
+        "cupo": 4000000
     },
     {
         "id": 80002112,
@@ -592,6 +607,11 @@
         "id": 52951174,
         "nombre": "NIDIA JOHANNA CARRILLO ORTIZ",
         "cupo": 5000000
+    },
+    {
+        "id": 10324129436,
+        "nombre": "OSCAR ALEXANDER CHAPARRO DELGADO",
+        "cupo": 1000000
     },
     {
         "id": 79379108,
@@ -992,6 +1012,11 @@
         "id": 79424099,
         "nombre": "JUAN DE DIOS CAGUEÑAS CAGUEÑAS",
         "cupo": 10000000
+    },
+    {
+        "id": 1000241762,
+        "nombre": "JUAN SEBASTIAN VALLEJO BARON",
+        "cupo": 2500000
     },
     {
         "id": 11411506,
@@ -1811,117 +1836,117 @@
     {
         "id": 830087795,
         "nombre": "LA PERLA E HIJOS   CIA LIMITADA",
-        "cupo": 0
+        "cupo": 8000000
     },
     {
         "id": 23925427,
         "nombre": "MARIELINA JOYA DE MOGOLLON",
-        "cupo": 0
+        "cupo": 6000000
     },
     {
         "id": 52341493,
         "nombre": "MARISOL BONILLA",
-        "cupo": 0
+        "cupo": 6000000
     },
     {
         "id": 52392227,
         "nombre": "MARTHA LILIANA GUTIERREZ HERRERA",
-        "cupo": 0
+        "cupo": 7000000
     },
     {
         "id": 52802923,
         "nombre": "MARY LUZ HERRERA ALVIRA",
-        "cupo": 0
+        "cupo": 3500000
     },
     {
         "id": 900204753,
         "nombre": "MERCADOS BLANCO TORRES SAS",
-        "cupo": 0
+        "cupo": 65000000
     },
     {
         "id": 1057074323,
         "nombre": "PABLO RAMIRO SOLER SALAMANCA",
-        "cupo": 0
+        "cupo": 1000000
     },
     {
         "id": 52415411,
         "nombre": "SANDRA LILIANA GONGORA HERNANDEZ",
-        "cupo": 0
+        "cupo": 1000000
     },
     {
         "id": 901300047,
         "nombre": "SUPERMERCADO RAMIREZ HERMANOS SAS",
-        "cupo": 0
+        "cupo": 90000000
     },
     {
         "id": 1033810404,
         "nombre": "ALISSON DANIELA CASTILLO SANCHEZ",
-        "cupo": 0
+        "cupo": 1000000
     },
     {
         "id": 51673879,
         "nombre": "ANA ISABEL CASTILLO MELO",
-        "cupo": 0
+        "cupo": 1000000
     },
     {
         "id": 30389199,
         "nombre": "ANGELA PATRICIA BARRIOS CASTIBLANCO",
-        "cupo": 0
+        "cupo": 6000000
     },
     {
         "id": 80437511,
         "nombre": "ARGILIO ENCISO GONZALEZ",
-        "cupo": 0
+        "cupo": 2000000
     },
     {
         "id": 41631269,
         "nombre": "BLANCA NELLY TOVAR HUERTAS",
-        "cupo": 0
+        "cupo": 7000000
     },
     {
         "id": 1030630977,
         "nombre": "BRAYAN DUVAN MATIZ CAMAYO",
-        "cupo": 0
+        "cupo": 1000000
     },
     {
         "id": 80003719,
         "nombre": "CARLOS FERNEY PUENTE BAQUERO",
-        "cupo": 0
+        "cupo": 4000000
     },
     {
         "id": 11409838,
         "nombre": "CARLOS JULIO FRANCO NOVOA",
-        "cupo": 0
+        "cupo": 1000000
     },
     {
         "id": 1110467835,
         "nombre": "CESAR EDUARDO DIAZ ORTIZ",
-        "cupo": 0
+        "cupo": 1000000
     },
     {
         "id": 901430480,
         "nombre": "CUBILLOS   CAGUEÑAS SAS",
-        "cupo": 0
+        "cupo": 2500000
     },
     {
         "id": 1024476709,
         "nombre": "DANIEL FRANCISCO GUEVARA TORRES",
-        "cupo": 0
+        "cupo": 1000000
     },
     {
         "id": 52761798,
         "nombre": "DIANA MILENA CASTILLO RIVERA",
-        "cupo": 0
+        "cupo": 1500000
     },
     {
         "id": 1073603477,
         "nombre": "DIANA PATRICIA BELTRAN SIERRA",
-        "cupo": 0
+        "cupo": 2000000
     },
     {
         "id": 24134341,
         "nombre": "DORYS MARIA ELENA COY VILLAMIL",
-        "cupo": 0
+        "cupo": 1000000
     },
     {
         "id": 1022416671,
@@ -1936,17 +1961,17 @@
     {
         "id": 80732140,
         "nombre": "FREDY LEONARDO ORTIZ VIGOYA",
-        "cupo": 0
+        "cupo": 6000000
     },
     {
         "id": 39727085,
         "nombre": "GLADYS ODILIA ORTIZ QUEVEDO",
-        "cupo": 0
+        "cupo": 5000000
     },
     {
         "id": 11410638,
         "nombre": "GRACILIANO HERRERA BAQUERO",
-        "cupo": 0
+        "cupo": 6000000
     },
     {
         "id": 901398607,
@@ -1956,107 +1981,107 @@
     {
         "id": 5632510,
         "nombre": "HECTOR BARBOSA CEPEDA",
-        "cupo": 0
+        "cupo": 2000000
     },
     {
         "id": 19358282,
         "nombre": "HUGO ALFONSO TRIANA LOPEZ",
-        "cupo": 0
+        "cupo": 20000000
     },
     {
         "id": 52467777,
         "nombre": "INGRID JANNETH NIAMPIRA ROJAS",
-        "cupo": 0
+        "cupo": 1000000
     },
     {
         "id": 79669468,
         "nombre": "IVAN ANTONIO GARCIA CABEZAS",
-        "cupo": 0
+        "cupo": 2500000
     },
     {
         "id": 1030582270,
         "nombre": "JAIRO ANDRES BENITO VELASQUEZ",
-        "cupo": 0
+        "cupo": 3000000
     },
     {
         "id": 79334453,
         "nombre": "JESUS ANTONIO VIZCAYA DURAN",
-        "cupo": 0
+        "cupo": 3000000
     },
     {
         "id": 1110468157,
         "nombre": "JHON FREDY MOTTA",
-        "cupo": 0
+        "cupo": 1000000
     },
     {
         "id": 11409417,
         "nombre": "JORGE ADELMO ORTIZ QUEVEDO",
-        "cupo": 0
+        "cupo": 3500000
     },
     {
         "id": 79831262,
         "nombre": "JOSE ALEXANDER CELIS MARTINEZ",
-        "cupo": 0
+        "cupo": 5000000
     },
     {
         "id": 4291151,
         "nombre": "JOSE FAUSTINO RAMIREZ RODRIGUEZ",
-        "cupo": 0
+        "cupo": 3000000
     },
     {
         "id": 1033769677,
         "nombre": "JULIAN ALIRIO MORA CASTILLO",
-        "cupo": 0
+        "cupo": 4000000
     },
     {
         "id": 52504325,
         "nombre": "LAURA JAQUELINE ORTIZ VIGOYA",
-        "cupo": 0
+        "cupo": 20000000
     },
     {
         "id": 1069713939,
         "nombre": "LAURA LILI BURITICA GOMEZ",
-        "cupo": 0
+        "cupo": 1500000
     },
     {
         "id": 11412584,
         "nombre": "LEONEL NIETO GUEVARA",
-        "cupo": 0
+        "cupo": 1000000
     },
     {
         "id": 796665574,
         "nombre": "LIBER ALFONSO HERRERA FINO",
-        "cupo": 0
+        "cupo": 1500000
     },
     {
         "id": 79642006,
         "nombre": "LUIS CARLOS PLAZAS WILCHES",
-        "cupo": 0
+        "cupo": 2500000
     },
     {
         "id": 80791743,
         "nombre": "LUIS GUILLERMO SOLER CASTELLANOS",
-        "cupo": 0
+        "cupo": 2000000
     },
     {
         "id": 11408455,
         "nombre": "LUIS HUMBERTO PABON HERRERA",
-        "cupo": 0
+        "cupo": 50000000
     },
     {
         "id": 1012451645,
         "nombre": "LUIS MIGUEL MARTINEZ CHALA",
-        "cupo": 0
+        "cupo": 1000000
     },
     {
         "id": 79262264,
         "nombre": "LUIS RAUL ARIZA BOHORQUEZ",
-        "cupo": 0
+        "cupo": 6000000
     },
     {
         "id": 1018409101,
         "nombre": "MARTHA ISABEL CASTILLO CASTILLO",
-        "cupo": 0
+        "cupo": 2000000
     },
     {
         "id": "",
@@ -2066,12 +2091,12 @@
     {
         "id": 900716778,
         "nombre": "MERCADOS JP SAS",
-        "cupo": 0
+        "cupo": 6000000
     },
     {
         "id": 901490453,
         "nombre": "MERCADOS POPULARES AP SAS",
-        "cupo": 0
+        "cupo": 3500000
     },
     {
         "id": 901925510,
@@ -2081,57 +2106,57 @@
     {
         "id": 79714102,
         "nombre": "MIGUEL ANGEL VELANDIA VELANDIA",
-        "cupo": 0
+        "cupo": 3500000
     },
     {
         "id": 52881869,
         "nombre": "NANCY MILENA SANCHEZ GAONA",
-        "cupo": 0
+        "cupo": 2500000
     },
     {
         "id": 52766541,
         "nombre": "NELCY YOLANDA ORTIZ VIGOYA",
-        "cupo": 0
+        "cupo": 3000000
     },
     {
         "id": 93337255,
         "nombre": "OLIMPO CARDENAS MORA",
-        "cupo": 0
+        "cupo": 20000000
     },
     {
         "id": 52503994,
         "nombre": "SANDRA PATRICIA GALARZA",
-        "cupo": 0
+        "cupo": 2500000
     },
     {
         "id": 901876744,
         "nombre": "SUPERMERCADO LA ESQUINA DE LA 87 RR SAS",
-        "cupo": 0
+        "cupo": 3000000
     },
     {
         "id": 901490314,
         "nombre": "SUPERMERCADO SURTIGANGAS SAS",
-        "cupo": 0
+        "cupo": 1500000
     },
     {
         "id": 79811106,
         "nombre": "VICTOR HUGO NIETO PRIETO",
-        "cupo": 0
+        "cupo": 2000000
     },
     {
         "id": 11413337,
         "nombre": "WILMER OVIDIO PRIETO PEREZ",
-        "cupo": 0
+        "cupo": 5000000
     },
     {
         "id": 80433636,
         "nombre": "WILSON MORA CARDENAS",
-        "cupo": 0
+        "cupo": 14000000
     },
     {
         "id": 1024463391,
         "nombre": "YUDY MARCELA DIAZ SILVA",
-        "cupo": 0
+        "cupo": 15000000
     },
     {
         "id": 5656994,
@@ -2581,6 +2606,11 @@
     {
         "id": 7332500,
         "nombre": "JORGE IGNACIO JIMENEZ AMAYA",
+        "cupo": 0
+    },
+    {
+        "id": 17635483,
+        "nombre": "JOSE ANTONIO VARGAS RINCON",
         "cupo": 0
     },
     {
@@ -3362,15 +3392,5 @@
         "id": 52957099,
         "nombre": "YENY MARIBEL MONROY PATIÑO",
         "cupo": 0
-    },
-    {
-        "id": 1000241762,
-        "nombre": "JUAN SEBASTIAN VALLEJO BARON",
-        "cupo": 2500000
-    },
-    {
-        "id": 17635483,
-        "nombre": "JOSE ANTONIO VARGAS RINCON",
-        "cupo": 2000000
     }
 ]
