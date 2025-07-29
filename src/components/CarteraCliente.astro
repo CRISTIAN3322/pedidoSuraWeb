@@ -20,7 +20,7 @@ const { cartera = [], totalCartera = 0, cupoDisponible = 0, sinCupo = false, mos
         </tr>
       </thead>
       <tbody>
-        {cartera.length > 0 ? cartera.map(factura => (
+        {cartera.length > 0 ? cartera.map((factura: any) => (
           <tr class={
             Number(factura.dias) >= 30 ? 'dias-mayor-treinta' :
             Number(factura.dias) >= 11 ? 'dias-mayor-diez' :
@@ -28,7 +28,7 @@ const { cartera = [], totalCartera = 0, cupoDisponible = 0, sinCupo = false, mos
           }>
             <td>{factura.fac}</td>
             <td>{factura.fecha}</td>
-            <td>${factura.valor}</td>
+            <td>${Number(factura.valor.replace(/\./g, '').replace(',', '.')).toLocaleString('es-CO')}</td>
             <td>{factura.dias}</td>
           </tr>
         )) : (

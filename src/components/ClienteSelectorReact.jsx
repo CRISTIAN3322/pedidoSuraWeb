@@ -4,60 +4,72 @@ import cuposData from '../data/cupo.json';
 import carteraData from '../data/cartera.json';
 
 function CupoCliente({ cupoDisponible, totalCartera, sinCupo }) {
-  return (
-    <div className="cupo-cliente">
-      {sinCupo ? (
-        <span style={{ color: 'red', fontWeight: 'bold' }}>
-          ⚠️ SIN CUPO - Cupo: {cupoDisponible.toLocaleString('es-CO')} | Cartera: {totalCartera.toLocaleString('es-CO')}
-        </span>
-      ) : (
-        <span style={{ color: 'green' }}>
-          ✅ Con Cupo - Cupo: {cupoDisponible.toLocaleString('es-CO')} | Cartera: {totalCartera.toLocaleString('es-CO')}
-        </span>
-      )}
-    </div>
-  );
+    return ( <
+        div className = "cupo-cliente" > {
+            sinCupo ? ( <
+                span style = {
+                    { color: 'red', fontWeight: 'bold' } } > ⚠️SIN CUPO - Cupo: { cupoDisponible.toLocaleString('es-CO') } | Cartera: { totalCartera.toLocaleString('es-CO') } <
+                /span>
+            ) : ( <
+                span style = {
+                    { color: 'green' } } > ✅Con Cupo - Cupo: { cupoDisponible.toLocaleString('es-CO') } | Cartera: { totalCartera.toLocaleString('es-CO') } <
+                /span>
+            )
+        } <
+        /div>
+    );
 }
 
 function CarteraCliente({ cartera, totalCartera }) {
-  return (
-    <div className="tabla-cartera-responsive">
-      <h4 style={{marginBottom: '1rem', color: '#1a365d'}}>Cartera del Cliente</h4>
-      <div className="tabla-cartera-scroll">
-        <table className="tabla-cartera-moderna">
-          <thead>
-            <tr>
-              <th>Factura</th>
-              <th>Fecha</th>
-              <th>Valor</th>
-              <th>Días</th>
-            </tr>
-          </thead>
-          <tbody>
-            {cartera.length > 0 ? cartera.map((factura, idx) => (
-              <tr key={idx} className={
-                Number(factura.dias) >= 30 ? 'dias-mayor-treinta' :
-                Number(factura.dias) >= 11 ? 'dias-mayor-diez' :
-                Number(factura.dias) >= 1 ? 'dias-mayor-uno' : ''
-              }>
-                <td>{factura.fac}</td>
-                <td>{factura.fecha}</td>
-                <td>${factura.valor}</td>
-                <td>{factura.dias}</td>
-              </tr>
-            )) : (
-              <tr><td colSpan="4">Sin facturas pendientes</td></tr>
-            )}
-          </tbody>
-          <tfoot>
-            <tr>
-              <td colSpan="2"><strong>Total Cartera:</strong></td>
-              <td colSpan="2"><strong>${totalCartera.toLocaleString('es-CO')}</strong></td>
-            </tr>
-          </tfoot>
-        </table>
-      </div>
-      <style>{`
+    return ( <
+        div className = "tabla-cartera-responsive" >
+        <
+        h4 style = {
+            { marginBottom: '1rem', color: '#1a365d' } } > Cartera del Cliente < /h4> <
+        div className = "tabla-cartera-scroll" >
+        <
+        table className = "tabla-cartera-moderna" >
+        <
+        thead >
+        <
+        tr >
+        <
+        th > Factura < /th> <
+        th > Fecha < /th> <
+        th > Valor < /th> <
+        th > Días < /th> <
+        /tr> <
+        /thead> <
+        tbody > {
+            cartera.length > 0 ? cartera.map((factura, idx) => ( <
+                tr key = { idx }
+                className = {
+                    Number(factura.dias) >= 30 ? 'dias-mayor-treinta' : Number(factura.dias) >= 11 ? 'dias-mayor-diez' : Number(factura.dias) >= 1 ? 'dias-mayor-uno' : ''
+                } >
+                <
+                td > { factura.fac } < /td> <
+                td > { factura.fecha } < /td> <
+                td > $ { Number(factura.valor).toLocaleString('es-CO') } < /td> <
+                td > { factura.dias } < /td> <
+                /tr>
+            )) : ( <
+                tr > < td colSpan = "4" > Sin facturas pendientes < /td></tr >
+            )
+        } <
+        /tbody> <
+        tfoot >
+        <
+        tr >
+        <
+        td colSpan = "2" > < strong > Total Cartera: < /strong></td >
+        <
+        td colSpan = "2" > < strong > $ { totalCartera.toLocaleString('es-CO') } < /strong></td >
+        <
+        /tr> <
+        /tfoot> <
+        /table> <
+        /div> <
+        style > { `
         .tabla-cartera-responsive {
           width: 100%;
           margin: 20px 0;
@@ -121,112 +133,123 @@ function CarteraCliente({ cartera, totalCartera }) {
             padding: 0.3rem 0.2rem;
           }
         }
-      `}</style>
-    </div>
-  );
+      ` } < /style> <
+        /div>
+    );
 }
 
 export default function ClienteSelectorReact() {
-  const [busqueda, setBusqueda] = useState('');
-  const [clienteSeleccionado, setClienteSeleccionado] = useState(null);
-  const [sucursalSeleccionada, setSucursalSeleccionada] = useState(null);
+    const [busqueda, setBusqueda] = useState('');
+    const [clienteSeleccionado, setClienteSeleccionado] = useState(null);
+    const [sucursalSeleccionada, setSucursalSeleccionada] = useState(null);
 
-  const resultados = busqueda.length < 1 ? [] : clientesData.filter(cliente =>
-    cliente.nombre.toLowerCase().includes(busqueda.toLowerCase()) ||
-    cliente.id.toString().includes(busqueda)
-  );
+    const resultados = busqueda.length < 1 ? [] : clientesData.filter(cliente =>
+        cliente.nombre.toLowerCase().includes(busqueda.toLowerCase()) ||
+        cliente.id.toString().includes(busqueda)
+    );
 
-  let cupoDisponible = 0;
-  let totalCartera = 0;
-  let sinCupo = false;
-  let carteraCliente = [];
+    let cupoDisponible = 0;
+    let totalCartera = 0;
+    let sinCupo = false;
+    let carteraCliente = [];
 
-  if (clienteSeleccionado) {
-    const cupoInfo = cuposData.find(c => c.id === clienteSeleccionado.id);
-    if (cupoInfo) {
-      cupoDisponible = parseFloat((cupoInfo.cupo + '').replace(/,/g, ''));
+    if (clienteSeleccionado) {
+        const cupoInfo = cuposData.find(c => c.id === clienteSeleccionado.id);
+        if (cupoInfo) {
+            cupoDisponible = parseFloat((cupoInfo.cupo + '').replace(/,/g, ''));
+        }
+        carteraCliente = carteraData.filter(c => c.id === clienteSeleccionado.id);
+        if (carteraCliente.length > 0) {
+            totalCartera = carteraCliente.reduce((sum, f) => sum + parseFloat((f.valor + '').replace(/,/g, '')), 0);
+        }
+        sinCupo = totalCartera > cupoDisponible;
     }
-    carteraCliente = carteraData.filter(c => c.id === clienteSeleccionado.id);
-    if (carteraCliente.length > 0) {
-      totalCartera = carteraCliente.reduce((sum, f) => sum + parseFloat((f.valor + '').replace(/,/g, '')), 0);
-    }
-    sinCupo = totalCartera > cupoDisponible;
-  }
 
-  return (
-    <div className="cliente-selector">
-      <input
-        type="text"
-        placeholder="Buscar Cliente..."
-        value={busqueda}
-        onChange={e => setBusqueda(e.target.value)}
-        className="input-busqueda"
-      />
-      <ul className="lista-clientes">
-        {resultados.map(cliente => (
-          <li
-            key={cliente.id}
-            className="cliente-item"
-            onClick={() => {
-              setClienteSeleccionado(cliente);
-              setSucursalSeleccionada(null);
-            }}
-          >
-            {cliente.nombre}
-          </li>
-        ))}
-      </ul>
-      {clienteSeleccionado && (
-        <div className="sucursales">
-          <h3>Sucursales de {clienteSeleccionado.nombre}:</h3>
-          <CupoCliente cupoDisponible={cupoDisponible} totalCartera={totalCartera} sinCupo={sinCupo} />
-          <ul className="lista-sucursales">
-            {Array.isArray(clienteSeleccionado.sucursales) ? clienteSeleccionado.sucursales.map((sucursal, idx) => (
-              <li
-                key={idx}
-                className={
-                  'sucursal-item' + (sucursalSeleccionada === sucursal ? ' sucursal-activa' : '')
-                }
-                onClick={() => setSucursalSeleccionada(sucursal)}
-              >
-                Dirección: {sucursal.direccion} | Vendedor: {sucursal.vendedor}
-              </li>
-            )) : <li>No hay sucursales registradas</li>}
-          </ul>
-          <CarteraCliente cartera={carteraCliente} totalCartera={totalCartera} />
-          {/* Botón para enviar datos al carrito */}
-          <button
-            className="boton-carrito"
-            style={{marginTop: '1.5rem', width: '100%', padding: '12px', fontSize: '1.1rem', background: '#4CAF50', color: 'white', border: 'none', borderRadius: '6px', cursor: 'pointer'}}
-            disabled={!sucursalSeleccionada}
-            onClick={() => {
-              if (clienteSeleccionado && sucursalSeleccionada) {
-                const datosCliente = {
-                  clienteId: clienteSeleccionado.id,
-                  clienteNombre: clienteSeleccionado.nombre,
-                  sucursalDireccion: sucursalSeleccionada.direccion,
-                  sucursalVendedor: sucursalSeleccionada.vendedor,
-                  totalCartera,
-                  cupoDisponible,
-                  sinCupo
-                };
-                localStorage.setItem('datosCliente', JSON.stringify(datosCliente));
-                window.location.href = '/carrito';
-              }
-            }}
-          >
-            Ir al Carrito
-          </button>
-        </div>
-      )}
-      {clienteSeleccionado && sucursalSeleccionada && (
-        <div className="datos-seleccionados">
-          <h4>Datos Seleccionados:</h4>
-          <p>Cliente: {clienteSeleccionado.nombre}</p>
-          <p>Dirección: {sucursalSeleccionada.direccion}</p>
-          <p>Vendedor: {sucursalSeleccionada.vendedor}</p>
-        </div>
-      )}
-    </div>
-  );
-} 
+    return ( <
+        div className = "cliente-selector" >
+        <
+        input type = "text"
+        placeholder = "Buscar Cliente..."
+        value = { busqueda }
+        onChange = { e => setBusqueda(e.target.value) }
+        className = "input-busqueda" /
+        >
+        <
+        ul className = "lista-clientes" > {
+            resultados.map(cliente => ( <
+                li key = { cliente.id }
+                className = "cliente-item"
+                onClick = {
+                    () => {
+                        setClienteSeleccionado(cliente);
+                        setSucursalSeleccionada(null);
+                    }
+                } >
+                { cliente.nombre } <
+                /li>
+            ))
+        } <
+        /ul> {
+            clienteSeleccionado && ( <
+                    div className = "sucursales" >
+                    <
+                    h3 > Sucursales de { clienteSeleccionado.nombre }: < /h3> <
+                    CupoCliente cupoDisponible = { cupoDisponible }
+                    totalCartera = { totalCartera }
+                    sinCupo = { sinCupo }
+                    /> <
+                    ul className = "lista-sucursales" > {
+                        Array.isArray(clienteSeleccionado.sucursales) ? clienteSeleccionado.sucursales.map((sucursal, idx) => ( <
+                            li key = { idx }
+                            className = {
+                                'sucursal-item' + (sucursalSeleccionada === sucursal ? ' sucursal-activa' : '')
+                            }
+                            onClick = {
+                                () => setSucursalSeleccionada(sucursal) } >
+                            Dirección: { sucursal.direccion } | Vendedor: { sucursal.vendedor } <
+                            /li>
+                        )) : < li > No hay sucursales registradas < /li>} <
+                            /ul> <
+                            CarteraCliente cartera = { carteraCliente }
+                        totalCartera = { totalCartera }
+                        /> { /* Botón para enviar datos al carrito */ } <
+                        button
+                        className = "boton-carrito"
+                        style = {
+                            { marginTop: '1.5rem', width: '100%', padding: '12px', fontSize: '1.1rem', background: '#4CAF50', color: 'white', border: 'none', borderRadius: '6px', cursor: 'pointer' } }
+                        disabled = {!sucursalSeleccionada }
+                        onClick = {
+                            () => {
+                                if (clienteSeleccionado && sucursalSeleccionada) {
+                                    const datosCliente = {
+                                        clienteId: clienteSeleccionado.id,
+                                        clienteNombre: clienteSeleccionado.nombre,
+                                        sucursalDireccion: sucursalSeleccionada.direccion,
+                                        sucursalVendedor: sucursalSeleccionada.vendedor,
+                                        totalCartera,
+                                        cupoDisponible,
+                                        sinCupo
+                                    };
+                                    localStorage.setItem('datosCliente', JSON.stringify(datosCliente));
+                                    window.location.href = '/carrito';
+                                }
+                            }
+                        } >
+                        Ir al Carrito <
+                        /button> <
+                        /div>
+                    )
+                } {
+                    clienteSeleccionado && sucursalSeleccionada && ( <
+                        div className = "datos-seleccionados" >
+                        <
+                        h4 > Datos Seleccionados: < /h4> <
+                        p > Cliente: { clienteSeleccionado.nombre } < /p> <
+                        p > Dirección: { sucursalSeleccionada.direccion } < /p> <
+                        p > Vendedor: { sucursalSeleccionada.vendedor } < /p> <
+                        /div>
+                    )
+                } <
+                /div>
+        );
+    }
