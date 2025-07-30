@@ -6,6 +6,7 @@ const sucursalDireccion = params.get('sucursalDireccion');
 const sucursalVendedor = params.get('sucursalVendedor');
 import BaseLayout from '../layouts/BaseLayout.astro';
 import CarteraCliente from '../components/CarteraCliente.astro';
+import BloqueoHorario from '../components/BloqueoHorario.astro';
 ---
 
 <html lang="es">
@@ -15,6 +16,7 @@ import CarteraCliente from '../components/CarteraCliente.astro';
     <title>Carrito de Compras</title>
 </head>
 <body>
+    <BloqueoHorario />
     <div class="container">
         <h1>Carrito de Compras</h1>
         <a href="/principal" class="btn-volver">Cliente</a>

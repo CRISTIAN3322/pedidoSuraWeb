@@ -1,0 +1,171 @@
+---
+// Componente de bloqueo horario
+// Bloquea la aplicación desde las 18:00 hasta las 5:00 del día siguiente
+
+const ahora = new Date();
+const horaActual = ahora.getHours();
+
+// Definir horario de bloqueo: desde las 18:00 hasta las 5:00
+const horaInicioBloqueo = 2; // 13:00 (para pruebas)
+const horaFinBloqueo = 5; // 15:00 (para pruebas)
+
+// Verificar si estamos en horario de bloqueo
+const estaBloqueado = horaActual >= horaInicioBloqueo && horaActual < horaFinBloqueo;
+
+// Calcular tiempo restante hasta el próximo horario disponible
+let tiempoRestante = "";
+if (estaBloqueado) {
+    // Estamos en horario de bloqueo, esperamos hasta las 15:00 del mismo día
+    const hoy3pm = new Date(ahora);
+    hoy3pm.setHours(horaFinBloqueo, 0, 0, 0);
+    
+    const diferencia = hoy3pm.getTime() - ahora.getTime();
+    const horas = Math.floor(diferencia / (1000 * 60 * 60));
+    const minutos = Math.floor((diferencia % (1000 * 60 * 60)) / (1000 * 60));
+    tiempoRestante = `${horas}h ${minutos}m`;
+}
+---
+
+{estaBloqueado && (
+    <div class="bloqueo-overlay" id="bloqueo-overlay">
+        <div class="bloqueo-container">
+            <div class="bloqueo-icon">🕒</div>
+            <h2>Sistema Cerrado Por FIN de MES</h2>
+            <p>El sistema está temporalmente cerrado.</p>
+            <p><strong>Horario de facturación:</strong> 5:00 AM - 6:00 PM</p>
+            <p><strong>Tiempo restante:</strong> <span class="tiempo-restante">{tiempoRestante}</span></p>
+            <div class="bloqueo-info">
+                <p>Por favor, vuelve a intentar durante el horario de atención.</p>
+                <p>Gracias por tu comprensión.</p>
+            </div>
+        </div>
+    </div>
+)}
+
+<style>
+    .bloqueo-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .bloqueo-container {
+        background: white;
+        padding: 3rem;
+        border-radius: 15px;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        text-align: center;
+        max-width: 500px;
+        margin: 20px;
+    }
+
+    .bloqueo-icon {
+        font-size: 4rem;
+        margin-bottom: 1rem;
+        animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.1); }
+        100% { transform: scale(1); }
+    }
+
+    .bloqueo-container h2 {
+        color: #2d3748;
+        margin-bottom: 1rem;
+        font-size: 2rem;
+    }
+
+    .bloqueo-container p {
+        color: #4a5568;
+        margin-bottom: 0.5rem;
+        font-size: 1.1rem;
+    }
+
+    .bloqueo-container strong {
+        color: #2d3748;
+    }
+
+    .bloqueo-info {
+        margin-top: 2rem;
+        padding-top: 1.5rem;
+        border-top: 2px solid #e2e8f0;
+    }
+
+    .bloqueo-info p {
+        color: #718096;
+        font-size: 1rem;
+        margin-bottom: 0.3rem;
+    }
+
+    @media (max-width: 768px) {
+        .bloqueo-container {
+            padding: 2rem;
+            margin: 15px;
+        }
+        
+        .bloqueo-container h2 {
+            font-size: 1.5rem;
+        }
+        
+        .bloqueo-container p {
+            font-size: 1rem;
+        }
+    }
+</style>
+
+<script define:vars={{ horaInicioBloqueo: 13, horaFinBloqueo: 15 }}>
+    // Script para actualizar el tiempo restante del bloqueo horario en tiempo real
+    function actualizarTiempoRestante() {
+        const ahora = new Date();
+        const horaActual = ahora.getHours();
+        
+        // Verificar si estamos en horario de bloqueo
+        const estaBloqueado = horaActual >= horaInicioBloqueo && horaActual < horaFinBloqueo;
+        
+        if (estaBloqueado) {
+            // Estamos en horario de bloqueo, esperamos hasta las 15:00 del mismo día
+            const hoy3pm = new Date(ahora);
+            hoy3pm.setHours(horaFinBloqueo, 0, 0, 0);
+            
+            const diferencia = hoy3pm.getTime() - ahora.getTime();
+            const horas = Math.floor(diferencia / (1000 * 60 * 60));
+            const minutos = Math.floor((diferencia % (1000 * 60 * 60)) / (1000 * 60));
+            const tiempoRestante = `${horas}h ${minutos}m`;
+            
+            // Actualizar el elemento de tiempo restante si existe
+            const tiempoElement = document.querySelector('.tiempo-restante');
+            if (tiempoElement) {
+                tiempoElement.textContent = tiempoRestante;
+            }
+            
+            // Si el tiempo llega a 0, recargar la página para verificar si ya está disponible
+            if (horas === 0 && minutos === 0) {
+                setTimeout(() => {
+                    window.location.reload();
+                }, 1000);
+            }
+        } else {
+            // Si no está bloqueado, ocultar el overlay de bloqueo
+            const bloqueoOverlay = document.getElementById('bloqueo-overlay');
+            if (bloqueoOverlay) {
+                bloqueoOverlay.style.display = 'none';
+            }
+        }
+    }
+
+    // Actualizar cada minuto
+    setInterval(actualizarTiempoRestante, 60000);
+
+    // Actualizar inmediatamente al cargar
+    document.addEventListener('DOMContentLoaded', actualizarTiempoRestante);
+</script> 
