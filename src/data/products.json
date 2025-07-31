@@ -238,7 +238,7 @@
         "barra": 7702622585103,
         "invetario": 0,
         "proveedor": "TONING",
-        "activo": true
+        "activo": false
     },
     {
         "id": 23,
@@ -381,7 +381,7 @@
         "barra": "7702622585103 1",
         "invetario": 468,
         "proveedor": "TONING",
-        "activo": false
+        "activo": true
     },
     {
         "id": 36,
