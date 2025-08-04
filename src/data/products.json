@@ -6693,7 +6693,7 @@
         "precio": 8988,
         "imagen": " ../assets/img_catalogo/ventas-nacionales/gelatina-frutday-500.png ",
         "barra": 7700718565000,
-        "invetario": 0,
+        "invetario": 1159,
         "proveedor": "VENTAS NACIONALES",
         "activo": true
     },
@@ -6704,7 +6704,7 @@
         "precio": 17977,
         "imagen": " ../assets/img_catalogo/ventas-nacionales/gelatina-frutday-1000.png ",
         "barra": 7707185646000,
-        "invetario": 0,
+        "invetario": 91,
         "proveedor": "VENTAS NACIONALES",
         "activo": true
     },
@@ -6715,7 +6715,7 @@
         "precio": 3369,
         "imagen": " ../assets/img_catalogo/ventas-nacionales/gelatina-frutday-cajita.png",
         "barra": 7707185642300,
-        "invetario": 0,
+        "invetario": 472,
         "proveedor": "VENTAS NACIONALES",
         "activo": true
     }
