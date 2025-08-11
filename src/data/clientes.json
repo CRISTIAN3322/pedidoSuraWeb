@@ -6707,5 +6707,13 @@
             "direccion": "CLL 144  145 03 P 1  Suba Bilbao ",
             "vendedor": "Consuelo Muñoz"
         }]
+    },
+    {
+        "id": 1108151038,
+        "nombre": "NINFA VIVIANA PORRAS ARENAS",
+        "sucursales": [{
+            "direccion": "TV  7 7 36 Quintanares Soacha ",
+            "vendedor": "Bucky Santana Vanegas "
+        }]
     }
 ]
