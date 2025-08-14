@@ -1682,6 +1682,10 @@
             {
                 "direccion": "TV 7 5 6 Silo Soacha",
                 "vendedor": "Bucky Santana Vanegas "
+            },
+            {
+                "direccion": "CR 18 04 B SUR 11 P 1 La veredita Soacha",
+                "vendedor": "Bucky Santana Vanegas "
             }
         ]
     },
@@ -6714,6 +6718,22 @@
         "sucursales": [{
             "direccion": "TV  7 7 36 Quintanares Soacha ",
             "vendedor": "Bucky Santana Vanegas "
+        }]
+    },
+    {
+        "id": 13615703,
+        "nombre": "RICARDO REYES PAEZ",
+        "sucursales": [{
+            "direccion": "CL 42 78 H 96 SUR LC 1 Palenque ",
+            "vendedor": "Yeny Maribel Monroy Patiño "
+        }]
+    },
+    {
+        "id": 79653780,
+        "nombre": "JUAN CARLOS CARRILLO",
+        "sucursales": [{
+            "direccion": "CR 72 F BIS 39 C 14 SUR La Chucua ",
+            "vendedor": "Yeny Maribel Monroy Patiño "
         }]
     }
 ]
