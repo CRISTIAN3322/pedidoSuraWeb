@@ -6746,5 +6746,14 @@
             "direccion": "CL 44 SUR 68 C 24 La Arqueria ",
             "vendedor": "Yeny Maribel Monroy Patiño"
         }]
+    },
+    {
+        "id": 11413580,
+        "nombre": "EDIER RAMIRO NOVOA GUTIERREZ",
+        "sucursales": [{
+            "direccion": "CR 6 ESTE 47 03 SUR Villa del Cerro ",
+            "vendedor": "Maria Esther Caballero Benitez"
+        }]
     }
+
 ]
