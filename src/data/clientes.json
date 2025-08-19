@@ -6754,6 +6754,14 @@
             "direccion": "CR 6 ESTE 47 03 SUR Villa del Cerro ",
             "vendedor": "Maria Esther Caballero Benitez"
         }]
+    },
+    {
+        "id": 39565250,
+        "nombre": "MARIA CONSTANZA CABEZAS ALVIZ",
+        "sucursales": [{
+            "direccion": "CR 9 2 69  Tocaima ",
+            "vendedor": "Ydiana Maria Sanchez Jimenez"
+        }]
     }
 
 ]
