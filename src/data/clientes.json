@@ -1929,14 +1929,9 @@
         "id": 11413551,
         "nombre": "ARIEL GUTIERREZ CUBILLOS",
         "sucursales": [{
-                "direccion": "CR 5 48 R 31 SUR Diana Turbay ",
-                "vendedor": "Claudia Yojana Corredor Gonzalez"
-            },
-            {
-                "direccion": "CL 81 SUR 8C 23 Yomasa ",
-                "vendedor": "Claudia Yojana Corredor Gonzalez"
-            }
-        ]
+            "direccion": "CL 81 SUR 8C 23 Yomasa ",
+            "vendedor": "Claudia Yojana Corredor Gonzalez"
+        }]
     },
     {
         "id": 13560617,
@@ -6734,6 +6729,22 @@
         "sucursales": [{
             "direccion": "CR 72 F BIS 39 C 14 SUR La Chucua ",
             "vendedor": "Yeny Maribel Monroy Patiño "
+        }]
+    },
+    {
+        "id": 11413874,
+        "nombre": "LUIS ALBERTO GUTIERREZ GUTIERREZ",
+        "sucursales": [{
+            "direccion": "CR 5 48 R 31 SUR Diana Turbay ",
+            "vendedor": "Claudia Yojana Corredor Gonzalez"
+        }]
+    },
+    {
+        "id": 1033710359,
+        "nombre": "FABIO ANDRES GUTIERREZ MORA",
+        "sucursales": [{
+            "direccion": "CL 44 SUR 68 C 24 La Arqueria ",
+            "vendedor": "Yeny Maribel Monroy Patiño"
         }]
     }
 ]
