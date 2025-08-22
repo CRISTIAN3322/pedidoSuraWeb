@@ -6770,6 +6770,15 @@
             "direccion": "CL 5 SUR 73 B 94 Pio X ",
             "vendedor": "Yeny Maribel Monroy Patiño"
         }]
+    },
+    {
+        "id": 1020810975,
+        "nombre": "CARLOS AUGUSTO ROMERO ROJAS",
+        "sucursales": [{
+            "direccion": "DG 4 6 47  Une ",
+            "vendedor": "Ydiana Maria Sanchez Jimenez"
+        }]
     }
+
 
 ]
