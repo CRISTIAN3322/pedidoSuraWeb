@@ -6306,9 +6306,14 @@
         "id": 901412568,
         "nombre": "INVERSIONES GRUPO ROAL SAS",
         "sucursales": [{
-            "direccion": "CR 79 40 A 47 Kennedy ",
-            "vendedor": "Yeny Maribel Monroy Patiño"
-        }]
+                "direccion": "CR 79 40 A 47 Kennedy ",
+                "vendedor": "Yeny Maribel Monroy Patiño"
+            },
+            {
+                "direccion": "CR 52 21 25 SUR Torremolinos ",
+                "vendedor": "Yeny Maribel Monroy Patiño"
+            }
+        ]
     },
     {
         "id": 901465481,
