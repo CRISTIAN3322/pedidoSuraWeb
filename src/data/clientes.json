@@ -6799,5 +6799,13 @@
             "direccion": "CR 6 5 A 05  Cajicá ",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
+    },
+    {
+        "id": 901963150,
+        "nombre": "INVERSIONES SAN ANTONIO SAS",
+        "sucursales": [{
+            "direccion": "CL 21 6 43  Chía ",
+            "vendedor": "Ana Sofia Roldan Rique"
+        }]
     }
 ]

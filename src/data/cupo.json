@@ -3452,6 +3452,11 @@
         "id": 901451192,
         "nombre": "INVERSIONES BNC SAS",
         "cupo": 1000000
+    },
+    {
+        "id": 901963150,
+        "nombre": "INVERSIONES SAN ANTONIO SAS",
+        "cupo": 1000000
     }
 
 ]
