@@ -5749,7 +5749,7 @@
         "barra": 7702044282987,
         "invetario": 24,
         "proveedor": "PREBEL",
-        "activo": false
+        "activo": true
     },
     {
         "id": 524,
