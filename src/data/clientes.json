@@ -6807,5 +6807,13 @@
             "direccion": "CL 21 6 43  Chía ",
             "vendedor": "Ana Sofia Roldan Rique"
         }]
+    },
+    {
+        "id": 901578509,
+        "nombre": "MERCADOS MERKA HOGAR LA 91 S A S",
+        "sucursales": [{
+            "direccion": "CL 91 SUR 5 05 ESTE Alfonso Lopez ",
+            "vendedor": "Berenice Herminda Muñoz Mondragon"
+        }]
     }
 ]
