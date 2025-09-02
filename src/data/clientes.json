@@ -6810,10 +6810,18 @@
     },
     {
         "id": 901578509,
-        "nombre": "MERCADOS MERKA HOGAR LA 91 S A S",
+        "nombre": "MERCADOS MERKA HOGAR LA 91 SAS",
         "sucursales": [{
             "direccion": "CL 91 SUR 5 05 ESTE Alfonso Lopez ",
             "vendedor": "Berenice Herminda Muñoz Mondragon"
+        }]
+    },
+    {
+        "id": 9535057,
+        "nombre": "PEDRO ALFONSO PORRAS ALDANA",
+        "sucursales": [{
+            "direccion": "CL 132 D 156 25 Santa Cecilia ",
+            "vendedor": "Consuelo Muñoz"
         }]
     }
 ]
