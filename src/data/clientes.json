@@ -6823,5 +6823,13 @@
             "direccion": "CL 132 D 156 25 Santa Cecilia ",
             "vendedor": "Consuelo Muñoz"
         }]
+    },
+    {
+        "id": 901974514,
+        "nombre": "SUPERMERCADOS MAXIOFERTAS DMIL SAS",
+        "sucursales": [{
+            "direccion": "CL 7 6 27  Fusagasugá ",
+            "vendedor": "Ydiana Maria Sanchez Jimenez"
+        }]
     }
 ]
