@@ -3642,11 +3642,11 @@
     {
         "id": 332,
         "codigo": "JJS0001",
-        "nombre": "ESPONJA MATRIX X 12 und dp CJ 40",
+        "nombre": "ESPONJA MATRIX X 12 CJ 40",
         "precio": 6471,
         "imagen": "../assets/img_catalogo/74530110015787.png",
         "barra": 74530110015787,
-        "invetario": 48,
+        "invetario": 0,
         "proveedor": "COMERCIALIZADORA JS",
         "activo": false
     },
@@ -6460,8 +6460,8 @@
         "codigo": "JPO0008",
         "nombre": "SPAGUETTI RIOKA X 1000 PC X 12",
         "precio": 3585,
-        "imagen": "../assets/img_catalogo/770705525091054.png",
-        "barra": 770705525091054,
+        "imagen": "../assets/img_catalogo/7705525091054.png",
+        "barra": 7705525091054,
         "invetario": 2499,
         "proveedor": "PRECOCIDOS",
         "activo": true
@@ -6482,8 +6482,8 @@
         "codigo": "JPO0010",
         "nombre": "FIDEOS RIOKA X 1000 PC X 6",
         "precio": 3585,
-        "imagen": "../assets/img_catalogo/770705525093089.png",
-        "barra": 770705525093089,
+        "imagen": "../assets/img_catalogo/7705525093089.png",
+        "barra": 7705525093089,
         "invetario": 3825,
         "proveedor": "PRECOCIDOS",
         "activo": true
@@ -6504,8 +6504,8 @@
         "codigo": "JPO0012",
         "nombre": "MACARRON X 1000 PC X 6",
         "precio": 3585,
-        "imagen": "../assets/img_catalogo/770552509354.png",
-        "barra": 770552509354,
+        "imagen": "../assets/img_catalogo/7705525090354.png",
+        "barra": 7705525090354,
         "invetario": 125,
         "proveedor": "PRECOCIDOS",
         "activo": true
