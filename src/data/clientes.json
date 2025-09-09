@@ -6835,5 +6835,13 @@
             "direccion": "CL 7 6 27  Fusagasugá ",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
         }]
+    },
+    {
+        "id": 1022322410,
+        "nombre": "ELIZABETH LOPEZ PULIDO",
+        "sucursales": [{
+            "direccion": "CR 80 72 A 37 La Granja ",
+            "vendedor": "David Yedid Ramirez Leguizamon"
+        }]
     }
 ]
