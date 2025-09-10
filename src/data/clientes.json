@@ -6843,5 +6843,21 @@
             "direccion": "CR 80 72 A 37 La Granja ",
             "vendedor": "David Yedid Ramirez Leguizamon"
         }]
+    },
+    {
+        "id": 1022960544,
+        "nombre": "YURANY PAOLA PEREZ RODRIGUEZ",
+        "sucursales": [{
+            "direccion": "CR 7 B 22 67 20 de Julio ",
+            "vendedor": "Maria Esther Caballero Benitez"
+        }]
+    },
+    {
+        "id": 3197575,
+        "nombre": "LEONARDO HERRERA MOLINA",
+        "sucursales": [{
+            "direccion": "CR 4 4 15  San Antonio Del Tequendama ",
+            "vendedor": "Ydiana Maria Sanchez Jimenez"
+        }]
     }
 ]
