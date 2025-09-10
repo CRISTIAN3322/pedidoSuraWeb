@@ -9,18 +9,9 @@ import CarteraCliente from '../components/molecules/CarteraCliente.astro';
 import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
 ---
 
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carrito de Compras</title>
-</head>
-<body>
+<BaseLayout title="Carrito de Compras">
     <BloqueoHorario />
     <div class="container">
-        <h1>Carrito de Compras</h1>
-        <a href="/principal" class="btn-volver">Cliente</a>
-        
         <div id="datosCliente" class="datos-cliente">
             <h2>Datos del Cliente</h2>
             <div id="contenidoDatosCliente">
@@ -51,7 +42,6 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
             </div>
         </div>
         <hr>
-        <BaseLayout title="Carrito de Compras">
             
             <div class="cart-container">
                 <h1>Carrito de Compras</h1>
@@ -184,6 +174,16 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
     document.getElementById('clear-cart')?.addEventListener('click', () => {
         if (confirm('¿Está seguro que desea vaciar el carrito?')) {
             localStorage.setItem('cartItems', '[]');
+            
+            // Limpiar los datos del cliente
+            localStorage.removeItem('datosCliente');
+            
+            // Limpiar la visualización de datos del cliente
+            const contenidoDatosCliente = document.getElementById('contenidoDatosCliente');
+            if (contenidoDatosCliente) {
+                contenidoDatosCliente.innerHTML = '';
+            }
+            
             renderCartItems();
         }
     });
@@ -479,30 +479,112 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
     }
 
     @media (max-width: 768px) {
+        .container {
+            padding: 0.5rem;
+        }
+
+        .cart-container {
+            padding: 1rem;
+        }
+
         .cart-table {
             display: block;
             overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            border-radius: var(--border-radius);
+        }
+
+        .cart-table th,
+        .cart-table td {
+            padding: 0.75rem 0.5rem;
+            font-size: 0.9rem;
         }
 
         .cart-actions {
             flex-direction: column;
             align-items: stretch;
+            gap: 0.75rem;
         }
 
         .btn-danger,
         .btn-primary,
         .btn-secondary {
             text-align: center;
+            min-height: 48px;
+            font-size: 0.9rem;
         }
 
-        .cart-container {
-            padding: 10px;
+        .datos-card {
+            padding: 1rem;
+        }
+
+        .datos-card p {
+            font-size: 0.9rem;
+            margin: 8px 0;
+        }
+
+        h1 {
+            font-size: 1.5rem;
         }
 
         h2 {
-            font-size: 15px;
+            font-size: 1.25rem;
+        }
+
+        .observacion textarea {
+            height: 120px;
+            font-size: 0.9rem;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .container {
+            padding: 0.25rem;
+        }
+
+        .cart-container {
+            padding: 0.75rem;
+        }
+
+        .cart-table th,
+        .cart-table td {
+            padding: 0.5rem 0.25rem;
+            font-size: 0.8rem;
+        }
+
+        .datos-card {
+            padding: 0.75rem;
+        }
+
+        .datos-card p {
+            font-size: 0.85rem;
+            margin: 6px 0;
+        }
+
+        h1 {
+            font-size: 1.25rem;
+        }
+
+        h2 {
+            font-size: 1.1rem;
+        }
+
+        .btn-danger,
+        .btn-primary,
+        .btn-secondary {
+            min-height: 48px;
+            font-size: 0.85rem;
+        }
+
+        .observacion textarea {
+            height: 100px;
+            font-size: 0.85rem;
+        }
+
+        .remove-item {
+            padding: 0.4rem;
+            font-size: 0.8rem;
         }
     }
     </style>
-</body>
-</html>
+</BaseLayout>

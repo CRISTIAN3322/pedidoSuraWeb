@@ -1,62 +1,151 @@
 ---
 import ProductosSelector from "../components/organisms/ProductosSelector.astro";
 import BloqueoHorario from "../components/organisms/BloqueoHorario.astro";
-import '../styles/global.css';
+import BaseLayout from "../layouts/BaseLayout.astro";
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Productos</title>
-</head>
-<body>
+
+<BaseLayout title="Catálogo de Productos - Sura Pedidos Web" description="Explora nuestro catálogo completo de productos con precios actualizados">
     <BloqueoHorario />
-    <header>
-        <h1> Productos </h1>
-        <h3>Actualizado: 10 de septiembre del 2025 </h3>
-        <h5>Inventario: Actualizado a las 11:30 AM </h5>
-        <h5>Cartera: Actualizado 06 de septiembre del 2025 </h5>
-        <a class="btn-secondary" href="/carrito">Carrito </a>
-        <a class="btn-primary" href="/principal">Cliente </a>
-    </header>
-    <ProductosSelector/>    
-</body>
-</html>
+    
+    <div class="container">
+        <header class="header">
+            <h1>🛍️ Catálogo de Productos</h1>
+            <div class="header-info">
+                <div class="info-card">
+                    <h3>📅 Última Actualización</h3>
+                    <p>10 de septiembre del 2025</p>
+                </div>
+                <div class="info-card">
+                    <h3>📦 Inventario</h3>
+                    <p>Actualizado a las 11:30 AM</p>
+                </div>
+                <div class="info-card">
+                    <h3>💰 Cartera</h3>
+                    <p>Actualizado 06 de septiembre del 2025</p>
+                </div>
+            </div>
+            <!-- <div class="header-actions">
+                <a class="btn btn-secondary" href="/carrito">
+                    🛒 Ver Carrito
+                </a>
+                <a class="btn btn-primary" href="/principal">
+                    👤 Seleccionar Cliente
+                </a>
+            </div> -->
+        </header>
+        
+        <ProductosSelector/>    
+    </div>
+</BaseLayout>
 
 <style>
-    header {
+    .header {
         text-align: center;
-    }
-    .btn-primary {
-        text-align: center;
-        border: none;
-        padding: 0.75rem 1.5rem;
-        border-radius: 6px;
-        cursor: pointer;
-        transition: background-color 0.2s;
-        text-decoration: none;
-        display: inline-block;
+        margin-bottom: 2rem;
     }
 
-    .btn-primary {
-        background-color: #73f806;
-        color: white;
+    .header-info {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+        margin: 2rem 0;
     }
 
-      .btn-secondary {
+    .info-card {
+        background: var(--white);
+        padding: 1.5rem;
+        border-radius: var(--border-radius-lg);
+        box-shadow: var(--shadow-md);
         text-align: center;
-        border: none;
-        padding: 0.75rem 1.5rem;
-        border-radius: 6px;
-        cursor: pointer;
-        transition: background-color 0.2s;
-        text-decoration: none;
-        display: inline-block;
+        transition: var(--transition);
     }
 
-    .btn-secondary {
-        background-color: #4a5568;
-        color: white;
+    .info-card:hover {
+        transform: translateY(-2px);
+        box-shadow: var(--shadow-lg);
+    }
+
+    .info-card h3 {
+        color: var(--primary-color);
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+        font-weight: 600;
+    }
+
+    .info-card p {
+        color: var(--gray-600);
+        font-size: 0.875rem;
+        margin: 0;
+    }
+
+    .header-actions {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 2rem;
+    }
+
+    @media (max-width: 768px) {
+        .header {
+            margin-bottom: 1.5rem;
+        }
+
+        .header-info {
+            grid-template-columns: 1fr;
+            gap: 0.75rem;
+            margin: 1.5rem 0;
+        }
+
+        .info-card {
+            padding: 1rem;
+        }
+
+        .info-card h3 {
+            font-size: 0.9rem;
+        }
+
+        .info-card p {
+            font-size: 0.8rem;
+        }
+
+        .header-actions {
+            flex-direction: column;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .header-actions .btn {
+            width: 100%;
+            max-width: 300px;
+            min-height: 48px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .header {
+            margin-bottom: 1rem;
+        }
+
+        .header-info {
+            margin: 1rem 0;
+        }
+
+        .info-card {
+            padding: 0.75rem;
+        }
+
+        .info-card h3 {
+            font-size: 0.85rem;
+        }
+
+        .info-card p {
+            font-size: 0.75rem;
+        }
+
+        .header-actions .btn {
+            min-height: 48px;
+            font-size: 0.9rem;
+        }
     }
 </style>

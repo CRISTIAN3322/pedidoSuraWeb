@@ -56,20 +56,30 @@ const { cartera = [], totalCartera = 0, cupoDisponible = 0, sinCupo = false, mos
 .tabla-cartera {
     margin: 20px 0;
     overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-sm);
 }
 .tabla-cartera table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 10px;
+    min-width: 400px;
 }
 .tabla-cartera th,
 .tabla-cartera td {
-    border: 1px solid #ddd;
-    padding: 8px;
+    border: 1px solid var(--gray-200);
+    padding: 12px 8px;
     text-align: left;
+    font-size: 0.9rem;
 }
 .tabla-cartera th {
-    background-color: #f4f4f4;
+    background-color: var(--light-bg);
+    font-weight: 600;
+    color: var(--primary-color);
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 .tabla-cartera tr:nth-child(even) {
     background-color: #f9f9f9;
@@ -108,5 +118,54 @@ const { cartera = [], totalCartera = 0, cupoDisponible = 0, sinCupo = false, mos
 }
 .tabla-cartera tfoot td:first-child {
     text-align: left;
+}
+
+/* Responsive para tablas */
+@media (max-width: 768px) {
+    .tabla-cartera {
+        margin: 15px 0;
+        border-radius: var(--border-radius);
+    }
+    
+    .tabla-cartera table {
+        min-width: 350px;
+    }
+    
+    .tabla-cartera th,
+    .tabla-cartera td {
+        padding: 8px 6px;
+        font-size: 0.85rem;
+    }
+    
+    .tabla-cartera h4 {
+        font-size: 1.1rem;
+        margin-bottom: 0.75rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .tabla-cartera {
+        margin: 10px 0;
+    }
+    
+    .tabla-cartera table {
+        min-width: 300px;
+    }
+    
+    .tabla-cartera th,
+    .tabla-cartera td {
+        padding: 6px 4px;
+        font-size: 0.8rem;
+    }
+    
+    .tabla-cartera h4 {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .tabla-cartera tfoot td {
+        padding: 8px 4px;
+        font-size: 0.85rem;
+    }
 }
 </style> 

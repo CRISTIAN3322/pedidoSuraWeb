@@ -1,15 +1,39 @@
 ---
 import '../styles/global.css';
-import ProductosSelector from '../components/ProductosSelector.astro';
+import Navigation from '../components/molecules/Navigation.astro';
+
+export interface Props {
+  title?: string;
+  description?: string;
+  keywords?: string;
+  showNavigation?: boolean;
+}
+
+const { 
+  title = "Sura Pedidos Web", 
+  description = "Sistema de gestión de pedidos para Sura",
+  keywords = "pedidos, sura, gestión, inventario",
+  showNavigation = true
+} = Astro.props;
 ---
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>{title}</title>
+    <meta name="description" content={description}>
+    <meta name="keywords" content={keywords}>
+    <meta name="author" content="Sura Pedidos Web">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <slot/>  
+    {showNavigation && <Navigation />}
+    <main>
+        <slot/>  
+    </main>
 </body>
 </html>
