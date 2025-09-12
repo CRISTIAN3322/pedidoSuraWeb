@@ -5040,14 +5040,6 @@
         }]
     },
     {
-        "id": 80367431,
-        "nombre": "CARLOS ANTONIO GORDILLO CORREDOR",
-        "sucursales": [{
-            "direccion": "CR 12D 32C 67 SUR Resurrecion ",
-            "vendedor": "Maria Esther Caballero Benitez"
-        }]
-    },
-    {
         "id": 80443035,
         "nombre": "HECTOR MANUEL PORRAS ALDANA",
         "sucursales": [{
@@ -6049,14 +6041,6 @@
         }]
     },
     {
-        "id": 52531953,
-        "nombre": "CLARA INES BRICEÑO QUINTERO",
-        "sucursales": [{
-            "direccion": "CR 3C 56 A 1 Sur Danubio Azul ",
-            "vendedor": "Claudia Yojana Corredor Gonzalez"
-        }]
-    },
-    {
         "id": 52827477,
         "nombre": "LUZ STELLA CAMPIÑO SANCHEZ",
         "sucursales": [{
@@ -6874,6 +6858,14 @@
         "sucursales": [{
             "direccion": "CL 13 22 05  Centro ",
             "vendedor": "Bucky Santana Vanegas "
+        }]
+    },
+    {
+        "id": 1019075149,
+        "nombre": "WILDER YESID GUTIERREZ SANCHEZ",
+        "sucursales": [{
+            "direccion": "CR 12 D 32 C 67 SUR La Resurrecion ",
+            "vendedor": "Maria Esther Caballero Benitez "
         }]
     }
 ]
