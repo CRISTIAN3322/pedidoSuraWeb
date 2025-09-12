@@ -6584,7 +6584,7 @@
         "id": 52071782,
         "nombre": "CLARA INES GARCIA ZAMBRANO",
         "sucursales": [{
-            "direccion": "CR 17 51 B 61 SUR Puente Aranda ",
+            "direccion": "CR 3C 56 A 15 SUR Danubio Azul ",
             "vendedor": "Claudia Yojana Corredor Gonzalez"
         }]
     },
@@ -6858,6 +6858,14 @@
         "sucursales": [{
             "direccion": "CR 4 4 15  San Antonio Del Tequendama ",
             "vendedor": "Ydiana Maria Sanchez Jimenez"
+        }]
+    },
+    {
+        "id": 900619381,
+        "nombre": "RESPRESENTACIONES Y DITRIBUCIONES FB SAS",
+        "sucursales": [{
+            "direccion": "CR 18 12 80  Centro ",
+            "vendedor": "Bucky Santana Vanegas "
         }]
     }
 ]
