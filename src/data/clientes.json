@@ -6867,5 +6867,13 @@
             "direccion": "CR 18 12 80  Centro ",
             "vendedor": "Bucky Santana Vanegas "
         }]
+    },
+    {
+        "id": 900752825,
+        "nombre": "DISTRIFARMA SANTA FE SAS",
+        "sucursales": [{
+            "direccion": "CL 13 22 05  Centro ",
+            "vendedor": "Bucky Santana Vanegas "
+        }]
     }
 ]
