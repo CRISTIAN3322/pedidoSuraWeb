@@ -6867,5 +6867,26 @@
             "direccion": "CR 12 D 32 C 67 SUR La Resurrecion ",
             "vendedor": "Maria Esther Caballero Benitez "
         }]
+    },
+    {
+        "id": 901566558,
+        "nombre": "GRUPO SUPERDIA SAS",
+        "sucursales": [{
+                "direccion": "CR 27 47 31  Zipaquirá ",
+                "vendedor": "Berenice Herminda Muñoz Mondragon "
+            },
+            {
+                "direccion": "CR 16 04 07  Zipaquirá ",
+                "vendedor": "Berenice Herminda Muñoz Mondragon "
+            },
+            {
+                "direccion": "CR 27 47 31 Claret ",
+                "vendedor": "Berenice Herminda Muñoz Mondragon "
+            },
+            {
+                "direccion": "DG 52 C BIS SUR 29 38 El Carmen ",
+                "vendedor": "Berenice Herminda Muñoz Mondragon "
+            }
+        ]
     }
 ]
