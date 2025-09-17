@@ -1,3493 +1,4189 @@
 [{
         "id": 1007409712,
         "nombre": "ALBERTH STEVEN AVILA MENJURA",
-        "cupo": 1500000
+        "cupo": 1500000,
+        "Forma": "Credito"
     },
     {
         "id": 3003121,
         "nombre": "ALDO MISAEL CARPINTERO SARMIENTO",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 52166995,
         "nombre": "ANA BELSU AVENDANO AVENDANO",
-        "cupo": 5000000
+        "cupo": 5000000,
+        "Forma": "Credito"
     },
     {
         "id": 52530962,
         "nombre": "ANA SOFIA ROLDAN RIQUE",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1056029677,
         "nombre": "ANGEL ANTONIO NIÑO ZAMBRANO",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 4268423,
         "nombre": "ARMANDO ALBERCIO SANCHEZ REYES",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901407185,
         "nombre": "AUTOSERVICIO CONTIGO JA SAS",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901557242,
         "nombre": "AUTOSERVICIO DEC SAN MIGUEL SAS",
-        "cupo": 2500000
+        "cupo": 2500000,
+        "Forma": "Credito"
     },
     {
         "id": 900350171,
         "nombre": "AUTOSERVICIO SANTANDER HB  SAS",
-        "cupo": 8000000
+        "cupo": 8000000,
+        "Forma": "Credito"
     },
     {
         "id": 900598355,
         "nombre": "AUTOSERVICIOS EL SANTANDEREANO SAS",
-        "cupo": 30000000
+        "cupo": 30000000,
+        "Forma": "Credito"
     },
     {
         "id": 1075873275,
         "nombre": "BLANCA LIBIA LAITON GONZALEZ",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901503350,
         "nombre": "COMERCIALIZADORA EL CANASTO MARKET SAS",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 900142522,
         "nombre": "COMERCIALIZADORA LIRIFERCH SAS",
-        "cupo": 10000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901312259,
         "nombre": "COMMUNAL INVESTMENTS SAS",
-        "cupo": 30000000
+        "cupo": 30000000,
+        "Forma": "Credito"
     },
     {
         "id": 1020749804,
         "nombre": "CRISTIAN CAMILO GAITAN MANCIPE",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1072706587,
         "nombre": "DAVID NICOLAS MENECES LOPEZ",
-        "cupo": 2000000
+        "cupo": 2000000,
+        "Forma": "Credito"
     },
     {
         "id": 52710288,
         "nombre": "DERLY BIBIANA GOMEZ AVENDAÑO",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 52440207,
         "nombre": "EDITH PERILLA LEON",
-        "cupo": 4500000
+        "cupo": 4500000,
+        "Forma": "Credito"
     },
     {
         "id": 1072713310,
         "nombre": "FABIO ALEXIS GONZALEZ BURGOS",
-        "cupo": 1500000
+        "cupo": 1500000,
+        "Forma": "Credito"
     },
     {
         "id": 1075667435,
         "nombre": "FELIX ALBERTO CASTELLANOS MENJURA",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 832010731,
         "nombre": "GRUPO COMERCIAL ANDES SA",
-        "cupo": 4000000
+        "cupo": 4000000,
+        "Forma": "Credito"
     },
     {
         "id": 13750083,
         "nombre": "HECTOR SANCHEZ QUITIAN",
-        "cupo": 3500000
+        "cupo": 3500000,
+        "Forma": "Credito"
     },
     {
         "id": 91106954,
         "nombre": "HENRY RUIZ FRANCO",
-        "cupo": 3000000
+        "cupo": 3000000,
+        "Forma": "Credito"
     },
     {
         "id": 2829707,
         "nombre": "ILVAR PAIBA CASTILLO",
-        "cupo": 600000
+        "cupo": 600000,
+        "Forma": "Credito"
     },
     {
         "id": 901226698,
         "nombre": "INVERSIONES 1YA SAS",
-        "cupo": 70000000
+        "cupo": 70000000,
+        "Forma": "Credito"
     },
     {
         "id": 901886395,
         "nombre": "INVERSIONES AHORRAMAX A&G SAS",
-        "cupo": 6000000
+        "cupo": 6000000,
+        "Forma": "Credito"
     },
     {
         "id": 900073355,
         "nombre": "INVERSIONES CORNEJO RUIZ LTDA",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901050418,
         "nombre": "INVERSIONES GACHA SAS",
-        "cupo": 5000000
+        "cupo": 5000000,
+        "Forma": "Credito"
     },
     {
         "id": 901656962,
         "nombre": "INVERSIONES MERKALISTO SAS",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901697452,
         "nombre": "INVERSIONES OMC SAS",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901901265,
         "nombre": "INVERSIONES PEDROPOLIS SAS",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901383020,
         "nombre": "INVERSIONES SAMUBELLA SAS",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 900237181,
         "nombre": "INVERSIONES Y DISTRIBUCIONES EL GUAVIO LTDA",
-        "cupo": 6000000
+        "cupo": 6000000,
+        "Forma": "Credito"
     },
     {
         "id": 79136082,
         "nombre": "JAIME ALONSO LAITON CASTELLANOS",
-        "cupo": 2000000
+        "cupo": 2000000,
+        "Forma": "Credito"
     },
     {
         "id": 7184212,
         "nombre": "JAIME JOVANNI GOMEZ PORRAS",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 79638311,
         "nombre": "JAIRO ALONSO RIVEROS REY",
-        "cupo": 1800000
+        "cupo": 1800000,
+        "Forma": "Credito"
     },
     {
         "id": 74439310,
         "nombre": "JAIRO JOSE VILLAMIL SOTELO",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1072714095,
         "nombre": "JESICA YULIZA VELANDIA PAEZ",
-        "cupo": 3000000
+        "cupo": 3000000,
+        "Forma": "Credito"
     },
     {
         "id": 74439272,
         "nombre": "JOSE BERNABE PAEZ AVENDAÑO",
-        "cupo": 2000000
+        "cupo": 2000000,
+        "Forma": "Credito"
     },
     {
         "id": 7124683,
         "nombre": "JOSE HILARIO CASTELLANOS PAEZ",
-        "cupo": 2500000
+        "cupo": 2500000,
+        "Forma": "Credito"
     },
     {
         "id": 79841173,
         "nombre": "JOSE HUMBERTO LINARES CARDENAS",
-        "cupo": 5000000
+        "cupo": 5000000,
+        "Forma": "Credito"
     },
     {
         "id": 80501454,
         "nombre": "JUAN CARLOS PUENTES RUIZ",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 3169282,
         "nombre": "JUAN FRANCISCO RODRIGUEZ SANCHEZ",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1002646857,
         "nombre": "KAREN YULIETH CARTILLO PINILLA",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 900898646,
         "nombre": "LAVASECO PRESTIGIO SAS",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1057214843,
         "nombre": "LISETH ADRIANA LAITON GONZALEZ",
-        "cupo": 2000000
+        "cupo": 2000000,
+        "Forma": "Credito"
     },
     {
         "id": 1069258611,
         "nombre": "LUIS CARLOS RUEDA DIAZA",
-        "cupo": 2000000
+        "cupo": 2000000,
+        "Forma": "Credito"
     },
     {
         "id": 7124541,
         "nombre": "MARCO TULIO LAITON PAEZ",
-        "cupo": 6000000
+        "cupo": 6000000,
+        "Forma": "Credito"
     },
     {
         "id": 3082327,
         "nombre": "MAURICIO GARZON OLIVARES",
-        "cupo": 15000000
+        "cupo": 15000000,
+        "Forma": "Credito"
     },
     {
         "id": 901577775,
         "nombre": "MERCA 3 DE LA SABANA",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901414843,
         "nombre": "MERCADOS CAMPOFRESH SAS",
-        "cupo": 4000000
+        "cupo": 4000000,
+        "Forma": "Credito"
     },
     {
         "id": 900487941,
         "nombre": "MERCADOS LAS ROSITAS SAS",
-        "cupo": 8000000
+        "cupo": 8000000,
+        "Forma": "Credito"
     },
     {
         "id": 79399876,
         "nombre": "MODESTO ORJUELA CALDERON",
-        "cupo": 20000000
+        "cupo": 20000000,
+        "Forma": "Credito"
     },
     {
         "id": 7313840,
         "nombre": "NELSON ENRIQUE CASTELLANOS CASTELLANOS",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 11231075,
         "nombre": "NORBERTO SANCHEZ ROMERO",
-        "cupo": 5000000
+        "cupo": 5000000,
+        "Forma": "Credito"
     },
     {
         "id": 39611717,
         "nombre": "NUBIA MARITZA GANTIVA DE CRISTANCHO",
-        "cupo": 2500000
+        "cupo": 2500000,
+        "Forma": "Credito"
     },
     {
         "id": 800126774,
         "nombre": "NUTRIPUNTO",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 830072536,
         "nombre": "ORGANIZACIÓN SELECTO SAS",
-        "cupo": 1800000
+        "cupo": 1800000,
+        "Forma": "Credito"
     },
     {
         "id": 3199694,
         "nombre": "OSCAR RUBEN FORERO MARQUEZ",
-        "cupo": 5000000
+        "cupo": 5000000,
+        "Forma": "Credito"
     },
     {
         "id": 1193388979,
         "nombre": "PEDRO NEL GONZALEZ CASTELLANOS",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901503800,
         "nombre": "PQUIN GROUP SAS",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 900600935,
         "nombre": "SANCHEZ CORDOBA SAS",
-        "cupo": 24000000
+        "cupo": 24000000,
+        "Forma": "Credito"
     },
     {
         "id": 52708553,
         "nombre": "SANDRA MILENA ARJONA JULIO",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 900652829,
         "nombre": "SOCIEDAD DE MERCADOS WILLIAM CASTELLANOS SAS",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 900417042,
         "nombre": "SUPERMERCADO OLIVAN SAS",
-        "cupo": 15000000
+        "cupo": 15000000,
+        "Forma": "Credito"
     },
     {
         "id": 901549752,
         "nombre": "SUPERMERCADOS DMIL ZIPAQUIRA SAS",
-        "cupo": 2000000
+        "cupo": 2000000,
+        "Forma": "Credito"
     },
     {
         "id": 900486250,
         "nombre": "SUPERMERCADOS LATINOS 1 SAS",
-        "cupo": 6000000
+        "cupo": 6000000,
+        "Forma": "Credito"
     },
     {
         "id": 901148682,
         "nombre": "SUPERTIENDAS Y DROGUERIAS EL GRAN PREMIER S.A.S",
-        "cupo": 4000000
+        "cupo": 4000000,
+        "Forma": "Credito"
     },
     {
         "id": 901304003,
         "nombre": "SURTICOTA FP SAS",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901167515,
         "nombre": "UNIMERCAR DE CHOCONTA SAS",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901826880,
         "nombre": "VALDERRAMAASCOCIADOS 3 SAS",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1001217495,
         "nombre": "VALENTINA MOTTA MENDOZA",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901221642,
         "nombre": "VENTAS LINPAU SAS",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1075669649,
         "nombre": "VICTOR DANIEL GONZALEZ GONZALEZ",
-        "cupo": 2800000
+        "cupo": 2800000,
+        "Forma": "Credito"
     },
     {
         "id": 1088237783,
         "nombre": "VICTOR MARIO LONDOÑO MUÑOZ",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 74439243,
         "nombre": "WILSON ORLANDO VELANDIA GONZALEZ",
-        "cupo": 1500000
+        "cupo": 1500000,
+        "Forma": "Credito"
     },
     {
         "id": 1002682603,
         "nombre": "YANIRA ROMERO SANCHEZ",
-        "cupo": 25000000
+        "cupo": 25000000,
+        "Forma": "Credito"
     },
     {
         "id": 1075660912,
         "nombre": "YEISON HINOJOSA CONTRERAS",
-        "cupo": 2000000
+        "cupo": 2000000,
+        "Forma": "Credito"
     },
     {
         "id": 40042122,
         "nombre": "ZONIA BAYONA BAYONA",
-        "cupo": 800000
+        "cupo": 800000,
+        "Forma": "Credito"
     },
     {
         "id": 860532244,
         "nombre": "ZULUAGA & SOTO SAS",
-        "cupo": 12000000
+        "cupo": 12000000,
+        "Forma": "Credito"
     },
     {
         "id": 52227171,
         "nombre": "ALBA DORIS ESPINDOLA MENDIVELSO",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 11412265,
         "nombre": "ALBEIRO GUTIERREZ CUBILLOS",
-        "cupo": 16000000
+        "cupo": 16000000,
+        "Forma": "Credito"
     },
     {
         "id": 79892824,
         "nombre": "ALEXANDER ORTIZ CAGUEÑAS",
-        "cupo": 8000000
+        "cupo": 8000000,
+        "Forma": "Credito"
     },
     {
         "id": 23622408,
         "nombre": "BERENICE HERMINDA MUÑOZ MONDRAGON",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 31037296,
         "nombre": "BLANCA DIONILDE CENDALES ANDRADE",
-        "cupo": 1500000
+        "cupo": 1500000,
+        "Forma": "Credito"
     },
     {
         "id": 52129053,
         "nombre": "BLANCA DORIS MORA TORRES",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 11410751,
         "nombre": "CARLOS RAMIRO CAGUEÑAS GUTIERREZ",
-        "cupo": 6500000
+        "cupo": 6500000,
+        "Forma": "Credito"
     },
     {
         "id": 52087091,
         "nombre": "CARMEN MARTINEZ VIANA",
-        "cupo": 8000000
+        "cupo": 8000000,
+        "Forma": "Credito"
     },
     {
         "id": 1030551877,
         "nombre": "CINTIA JULIE CHAVARRO ARIAS",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 900607573,
         "nombre": "COMERCIALIZADOR MERCADOS MODERNOS SAS",
-        "cupo": 5000000
+        "cupo": 5000000,
+        "Forma": "Credito"
     },
     {
         "id": 900603085,
         "nombre": "COMERCIALIZADORA LA CONCEPCION URREA ORTIZ S.A.S",
-        "cupo": 12000000
+        "cupo": 12000000,
+        "Forma": "Credito"
     },
     {
         "id": 1013621293,
         "nombre": "CRISTIAN ERNESTO PABON BETANCOURT",
-        "cupo": 3000000
+        "cupo": 3000000,
+        "Forma": "Credito"
     },
     {
         "id": 901519639,
         "nombre": "DIAMANTE V.E.D SAS",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 52288035,
         "nombre": "DIANA YANNETH LEMUS PIRAQUIVE",
-        "cupo": 2000000
+        "cupo": 2000000,
+        "Forma": "Credito"
     },
     {
         "id": 80251144,
         "nombre": "EDIER ALONSO ZULUAGA ZULUAGA",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1024537215,
         "nombre": "EDISSON LEONARDO MORA MORA",
-        "cupo": 10000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 79486816,
         "nombre": "FABIO LEONEL MORENO MORENO",
-        "cupo": 3000000
+        "cupo": 3000000,
+        "Forma": "Credito"
     },
     {
         "id": 52286075,
         "nombre": "GLADYS ESTHER SANABRIA MORENO",
-        "cupo": 10000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 20440535,
         "nombre": "GLADYS QUEVEDO ROJAS",
-        "cupo": 5000000
+        "cupo": 5000000,
+        "Forma": "Credito"
     },
     {
         "id": 900814358,
         "nombre": "GRUPO EMPRESARIAL AHORRAMAS SAS",
-        "cupo": 12000000
+        "cupo": 12000000,
+        "Forma": "Credito"
     },
     {
         "id": 901760620,
         "nombre": "INVERSIONES ALT SAS",
-        "cupo": 5000000
+        "cupo": 5000000,
+        "Forma": "Credito"
     },
     {
         "id": 901162267,
         "nombre": "INVERSIONES NARANJO RODRIGUEZ SAS",
-        "cupo": 9000000
+        "cupo": 9000000,
+        "Forma": "Credito"
     },
     {
         "id": 901134924,
         "nombre": "INVERSIONES R & M ASOCIADOS SAS",
-        "cupo": 7000000
+        "cupo": 7000000,
+        "Forma": "Credito"
     },
     {
         "id": 900715498,
         "nombre": "INVERSIONES SHOP RITE SAS",
-        "cupo": 12000000
+        "cupo": 12000000,
+        "Forma": "Credito"
     },
     {
         "id": 80254079,
         "nombre": "JAIRO ANDRES PARRADO GUTIERREZ",
-        "cupo": 2500000
+        "cupo": 2500000,
+        "Forma": "Credito"
     },
     {
         "id": 900578509,
         "nombre": "MERCADOS MERKA HOGAR LA 91 SAS",
-        "cupo": 4000000
+        "cupo": 4000000,
+        "Forma": "Credito"
     },
     {
         "id": 80002112,
         "nombre": "JAVIER MAURICIO ORTIZ CAGUEÑAS",
-        "cupo": 7000000
+        "cupo": 7000000,
+        "Forma": "Credito"
     },
     {
         "id": 79609701,
         "nombre": "JAVIER VERDUGO BARON",
-        "cupo": 25000000
+        "cupo": 80000000,
+        "Forma": "Credito"
     },
     {
         "id": 1033725532,
         "nombre": "JEIMMY PAOLA VELA MORALES",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1022986142,
         "nombre": "JORGE ALFREDO CASTELLANOS MENJURA",
-        "cupo": 1800000
+        "cupo": 1800000,
+        "Forma": "Credito"
     },
     {
         "id": 79584509,
         "nombre": "JOSE URIEL RESTREPO QUIROGA",
-        "cupo": 30000000
+        "cupo": 30000000,
+        "Forma": "Credito"
     },
     {
         "id": 79452689,
         "nombre": "JUAN CARLOS BECERRA MARTINEZ",
-        "cupo": 14000000
+        "cupo": 14000000,
+        "Forma": "Credito"
     },
     {
         "id": 1022978637,
         "nombre": "JUAN DAVID CAGUEÑAS BETANCOURT",
-        "cupo": 5000000
+        "cupo": 5000000,
+        "Forma": "Credito"
     },
     {
         "id": 1022935469,
         "nombre": "LEIDY DIANA MARTIN ALARCON",
-        "cupo": 5000000
+        "cupo": 5000000,
+        "Forma": "Credito"
     },
     {
         "id": 39731350,
         "nombre": "LILIA NELCY ROMERO QUEVEDO",
-        "cupo": 7500000
+        "cupo": 7500000,
+        "Forma": "Credito"
     },
     {
         "id": 1004774166,
         "nombre": "LUIS CARLOS SANCHEZ BASTIDAS",
-        "cupo": 5000000
+        "cupo": 5000000,
+        "Forma": "Credito"
     },
     {
         "id": 1024554579,
         "nombre": "MARCYA JULIETH CASTILLO SANCHEZ",
-        "cupo": 4500000
+        "cupo": 4500000,
+        "Forma": "Credito"
     },
     {
         "id": 900495748,
         "nombre": "MERCADOGAR SAS",
-        "cupo": 18000000
+        "cupo": 18000000,
+        "Forma": "Credito"
     },
     {
         "id": 900399796,
         "nombre": "MERCADOS CUNDINAMARCA JR SAS",
-        "cupo": 15000000
+        "cupo": 15000000,
+        "Forma": "Credito"
     },
     {
         "id": 901729775,
         "nombre": "MERCAPITAL FULL SAS",
-        "cupo": 13000000
+        "cupo": 13000000,
+        "Forma": "Credito"
     },
     {
         "id": 11407555,
         "nombre": "NESTOR ARTURO ORTIZ QUEVEDO",
-        "cupo": 5500000
+        "cupo": 5500000,
+        "Forma": "Credito"
     },
     {
         "id": 52951174,
         "nombre": "NIDIA JOHANNA CARRILLO ORTIZ",
-        "cupo": 5000000
+        "cupo": 5000000,
+        "Forma": "Credito"
     },
     {
         "id": 10324129436,
         "nombre": "OSCAR ALEXANDER CHAPARRO DELGADO",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 79379108,
         "nombre": "PABLO ANTONIO ALVARADO MORALES",
-        "cupo": 3000000
+        "cupo": 3000000,
+        "Forma": "Credito"
     },
     {
         "id": 17636895,
         "nombre": "ROOSEBETT CASTELLANOS MORENO",
-        "cupo": 35000000
+        "cupo": 35000000,
+        "Forma": "Credito"
     },
     {
         "id": 1074133386,
         "nombre": "SANDY CAROLINA PRIETO PEREZ",
-        "cupo": 2000000
+        "cupo": 2000000,
+        "Forma": "Credito"
     },
     {
         "id": 901092715,
         "nombre": "SUPERKAFALANDIA SAS",
-        "cupo": 5500000
+        "cupo": 5500000,
+        "Forma": "Credito"
     },
     {
         "id": 901748757,
         "nombre": "SUPERMERCADO LA AVENIDA H&J SAS",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 6776472,
         "nombre": "TITO RAFAEL ECHEVERRIA CATIVE",
-        "cupo": 5500000
+        "cupo": 5500000,
+        "Forma": "Credito"
     },
     {
         "id": 1024539105,
         "nombre": "YIMMI RAFAEL ECHEVERRIA SUAREZ",
-        "cupo": 2500000
+        "cupo": 2500000,
+        "Forma": "Credito"
     },
     {
         "id": 1022929117,
         "nombre": "YULI ALEXANDRA GAMEZ RAMIREZ",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 52769070,
         "nombre": "ADRIANA CRISTINA NIÑO ORJUELA",
-        "cupo": 6000000
+        "cupo": 6000000,
+        "Forma": "Credito"
     },
     {
         "id": 79892824,
         "nombre": "ALEXANDER ORTIZ CAGUEÑAS",
-        "cupo": 8000000
+        "cupo": 8000000,
+        "Forma": "Credito"
     },
     {
         "id": 52221041,
         "nombre": "ALYHED YOLIMA RONCANCIO DELGADO",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 52301907,
         "nombre": "ANA ORFILIA QUINTERO CASTELLANOS",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 79207144,
         "nombre": "CARLOS ARTURO SARMIENTO HERNANDEZ",
-        "cupo": 3000000
+        "cupo": 3000000,
+        "Forma": "Credito"
     },
     {
         "id": 900505033,
         "nombre": "CASTELLANOS Y SEGURA E HIJOS SAS",
-        "cupo": 9000000
+        "cupo": 9000000,
+        "Forma": "Credito"
     },
     {
         "id": 1020722165,
         "nombre": "CESAR AUGUSTO CASTELLANOS SEGURA",
-        "cupo": 4500000
+        "cupo": 4500000,
+        "Forma": "Credito"
     },
     {
         "id": 11406081,
         "nombre": "CESAREO REY AGUDELO",
-        "cupo": 2000000
+        "cupo": 2000000,
+        "Forma": "Credito"
     },
     {
         "id": 3022348,
         "nombre": "DANIEL ARMENJO AGUDELO PINZON",
-        "cupo": 2500000
+        "cupo": 2500000,
+        "Forma": "Credito"
     },
     {
         "id": 80108950,
         "nombre": "EDWIN FERNANDO REINA BEJARANO",
-        "cupo": 14000000
+        "cupo": 14000000,
+        "Forma": "Credito"
     },
     {
         "id": 17076451,
         "nombre": "GABRIEL FINO MENDIETA",
-        "cupo": 10000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 19493768,
         "nombre": "HECTOR ALIRIO NOVOA CAGUEÑAS",
-        "cupo": 1500000
+        "cupo": 1500000,
+        "Forma": "Credito"
     },
     {
         "id": 901256709,
         "nombre": "INVERSIONES AGRARIAS ORDIS SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 80002112,
         "nombre": "JAVIER MAURICIO ORTIZ CAGUEÑAS",
-        "cupo": 7000000
+        "cupo": 7000000,
+        "Forma": "Credito"
     },
     {
         "id": 1152697933,
         "nombre": "JOHAN MATEO JIMENEZ ECHAVARRIA",
-        "cupo": 4000000
+        "cupo": 4000000,
+        "Forma": "Credito"
     },
     {
         "id": 93437187,
         "nombre": "JOHN JAIRO MORA PESCADOR",
-        "cupo": 10000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 11411907,
         "nombre": "JOSE ANTONIO HERNANDEZ PEREZ",
-        "cupo": 6000000
+        "cupo": 6000000,
+        "Forma": "Credito"
     },
     {
         "id": 1023893573,
         "nombre": "JOSE ARMANDO CELIS NOVOA",
-        "cupo": 9000000
+        "cupo": 9000000,
+        "Forma": "Credito"
     },
     {
         "id": 1012437303,
         "nombre": "LEIDY LORENA ARIAS QUINTERO",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 13689422,
         "nombre": "LUIS ALCIDES DIAZ ROJAS",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 80151309,
         "nombre": "LUIS ANGEL MENDEZ",
-        "cupo": 4000000
+        "cupo": 4000000,
+        "Forma": "Credito"
     },
     {
         "id": 78581762,
         "nombre": "LUIS FERNANDO ROJAS PINTO",
-        "cupo": 2000000
+        "cupo": 2000000,
+        "Forma": "Credito"
     },
     {
         "id": 80049137,
         "nombre": "LUIS ORLANDO CASTRO LEON",
-        "cupo": 2000000
+        "cupo": 2000000,
+        "Forma": "Credito"
     },
     {
         "id": 830055634,
         "nombre": "M C CONSTRUCTORES & CONSULTORES S.A.S",
-        "cupo": 18000000
+        "cupo": 18000000,
+        "Forma": "Credito"
     },
     {
         "id": 23730881,
         "nombre": "MARIELA GUATAVA BARRAGAN",
-        "cupo": 2500000
+        "cupo": 2500000,
+        "Forma": "Credito"
     },
     {
         "id": 901220256,
         "nombre": "MERCADOS CASH SAS",
-        "cupo": 18000000
+        "cupo": 18000000,
+        "Forma": "Credito"
     },
     {
         "id": 901274302,
         "nombre": "MERKAEXITO HNOS SAS",
-        "cupo": 8000000
+        "cupo": 8000000,
+        "Forma": "Credito"
     },
     {
         "id": 900652691,
         "nombre": "MERKATELL SAS",
-        "cupo": 25000000
+        "cupo": 25000000,
+        "Forma": "Credito"
     },
     {
         "id": 1073717909,
         "nombre": "MIGUEL ANGEL NOVOA CARRANZA",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901753562,
         "nombre": "MORA SUPERMARKET Y LICORERA SAS",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 79752083,
         "nombre": "NELSON JOANY ROMERO CASTRO",
-        "cupo": 8000000
+        "cupo": 8000000,
+        "Forma": "Credito"
     },
     {
         "id": 11409392,
         "nombre": "PEDRO ADRIANO VELAZQUEZ",
-        "cupo": 5000000
+        "cupo": 5000000,
+        "Forma": "Credito"
     },
     {
         "id": 51955215,
         "nombre": "ROSA MARIA DEL CARMEN PAREDES LAGOS",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901490182,
         "nombre": "SUPERTIENDA MERCA VALLE SUR SAS",
-        "cupo": 2200000
+        "cupo": 2200000,
+        "Forma": "Credito"
     },
     {
         "id": 901104157,
         "nombre": "SURKAFAN SAS",
-        "cupo": 16000000
+        "cupo": 16000000,
+        "Forma": "Credito"
     },
     {
         "id": 80387644,
         "nombre": "VLADIMIR VALERO BOHORQUEZ",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 11413810,
         "nombre": "YEISSON CAMILO NOVOA GUTIERREZ",
-        "cupo": 5000000
+        "cupo": 5000000,
+        "Forma": "Credito"
     },
     {
         "id": 1023010895,
         "nombre": "YENNY PAOLA NOVOA SANTANA",
-        "cupo": 2000000
+        "cupo": 2000000,
+        "Forma": "Credito"
     },
     {
         "id": 52536490,
         "nombre": "ADRIANA MARCELA ESCAMILLA BAZURTO",
-        "cupo": 9000000
+        "cupo": 9000000,
+        "Forma": "Credito"
     },
     {
         "id": 51813094,
         "nombre": "ALBA LUZ RAMIREZ FANDIÑO",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 79252812,
         "nombre": "ALBERTO QUINTERO RAMIREZ",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1023885126,
         "nombre": "ALEJANDRO GONZALEZ CALDERON",
-        "cupo": 2500000
+        "cupo": 2500000,
+        "Forma": "Credito"
     },
     {
         "id": 4245799,
         "nombre": "ALEXANDER LAGOS SANCHEZ",
-        "cupo": 4000000
+        "cupo": 4000000,
+        "Forma": "Credito"
     },
     {
         "id": 11413551,
         "nombre": "ARIEL GUTIERREZ CUBILLOS",
-        "cupo": 4000000
+        "cupo": 4000000,
+        "Forma": "Credito"
     },
     {
         "id": 901102777,
         "nombre": "AUTOSERVICIO EL GRAN DESCUENTO SAS",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 11407815,
         "nombre": "CAMILO GUTIERREZ NOVOA",
-        "cupo": 5000000
+        "cupo": 5000000,
+        "Forma": "Credito"
     },
     {
         "id": 9845283,
         "nombre": "CARLOS ARIEL MARIN GIRALDO",
-        "cupo": 11000000
+        "cupo": 11000000,
+        "Forma": "Credito"
     },
     {
         "id": 11407618,
         "nombre": "CARLOS JULIO TORRES PABON",
-        "cupo": 25000000
+        "cupo": 25000000,
+        "Forma": "Credito"
     },
     {
         "id": 52321795,
         "nombre": "CLAUDIA YOJANA CORREDOR GONZALEZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901387019,
         "nombre": "COMERCIALIZADORA MERCA2 SAS",
-        "cupo": 23000000
+        "cupo": 23000000,
+        "Forma": "Credito"
     },
     {
         "id": 901567386,
         "nombre": "COMERCIALIZADORA ZAFRA APONTE SAS",
-        "cupo": 30000000
+        "cupo": 30000000,
+        "Forma": "Credito"
     },
     {
         "id": 1074136935,
         "nombre": "DARIO PARRADO RICO",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1024536333,
         "nombre": "DAVID ANDRES GOMEZ CORREDOR",
-        "cupo": 3000000
+        "cupo": 3000000,
+        "Forma": "Credito"
     },
     {
         "id": 1024523835,
         "nombre": "DORIS CENED VASQUEZ GIRALDO",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 80375791,
         "nombre": "ENRIQUE RAFAEL RODRIGUEZ MARTINEZ",
-        "cupo": 1500000
+        "cupo": 1500000,
+        "Forma": "Credito"
     },
     {
         "id": 1022953049,
         "nombre": "FABIAN ALIRIO CUBILLOS TORRES",
-        "cupo": 2500000
+        "cupo": 2500000,
+        "Forma": "Credito"
     },
     {
         "id": 1013641080,
         "nombre": "FABIAN ANDRES GUERRERO BUITRAGO",
-        "cupo": 7000000
+        "cupo": 7000000,
+        "Forma": "Credito"
     },
     {
         "id": 11409492,
         "nombre": "FIDOLO CUBILLOS DELGADO",
-        "cupo": 15000000
+        "cupo": 15000000,
+        "Forma": "Credito"
     },
     {
         "id": 1069747642,
         "nombre": "FREDY GIOVANNY ZARATE HERNANDEZ",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 900465361,
         "nombre": "GROUP MC COLOMBIA SAS",
-        "cupo": 130000000
+        "cupo": 130000000,
+        "Forma": "Credito"
     },
     {
         "id": 1022961947,
         "nombre": "HAYDER HELMAN BELTRAN BEJARANO",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1074128084,
         "nombre": "HERNAN RAMIRO MEDINA GUTIERREZ",
-        "cupo": 3000000
+        "cupo": 3000000,
+        "Forma": "Credito"
     },
     {
         "id": 1023034578,
         "nombre": "IVAN FEDERICO AVILA MENJURA",
-        "cupo": 2500000
+        "cupo": 2500000,
+        "Forma": "Credito"
     },
     {
         "id": 1104070650,
         "nombre": "JAIME EDUARDO PIZARRO GARCES",
-        "cupo": 3000000
+        "cupo": 3000000,
+        "Forma": "Credito"
     },
     {
         "id": 79986884,
         "nombre": "JAIRO ALFONSO PULIDO LIEVANO",
-        "cupo": 1500000
+        "cupo": 1500000,
+        "Forma": "Credito"
     },
     {
         "id": 80002112,
         "nombre": "JAVIER MAURICIO ORTIZ CAGUEÑAS",
-        "cupo": 7000000
+        "cupo": 7000000,
+        "Forma": "Credito"
     },
     {
         "id": 1031149820,
         "nombre": "JEFERSSON SNEYDER GUTIERREZ VELASQUEZ",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1022961413,
         "nombre": "JENNY STEFANY ROJAS GONZALEZ",
-        "cupo": 2000000
+        "cupo": 2000000,
+        "Forma": "Credito"
     },
     {
         "id": 1074132721,
         "nombre": "JESUS ALBERTO PEREZ GUEVARA",
-        "cupo": 2500000
+        "cupo": 2500000,
+        "Forma": "Credito"
     },
     {
         "id": 9536083,
         "nombre": "JOSE ALFREDO PORRAS MUÑOZ",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 11411812,
         "nombre": "JOSE RAMIRO PRIETO VIGOYA",
-        "cupo": 3000000
+        "cupo": 3000000,
+        "Forma": "Credito"
     },
     {
         "id": 79424099,
         "nombre": "JUAN DE DIOS CAGUEÑAS CAGUEÑAS",
-        "cupo": 10000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1000241762,
         "nombre": "JUAN SEBASTIAN VALLEJO BARON",
-        "cupo": 2500000
+        "cupo": 2500000,
+        "Forma": "Credito"
     },
     {
         "id": 11411506,
         "nombre": "JULIO ENRIQUE CESPEDES QUEVEDO",
-        "cupo": 2500000
+        "cupo": 2500000,
+        "Forma": "Credito"
     },
     {
         "id": 11410130,
         "nombre": "LIBARDO CUBILLOS NOVOA",
-        "cupo": 9000000
+        "cupo": 9000000,
+        "Forma": "Credito"
     },
     {
         "id": 20700539,
         "nombre": "LIDA CONSTANZA CARRASQUILLA ROJAS",
-        "cupo": 2500000
+        "cupo": 2500000,
+        "Forma": "Credito"
     },
     {
         "id": 42076136,
         "nombre": "LUCELLY RESTREPO AVILA",
-        "cupo": 5000000
+        "cupo": 5000000,
+        "Forma": "Credito"
     },
     {
         "id": 11412294,
         "nombre": "LUIS ALFREDO PULIDO RICO",
-        "cupo": 1500000
+        "cupo": 1500000,
+        "Forma": "Credito"
     },
     {
         "id": 11411598,
         "nombre": "LUIS ERNESTO ARDILA NOVOA",
-        "cupo": 1200000
+        "cupo": 1200000,
+        "Forma": "Credito"
     },
     {
         "id": 7175097,
         "nombre": "LUIS ERNESTO RUIZ CANO",
-        "cupo": 1200000
+        "cupo": 1200000,
+        "Forma": "Credito"
     },
     {
         "id": 52235451,
         "nombre": "LUZ ENY VANEGAS ARENAS",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 52239636,
         "nombre": "MARYLUZ CADENA GALINDO",
-        "cupo": 25000000
+        "cupo": 25000000,
+        "Forma": "Credito"
     },
     {
         "id": 80490527,
         "nombre": "MIGUEL EDUARDO RODRIGUEZ PEÑUELA",
-        "cupo": 1300000
+        "cupo": 1300000,
+        "Forma": "Credito"
     },
     {
         "id": 79800344,
         "nombre": "NELSON JAVIER CARRILLO ORTIZ",
-        "cupo": 4000000
+        "cupo": 4000000,
+        "Forma": "Credito"
     },
     {
         "id": 13560617,
         "nombre": "NICODEMUS SARMIENTO RAMIREZ",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 11411934,
         "nombre": "OMAR HUMBERTO MEDINA CAGUEÑAS",
-        "cupo": 2500000
+        "cupo": 2500000,
+        "Forma": "Credito"
     },
     {
         "id": 80220194,
         "nombre": "OSCAR FERNEY ORTIZ CUBILLOS",
-        "cupo": 12000000
+        "cupo": 12000000,
+        "Forma": "Credito"
     },
     {
         "id": 80151130,
         "nombre": "OSCAR HERNANDO ORTIZ CAGUEÑAS",
-        "cupo": 2000000
+        "cupo": 2000000,
+        "Forma": "Credito"
     },
     {
         "id": 11410093,
         "nombre": "PABLO EMILIO GUTIERREZ NOVOA",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1074129424,
         "nombre": "RICARDO PABON GUTIERREZ",
-        "cupo": 4000000
+        "cupo": 4000000,
+        "Forma": "Credito"
     },
     {
         "id": 28111135,
         "nombre": "RUBIELA GOMEZ VELANDIA",
-        "cupo": 2000000
+        "cupo": 2000000,
+        "Forma": "Credito"
     },
     {
         "id": 79431278,
         "nombre": "SAUL HUMBERTO GAMEZ GAMBOA",
-        "cupo": 1500000
+        "cupo": 1500000,
+        "Forma": "Credito"
     },
     {
         "id": 11410663,
         "nombre": "SIFIR ALFONSO MEDINA CAGUEÑAS",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 900900313,
         "nombre": "SUPERMERCADEO SAS",
-        "cupo": 1500000
+        "cupo": 1500000,
+        "Forma": "Credito"
     },
     {
         "id": 11410207,
         "nombre": "WILLIAM GUTIERREZ PABON",
-        "cupo": 5000000
+        "cupo": 5000000,
+        "Forma": "Credito"
     },
     {
         "id": 1018444573,
         "nombre": "WILMAR ARIAS GUERRERO",
-        "cupo": 1500000
+        "cupo": 1500000,
+        "Forma": "Credito"
     },
     {
         "id": 11412862,
         "nombre": "WILMER LEONIDAS MEDINA CAGUEÑAS",
-        "cupo": 2000000
+        "cupo": 2000000,
+        "Forma": "Credito"
     },
     {
         "id": 80214797,
         "nombre": "WILSON ANCISAR MOLANO VILLAR",
-        "cupo": 3500000
+        "cupo": 3500000,
+        "Forma": "Credito"
     },
     {
         "id": 1074131006,
         "nombre": "WILSON FERNANDO CAGUEÑAS GUTIERREZ",
-        "cupo": 2500000
+        "cupo": 2500000,
+        "Forma": "Credito"
     },
     {
         "id": 80744078,
         "nombre": "YEISON CASTELLANOS GOMEZ",
-        "cupo": 2000000
+        "cupo": 2000000,
+        "Forma": "Credito"
     },
     {
         "id": 1023010895,
         "nombre": "YENNY PAOLA NOVOA SANTANA",
-        "cupo": 2000000
+        "cupo": 2000000,
+        "Forma": "Credito"
     },
     {
         "id": 52230230,
         "nombre": "YENY ESPERANZA ESLAVA ZARATE",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 4292827,
         "nombre": "ALFONSO QUIROGA MORENO",
-        "cupo": 5000000
+        "cupo": 5000000,
+        "Forma": "Credito"
     },
     {
         "id": 80758414,
         "nombre": "ALONSO AREVALO BOHORQUEZ",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 52754457,
         "nombre": "ANGELA RUTH ARIZA ALARCON",
-        "cupo": 2000000
+        "cupo": 2000000,
+        "Forma": "Credito"
     },
     {
         "id": 23561016,
         "nombre": "ARACELY MORA BUITRAGO",
-        "cupo": 12200000
+        "cupo": 12200000,
+        "Forma": "Credito"
     },
     {
         "id": 79540112,
         "nombre": "BELISARIO GARCIA VALENZUELA",
-        "cupo": 1800000
+        "cupo": 1800000,
+        "Forma": "Credito"
     },
     {
         "id": 79340759,
         "nombre": "BERNARDO PRIETO BENAVIDES",
-        "cupo": 23000000
+        "cupo": 23000000,
+        "Forma": "Credito"
     },
     {
         "id": 46454298,
         "nombre": "BERTHA MABEL CHIQUILLO TOBO",
-        "cupo": 2000000
+        "cupo": 2000000,
+        "Forma": "Credito"
     },
     {
         "id": 79358518,
         "nombre": "CARLOS JULIO AREVALO BOHORQUEZ",
-        "cupo": 10000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 900172210,
         "nombre": "COMERCIAL SANTA ANA S.A.S",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 900571281,
         "nombre": "COMERCIALIZADORA MERCA SOCIAL S.A.S",
-        "cupo": 12000000
+        "cupo": 12000000,
+        "Forma": "Credito"
     },
     {
         "id": 52342724,
         "nombre": "CONSUELO MUÑOZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1118559112,
         "nombre": "CRISTIAN JOSE MOLINA LOMBANA",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 5787025,
         "nombre": "DARIO HERNANDEZ BLANCO",
-        "cupo": 10000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 52802064,
         "nombre": "DEISSY CRISTINA PARRA CASTELLANOS",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 52412454,
         "nombre": "DEYANIRA ALVAREZ OLAYA",
-        "cupo": 6000000
+        "cupo": 6000000,
+        "Forma": "Credito"
     },
     {
         "id": 900487139,
         "nombre": "DISTRIBUCIONES SUPERMERCADOS LATINOS SAS",
-        "cupo": 2800000
+        "cupo": 2800000,
+        "Forma": "Credito"
     },
     {
         "id": 830011743,
         "nombre": "EL ARROZAL Y CIA  S C A",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 52740727,
         "nombre": "ELIANA MAYORI CASAS ACOSTA",
-        "cupo": 1500000
+        "cupo": 1500000,
+        "Forma": "Credito"
     },
     {
         "id": 39532339,
         "nombre": "ELIZABETH CASALLAS RICAURTE",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 13761189,
         "nombre": "EVER ALONSO RUIZ GARAVITO",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 13930135,
         "nombre": "FREDY ALBERTO DUARTE CACERES",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 900069557,
         "nombre": "INVERSIONES EL MERCADEO SAS",
-        "cupo": 100000000
+        "cupo": 100000000,
+        "Forma": "Credito"
     },
     {
         "id": 901182989,
         "nombre": "INVERSIONES LIMAR FC SAS",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1016103936,
         "nombre": "JEIKARY GIORGINA AÑEZ BECERRA",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1024566013,
         "nombre": "JESSICA YURLEY RODRIGUEZ GUARNIZO",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 5581567,
         "nombre": "JOSE DEL CARMEN BECERRA SANCHEZ",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1098629630,
         "nombre": "LINETH APARICIO QUINTERO",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 57650904,
         "nombre": "LUIS CARLOS ARDILA RINCON",
-        "cupo": 3500000
+        "cupo": 3500000,
+        "Forma": "Credito"
     },
     {
         "id": 79886234,
         "nombre": "LUIS EDUARDO PORRAS ALDANA",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 74242403,
         "nombre": "LUIS JAVIER FRANCO SAENZ",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 37943368,
         "nombre": "LUZ MERCEDES RUIZ FRANCO",
-        "cupo": 1500000
+        "cupo": 1500000,
+        "Forma": "Credito"
     },
     {
         "id": 30237214,
         "nombre": "LUZ OFELIA CLAROS CARDENAS",
-        "cupo": 2000000
+        "cupo": 2000000,
+        "Forma": "Credito"
     },
     {
         "id": 41591391,
         "nombre": "MARIA ELISA MORALES DE HERNANDEZ",
-        "cupo": 10000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 39536225,
         "nombre": "MARIA MERLENY ARROYAVE TABARES",
-        "cupo": 2000000
+        "cupo": 2000000,
+        "Forma": "Credito"
     },
     {
         "id": 51634547,
         "nombre": "MARIA STELLA RIVEROS BARRAGAN",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 51949983,
         "nombre": "MARTHA LUCIA ALDERETE RENGIFO",
-        "cupo": 10000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 800106774,
         "nombre": "MERCADO ZAPATOCA SA",
-        "cupo": 3000000
+        "cupo": 3000000,
+        "Forma": "Credito"
     },
     {
         "id": 901564564,
         "nombre": "MERCADOS ARIZA S.A.S",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 900487941,
         "nombre": "MERCADOS LAS ROSITAS SAS",
-        "cupo": 8000000
+        "cupo": 8000000,
+        "Forma": "Credito"
     },
     {
         "id": 900432634,
         "nombre": "MERCADOS NUEVO PROGRESAR SAS",
-        "cupo": 12000000
+        "cupo": 12000000,
+        "Forma": "Credito"
     },
     {
         "id": 901140160,
         "nombre": "MERCADOS SUPER MERCA SUPER GUEVARA SAS",
-        "cupo": 70000000
+        "cupo": 70000000,
+        "Forma": "Credito"
     },
     {
         "id": 1012351419,
         "nombre": "OMAR DARIO LANCHEROS URREGO",
-        "cupo": 3000000
+        "cupo": 3000000,
+        "Forma": "Credito"
     },
     {
         "id": 1019084812,
         "nombre": "PEDRO ALEJANDRO REYES MORA",
-        "cupo": 11000000
+        "cupo": 11000000,
+        "Forma": "Credito"
     },
     {
         "id": 5632503,
         "nombre": "ROSENDO RODRIGUEZ CHACON",
-        "cupo": 14000000
+        "cupo": 14000000,
+        "Forma": "Credito"
     },
     {
         "id": 830020406,
         "nombre": "SALAS CASTILLO SAS",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 37625851,
         "nombre": "SIRA INES CASTIBLANCO ROBAYO",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901186972,
         "nombre": "SUPEMERCADOS ALFA SAS",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 900430306,
         "nombre": "SUPER COMPRAS SAS",
-        "cupo": 6000000
+        "cupo": 6000000,
+        "Forma": "Credito"
     },
     {
         "id": 900321213,
         "nombre": "SUPERMERCADO ARIZA LTDA",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901317438,
         "nombre": "SUPERMERCADO LA BAHIA EXPRESS MS SAS",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901256718,
         "nombre": "SUPERMERCADOS 1A SAS",
-        "cupo": 7000000
+        "cupo": 7000000,
+        "Forma": "Credito"
     },
     {
         "id": 900487195,
         "nombre": "SUPERMERCADOS LATINOS DE COLOMBIA SAS",
-        "cupo": 7000000
+        "cupo": 7000000,
+        "Forma": "Credito"
     },
     {
         "id": 830503163,
         "nombre": "SUPERMERCADOS PINARI CI LTDA",
-        "cupo": 3500000
+        "cupo": 3500000,
+        "Forma": "Credito"
     },
     {
         "id": 901330947,
         "nombre": "SUPERTIENDAS 1A SAS",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 7124777,
         "nombre": "WILSON HERNAN MENJURA MENJURA",
-        "cupo": 5000000
+        "cupo": 5000000,
+        "Forma": "Credito"
     },
     {
         "id": 52227126,
         "nombre": "ALEIDA BERNAL JIMENEZ",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1102721490,
         "nombre": "ARCESIO PINZON PARDO",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 900107424,
         "nombre": "AUTOSERVICIO EL PEDREGAL MG SAS",
-        "cupo": 6000000
+        "cupo": 6000000,
+        "Forma": "Credito"
     },
     {
         "id": 901399377,
         "nombre": "AUTOSERVICIO FONTIMERKAR SAS",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 79106007,
         "nombre": "BELARMINO SALAMANCA GARCIA",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 72325341,
         "nombre": "CIRO ANTONIO MORENO SOLER",
-        "cupo": 30000000
+        "cupo": 30000000,
+        "Forma": "Credito"
     },
     {
         "id": 53030668,
         "nombre": "CLAUDIA ELIZABAETH PEÑA PRIETO",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 25100373,
         "nombre": "CLAUDIA PATRICIA DURAN PAEZ",
-        "cupo": 4000000
+        "cupo": 4000000,
+        "Forma": "Credito"
     },
     {
         "id": 901312259,
         "nombre": "COMMUNAL INVESTMENTS SAS",
-        "cupo": 25000000
+        "cupo": 25000000,
+        "Forma": "Credito"
     },
     {
         "id": 28191766,
         "nombre": "CONSUELO JUDIT PINEDA ROJAS",
-        "cupo": 5000000
+        "cupo": 5000000,
+        "Forma": "Credito"
     },
     {
         "id": 80062394,
         "nombre": "DAVID YESID RAMIREZ LEGUIZAMON",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1020830109,
         "nombre": "DIEGO ALEJANDRO CASTRO CARDENAS",
-        "cupo": 2000000
+        "cupo": 2000000,
+        "Forma": "Credito"
     },
     {
         "id": 900771029,
         "nombre": "DISTRIBUCIONES LIBI´S S.A.S",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 900487139,
         "nombre": "DISTRIBUCIONES SUPERMERCADOS LATINOS SAS",
-        "cupo": 2800000
+        "cupo": 2800000,
+        "Forma": "Credito"
     },
     {
         "id": 901265464,
         "nombre": "DISTRIMAX 01 SAS",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 24133739,
         "nombre": "EDELVINA BURGOS REYES",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 74377001,
         "nombre": "EDWAR ALEXANDER RIOS OCHOA",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 11409492,
         "nombre": "FIDOLO CUBILLOS DELGADO",
-        "cupo": 15000000
+        "cupo": 15000000,
+        "Forma": "Credito"
     },
     {
         "id": 74244524,
         "nombre": "FRANCISCO RODRIGUEZ FORERO",
-        "cupo": 2000000
+        "cupo": 2000000,
+        "Forma": "Credito"
     },
     {
         "id": 20705827,
         "nombre": "GLORIA XIMENA LEON MATALLANA",
-        "cupo": 5000000
+        "cupo": 5000000,
+        "Forma": "Credito"
     },
     {
         "id": 79295687,
         "nombre": "GUSTAVO PABON MORA",
-        "cupo": 2000000
+        "cupo": 2000000,
+        "Forma": "Credito"
     },
     {
         "id": 901149388,
         "nombre": "HIPERMERCADOS EDEN SAS",
-        "cupo": 20000000
+        "cupo": 20000000,
+        "Forma": "Credito"
     },
     {
         "id": 830113748,
         "nombre": "INVERSIONES JOMAYOSA SAS",
-        "cupo": 3000000
+        "cupo": 3000000,
+        "Forma": "Credito"
     },
     {
         "id": 900580849,
         "nombre": "INVERSIONES LAITON GONZALEZ SAS",
-        "cupo": 4000000
+        "cupo": 4000000,
+        "Forma": "Credito"
     },
     {
         "id": 901182987,
         "nombre": "INVERSIONES LOS COMUNEROS SAS",
-        "cupo": 2500000
+        "cupo": 2500000,
+        "Forma": "Credito"
     },
     {
         "id": 900786978,
         "nombre": "INVERSIONES SAN JOSE HA SAS",
-        "cupo": 3000000
+        "cupo": 3000000,
+        "Forma": "Credito"
     },
     {
         "id": 79669468,
         "nombre": "IVAN ANTONIO GARCIA CABEZAS",
-        "cupo": 2500000
+        "cupo": 2500000,
+        "Forma": "Credito"
     },
     {
         "id": 1023902316,
         "nombre": "JACKSON DANIEL D ALEMAN DE ANTONIO",
-        "cupo": 2500000
+        "cupo": 2500000,
+        "Forma": "Credito"
     },
     {
         "id": 5608854,
         "nombre": "JAIME GARCIA GARCIA",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1136885836,
         "nombre": "JHON EMERSON ALFONSO GUACHETA",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 79734503,
         "nombre": "JOHN FREDY BELTRAN AGUILERA",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 80056504,
         "nombre": "JOHN FREDY RICO RUEDA",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 4263947,
         "nombre": "JOSE ARGEMIRO PIÑEROS VACA",
-        "cupo": 1200000
+        "cupo": 1200000,
+        "Forma": "Credito"
     },
     {
         "id": 79584509,
         "nombre": "JOSE URIEL RESTREPO QUIROGA",
-        "cupo": 30000000
+        "cupo": 30000000,
+        "Forma": "Credito"
     },
     {
         "id": 11408769,
         "nombre": "JUAN BATUEL ROJAS PABON",
-        "cupo": 4000000
+        "cupo": 4000000,
+        "Forma": "Credito"
     },
     {
         "id": 79452689,
         "nombre": "JUAN CARLOS BECERRA MARTINEZ",
-        "cupo": 14000000
+        "cupo": 14000000,
+        "Forma": "Credito"
     },
     {
         "id": 16052943,
         "nombre": "JUAN DAVID ROSALES RODRIGUEZ",
-        "cupo": 4000000
+        "cupo": 4000000,
+        "Forma": "Credito"
     },
     {
         "id": 1076241556,
         "nombre": "JUAN DIEGO RODRIGUEZ UMAÑA",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 11433829,
         "nombre": "LIBARDO SAAVEDRA MALDONADO",
-        "cupo": 2000000
+        "cupo": 2000000,
+        "Forma": "Credito"
     },
     {
         "id": 1102357602,
         "nombre": "LUIS ALBERTO BLANCO VEGA",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 51556418,
         "nombre": "MARIA DEL CARMEN OROZCO PEREZ",
-        "cupo": 7500000
+        "cupo": 7500000,
+        "Forma": "Credito"
     },
     {
         "id": 3082327,
         "nombre": "MAURICIO GARZON OLIVARES",
-        "cupo": 15000000
+        "cupo": 15000000,
+        "Forma": "Credito"
     },
     {
         "id": 800165142,
         "nombre": "MERCADOS FAMILIARES MERCAFAM LTDA",
-        "cupo": 70000000
+        "cupo": 70000000,
+        "Forma": "Credito"
     },
     {
         "id": 901841597,
         "nombre": "MERCAPRECIOS SAS",
-        "cupo": 8000000
+        "cupo": 8000000,
+        "Forma": "Credito"
     },
     {
         "id": 80732432,
         "nombre": "NELSON DAVID GARZON ORDOÑEZ",
-        "cupo": 8000000
+        "cupo": 8000000,
+        "Forma": "Credito"
     },
     {
         "id": 17699604,
         "nombre": "OSWALDO ZAMBRANO OME",
-        "cupo": 2500000
+        "cupo": 2500000,
+        "Forma": "Credito"
     },
     {
         "id": 39544326,
         "nombre": "SANDRA CECILIA PRIETO TORRES",
-        "cupo": 3500000
+        "cupo": 3500000,
+        "Forma": "Credito"
     },
     {
         "id": 5710852,
         "nombre": "SEGUNDO NICASIO FAJARDO PARRA",
-        "cupo": 2000000
+        "cupo": 2000000,
+        "Forma": "Credito"
     },
     {
         "id": 5766659,
         "nombre": "SEGUNDO PARDO OJEDA",
-        "cupo": 1500000
+        "cupo": 1500000,
+        "Forma": "Credito"
     },
     {
         "id": 901549462,
         "nombre": "SUMINISTROS ABARROTES BLANCO SAS",
-        "cupo": 7000000
+        "cupo": 7000000,
+        "Forma": "Credito"
     },
     {
         "id": 900609101,
         "nombre": "SUPERMERCADO MERCACENTRO 2000 MER SAS",
-        "cupo": 9000000
+        "cupo": 9000000,
+        "Forma": "Credito"
     },
     {
         "id": 900711396,
         "nombre": "SUPERMERCADO NUBITA SAS",
-        "cupo": 4000000
+        "cupo": 4000000,
+        "Forma": "Credito"
     },
     {
         "id": 830508860,
         "nombre": "SUPERMERCADOS ECO S A S",
-        "cupo": 7000000
+        "cupo": 7000000,
+        "Forma": "Credito"
     },
     {
         "id": 900588014,
         "nombre": "SUPERTIENDAS CONFABOY SAS",
-        "cupo": 2000000
+        "cupo": 2000000,
+        "Forma": "Credito"
     },
     {
         "id": 901365697,
         "nombre": "TIENDAS - PROMY SAS",
-        "cupo": 1500000
+        "cupo": 1500000,
+        "Forma": "Credito"
     },
     {
         "id": 1030531440,
         "nombre": "WALTER DANIEL ZAMBRANO CASTELLANOS",
-        "cupo": 1200000
+        "cupo": 1200000,
+        "Forma": "Credito"
     },
     {
         "id": 860532244,
         "nombre": "ZULUAGA & SOTO SAS",
-        "cupo": 10000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 80030930,
         "nombre": "ALFREDO RIOS VALENCIA",
-        "cupo": 2000000
+        "cupo": 2000000,
+        "Forma": "Credito"
     },
     {
         "id": 1020713021,
         "nombre": "ANA CRISTINA GOMEZ BERNAL",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 24178924,
         "nombre": "ARACELY GARCES BOCACHICA",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901059741,
         "nombre": "AUTOSERVICIO SUPER MAX SAS",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 72325341,
         "nombre": "CIRO ANTONIO MORENO SOLER",
-        "cupo": 30000000
+        "cupo": 30000000,
+        "Forma": "Credito"
     },
     {
         "id": 901312259,
         "nombre": "COMMUNAL INVESTMENTS SAS",
-        "cupo": 25000000
+        "cupo": 25000000,
+        "Forma": "Credito"
     },
     {
         "id": 901249099,
         "nombre": "DESECHABLES 7 DE AGOSTO SAS",
-        "cupo": 1500000
+        "cupo": 1500000,
+        "Forma": "Credito"
     },
     {
         "id": 52832197,
         "nombre": "DIANA MARCELA BERMUDEZ SERRANO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 900035973,
         "nombre": "FRUVER DEL CAMPO ALIMENTOS FRESCOS S.A.S",
-        "cupo": 2000000
+        "cupo": 2000000,
+        "Forma": "Credito"
     },
     {
         "id": 51816734,
         "nombre": "GLORIA EDILSA PARRA AMAYA",
-        "cupo": 15000000
+        "cupo": 15000000,
+        "Forma": "Credito"
     },
     {
         "id": 900517797,
         "nombre": "GRUPO COMERCIAL CRUZ SAS",
-        "cupo": 5000000
+        "cupo": 5000000,
+        "Forma": "Credito"
     },
     {
         "id": 901766468,
         "nombre": "INVERSIONES GOBLA DOS SAS",
-        "cupo": 16000000
+        "cupo": 16000000,
+        "Forma": "Credito"
     },
     {
         "id": 901767801,
         "nombre": "INVERSIONES GOBLA UNO SAS",
-        "cupo": 38000000
+        "cupo": 38000000,
+        "Forma": "Credito"
     },
     {
         "id": 900793046,
         "nombre": "INVERSIONES MARTINEZ FRUTIMAX SAS",
-        "cupo": 6000000
+        "cupo": 6000000,
+        "Forma": "Credito"
     },
     {
         "id": 901271958,
         "nombre": "INVERSIONES RED GG SAS",
-        "cupo": 26000000
+        "cupo": 26000000,
+        "Forma": "Credito"
     },
     {
         "id": 900570251,
         "nombre": "INVERSIONES VICPAG SAS",
-        "cupo": 8000000
+        "cupo": 8000000,
+        "Forma": "Credito"
     },
     {
         "id": 1053806050,
         "nombre": "JAKELINE BETANCOURT ARIAS",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1032357155,
         "nombre": "JONATTAN RAUL MORENO TENJO",
-        "cupo": 2500000
+        "cupo": 2500000,
+        "Forma": "Credito"
     },
     {
         "id": 19430035,
         "nombre": "JORGE ENRIQUE RODRIGUEZ USECHE",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 11188683,
         "nombre": "JOSE EFRAIN DAZA HERNANDEZ",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 830075637,
         "nombre": "JOSE MARIA S.A.S",
-        "cupo": 20000000
+        "cupo": 20000000,
+        "Forma": "Credito"
     },
     {
         "id": 901789779,
         "nombre": "K.D. INVESTMENTS SAS",
-        "cupo": 1500000
+        "cupo": 1500000,
+        "Forma": "Credito"
     },
     {
         "id": 830087795,
         "nombre": "LA PERLA E HIJOS   CIA LIMITADA",
-        "cupo": 8000000
+        "cupo": 8000000,
+        "Forma": "Credito"
     },
     {
         "id": 23925427,
         "nombre": "MARIELINA JOYA DE MOGOLLON",
-        "cupo": 6000000
+        "cupo": 6000000,
+        "Forma": "Credito"
     },
     {
         "id": 52341493,
         "nombre": "MARISOL BONILLA",
-        "cupo": 6000000
+        "cupo": 6000000,
+        "Forma": "Credito"
     },
     {
         "id": 52392227,
         "nombre": "MARTHA LILIANA GUTIERREZ HERRERA",
-        "cupo": 7000000
+        "cupo": 7000000,
+        "Forma": "Credito"
     },
     {
         "id": 52802923,
         "nombre": "MARY LUZ HERRERA ALVIRA",
-        "cupo": 3500000
+        "cupo": 3500000,
+        "Forma": "Credito"
     },
     {
         "id": 900204753,
         "nombre": "MERCADOS BLANCO TORRES SAS",
-        "cupo": 65000000
+        "cupo": 65000000,
+        "Forma": "Credito"
     },
     {
         "id": 1057074323,
         "nombre": "PABLO RAMIRO SOLER SALAMANCA",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 52415411,
         "nombre": "SANDRA LILIANA GONGORA HERNANDEZ",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901300047,
         "nombre": "SUPERMERCADO RAMIREZ HERMANOS SAS",
-        "cupo": 90000000
+        "cupo": 90000000,
+        "Forma": "Credito"
     },
     {
         "id": 1033810404,
         "nombre": "ALISSON DANIELA CASTILLO SANCHEZ",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 51673879,
         "nombre": "ANA ISABEL CASTILLO MELO",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 30389199,
         "nombre": "ANGELA PATRICIA BARRIOS CASTIBLANCO",
-        "cupo": 6000000
+        "cupo": 6000000,
+        "Forma": "Credito"
     },
     {
         "id": 80437511,
         "nombre": "ARGILIO ENCISO GONZALEZ",
-        "cupo": 2000000
+        "cupo": 2000000,
+        "Forma": "Credito"
     },
     {
         "id": 41631269,
         "nombre": "BLANCA NELLY TOVAR HUERTAS",
-        "cupo": 7000000
+        "cupo": 7000000,
+        "Forma": "Credito"
     },
     {
         "id": 1030630977,
         "nombre": "BRAYAN DUVAN MATIZ CAMAYO",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 80003719,
         "nombre": "CARLOS FERNEY PUENTE BAQUERO",
-        "cupo": 4000000
+        "cupo": 4000000,
+        "Forma": "Credito"
     },
     {
         "id": 11409838,
         "nombre": "CARLOS JULIO FRANCO NOVOA",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1110467835,
         "nombre": "CESAR EDUARDO DIAZ ORTIZ",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901430480,
         "nombre": "CUBILLOS   CAGUEÑAS SAS",
-        "cupo": 2500000
+        "cupo": 2500000,
+        "Forma": "Credito"
     },
     {
         "id": 1024476709,
         "nombre": "DANIEL FRANCISCO GUEVARA TORRES",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 52761798,
         "nombre": "DIANA MILENA CASTILLO RIVERA",
-        "cupo": 1500000
+        "cupo": 1500000,
+        "Forma": "Credito"
     },
     {
         "id": 1073603477,
         "nombre": "DIANA PATRICIA BELTRAN SIERRA",
-        "cupo": 2000000
+        "cupo": 2000000,
+        "Forma": "Credito"
     },
     {
         "id": 24134341,
         "nombre": "DORYS MARIA ELENA COY VILLAMIL",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1022416671,
         "nombre": "EDWIN LEONARDO CARDENAS SILVA",
-        "cupo": 8000000
+        "cupo": 8000000,
+        "Forma": "Credito"
     },
     {
         "id": 52806346,
         "nombre": "FRANCY JANETH HUERTAS MARTINEZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 80732140,
         "nombre": "FREDY LEONARDO ORTIZ VIGOYA",
-        "cupo": 6000000
+        "cupo": 6000000,
+        "Forma": "Credito"
     },
     {
         "id": 39727085,
         "nombre": "GLADYS ODILIA ORTIZ QUEVEDO",
-        "cupo": 5000000
+        "cupo": 5000000,
+        "Forma": "Credito"
     },
     {
         "id": 11410638,
         "nombre": "GRACILIANO HERRERA BAQUERO",
-        "cupo": 6000000
+        "cupo": 6000000,
+        "Forma": "Credito"
     },
     {
         "id": 901398607,
         "nombre": "GRUPO COMERCIAL MERCADOS LA SABANA SAS",
-        "cupo": 55000000
+        "cupo": 55000000,
+        "Forma": "Credito"
     },
     {
         "id": 5632510,
         "nombre": "HECTOR BARBOSA CEPEDA",
-        "cupo": 2000000
+        "cupo": 2000000,
+        "Forma": "Credito"
     },
     {
         "id": 19358282,
         "nombre": "HUGO ALFONSO TRIANA LOPEZ",
-        "cupo": 20000000
+        "cupo": 20000000,
+        "Forma": "Credito"
     },
     {
         "id": 52467777,
         "nombre": "INGRID JANNETH NIAMPIRA ROJAS",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 79669468,
         "nombre": "IVAN ANTONIO GARCIA CABEZAS",
-        "cupo": 2500000
+        "cupo": 2500000,
+        "Forma": "Credito"
     },
     {
         "id": 1030582270,
         "nombre": "JAIRO ANDRES BENITO VELASQUEZ",
-        "cupo": 3000000
+        "cupo": 3000000,
+        "Forma": "Credito"
     },
     {
         "id": 79334453,
         "nombre": "JESUS ANTONIO VIZCAYA DURAN",
-        "cupo": 3000000
+        "cupo": 3000000,
+        "Forma": "Credito"
     },
     {
         "id": 1110468157,
         "nombre": "JHON FREDY MOTTA",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 11409417,
         "nombre": "JORGE ADELMO ORTIZ QUEVEDO",
-        "cupo": 3500000
+        "cupo": 3500000,
+        "Forma": "Credito"
     },
     {
         "id": 79831262,
         "nombre": "JOSE ALEXANDER CELIS MARTINEZ",
-        "cupo": 5000000
+        "cupo": 5000000,
+        "Forma": "Credito"
     },
     {
         "id": 4291151,
         "nombre": "JOSE FAUSTINO RAMIREZ RODRIGUEZ",
-        "cupo": 3000000
+        "cupo": 3000000,
+        "Forma": "Credito"
     },
     {
         "id": 1033769677,
         "nombre": "JULIAN ALIRIO MORA CASTILLO",
-        "cupo": 4000000
+        "cupo": 4000000,
+        "Forma": "Credito"
     },
     {
         "id": 52504325,
         "nombre": "LAURA JAQUELINE ORTIZ VIGOYA",
-        "cupo": 20000000
+        "cupo": 20000000,
+        "Forma": "Credito"
     },
     {
         "id": 1069713939,
         "nombre": "LAURA LILI BURITICA GOMEZ",
-        "cupo": 1500000
+        "cupo": 1500000,
+        "Forma": "Credito"
     },
     {
         "id": 11412584,
         "nombre": "LEONEL NIETO GUEVARA",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 796665574,
         "nombre": "LIBER ALFONSO HERRERA FINO",
-        "cupo": 1500000
+        "cupo": 1500000,
+        "Forma": "Credito"
     },
     {
         "id": 79642006,
         "nombre": "LUIS CARLOS PLAZAS WILCHES",
-        "cupo": 2500000
+        "cupo": 2500000,
+        "Forma": "Credito"
     },
     {
         "id": 80791743,
         "nombre": "LUIS GUILLERMO SOLER CASTELLANOS",
-        "cupo": 2000000
+        "cupo": 2000000,
+        "Forma": "Credito"
     },
     {
         "id": 11408455,
         "nombre": "LUIS HUMBERTO PABON HERRERA",
-        "cupo": 50000000
+        "cupo": 50000000,
+        "Forma": "Credito"
     },
     {
         "id": 1012451645,
         "nombre": "LUIS MIGUEL MARTINEZ CHALA",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 79262264,
         "nombre": "LUIS RAUL ARIZA BOHORQUEZ",
-        "cupo": 6000000
+        "cupo": 6000000,
+        "Forma": "Credito"
     },
     {
         "id": 1018409101,
         "nombre": "MARTHA ISABEL CASTILLO CASTILLO",
-        "cupo": 2000000
+        "cupo": 2000000,
+        "Forma": "Credito"
     },
     {
         "id": "",
         "nombre": "MERCACENTRO JF LIRIO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 900716778,
         "nombre": "MERCADOS JP SAS",
-        "cupo": 6000000
+        "cupo": 6000000,
+        "Forma": "Credito"
     },
     {
         "id": 901490453,
         "nombre": "MERCADOS POPULARES AP SAS",
-        "cupo": 3500000
+        "cupo": 3500000,
+        "Forma": "Credito"
     },
     {
         "id": 901925510,
         "nombre": "MERKASUR EOQ SAS",
-        "cupo": 10000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 79714102,
         "nombre": "MIGUEL ANGEL VELANDIA VELANDIA",
-        "cupo": 3500000
+        "cupo": 3500000,
+        "Forma": "Credito"
     },
     {
         "id": 52881869,
         "nombre": "NANCY MILENA SANCHEZ GAONA",
-        "cupo": 2500000
+        "cupo": 2500000,
+        "Forma": "Credito"
     },
     {
         "id": 52766541,
         "nombre": "NELCY YOLANDA ORTIZ VIGOYA",
-        "cupo": 3000000
+        "cupo": 3000000,
+        "Forma": "Credito"
     },
     {
         "id": 93337255,
         "nombre": "OLIMPO CARDENAS MORA",
-        "cupo": 20000000
+        "cupo": 20000000,
+        "Forma": "Credito"
     },
     {
         "id": 52503994,
         "nombre": "SANDRA PATRICIA GALARZA",
-        "cupo": 2500000
+        "cupo": 2500000,
+        "Forma": "Credito"
     },
     {
         "id": 901876744,
         "nombre": "SUPERMERCADO LA ESQUINA DE LA 87 RR SAS",
-        "cupo": 3000000
+        "cupo": 3000000,
+        "Forma": "Credito"
     },
     {
         "id": 901490314,
         "nombre": "SUPERMERCADO SURTIGANGAS SAS",
-        "cupo": 1500000
+        "cupo": 1500000,
+        "Forma": "Credito"
     },
     {
         "id": 79811106,
         "nombre": "VICTOR HUGO NIETO PRIETO",
-        "cupo": 2000000
+        "cupo": 2000000,
+        "Forma": "Credito"
     },
     {
         "id": 11413337,
         "nombre": "WILMER OVIDIO PRIETO PEREZ",
-        "cupo": 5000000
+        "cupo": 5000000,
+        "Forma": "Credito"
     },
     {
         "id": 80433636,
         "nombre": "WILSON MORA CARDENAS",
-        "cupo": 14000000
+        "cupo": 14000000,
+        "Forma": "Credito"
     },
     {
         "id": 1024463391,
         "nombre": "YUDY MARCELA DIAZ SILVA",
-        "cupo": 15000000
+        "cupo": 15000000,
+        "Forma": "Credito"
     },
     {
         "id": 5656994,
         "nombre": "ALFONSO BAUTISTA ORTIZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 4228833,
         "nombre": "ALIRIO ENRIQUE CASTELLANOS CORTES",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1096957340,
         "nombre": "ANGIE PAOLA SALCEDO GARCIA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901413657,
         "nombre": "AUTOSERVICIO GIRARDOT DUQUE SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 38285755,
         "nombre": "BEATRIZ LUNA LIZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 3158710,
         "nombre": "BERNARDO ZAMORA PULIDO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 52771721,
         "nombre": "BLANCA NYDIA VARGAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1077032709,
         "nombre": "CARLOS ORLANDO GARCIA WILCHES",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 80365476,
         "nombre": "CERBELION NOVOA ROJAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 80312790,
         "nombre": "EDILSON AYALA TOLOSA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 91455947,
         "nombre": "EMMANUEL SANTOS GARCIA PATIÑO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 79710830,
         "nombre": "FEDERMAN BELTRAN QUIROGA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 900302546,
         "nombre": "GRUPO FENIX COLOMBIA SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1074616041,
         "nombre": "GUILLERMO ANDRES RUIZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 91109237,
         "nombre": "GUSTAVO RUIZ FRANCO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 11413415,
         "nombre": "HECTOR ALONSO NIETO GUEVARA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 79765804,
         "nombre": "HELIO ARTURO GAMBOA RODRIGUEZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 7124662,
         "nombre": "HERNANDO VELANDIA GONZALEZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901354639,
         "nombre": "INVERSIONES AHORREMAS SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901349629,
         "nombre": "INVERSIONES RODMON SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 800205713,
         "nombre": "INVERSIONES VARGAS OTELO S.A.S",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 3023039,
         "nombre": "JAIME HELI RIVEROS REY",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 80863520,
         "nombre": "JHON MAURICIO GARCIA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1061624207,
         "nombre": "JOHN FREDY PATIÑO RAMIREZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1015426190,
         "nombre": "JOSE JAVIER MOLINA CUESTA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1003650671,
         "nombre": "JUAN DIEGO CASTILLO RAMOS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1069584478,
         "nombre": "JULIAN DARIO LEON CORREA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1233694215,
         "nombre": "LAURA LEONELA PICO CASTRO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 5608986,
         "nombre": "LUIS ANTONIO LEON CARVAJAL",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 52474659,
         "nombre": "LUZ DARY CASTRO PULIDO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 21409773,
         "nombre": "LUZ DARY VILLA ORTIZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 39794913,
         "nombre": "LUZ MARINA HERRERA CASTILLO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 20546970,
         "nombre": "LUZ MERY BARBOSA PEREZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 80804414,
         "nombre": "MARTIN EMILIO LAITON PAEZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 68306167,
         "nombre": "MAURY FABIOLA GONZALEZ SARMIENTO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 800252176,
         "nombre": "MERCACENTRO SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901479509,
         "nombre": "MERCADOS EL SOL SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901221786,
         "nombre": "MERKANDO EXPRESS RB SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 52437868,
         "nombre": "NELLY ESPERANZA RICO VIRACACHA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 5751150,
         "nombre": "NELSON CARREÑO ESPINOSA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 39771009,
         "nombre": "OLGA PEÑUELA CRUZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 3199694,
         "nombre": "OSCAR RUBEN FORERO MARQUEZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1079232072,
         "nombre": "RABOMIR GONZALEZ ALVARADO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 93382941,
         "nombre": "RICARDO CADENA BERNAL",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901583452,
         "nombre": "ROA RAMIREZ   ASOCIADOS SCS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 52224851,
         "nombre": "RUBIELA LUNA LIZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 900732875,
         "nombre": "SALAS CASTILLO E HIJOS SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901925956,
         "nombre": "SUPERMERCADO MAX MADRID SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901511815,
         "nombre": "SUPERMERCADOS DMIL FUNZA SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1073158382,
         "nombre": "URIEL ANTONIO CASTELLANOS AVENDAÑO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1056410061,
         "nombre": "URIEL RICARDO ARIZA FORERO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 11435016,
         "nombre": "VICTOR JULIO CASTILLO SIERRA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1014209468,
         "nombre": "YOHANA ORTIZ GOMEZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 80120130,
         "nombre": "YUBER YESID RUSSI PAEZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 51813094,
         "nombre": "ALBA LUZ RAMIREZ FANDIÑO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 79738732,
         "nombre": "ALEXANDER CASTILLO SOTELO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1019093998,
         "nombre": "ANGIE PAOLA URREGO PEÑA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 11412650,
         "nombre": "ARIEL GUTIERREZ AGUDELO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901927852,
         "nombre": "AUTOSERVICIO SURTIHOGAR JO BE SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 900837261,
         "nombre": "AUTOSERVICIOS SANTA ANA SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 80367431,
         "nombre": "CARLOS ANTONIO GORDILLO CORREDOR",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 16137918,
         "nombre": "CESAR AUGUSTO ALZATE ARIAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 900797169,
         "nombre": "COMERCIAL PICAFLOR SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 830018538,
         "nombre": "COMERCIALIZADORA DE ALIMENTOS OROSOL SA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 900803231,
         "nombre": "COMERCIALIZADORA DE VIVERES EL PAISA SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 52741096,
         "nombre": "DIANA YAMIRA GUTIERREZ NOVOA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 11205736,
         "nombre": "EDILSON MUÑOZ URBANO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1071628095,
         "nombre": "EDINSON ARLEY CUELLAR GARAY",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1024537215,
         "nombre": "EDISSON LEONARDO MORA MORA",
-        "cupo": 10000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 900421736,
         "nombre": "EL GRAN PRECIOS SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901717069,
         "nombre": "EL PALACIO VEGETARIANO DE LA ONCE SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1054680496,
         "nombre": "FERNANDO SANTAMARIA RIOS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 79525064,
         "nombre": "FIDEL ANTONIO GONZALEZ AVENDAÑO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 66879723,
         "nombre": "FRENDA YANINA URBANO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 79436748,
         "nombre": "GILDARDO SALCEDO CAMACHO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 41100646,
         "nombre": "GLORIA DEL CARMEN RODRIGUEZ DE RODRIGUEZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 52160637,
         "nombre": "GLORIA OFIR MENDOZA LEGUIZAMON",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901608815,
         "nombre": "GRUPO VADEL SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1032415217,
         "nombre": "HECTOR FAVIO CHAVEZ VIVEROS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 80443035,
         "nombre": "HECTOR MANUEL PORRAS ALDANA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1013579237,
         "nombre": "HEIDY JOHANA RODRIGUEZ RODRIGUEZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 79899571,
         "nombre": "HENRY ORLANDO RAMIREZ AREVALO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901416280,
         "nombre": "HERNANDEZ BONILLA ASOCIADOS SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901438859,
         "nombre": "INVERSIONES RODRIGUEZ   CIA SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1074136176,
         "nombre": "IVAN CAMILO GUEVARA NIETO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 80224222,
         "nombre": "JAVIER PEÑA LANCHEROS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1013687299,
         "nombre": "JOHAN ESTEBAN PEREZ WILCHES",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1033744632,
         "nombre": "JOHANN GUILLERMO MUÑOZ VIRACACHA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1026585458,
         "nombre": "JOHN SEBASTIAN LEON ARENAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 7332500,
         "nombre": "JORGE IGNACIO JIMENEZ AMAYA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 17635483,
         "nombre": "JOSE ANTONIO VARGAS RINCON",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1023924997,
         "nombre": "JOSE DAVID PEREZ RODRIGUEZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 11406189,
         "nombre": "JOSE MARIA CELIS GUTIERREZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 79584509,
         "nombre": "JOSE URIEL RESTREPO QUIROGA",
-        "cupo": 30000000
+        "cupo": 30000000,
+        "Forma": "Credito"
     },
     {
         "id": 17634873,
         "nombre": "JOSE VARGAS RINCON",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 79059987,
         "nombre": "JUAN CARLOS CARDENAS VALENCIA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 79424099,
         "nombre": "JUAN DE DIOS CAGUEÑAS CAGUEÑAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 11411506,
         "nombre": "JULIO ENRIQUE CESPEDES QUEVEDO",
-        "cupo": 2500000
+        "cupo": 2500000,
+        "Forma": "Credito"
     },
     {
         "id": 19470830,
         "nombre": "LUIS ENRIQUE VERDUGO VELANDIA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 52371206,
         "nombre": "LUZ ALCIRA LOPEZ LOPEZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 52827477,
         "nombre": "LUZ STELLA CAMPIÑO SANCHEZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 52860748,
         "nombre": "MADYLENE FONSECA VARELA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901517783,
         "nombre": "MANNIA LIGHT SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 25401711,
         "nombre": "MARIA AYDEE MONTENEGRO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 52464418,
         "nombre": "MARIA ESTHER CABALLERO BENITEZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 51552631,
         "nombre": "MARIA MERCEDES DIAZ PALENCIA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 70466379,
         "nombre": "MARIO DE JESUS ZULUAGA ATEHORTUA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901293728,
         "nombre": "MERCA TIENDAS EL PROVEEDOR SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901691352,
         "nombre": "MERCADOS ALPESO SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 900497319,
         "nombre": "MERCADOS MERCALIDER SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 24023322,
         "nombre": "NERCY PINZON ACERO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 11408380,
         "nombre": "OMAR TORRES CAGUEÑAS",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 52735738,
         "nombre": "PAOLA ANDREA LOZANO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 4133169,
         "nombre": "PASTOR BARON",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1084222100,
         "nombre": "PATRICIA MUÑOZ URBANO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 79559988,
         "nombre": "PEDRO ELIAS REYES AMADO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 4563208,
         "nombre": "PEDRO JULIO PAEZ CASTELLANOS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 900666619,
         "nombre": "PRODUCTOS DE ASEO LIDER SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1071303586,
         "nombre": "SANDRA JIMENA PABON REY",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 79431278,
         "nombre": "SAUL HUMBERTO GAMEZ GAMBOA",
-        "cupo": 1500000
+        "cupo": 1500000,
+        "Forma": "Credito"
     },
     {
         "id": 1084223292,
         "nombre": "SILVIO MUÑOZ URBANO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 900635000,
         "nombre": "UNIDAD COMERCIAL LOS BAQUEROS SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 79562320,
         "nombre": "WALDO ALFONSO GOMEZ BELTRAN",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1074131006,
         "nombre": "WILLIAM RAUL ZIPA ORTIZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 52279663,
         "nombre": "YAQUELIN RODRIGUEZ RODRIGUEZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 53050012,
         "nombre": "YENNI ALEXANDER BAUTISTA BOCACHICA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1022929117,
         "nombre": "YULI ALEXANDRA GAMEZ RAMIREZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901242905,
         "nombre": "AHORRACENTRO SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901560984,
         "nombre": "AHORRATIENDAS SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 39730932,
         "nombre": "ALCIRA VIZCAINO ORTIZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 28636833,
         "nombre": "AMPARO PEDROZO YARA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 74280374,
         "nombre": "ANCELMO MAHECHA CUESTA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 3249833,
         "nombre": "ANDRES ALDANA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 11450004,
         "nombre": "ANGEL GABRIEL MORENO SILVA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 35251032,
         "nombre": "AURORA RODRIGUEZ PUIN",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901444609,
         "nombre": "AUTOSERVICIO EL SHADDAI SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901406868,
         "nombre": "AUTOSERVICIO MERKETODO JYC SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 900734493,
         "nombre": "AUTOSERVICIO MI LLANITO NM SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 808002857,
         "nombre": "AUTOSERVICIO MITAD DE PRECIO SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1075628435,
         "nombre": "CARLOS FABIAN RIOS ROJAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 79646306,
         "nombre": "CESAR HERNANDO DELGADO ORTIZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901815616,
         "nombre": "COMERCIALIZADORA LA EMPERATRIZ Y CIA SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901567386,
         "nombre": "COMERCIALIZADORA ZAFRA APONTE SAS",
-        "cupo": 30000000
+        "cupo": 30000000,
+        "Forma": "Credito"
     },
     {
         "id": 11228957,
         "nombre": "DANIEL ORLANDO MEDINA BALAGUERA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 51793924,
         "nombre": "DANNY PATRICIA CAVANZO FLOREZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 79288961,
         "nombre": "EDGAR DUARTE MOLINA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1074131630,
         "nombre": "ELIECER ADELMO GUTIERREZ ACOSTA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1069733233,
         "nombre": "FABIO ANDERSSON CASTELLANOS MOLINA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 20491426,
         "nombre": "FLOR MARIA AREVALO RODRIGUEZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 80501869,
         "nombre": "GEOVANY VARGAS VASQUEZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1074128678,
         "nombre": "GERARDO ALONSO MORENO AYA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 52616246,
         "nombre": "GIOANA DEL PILAR GALINDO POVEDA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1069727373,
         "nombre": "GISELLA CAROLINA GIL LINARES",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 38246976,
         "nombre": "GLADYS ARDILA POVEDA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1001326047,
         "nombre": "HECTOR JAVIER MORA SUSA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 900728213,
         "nombre": "INVERSIONES LA GRAN VIA DE TENA SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 800205713,
         "nombre": "INVERSIONES VARGAS OTELO S.A.S",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901524686,
         "nombre": "INVERSIONES YOSAN SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 79263633,
         "nombre": "JAIME EDUARDO MARTINEZ CASTILLO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 80659361,
         "nombre": "JHON CARLOS AVILA BAQUERO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 79393812,
         "nombre": "JOHN GUSTAVO MATIZ CASTRO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 91455724,
         "nombre": "JOSE GREGORIO PALACIOS BRAVO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 3208282,
         "nombre": "JOSE GUSTAVO SUAREZ HUERTAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901909515,
         "nombre": "LA CANASTA CAMPESINA M Y N SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 39805276,
         "nombre": "LEONOR VALENZUELA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901796206,
         "nombre": "LOSMERKAS SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 19499365,
         "nombre": "LUIS ALFONSO BUITRAGO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 51610981,
         "nombre": "LUZ STELLA MENDEZ ROJAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 35375254,
         "nombre": "LUZ STELLA TOVAR",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901684774,
         "nombre": "MACRODESPENSA SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 35254242,
         "nombre": "MARIA ESTRELLA CABRERA RAMIREZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 20851645,
         "nombre": "MARLENY AIDEE REY TORRES",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901005247,
         "nombre": "MERKAQUEZA S.A.S.",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1000594691,
         "nombre": "MIGUEL ANGEL PABON GUATAVA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 3209683,
         "nombre": "NARCISO VILLALOBOS FONSECA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1069756670,
         "nombre": "NELLY JOHANA GUTIERREZ MORA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 11411119,
         "nombre": "NELSON AUGUSTO AGUDELO ACOSTA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 80360709,
         "nombre": "NESTOR HOLGUIN DIAZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 2997233,
         "nombre": "NORLEY BASTO VELASQUEZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 21061902,
         "nombre": "NUBIA JANETH MEDINA GAITAN",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1072718251,
         "nombre": "OMAR ALIRIO GUTIERREZ ACOSTA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1003586831,
         "nombre": "OMAR SNEIDER CLAVIJO VELASQUEZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 37825719,
         "nombre": "ORFIDIA GOMEZ DIAZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 11413742,
         "nombre": "RODRIGO HERNANDEZ CHINGATE",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 79758621,
         "nombre": "ROOSEVELT CASTELLANOS MORALES",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1074130156,
         "nombre": "SANDI LUZDEY BETANCOURT CLAVIJO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 52210494,
         "nombre": "SANDRA BIBIANA RODRIGUEZ HUERFANO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901404531,
         "nombre": "SUPERMERCADO DUARTE SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 900415552,
         "nombre": "SUPERMERCADO GUAILAMA SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901828723,
         "nombre": "SUPERMERCADOS MAXIOFERTAS SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 80500134,
         "nombre": "WILLIAM RENE ACOSTA LOPEZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 43676882,
         "nombre": "YDIANA MARIA SANCHEZ JIMENEZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 17077445,
         "nombre": "ADOLFO GUERRERO MONTENEGRO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 79538386,
         "nombre": "ALBEIRO GIRALDO FRANCO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 900334641,
         "nombre": "ALMACENES LLEVE MAS SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 900628189,
         "nombre": "ALMACENES MEXIMER SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 80902913,
         "nombre": "ARLEY MORENO MAYORGA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 79713555,
         "nombre": "ARMANDO AUGUSTO MOLINA RAMIREZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 41413079,
         "nombre": "AURORA DEL CARMEN SOTELO DE CASTILLO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 800010668,
         "nombre": "AUTOSERVICIO EL PERDOMO SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 900127127,
         "nombre": "C.I . ALLIANCE S.A",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 11408989,
         "nombre": "CARLOS JULIO PUENTES CESPEDES",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1032456842,
         "nombre": "CARLOS SNEIDER VARON RAQUEJO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 900135976,
         "nombre": "COMERCIALIZADORA DISFRUVER S.A.S.",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1022348733,
         "nombre": "DANELLY ROZO CESPEDES",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 80387761,
         "nombre": "DEIVY CENDALES QUIROGA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901112101,
         "nombre": "DEPOSITO GIRARDOT SUCESORES SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 900653385,
         "nombre": "DISTRIBUCIONES MONTE DEL CARLO SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901125580,
         "nombre": "DISTRIBUIDORA LA FRONTERA WOR SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 900486134,
         "nombre": "DISTRIOFERTAS EC SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1022961774,
         "nombre": "FABIAN STIVEN GUERRERO INFANTE",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1033688987,
         "nombre": "GILBERTO AMADOR CARDENAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 80463287,
         "nombre": "GRANERO MERKAFACIL",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1074131659,
         "nombre": "HECTOR AUGUSTO NIETO PRIETO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 15989475,
         "nombre": "HERNAN ALBEIRO FRANCO CARDONA",
-        "cupo": 5000000
+        "cupo": 5000000,
+        "Forma": "Credito"
     },
     {
         "id": 901412568,
         "nombre": "INVERSIONES GRUPO ROAL SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1033706571,
         "nombre": "JAIDER YAMID CUERVO FORERO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1026601381,
         "nombre": "JAMMES JAVIER ROMERO MARTINEZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 80277842,
         "nombre": "JAVIER OLAYA ROMERO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 83181438,
         "nombre": "JAVIER PARRA VALDERRAMA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1024510280,
         "nombre": "JEISSON ANDRES ORTIZ PALACIO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 75076696,
         "nombre": "JORGE ALBERTO PATIÑO PATIÑO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 13616263,
         "nombre": "JOSE GREGORIO HURTADO ACOSTA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 79206910,
         "nombre": "JOSE IGNACIO PARRA BOHORQUEZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 80248878,
         "nombre": "JOSE WILLIAM MORALES VELA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 700011435,
         "nombre": "JUAN CARLOS ORTIZ ORTIZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1007322290,
         "nombre": "JUAN DAVID COMBITA MURCIA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901465481,
         "nombre": "LA DESPENSA H M SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 4090430,
         "nombre": "LUIS DANIEL LEGUIZAMO PABON",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 79837915,
         "nombre": "LUIS ENRIQUE ROMERO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 52444654,
         "nombre": "MARIA DELFA MURCIA HERNANDEZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 79613103,
         "nombre": "MARTIN EMILIO NOVOA ORTIZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901375910,
         "nombre": "MAXIMERCAS SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901556595,
         "nombre": "MERCADOS BM SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 333773493,
         "nombre": "NANCY ROCIO LOPEZ SOBA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1033771045,
         "nombre": "PAOLA ALEJANDRA GUTIERREZ NOVOA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1030590461,
         "nombre": "RIVEN HERNAN REY PARDO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 80217944,
         "nombre": "RODRIGO LEON ROA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 41633505,
         "nombre": "ROSA ELVIRA NOVOA DE ORTIZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1032369338,
         "nombre": "SANDRA MILENA DELGADO RODRIGUEZ",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901788926,
         "nombre": "SERVICES   TRADA D'MA$ SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901092715,
         "nombre": "SUPERKAFALANDIA SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 830508860,
         "nombre": "SUPERMERCADOS ECO S A S",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 900466404,
         "nombre": "SURTIVIVERES LA SABANA SAS",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 79726793,
         "nombre": "VICTOR JULIO ALONSO CASTILLO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 53050012,
         "nombre": "YENNI ALEXANDER BAUTISTA BOCACHICA",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 52957099,
         "nombre": "YENY MARIBEL MONROY PATIÑO",
-        "cupo": 0
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1048850134,
         "nombre": "DIANA CAROLINA MACIAS GONZALEZ",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 65741777,
         "nombre": "ALBA YENCI PIRABAN JIMENEZ",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1108151038,
         "nombre": "NINFA VIVIANA PORRAS ARENAS",
-        "cupo": 4000000
+        "cupo": 4000000,
+        "Forma": "Credito"
     },
     {
         "id": 13615703,
         "nombre": "RICARDO REYES PAEZ",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 79653780,
         "nombre": "JUAN CARLOS CARRILLO",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 11413874,
         "nombre": "LUIS ALBERTO GUTIERREZ GUTIERREZ",
-        "cupo": 4000000
+        "cupo": 4000000,
+        "Forma": "Credito"
     },
     {
         "id": 1033710359,
         "nombre": "FABIO ANDRES GUTIERREZ MORA",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 11413580,
         "nombre": "EDIER RAMIRO NOVOA GUTIERREZ",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 39565250,
         "nombre": "MARIA CONSTANZA CABEZAS ALVIZ",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1026588666,
         "nombre": "YINETH DANIELA SIERRA TORREZ",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 53099507,
         "nombre": "YHIRLIN MARIA SANCHEZ SUAREZ",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901451192,
         "nombre": "INVERSIONES BNC SAS",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901963150,
         "nombre": "INVERSIONES SAN ANTONIO SAS",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901974514,
         "nombre": "SUPERMERCADOS MAXIOFERTAS DMIL SAS",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1022960544,
         "nombre": "YURANY PAOLA PEREZ RODRIGUEZ",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 3197575,
         "nombre": "LEONARDO HERRERA MOLINA",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 900619381,
         "nombre": "RESPRESENTACIONES Y DITRIBUCIONES FB SAS",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 900752825,
         "nombre": "DISTRIFARMA SANTA FE SAS",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 1019075149,
         "nombre": "WILDER YESID GUTIERREZ SANCHEZ",
-        "cupo": 1000000
+        "cupo": 1000000,
+        "Forma": "Contado"
     }
-
-
 ]

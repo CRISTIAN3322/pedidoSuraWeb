@@ -128,11 +128,13 @@ function ClienteSelectorReact() {
     let totalCartera = 0;
     let sinCupo = false;
     let carteraCliente = [];
+    let formaPago = '';
 
     if (clienteSeleccionado) {
         const cupoInfo = cuposData.find((c) => c.id === clienteSeleccionado.id);
         if (cupoInfo) {
             cupoDisponible = parseFloat(String(cupoInfo.cupo).replace(/,/g, ''));
+            formaPago = cupoInfo.Forma || '';
         }
         carteraCliente = carteraData.filter((c) => c.id === clienteSeleccionado.id);
         if (carteraCliente.length > 0) {
@@ -180,7 +182,9 @@ function ClienteSelectorReact() {
                 CupoCliente cupoDisponible = { cupoDisponible }
                 totalCartera = { totalCartera }
                 sinCupo = { sinCupo }
-                />
+                /> <
+                p style = {
+                    { marginTop: '8px' } } > < strong > Forma de pago: < /strong> { formaPago || 'No registrada' } < /p >
 
                 <
                 ul className = "lista-sucursales" > {
@@ -235,6 +239,7 @@ function ClienteSelectorReact() {
                                 totalCartera,
                                 cupoDisponible,
                                 sinCupo,
+                                formaPago,
                             };
                             localStorage.setItem('datosCliente', JSON.stringify(datosCliente));
                             window.location.href = '/carrito';

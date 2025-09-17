@@ -22,6 +22,10 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
                         <p><strong>ID Cliente:</strong> {clienteId}</p>
                         <p><strong>Dirección:</strong> {sucursalDireccion}</p>
                         <p><strong>Vendedor:</strong> {sucursalVendedor}</p>
+                        {typeof window !== 'undefined' && (() => {
+                          const dc = JSON.parse(localStorage.getItem('datosCliente') || '{}');
+                          return dc.formaPago ? <p><strong>Forma de pago:</strong> {dc.formaPago}</p> : null;
+                        })()}
                     </div>
                 )}
                 {/* Renderizar área de cartera si hay datos en localStorage (solo en cliente seleccionado) */}
@@ -98,6 +102,7 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
                         <p><strong>ID Cliente:</strong> ${datosCliente.clienteId}</p>
                         <p><strong>Dirección:</strong> ${datosCliente.sucursalDireccion}</p>
                         <p><strong>Vendedor:</strong> ${datosCliente.sucursalVendedor}</p>
+                        ${datosCliente.formaPago ? `<p><strong>Forma de pago:</strong> ${datosCliente.formaPago}</p>` : ''}
                         ${datosCliente.sinCupo ? '<p><strong style="color: red;">⚠️ CLIENTE SIN CUPO</strong></p>' : ''}
                     </div>
                 `;
@@ -209,6 +214,7 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
 
         const direccion = document.querySelector('.datos-card p:nth-child(3)')?.textContent?.split(':')[1].trim() || '';
         const vendedor = document.querySelector('.datos-card p:nth-child(4)')?.textContent?.split(':')[1].trim() || '';
+        const formaPago = (JSON.parse(localStorage.getItem('datosCliente') || '{}').formaPago) || '';
 
         // Verificar si el cliente tiene cupo
         const datosCliente = JSON.parse(localStorage.getItem('datosCliente') || '{}');
@@ -230,6 +236,7 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
             mensaje += `Vendedor: *${vendedor}*%0A%0A`;
             mensaje += `Cupo Disponible: $${datosCliente.cupoDisponible?.toLocaleString('es-CO') || '0'}%0A`;
             mensaje += `Total Cartera: $${datosCliente.totalCartera?.toLocaleString('es-CO') || '0'}%0A%0A`;
+            if (formaPago) mensaje += `Forma de pago: ${formaPago}%0A%0A`;
             mensaje += `*🚨 CLIENTE SIN CUPO DISPONIBLE 🚨*%0A%0A`;
 
             // Agregar observaciones si existen
@@ -255,7 +262,9 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
             mensaje += `Cliente: ${clienteNombre}%0A`;
             mensaje += `ID: *${clienteId}*%0A`;
             mensaje += `Dirección: *${direccion}*%0A`;
-            mensaje += `Vendedor: ${vendedor}%0A%0A`;
+            mensaje += `Vendedor: ${vendedor}%0A`;
+            if (formaPago) mensaje += `Forma de pago: ${formaPago}%0A`;
+            mensaje += `%0A`;
             
             // Agregar información de cupo y cartera
             if (datosCliente.totalCartera !== undefined && datosCliente.cupoDisponible !== undefined) {
