@@ -71,7 +71,7 @@
         "precio": 1625,
         "imagen": "../assets/img_catalogo/7702622525093.png",
         "barra": 7702622525093,
-        "invetario": 2977,
+        "invetario": 2989,
         "proveedor": "TONING",
         "activo": true
     },
@@ -401,7 +401,7 @@
         "precio": 11990,
         "imagen": "../assets/img_catalogo/7702622624031.png",
         "barra": 7702622624031,
-        "invetario": 354,
+        "invetario": 356,
         "proveedor": "TONING",
         "activo": true
     },
@@ -434,7 +434,7 @@
         "precio": 22866,
         "imagen": "../assets/img_catalogo/7702622624093.png",
         "barra": 7702622624093,
-        "invetario": 101,
+        "invetario": 103,
         "proveedor": "TONING",
         "activo": true
     },
@@ -929,7 +929,7 @@
         "precio": 3750,
         "imagen": "../assets/img_catalogo/7709888659173.png",
         "barra": 7709888659173,
-        "invetario": 1013,
+        "invetario": 1253,
         "proveedor": "ATW INTERNACIONAL SAS",
         "activo": true
     },
@@ -2040,7 +2040,7 @@
         "precio": 17201,
         "imagen": "../assets/img_catalogo/7702117004197.png",
         "barra": 7702117004197,
-        "invetario": 4,
+        "invetario": 5,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -5747,7 +5747,7 @@
         "precio": 20623,
         "imagen": "../assets/img_catalogo/7702044290104.png",
         "barra": 7702044290104,
-        "invetario": 200,
+        "invetario": 0,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5943,9 +5943,9 @@
         "codigo": "JPB0071",
         "nombre": "VITU LOCION CORPORAL MORA Y ALMENDRAS DOYPACK + 1 LITRO CJ X 4",
         "precio": "20622,7",
-        "imagen": "../assets/img_catalogo/770204429010.png",
-        "barra": 770204429010,
-        "invetario": 6,
+        "imagen": "../assets/img_catalogo/17702044290104.png",
+        "barra": 17702044290104,
+        "invetario": 206,
         "proveedor": "PREBEL",
         "activo": true
     },
