@@ -282,7 +282,7 @@
         "barra": 7702622724151,
         "invetario": 26,
         "proveedor": "TONING",
-        "activo": false
+        "activo": true
     },
     {
         "id": 27,
@@ -722,7 +722,7 @@
         "barra": 7702622956545,
         "invetario": 1800,
         "proveedor": "TONING",
-        "activo": true
+        "activo": false
     },
     {
         "id": 67,
@@ -3577,7 +3577,7 @@
         "id": 326,
         "codigo": "JFW0107",
         "nombre": "WHISKY JACK DANIEL´S N° 7",
-        "precio": 106818,
+        "precio": 108434,
         "imagen": "../assets/img_catalogo/082184090473.png",
         "barra": "082184090473",
         "invetario": 108,
@@ -3609,11 +3609,11 @@
     {
         "id": 329,
         "codigo": "JFW0126",
-        "nombre": "RON BACARDI HURACANE X 750 CJ X 12",
+        "nombre": "RON BACARDI HURRACANE X 750 CJ X 12",
         "precio": 44139,
         "imagen": "../assets/img_catalogo/08048098550.png",
         "barra": "08048098550",
-        "invetario": 18,
+        "invetario": 0,
         "proveedor": "GLOBAL",
         "activo": true
     },
