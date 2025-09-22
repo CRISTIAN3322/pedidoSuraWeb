@@ -60,7 +60,7 @@
         "precio": 16606,
         "imagen": "../assets/img_catalogo/7702622724137.png",
         "barra": 7702622724137,
-        "invetario": 121,
+        "invetario": 117,
         "proveedor": "TONING",
         "activo": true
     },
@@ -71,7 +71,7 @@
         "precio": 1625,
         "imagen": "../assets/img_catalogo/7702622525093.png",
         "barra": 7702622525093,
-        "invetario": 2893,
+        "invetario": 2845,
         "proveedor": "TONING",
         "activo": true
     },
@@ -82,7 +82,7 @@
         "precio": 3765,
         "imagen": "../assets/img_catalogo/7702622527103.png",
         "barra": 7702622527103,
-        "invetario": 2877,
+        "invetario": 2793,
         "proveedor": "TONING",
         "activo": true
     },
@@ -104,7 +104,7 @@
         "precio": 3054,
         "imagen": "../assets/img_catalogo/7702622522139.png",
         "barra": 7702622522139,
-        "invetario": 1385,
+        "invetario": 1367,
         "proveedor": "TONING",
         "activo": true
     },
@@ -115,7 +115,7 @@
         "precio": 3054,
         "imagen": "../assets/img_catalogo/7702622522016.png",
         "barra": 7702622522016,
-        "invetario": 1332,
+        "invetario": 1314,
         "proveedor": "TONING",
         "activo": true
     },
@@ -126,7 +126,7 @@
         "precio": 3054,
         "imagen": "../assets/img_catalogo/7702622522023.png",
         "barra": 7702622522023,
-        "invetario": 1535,
+        "invetario": 1529,
         "proveedor": "TONING",
         "activo": true
     },
@@ -159,7 +159,7 @@
         "precio": 3713,
         "imagen": "../assets/img_catalogo/7702622423146.png",
         "barra": 7702622423146,
-        "invetario": 1236,
+        "invetario": 1212,
         "proveedor": "TONING",
         "activo": true
     },
@@ -170,7 +170,7 @@
         "precio": 3713,
         "imagen": "../assets/img_catalogo/7702622423139.png",
         "barra": 7702622423139,
-        "invetario": 1059,
+        "invetario": 1035,
         "proveedor": "TONING",
         "activo": true
     },
@@ -181,7 +181,7 @@
         "precio": 3713,
         "imagen": "../assets/img_catalogo/7702622423153.png",
         "barra": 7702622423153,
-        "invetario": 1239,
+        "invetario": 1215,
         "proveedor": "TONING",
         "activo": true
     },
@@ -302,7 +302,7 @@
         "precio": 9169,
         "imagen": "../assets/img_catalogo/7702622628060.png",
         "barra": 7702622628060,
-        "invetario": 174,
+        "invetario": 162,
         "proveedor": "TONING",
         "activo": true
     },
@@ -313,7 +313,7 @@
         "precio": 9169,
         "imagen": "../assets/img_catalogo/7702622624116.png",
         "barra": 7702622624116,
-        "invetario": 595,
+        "invetario": 577,
         "proveedor": "TONING",
         "activo": true
     },
@@ -324,7 +324,7 @@
         "precio": 9169,
         "imagen": "../assets/img_catalogo/7702622624109.png",
         "barra": 7702622624109,
-        "invetario": 400,
+        "invetario": 385,
         "proveedor": "TONING",
         "activo": true
     },
@@ -335,7 +335,7 @@
         "precio": 9169,
         "imagen": "../assets/img_catalogo/7702622624154.png",
         "barra": 7702622624154,
-        "invetario": 401,
+        "invetario": 386,
         "proveedor": "TONING",
         "activo": true
     },
@@ -368,7 +368,7 @@
         "precio": 6468,
         "imagen": "../assets/img_catalogo/7702622131577.png",
         "barra": 7702622131577,
-        "invetario": 4878,
+        "invetario": 4842,
         "proveedor": "TONING",
         "activo": true
     },
@@ -555,7 +555,7 @@
         "precio": 15963,
         "imagen": "../assets/img_catalogo/7702622429186.png",
         "barra": 7702622429186,
-        "invetario": 113,
+        "invetario": 111,
         "proveedor": "TONING",
         "activo": true
     },
@@ -610,7 +610,7 @@
         "precio": 6064,
         "imagen": "../assets/img_catalogo/7702622069603.png",
         "barra": 7702622069603,
-        "invetario": 172,
+        "invetario": 169,
         "proveedor": "TONING",
         "activo": true
     },
@@ -621,7 +621,7 @@
         "precio": 6064,
         "imagen": "../assets/img_catalogo/7702622392091.png",
         "barra": 7702622392091,
-        "invetario": 88,
+        "invetario": 82,
         "proveedor": "TONING",
         "activo": true
     },
@@ -643,7 +643,7 @@
         "precio": 6064,
         "imagen": "../assets/img_catalogo/7702622746146.png",
         "barra": 7702622746146,
-        "invetario": 160,
+        "invetario": 157,
         "proveedor": "TONING",
         "activo": true
     },
@@ -709,7 +709,7 @@
         "precio": "12142,76",
         "imagen": "../assets/img_catalogo/7702622440228.png",
         "barra": 7702622440228,
-        "invetario": 963,
+        "invetario": 960,
         "proveedor": "TONING",
         "activo": true
     },
@@ -720,7 +720,7 @@
         "precio": "12142,76",
         "imagen": "../assets/img_catalogo/7702622956545.png",
         "barra": 7702622956545,
-        "invetario": 1559,
+        "invetario": 1553,
         "proveedor": "TONING",
         "activo": true
     },
@@ -753,7 +753,7 @@
         "precio": 14968,
         "imagen": "../assets/img_catalogo/7702622423405.png",
         "barra": 7702622423405,
-        "invetario": 495,
+        "invetario": 483,
         "proveedor": "TONING",
         "activo": true
     },
@@ -863,7 +863,7 @@
         "precio": 12953,
         "imagen": "../assets/img_catalogo/7702622221933.png",
         "barra": 7702622221933,
-        "invetario": 330,
+        "invetario": 324,
         "proveedor": "TONING",
         "activo": true
     },
@@ -929,7 +929,7 @@
         "precio": 3865,
         "imagen": "../assets/img_catalogo/7709888659173.png",
         "barra": 7709888659173,
-        "invetario": 8547,
+        "invetario": 8495,
         "proveedor": "ATW INTERNACIONAL SAS",
         "activo": true
     },
@@ -1765,7 +1765,7 @@
         "precio": 7501,
         "imagen": "../assets/img_catalogo/7702117010653.png",
         "barra": 7702117010653,
-        "invetario": 1104,
+        "invetario": 1092,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2150,7 +2150,7 @@
         "precio": 2037,
         "imagen": "../assets/img_catalogo/7702117009404.png",
         "barra": 7702117009404,
-        "invetario": 1540,
+        "invetario": 1536,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2161,7 +2161,7 @@
         "precio": 2037,
         "imagen": "../assets/img_catalogo/7702117008841.png",
         "barra": 7702117008841,
-        "invetario": 1321,
+        "invetario": 1317,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2172,7 +2172,7 @@
         "precio": 2037,
         "imagen": "../assets/img_catalogo/7702117009398.png",
         "barra": 7702117009398,
-        "invetario": 2321,
+        "invetario": 2317,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2194,7 +2194,7 @@
         "precio": 2037,
         "imagen": "../assets/img_catalogo/7702117009640.png",
         "barra": 7702117009640,
-        "invetario": 2008,
+        "invetario": 2004,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2205,7 +2205,7 @@
         "precio": 1980,
         "imagen": "../assets/img_catalogo/7702117019236.png",
         "barra": 7702117019236,
-        "invetario": 2656,
+        "invetario": 2652,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2238,7 +2238,7 @@
         "precio": 1980,
         "imagen": "../assets/img_catalogo/7702117019182.png",
         "barra": 7702117019182,
-        "invetario": 1959,
+        "invetario": 1955,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2293,7 +2293,7 @@
         "precio": 2838,
         "imagen": "../assets/img_catalogo/7702117009114.png",
         "barra": 7702117009114,
-        "invetario": 2759,
+        "invetario": 2753,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2315,7 +2315,7 @@
         "precio": 2838,
         "imagen": "../assets/img_catalogo/7702117160068.png",
         "barra": 7702117160068,
-        "invetario": 1408,
+        "invetario": 1402,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2326,7 +2326,7 @@
         "precio": 2838,
         "imagen": "../assets/img_catalogo/7702117008711.png",
         "barra": 7702117008711,
-        "invetario": 1832,
+        "invetario": 1826,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2337,7 +2337,7 @@
         "precio": 2838,
         "imagen": "../assets/img_catalogo/7702117160990.png",
         "barra": 7702117160990,
-        "invetario": 3433,
+        "invetario": 3427,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2348,7 +2348,7 @@
         "precio": 2838,
         "imagen": "../assets/img_catalogo/7702117009626.png",
         "barra": 7702117009626,
-        "invetario": 4202,
+        "invetario": 4196,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2359,7 +2359,7 @@
         "precio": 2838,
         "imagen": "../assets/img_catalogo/7702117160259.png",
         "barra": 7702117160259,
-        "invetario": 1874,
+        "invetario": 1868,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2370,7 +2370,7 @@
         "precio": 2838,
         "imagen": "../assets/img_catalogo/7702117160679.png",
         "barra": 7702117160679,
-        "invetario": 3509,
+        "invetario": 3503,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2381,7 +2381,7 @@
         "precio": 2838,
         "imagen": "../assets/img_catalogo/7702117012374.png",
         "barra": 7702117012374,
-        "invetario": 1577,
+        "invetario": 1571,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2777,7 +2777,7 @@
         "precio": 77446,
         "imagen": "../assets/img_catalogo/7501035042322.png",
         "barra": 7501035042322,
-        "invetario": 59,
+        "invetario": 58,
         "proveedor": "DISLICORES",
         "activo": true
     },
@@ -2788,7 +2788,7 @@
         "precio": 77537,
         "imagen": "../assets/img_catalogo/7501035010109.png",
         "barra": 7501035010109,
-        "invetario": 46,
+        "invetario": 44,
         "proveedor": "DISLICORES",
         "activo": true
     },
@@ -2821,7 +2821,7 @@
         "precio": 10570,
         "imagen": "../assets/img_catalogo/7709947872239.png",
         "barra": 7709947872239,
-        "invetario": 187,
+        "invetario": 175,
         "proveedor": "DISTRI SAMY",
         "activo": true
     },
@@ -2832,7 +2832,7 @@
         "precio": 5078,
         "imagen": "../assets/img_catalogo/7709947872284.png",
         "barra": 7709947872284,
-        "invetario": 393,
+        "invetario": 381,
         "proveedor": "DISTRI SAMY",
         "activo": true
     },
@@ -2854,7 +2854,7 @@
         "precio": 2303,
         "imagen": "../assets/img_catalogo/7709947872215.png",
         "barra": 7709947872215,
-        "invetario": 443,
+        "invetario": 431,
         "proveedor": "DISTRI SAMY",
         "activo": true
     },
@@ -2942,7 +2942,7 @@
         "precio": 2851,
         "imagen": "../assets/img_catalogo/7862119500153.png",
         "barra": 7862119500153,
-        "invetario": 3226,
+        "invetario": 3176,
         "proveedor": "PUERTOMAR ZOMAC",
         "activo": true
     },
@@ -3019,7 +3019,7 @@
         "precio": "4554,13",
         "imagen": "../assets/img_catalogo/7707222052260.png",
         "barra": 7707222052260,
-        "invetario": 3500,
+        "invetario": 3090,
         "proveedor": "CONFIDULCES ELITE",
         "activo": true
     },
@@ -3030,7 +3030,7 @@
         "precio": "13662,39",
         "imagen": "../assets/img_catalogo/7707222053441.png",
         "barra": 7707222053441,
-        "invetario": 2000,
+        "invetario": 1610,
         "proveedor": "CONFIDULCES ELITE",
         "activo": true
     },
@@ -3041,7 +3041,7 @@
         "precio": "6049,96",
         "imagen": "../assets/img_catalogo/7707222051379.png",
         "barra": 7707222051379,
-        "invetario": 600,
+        "invetario": 560,
         "proveedor": "CONFIDULCES ELITE",
         "activo": true
     },
@@ -3063,7 +3063,7 @@
         "precio": "9736,58",
         "imagen": "../assets/img_catalogo/7707222053434.png",
         "barra": 7707222053434,
-        "invetario": 400,
+        "invetario": 208,
         "proveedor": "CONFIDULCES ELITE",
         "activo": true
     },
@@ -3074,7 +3074,7 @@
         "precio": "4608,87",
         "imagen": "../assets/img_catalogo/7707222059993.png",
         "barra": 7707222059993,
-        "invetario": 200,
+        "invetario": 8,
         "proveedor": "CONFIDULCES ELITE",
         "activo": true
     },
@@ -3085,7 +3085,7 @@
         "precio": 3967,
         "imagen": "../assets/img_catalogo/7707096600031.png",
         "barra": 7707096600031,
-        "invetario": 1379,
+        "invetario": 1369,
         "proveedor": "FARINA CIA",
         "activo": true
     },
@@ -3107,7 +3107,7 @@
         "precio": 3023,
         "imagen": "../assets/img_catalogo/7707096000000.png",
         "barra": 7707096000000,
-        "invetario": 845,
+        "invetario": 821,
         "proveedor": "FARINA CIA",
         "activo": true
     },
@@ -3118,7 +3118,7 @@
         "precio": 3967,
         "imagen": "../assets/img_catalogo/7707096600147.png",
         "barra": 7707096600147,
-        "invetario": 1417,
+        "invetario": 1407,
         "proveedor": "FARINA CIA",
         "activo": true
     },
@@ -3635,7 +3635,7 @@
         "precio": 51139,
         "imagen": "../assets/img_catalogo/5010327000404.png",
         "barra": 5010327000404,
-        "invetario": 315,
+        "invetario": 314,
         "proveedor": "GLOBAL",
         "activo": true
     },
@@ -3932,7 +3932,7 @@
         "precio": 8842,
         "imagen": "../assets/img_catalogo/7702532312448.png",
         "barra": 7702532312448,
-        "invetario": 53,
+        "invetario": 52,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -3954,7 +3954,7 @@
         "precio": 8842,
         "imagen": "../assets/img_catalogo/7702532300117.png",
         "barra": 7702532300117,
-        "invetario": 53,
+        "invetario": 52,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4020,7 +4020,7 @@
         "precio": 12575,
         "imagen": "../assets/img_catalogo/7702532087059.png",
         "barra": 7702532087059,
-        "invetario": 33,
+        "invetario": 32,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4031,7 +4031,7 @@
         "precio": 12575,
         "imagen": "../assets/img_catalogo/7702532312394.png",
         "barra": 7702532312394,
-        "invetario": 0,
+        "invetario": 31,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4042,7 +4042,7 @@
         "precio": 12575,
         "imagen": "../assets/img_catalogo/7702532300124.png",
         "barra": 7702532300124,
-        "invetario": 33,
+        "invetario": 32,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4317,7 +4317,7 @@
         "precio": 11648,
         "imagen": "../assets/img_catalogo/7702532430944.png",
         "barra": 7702532430944,
-        "invetario": 76,
+        "invetario": 73,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4339,7 +4339,7 @@
         "precio": 11648,
         "imagen": "../assets/img_catalogo/7702532430937.png",
         "barra": 7702532430937,
-        "invetario": 95,
+        "invetario": 92,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4350,7 +4350,7 @@
         "precio": 11648,
         "imagen": "../assets/img_catalogo/7702532430968.png",
         "barra": 7702532430968,
-        "invetario": 43,
+        "invetario": 40,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4361,7 +4361,7 @@
         "precio": 11648,
         "imagen": "../assets/img_catalogo/7702532430920.png",
         "barra": 7702532430920,
-        "invetario": 36,
+        "invetario": 33,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4625,7 +4625,7 @@
         "precio": 7685,
         "imagen": "../assets/img_catalogo/7702532312103.png",
         "barra": 7702532312103,
-        "invetario": 167,
+        "invetario": 166,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4647,7 +4647,7 @@
         "precio": 7685,
         "imagen": "../assets/img_catalogo/7702532312127.png",
         "barra": 7702532312127,
-        "invetario": 162,
+        "invetario": 161,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4658,7 +4658,7 @@
         "precio": 12358,
         "imagen": "../assets/img_catalogo/7702532312721.png",
         "barra": 7702532312721,
-        "invetario": 22,
+        "invetario": 21,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4801,7 +4801,7 @@
         "precio": 2244,
         "imagen": "../assets/img_catalogo/7709990961584.png",
         "barra": 7709990961584,
-        "invetario": 141,
+        "invetario": 2141,
         "proveedor": "DORIS PATRICIA FONSECA",
         "activo": true
     },
@@ -4812,7 +4812,7 @@
         "precio": 2244,
         "imagen": "../assets/img_catalogo/7709990285383.png",
         "barra": 7709990285383,
-        "invetario": 524,
+        "invetario": 1274,
         "proveedor": "DORIS PATRICIA FONSECA",
         "activo": true
     },
@@ -4834,7 +4834,7 @@
         "precio": 1731,
         "imagen": "../assets/img_catalogo/7709990584097.png",
         "barra": 7709990584097,
-        "invetario": 1001,
+        "invetario": 1751,
         "proveedor": "DORIS PATRICIA FONSECA",
         "activo": true
     },
@@ -4856,7 +4856,7 @@
         "precio": 1318,
         "imagen": "../assets/img_catalogo/7709990584073.png",
         "barra": 7709990584073,
-        "invetario": 511,
+        "invetario": 2236,
         "proveedor": "DORIS PATRICIA FONSECA",
         "activo": true
     },
@@ -4867,7 +4867,7 @@
         "precio": 1376,
         "imagen": "../assets/img_catalogo/7709990093025.png",
         "barra": 7709990093025,
-        "invetario": 621,
+        "invetario": 646,
         "proveedor": "DORIS PATRICIA FONSECA",
         "activo": true
     },
@@ -5043,7 +5043,7 @@
         "precio": 8963,
         "imagen": "../assets/img_catalogo/7702648000017.png",
         "barra": 7702648000017,
-        "invetario": 2909,
+        "invetario": 2903,
         "proveedor": "DISCOA",
         "activo": true
     },
@@ -5274,7 +5274,7 @@
         "precio": 3313,
         "imagen": "../assets/img_catalogo/7702044283601.png",
         "barra": 7702044283601,
-        "invetario": 56,
+        "invetario": 176,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5285,7 +5285,7 @@
         "precio": 4058,
         "imagen": "../assets/img_catalogo/7702044283571.png",
         "barra": 7702044283571,
-        "invetario": 13,
+        "invetario": 7,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5296,7 +5296,7 @@
         "precio": 8695,
         "imagen": "../assets/img_catalogo/7702044293853.png",
         "barra": 7702044293853,
-        "invetario": 23,
+        "invetario": 53,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5307,7 +5307,7 @@
         "precio": 6543,
         "imagen": "../assets/img_catalogo/7702044289054.png",
         "barra": 7702044289054,
-        "invetario": 48,
+        "invetario": 108,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5318,7 +5318,7 @@
         "precio": 20291,
         "imagen": "../assets/img_catalogo/7702044285797.png",
         "barra": 7702044285797,
-        "invetario": 0,
+        "invetario": 30,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5329,7 +5329,7 @@
         "precio": 26419,
         "imagen": "../assets/img_catalogo/7702044283588.png",
         "barra": 7702044283588,
-        "invetario": 0,
+        "invetario": 60,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5373,7 +5373,7 @@
         "precio": 21947,
         "imagen": "../assets/img_catalogo/7702044194587.png",
         "barra": 7702044194587,
-        "invetario": 393,
+        "invetario": 693,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5428,7 +5428,7 @@
         "precio": 17945,
         "imagen": "../assets/img_catalogo/7702044283076.png",
         "barra": 7702044283076,
-        "invetario": 24,
+        "invetario": 60,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5472,7 +5472,7 @@
         "precio": 3478,
         "imagen": "../assets/img_catalogo/7702044246408.png",
         "barra": 7702044246408,
-        "invetario": 5,
+        "invetario": 185,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5483,7 +5483,7 @@
         "precio": 18495,
         "imagen": "../assets/img_catalogo/7702044285865.png",
         "barra": 7702044285865,
-        "invetario": 0,
+        "invetario": 240,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5505,7 +5505,7 @@
         "precio": 8695,
         "imagen": "../assets/img_catalogo/7702044284554.png",
         "barra": 7702044284554,
-        "invetario": 30,
+        "invetario": 90,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5516,7 +5516,7 @@
         "precio": 12340,
         "imagen": "../assets/img_catalogo/7702044246866.png",
         "barra": 7702044246866,
-        "invetario": 34,
+        "invetario": 94,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5524,10 +5524,10 @@
         "id": 503,
         "codigo": "JPB0033",
         "nombre": "ELIZABETH ARDEN CREMA CLASSIC X 100 X 2 CJ X 12",
-        "precio": 15322,
+        "precio": 15654,
         "imagen": "../assets/img_catalogo/7702044246842.png",
         "barra": 7702044246842,
-        "invetario": 2,
+        "invetario": 242,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5535,10 +5535,10 @@
         "id": 504,
         "codigo": "JPB0034",
         "nombre": "ELIZABETH ARDEN CREMA CLASSIC X 135 X 2 CJ X 12",
-        "precio": 18634,
+        "precio": 18965,
         "imagen": "../assets/img_catalogo/7702044246859.png",
         "barra": 7702044246859,
-        "invetario": 74,
+        "invetario": 134,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5582,7 +5582,7 @@
         "precio": 33045,
         "imagen": "../assets/img_catalogo/7702044260909.png",
         "barra": 7702044260909,
-        "invetario": 36,
+        "invetario": 136,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5593,7 +5593,7 @@
         "precio": 33045,
         "imagen": "../assets/img_catalogo/7702044280587.png",
         "barra": 7702044280587,
-        "invetario": 35,
+        "invetario": 135,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5648,7 +5648,7 @@
         "precio": 24764,
         "imagen": "../assets/img_catalogo/7702044288415.png",
         "barra": 7702044288415,
-        "invetario": 21,
+        "invetario": 57,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5659,7 +5659,7 @@
         "precio": 69486,
         "imagen": "../assets/img_catalogo/7702044288422.png",
         "barra": 7702044288422,
-        "invetario": 11,
+        "invetario": 29,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5670,7 +5670,7 @@
         "precio": 41328,
         "imagen": "../assets/img_catalogo/7702044294157.png",
         "barra": 7702044294157,
-        "invetario": 2,
+        "invetario": 14,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5692,7 +5692,7 @@
         "precio": 22774,
         "imagen": "../assets/img_catalogo/7702044213295.png",
         "barra": 7702044213295,
-        "invetario": 0,
+        "invetario": 30,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5703,7 +5703,7 @@
         "precio": 22774,
         "imagen": "../assets/img_catalogo/7702044213301.png",
         "barra": 7702044213301,
-        "invetario": 45,
+        "invetario": 63,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5714,7 +5714,7 @@
         "precio": 18138,
         "imagen": "../assets/img_catalogo/7702044255752.png",
         "barra": 7702044255752,
-        "invetario": 12,
+        "invetario": 54,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5725,7 +5725,7 @@
         "precio": 18138,
         "imagen": "../assets/img_catalogo/7702044258821.png",
         "barra": 7702044258821,
-        "invetario": 20,
+        "invetario": 62,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5736,7 +5736,7 @@
         "precio": 18138,
         "imagen": "../assets/img_catalogo/7702044257831.png",
         "barra": 7702044257831,
-        "invetario": 18,
+        "invetario": 60,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5758,7 +5758,7 @@
         "precio": 16165,
         "imagen": "../assets/img_catalogo/7702044016520.png",
         "barra": 7702044016520,
-        "invetario": 12,
+        "invetario": 24,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5769,7 +5769,7 @@
         "precio": 16164,
         "imagen": "../assets/img_catalogo/7702044016339.png",
         "barra": 7702044016339,
-        "invetario": 9,
+        "invetario": 21,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5791,7 +5791,7 @@
         "precio": 24797,
         "imagen": "../assets/img_catalogo/7702044082969.png",
         "barra": 7702044082969,
-        "invetario": 1,
+        "invetario": 13,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5802,7 +5802,7 @@
         "precio": 17287,
         "imagen": "../assets/img_catalogo/7703644001039.png",
         "barra": 7703644001039,
-        "invetario": 102,
+        "invetario": 162,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5824,7 +5824,7 @@
         "precio": 22694,
         "imagen": "../assets/img_catalogo/7703644001404.png",
         "barra": 7703644001404,
-        "invetario": 26,
+        "invetario": 38,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5868,7 +5868,7 @@
         "precio": "16712,36",
         "imagen": "../assets/img_catalogo/7702044282987.png",
         "barra": 7702044282987,
-        "invetario": 0,
+        "invetario": 60,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5890,7 +5890,7 @@
         "precio": "41903,47",
         "imagen": "../assets/img_catalogo/7702044272186.png",
         "barra": 7702044272186,
-        "invetario": 14,
+        "invetario": 26,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5901,7 +5901,7 @@
         "precio": "27446,16",
         "imagen": "../assets/img_catalogo/7702044160353.png",
         "barra": 7702044160353,
-        "invetario": 6,
+        "invetario": 30,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5912,7 +5912,7 @@
         "precio": "19230,4",
         "imagen": "../assets/img_catalogo/7702044285841.png",
         "barra": 7702044285841,
-        "invetario": 0,
+        "invetario": 24,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5923,7 +5923,7 @@
         "precio": "14696,5",
         "imagen": "../assets/img_catalogo/7702044197885.png",
         "barra": 7702044197885,
-        "invetario": 14,
+        "invetario": 74,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5952,16 +5952,60 @@
     {
         "id": 542,
         "codigo": "JPB0072",
-        "nombre": "ELIZABETH ARDEN ROLL ON HYALU-DER X 50 X 2 CJ X 12",
+        "nombre": "ELIZABETH ARDEN ROLL ON HYALU-DERMA X 50 X 2 CJ X 12",
         "precio": "18965,03",
         "imagen": "../assets/img_catalogo/7702044294263.png",
         "barra": 7702044294263,
-        "invetario": 0,
+        "invetario": 120,
         "proveedor": "PREBEL",
         "activo": true
     },
     {
         "id": 543,
+        "codigo": "JPB0073",
+        "nombre": "ELIZABETH ARDEN ROLL ON HYALU-DERMA COLAPSIBLE X 100 CJ X 6",
+        "precio": "8695,33",
+        "imagen": "../assets/img_catalogo/7702044294270.png",
+        "barra": 7702044294270,
+        "invetario": 120,
+        "proveedor": "PREBEL",
+        "activo": true
+    },
+    {
+        "id": 544,
+        "codigo": "JPB0074",
+        "nombre": "ARDEN FOR MEN MINI COLAPSIBLE 72 H X 40 CJ X 6",
+        "precio": "3478,37",
+        "imagen": "../assets/img_catalogo/7702044295178.png",
+        "barra": 7702044295178,
+        "invetario": 144,
+        "proveedor": "PREBEL",
+        "activo": true
+    },
+    {
+        "id": 545,
+        "codigo": "JPB0075",
+        "nombre": "ARDEN FOR MEN MINI ROLL ON 72 H X 30 CJ X 6",
+        "precio": "3478,37",
+        "imagen": "../assets/img_catalogo/7702044295185.png",
+        "barra": 7702044295185,
+        "invetario": 144,
+        "proveedor": "PREBEL",
+        "activo": true
+    },
+    {
+        "id": 546,
+        "codigo": "JPB0076",
+        "nombre": "ARDEN FOR MEN ROLL ON 72 H X 50 X 2 CJ X 6",
+        "precio": "17807,16",
+        "imagen": "../assets/img_catalogo/7702044295260.png",
+        "barra": 7702044295260,
+        "invetario": 240,
+        "proveedor": "PREBEL",
+        "activo": true
+    },
+    {
+        "id": 547,
         "codigo": "JPD0001",
         "nombre": "PROTECTOR  X 15 PRECIO ESPECIAL CAJA X 36",
         "precio": 3161,
@@ -5972,7 +6016,7 @@
         "activo": true
     },
     {
-        "id": 544,
+        "id": 548,
         "codigo": "JPD0002",
         "nombre": "PROTECTOR ELLAS ANATOMICO PAGUE 160 LLEV 180 CJ X 10",
         "precio": 14217,
@@ -5983,7 +6027,7 @@
         "activo": true
     },
     {
-        "id": 545,
+        "id": 549,
         "codigo": "JPD0003",
         "nombre": "PROTECTOR X 30 PRECIO ESPECIAL CAJA X 18",
         "precio": 6084,
@@ -5994,40 +6038,40 @@
         "activo": true
     },
     {
-        "id": 546,
+        "id": 550,
         "codigo": "JPD0006",
         "nombre": "TOALLA NOCTURNA + NOCTURNA PC X 18",
         "precio": 6610,
         "imagen": "../assets/img_catalogo/7702108209714.png",
         "barra": 7702108209714,
-        "invetario": 308,
+        "invetario": 272,
         "proveedor": "PRODUSA",
         "activo": true
     },
     {
-        "id": 547,
+        "id": 551,
         "codigo": "JPD0007",
         "nombre": "TOALLAS ELLAS CON ALAS  PC X 24 (VERDE)",
         "precio": 4304,
         "imagen": "../assets/img_catalogo/7702108209813.png",
         "barra": 7702108209813,
-        "invetario": 11713,
+        "invetario": 11665,
         "proveedor": "PRODUSA",
         "activo": true
     },
     {
-        "id": 548,
+        "id": 552,
         "codigo": "JPD0011",
         "nombre": "TOALLA NOCTURNA +DELGADA PC X 24",
         "precio": 4454,
         "imagen": "../assets/img_catalogo/7702108850794.png",
         "barra": 7702108850794,
-        "invetario": 10568,
+        "invetario": 10520,
         "proveedor": "PRODUSA",
         "activo": true
     },
     {
-        "id": 549,
+        "id": 553,
         "codigo": "JPD0012",
         "nombre": "TOALLA ELLAS DESGADAS X 40 UND PCA X 12",
         "precio": 8411,
@@ -6038,7 +6082,7 @@
         "activo": true
     },
     {
-        "id": 550,
+        "id": 554,
         "codigo": "JPD0013",
         "nombre": "TOALLA ELLAS DELGA. NARANJA  PAGUE 10 LLEVE 20 PC X 24",
         "precio": 5060,
@@ -6049,7 +6093,7 @@
         "activo": true
     },
     {
-        "id": 551,
+        "id": 555,
         "codigo": "JPD0016",
         "nombre": "PROTECTOR ELLAS X 10 PACA X 144 UND",
         "precio": 1053,
@@ -6060,7 +6104,7 @@
         "activo": true
     },
     {
-        "id": 552,
+        "id": 556,
         "codigo": "JPD0018",
         "nombre": "JABON INTIMO ELLAS X 200 ML CAJA X 12 UND",
         "precio": 6992,
@@ -6071,7 +6115,7 @@
         "activo": true
     },
     {
-        "id": 553,
+        "id": 557,
         "codigo": "JPD0023",
         "nombre": "TOALLAS ELLAS CON ALAS PACA X 48 (VERDE)",
         "precio": 2298,
@@ -6082,7 +6126,7 @@
         "activo": true
     },
     {
-        "id": 554,
+        "id": 558,
         "codigo": "JPN0001",
         "nombre": "PAPELS ROSAL XXG 12 PAQUETES X 4 ROLLOS",
         "precio": 6902,
@@ -6093,7 +6137,7 @@
         "activo": true
     },
     {
-        "id": 555,
+        "id": 559,
         "codigo": "JPN0002",
         "nombre": "PAPELS ROSAL XXG 4 PAQUETES X 12 ROLLOS",
         "precio": 16421,
@@ -6104,7 +6148,7 @@
         "activo": true
     },
     {
-        "id": 556,
+        "id": 560,
         "codigo": "JPN0003",
         "nombre": "PAPELS ROSAL XXG 3 PAQUETES X 15 ROLLOS",
         "precio": 21551,
@@ -6115,7 +6159,7 @@
         "activo": true
     },
     {
-        "id": 557,
+        "id": 561,
         "codigo": "JPN0004",
         "nombre": "PAPELS ROSAL XG 12 PAQUETES X 4 ROLLOS",
         "precio": 5908,
@@ -6126,7 +6170,7 @@
         "activo": true
     },
     {
-        "id": 558,
+        "id": 562,
         "codigo": "JPN0005",
         "nombre": "PAPELS ROSAL XG 4 PAQUETES X 12 ROLLOS",
         "precio": 12682,
@@ -6137,7 +6181,7 @@
         "activo": true
     },
     {
-        "id": 559,
+        "id": 563,
         "codigo": "JPN0006",
         "nombre": "PAPELS SUAVE GOLD 12 PAQUETES X 4 ROLLOS",
         "precio": 9303,
@@ -6148,7 +6192,7 @@
         "activo": true
     },
     {
-        "id": 560,
+        "id": 564,
         "codigo": "JPN0007",
         "nombre": "PAPELS SUAVE GOLD 4 PAQUETES X 12 ROLLOS",
         "precio": 26257,
@@ -6159,7 +6203,7 @@
         "activo": true
     },
     {
-        "id": 561,
+        "id": 565,
         "codigo": "JPN0008",
         "nombre": "TOALLA DE COCINA FAVORITA CJ X 24",
         "precio": 1746,
@@ -6170,7 +6214,7 @@
         "activo": true
     },
     {
-        "id": 562,
+        "id": 566,
         "codigo": "JPN0009",
         "nombre": "TOALLA DE COCINA FAVORITA POR X 3  CJ X 8",
         "precio": 5136,
@@ -6181,7 +6225,7 @@
         "activo": true
     },
     {
-        "id": 563,
+        "id": 567,
         "codigo": "JPN0010",
         "nombre": "PAÑUELO FACIAL SUAVE PEQUEÑO CJ X 18",
         "precio": 3450,
@@ -6192,7 +6236,7 @@
         "activo": true
     },
     {
-        "id": 564,
+        "id": 568,
         "codigo": "JPN0011",
         "nombre": "PAÑUELO FACIAL SUAVE BOLSILLO 30 PAQUETES X 4 UNIDADES",
         "precio": 3195,
@@ -6203,7 +6247,7 @@
         "activo": true
     },
     {
-        "id": 565,
+        "id": 569,
         "codigo": "JPN0012",
         "nombre": "PAÑAL BEBE DREAMS ETAPA 3 TALLA G PACA X 8",
         "precio": 23717,
@@ -6214,7 +6258,7 @@
         "activo": true
     },
     {
-        "id": 566,
+        "id": 570,
         "codigo": "JPN0013",
         "nombre": "PAÑAL BEBE DREAMS ETAPA 4 TALLA XG PACA X 8",
         "precio": 29889,
@@ -6225,7 +6269,7 @@
         "activo": true
     },
     {
-        "id": 567,
+        "id": 571,
         "codigo": "JPN0014",
         "nombre": "TOALLA HIGIENICA SUAVE NOCTURNA MIX CJ X 24",
         "precio": 3274,
@@ -6236,7 +6280,7 @@
         "activo": true
     },
     {
-        "id": 568,
+        "id": 572,
         "codigo": "JPN0015",
         "nombre": "TOALLA HIGIENICA SUAVE DELGADA MIX CJ X 36",
         "precio": 2866,
@@ -6247,7 +6291,7 @@
         "activo": true
     },
     {
-        "id": 569,
+        "id": 573,
         "codigo": "JPN0016",
         "nombre": "PROTECTOR DIARIO SUAVE X 15 CJ X 36",
         "precio": 1717,
@@ -6258,7 +6302,7 @@
         "activo": true
     },
     {
-        "id": 570,
+        "id": 574,
         "codigo": "JPN0017",
         "nombre": "PAPELS ROSAL XXG PC X 48 UND",
         "precio": 1647,
@@ -6269,7 +6313,7 @@
         "activo": true
     },
     {
-        "id": 571,
+        "id": 575,
         "codigo": "JPN0018",
         "nombre": "PAPELS ROSAL G PC X 54 UND",
         "precio": 1179,
@@ -6280,7 +6324,7 @@
         "activo": true
     },
     {
-        "id": 572,
+        "id": 576,
         "codigo": "JPN0019",
         "nombre": "PAPELS ROSAL G 4 PAQUETES X 12 ROLLOS",
         "precio": 12731,
@@ -6291,7 +6335,7 @@
         "activo": true
     },
     {
-        "id": 573,
+        "id": 577,
         "codigo": "JPN0020",
         "nombre": "PAPELS ROSAL XXG 8 PAQUETES X 6 ROLLOS",
         "precio": 8844,
@@ -6302,7 +6346,7 @@
         "activo": true
     },
     {
-        "id": 574,
+        "id": 578,
         "codigo": "JPN0021",
         "nombre": "SERVILLETA FAVORITA X 300  CJ X 15",
         "precio": 3896,
@@ -6313,7 +6357,7 @@
         "activo": true
     },
     {
-        "id": 575,
+        "id": 579,
         "codigo": "JPN0022",
         "nombre": "SERVILLETA SUAVE GOLD  X 40  CJ X 24",
         "precio": 4748,
@@ -6324,7 +6368,7 @@
         "activo": true
     },
     {
-        "id": 576,
+        "id": 580,
         "codigo": "JPN0023",
         "nombre": "SERVILLETA ROSAL X 100 CJ X 30",
         "precio": 3357,
@@ -6335,7 +6379,7 @@
         "activo": true
     },
     {
-        "id": 577,
+        "id": 581,
         "codigo": "JPN0024",
         "nombre": "SERVILLETA ROSAL MEGAPACK CJ X 10",
         "precio": 9299,
@@ -6346,7 +6390,7 @@
         "activo": true
     },
     {
-        "id": 578,
+        "id": 582,
         "codigo": "JPN0025",
         "nombre": "SERVILLETA SUAVE GOLD  X 100  CJ X 24",
         "precio": 6014,
@@ -6357,7 +6401,7 @@
         "activo": true
     },
     {
-        "id": 579,
+        "id": 583,
         "codigo": "JPN0026",
         "nombre": "SERVILLETA FAVORITA CAFETERIA X 100 CJ X 30",
         "precio": 2121,
@@ -6368,7 +6412,7 @@
         "activo": true
     },
     {
-        "id": 580,
+        "id": 584,
         "codigo": "JPN0027",
         "nombre": "TOALLA COCINA ROSAL X 1 CJ X 12",
         "precio": 6501,
@@ -6379,7 +6423,7 @@
         "activo": true
     },
     {
-        "id": 581,
+        "id": 585,
         "codigo": "JPN0028",
         "nombre": "TOALLA COCINA ROSAL X 3 CJ X 4",
         "precio": 14801,
@@ -6390,10 +6434,10 @@
         "activo": true
     },
     {
-        "id": 582,
+        "id": 586,
         "codigo": "JPN0029",
         "nombre": "PAPEL ROSAL MAXIMO 4PAQUETES X 12 ROLLOS",
-        "precio": 13111,
+        "precio": 12931,
         "imagen": "../assets/img_catalogo/7702120014105.png",
         "barra": 7702120014105,
         "invetario": 0,
@@ -6401,7 +6445,7 @@
         "activo": true
     },
     {
-        "id": 583,
+        "id": 587,
         "codigo": "JPN0030",
         "nombre": "PAPELS SUAVE GOLD SOLT CARE 4 PAQUETES X 12 ROLLOS",
         "precio": 20472,
@@ -6412,18 +6456,18 @@
         "activo": true
     },
     {
-        "id": 584,
+        "id": 588,
         "codigo": "JPO0001",
         "nombre": "AREPASAN BLANCA X 1000 GR PC X 10",
         "precio": 2785,
         "imagen": "../assets/img_catalogo/7705525010123.png",
         "barra": 7705525010123,
-        "invetario": 12139,
+        "invetario": 12119,
         "proveedor": "PRECOCIDOS",
         "activo": true
     },
     {
-        "id": 585,
+        "id": 589,
         "codigo": "JPO0002",
         "nombre": "AREPASAN BLANCA X 500 GR PC X 24",
         "precio": 1339,
@@ -6434,18 +6478,18 @@
         "activo": true
     },
     {
-        "id": 586,
+        "id": 590,
         "codigo": "JPO0003",
         "nombre": "HARINA LA MONJITA X 500 GR PC X 24",
         "precio": 1276,
         "imagen": "../assets/img_catalogo/7705525020122.png",
         "barra": 7705525020122,
-        "invetario": 3802,
+        "invetario": 3442,
         "proveedor": "PRECOCIDOS",
         "activo": true
     },
     {
-        "id": 587,
+        "id": 591,
         "codigo": "JPO0005",
         "nombre": "MACARRON RIOKA X 250 PC X 24",
         "precio": 941,
@@ -6456,51 +6500,51 @@
         "activo": true
     },
     {
-        "id": 588,
+        "id": 592,
         "codigo": "JPO0006",
         "nombre": "FIDEOS RIOKA X 250 PC X 24",
         "precio": 941,
         "imagen": "../assets/img_catalogo/7705525093072.png",
         "barra": 7705525093072,
-        "invetario": 4430,
+        "invetario": 4310,
         "proveedor": "PRECOCIDOS",
         "activo": true
     },
     {
-        "id": 589,
+        "id": 593,
         "codigo": "JPO0007",
         "nombre": "CONCHAS RIOKA X 250 PC X 24",
         "precio": 941,
         "imagen": "../assets/img_catalogo/7707525092013.png",
         "barra": 7707525092013,
-        "invetario": 4820,
+        "invetario": 4700,
         "proveedor": "PRECOCIDOS",
         "activo": true
     },
     {
-        "id": 590,
+        "id": 594,
         "codigo": "JPO0008",
         "nombre": "SPAGUETTI RIOKA X 1000 PC X 12",
         "precio": 3762,
         "imagen": "../assets/img_catalogo/7705525091054.png",
         "barra": 7705525091054,
-        "invetario": 3247,
+        "invetario": 3211,
         "proveedor": "PRECOCIDOS",
         "activo": true
     },
     {
-        "id": 591,
+        "id": 595,
         "codigo": "JPO0009",
         "nombre": "SPAGUETTI RIOKA X 250 PC X 24",
         "precio": 941,
         "imagen": "../assets/img_catalogo/7707525091016.png",
         "barra": 7707525091016,
-        "invetario": 5259,
+        "invetario": 5139,
         "proveedor": "PRECOCIDOS",
         "activo": true
     },
     {
-        "id": 592,
+        "id": 596,
         "codigo": "JPO0010",
         "nombre": "FIDEOS RIOKA X 1000 PC X 6",
         "precio": 3762,
@@ -6511,7 +6555,7 @@
         "activo": true
     },
     {
-        "id": 593,
+        "id": 597,
         "codigo": "JPO0011",
         "nombre": "CONCHAS RIOKA X 1000 PC X 6",
         "precio": 3762,
@@ -6522,7 +6566,7 @@
         "activo": true
     },
     {
-        "id": 594,
+        "id": 598,
         "codigo": "JPO0012",
         "nombre": "MACARRON X 1000 PC X 6",
         "precio": 3762,
@@ -6533,7 +6577,7 @@
         "activo": true
     },
     {
-        "id": 595,
+        "id": 599,
         "codigo": "JPR0001",
         "nombre": "ARENA FELIGATO VALVULA X 4 KL PC X 6",
         "precio": 11877,
@@ -6544,7 +6588,7 @@
         "activo": true
     },
     {
-        "id": 596,
+        "id": 600,
         "codigo": "JPR0002",
         "nombre": "ARENA FELIGATO X 25 KL",
         "precio": 64635,
@@ -6555,7 +6599,7 @@
         "activo": true
     },
     {
-        "id": 597,
+        "id": 601,
         "codigo": "JPR0003",
         "nombre": "ARENA FELIGATO LAVANDA X 4,5 KL PC X 6",
         "precio": 14635,
@@ -6566,7 +6610,7 @@
         "activo": true
     },
     {
-        "id": 598,
+        "id": 602,
         "codigo": "JPR0006",
         "nombre": "ARENA FELIGATO X 8 KL PC X 4",
         "precio": 21961,
@@ -6577,7 +6621,7 @@
         "activo": true
     },
     {
-        "id": 599,
+        "id": 603,
         "codigo": "JPR0008",
         "nombre": "ARENA FELIGATO SIN VALVULA  X 4 KL PC X 6",
         "precio": 10487,
@@ -6588,51 +6632,51 @@
         "activo": true
     },
     {
-        "id": 600,
+        "id": 604,
         "codigo": "JPS0001",
         "nombre": "VINAGRE DE MANZANA X 500 ML CJ X 24",
         "precio": 1270,
         "imagen": "../assets/img_catalogo/7709645809834.png",
         "barra": 7709645809834,
-        "invetario": 719,
+        "invetario": 695,
         "proveedor": "LA SABANA",
         "activo": true
     },
     {
-        "id": 601,
+        "id": 605,
         "codigo": "JPS0002",
         "nombre": "VINAGRE BLANCO X 500 ML CJ X 24",
         "precio": 1270,
         "imagen": "../assets/img_catalogo/7709645809889.png",
         "barra": 7709645809889,
-        "invetario": 1904,
+        "invetario": 1856,
         "proveedor": "LA SABANA",
         "activo": true
     },
     {
-        "id": 602,
+        "id": 606,
         "codigo": "JPS0003",
         "nombre": "VINAGRE BLANCO X 3000 ML CJ X 6",
         "precio": 4881,
         "imagen": "../assets/img_catalogo/7709645809896.png",
         "barra": 7709645809896,
-        "invetario": 699,
+        "invetario": 693,
         "proveedor": "LA SABANA",
         "activo": true
     },
     {
-        "id": 603,
+        "id": 607,
         "codigo": "JPS0004",
         "nombre": "VINAGRE BLANCO X 1000 ML CJ X 12",
         "precio": 2542,
         "imagen": "../assets/img_catalogo/7709645809865.png",
         "barra": 7709645809865,
-        "invetario": 496,
+        "invetario": 484,
         "proveedor": "LA SABANA",
         "activo": true
     },
     {
-        "id": 604,
+        "id": 608,
         "codigo": "JPS0005",
         "nombre": "VINAGRE BLANCO X 5000 ML CJ X 4",
         "precio": 7474,
@@ -6643,7 +6687,7 @@
         "activo": true
     },
     {
-        "id": 605,
+        "id": 609,
         "codigo": "JPS0006",
         "nombre": "VINAGRE DE MANZANA X 3000 ML CJ X 6",
         "precio": 5081,
@@ -6654,7 +6698,7 @@
         "activo": true
     },
     {
-        "id": 606,
+        "id": 610,
         "codigo": "JPS0007",
         "nombre": "VINAGRE DE MANZANA X 1000 ML CJ X 12",
         "precio": 2542,
@@ -6665,7 +6709,7 @@
         "activo": true
     },
     {
-        "id": 607,
+        "id": 611,
         "codigo": "JPS0009",
         "nombre": "SALSA DE AJI CJ X 12",
         "precio": 2562,
@@ -6676,7 +6720,7 @@
         "activo": true
     },
     {
-        "id": 608,
+        "id": 612,
         "codigo": "JRD0001",
         "nombre": "SALCHICHA RONDA VIENA X 7 UND CJ X 48",
         "precio": 3998,
@@ -6687,7 +6731,7 @@
         "activo": true
     },
     {
-        "id": 609,
+        "id": 613,
         "codigo": "JRD0002",
         "nombre": "SALCHICHA RONDA FRANKFURT X 7 CJ X 24",
         "precio": 7996,
@@ -6698,7 +6742,7 @@
         "activo": true
     },
     {
-        "id": 610,
+        "id": 614,
         "codigo": "JRR0001",
         "nombre": "TISANAS SURTIDA PC X 24 UND",
         "precio": 43102,
@@ -6709,7 +6753,7 @@
         "activo": true
     },
     {
-        "id": 611,
+        "id": 615,
         "codigo": "JRR0002",
         "nombre": "AROMATICA PANELA FRUTOS ROJOS PC X 12",
         "precio": 3630,
@@ -6720,18 +6764,18 @@
         "activo": true
     },
     {
-        "id": 612,
+        "id": 616,
         "codigo": "JRR0003",
         "nombre": "AROMATICA PANELA SURTIDA PC X 12DP",
         "precio": 3630,
         "imagen": "../assets/img_catalogo/7709990000000.png",
         "barra": 7709990000000,
-        "invetario": 1331,
+        "invetario": 1319,
         "proveedor": "HERBAR",
         "activo": true
     },
     {
-        "id": 613,
+        "id": 617,
         "codigo": "JRR0005",
         "nombre": "AROMATICA PANELA MARACUYA X 12",
         "precio": 3630,
@@ -6742,7 +6786,7 @@
         "activo": true
     },
     {
-        "id": 614,
+        "id": 618,
         "codigo": "JRR0006",
         "nombre": "AROMATICA PANELA FRUTAS TROPICALES PC X 12",
         "precio": "3629,85",
@@ -6753,7 +6797,7 @@
         "activo": true
     },
     {
-        "id": 615,
+        "id": 619,
         "codigo": "JRR0007",
         "nombre": "AROMATICA PANELA LIMON PC X 12",
         "precio": "3629,85",
@@ -6764,7 +6808,7 @@
         "activo": true
     },
     {
-        "id": 616,
+        "id": 620,
         "codigo": "JRR0011",
         "nombre": "TISANA MANZANILLA",
         "precio": "43101,8",
@@ -6775,7 +6819,7 @@
         "activo": true
     },
     {
-        "id": 617,
+        "id": 621,
         "codigo": "JRR0012",
         "nombre": "TISANA YERBABUENA",
         "precio": "43101,8",
@@ -6786,7 +6830,7 @@
         "activo": true
     },
     {
-        "id": 618,
+        "id": 622,
         "codigo": "JRR0013",
         "nombre": "TISANA ALBAHACA",
         "precio": "43101,8",
@@ -6797,7 +6841,7 @@
         "activo": true
     },
     {
-        "id": 619,
+        "id": 623,
         "codigo": "JRR0014",
         "nombre": "TISANA LIMONARIA",
         "precio": "43101,8",
@@ -6808,7 +6852,7 @@
         "activo": true
     },
     {
-        "id": 620,
+        "id": 624,
         "codigo": "JRR0015",
         "nombre": "TISANA CIDRON",
         "precio": "43101,8",
@@ -6819,7 +6863,7 @@
         "activo": true
     },
     {
-        "id": 621,
+        "id": 625,
         "codigo": "JRR0016",
         "nombre": "TISANA TORONJIL",
         "precio": "43101,8",
@@ -6830,7 +6874,7 @@
         "activo": true
     },
     {
-        "id": 622,
+        "id": 626,
         "codigo": "JRS0001",
         "nombre": "MEGA NATILLA COCO X 200 CJ X 20 UND",
         "precio": 2404,
@@ -6841,7 +6885,7 @@
         "activo": true
     },
     {
-        "id": 623,
+        "id": 627,
         "codigo": "JRS0002",
         "nombre": "MEGA NATILLA COCO X 300 CJ X 20 UND",
         "precio": 2911,
@@ -6852,7 +6896,7 @@
         "activo": true
     },
     {
-        "id": 624,
+        "id": 628,
         "codigo": "JRS0003",
         "nombre": "MEGA NATILLA AREQUIPE X 200 CJ X 20 UND",
         "precio": 2404,
@@ -6863,7 +6907,7 @@
         "activo": true
     },
     {
-        "id": 625,
+        "id": 629,
         "codigo": "JRS0004",
         "nombre": "MEGA NATILLA AREQUIPE X 300 CJ X 20 UND",
         "precio": 2911,
@@ -6874,7 +6918,7 @@
         "activo": true
     },
     {
-        "id": 626,
+        "id": 630,
         "codigo": "JRS0005",
         "nombre": "MEGA NATILLA MARACUYA X 200 CJ X 20 UND",
         "precio": "2403,8",
@@ -6885,7 +6929,7 @@
         "activo": true
     },
     {
-        "id": 627,
+        "id": 631,
         "codigo": "JRS0006",
         "nombre": "MEGA NATILLA MARACUYA X 300 CJ X 20 UND",
         "precio": "2910,74",
@@ -6896,7 +6940,7 @@
         "activo": true
     },
     {
-        "id": 628,
+        "id": 632,
         "codigo": "JRS0007",
         "nombre": "MEGA NATILLA TRACIONAL X 200 CJ X 20 UND",
         "precio": "2403,8",
@@ -6907,7 +6951,7 @@
         "activo": true
     },
     {
-        "id": 629,
+        "id": 633,
         "codigo": "JRS0008",
         "nombre": "MEGA NATILLA TRACIONAL X 300 CJ X 20 UND",
         "precio": "2910,74",
@@ -6918,7 +6962,7 @@
         "activo": true
     },
     {
-        "id": 630,
+        "id": 634,
         "codigo": "JRS0009",
         "nombre": "MEGA NATILLA TRES LECHES X 200 CJ X 20 UND",
         "precio": "2403,8",
@@ -6929,7 +6973,7 @@
         "activo": true
     },
     {
-        "id": 631,
+        "id": 635,
         "codigo": "JRS0011",
         "nombre": "MEGA BUÑUELOS X 200 CJ X 20 UND",
         "precio": "2403,8",
@@ -6940,7 +6984,7 @@
         "activo": true
     },
     {
-        "id": 632,
+        "id": 636,
         "codigo": "JRS0012",
         "nombre": "MEGA BUÑUELOS X 300 CJ X 20 UND",
         "precio": "2910,74",
@@ -6951,7 +6995,7 @@
         "activo": true
     },
     {
-        "id": 633,
+        "id": 637,
         "codigo": "JSA0001",
         "nombre": "PIÑA COLADA MAUI X 700 ML CJ X 12",
         "precio": 30965,
@@ -6962,7 +7006,7 @@
         "activo": true
     },
     {
-        "id": 634,
+        "id": 638,
         "codigo": "JSA0002",
         "nombre": "SABAJON APOLO SABOR A BRANDY X 700 ML CJ X 12",
         "precio": 31201,
@@ -6973,7 +7017,7 @@
         "activo": true
     },
     {
-        "id": 635,
+        "id": 639,
         "codigo": "JSA0003",
         "nombre": "SABAJON APOLO SABOR A VAINILLA X 700 ML CJ X 12",
         "precio": 30783,
@@ -6984,7 +7028,7 @@
         "activo": true
     },
     {
-        "id": 636,
+        "id": 640,
         "codigo": "JVN0001",
         "nombre": "GELATINA FRUT DAY X 250 CJ X  50",
         "precio": 4495,
@@ -6995,7 +7039,7 @@
         "activo": true
     },
     {
-        "id": 637,
+        "id": 641,
         "codigo": "JVN0002",
         "nombre": "GELATINA FRUT DAY X 500 CJ X 50",
         "precio": 8988,
@@ -7006,7 +7050,7 @@
         "activo": true
     },
     {
-        "id": 638,
+        "id": 642,
         "codigo": "JVN0003",
         "nombre": "GELATINA FRUT DAY X 1000 CJ  X 25",
         "precio": 17977,
@@ -7017,7 +7061,7 @@
         "activo": true
     },
     {
-        "id": 639,
+        "id": 643,
         "codigo": "JVN0004",
         "nombre": "GELATINA FRUT DAY X 105 GR 3 SABORES CJ X 32",
         "precio": 3369,
