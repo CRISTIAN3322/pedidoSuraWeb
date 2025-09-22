@@ -78,7 +78,7 @@ suraPedidosWeb/
 
 ### Prerrequisitos
 - Node.js 18.0.0 o superior
-- npm o yarn
+- npm (o yarn/pnpm)
 
 ### Instalación
 
@@ -98,18 +98,15 @@ npm install
 npm run dev
 ```
 
-4. **Abre tu navegador en:**
-```
-http://localhost:4321
-```
+4. **Abre tu navegador en:** `http://localhost:4321`
 
 ### Scripts Disponibles
 
 ```bash
-npm run dev        # Servidor de desarrollo
+npm run dev        # Servidor de desarrollo (con --host)
 npm run build      # Construir para producción
 npm run preview    # Vista previa de la build
-npm run lint       # Verificar código
+npm run lint       # Verificar código (astro check)
 npm run type-check # Verificar tipos TypeScript
 npm run clean      # Limpiar archivos generados
 npm start          # Build y preview
@@ -138,8 +135,9 @@ Componente que maneja la visualización y selección de productos disponibles.
 
 El proyecto utiliza CSS modular con estilos específicos para cada componente y estilos globales en `global.css`.
 
-## Despliegue Vercel
-[Vercel](https://sura-pedidos-web.vercel.app)
+## Despliegue
+- Sitio: https://sura-pedidos-web.vercel.app
+- Build estática (`dist/`) apta para Vercel u hosting estático
 
 ## 🤝 Contribución
 
@@ -154,8 +152,10 @@ Si deseas contribuir al proyecto:
 
 ## 📄 Licencia
 
-Este proyecto está bajo la Licencia [ESPECIFICAR_LICENCIA]
+Este proyecto está bajo la Licencia MIT.
 
 ## ✉️ Contacto
 
-[CCPOVEDA] - [ccpoveda.programador@gmail.com]
+CCPOVEDA — ccpoveda.programador@gmail.com
+
+Documentación técnica ampliada en `doc/`.

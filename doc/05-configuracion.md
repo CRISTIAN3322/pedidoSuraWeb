@@ -2,16 +2,18 @@
 
 ### Astro (`astro.config.mjs`)
 ```js
+// @ts-check
 import { defineConfig } from 'astro/config';
 import react from '@astrojs/react';
 
+// https://astro.build/config
 export default defineConfig({
   integrations: [react()],
   site: 'https://example.com'
 });
 ```
 - Integra React para componentes interactivos.
-- `site` se debe actualizar al dominio real en producción.
+- `site` debe apuntar al dominio real en producción. Para este repo, el sitio público es `https://sura-pedidos-web.vercel.app`.
 
 ### TypeScript (`tsconfig.json`)
 ```json
@@ -33,4 +35,8 @@ export default defineConfig({
 - `storage`: claves de `localStorage`.
 
 Mantener estos valores como única fuente de verdad para reglas de negocio y UI.
+
+### Página de inicio y comandos
+- `npm run dev` levanta el servidor accesible en red local (`--host`).
+- Vista local por defecto: `http://localhost:4321`.
 

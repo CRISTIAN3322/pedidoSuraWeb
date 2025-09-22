@@ -4,6 +4,6 @@ import react from '@astrojs/react';
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [react()],
-  site: 'https://example.com'
+    integrations: [react()],
+    site: 'https://sura-pedidos-web.vercel.app'
 });

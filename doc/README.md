@@ -8,8 +8,9 @@ Bienvenido a la documentación técnica y funcional del proyecto. Aquí encontra
 - [04. Datos](./04-datos.md)
 - [05. Configuración](./05-configuracion.md)
 - [06. Convenciones y buenas prácticas](./06-convenciones.md)
- - [07. Diagramas](./07-diagramas.md)
- - [08. Componentes: Props y ejemplos](./08-componentes-props.md)
+- [07. Diagramas](./07-diagramas.md)
+- [08. Componentes: Props y ejemplos](./08-componentes-props.md)
+- [Guía de Bloqueo de Horario](../BLOQUEO_HORARIO.md)
 
 Información rápida:
 - Framework: Astro 5 + React
@@ -17,3 +18,6 @@ Información rápida:
 - Requisitos: Node.js >= 18
 - Comandos clave: `npm run dev`, `npm run build`, `npm run preview`
 
+Enlaces útiles:
+- Sitio en producción: https://sura-pedidos-web.vercel.app
+- Repositorio: https://github.com/CRISTIAN3322/suraPedidosWeb
