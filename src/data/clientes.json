@@ -6888,5 +6888,13 @@
                 "vendedor": "Berenice Herminda Muñoz Mondragon "
             }
         ]
+    },
+    {
+        "id": 800196550,
+        "nombre": "EL SURTIDOR CAVIRI Y CIA SAS",
+        "sucursales": [{
+            "direccion": "CR 103 A 19 45 Fontibon ",
+            "vendedor": "David Yedid Ramirez Leguizamon "
+        }]
     }
 ]

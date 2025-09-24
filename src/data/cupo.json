@@ -4185,5 +4185,11 @@
         "nombre": "WILDER YESID GUTIERREZ SANCHEZ",
         "cupo": 1000000,
         "Forma": "Contado"
+    },
+    {
+        "id": 800196550,
+        "nombre": "EL SURTIDOR CAVIRI Y CIA SAS",
+        "cupo": 3000000,
+        "Forma": "Credito"
     }
 ]
