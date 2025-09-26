@@ -5,7 +5,7 @@
         "precio": 2830,
         "imagen": "../assets/img_catalogo/7703207400248.png",
         "barra": 7703207400248,
-        "invetario": 235,
+        "invetario": 163,
         "proveedor": "ALUMINIO NACIONAL",
         "activo": true
     },
@@ -27,7 +27,7 @@
         "precio": 4368,
         "imagen": "../assets/img_catalogo/770211044006.png",
         "barra": 770211044006,
-        "invetario": 83,
+        "invetario": 79,
         "proveedor": "ALUMINIO NACIONAL",
         "activo": true
     },
@@ -38,7 +38,7 @@
         "precio": 5874,
         "imagen": "../assets/img_catalogo/7702110440242.png",
         "barra": 7702110440242,
-        "invetario": 846,
+        "invetario": 840,
         "proveedor": "ALUMINIO NACIONAL",
         "activo": true
     },
@@ -49,7 +49,7 @@
         "precio": 12237,
         "imagen": "../assets/img_catalogo/7702110627445.png",
         "barra": 7702110627445,
-        "invetario": 11,
+        "invetario": 0,
         "proveedor": "ALUMINIO NACIONAL",
         "activo": true
     },
@@ -71,7 +71,7 @@
         "precio": 1625,
         "imagen": "../assets/img_catalogo/7702622525093.png",
         "barra": 7702622525093,
-        "invetario": 2521,
+        "invetario": 2148,
         "proveedor": "TONING",
         "activo": true
     },
@@ -82,7 +82,7 @@
         "precio": 3765,
         "imagen": "../assets/img_catalogo/7702622527103.png",
         "barra": 7702622527103,
-        "invetario": 4881,
+        "invetario": 4081,
         "proveedor": "TONING",
         "activo": true
     },
@@ -93,7 +93,7 @@
         "precio": 6434,
         "imagen": "../assets/img_catalogo/7702622529145.png",
         "barra": 7702622529145,
-        "invetario": 321,
+        "invetario": 224,
         "proveedor": "TONING",
         "activo": false
     },
@@ -104,7 +104,7 @@
         "precio": 3054,
         "imagen": "../assets/img_catalogo/7702622522139.png",
         "barra": 7702622522139,
-        "invetario": 1248,
+        "invetario": 1036,
         "proveedor": "TONING",
         "activo": true
     },
@@ -115,7 +115,7 @@
         "precio": 3054,
         "imagen": "../assets/img_catalogo/7702622522016.png",
         "barra": 7702622522016,
-        "invetario": 1165,
+        "invetario": 1031,
         "proveedor": "TONING",
         "activo": true
     },
@@ -126,7 +126,7 @@
         "precio": 3054,
         "imagen": "../assets/img_catalogo/7702622522023.png",
         "barra": 7702622522023,
-        "invetario": 1434,
+        "invetario": 1284,
         "proveedor": "TONING",
         "activo": true
     },
@@ -137,7 +137,7 @@
         "precio": 1625,
         "imagen": "../assets/img_catalogo/7702622528131.png",
         "barra": 7702622528131,
-        "invetario": 791,
+        "invetario": 682,
         "proveedor": "TONING",
         "activo": true
     },
@@ -159,7 +159,7 @@
         "precio": 3713,
         "imagen": "../assets/img_catalogo/7702622423146.png",
         "barra": 7702622423146,
-        "invetario": 1228,
+        "invetario": 1120,
         "proveedor": "TONING",
         "activo": true
     },
@@ -170,7 +170,7 @@
         "precio": 3713,
         "imagen": "../assets/img_catalogo/7702622423139.png",
         "barra": 7702622423139,
-        "invetario": 999,
+        "invetario": 817,
         "proveedor": "TONING",
         "activo": true
     },
@@ -181,7 +181,7 @@
         "precio": 3713,
         "imagen": "../assets/img_catalogo/7702622423153.png",
         "barra": 7702622423153,
-        "invetario": 1213,
+        "invetario": 1045,
         "proveedor": "TONING",
         "activo": true
     },
@@ -192,7 +192,7 @@
         "precio": 3356,
         "imagen": "../assets/img_catalogo/7702622422132.png",
         "barra": 7702622422132,
-        "invetario": 162,
+        "invetario": 149,
         "proveedor": "TONING",
         "activo": true
     },
@@ -203,7 +203,7 @@
         "precio": 15859,
         "imagen": "../assets/img_catalogo/7702622725011.png",
         "barra": 7702622725011,
-        "invetario": 313,
+        "invetario": 239,
         "proveedor": "TONING",
         "activo": true
     },
@@ -214,7 +214,7 @@
         "precio": 15859,
         "imagen": "../assets/img_catalogo/7702622423559.png",
         "barra": 7702622423559,
-        "invetario": 311,
+        "invetario": 240,
         "proveedor": "TONING",
         "activo": true
     },
@@ -225,7 +225,7 @@
         "precio": 16342,
         "imagen": "../assets/img_catalogo/7702622627070.png",
         "barra": 7702622627070,
-        "invetario": 145,
+        "invetario": 117,
         "proveedor": "TONING",
         "activo": true
     },
@@ -247,7 +247,7 @@
         "precio": 7715,
         "imagen": "../assets/img_catalogo/7702622226143.png",
         "barra": 7702622226143,
-        "invetario": 823,
+        "invetario": 598,
         "proveedor": "TONING",
         "activo": true
     },
@@ -269,7 +269,7 @@
         "precio": 3409,
         "imagen": "../assets/img_catalogo/7702622423191.png",
         "barra": 7702622423191,
-        "invetario": 102,
+        "invetario": 90,
         "proveedor": "TONING",
         "activo": true
     },
@@ -291,7 +291,7 @@
         "precio": 23856,
         "imagen": "../assets/img_catalogo/7702622629159.png",
         "barra": 7702622629159,
-        "invetario": 283,
+        "invetario": 239,
         "proveedor": "TONING",
         "activo": true
     },
@@ -302,7 +302,7 @@
         "precio": 9169,
         "imagen": "../assets/img_catalogo/7702622628060.png",
         "barra": 7702622628060,
-        "invetario": 92,
+        "invetario": 14,
         "proveedor": "TONING",
         "activo": true
     },
@@ -313,7 +313,7 @@
         "precio": 9169,
         "imagen": "../assets/img_catalogo/7702622624116.png",
         "barra": 7702622624116,
-        "invetario": 541,
+        "invetario": 337,
         "proveedor": "TONING",
         "activo": true
     },
@@ -324,7 +324,7 @@
         "precio": 9169,
         "imagen": "../assets/img_catalogo/7702622624109.png",
         "barra": 7702622624109,
-        "invetario": 350,
+        "invetario": 136,
         "proveedor": "TONING",
         "activo": true
     },
@@ -335,7 +335,7 @@
         "precio": 9169,
         "imagen": "../assets/img_catalogo/7702622624154.png",
         "barra": 7702622624154,
-        "invetario": 351,
+        "invetario": 164,
         "proveedor": "TONING",
         "activo": true
     },
@@ -346,7 +346,7 @@
         "precio": 23856,
         "imagen": "../assets/img_catalogo/7702622628008.png",
         "barra": 7702622628008,
-        "invetario": 251,
+        "invetario": 200,
         "proveedor": "TONING",
         "activo": true
     },
@@ -357,7 +357,7 @@
         "precio": 3502,
         "imagen": "../assets/img_catalogo/7702622238160.png",
         "barra": 7702622238160,
-        "invetario": 127,
+        "invetario": 118,
         "proveedor": "TONING",
         "activo": true
     },
@@ -368,7 +368,7 @@
         "precio": 6468,
         "imagen": "../assets/img_catalogo/7702622131577.png",
         "barra": 7702622131577,
-        "invetario": 4374,
+        "invetario": 3233,
         "proveedor": "TONING",
         "activo": true
     },
@@ -379,7 +379,7 @@
         "precio": "4260,2",
         "imagen": "../assets/img_catalogo/7702622585103.png",
         "barra": 7702622585103,
-        "invetario": 500,
+        "invetario": 458,
         "proveedor": "TONING",
         "activo": true
     },
@@ -390,7 +390,7 @@
         "precio": 4045,
         "imagen": "../assets/img_catalogo/7702622329127.png",
         "barra": 7702622329127,
-        "invetario": 234,
+        "invetario": 45,
         "proveedor": "TONING",
         "activo": true
     },
@@ -401,7 +401,7 @@
         "precio": 11990,
         "imagen": "../assets/img_catalogo/7702622624031.png",
         "barra": 7702622624031,
-        "invetario": 353,
+        "invetario": 328,
         "proveedor": "TONING",
         "activo": true
     },
@@ -434,7 +434,7 @@
         "precio": 22866,
         "imagen": "../assets/img_catalogo/7702622624093.png",
         "barra": 7702622624093,
-        "invetario": 103,
+        "invetario": 93,
         "proveedor": "TONING",
         "activo": true
     },
@@ -478,7 +478,7 @@
         "precio": 4664,
         "imagen": "../assets/img_catalogo/7702622678263.png",
         "barra": 7702622678263,
-        "invetario": 594,
+        "invetario": 539,
         "proveedor": "TONING",
         "activo": true
     },
@@ -489,7 +489,7 @@
         "precio": 8639,
         "imagen": "../assets/img_catalogo/7702622755582.png",
         "barra": 7702622755582,
-        "invetario": 506,
+        "invetario": 318,
         "proveedor": "TONING",
         "activo": true
     },
@@ -500,7 +500,7 @@
         "precio": 16390,
         "imagen": "../assets/img_catalogo/7702622229151.png",
         "barra": 7702622229151,
-        "invetario": 120,
+        "invetario": 56,
         "proveedor": "TONING",
         "activo": true
     },
@@ -511,7 +511,7 @@
         "precio": 10840,
         "imagen": "../assets/img_catalogo/7702622012302.png",
         "barra": 7702622012302,
-        "invetario": 310,
+        "invetario": 269,
         "proveedor": "TONING",
         "activo": true
     },
@@ -522,7 +522,7 @@
         "precio": 10840,
         "imagen": "../assets/img_catalogo/7702622012319.png",
         "barra": 7702622012319,
-        "invetario": 288,
+        "invetario": 256,
         "proveedor": "TONING",
         "activo": true
     },
@@ -533,7 +533,7 @@
         "precio": 10848,
         "imagen": "../assets/img_catalogo/7702622009302.png",
         "barra": 7702622009302,
-        "invetario": 104,
+        "invetario": 82,
         "proveedor": "TONING",
         "activo": true
     },
@@ -555,7 +555,7 @@
         "precio": 15963,
         "imagen": "../assets/img_catalogo/7702622429186.png",
         "barra": 7702622429186,
-        "invetario": 69,
+        "invetario": 45,
         "proveedor": "TONING",
         "activo": true
     },
@@ -566,7 +566,7 @@
         "precio": 15963,
         "imagen": "../assets/img_catalogo/7702622429124.png",
         "barra": 7702622429124,
-        "invetario": 97,
+        "invetario": 87,
         "proveedor": "TONING",
         "activo": true
     },
@@ -577,7 +577,7 @@
         "precio": 12981,
         "imagen": "../assets/img_catalogo/7702622529183.png",
         "barra": 7702622529183,
-        "invetario": 1297,
+        "invetario": 1068,
         "proveedor": "TONING",
         "activo": true
     },
@@ -599,7 +599,7 @@
         "precio": 11388,
         "imagen": "../assets/img_catalogo/7702622955128.png",
         "barra": 7702622955128,
-        "invetario": 302,
+        "invetario": 270,
         "proveedor": "TONING",
         "activo": true
     },
@@ -610,7 +610,7 @@
         "precio": 6064,
         "imagen": "../assets/img_catalogo/7702622069603.png",
         "barra": 7702622069603,
-        "invetario": 145,
+        "invetario": 74,
         "proveedor": "TONING",
         "activo": true
     },
@@ -621,9 +621,9 @@
         "precio": 6064,
         "imagen": "../assets/img_catalogo/7702622392091.png",
         "barra": 7702622392091,
-        "invetario": 28,
+        "invetario": 0,
         "proveedor": "TONING",
-        "activo": true
+        "activo": false
     },
     {
         "id": 58,
@@ -643,9 +643,9 @@
         "precio": 6064,
         "imagen": "../assets/img_catalogo/7702622746146.png",
         "barra": 7702622746146,
-        "invetario": 127,
+        "invetario": 0,
         "proveedor": "TONING",
-        "activo": true
+        "activo": false
     },
     {
         "id": 60,
@@ -676,7 +676,7 @@
         "precio": 13834,
         "imagen": "../assets/img_catalogo/7702622830081.png",
         "barra": 7702622830081,
-        "invetario": 54,
+        "invetario": 48,
         "proveedor": "TONING",
         "activo": true
     },
@@ -687,7 +687,7 @@
         "precio": 13834,
         "imagen": "../assets/img_catalogo/7702622452726.png",
         "barra": 7702622452726,
-        "invetario": 60,
+        "invetario": 53,
         "proveedor": "TONING",
         "activo": true
     },
@@ -698,7 +698,7 @@
         "precio": "12142,76",
         "imagen": "../assets/img_catalogo/7702622606662.png",
         "barra": 7702622606662,
-        "invetario": 1066,
+        "invetario": 987,
         "proveedor": "TONING",
         "activo": true
     },
@@ -709,7 +709,7 @@
         "precio": "12142,76",
         "imagen": "../assets/img_catalogo/7702622440228.png",
         "barra": 7702622440228,
-        "invetario": 777,
+        "invetario": 612,
         "proveedor": "TONING",
         "activo": true
     },
@@ -720,7 +720,7 @@
         "precio": "12142,76",
         "imagen": "../assets/img_catalogo/7702622956545.png",
         "barra": 7702622956545,
-        "invetario": 1334,
+        "invetario": 1217,
         "proveedor": "TONING",
         "activo": true
     },
@@ -742,7 +742,7 @@
         "precio": 19346,
         "imagen": "../assets/img_catalogo/7702622360779.png",
         "barra": 7702622360779,
-        "invetario": 849,
+        "invetario": 793,
         "proveedor": "TONING",
         "activo": true
     },
@@ -753,7 +753,7 @@
         "precio": 14968,
         "imagen": "../assets/img_catalogo/7702622423405.png",
         "barra": 7702622423405,
-        "invetario": 351,
+        "invetario": 212,
         "proveedor": "TONING",
         "activo": true
     },
@@ -775,7 +775,7 @@
         "precio": 25875,
         "imagen": "../assets/img_catalogo/7702622227355.png",
         "barra": 7702622227355,
-        "invetario": 204,
+        "invetario": 196,
         "proveedor": "TONING",
         "activo": true
     },
@@ -786,7 +786,7 @@
         "precio": 25875,
         "imagen": "../assets/img_catalogo/7702622225283.png",
         "barra": 7702622225283,
-        "invetario": 99,
+        "invetario": 84,
         "proveedor": "TONING",
         "activo": true
     },
@@ -808,7 +808,7 @@
         "precio": 18430,
         "imagen": "../assets/img_catalogo/7702622989963.png",
         "barra": 7702622989963,
-        "invetario": 287,
+        "invetario": 241,
         "proveedor": "TONING",
         "activo": true
     },
@@ -819,7 +819,7 @@
         "precio": 18430,
         "imagen": "../assets/img_catalogo/7702622312730.png",
         "barra": 7702622312730,
-        "invetario": 206,
+        "invetario": 184,
         "proveedor": "TONING",
         "activo": true
     },
@@ -841,7 +841,7 @@
         "precio": 6901,
         "imagen": "../assets/img_catalogo/7702622684172.png",
         "barra": 7702622684172,
-        "invetario": 312,
+        "invetario": 180,
         "proveedor": "TONING",
         "activo": true
     },
@@ -852,7 +852,7 @@
         "precio": 9850,
         "imagen": "../assets/img_catalogo/7702622668462.png",
         "barra": 7702622668462,
-        "invetario": 1452,
+        "invetario": 598,
         "proveedor": "TONING",
         "activo": true
     },
@@ -863,7 +863,7 @@
         "precio": 12953,
         "imagen": "../assets/img_catalogo/7702622221933.png",
         "barra": 7702622221933,
-        "invetario": 1416,
+        "invetario": 1119,
         "proveedor": "TONING",
         "activo": true
     },
@@ -874,7 +874,7 @@
         "precio": 6476,
         "imagen": "../assets/img_catalogo/7702622713414.png",
         "barra": 7702622713414,
-        "invetario": 433,
+        "invetario": 417,
         "proveedor": "TONING",
         "activo": true
     },
@@ -885,7 +885,7 @@
         "precio": 857,
         "imagen": "../assets/img_catalogo/7709990840643.png",
         "barra": 7709990840643,
-        "invetario": 1282,
+        "invetario": 1045,
         "proveedor": "ATW INTERNACIONAL SAS",
         "activo": true
     },
@@ -907,7 +907,7 @@
         "precio": 834,
         "imagen": "../assets/img_catalogo/7709990968590.png",
         "barra": 7709990968590,
-        "invetario": 126,
+        "invetario": 108,
         "proveedor": "ATW INTERNACIONAL SAS",
         "activo": true
     },
@@ -929,7 +929,7 @@
         "precio": 3865,
         "imagen": "../assets/img_catalogo/7709888659173.png",
         "barra": 7709888659173,
-        "invetario": 2255,
+        "invetario": 698,
         "proveedor": "ATW INTERNACIONAL SAS",
         "activo": true
     },
@@ -995,7 +995,7 @@
         "precio": 2234,
         "imagen": "../assets/img_catalogo/7709745310063.png",
         "barra": 7709745310063,
-        "invetario": 166,
+        "invetario": 18,
         "proveedor": "ATW INTERNACIONAL SAS",
         "activo": true
     },
@@ -1050,7 +1050,7 @@
         "precio": 7983,
         "imagen": "../assets/img_catalogo/7707255630053.png",
         "barra": 7707255630053,
-        "invetario": 897,
+        "invetario": 854,
         "proveedor": "CASA IBAÑEZ",
         "activo": true
     },
@@ -1061,7 +1061,7 @@
         "precio": 17414,
         "imagen": "../assets/img_catalogo/7707255635621.png",
         "barra": 7707255635621,
-        "invetario": 436,
+        "invetario": 347,
         "proveedor": "CASA IBAÑEZ",
         "activo": true
     },
@@ -1072,7 +1072,7 @@
         "precio": 33378,
         "imagen": "../assets/img_catalogo/7707255635355.png",
         "barra": 7707255635355,
-        "invetario": 288,
+        "invetario": 268,
         "proveedor": "CASA IBAÑEZ",
         "activo": true
     },
@@ -1105,7 +1105,7 @@
         "precio": 22856,
         "imagen": "../assets/img_catalogo/7707255631975.png",
         "barra": 7707255631975,
-        "invetario": 14,
+        "invetario": 10,
         "proveedor": "CASA IBAÑEZ",
         "activo": true
     },
@@ -1127,7 +1127,7 @@
         "precio": 23901,
         "imagen": "../assets/img_catalogo/7707255634983.png",
         "barra": 7707255634983,
-        "invetario": 560,
+        "invetario": 254,
         "proveedor": "CASA IBAÑEZ",
         "activo": true
     },
@@ -1171,7 +1171,7 @@
         "precio": 4917,
         "imagen": "../assets/img_catalogo/7501006559026.png",
         "barra": 7501006559026,
-        "invetario": 253,
+        "invetario": 215,
         "proveedor": "CONGRUPO",
         "activo": true
     },
@@ -1182,7 +1182,7 @@
         "precio": 4917,
         "imagen": "../assets/img_catalogo/7501006559002.png",
         "barra": 7501006559002,
-        "invetario": 477,
+        "invetario": 443,
         "proveedor": "CONGRUPO",
         "activo": true
     },
@@ -1215,7 +1215,7 @@
         "precio": 4917,
         "imagen": "../assets/img_catalogo/7501006559019.png",
         "barra": 7501006559019,
-        "invetario": 264,
+        "invetario": 207,
         "proveedor": "CONGRUPO",
         "activo": true
     },
@@ -1226,7 +1226,7 @@
         "precio": 6010,
         "imagen": "../assets/img_catalogo/722776000175.png",
         "barra": 722776000175,
-        "invetario": 201,
+        "invetario": 192,
         "proveedor": "CONGRUPO",
         "activo": true
     },
@@ -1237,7 +1237,7 @@
         "precio": 10209,
         "imagen": "../assets/img_catalogo/722776020012.png",
         "barra": 722776020012,
-        "invetario": 126,
+        "invetario": 117,
         "proveedor": "CONGRUPO",
         "activo": true
     },
@@ -1248,7 +1248,7 @@
         "precio": 21030,
         "imagen": "../assets/img_catalogo/7591039505190.png",
         "barra": 7591039505190,
-        "invetario": 41,
+        "invetario": 39,
         "proveedor": "CONGRUPO",
         "activo": true
     },
@@ -1270,7 +1270,7 @@
         "precio": 4457,
         "imagen": "../assets/img_catalogo/7707200710342.png",
         "barra": 7707200710342,
-        "invetario": 488,
+        "invetario": 406,
         "proveedor": "CONGRUPO",
         "activo": true
     },
@@ -1281,7 +1281,7 @@
         "precio": 4457,
         "imagen": "../assets/img_catalogo/7707200710359.png",
         "barra": 7707200710359,
-        "invetario": 313,
+        "invetario": 249,
         "proveedor": "CONGRUPO",
         "activo": true
     },
@@ -1292,7 +1292,7 @@
         "precio": 14291,
         "imagen": "../assets/img_catalogo/7702807414112.png",
         "barra": 7702807414112,
-        "invetario": 136,
+        "invetario": 96,
         "proveedor": "CONGRUPO",
         "activo": true
     },
@@ -1303,7 +1303,7 @@
         "precio": 14291,
         "imagen": "../assets/img_catalogo/7702807395596.png",
         "barra": 7702807395596,
-        "invetario": 95,
+        "invetario": 69,
         "proveedor": "CONGRUPO",
         "activo": true
     },
@@ -1325,7 +1325,7 @@
         "precio": 2624,
         "imagen": "../assets/img_catalogo/7702117008216.png",
         "barra": 7702117008216,
-        "invetario": 829,
+        "invetario": 648,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1336,7 +1336,7 @@
         "precio": 6541,
         "imagen": "../assets/img_catalogo/7702117008193.png",
         "barra": 7702117008193,
-        "invetario": 67,
+        "invetario": 1,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1347,7 +1347,7 @@
         "precio": 11674,
         "imagen": "../assets/img_catalogo/7702117008179.png",
         "barra": 7702117008179,
-        "invetario": 164,
+        "invetario": 134,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1358,7 +1358,7 @@
         "precio": 4054,
         "imagen": "../assets/img_catalogo/7702117111121.png",
         "barra": 7702117111121,
-        "invetario": 29,
+        "invetario": 1,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1369,7 +1369,7 @@
         "precio": 10794,
         "imagen": "../assets/img_catalogo/7702117011056.png",
         "barra": 7702117011056,
-        "invetario": 29,
+        "invetario": 23,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1391,7 +1391,7 @@
         "precio": 8301,
         "imagen": "../assets/img_catalogo/7702117009459.png",
         "barra": 7702117009459,
-        "invetario": 54,
+        "invetario": 48,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1402,7 +1402,7 @@
         "precio": 16908,
         "imagen": "../assets/img_catalogo/7702117013654.png",
         "barra": 7702117013654,
-        "invetario": 13,
+        "invetario": 0,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1446,7 +1446,7 @@
         "precio": 2701,
         "imagen": "../assets/img_catalogo/7702117006571.png",
         "barra": 7702117006571,
-        "invetario": 0,
+        "invetario": 9,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1512,7 +1512,7 @@
         "precio": 12597,
         "imagen": "../assets/img_catalogo/7702117012183.png",
         "barra": 7702117012183,
-        "invetario": 225,
+        "invetario": 213,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1523,7 +1523,7 @@
         "precio": 3490,
         "imagen": "../assets/img_catalogo/7702117007271.png",
         "barra": 7702117007271,
-        "invetario": 1278,
+        "invetario": 1160,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1545,7 +1545,7 @@
         "precio": 1897,
         "imagen": "../assets/img_catalogo/7702117002498.png",
         "barra": 7702117002498,
-        "invetario": 1138,
+        "invetario": 1042,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1567,7 +1567,7 @@
         "precio": 2661,
         "imagen": "../assets/img_catalogo/7702117161102.png",
         "barra": 7702117161102,
-        "invetario": 1961,
+        "invetario": 1872,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1578,7 +1578,7 @@
         "precio": 5944,
         "imagen": "../assets/img_catalogo/7702117161041.png",
         "barra": 7702117161041,
-        "invetario": 1386,
+        "invetario": 1352,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1600,7 +1600,7 @@
         "precio": 5156,
         "imagen": "../assets/img_catalogo/7702117008087.png",
         "barra": 7702117008087,
-        "invetario": 420,
+        "invetario": 326,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1611,7 +1611,7 @@
         "precio": 11201,
         "imagen": "../assets/img_catalogo/7702117008384.png",
         "barra": 7702117008384,
-        "invetario": 761,
+        "invetario": 711,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1622,7 +1622,7 @@
         "precio": 13824,
         "imagen": "../assets/img_catalogo/7702117018796.png",
         "barra": 7702117018796,
-        "invetario": 194,
+        "invetario": 171,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1633,7 +1633,7 @@
         "precio": 25141,
         "imagen": "../assets/img_catalogo/7702117018789.png",
         "barra": 7702117018789,
-        "invetario": "231,166666",
+        "invetario": "214,166666",
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1644,7 +1644,7 @@
         "precio": 46586,
         "imagen": "../assets/img_catalogo/7702117017294.png",
         "barra": 7702117017294,
-        "invetario": 54,
+        "invetario": 40,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1677,7 +1677,7 @@
         "precio": 9133,
         "imagen": "../assets/img_catalogo/7702117010707.png",
         "barra": 7702117010707,
-        "invetario": 1062,
+        "invetario": 1019,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1754,7 +1754,7 @@
         "precio": 10963,
         "imagen": "../assets/img_catalogo/7702117012053.png",
         "barra": 7702117012053,
-        "invetario": 435,
+        "invetario": 363,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1765,7 +1765,7 @@
         "precio": 7501,
         "imagen": "../assets/img_catalogo/7702117010653.png",
         "barra": 7702117010653,
-        "invetario": 708,
+        "invetario": 606,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1787,7 +1787,7 @@
         "precio": 5172,
         "imagen": "../assets/img_catalogo/7702117006656.png",
         "barra": 7702117006656,
-        "invetario": 892,
+        "invetario": 805,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1820,7 +1820,7 @@
         "precio": 6829,
         "imagen": "../assets/img_catalogo/7702117160914.png",
         "barra": 7702117160914,
-        "invetario": 1557,
+        "invetario": 1497,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1831,7 +1831,7 @@
         "precio": 3875,
         "imagen": "../assets/img_catalogo/7702117006717.png",
         "barra": 7702117006717,
-        "invetario": 2073,
+        "invetario": 2049,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1853,7 +1853,7 @@
         "precio": 2202,
         "imagen": "../assets/img_catalogo/7702117015078.png",
         "barra": 7702117015078,
-        "invetario": 495,
+        "invetario": 471,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1875,7 +1875,7 @@
         "precio": 2668,
         "imagen": "../assets/img_catalogo/7702117007769.png",
         "barra": 7702117007769,
-        "invetario": 483,
+        "invetario": 377,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1886,7 +1886,7 @@
         "precio": 10095,
         "imagen": "../assets/img_catalogo/7702117007745.png",
         "barra": 7702117007745,
-        "invetario": 46,
+        "invetario": 34,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1897,7 +1897,7 @@
         "precio": 5819,
         "imagen": "../assets/img_catalogo/7702117002641.png",
         "barra": 7702117002641,
-        "invetario": 980,
+        "invetario": 956,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1908,7 +1908,7 @@
         "precio": 5819,
         "imagen": "../assets/img_catalogo/7702117002504.png",
         "barra": 7702117002504,
-        "invetario": 1008,
+        "invetario": 996,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1919,7 +1919,7 @@
         "precio": 5974,
         "imagen": "../assets/img_catalogo/7702117001941.png",
         "barra": 7702117001941,
-        "invetario": 477,
+        "invetario": 451,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1930,7 +1930,7 @@
         "precio": 5974,
         "imagen": "../assets/img_catalogo/7702117001866.png",
         "barra": 7702117001866,
-        "invetario": 364,
+        "invetario": 339,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1941,7 +1941,7 @@
         "precio": 5974,
         "imagen": "../assets/img_catalogo/7702117001774.png",
         "barra": 7702117001774,
-        "invetario": 171,
+        "invetario": 124,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1963,7 +1963,7 @@
         "precio": 27646,
         "imagen": "../assets/img_catalogo/7702117003259.png",
         "barra": 7702117003259,
-        "invetario": 33,
+        "invetario": 29,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1974,7 +1974,7 @@
         "precio": 1891,
         "imagen": "../assets/img_catalogo/7702117006939.png",
         "barra": 7702117006939,
-        "invetario": 2967,
+        "invetario": 2719,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1985,7 +1985,7 @@
         "precio": 2393,
         "imagen": "../assets/img_catalogo/7702117012527.png",
         "barra": 7702117012527,
-        "invetario": 1210,
+        "invetario": 1052,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1996,7 +1996,7 @@
         "precio": 3576,
         "imagen": "../assets/img_catalogo/7702117006724.png",
         "barra": 7702117006724,
-        "invetario": 785,
+        "invetario": 583,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2007,7 +2007,7 @@
         "precio": 3972,
         "imagen": "../assets/img_catalogo/7702117006076.png",
         "barra": 7702117006076,
-        "invetario": 563,
+        "invetario": 518,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2029,7 +2029,7 @@
         "precio": 12531,
         "imagen": "../assets/img_catalogo/7702117003358.png",
         "barra": 7702117003358,
-        "invetario": 29,
+        "invetario": 23,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2040,7 +2040,7 @@
         "precio": 17201,
         "imagen": "../assets/img_catalogo/7702117004197.png",
         "barra": 7702117004197,
-        "invetario": 3,
+        "invetario": 2,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2051,7 +2051,7 @@
         "precio": 19499,
         "imagen": "../assets/img_catalogo/7702117018376.png",
         "barra": 7702117018376,
-        "invetario": 7,
+        "invetario": 5,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2062,7 +2062,7 @@
         "precio": 6169,
         "imagen": "../assets/img_catalogo/7702117005802.png",
         "barra": 7702117005802,
-        "invetario": 283,
+        "invetario": 277,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2084,7 +2084,7 @@
         "precio": 14980,
         "imagen": "../assets/img_catalogo/7702117006960.png",
         "barra": 7702117006960,
-        "invetario": 40,
+        "invetario": 38,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2106,7 +2106,7 @@
         "precio": 4578,
         "imagen": "../assets/img_catalogo/7702117011148.png",
         "barra": 7702117011148,
-        "invetario": 515,
+        "invetario": 386,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2117,7 +2117,7 @@
         "precio": 5353,
         "imagen": "../assets/img_catalogo/7702117011360.png",
         "barra": 7702117011360,
-        "invetario": 68,
+        "invetario": 20,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2150,7 +2150,7 @@
         "precio": 2037,
         "imagen": "../assets/img_catalogo/7702117009404.png",
         "barra": 7702117009404,
-        "invetario": 1455,
+        "invetario": 1220,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2161,7 +2161,7 @@
         "precio": 2037,
         "imagen": "../assets/img_catalogo/7702117008841.png",
         "barra": 7702117008841,
-        "invetario": 1238,
+        "invetario": 991,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2172,7 +2172,7 @@
         "precio": 2037,
         "imagen": "../assets/img_catalogo/7702117009398.png",
         "barra": 7702117009398,
-        "invetario": 2248,
+        "invetario": 2147,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2194,7 +2194,7 @@
         "precio": 2037,
         "imagen": "../assets/img_catalogo/7702117009640.png",
         "barra": 7702117009640,
-        "invetario": 1935,
+        "invetario": 1704,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2205,7 +2205,7 @@
         "precio": 1980,
         "imagen": "../assets/img_catalogo/7702117019236.png",
         "barra": 7702117019236,
-        "invetario": 2579,
+        "invetario": 2430,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2216,7 +2216,7 @@
         "precio": 2037,
         "imagen": "../assets/img_catalogo/7702117012367.png",
         "barra": 7702117012367,
-        "invetario": 2517,
+        "invetario": 2306,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2227,7 +2227,7 @@
         "precio": 2037,
         "imagen": "../assets/img_catalogo/7702117009374.png",
         "barra": 7702117009374,
-        "invetario": 2574,
+        "invetario": 2406,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2238,7 +2238,7 @@
         "precio": 1980,
         "imagen": "../assets/img_catalogo/7702117019182.png",
         "barra": 7702117019182,
-        "invetario": 1853,
+        "invetario": 1565,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2249,7 +2249,7 @@
         "precio": 2429,
         "imagen": "../assets/img_catalogo/7702117001491.png",
         "barra": 7702117001491,
-        "invetario": 528,
+        "invetario": 456,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2260,7 +2260,7 @@
         "precio": 2429,
         "imagen": "../assets/img_catalogo/7702117001675.png",
         "barra": 7702117001675,
-        "invetario": 533,
+        "invetario": 485,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2271,7 +2271,7 @@
         "precio": 2429,
         "imagen": "../assets/img_catalogo/7702117001699.png",
         "barra": 7702117001699,
-        "invetario": 425,
+        "invetario": 377,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2282,7 +2282,7 @@
         "precio": 2429,
         "imagen": "../assets/img_catalogo/7702117001842.png",
         "barra": 7702117001842,
-        "invetario": 484,
+        "invetario": 436,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2293,7 +2293,7 @@
         "precio": 2838,
         "imagen": "../assets/img_catalogo/7702117009114.png",
         "barra": 7702117009114,
-        "invetario": 2591,
+        "invetario": 2312,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2304,7 +2304,7 @@
         "precio": 2838,
         "imagen": "../assets/img_catalogo/7702117008704.png",
         "barra": 7702117008704,
-        "invetario": 3773,
+        "invetario": 3442,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2315,7 +2315,7 @@
         "precio": 2838,
         "imagen": "../assets/img_catalogo/7702117160068.png",
         "barra": 7702117160068,
-        "invetario": 1239,
+        "invetario": 955,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2326,7 +2326,7 @@
         "precio": 2838,
         "imagen": "../assets/img_catalogo/7702117008711.png",
         "barra": 7702117008711,
-        "invetario": 1667,
+        "invetario": 1409,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2337,7 +2337,7 @@
         "precio": 2838,
         "imagen": "../assets/img_catalogo/7702117160990.png",
         "barra": 7702117160990,
-        "invetario": 3269,
+        "invetario": 2926,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2348,7 +2348,7 @@
         "precio": 2838,
         "imagen": "../assets/img_catalogo/7702117009626.png",
         "barra": 7702117009626,
-        "invetario": 4062,
+        "invetario": 3841,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2359,7 +2359,7 @@
         "precio": 2838,
         "imagen": "../assets/img_catalogo/7702117160259.png",
         "barra": 7702117160259,
-        "invetario": 1681,
+        "invetario": 1359,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2370,7 +2370,7 @@
         "precio": 2838,
         "imagen": "../assets/img_catalogo/7702117160679.png",
         "barra": 7702117160679,
-        "invetario": 3489,
+        "invetario": 2982,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2381,7 +2381,7 @@
         "precio": 2838,
         "imagen": "../assets/img_catalogo/7702117012374.png",
         "barra": 7702117012374,
-        "invetario": 1461,
+        "invetario": 947,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2392,7 +2392,7 @@
         "precio": 6193,
         "imagen": "../assets/img_catalogo/7702117008452.png",
         "barra": 7702117008452,
-        "invetario": 1076,
+        "invetario": 992,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2403,7 +2403,7 @@
         "precio": 6193,
         "imagen": "../assets/img_catalogo/7702117008438.png",
         "barra": 7702117008438,
-        "invetario": 628,
+        "invetario": 526,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2414,7 +2414,7 @@
         "precio": 6193,
         "imagen": "../assets/img_catalogo/7702117003815.png",
         "barra": 7702117003815,
-        "invetario": 1160,
+        "invetario": 1094,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2425,7 +2425,7 @@
         "precio": 6193,
         "imagen": "../assets/img_catalogo/7702117007875.png",
         "barra": 7702117007875,
-        "invetario": 919,
+        "invetario": 794,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2436,7 +2436,7 @@
         "precio": 11705,
         "imagen": "../assets/img_catalogo/7702117003792.png",
         "barra": 7702117003792,
-        "invetario": 162,
+        "invetario": 138,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2447,7 +2447,7 @@
         "precio": 11705,
         "imagen": "../assets/img_catalogo/7702117010431.png",
         "barra": 7702117010431,
-        "invetario": 159,
+        "invetario": 183,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2502,7 +2502,7 @@
         "precio": "7094,78",
         "imagen": "../assets/img_catalogo/7702117120710.png",
         "barra": 7702117120710,
-        "invetario": 7,
+        "invetario": 1,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2513,7 +2513,7 @@
         "precio": "7094,78",
         "imagen": "../assets/img_catalogo/7702117120727.png",
         "barra": 7702117120727,
-        "invetario": 15,
+        "invetario": 9,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2524,7 +2524,7 @@
         "precio": "1980,16",
         "imagen": "../assets/img_catalogo/7702117019168.png",
         "barra": 7702117019168,
-        "invetario": 2132,
+        "invetario": 1928,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2532,10 +2532,10 @@
         "id": 231,
         "codigo": "JCR0001",
         "nombre": "VINO DE MANZANA BURBUJEANTE CASA RHIN X 750 CJ X 12",
-        "precio": 13018,
+        "precio": 13235,
         "imagen": "../assets/img_catalogo/7702307140221.png",
         "barra": 7702307140221,
-        "invetario": 0,
+        "invetario": 348,
         "proveedor": "CASA RHIN",
         "activo": true
     },
@@ -2554,10 +2554,10 @@
         "id": 233,
         "codigo": "JCR0003",
         "nombre": "VINO ESPUMOSO KATICH BLANCO X 750 CJ X 12",
-        "precio": 17969,
+        "precio": 18321,
         "imagen": "../assets/img_catalogo/7702307110323.png",
         "barra": 7702307110323,
-        "invetario": 128,
+        "invetario": 239,
         "proveedor": "CASA RHIN",
         "activo": true
     },
@@ -2568,7 +2568,7 @@
         "precio": 20865,
         "imagen": "../assets/img_catalogo/7702307110422.png",
         "barra": 7702307110422,
-        "invetario": 3,
+        "invetario": 360,
         "proveedor": "CASA RHIN",
         "activo": true
     },
@@ -2579,7 +2579,7 @@
         "precio": 16832,
         "imagen": "../assets/img_catalogo/7702307130321.png",
         "barra": 7702307130321,
-        "invetario": 19,
+        "invetario": 7,
         "proveedor": "CASA RHIN",
         "activo": true
     },
@@ -2719,10 +2719,10 @@
         "id": 248,
         "codigo": "JDL0001",
         "nombre": "VINO GATO NEGRO CABERNET X 750 CJ X 12",
-        "precio": 30700,
+        "precio": 29200,
         "imagen": "../assets/img_catalogo/7804300010638.png",
         "barra": 7804300010638,
-        "invetario": 563,
+        "invetario": 263,
         "proveedor": "DISLICORES",
         "activo": true
     },
@@ -2730,10 +2730,10 @@
         "id": 249,
         "codigo": "JDL0002",
         "nombre": "VINO GATO NEGRO MERLOT X 750 CJ X 12",
-        "precio": 30700,
+        "precio": 29201,
         "imagen": "../assets/img_catalogo/7804300120603.png",
         "barra": 7804300120603,
-        "invetario": 540,
+        "invetario": 372,
         "proveedor": "DISLICORES",
         "activo": true
     },
@@ -2741,10 +2741,10 @@
         "id": 250,
         "codigo": "JDL0003",
         "nombre": "VINO GATO NEGRO BLANCO X 750 CJ X 12",
-        "precio": 31271,
+        "precio": 29200,
         "imagen": "../assets/img_catalogo/7804300010645.png",
         "barra": 7804300010645,
-        "invetario": 145,
+        "invetario": 109,
         "proveedor": "DISLICORES",
         "activo": true
     },
@@ -2752,10 +2752,10 @@
         "id": 251,
         "codigo": "JDL0004",
         "nombre": "VINO GATO NEGRO MALBEC X 750 CJ X 12",
-        "precio": 31174,
+        "precio": 29200,
         "imagen": "../assets/img_catalogo/7703562105413.png",
         "barra": 7703562105413,
-        "invetario": 243,
+        "invetario": 117,
         "proveedor": "DISLICORES",
         "activo": true
     },
@@ -2763,10 +2763,10 @@
         "id": 252,
         "codigo": "JDL0005",
         "nombre": "VINO GATO NEGRO CABERNET  X 375 ML",
-        "precio": 19974,
+        "precio": 18975,
         "imagen": "../assets/img_catalogo/78043000110676.png",
         "barra": 78043000110676,
-        "invetario": 431,
+        "invetario": 425,
         "proveedor": "DISLICORES",
         "activo": true
     },
@@ -2774,10 +2774,10 @@
         "id": 253,
         "codigo": "JDL0006",
         "nombre": "TEQUILA JOSE CUERVO ESPECIAL SILVER X 750 CJ X 12",
-        "precio": 77446,
+        "precio": 73574,
         "imagen": "../assets/img_catalogo/7501035042322.png",
         "barra": 7501035042322,
-        "invetario": 58,
+        "invetario": 55,
         "proveedor": "DISLICORES",
         "activo": true
     },
@@ -2785,10 +2785,10 @@
         "id": 254,
         "codigo": "JDL0007",
         "nombre": "TEQUILA JOSE CUERVO ESPECIAL REPOSADO X 750 CJ X 12 UND",
-        "precio": 77537,
+        "precio": 73661,
         "imagen": "../assets/img_catalogo/7501035010109.png",
         "barra": 7501035010109,
-        "invetario": 44,
+        "invetario": 38,
         "proveedor": "DISLICORES",
         "activo": true
     },
@@ -2799,7 +2799,7 @@
         "precio": "6672,33",
         "imagen": "../assets/img_catalogo/633148100099.png",
         "barra": 633148100099,
-        "invetario": 95,
+        "invetario": 83,
         "proveedor": "DISLICORES",
         "activo": true
     },
@@ -2810,177 +2810,188 @@
         "precio": "13520,78",
         "imagen": "../assets/img_catalogo/633148100013.png",
         "barra": 633148100013,
-        "invetario": 517,
+        "invetario": 511,
         "proveedor": "DISLICORES",
         "activo": true
     },
     {
         "id": 257,
+        "codigo": "JDL0029",
+        "nombre": "TEQUILA JOSE CUERVO REPOSADO X 375 CJ X 12",
+        "precio": "43066,6",
+        "imagen": "../assets/img_catalogo/7501035010284.png",
+        "barra": 7501035010284,
+        "invetario": 9,
+        "proveedor": "DISLICORES",
+        "activo": true
+    },
+    {
+        "id": 258,
         "codigo": "JDS0001",
         "nombre": "VINIPEL TABACO X 200 PC X 20",
         "precio": 10570,
         "imagen": "../assets/img_catalogo/7709947872239.png",
         "barra": 7709947872239,
-        "invetario": 175,
-        "proveedor": "DISTRI SAMY",
-        "activo": true
-    },
-    {
-        "id": 258,
-        "codigo": "JDS0002",
-        "nombre": "VINIPEL TABACO X 100 PC X 30",
-        "precio": 5078,
-        "imagen": "../assets/img_catalogo/7709947872284.png",
-        "barra": 7709947872284,
-        "invetario": 381,
+        "invetario": 149,
         "proveedor": "DISTRI SAMY",
         "activo": true
     },
     {
         "id": 259,
-        "codigo": "JDS0003",
-        "nombre": "VINIPEL TABACO X 50 PC X 40",
-        "precio": 3725,
-        "imagen": "../assets/img_catalogo/7709947872277.png",
-        "barra": 7709947872277,
-        "invetario": 260,
+        "codigo": "JDS0002",
+        "nombre": "VINIPEL TABACO X 100 PC X 30",
+        "precio": 5078,
+        "imagen": "../assets/img_catalogo/7709947872284.png",
+        "barra": 7709947872284,
+        "invetario": 363,
         "proveedor": "DISTRI SAMY",
         "activo": true
     },
     {
         "id": 260,
-        "codigo": "JDS0004",
-        "nombre": "VINIPEL TABACO X 20 PC X 40",
-        "precio": 2303,
-        "imagen": "../assets/img_catalogo/7709947872215.png",
-        "barra": 7709947872215,
-        "invetario": 425,
+        "codigo": "JDS0003",
+        "nombre": "VINIPEL TABACO X 50 PC X 40",
+        "precio": 3725,
+        "imagen": "../assets/img_catalogo/7709947872277.png",
+        "barra": 7709947872277,
+        "invetario": 196,
         "proveedor": "DISTRI SAMY",
         "activo": true
     },
     {
         "id": 261,
-        "codigo": "JDS0005",
-        "nombre": "VINIPEL NEGRO OSMOTICO X 20 PC X 40",
+        "codigo": "JDS0004",
+        "nombre": "VINIPEL TABACO X 20 PC X 40",
         "precio": 2303,
-        "imagen": "../assets/img_catalogo/7709947872291.png",
-        "barra": 7709947872291,
-        "invetario": 254,
+        "imagen": "../assets/img_catalogo/7709947872215.png",
+        "barra": 7709947872215,
+        "invetario": 345,
         "proveedor": "DISTRI SAMY",
         "activo": true
     },
     {
         "id": 262,
-        "codigo": "JDS0006",
-        "nombre": "VINIPEL NEGRO OSMOTICO X 50 PC  X 40",
-        "precio": 3724,
-        "imagen": "../assets/img_catalogo/7709947872260.png",
-        "barra": 7709947872260,
-        "invetario": 46,
+        "codigo": "JDS0005",
+        "nombre": "VINIPEL NEGRO OSMOTICO X 20 PC X 40",
+        "precio": 2303,
+        "imagen": "../assets/img_catalogo/7709947872291.png",
+        "barra": 7709947872291,
+        "invetario": 242,
         "proveedor": "DISTRI SAMY",
         "activo": true
     },
     {
         "id": 263,
+        "codigo": "JDS0006",
+        "nombre": "VINIPEL NEGRO OSMOTICO X 50 PC  X 40",
+        "precio": 3724,
+        "imagen": "../assets/img_catalogo/7709947872260.png",
+        "barra": 7709947872260,
+        "invetario": 28,
+        "proveedor": "DISTRI SAMY",
+        "activo": true
+    },
+    {
+        "id": 264,
         "codigo": "JDU0001",
         "nombre": "MARG.PREFERIDA X 125 CJ 4 DISPLAY",
         "precio": 129480,
         "imagen": "../assets/img_catalogo/7707142301660.png",
         "barra": 7707142301660,
-        "invetario": "114,0375",
-        "proveedor": "DUQUESA",
-        "activo": true
-    },
-    {
-        "id": 264,
-        "codigo": "JDU0002",
-        "nombre": "MARG.PREFERIDA X 250",
-        "precio": 122693,
-        "imagen": "../assets/img_catalogo/7707142301677.png",
-        "barra": 7707142301677,
-        "invetario": 77,
+        "invetario": "102,0375",
         "proveedor": "DUQUESA",
         "activo": true
     },
     {
         "id": 265,
-        "codigo": "JDU0003",
-        "nombre": "MARG.PREFERIDA X 500",
-        "precio": 117554,
-        "imagen": "../assets/img_catalogo/7707142301639.png",
-        "barra": 7707142301639,
-        "invetario": 41,
+        "codigo": "JDU0002",
+        "nombre": "MARG.PREFERIDA X 250",
+        "precio": 122693,
+        "imagen": "../assets/img_catalogo/7707142301677.png",
+        "barra": 7707142301677,
+        "invetario": 72,
         "proveedor": "DUQUESA",
         "activo": true
     },
     {
         "id": 266,
-        "codigo": "JDU0011",
-        "nombre": "ESPARCIBLE PREFERIDA X 500 CJ X 18",
-        "precio": 6879,
-        "imagen": "../assets/img_catalogo/7707142327318.png",
-        "barra": 7707142327318,
-        "invetario": 1764,
+        "codigo": "JDU0003",
+        "nombre": "MARG.PREFERIDA X 500",
+        "precio": 117554,
+        "imagen": "../assets/img_catalogo/7707142301639.png",
+        "barra": 7707142301639,
+        "invetario": 167,
         "proveedor": "DUQUESA",
         "activo": true
     },
     {
         "id": 267,
+        "codigo": "JDU0011",
+        "nombre": "ESPARCIBLE PREFERIDA X 500 CJ X 18",
+        "precio": 6879,
+        "imagen": "../assets/img_catalogo/7707142327318.png",
+        "barra": 7707142327318,
+        "invetario": 1638,
+        "proveedor": "DUQUESA",
+        "activo": true
+    },
+    {
+        "id": 268,
         "codigo": "JDX0001",
         "nombre": "CONSERVA DE PESCADO EN SALSA DE TOMATE SANCHO CJ X 48 UND",
         "precio": 5536,
         "imagen": "../assets/img_catalogo/7862119507589.png",
         "barra": 7862119507589,
-        "invetario": 2664,
-        "proveedor": "PUERTOMAR ZOMAC",
-        "activo": true
-    },
-    {
-        "id": 268,
-        "codigo": "JDX0002",
-        "nombre": "CONSERVA DE PESCADO TINAPA TOMATE DON SANCHO ABRE FACIL X 50",
-        "precio": 2851,
-        "imagen": "../assets/img_catalogo/7862119500153.png",
-        "barra": 7862119500153,
-        "invetario": 3156,
+        "invetario": 2580,
         "proveedor": "PUERTOMAR ZOMAC",
         "activo": true
     },
     {
         "id": 269,
-        "codigo": "JDX0004",
-        "nombre": "LOMO DE ATUN SANCHO EN AGUA X 175 GR CJ X 48 UND ABRE FACIL",
-        "precio": 4217,
-        "imagen": "../assets/img_catalogo/7862119501396.png",
-        "barra": 7862119501396,
-        "invetario": 1208,
+        "codigo": "JDX0002",
+        "nombre": "CONSERVA DE PESCADO TINAPA TOMATE DON SANCHO ABRE FACIL X 50",
+        "precio": 2851,
+        "imagen": "../assets/img_catalogo/7862119500153.png",
+        "barra": 7862119500153,
+        "invetario": 3070,
         "proveedor": "PUERTOMAR ZOMAC",
         "activo": true
     },
     {
         "id": 270,
-        "codigo": "JDX0005",
-        "nombre": "LOMOS ACEITE DE GIRASOL DON SANCHO CJ X 48",
-        "precio": 4269,
-        "imagen": "../assets/img_catalogo/7862119505493.png",
-        "barra": 7862119505493,
-        "invetario": 510,
+        "codigo": "JDX0004",
+        "nombre": "LOMO DE ATUN SANCHO EN AGUA X 175 GR CJ X 48 UND ABRE FACIL",
+        "precio": 4217,
+        "imagen": "../assets/img_catalogo/7862119501396.png",
+        "barra": 7862119501396,
+        "invetario": 1136,
         "proveedor": "PUERTOMAR ZOMAC",
         "activo": true
     },
     {
         "id": 271,
-        "codigo": "JDX0007",
-        "nombre": "THREE PACK LOMO ACEITE DE GIRASOL CAJA X 20",
-        "precio": 9756,
-        "imagen": "../assets/img_catalogo/7862119505509.png",
-        "barra": 7862119505509,
-        "invetario": 292,
+        "codigo": "JDX0005",
+        "nombre": "LOMOS ACEITE DE GIRASOL DON SANCHO CJ X 48",
+        "precio": 4269,
+        "imagen": "../assets/img_catalogo/7862119505493.png",
+        "barra": 7862119505493,
+        "invetario": 414,
         "proveedor": "PUERTOMAR ZOMAC",
         "activo": true
     },
     {
         "id": 272,
+        "codigo": "JDX0007",
+        "nombre": "THREE PACK LOMO ACEITE DE GIRASOL CAJA X 20",
+        "precio": 9756,
+        "imagen": "../assets/img_catalogo/7862119505509.png",
+        "barra": 7862119505509,
+        "invetario": 286,
+        "proveedor": "PUERTOMAR ZOMAC",
+        "activo": true
+    },
+    {
+        "id": 273,
         "codigo": "JDX0008",
         "nombre": "ENSALADA DE ATUN CON VEGETALES DON SANCHO CAJA X 48",
         "precio": 4522,
@@ -2991,7 +3002,7 @@
         "activo": true
     },
     {
-        "id": 273,
+        "id": 274,
         "codigo": "JEC0001",
         "nombre": "REEPERB CERVEZA",
         "precio": 10912,
@@ -3002,7 +3013,7 @@
         "activo": true
     },
     {
-        "id": 274,
+        "id": 275,
         "codigo": "JEC0002",
         "nombre": "KRISTOFFEL ROSE",
         "precio": 11647,
@@ -3013,62 +3024,62 @@
         "activo": true
     },
     {
-        "id": 275,
+        "id": 276,
         "codigo": "JEL0001",
         "nombre": "DULCE DURO BAM BAM X 100 CJ X 50",
         "precio": "4554,13",
         "imagen": "../assets/img_catalogo/7707222052260.png",
         "barra": 7707222052260,
-        "invetario": 1860,
-        "proveedor": "CONFIDULCES ELITE",
-        "activo": true
-    },
-    {
-        "id": 276,
-        "codigo": "JEL0002",
-        "nombre": "DULCE DURO BAM BAM X 300 CJ X 20",
-        "precio": "13662,39",
-        "imagen": "../assets/img_catalogo/7707222053441.png",
-        "barra": 7707222053441,
-        "invetario": 1204,
+        "invetario": 736,
         "proveedor": "CONFIDULCES ELITE",
         "activo": true
     },
     {
         "id": 277,
-        "codigo": "JEL0003",
-        "nombre": "DULCE RELLENO BAM BAM X 100 CJ X 30",
-        "precio": "6049,96",
-        "imagen": "../assets/img_catalogo/7707222051379.png",
-        "barra": 7707222051379,
-        "invetario": 305,
+        "codigo": "JEL0002",
+        "nombre": "DULCE DURO BAM BAM X 300 CJ X 20",
+        "precio": "13662,39",
+        "imagen": "../assets/img_catalogo/7707222053441.png",
+        "barra": 7707222053441,
+        "invetario": 564,
         "proveedor": "CONFIDULCES ELITE",
         "activo": true
     },
     {
         "id": 278,
-        "codigo": "JEL0004",
-        "nombre": "DULCE RELLENO BAM BAM X 300 CJ X 12",
-        "precio": "18149,88",
-        "imagen": "../assets/img_catalogo/7707222050000.png",
-        "barra": 7707222050000,
-        "invetario": 30,
+        "codigo": "JEL0003",
+        "nombre": "DULCE RELLENO BAM BAM X 100 CJ X 30",
+        "precio": "6049,96",
+        "imagen": "../assets/img_catalogo/7707222051379.png",
+        "barra": 7707222051379,
+        "invetario": 0,
         "proveedor": "CONFIDULCES ELITE",
         "activo": true
     },
     {
         "id": 279,
-        "codigo": "JEL0005",
-        "nombre": "MINI BOM BOM FRESILLA X 100 CJ X 20",
-        "precio": "9736,58",
-        "imagen": "../assets/img_catalogo/7707222053434.png",
-        "barra": 7707222053434,
-        "invetario": 50,
+        "codigo": "JEL0004",
+        "nombre": "DULCE RELLENO BAM BAM X 300 CJ X 12",
+        "precio": "18149,88",
+        "imagen": "../assets/img_catalogo/7707222050000.png",
+        "barra": 7707222050000,
+        "invetario": 0,
         "proveedor": "CONFIDULCES ELITE",
         "activo": true
     },
     {
         "id": 280,
+        "codigo": "JEL0005",
+        "nombre": "MINI BOM BOM FRESILLA X 100 CJ X 20",
+        "precio": "9736,58",
+        "imagen": "../assets/img_catalogo/7707222053434.png",
+        "barra": 7707222053434,
+        "invetario": 0,
+        "proveedor": "CONFIDULCES ELITE",
+        "activo": true
+    },
+    {
+        "id": 281,
         "codigo": "JEL0006",
         "nombre": "CHUPETA CORAZONZITOS X 50 CJ X 20",
         "precio": "4608,87",
@@ -3079,84 +3090,84 @@
         "activo": true
     },
     {
-        "id": 281,
+        "id": 282,
         "codigo": "JFF0001",
         "nombre": "FARINA CANELA X 250 GR PC X 50 X10 DP",
         "precio": 3967,
         "imagen": "../assets/img_catalogo/7707096600031.png",
         "barra": 7707096600031,
-        "invetario": 1317,
-        "proveedor": "FARINA CIA",
-        "activo": true
-    },
-    {
-        "id": 282,
-        "codigo": "JFF0002",
-        "nombre": "FARINA CANELA X 500 GR PC X 24",
-        "precio": 7417,
-        "imagen": "../assets/img_catalogo/7707096600055.png",
-        "barra": 7707096600055,
-        "invetario": 1156,
+        "invetario": 1287,
         "proveedor": "FARINA CIA",
         "activo": true
     },
     {
         "id": 283,
-        "codigo": "JFF0003",
-        "nombre": "FARINA SURTIDA X 200 GR CJ X 48",
-        "precio": 3023,
-        "imagen": "../assets/img_catalogo/7707096000000.png",
-        "barra": 7707096000000,
-        "invetario": 797,
+        "codigo": "JFF0002",
+        "nombre": "FARINA CANELA X 500 GR PC X 24",
+        "precio": 7417,
+        "imagen": "../assets/img_catalogo/7707096600055.png",
+        "barra": 7707096600055,
+        "invetario": 1016,
         "proveedor": "FARINA CIA",
         "activo": true
     },
     {
         "id": 284,
-        "codigo": "JFF0004",
-        "nombre": "FARINA VAINILA X 250 GR PC X 50",
-        "precio": 3967,
-        "imagen": "../assets/img_catalogo/7707096600147.png",
-        "barra": 7707096600147,
-        "invetario": 1377,
+        "codigo": "JFF0003",
+        "nombre": "FARINA SURTIDA X 200 GR CJ X 48",
+        "precio": 3023,
+        "imagen": "../assets/img_catalogo/7707096000000.png",
+        "barra": 7707096000000,
+        "invetario": 670,
         "proveedor": "FARINA CIA",
         "activo": true
     },
     {
         "id": 285,
-        "codigo": "JFF0005",
-        "nombre": "FARINA X 250 LECHE CONDENSADA PCX50",
+        "codigo": "JFF0004",
+        "nombre": "FARINA VAINILA X 250 GR PC X 50",
         "precio": 3967,
-        "imagen": "../assets/img_catalogo/7707096600178.png",
-        "barra": 7707096600178,
-        "invetario": 1482,
+        "imagen": "../assets/img_catalogo/7707096600147.png",
+        "barra": 7707096600147,
+        "invetario": 1317,
         "proveedor": "FARINA CIA",
         "activo": true
     },
     {
         "id": 286,
-        "codigo": "JFF0007",
-        "nombre": "FARINA CANELA X 100 GR CJ X 144",
-        "precio": 1683,
-        "imagen": "../assets/img_catalogo/7707096600017.png",
-        "barra": 7707096600017,
-        "invetario": 2891,
+        "codigo": "JFF0005",
+        "nombre": "FARINA X 250 LECHE CONDENSADA PCX50",
+        "precio": 3967,
+        "imagen": "../assets/img_catalogo/7707096600178.png",
+        "barra": 7707096600178,
+        "invetario": 1452,
         "proveedor": "FARINA CIA",
         "activo": true
     },
     {
         "id": 287,
-        "codigo": "JFF0008",
-        "nombre": "FARINA SURTIDA 3 SABORES X 100 GR X CJ X 144 DP X12",
+        "codigo": "JFF0007",
+        "nombre": "FARINA CANELA X 100 GR CJ X 144",
         "precio": 1683,
-        "imagen": "../assets/img_catalogo/7707096600000.png",
-        "barra": 7707096600000,
-        "invetario": 2496,
+        "imagen": "../assets/img_catalogo/7707096600017.png",
+        "barra": 7707096600017,
+        "invetario": 2759,
         "proveedor": "FARINA CIA",
         "activo": true
     },
     {
         "id": 288,
+        "codigo": "JFF0008",
+        "nombre": "FARINA SURTIDA 3 SABORES X 100 GR X CJ X 144 DP X12",
+        "precio": 1683,
+        "imagen": "../assets/img_catalogo/7707096600000.png",
+        "barra": 7707096600000,
+        "invetario": 2280,
+        "proveedor": "FARINA CIA",
+        "activo": true
+    },
+    {
+        "id": 289,
         "codigo": "JFW0002",
         "nombre": "TEQUILA JIMADOR REPOSADO 700",
         "precio": 99803,
@@ -3167,7 +3178,7 @@
         "activo": true
     },
     {
-        "id": 289,
+        "id": 290,
         "codigo": "JFW0003",
         "nombre": "TEQUILA PATRON REPOSADO 700",
         "precio": 220700,
@@ -3178,7 +3189,7 @@
         "activo": true
     },
     {
-        "id": 290,
+        "id": 291,
         "codigo": "JFW0004",
         "nombre": "TEQUILA PATRON SILVER X 700",
         "precio": 185013,
@@ -3189,40 +3200,40 @@
         "activo": true
     },
     {
-        "id": 291,
+        "id": 292,
         "codigo": "JFW0005",
         "nombre": "VINO CASILLERO CABERNET SUAVINON X 750 CJ X 12",
         "precio": 54950,
         "imagen": "../assets/img_catalogo/7804320303178.png",
         "barra": 7804320303178,
-        "invetario": 41,
-        "proveedor": "GLOBAL VINOS",
-        "activo": true
-    },
-    {
-        "id": 292,
-        "codigo": "JFW0006",
-        "nombre": "VINO CASILLERO MERLOT X 750 CC CJ X 12",
-        "precio": 54950,
-        "imagen": "../assets/img_catalogo/7804320985633.png",
-        "barra": 7804320985633,
-        "invetario": 71,
+        "invetario": 215,
         "proveedor": "GLOBAL VINOS",
         "activo": true
     },
     {
         "id": 293,
-        "codigo": "JFW0007",
-        "nombre": "VINO CASILLERO BLANCO SAUVIGNON X 750 CJ X 12",
-        "precio": 54951,
-        "imagen": "../assets/img_catalogo/7804320301174.png",
-        "barra": 7804320301174,
-        "invetario": 0,
+        "codigo": "JFW0006",
+        "nombre": "VINO CASILLERO MERLOT X 750 CC CJ X 12",
+        "precio": 54950,
+        "imagen": "../assets/img_catalogo/7804320985633.png",
+        "barra": 7804320985633,
+        "invetario": 62,
         "proveedor": "GLOBAL VINOS",
         "activo": true
     },
     {
         "id": 294,
+        "codigo": "JFW0007",
+        "nombre": "VINO CASILLERO BLANCO SAUVIGNON X 750 CJ X 12",
+        "precio": 54951,
+        "imagen": "../assets/img_catalogo/7804320301174.png",
+        "barra": 7804320301174,
+        "invetario": 60,
+        "proveedor": "GLOBAL VINOS",
+        "activo": true
+    },
+    {
+        "id": 295,
         "codigo": "JFW0008",
         "nombre": "VINO CASILLERO  ROSE X 750 CJ X 12",
         "precio": 54951,
@@ -3233,7 +3244,7 @@
         "activo": true
     },
     {
-        "id": 295,
+        "id": 296,
         "codigo": "JFW0009",
         "nombre": "VINO ESPUMOSO CHANDON  ROSE 750",
         "precio": 73168,
@@ -3244,7 +3255,7 @@
         "activo": true
     },
     {
-        "id": 296,
+        "id": 297,
         "codigo": "JFW0011",
         "nombre": "VINO ESPUMOSO CHANDON EXT.BRUT 750",
         "precio": 59000,
@@ -3255,7 +3266,7 @@
         "activo": true
     },
     {
-        "id": 297,
+        "id": 298,
         "codigo": "JFW0012",
         "nombre": "VINO FRONTERA CARMENERE X 750 CJ X 12",
         "precio": 37232,
@@ -3266,7 +3277,7 @@
         "activo": false
     },
     {
-        "id": 298,
+        "id": 299,
         "codigo": "JFW0013",
         "nombre": "VINO FRONTERA CABERNET SUAVINON X 750 CC CJ X 12",
         "precio": 36201,
@@ -3277,7 +3288,7 @@
         "activo": true
     },
     {
-        "id": 299,
+        "id": 300,
         "codigo": "JFW0014",
         "nombre": "VINO FRONTERA MERLOT X 750 CJ X 12",
         "precio": 36200,
@@ -3288,7 +3299,7 @@
         "activo": true
     },
     {
-        "id": 300,
+        "id": 301,
         "codigo": "JFW0015",
         "nombre": "VINO FRONTERA ROSE X 750 CJ X 12",
         "precio": 36200,
@@ -3299,7 +3310,7 @@
         "activo": false
     },
     {
-        "id": 301,
+        "id": 302,
         "codigo": "JFW0016",
         "nombre": "VINO FRONTERA SAUV. BLANCO X 750 CJ X 12",
         "precio": 37608,
@@ -3310,18 +3321,18 @@
         "activo": false
     },
     {
-        "id": 302,
+        "id": 303,
         "codigo": "JFW0018",
         "nombre": "WHISKY JACK DANIEL´S HONEY",
         "precio": 106817,
         "imagen": "../assets/img_catalogo/5099873001370.png",
         "barra": 5099873001370,
-        "invetario": 231,
+        "invetario": 224,
         "proveedor": "GLOBAL",
         "activo": true
     },
     {
-        "id": 303,
+        "id": 304,
         "codigo": "JFW0020",
         "nombre": "TEQUILA PATRON AÑEJO 700",
         "precio": 254187,
@@ -3332,7 +3343,7 @@
         "activo": true
     },
     {
-        "id": 304,
+        "id": 305,
         "codigo": "JFW0022",
         "nombre": "TEQUILA HERRADURA PLATA X 750",
         "precio": 157274,
@@ -3343,18 +3354,18 @@
         "activo": true
     },
     {
-        "id": 305,
+        "id": 306,
         "codigo": "JFW0023",
         "nombre": "WHISKY JACK DANIEL 'S APPLE",
         "precio": 106818,
         "imagen": "../assets/img_catalogo/5099873017623.png",
         "barra": 5099873017623,
-        "invetario": 238,
+        "invetario": 235,
         "proveedor": "GLOBAL",
         "activo": true
     },
     {
-        "id": 306,
+        "id": 307,
         "codigo": "JFW0024",
         "nombre": "JAGERMAISTER 700 ML CJ X 6 UND",
         "precio": 101135,
@@ -3365,7 +3376,7 @@
         "activo": true
     },
     {
-        "id": 307,
+        "id": 308,
         "codigo": "JFW0025",
         "nombre": "WHISKY MACALLAN 12 AÑOS DOBLE CASK 700",
         "precio": 364169,
@@ -3376,7 +3387,7 @@
         "activo": true
     },
     {
-        "id": 308,
+        "id": 309,
         "codigo": "JFW0032",
         "nombre": "TEQUILA JIMADOR BLANCO X 700 ML",
         "precio": 94150,
@@ -3387,7 +3398,7 @@
         "activo": true
     },
     {
-        "id": 309,
+        "id": 310,
         "codigo": "JFW0033",
         "nombre": "TEQUILA HERRADURA REPOSADO",
         "precio": 208228,
@@ -3398,7 +3409,7 @@
         "activo": true
     },
     {
-        "id": 310,
+        "id": 311,
         "codigo": "JFW0037",
         "nombre": "TEQUILA HERRADURA AÑEJO X 750",
         "precio": 219000,
@@ -3409,29 +3420,29 @@
         "activo": true
     },
     {
-        "id": 311,
+        "id": 312,
         "codigo": "JFW0039",
         "nombre": "WHISKY JACK DANIEL´S N° 7 X 375 CJ X 24",
         "precio": 59319,
         "imagen": "../assets/img_catalogo/082184090510.png",
         "barra": "082184090510",
-        "invetario": 46,
-        "proveedor": "GLOBAL",
-        "activo": true
-    },
-    {
-        "id": 312,
-        "codigo": "JFW0040",
-        "nombre": "WHISKY JACK DANIEL´S HONEY X 375 CJ 24",
-        "precio": 59319,
-        "imagen": "../assets/img_catalogo/082184001363.png",
-        "barra": "082184001363",
-        "invetario": 79,
+        "invetario": 43,
         "proveedor": "GLOBAL",
         "activo": true
     },
     {
         "id": 313,
+        "codigo": "JFW0040",
+        "nombre": "WHISKY JACK DANIEL´S HONEY X 375 CJ 24",
+        "precio": 59319,
+        "imagen": "../assets/img_catalogo/082184001363.png",
+        "barra": "082184001363",
+        "invetario": 74,
+        "proveedor": "GLOBAL",
+        "activo": true
+    },
+    {
+        "id": 314,
         "codigo": "JFW0041",
         "nombre": "VINO CASILLERO CARMENERE X 750 CJ X 12",
         "precio": 54951,
@@ -3442,7 +3453,7 @@
         "activo": false
     },
     {
-        "id": 314,
+        "id": 315,
         "codigo": "JFW0057",
         "nombre": "VINO CASILLERO CHARDONNAY 750",
         "precio": 54950,
@@ -3453,40 +3464,40 @@
         "activo": true
     },
     {
-        "id": 315,
+        "id": 316,
         "codigo": "JFW0073",
         "nombre": "RON BACARDI ZOMBIE X 750 CJ X 12",
         "precio": 44441,
         "imagen": "../assets/img_catalogo/080480985493.png",
         "barra": "080480985493",
-        "invetario": 471,
-        "proveedor": "GLOBAL",
-        "activo": true
-    },
-    {
-        "id": 316,
-        "codigo": "JFW0074",
-        "nombre": "RON BACARDI MOJITO X 750 CJ X 12 UND",
-        "precio": 43723,
-        "imagen": "../assets/img_catalogo/080480985462.png",
-        "barra": "080480985462",
-        "invetario": 390,
+        "invetario": 456,
         "proveedor": "GLOBAL",
         "activo": true
     },
     {
         "id": 317,
-        "codigo": "JFW0075",
-        "nombre": "RON BACARDI LIMON X 700 CJ X 12 UND",
-        "precio": 43263,
-        "imagen": "../assets/img_catalogo/7610113006184.png",
-        "barra": 7610113006184,
-        "invetario": 224,
+        "codigo": "JFW0074",
+        "nombre": "RON BACARDI MOJITO X 750 CJ X 12 UND",
+        "precio": 43723,
+        "imagen": "../assets/img_catalogo/080480985462.png",
+        "barra": "080480985462",
+        "invetario": 378,
         "proveedor": "GLOBAL",
         "activo": true
     },
     {
         "id": 318,
+        "codigo": "JFW0075",
+        "nombre": "RON BACARDI LIMON X 700 CJ X 12 UND",
+        "precio": 43263,
+        "imagen": "../assets/img_catalogo/7610113006184.png",
+        "barra": 7610113006184,
+        "invetario": 212,
+        "proveedor": "GLOBAL",
+        "activo": true
+    },
+    {
+        "id": 319,
         "codigo": "JFW0076",
         "nombre": "RON BACARDI LIMON X 375 CJ X 24 UND",
         "precio": 28523,
@@ -3497,7 +3508,7 @@
         "activo": true
     },
     {
-        "id": 319,
+        "id": 320,
         "codigo": "JFW0077",
         "nombre": "RON BACARDI AÑEJO X 750 CJ X 12 UND",
         "precio": 45245,
@@ -3508,7 +3519,7 @@
         "activo": true
     },
     {
-        "id": 320,
+        "id": 321,
         "codigo": "JFW0078",
         "nombre": "RON BACARDI SUPERIOR CARTA BLANCA X 750 CJ X 12 UND",
         "precio": 51135,
@@ -3519,7 +3530,7 @@
         "activo": true
     },
     {
-        "id": 321,
+        "id": 322,
         "codigo": "JFW0079",
         "nombre": "WHISKY WILLIAM LAWSON´S X 700 CC CJ X 12 UND",
         "precio": 45638,
@@ -3530,7 +3541,7 @@
         "activo": true
     },
     {
-        "id": 322,
+        "id": 323,
         "codigo": "JFW0089",
         "nombre": "BULLDOG GIN 750",
         "precio": 158972,
@@ -3541,7 +3552,7 @@
         "activo": true
     },
     {
-        "id": 323,
+        "id": 324,
         "codigo": "JFW0090",
         "nombre": "GINEGRA BOMBAY SAPPHIRE X 500 ML",
         "precio": 88715,
@@ -3552,7 +3563,7 @@
         "activo": true
     },
     {
-        "id": 324,
+        "id": 325,
         "codigo": "JFW0091",
         "nombre": "GINEBRA BOMBAY SAPPHIRE X 700 ML",
         "precio": 117791,
@@ -3563,29 +3574,29 @@
         "activo": true
     },
     {
-        "id": 325,
+        "id": 326,
         "codigo": "JFW0103",
         "nombre": "WHISKY JACK DANIEL´S FIRE",
         "precio": 106818,
         "imagen": "../assets/img_catalogo/82184001172.png",
         "barra": 82184001172,
-        "invetario": 70,
-        "proveedor": "GLOBAL",
-        "activo": true
-    },
-    {
-        "id": 326,
-        "codigo": "JFW0107",
-        "nombre": "WHISKY JACK DANIEL´S N° 7",
-        "precio": 108434,
-        "imagen": "../assets/img_catalogo/082184090473.png",
-        "barra": "082184090473",
-        "invetario": 219,
+        "invetario": 67,
         "proveedor": "GLOBAL",
         "activo": true
     },
     {
         "id": 327,
+        "codigo": "JFW0107",
+        "nombre": "WHISKY JACK DANIEL´S N° 7",
+        "precio": 108434,
+        "imagen": "../assets/img_catalogo/082184090473.png",
+        "barra": "082184090473",
+        "invetario": 216,
+        "proveedor": "GLOBAL",
+        "activo": true
+    },
+    {
+        "id": 328,
         "codigo": "JFW0114",
         "nombre": "RON BACARDI MANDARINA 750 ML CJ X 12",
         "precio": 43486,
@@ -3596,7 +3607,7 @@
         "activo": true
     },
     {
-        "id": 328,
+        "id": 329,
         "codigo": "JFW0117",
         "nombre": "RON BACARDI BAHAMA MAMA 750 ML CJ X 12",
         "precio": 42217,
@@ -3607,7 +3618,7 @@
         "activo": true
     },
     {
-        "id": 329,
+        "id": 330,
         "codigo": "JFW0126",
         "nombre": "RON BACARDI HURRACANE X 750 CJ X 12",
         "precio": 44139,
@@ -3618,7 +3629,7 @@
         "activo": true
     },
     {
-        "id": 330,
+        "id": 331,
         "codigo": "JFW0127",
         "nombre": "WHISKY KING OF QUEENS 750 ML CJ X 12",
         "precio": 45600,
@@ -3629,29 +3640,29 @@
         "activo": true
     },
     {
-        "id": 331,
+        "id": 332,
         "codigo": "JFW0128",
         "nombre": "WHISKY GRANT TRIPLE WOOD X 700 CJ X 12",
         "precio": 51139,
         "imagen": "../assets/img_catalogo/5010327000404.png",
         "barra": 5010327000404,
-        "invetario": 314,
-        "proveedor": "GLOBAL",
-        "activo": true
-    },
-    {
-        "id": 332,
-        "codigo": "JFW0129",
-        "nombre": "WHISKY GRANT TRIPLE WOOD X 1000 ML CJ X 12",
-        "precio": "72995,4",
-        "imagen": "../assets/img_catalogo/5010327000039.png",
-        "barra": 5010327000039,
-        "invetario": 14,
+        "invetario": 312,
         "proveedor": "GLOBAL",
         "activo": true
     },
     {
         "id": 333,
+        "codigo": "JFW0129",
+        "nombre": "WHISKY GRANT TRIPLE WOOD X 1000 ML CJ X 12",
+        "precio": "72995,4",
+        "imagen": "../assets/img_catalogo/5010327000039.png",
+        "barra": 5010327000039,
+        "invetario": 194,
+        "proveedor": "GLOBAL",
+        "activo": true
+    },
+    {
+        "id": 334,
         "codigo": "JJS0001",
         "nombre": "ESPONJA MATRIX X 12 CJ 40",
         "precio": 6471,
@@ -3662,73 +3673,73 @@
         "activo": false
     },
     {
-        "id": 334,
+        "id": 335,
         "codigo": "JJS0002",
         "nombre": "ESPONJA MATRIX X 12 UND CJ 48",
         "precio": 6406,
         "imagen": "../assets/img_catalogo/7453010015787.png",
         "barra": 7453010015787,
-        "invetario": 135,
+        "invetario": 123,
         "proveedor": "COMERCIALIZADORA JS",
         "activo": true
     },
     {
-        "id": 335,
+        "id": 336,
         "codigo": "JJS0003",
         "nombre": "MEGAESTROPAJO CUADRADO X 12 UND",
         "precio": 2318,
         "imagen": "../assets/img_catalogo/7709916044346.png",
         "barra": 7709916044346,
-        "invetario": 197,
-        "proveedor": "SURAMERICANA",
-        "activo": true
-    },
-    {
-        "id": 336,
-        "codigo": "JJS0004",
-        "nombre": "MEGAESTROPAJO TIPO GUANTE X 12 UND",
-        "precio": 4269,
-        "imagen": "../assets/img_catalogo/7709916044322.png",
-        "barra": 7709916044322,
-        "invetario": 25,
+        "invetario": 545,
         "proveedor": "SURAMERICANA",
         "activo": true
     },
     {
         "id": 337,
-        "codigo": "JJS0005",
-        "nombre": "MEGAESTROPAJO DISCO FACIAL X 12 UND",
-        "precio": 1830,
-        "imagen": "../assets/img_catalogo/7709916044339.png",
-        "barra": 7709916044339,
-        "invetario": 4,
+        "codigo": "JJS0004",
+        "nombre": "MEGAESTROPAJO TIPO GUANTE X 12 UND",
+        "precio": 4269,
+        "imagen": "../assets/img_catalogo/7709916044322.png",
+        "barra": 7709916044322,
+        "invetario": 384,
         "proveedor": "SURAMERICANA",
         "activo": true
     },
     {
         "id": 338,
-        "codigo": "JJS0006",
-        "nombre": "MEGAESTROPAJO ESPALDA X 12 UND",
-        "precio": 4439,
-        "imagen": "../assets/img_catalogo/7709916044308.png",
-        "barra": 7709916044308,
-        "invetario": 132,
+        "codigo": "JJS0005",
+        "nombre": "MEGAESTROPAJO DISCO FACIAL X 12 UND",
+        "precio": 1830,
+        "imagen": "../assets/img_catalogo/7709916044339.png",
+        "barra": 7709916044339,
+        "invetario": 412,
         "proveedor": "SURAMERICANA",
         "activo": true
     },
     {
         "id": 339,
-        "codigo": "JJS0007",
-        "nombre": "MEGAESTROPAJO NATURAL X 12 UND",
-        "precio": 1854,
-        "imagen": "../assets/img_catalogo/7709916044384.png",
-        "barra": 7709916044384,
-        "invetario": 231,
+        "codigo": "JJS0006",
+        "nombre": "MEGAESTROPAJO ESPALDA X 12 UND",
+        "precio": 4439,
+        "imagen": "../assets/img_catalogo/7709916044308.png",
+        "barra": 7709916044308,
+        "invetario": 492,
         "proveedor": "SURAMERICANA",
         "activo": true
     },
     {
         "id": 340,
+        "codigo": "JJS0007",
+        "nombre": "MEGAESTROPAJO NATURAL X 12 UND",
+        "precio": 1854,
+        "imagen": "../assets/img_catalogo/7709916044384.png",
+        "barra": 7709916044384,
+        "invetario": 645,
+        "proveedor": "SURAMERICANA",
+        "activo": true
+    },
+    {
+        "id": 341,
         "codigo": "JLA0001",
         "nombre": "DESQUITE AGUARDIENTE ARTESANAL X 750 ML CJ X 6",
         "precio": 63372,
@@ -3739,7 +3750,7 @@
         "activo": true
     },
     {
-        "id": 341,
+        "id": 342,
         "codigo": "JLA0002",
         "nombre": "DESQUITE + FLASK",
         "precio": 57001,
@@ -3750,7 +3761,7 @@
         "activo": true
     },
     {
-        "id": 342,
+        "id": 343,
         "codigo": "JLC0001",
         "nombre": "ALASKA ACEITE DE CITRONELA X 250",
         "precio": 10835,
@@ -3761,18 +3772,18 @@
         "activo": true
     },
     {
-        "id": 343,
+        "id": 344,
         "codigo": "JLC0002",
         "nombre": "AUTOMATICO + REPUESTO FLORAL CJ X 6",
         "precio": 30365,
         "imagen": "../assets/img_catalogo/7702532462563.png",
         "barra": 7702532462563,
-        "invetario": 5,
+        "invetario": 4,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
-        "id": 344,
+        "id": 345,
         "codigo": "JLC0003",
         "nombre": "AUTOMATICO + REPUESTO VAINILLA CJ X 6",
         "precio": 30365,
@@ -3783,73 +3794,73 @@
         "activo": true
     },
     {
-        "id": 345,
+        "id": 346,
         "codigo": "JLC0004",
         "nombre": "AUTOMATICO REPT FLORAL X 12",
         "precio": 16033,
         "imagen": "../assets/img_catalogo/7702532372107.png",
         "barra": 7702532372107,
-        "invetario": 13,
-        "proveedor": "COFARMA",
-        "activo": true
-    },
-    {
-        "id": 346,
-        "codigo": "JLC0005",
-        "nombre": "AUTOMATICO REPT VAINILLA X 12",
-        "precio": 16033,
-        "imagen": "../assets/img_catalogo/7702532372121.png",
-        "barra": 7702532372121,
-        "invetario": 6,
+        "invetario": 9,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 347,
-        "codigo": "JLC0006",
-        "nombre": "BON BRISA TROPICAL X 250 ML SPRAY CJ X 12",
-        "precio": 4495,
-        "imagen": "../assets/img_catalogo/7702532370899.png",
-        "barra": 7702532370899,
-        "invetario": 43,
+        "codigo": "JLC0005",
+        "nombre": "AUTOMATICO REPT VAINILLA X 12",
+        "precio": 16033,
+        "imagen": "../assets/img_catalogo/7702532372121.png",
+        "barra": 7702532372121,
+        "invetario": 2,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 348,
-        "codigo": "JLC0007",
-        "nombre": "BON FRUTOS ROJOS  X 250 ML SPRAY CJ X 12",
+        "codigo": "JLC0006",
+        "nombre": "BON BRISA TROPICAL X 250 ML SPRAY CJ X 12",
         "precio": 4495,
-        "imagen": "../assets/img_catalogo/7702532370882.png",
-        "barra": 7702532370882,
-        "invetario": 70,
+        "imagen": "../assets/img_catalogo/7702532370899.png",
+        "barra": 7702532370899,
+        "invetario": 88,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 349,
-        "codigo": "JLC0008",
-        "nombre": "BON BABY FRESH X 400 ML CJ X 12",
-        "precio": 8092,
-        "imagen": "../assets/img_catalogo/7702532370974.png",
-        "barra": 7702532370974,
-        "invetario": 20,
+        "codigo": "JLC0007",
+        "nombre": "BON FRUTOS ROJOS  X 250 ML SPRAY CJ X 12",
+        "precio": 4495,
+        "imagen": "../assets/img_catalogo/7702532370882.png",
+        "barra": 7702532370882,
+        "invetario": 36,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 350,
-        "codigo": "JLC0009",
-        "nombre": "BON BAMBU X 400 ML CJ X 12",
+        "codigo": "JLC0008",
+        "nombre": "BON BABY FRESH X 400 ML CJ X 12",
         "precio": 8092,
-        "imagen": "../assets/img_catalogo/7702532370905.png",
-        "barra": 7702532370905,
-        "invetario": 40,
+        "imagen": "../assets/img_catalogo/7702532370974.png",
+        "barra": 7702532370974,
+        "invetario": 84,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 351,
+        "codigo": "JLC0009",
+        "nombre": "BON BAMBU X 400 ML CJ X 12",
+        "precio": 8092,
+        "imagen": "../assets/img_catalogo/7702532370905.png",
+        "barra": 7702532370905,
+        "invetario": 6,
+        "proveedor": "COFARMA",
+        "activo": true
+    },
+    {
+        "id": 352,
         "codigo": "JLC0010",
         "nombre": "BON BRISA TROPICAL X 400 CJ X 12",
         "precio": 8092,
@@ -3860,106 +3871,106 @@
         "activo": true
     },
     {
-        "id": 352,
+        "id": 353,
         "codigo": "JLC0011",
         "nombre": "BON CANELA X 400 ML CJ X 12",
         "precio": 8092,
         "imagen": "../assets/img_catalogo/7702532370912.png",
         "barra": 7702532370912,
-        "invetario": 34,
-        "proveedor": "COFARMA",
-        "activo": true
-    },
-    {
-        "id": 353,
-        "codigo": "JLC0012",
-        "nombre": "BON FRUTAS DE CARIBE X 400 CJ X 12",
-        "precio": 8092,
-        "imagen": "../assets/img_catalogo/7702532828901.png",
-        "barra": 7702532828901,
-        "invetario": 39,
-        "proveedor": "COFARMA",
-        "activo": true
-    },
-    {
-        "id": 354,
-        "codigo": "JLC0013",
-        "nombre": "BON FRUTOS ROJOS X 400 ML CJ X 12",
-        "precio": 8092,
-        "imagen": "../assets/img_catalogo/7702532370707.png",
-        "barra": 7702532370707,
-        "invetario": 47,
-        "proveedor": "COFARMA",
-        "activo": true
-    },
-    {
-        "id": 355,
-        "codigo": "JLC0014",
-        "nombre": "BON LAVANDA X 400 ML CJ X 12",
-        "precio": 8092,
-        "imagen": "../assets/img_catalogo/7702532370943.png",
-        "barra": 7702532370943,
-        "invetario": 47,
-        "proveedor": "COFARMA",
-        "activo": true
-    },
-    {
-        "id": 356,
-        "codigo": "JLC0015",
-        "nombre": "BON VAINILLA X 400 ML CJ X 12",
-        "precio": 8092,
-        "imagen": "../assets/img_catalogo/7702532370981.png",
-        "barra": 7702532370981,
         "invetario": 50,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
-        "id": 357,
-        "codigo": "JLC0016",
-        "nombre": "BON ORQUIDEA DE LOS ANDES X 400 ML  CJ X 12",
+        "id": 354,
+        "codigo": "JLC0012",
+        "nombre": "BON FRUTAS DE CARIBE X 400 CJ X 12",
         "precio": 8092,
-        "imagen": "../assets/img_catalogo/7702532370721.png",
-        "barra": 7702532370721,
-        "invetario": 40,
+        "imagen": "../assets/img_catalogo/7702532828901.png",
+        "barra": 7702532828901,
+        "invetario": 77,
+        "proveedor": "COFARMA",
+        "activo": true
+    },
+    {
+        "id": 355,
+        "codigo": "JLC0013",
+        "nombre": "BON FRUTOS ROJOS X 400 ML CJ X 12",
+        "precio": 8092,
+        "imagen": "../assets/img_catalogo/7702532370707.png",
+        "barra": 7702532370707,
+        "invetario": 0,
+        "proveedor": "COFARMA",
+        "activo": true
+    },
+    {
+        "id": 356,
+        "codigo": "JLC0014",
+        "nombre": "BON LAVANDA X 400 ML CJ X 12",
+        "precio": 8092,
+        "imagen": "../assets/img_catalogo/7702532370943.png",
+        "barra": 7702532370943,
+        "invetario": 35,
+        "proveedor": "COFARMA",
+        "activo": true
+    },
+    {
+        "id": 357,
+        "codigo": "JLC0015",
+        "nombre": "BON VAINILLA X 400 ML CJ X 12",
+        "precio": 8092,
+        "imagen": "../assets/img_catalogo/7702532370981.png",
+        "barra": 7702532370981,
+        "invetario": 42,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 358,
-        "codigo": "JLC0017",
-        "nombre": "ELEC X 1 FRUTOS ROJOS CJ X 12 UND",
-        "precio": 8842,
-        "imagen": "../assets/img_catalogo/7702532312448.png",
-        "barra": 7702532312448,
-        "invetario": 48,
+        "codigo": "JLC0016",
+        "nombre": "BON ORQUIDEA DE LOS ANDES X 400 ML  CJ X 12",
+        "precio": 8092,
+        "imagen": "../assets/img_catalogo/7702532370721.png",
+        "barra": 7702532370721,
+        "invetario": 35,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 359,
-        "codigo": "JLC0018",
-        "nombre": "ELEC X 1 MANDARINA Y TOROJA CJ X 12",
+        "codigo": "JLC0017",
+        "nombre": "ELEC X 1 FRUTOS ROJOS CJ X 12 UND",
         "precio": 8842,
-        "imagen": "../assets/img_catalogo/7702532164498.png",
-        "barra": 7702532164498,
-        "invetario": 62,
+        "imagen": "../assets/img_catalogo/7702532312448.png",
+        "barra": 7702532312448,
+        "invetario": 44,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 360,
-        "codigo": "JLC0019",
-        "nombre": "ELEC X 1 VAINILLA CJ X 12 UND",
+        "codigo": "JLC0018",
+        "nombre": "ELEC X 1 MANDARINA Y TOROJA CJ X 12",
         "precio": 8842,
-        "imagen": "../assets/img_catalogo/7702532300117.png",
-        "barra": 7702532300117,
-        "invetario": 48,
+        "imagen": "../assets/img_catalogo/7702532164498.png",
+        "barra": 7702532164498,
+        "invetario": 58,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 361,
+        "codigo": "JLC0019",
+        "nombre": "ELEC X 1 VAINILLA CJ X 12 UND",
+        "precio": 8842,
+        "imagen": "../assets/img_catalogo/7702532300117.png",
+        "barra": 7702532300117,
+        "invetario": 44,
+        "proveedor": "COFARMA",
+        "activo": true
+    },
+    {
+        "id": 362,
         "codigo": "JLC0020",
         "nombre": "ELEC X 2 MANDARINA Y TORONJA",
         "precio": 16662,
@@ -3970,84 +3981,84 @@
         "activo": true
     },
     {
-        "id": 362,
+        "id": 363,
         "codigo": "JLC0021",
         "nombre": "BON ELEC X 3 COMBINADO CJ X 12",
         "precio": 22059,
         "imagen": "../assets/img_catalogo/7702532840187.png",
         "barra": 7702532840187,
-        "invetario": 55,
-        "proveedor": "COFARMA",
-        "activo": true
-    },
-    {
-        "id": 363,
-        "codigo": "JLC0022",
-        "nombre": "BON ELEC X 3 FRUTAS DEL CARIBE CJ X 12",
-        "precio": 22059,
-        "imagen": "../assets/img_catalogo/7702532371803.png",
-        "barra": 7702532371803,
-        "invetario": 38,
+        "invetario": 44,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 364,
-        "codigo": "JLC0023",
-        "nombre": "BON ELEC X 3 FRUTOS ROJOS CJ X 12",
+        "codigo": "JLC0022",
+        "nombre": "BON ELEC X 3 FRUTAS DEL CARIBE CJ X 12",
         "precio": 22059,
-        "imagen": "../assets/img_catalogo/7702532312295.png",
-        "barra": 7702532312295,
-        "invetario": 43,
+        "imagen": "../assets/img_catalogo/7702532371803.png",
+        "barra": 7702532371803,
+        "invetario": 32,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 365,
-        "codigo": "JLC0024",
-        "nombre": "BON ELEC X 3 VAINILLA FRANCESA CJ X 12",
+        "codigo": "JLC0023",
+        "nombre": "BON ELEC X 3 FRUTOS ROJOS CJ X 12",
         "precio": 22059,
-        "imagen": "../assets/img_catalogo/7702532300131.png",
-        "barra": 7702532300131,
-        "invetario": 17,
+        "imagen": "../assets/img_catalogo/7702532312295.png",
+        "barra": 7702532312295,
+        "invetario": 37,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 366,
-        "codigo": "JLC0025",
-        "nombre": "VAPO ELEC FRUTAS DEL CARIBE CJ X 12",
-        "precio": 12575,
-        "imagen": "../assets/img_catalogo/7702532087059.png",
-        "barra": 7702532087059,
-        "invetario": 28,
+        "codigo": "JLC0024",
+        "nombre": "BON ELEC X 3 VAINILLA FRANCESA CJ X 12",
+        "precio": 22059,
+        "imagen": "../assets/img_catalogo/7702532300131.png",
+        "barra": 7702532300131,
+        "invetario": 35,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 367,
-        "codigo": "JLC0026",
-        "nombre": "VAPO ELEC FRUTOS ROJOS CJ X 12",
+        "codigo": "JLC0025",
+        "nombre": "VAPO ELEC FRUTAS DEL CARIBE CJ X 12",
         "precio": 12575,
-        "imagen": "../assets/img_catalogo/7702532312394.png",
-        "barra": 7702532312394,
-        "invetario": 27,
+        "imagen": "../assets/img_catalogo/7702532087059.png",
+        "barra": 7702532087059,
+        "invetario": 21,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 368,
-        "codigo": "JLC0027",
-        "nombre": "VAPO ELEC VAINILLA Y AMBAR CJ X 12",
+        "codigo": "JLC0026",
+        "nombre": "VAPO ELEC FRUTOS ROJOS CJ X 12",
         "precio": 12575,
-        "imagen": "../assets/img_catalogo/7702532300124.png",
-        "barra": 7702532300124,
-        "invetario": 28,
+        "imagen": "../assets/img_catalogo/7702532312394.png",
+        "barra": 7702532312394,
+        "invetario": 25,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 369,
+        "codigo": "JLC0027",
+        "nombre": "VAPO ELEC VAINILLA Y AMBAR CJ X 12",
+        "precio": 12575,
+        "imagen": "../assets/img_catalogo/7702532300124.png",
+        "barra": 7702532300124,
+        "invetario": 20,
+        "proveedor": "COFARMA",
+        "activo": true
+    },
+    {
+        "id": 370,
         "codigo": "JLC0028",
         "nombre": "BON GEL AGUA DE VERBENA X 170 ML CJ X 12",
         "precio": 5791,
@@ -4058,7 +4069,7 @@
         "activo": true
     },
     {
-        "id": 370,
+        "id": 371,
         "codigo": "JLC0029",
         "nombre": "BON GEL FRUTAS DEL CARIBE X 170 ML CJ X 12",
         "precio": 5791,
@@ -4069,18 +4080,18 @@
         "activo": true
     },
     {
-        "id": 371,
+        "id": 372,
         "codigo": "JLC0030",
         "nombre": "BON GEL FRUTOS ROJOS X 170 ML CJ X 12",
         "precio": 5791,
         "imagen": "../assets/img_catalogo/7702532226530.png",
         "barra": 7702532226530,
-        "invetario": 17,
+        "invetario": 14,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
-        "id": 372,
+        "id": 373,
         "codigo": "JLC0031",
         "nombre": "GEL FRUTOS ROJOS MORA SILVESTRE X 80 ML CJ X 12",
         "precio": 3787,
@@ -4091,29 +4102,29 @@
         "activo": true
     },
     {
-        "id": 373,
+        "id": 374,
         "codigo": "JLC0032",
         "nombre": "BONAIRE AUTO MADEIRA BRISA TROPICAL X 6 ML",
         "precio": 8680,
         "imagen": "../assets/img_catalogo/7702532314404.png",
         "barra": 7702532314404,
-        "invetario": 3,
-        "proveedor": "COFARMA",
-        "activo": true
-    },
-    {
-        "id": 374,
-        "codigo": "JLC0033",
-        "nombre": "BONAIRE AUTO MADEIRA VAINILLA X 6 ML",
-        "precio": 8680,
-        "imagen": "../assets/img_catalogo/7702532188579.png",
-        "barra": 7702532188579,
-        "invetario": 5,
+        "invetario": 13,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 375,
+        "codigo": "JLC0033",
+        "nombre": "BONAIRE AUTO MADEIRA VAINILLA X 6 ML",
+        "precio": 8680,
+        "imagen": "../assets/img_catalogo/7702532188579.png",
+        "barra": 7702532188579,
+        "invetario": 15,
+        "proveedor": "COFARMA",
+        "activo": true
+    },
+    {
+        "id": 376,
         "codigo": "JLC0034",
         "nombre": "PINOLINA CANELA X 150 ML CJ X 24",
         "precio": 988,
@@ -4124,7 +4135,7 @@
         "activo": true
     },
     {
-        "id": 376,
+        "id": 377,
         "codigo": "JLC0035",
         "nombre": "PINOLINA CITRONELA X 150 ML CJ X 24",
         "precio": 988,
@@ -4135,161 +4146,161 @@
         "activo": true
     },
     {
-        "id": 377,
+        "id": 378,
         "codigo": "JLC0036",
         "nombre": "PINOLINA LAVANDA X 150 CJ X 24",
         "precio": 988,
         "imagen": "../assets/img_catalogo/7702532430548.png",
         "barra": 7702532430548,
-        "invetario": 84,
-        "proveedor": "COFARMA",
-        "activo": true
-    },
-    {
-        "id": 378,
-        "codigo": "JLC0037",
-        "nombre": "PINOLINA BABY FRESH X 460 CJ X 24",
-        "precio": 3118,
-        "imagen": "../assets/img_catalogo/7702532430807.png",
-        "barra": 7702532430807,
-        "invetario": 242,
+        "invetario": 72,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 379,
-        "codigo": "JLC0038",
-        "nombre": "PINOLINA BAMBU X 460 CJ X 24",
+        "codigo": "JLC0037",
+        "nombre": "PINOLINA BABY FRESH X 460 CJ X 24",
         "precio": 3118,
-        "imagen": "../assets/img_catalogo/7702532430852.png",
-        "barra": 7702532430852,
-        "invetario": 209,
+        "imagen": "../assets/img_catalogo/7702532430807.png",
+        "barra": 7702532430807,
+        "invetario": 225,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 380,
-        "codigo": "JLC0039",
-        "nombre": "PINOLINA CANELA X 460 CJ X 24",
+        "codigo": "JLC0038",
+        "nombre": "PINOLINA BAMBU X 460 CJ X 24",
         "precio": 3118,
-        "imagen": "../assets/img_catalogo/7702532430814.png",
-        "barra": 7702532430814,
-        "invetario": 347,
+        "imagen": "../assets/img_catalogo/7702532430852.png",
+        "barra": 7702532430852,
+        "invetario": 189,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 381,
-        "codigo": "JLC0040",
-        "nombre": "PINOLINA CITRONELA X 460 CJ X 24",
+        "codigo": "JLC0039",
+        "nombre": "PINOLINA CANELA X 460 CJ X 24",
         "precio": 3118,
-        "imagen": "../assets/img_catalogo/7702532430845.png",
-        "barra": 7702532430845,
-        "invetario": 415,
+        "imagen": "../assets/img_catalogo/7702532430814.png",
+        "barra": 7702532430814,
+        "invetario": 325,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 382,
-        "codigo": "JLC0041",
-        "nombre": "PINOLINA FLORAL X 460 CJ X 24",
+        "codigo": "JLC0040",
+        "nombre": "PINOLINA CITRONELA X 460 CJ X 24",
         "precio": 3118,
-        "imagen": "../assets/img_catalogo/7702532430876.png",
-        "barra": 7702532430876,
-        "invetario": 207,
+        "imagen": "../assets/img_catalogo/7702532430845.png",
+        "barra": 7702532430845,
+        "invetario": 378,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 383,
-        "codigo": "JLC0042",
-        "nombre": "PINOLINA FRUTOS ROJOS X 460 CJ X 24",
+        "codigo": "JLC0041",
+        "nombre": "PINOLINA FLORAL X 460 CJ X 24",
         "precio": 3118,
-        "imagen": "../assets/img_catalogo/7702532430883.png",
-        "barra": 7702532430883,
-        "invetario": 157,
+        "imagen": "../assets/img_catalogo/7702532430876.png",
+        "barra": 7702532430876,
+        "invetario": 192,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 384,
-        "codigo": "JLC0043",
-        "nombre": "PINOLINA LAVANDA X 460 CJ X 24",
+        "codigo": "JLC0042",
+        "nombre": "PINOLINA FRUTOS ROJOS X 460 CJ X 24",
         "precio": 3118,
-        "imagen": "../assets/img_catalogo/7702532430821.png",
-        "barra": 7702532430821,
-        "invetario": 187,
+        "imagen": "../assets/img_catalogo/7702532430883.png",
+        "barra": 7702532430883,
+        "invetario": 142,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 385,
-        "codigo": "JLC0044",
-        "nombre": "PINOLINA BABY FRESH X 960 CJ X 12",
-        "precio": 6728,
-        "imagen": "../assets/img_catalogo/7702532430135.png",
-        "barra": 7702532430135,
-        "invetario": 75,
+        "codigo": "JLC0043",
+        "nombre": "PINOLINA LAVANDA X 460 CJ X 24",
+        "precio": 3118,
+        "imagen": "../assets/img_catalogo/7702532430821.png",
+        "barra": 7702532430821,
+        "invetario": 169,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 386,
-        "codigo": "JLC0045",
-        "nombre": "PINOLINA BAMBU X 960 CJ X 12",
+        "codigo": "JLC0044",
+        "nombre": "PINOLINA BABY FRESH X 960 CJ X 12",
         "precio": 6728,
-        "imagen": "../assets/img_catalogo/7702532430746.png",
-        "barra": 7702532430746,
-        "invetario": 91,
+        "imagen": "../assets/img_catalogo/7702532430135.png",
+        "barra": 7702532430135,
+        "invetario": 62,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 387,
-        "codigo": "JLC0046",
-        "nombre": "PINOLINA CANELA Y MIEL  X 960 CJ X 12",
+        "codigo": "JLC0045",
+        "nombre": "PINOLINA BAMBU X 960 CJ X 12",
         "precio": 6728,
-        "imagen": "../assets/img_catalogo/7702532552653.png",
-        "barra": 7702532552653,
-        "invetario": 138,
+        "imagen": "../assets/img_catalogo/7702532430746.png",
+        "barra": 7702532430746,
+        "invetario": 84,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 388,
-        "codigo": "JLC0047",
-        "nombre": "PINOLINA CITRONELA X 960 CJ X 12",
+        "codigo": "JLC0046",
+        "nombre": "PINOLINA CANELA Y MIEL  X 960 CJ X 12",
         "precio": 6728,
-        "imagen": "../assets/img_catalogo/7702532634311.png",
-        "barra": 7702532634311,
-        "invetario": 136,
+        "imagen": "../assets/img_catalogo/7702532552653.png",
+        "barra": 7702532552653,
+        "invetario": 112,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 389,
-        "codigo": "JLC0048",
-        "nombre": "PINOLINA LAVANDA X 960 CJ X 12",
+        "codigo": "JLC0047",
+        "nombre": "PINOLINA CITRONELA X 960 CJ X 12",
         "precio": 6728,
-        "imagen": "../assets/img_catalogo/7702532430159.png",
-        "barra": 7702532430159,
-        "invetario": 83,
+        "imagen": "../assets/img_catalogo/7702532634311.png",
+        "barra": 7702532634311,
+        "invetario": 110,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 390,
-        "codigo": "JLC0049",
-        "nombre": "PINOLINA FLORAL X 960 CJ X 12",
+        "codigo": "JLC0048",
+        "nombre": "PINOLINA LAVANDA X 960 CJ X 12",
         "precio": 6728,
-        "imagen": "../assets/img_catalogo/7702532430142.png",
-        "barra": 7702532430142,
-        "invetario": 82,
+        "imagen": "../assets/img_catalogo/7702532430159.png",
+        "barra": 7702532430159,
+        "invetario": 55,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 391,
+        "codigo": "JLC0049",
+        "nombre": "PINOLINA FLORAL X 960 CJ X 12",
+        "precio": 6728,
+        "imagen": "../assets/img_catalogo/7702532430142.png",
+        "barra": 7702532430142,
+        "invetario": 73,
+        "proveedor": "COFARMA",
+        "activo": true
+    },
+    {
+        "id": 392,
         "codigo": "JLC0050",
         "nombre": "PINOLINA X 960 ENCANTO DE COCO *",
         "precio": 6728,
@@ -4300,51 +4311,51 @@
         "activo": false
     },
     {
-        "id": 392,
+        "id": 393,
         "codigo": "JLC0051",
         "nombre": "PINOLINA FRUTOS ROJOS X 960 CJ X 12",
         "precio": 6728,
         "imagen": "../assets/img_catalogo/7702532734486.png",
         "barra": 7702532734486,
-        "invetario": 118,
-        "proveedor": "COFARMA",
-        "activo": true
-    },
-    {
-        "id": 393,
-        "codigo": "JLC0052",
-        "nombre": "PINOLINA BAMBU X 2000 CJ X 6",
-        "precio": 11648,
-        "imagen": "../assets/img_catalogo/7702532430944.png",
-        "barra": 7702532430944,
-        "invetario": 73,
+        "invetario": 114,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 394,
-        "codigo": "JLC0053",
-        "nombre": "PINOLINA CANELA X 2000 CJ X 6",
+        "codigo": "JLC0052",
+        "nombre": "PINOLINA BAMBU X 2000 CJ X 6",
         "precio": 11648,
-        "imagen": "../assets/img_catalogo/7702532430913.png",
-        "barra": 7702532430913,
-        "invetario": 62,
+        "imagen": "../assets/img_catalogo/7702532430944.png",
+        "barra": 7702532430944,
+        "invetario": 71,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 395,
-        "codigo": "JLC0054",
-        "nombre": "PINOLINA CITRONELA X 2000 CJ X 6",
+        "codigo": "JLC0053",
+        "nombre": "PINOLINA CANELA X 2000 CJ X 6",
         "precio": 11648,
-        "imagen": "../assets/img_catalogo/7702532430937.png",
-        "barra": 7702532430937,
-        "invetario": 92,
+        "imagen": "../assets/img_catalogo/7702532430913.png",
+        "barra": 7702532430913,
+        "invetario": 57,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 396,
+        "codigo": "JLC0054",
+        "nombre": "PINOLINA CITRONELA X 2000 CJ X 6",
+        "precio": 11648,
+        "imagen": "../assets/img_catalogo/7702532430937.png",
+        "barra": 7702532430937,
+        "invetario": 84,
+        "proveedor": "COFARMA",
+        "activo": true
+    },
+    {
+        "id": 397,
         "codigo": "JLC0055",
         "nombre": "PINOLINA FRUTOS ROJOS X 2000 CJ X 6",
         "precio": 11648,
@@ -4355,18 +4366,18 @@
         "activo": true
     },
     {
-        "id": 397,
+        "id": 398,
         "codigo": "JLC0056",
         "nombre": "PINOLINA LAVANDA X 2000 CJ X 6",
         "precio": 11648,
         "imagen": "../assets/img_catalogo/7702532430920.png",
         "barra": 7702532430920,
-        "invetario": 33,
+        "invetario": 66,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
-        "id": 398,
+        "id": 399,
         "codigo": "JLC0057",
         "nombre": "PINOLINA VAINILLA X 2000 CJ X 6",
         "precio": 11648,
@@ -4377,7 +4388,7 @@
         "activo": false
     },
     {
-        "id": 399,
+        "id": 400,
         "codigo": "JLC0058",
         "nombre": "PINOLINA CITRONELA GALON CJ X 4",
         "precio": 18196,
@@ -4388,18 +4399,18 @@
         "activo": true
     },
     {
-        "id": 400,
+        "id": 401,
         "codigo": "JLC0059",
         "nombre": "PINOLINA GALON CANELA CJ X 4",
         "precio": 18196,
         "imagen": "../assets/img_catalogo/7702532450607.png",
         "barra": 7702532450607,
-        "invetario": 35,
+        "invetario": 33,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
-        "id": 401,
+        "id": 402,
         "codigo": "JLC0060",
         "nombre": "PINOLINA GALON LAVANDA CJ X 4",
         "precio": 18196,
@@ -4410,7 +4421,7 @@
         "activo": true
     },
     {
-        "id": 402,
+        "id": 403,
         "codigo": "JLC0061",
         "nombre": "PINOLINA GALON VAINILLA CJ  X 4",
         "precio": 18195,
@@ -4421,18 +4432,18 @@
         "activo": false
     },
     {
-        "id": 403,
+        "id": 404,
         "codigo": "JLC0062",
         "nombre": "PINOLINA 5000 ML CANELA",
         "precio": 19960,
         "imagen": "../assets/img_catalogo/7702532450652.png",
         "barra": 7702532450652,
-        "invetario": 2,
+        "invetario": 6,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
-        "id": 404,
+        "id": 405,
         "codigo": "JLC0063",
         "nombre": "PINOLINA 5000 ML CITRONELA",
         "precio": 19960,
@@ -4443,7 +4454,7 @@
         "activo": true
     },
     {
-        "id": 405,
+        "id": 406,
         "codigo": "JLC0064",
         "nombre": "PINOLINA 5000 ML LAVANDA",
         "precio": 19960,
@@ -4454,62 +4465,62 @@
         "activo": true
     },
     {
-        "id": 406,
+        "id": 407,
         "codigo": "JLC0065",
         "nombre": "PINOLINA DOY PACK CANELA X 200 CJ X 48",
         "precio": 1353,
         "imagen": "../assets/img_catalogo/7702532430661.png",
         "barra": 7702532430661,
-        "invetario": 289,
-        "proveedor": "COFARMA",
-        "activo": true
-    },
-    {
-        "id": 407,
-        "codigo": "JLC0066",
-        "nombre": "PINOLINA DOY PACK CITRONELA X 200 CJ X 48",
-        "precio": 1353,
-        "imagen": "../assets/img_catalogo/7702532430678.png",
-        "barra": 7702532430678,
-        "invetario": 179,
+        "invetario": 260,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 408,
-        "codigo": "JLC0067",
-        "nombre": "PINOLINA DOY PACK FRUTOS ROJOS X 200 CJ X 48",
+        "codigo": "JLC0066",
+        "nombre": "PINOLINA DOY PACK CITRONELA X 200 CJ X 48",
         "precio": 1353,
-        "imagen": "../assets/img_catalogo/7707253243099.png",
-        "barra": 7707253243099,
-        "invetario": 344,
+        "imagen": "../assets/img_catalogo/7702532430678.png",
+        "barra": 7702532430678,
+        "invetario": 145,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 409,
-        "codigo": "JLC0068",
-        "nombre": "PINOLINA DOY PACK LAVANDA X 200 CJ X 48",
+        "codigo": "JLC0067",
+        "nombre": "PINOLINA DOY PACK FRUTOS ROJOS X 200 CJ X 48",
         "precio": 1353,
-        "imagen": "../assets/img_catalogo/7702532430685.png",
-        "barra": 7702532430685,
-        "invetario": 281,
+        "imagen": "../assets/img_catalogo/7707253243099.png",
+        "barra": 7707253243099,
+        "invetario": 313,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 410,
-        "codigo": "JLC0069",
-        "nombre": "RAYOL MATATODO X 230 ML CJ X 12",
-        "precio": 7623,
-        "imagen": "../assets/img_catalogo/7702532630108.png",
-        "barra": 7702532630108,
-        "invetario": 60,
+        "codigo": "JLC0068",
+        "nombre": "PINOLINA DOY PACK LAVANDA X 200 CJ X 48",
+        "precio": 1353,
+        "imagen": "../assets/img_catalogo/7702532430685.png",
+        "barra": 7702532430685,
+        "invetario": 242,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 411,
+        "codigo": "JLC0069",
+        "nombre": "RAYOL MATATODO X 230 ML CJ X 12",
+        "precio": 7623,
+        "imagen": "../assets/img_catalogo/7702532630108.png",
+        "barra": 7702532630108,
+        "invetario": 52,
+        "proveedor": "COFARMA",
+        "activo": true
+    },
+    {
+        "id": 412,
         "codigo": "JLC0070",
         "nombre": "RAYOL VOLADORES X 230 ML CJ X 12",
         "precio": 7143,
@@ -4520,7 +4531,7 @@
         "activo": true
     },
     {
-        "id": 412,
+        "id": 413,
         "codigo": "JLC0071",
         "nombre": "RAYOL MATATODO X 400 ML CJ X 12",
         "precio": 12639,
@@ -4531,18 +4542,18 @@
         "activo": true
     },
     {
-        "id": 413,
+        "id": 414,
         "codigo": "JLC0072",
         "nombre": "RAYOL RASTREROS X 400 ML CJ X 12",
         "precio": 12159,
         "imagen": "../assets/img_catalogo/7702532863148.png",
         "barra": 7702532863148,
-        "invetario": 33,
+        "invetario": 85,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
-        "id": 414,
+        "id": 415,
         "codigo": "JLC0073",
         "nombre": "RAYOL VOLADORES X 400 ML CJ X 12",
         "precio": 10690,
@@ -4553,183 +4564,183 @@
         "activo": true
     },
     {
-        "id": 415,
+        "id": 416,
         "codigo": "JLC0074",
         "nombre": "TERGO GLOP X 3 LAVANDA CJ X 24",
         "precio": 12853,
         "imagen": "../assets/img_catalogo/7702532896313.png",
         "barra": 7702532896313,
-        "invetario": 50,
-        "proveedor": "COFARMA",
-        "activo": true
-    },
-    {
-        "id": 416,
-        "codigo": "JLC0075",
-        "nombre": "TERGO GLOP X 3 PINO CJ X 24",
-        "precio": 12853,
-        "imagen": "../assets/img_catalogo/7702532896320.png",
-        "barra": 7702532896320,
-        "invetario": 68,
+        "invetario": 44,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 417,
-        "codigo": "JLC0076",
-        "nombre": "TERGO GLOP CITRUS X 1 CJ X 24",
-        "precio": 4871,
-        "imagen": "../assets/img_catalogo/7702532720366.png",
-        "barra": 7702532720366,
-        "invetario": 71,
+        "codigo": "JLC0075",
+        "nombre": "TERGO GLOP X 3 PINO CJ X 24",
+        "precio": 12853,
+        "imagen": "../assets/img_catalogo/7702532896320.png",
+        "barra": 7702532896320,
+        "invetario": 38,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 418,
-        "codigo": "JLC0077",
-        "nombre": "TERGO GLOP LAVANDA X 1 CJ X 24",
+        "codigo": "JLC0076",
+        "nombre": "TERGO GLOP CITRUS X 1 CJ X 24",
         "precio": 4871,
-        "imagen": "../assets/img_catalogo/7702532720373.png",
-        "barra": 7702532720373,
-        "invetario": 68,
+        "imagen": "../assets/img_catalogo/7702532720366.png",
+        "barra": 7702532720366,
+        "invetario": 56,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 419,
-        "codigo": "JLC0078",
-        "nombre": "TERGO GLOP PINO X 1 CJ X 24",
+        "codigo": "JLC0077",
+        "nombre": "TERGO GLOP LAVANDA X 1 CJ X 24",
         "precio": 4871,
-        "imagen": "../assets/img_catalogo/7702532720359.png",
-        "barra": 7702532720359,
-        "invetario": 29,
+        "imagen": "../assets/img_catalogo/7702532720373.png",
+        "barra": 7702532720373,
+        "invetario": 48,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 420,
-        "codigo": "JLC0079",
-        "nombre": "VARITAS BAMBU X 40 CJ X 12",
-        "precio": 7685,
-        "imagen": "../assets/img_catalogo/7702532476836.png",
-        "barra": 7702532476836,
-        "invetario": 178,
+        "codigo": "JLC0078",
+        "nombre": "TERGO GLOP PINO X 1 CJ X 24",
+        "precio": 4871,
+        "imagen": "../assets/img_catalogo/7702532720359.png",
+        "barra": 7702532720359,
+        "invetario": 7,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 421,
-        "codigo": "JLC0080",
-        "nombre": "VARITAS FRUTOS ROJOS X40 CJ X 12",
+        "codigo": "JLC0079",
+        "nombre": "VARITAS BAMBU X 40 CJ X 12",
         "precio": 7685,
-        "imagen": "../assets/img_catalogo/7702532312103.png",
-        "barra": 7702532312103,
-        "invetario": 152,
+        "imagen": "../assets/img_catalogo/7702532476836.png",
+        "barra": 7702532476836,
+        "invetario": 159,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 422,
-        "codigo": "JLC0081",
-        "nombre": "VARITAS MANZANA CANELA X 40 CJ X 12",
-        "precio": 6005,
-        "imagen": "../assets/img_catalogo/7702532312110.png",
-        "barra": 7702532312110,
-        "invetario": 216,
+        "codigo": "JLC0080",
+        "nombre": "VARITAS FRUTOS ROJOS X40 CJ X 12",
+        "precio": 7685,
+        "imagen": "../assets/img_catalogo/7702532312103.png",
+        "barra": 7702532312103,
+        "invetario": 56,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 423,
-        "codigo": "JLC0082",
-        "nombre": "VARITAS VAINILLA X 40 CJ X 12",
-        "precio": 7685,
-        "imagen": "../assets/img_catalogo/7702532312127.png",
-        "barra": 7702532312127,
-        "invetario": 143,
+        "codigo": "JLC0081",
+        "nombre": "VARITAS MANZANA CANELA X 40 CJ X 12",
+        "precio": 6005,
+        "imagen": "../assets/img_catalogo/7702532312110.png",
+        "barra": 7702532312110,
+        "invetario": 148,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 424,
-        "codigo": "JLC0083",
-        "nombre": "VARITAS ARMONIA FLORAL X 80 ML CJ X 12",
-        "precio": 12358,
-        "imagen": "../assets/img_catalogo/7702532312721.png",
-        "barra": 7702532312721,
-        "invetario": 18,
+        "codigo": "JLC0082",
+        "nombre": "VARITAS VAINILLA X 40 CJ X 12",
+        "precio": 7685,
+        "imagen": "../assets/img_catalogo/7702532312127.png",
+        "barra": 7702532312127,
+        "invetario": 36,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 425,
-        "codigo": "JLC0084",
-        "nombre": "VARITAS BAMBU X 80 ML CJ X 12",
+        "codigo": "JLC0083",
+        "nombre": "VARITAS ARMONIA FLORAL X 80 ML CJ X 12",
         "precio": 12358,
-        "imagen": "../assets/img_catalogo/7702532313056.png",
-        "barra": 7702532313056,
-        "invetario": 30,
+        "imagen": "../assets/img_catalogo/7702532312721.png",
+        "barra": 7702532312721,
+        "invetario": 69,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 426,
-        "codigo": "JLC0085",
-        "nombre": "VARITAS FRUTOS ROJOS X 80 ML CJ X 12",
+        "codigo": "JLC0084",
+        "nombre": "VARITAS BAMBU X 80 ML CJ X 12",
         "precio": 12358,
-        "imagen": "../assets/img_catalogo/7702532312790.png",
-        "barra": 7702532312790,
-        "invetario": 4,
+        "imagen": "../assets/img_catalogo/7702532313056.png",
+        "barra": 7702532313056,
+        "invetario": 66,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 427,
-        "codigo": "JLC0086",
-        "nombre": "VARITAS GRANADILLA X 80 ML CJ X 12",
+        "codigo": "JLC0085",
+        "nombre": "VARITAS FRUTOS ROJOS X 80 ML CJ X 12",
         "precio": 12358,
-        "imagen": "../assets/img_catalogo/7702532312707.png",
-        "barra": 7702532312707,
-        "invetario": 29,
+        "imagen": "../assets/img_catalogo/7702532312790.png",
+        "barra": 7702532312790,
+        "invetario": 54,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 428,
-        "codigo": "JLC0087",
-        "nombre": "VARITAS LAVANDA MANZANILLA X 80 ML CJ X 12",
+        "codigo": "JLC0086",
+        "nombre": "VARITAS GRANADILLA X 80 ML CJ X 12",
         "precio": 12358,
-        "imagen": "../assets/img_catalogo/7702532312738.png",
-        "barra": 7702532312738,
-        "invetario": 5,
+        "imagen": "../assets/img_catalogo/7702532312707.png",
+        "barra": 7702532312707,
+        "invetario": 70,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 429,
-        "codigo": "JLC0088",
-        "nombre": "VARITAS MANZANA CANELA X 80 ML CJ X 12",
+        "codigo": "JLC0087",
+        "nombre": "VARITAS LAVANDA MANZANILLA X 80 ML CJ X 12",
         "precio": 12358,
-        "imagen": "../assets/img_catalogo/7702532313087.png",
-        "barra": 7702532313087,
-        "invetario": 37,
+        "imagen": "../assets/img_catalogo/7702532312738.png",
+        "barra": 7702532312738,
+        "invetario": 70,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 430,
-        "codigo": "JLC0089",
-        "nombre": "VARITAS VAINILLA X 80 ML CJ X 12",
+        "codigo": "JLC0088",
+        "nombre": "VARITAS MANZANA CANELA X 80 ML CJ X 12",
         "precio": 12358,
-        "imagen": "../assets/img_catalogo/7702532312820.png",
-        "barra": 7702532312820,
-        "invetario": 1,
+        "imagen": "../assets/img_catalogo/7702532313087.png",
+        "barra": 7702532313087,
+        "invetario": 70,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 431,
+        "codigo": "JLC0089",
+        "nombre": "VARITAS VAINILLA X 80 ML CJ X 12",
+        "precio": 12358,
+        "imagen": "../assets/img_catalogo/7702532312820.png",
+        "barra": 7702532312820,
+        "invetario": 57,
+        "proveedor": "COFARMA",
+        "activo": true
+    },
+    {
+        "id": 432,
         "codigo": "JLC0090",
         "nombre": "VARITAS SECAS MORA FRAMBUESA CJ X 12",
         "precio": 9422,
@@ -4740,29 +4751,29 @@
         "activo": true
     },
     {
-        "id": 432,
+        "id": 433,
         "codigo": "JLC0091",
         "nombre": "ALASKA VARSOL SIN OLOR X 460 CJ X 12",
         "precio": 11950,
         "imagen": "../assets/img_catalogo/7702532011112.png",
         "barra": 7702532011112,
-        "invetario": 5,
-        "proveedor": "COFARMA",
-        "activo": true
-    },
-    {
-        "id": 433,
-        "codigo": "JLC0092",
-        "nombre": "ALASKA VARSOL X 960 ML SIN OLOR",
-        "precio": 20204,
-        "imagen": "../assets/img_catalogo/7702532011129.png",
-        "barra": 7702532011129,
-        "invetario": 12,
+        "invetario": 65,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
         "id": 434,
+        "codigo": "JLC0092",
+        "nombre": "ALASKA VARSOL X 960 ML SIN OLOR",
+        "precio": 20204,
+        "imagen": "../assets/img_catalogo/7702532011129.png",
+        "barra": 7702532011129,
+        "invetario": 36,
+        "proveedor": "COFARMA",
+        "activo": true
+    },
+    {
+        "id": 435,
         "codigo": "JLC0093",
         "nombre": "ALASKA ALMIDON X 500 ML DOY PACK",
         "precio": 4917,
@@ -4773,7 +4784,7 @@
         "activo": true
     },
     {
-        "id": 435,
+        "id": 436,
         "codigo": "JLC0094",
         "nombre": "ALASKA ALMINDON X 1000 PISTOLA CJ X 12",
         "precio": 12384,
@@ -4784,7 +4795,7 @@
         "activo": true
     },
     {
-        "id": 436,
+        "id": 437,
         "codigo": "JLC0095",
         "nombre": "ELIMINADOR DE OLORES COOL WATER X 400 ML *",
         "precio": 8962,
@@ -4795,271 +4806,271 @@
         "activo": true
     },
     {
-        "id": 437,
+        "id": 438,
         "codigo": "JLH0001",
         "nombre": "CEBADA PERLADA 500 GR PACA X25",
         "precio": 2244,
         "imagen": "../assets/img_catalogo/7709990961584.png",
         "barra": 7709990961584,
-        "invetario": 2066,
-        "proveedor": "DORIS PATRICIA FONSECA",
-        "activo": true
-    },
-    {
-        "id": 438,
-        "codigo": "JLH0002",
-        "nombre": "CUCHUCO CEBADA 500 GR PACA X 25 UND",
-        "precio": 2244,
-        "imagen": "../assets/img_catalogo/7709990285383.png",
-        "barra": 7709990285383,
-        "invetario": 1249,
+        "invetario": 1816,
         "proveedor": "DORIS PATRICIA FONSECA",
         "activo": true
     },
     {
         "id": 439,
-        "codigo": "JLH0003",
-        "nombre": "CUCHUCO DE MAIZ 500 GR PACA X 25 UND",
-        "precio": 1892,
-        "imagen": "../assets/img_catalogo/7709990202465.png",
-        "barra": 7709990202465,
-        "invetario": 1511,
+        "codigo": "JLH0002",
+        "nombre": "CUCHUCO CEBADA 500 GR PACA X 25 UND",
+        "precio": 2244,
+        "imagen": "../assets/img_catalogo/7709990285383.png",
+        "barra": 7709990285383,
+        "invetario": 674,
         "proveedor": "DORIS PATRICIA FONSECA",
         "activo": true
     },
     {
         "id": 440,
-        "codigo": "JLH0004",
-        "nombre": "CUCHUCO DE TRIGO 500 GR PACA X 25 UND",
-        "precio": 1731,
-        "imagen": "../assets/img_catalogo/7709990584097.png",
-        "barra": 7709990584097,
-        "invetario": 1676,
+        "codigo": "JLH0003",
+        "nombre": "CUCHUCO DE MAIZ 500 GR PACA X 25 UND",
+        "precio": 1892,
+        "imagen": "../assets/img_catalogo/7709990202465.png",
+        "barra": 7709990202465,
+        "invetario": 1161,
         "proveedor": "DORIS PATRICIA FONSECA",
         "activo": true
     },
     {
         "id": 441,
-        "codigo": "JLH0005",
-        "nombre": "HARINA DE MAIZ  PINTADO 500 GR PACA X 25 UND",
-        "precio": 1707,
-        "imagen": "../assets/img_catalogo/7709990584080.png",
-        "barra": 7709990584080,
-        "invetario": 954,
+        "codigo": "JLH0004",
+        "nombre": "CUCHUCO DE TRIGO 500 GR PACA X 25 UND",
+        "precio": 1731,
+        "imagen": "../assets/img_catalogo/7709990584097.png",
+        "barra": 7709990584097,
+        "invetario": 1176,
         "proveedor": "DORIS PATRICIA FONSECA",
         "activo": true
     },
     {
         "id": 442,
-        "codigo": "JLH0006",
-        "nombre": "HARINA DE MAIZ AMARILLA X 500 PC X 25",
-        "precio": 1318,
-        "imagen": "../assets/img_catalogo/7709990584073.png",
-        "barra": 7709990584073,
-        "invetario": 2211,
+        "codigo": "JLH0005",
+        "nombre": "HARINA DE MAIZ  PINTADO 500 GR PACA X 25 UND",
+        "precio": 1707,
+        "imagen": "../assets/img_catalogo/7709990584080.png",
+        "barra": 7709990584080,
+        "invetario": 704,
         "proveedor": "DORIS PATRICIA FONSECA",
         "activo": true
     },
     {
         "id": 443,
-        "codigo": "JLH0007",
-        "nombre": "HARINA DE MAIZ BLANCO X 500 GR PC X  25",
-        "precio": 1376,
-        "imagen": "../assets/img_catalogo/7709990093025.png",
-        "barra": 7709990093025,
-        "invetario": 646,
+        "codigo": "JLH0006",
+        "nombre": "HARINA DE MAIZ AMARILLA X 500 PC X 25",
+        "precio": 1318,
+        "imagen": "../assets/img_catalogo/7709990584073.png",
+        "barra": 7709990584073,
+        "invetario": 1436,
         "proveedor": "DORIS PATRICIA FONSECA",
         "activo": true
     },
     {
         "id": 444,
+        "codigo": "JLH0007",
+        "nombre": "HARINA DE MAIZ BLANCO X 500 GR PC X  25",
+        "precio": 1376,
+        "imagen": "../assets/img_catalogo/7709990093025.png",
+        "barra": 7709990093025,
+        "invetario": 446,
+        "proveedor": "DORIS PATRICIA FONSECA",
+        "activo": true
+    },
+    {
+        "id": 445,
         "codigo": "JLT0001",
         "nombre": "GUANTE DOMESTICO TALLA 7",
         "precio": 3577,
         "imagen": "../assets/img_catalogo/7702764022504.png",
         "barra": 7702764022504,
-        "invetario": 616,
-        "proveedor": "LATEXQUIM",
+        "invetario": 534,
+        "proveedor": "RUBIFLEX",
         "activo": true
     },
     {
-        "id": 445,
+        "id": 446,
         "codigo": "JLT0002",
         "nombre": "GUANTE DOMESTICO TALLA 7 1/2 *",
         "precio": 3577,
         "imagen": "../assets/img_catalogo/7702764023006.png",
         "barra": 7702764023006,
-        "invetario": 553,
-        "proveedor": "LATEXQUIM",
+        "invetario": 459,
+        "proveedor": "RUBIFLEX",
         "activo": true
     },
     {
-        "id": 446,
+        "id": 447,
         "codigo": "JLT0003",
         "nombre": "GUANTE DOMESTICO TALLA 8 *",
         "precio": 3577,
         "imagen": "../assets/img_catalogo/7702764024003.png",
         "barra": 7702764024003,
-        "invetario": 362,
-        "proveedor": "LATEXQUIM",
+        "invetario": 256,
+        "proveedor": "RUBIFLEX",
         "activo": true
     },
     {
-        "id": 447,
+        "id": 448,
         "codigo": "JLT0004",
         "nombre": "GUANTE DOMESTICO TALLA 8 1/2 *",
         "precio": 3577,
         "imagen": "../assets/img_catalogo/7702764025000.png",
         "barra": 7702764025000,
-        "invetario": 457,
-        "proveedor": "LATEXQUIM",
+        "invetario": 327,
+        "proveedor": "RUBIFLEX",
         "activo": true
     },
     {
-        "id": 448,
+        "id": 449,
         "codigo": "JLT0005",
         "nombre": "GUANTE DOMESTICO TALLA 9 *",
         "precio": 3577,
         "imagen": "../assets/img_catalogo/7702764026007.png",
         "barra": 7702764026007,
-        "invetario": 792,
-        "proveedor": "LATEXQUIM",
+        "invetario": 746,
+        "proveedor": "RUBIFLEX",
         "activo": true
     },
     {
-        "id": 449,
+        "id": 450,
         "codigo": "JLT0006",
         "nombre": "GUANTE CALIBRE 25 TALLA 7",
         "precio": 3720,
         "imagen": "../assets/img_catalogo/7702764026502.png",
         "barra": 7702764026502,
-        "invetario": 113,
-        "proveedor": "LATEXQUIM",
+        "invetario": 7,
+        "proveedor": "RUBIFLEX",
         "activo": true
     },
     {
-        "id": 450,
+        "id": 451,
         "codigo": "JLT0007",
         "nombre": "GUANTE CALIBRE 25 TALLA 7 1/2 *",
         "precio": 3720,
         "imagen": "../assets/img_catalogo/7702764027004.png",
         "barra": 7702764027004,
-        "invetario": 472,
-        "proveedor": "LATEXQUIM",
+        "invetario": 342,
+        "proveedor": "RUBIFLEX",
         "activo": true
     },
     {
-        "id": 451,
+        "id": 452,
         "codigo": "JLT0008",
         "nombre": "GUANTE CALIBRE 25 TALLA 8 *",
         "precio": 3720,
         "imagen": "../assets/img_catalogo/7702764028001.png",
         "barra": 7702764028001,
-        "invetario": 436,
-        "proveedor": "LATEXQUIM",
+        "invetario": 294,
+        "proveedor": "RUBIFLEX",
         "activo": true
     },
     {
-        "id": 452,
+        "id": 453,
         "codigo": "JLT0009",
         "nombre": "GUANTE CALIBRE 25 TALLA 8 1/2 *",
         "precio": 3720,
         "imagen": "../assets/img_catalogo/7702764029008.png",
         "barra": 7702764029008,
-        "invetario": 373,
-        "proveedor": "LATEXQUIM",
+        "invetario": 267,
+        "proveedor": "RUBIFLEX",
         "activo": true
     },
     {
-        "id": 453,
+        "id": 454,
         "codigo": "JLT0010",
         "nombre": "GUANTE CALIBRE 25 TALLA 9 *",
         "precio": 3720,
         "imagen": "../assets/img_catalogo/7702764020004.png",
         "barra": 7702764020004,
-        "invetario": 329,
-        "proveedor": "LATEXQUIM",
+        "invetario": 269,
+        "proveedor": "RUBIFLEX",
         "activo": true
     },
     {
-        "id": 454,
+        "id": 455,
         "codigo": "JLT0011",
         "nombre": "GUANTE CALIBRE 35 TALLA 7",
         "precio": 5323,
         "imagen": "../assets/img_catalogo/7702764036006.png",
         "barra": 7702764036006,
-        "invetario": 333,
-        "proveedor": "LATEXQUIM",
+        "invetario": 321,
+        "proveedor": "RUBIFLEX",
         "activo": true
     },
     {
-        "id": 455,
+        "id": 456,
         "codigo": "JLT0012",
         "nombre": "GUANTE CALIBRE 35 TALLA 7 1/2 *",
         "precio": 5323,
         "imagen": "../assets/img_catalogo/7702764021001.png",
         "barra": 7702764021001,
-        "invetario": 501,
-        "proveedor": "LATEXQUIM",
+        "invetario": 455,
+        "proveedor": "RUBIFLEX",
         "activo": true
     },
     {
-        "id": 456,
+        "id": 457,
         "codigo": "JLT0013",
         "nombre": "GUANTE CALIBRE 35 TALLA 8 *",
         "precio": 5323,
         "imagen": "../assets/img_catalogo/7702764032008.png",
         "barra": 7702764032008,
-        "invetario": 229,
-        "proveedor": "LATEXQUIM",
+        "invetario": 159,
+        "proveedor": "RUBIFLEX",
         "activo": true
     },
     {
-        "id": 457,
+        "id": 458,
         "codigo": "JLT0014",
         "nombre": "GUANTE CALIBRE 35 TALLA 8 1/2 *",
         "precio": 5323,
         "imagen": "../assets/img_catalogo/7702764023005.png",
         "barra": 7702764023005,
-        "invetario": 444,
-        "proveedor": "LATEXQUIM",
+        "invetario": 386,
+        "proveedor": "RUBIFLEX",
         "activo": true
     },
     {
-        "id": 458,
+        "id": 459,
         "codigo": "JLT0015",
         "nombre": "GUANTE CALIBRE 35 TALLA 9 *",
         "precio": 5323,
         "imagen": "../assets/img_catalogo/7702764024002.png",
         "barra": 7702764024002,
-        "invetario": 269,
-        "proveedor": "LATEXQUIM",
-        "activo": true
-    },
-    {
-        "id": 459,
-        "codigo": "JMB0001",
-        "nombre": "VITACHOCOLATE X 500 GR EN BARRA CJ X 50 UND",
-        "precio": 8963,
-        "imagen": "../assets/img_catalogo/7702648000017.png",
-        "barra": 7702648000017,
-        "invetario": 2878,
-        "proveedor": "DISCOA",
+        "invetario": 235,
+        "proveedor": "RUBIFLEX",
         "activo": true
     },
     {
         "id": 460,
-        "codigo": "JMB0002",
-        "nombre": "VITACHOCOLATE X 250 GR EN BARRA CJ X 50 UND",
-        "precio": 4574,
-        "imagen": "../assets/img_catalogo/7702648000116.png",
-        "barra": 7702648000116,
-        "invetario": 364,
+        "codigo": "JMB0001",
+        "nombre": "VITACHOCOLATE X 500 GR EN BARRA CJ X 50 UND",
+        "precio": 8239,
+        "imagen": "../assets/img_catalogo/7702648000017.png",
+        "barra": 7702648000017,
+        "invetario": 2617,
         "proveedor": "DISCOA",
         "activo": true
     },
     {
         "id": 461,
+        "codigo": "JMB0002",
+        "nombre": "VITACHOCOLATE X 250 GR EN BARRA CJ X 50 UND",
+        "precio": 4574,
+        "imagen": "../assets/img_catalogo/7702648000116.png",
+        "barra": 7702648000116,
+        "invetario": 292,
+        "proveedor": "DISCOA",
+        "activo": true
+    },
+    {
+        "id": 462,
         "codigo": "JMN0001",
         "nombre": "SAL MI SAL X 500 PC X 25",
         "precio": 850,
@@ -5070,7 +5081,7 @@
         "activo": true
     },
     {
-        "id": 462,
+        "id": 463,
         "codigo": "JMN0002",
         "nombre": "SAL MI SAL  X 1000 PC X 20",
         "precio": 1625,
@@ -5081,29 +5092,29 @@
         "activo": true
     },
     {
-        "id": 463,
+        "id": 464,
         "codigo": "JMN0003",
         "nombre": "JABON BIG BLU CUADRADO X 300 G CJ X 25",
         "precio": 1547,
         "imagen": "../assets/img_catalogo/7707181391959.png",
         "barra": 7707181391959,
-        "invetario": 4150,
-        "proveedor": "MARCHEN",
-        "activo": true
-    },
-    {
-        "id": 464,
-        "codigo": "JMN0004",
-        "nombre": "JABON BIG BLU CUADRADO X 3 CJ X 16",
-        "precio": 4641,
-        "imagen": "../assets/img_catalogo/7707181392025.png",
-        "barra": 7707181392025,
-        "invetario": 1408,
+        "invetario": 4125,
         "proveedor": "MARCHEN",
         "activo": true
     },
     {
         "id": 465,
+        "codigo": "JMN0004",
+        "nombre": "JABON BIG BLU CUADRADO X 3 CJ X 16",
+        "precio": 4641,
+        "imagen": "../assets/img_catalogo/7707181392025.png",
+        "barra": 7707181392025,
+        "invetario": 1392,
+        "proveedor": "MARCHEN",
+        "activo": true
+    },
+    {
+        "id": 466,
         "codigo": "JMN0005",
         "nombre": "SAL X 50 KL",
         "precio": 47500,
@@ -5114,7 +5125,7 @@
         "activo": true
     },
     {
-        "id": 466,
+        "id": 467,
         "codigo": "JOF0005",
         "nombre": "PINOLINA BAMBU X 800 LLEVE 960 CJ X 12",
         "precio": 5608,
@@ -5125,7 +5136,7 @@
         "activo": false
     },
     {
-        "id": 467,
+        "id": 468,
         "codigo": "JOF0008",
         "nombre": "PINOLINA CITRONELA X 800 LLEVE 960 ML CJ X 12 *",
         "precio": 5608,
@@ -5136,7 +5147,7 @@
         "activo": false
     },
     {
-        "id": 468,
+        "id": 469,
         "codigo": "JOF0013",
         "nombre": "PAGUE 1 MANTEQUILLA LLEVE 1 NATURAL",
         "precio": 4546,
@@ -5147,7 +5158,7 @@
         "activo": false
     },
     {
-        "id": 469,
+        "id": 470,
         "codigo": "JOF0014",
         "nombre": "PINOLINA GALON LAVANDA GRATIS 1 LITRO",
         "precio": 13388,
@@ -5158,40 +5169,40 @@
         "activo": false
     },
     {
-        "id": 470,
+        "id": 471,
         "codigo": "JOF0015",
         "nombre": "PINOLINA GALON 3785 PACK X 2 ( BAMBU / CITRONELA )",
         "precio": "30932,86",
         "imagen": "../assets/img_catalogo/7702532121467.png",
         "barra": 7702532121467,
-        "invetario": 19,
+        "invetario": 13,
         "proveedor": "COFARMA",
         "activo": true
     },
     {
-        "id": 471,
+        "id": 472,
         "codigo": "JPB0001",
         "nombre": "ARDEN FOR MEN DISPLAY ORIGINAL X 18 COJINES CJ X 24",
         "precio": 13090,
         "imagen": "../assets/img_catalogo/7702044198271.png",
         "barra": 7702044198271,
-        "invetario": 1017,
-        "proveedor": "PREBEL",
-        "activo": true
-    },
-    {
-        "id": 472,
-        "codigo": "JPB0002",
-        "nombre": "ARDEN FOR MEN MINI ROLL ON ORIGINAL  X 30 ML CJ X 6",
-        "precio": 3478,
-        "imagen": "../assets/img_catalogo/7702044236577.png",
-        "barra": 7702044236577,
-        "invetario": 20,
+        "invetario": 1005,
         "proveedor": "PREBEL",
         "activo": true
     },
     {
         "id": 473,
+        "codigo": "JPB0002",
+        "nombre": "ARDEN FOR MEN MINI ROLL ON ORIGINAL  X 30 ML CJ X 6",
+        "precio": 3478,
+        "imagen": "../assets/img_catalogo/7702044236577.png",
+        "barra": 7702044236577,
+        "invetario": 0,
+        "proveedor": "PREBEL",
+        "activo": true
+    },
+    {
+        "id": 474,
         "codigo": "JPB0003",
         "nombre": "ARDEN FOR MEN MINI COLAPSIBLE ORIGINAL X 40 CJ X 6",
         "precio": 3313,
@@ -5202,40 +5213,40 @@
         "activo": true
     },
     {
-        "id": 474,
+        "id": 475,
         "codigo": "JPB0004",
         "nombre": "ARDEN FOR MEN CREMA ORIGINAL X 60 X 2 CJ X 12",
         "precio": 12340,
         "imagen": "../assets/img_catalogo/7702044164856.png",
         "barra": 7702044164856,
-        "invetario": 145,
-        "proveedor": "PREBEL",
-        "activo": true
-    },
-    {
-        "id": 475,
-        "codigo": "JPB0005",
-        "nombre": "ARDEN FOR MEN CREMA ORIGINAL X 100 X 2 CJ X 12",
-        "precio": 15653,
-        "imagen": "../assets/img_catalogo/7702044181600.png",
-        "barra": 7702044181600,
-        "invetario": 225,
+        "invetario": 128,
         "proveedor": "PREBEL",
         "activo": true
     },
     {
         "id": 476,
-        "codigo": "JPB0006",
-        "nombre": "ARDEN FOR MEN CREMA ORIGINAL X 135  X 2 CJ X 12",
-        "precio": 18138,
-        "imagen": "../assets/img_catalogo/7702044199858.png",
-        "barra": 7702044199858,
-        "invetario": 68,
+        "codigo": "JPB0005",
+        "nombre": "ARDEN FOR MEN CREMA ORIGINAL X 100 X 2 CJ X 12",
+        "precio": 15653,
+        "imagen": "../assets/img_catalogo/7702044181600.png",
+        "barra": 7702044181600,
+        "invetario": 217,
         "proveedor": "PREBEL",
         "activo": true
     },
     {
         "id": 477,
+        "codigo": "JPB0006",
+        "nombre": "ARDEN FOR MEN CREMA ORIGINAL X 135  X 2 CJ X 12",
+        "precio": 18138,
+        "imagen": "../assets/img_catalogo/7702044199858.png",
+        "barra": 7702044199858,
+        "invetario": 40,
+        "proveedor": "PREBEL",
+        "activo": true
+    },
+    {
+        "id": 478,
         "codigo": "JPB0007",
         "nombre": "ARDEN FOR MEN ROLL ON ORIGINAL X 50 X 2 CJ X 12",
         "precio": 17807,
@@ -5246,18 +5257,18 @@
         "activo": false
     },
     {
-        "id": 478,
+        "id": 479,
         "codigo": "JPB0008",
         "nombre": "ARDEN FOR MEN DISPLAY CLINICAL X 18 COJINES CJ 24",
         "precio": 14399,
         "imagen": "../assets/img_catalogo/7702044289061.png",
         "barra": 7702044289061,
-        "invetario": 89,
+        "invetario": 87,
         "proveedor": "PREBEL",
         "activo": true
     },
     {
-        "id": 479,
+        "id": 480,
         "codigo": "JPB0009",
         "nombre": "ARDEN FOR MEN MINI ROLL ON CLINICAL X 30 GR CJ 6",
         "precio": 3313,
@@ -5268,7 +5279,7 @@
         "activo": true
     },
     {
-        "id": 480,
+        "id": 481,
         "codigo": "JPB0010",
         "nombre": "ARDEN FOR MEN MINI COLAPSIBLE CLINICAL X 30 CJ X 6",
         "precio": 3313,
@@ -5279,7 +5290,7 @@
         "activo": true
     },
     {
-        "id": 481,
+        "id": 482,
         "codigo": "JPB0011",
         "nombre": "ARDEN FOR MEN MINI COLAPSIBLE GEL CLINICAL X 30 CJ X 6",
         "precio": 4058,
@@ -5290,7 +5301,7 @@
         "activo": true
     },
     {
-        "id": 482,
+        "id": 483,
         "codigo": "JPB0012",
         "nombre": "ARDEN FOR MEN MINI COLAPSIBLE GEL CLINICAL X 70 CJ X 6",
         "precio": 8695,
@@ -5301,7 +5312,7 @@
         "activo": true
     },
     {
-        "id": 483,
+        "id": 484,
         "codigo": "JPB0013",
         "nombre": "ARDEN FOR MEN MINI COLAPSIBLE CREMA CLINICAL X 70 CJ X 6",
         "precio": 6543,
@@ -5312,7 +5323,7 @@
         "activo": true
     },
     {
-        "id": 484,
+        "id": 485,
         "codigo": "JPB0014",
         "nombre": "ARDEN FOR MEN ROLL ON CLINICAL X 50 X 2 CJ X 6",
         "precio": 20291,
@@ -5323,18 +5334,18 @@
         "activo": true
     },
     {
-        "id": 485,
+        "id": 486,
         "codigo": "JPB0015",
         "nombre": "ARDEN FOR MEN GEL CLINICAL X 85 X 2 CJ X 6",
         "precio": 26419,
         "imagen": "../assets/img_catalogo/7702044283588.png",
         "barra": 7702044283588,
-        "invetario": 54,
+        "invetario": 48,
         "proveedor": "PREBEL",
         "activo": true
     },
     {
-        "id": 486,
+        "id": 487,
         "codigo": "JPB0016",
         "nombre": "ARDEN FOR MEN CREMA CLINICAL X 100 X 2 CJ X 12",
         "precio": 17807,
@@ -5345,18 +5356,18 @@
         "activo": true
     },
     {
-        "id": 487,
+        "id": 488,
         "codigo": "JPB0017",
         "nombre": "ARDEN FOR MEN CREMA SPORT X 100 X 2 CJ X 12",
         "precio": 15322,
         "imagen": "../assets/img_catalogo/7702044181853.png",
         "barra": 7702044181853,
-        "invetario": 76,
+        "invetario": 64,
         "proveedor": "PREBEL",
         "activo": true
     },
     {
-        "id": 488,
+        "id": 489,
         "codigo": "JPB0018",
         "nombre": "ARDEN FOR MEN ROLL ON SPORT X 50 X 2 CJ X 12",
         "precio": 19794,
@@ -5367,29 +5378,29 @@
         "activo": true
     },
     {
-        "id": 489,
+        "id": 490,
         "codigo": "JPB0019",
         "nombre": "TALCO ARDEN FOR MEN POLVO 300GR + 85GR + 30GR CJ X 6",
         "precio": 21947,
         "imagen": "../assets/img_catalogo/7702044194587.png",
         "barra": 7702044194587,
-        "invetario": 655,
-        "proveedor": "PREBEL",
-        "activo": true
-    },
-    {
-        "id": 490,
-        "codigo": "JPB0020",
-        "nombre": "ARDEN FOR MEN AEROSOL ORIGINAL X 165 ML X 2 CJ 6",
-        "precio": 22279,
-        "imagen": "../assets/img_catalogo/7702044243797.png",
-        "barra": 7702044243797,
-        "invetario": 70,
+        "invetario": 619,
         "proveedor": "PREBEL",
         "activo": true
     },
     {
         "id": 491,
+        "codigo": "JPB0020",
+        "nombre": "ARDEN FOR MEN AEROSOL ORIGINAL X 165 ML X 2 CJ 6",
+        "precio": 22279,
+        "imagen": "../assets/img_catalogo/7702044243797.png",
+        "barra": 7702044243797,
+        "invetario": 64,
+        "proveedor": "PREBEL",
+        "activo": true
+    },
+    {
+        "id": 492,
         "codigo": "JPB0021",
         "nombre": "ARDEN FOR MEN AEROSOL SPORT X 165 X 2 CJ 6",
         "precio": 0,
@@ -5400,7 +5411,7 @@
         "activo": false
     },
     {
-        "id": 492,
+        "id": 493,
         "codigo": "JPB0022",
         "nombre": "ARDEN FOR MEN AEROSOL CLINICAL X 165 X 2 CJ 6",
         "precio": 26087,
@@ -5411,18 +5422,18 @@
         "activo": true
     },
     {
-        "id": 493,
+        "id": 494,
         "codigo": "JPB0023",
         "nombre": "SHAMPOO ANTICASPA CONNECT FOR MEN X 310 CJ X 12",
         "precio": 13169,
         "imagen": "../assets/img_catalogo/7702044282994.png",
         "barra": 7702044282994,
-        "invetario": 87,
+        "invetario": 75,
         "proveedor": "PREBEL",
         "activo": true
     },
     {
-        "id": 494,
+        "id": 495,
         "codigo": "JPB0024",
         "nombre": "SHAMPOO ANTICASPA CONNECT FOR MEN X 310 X 2 CJ X 6",
         "precio": 17945,
@@ -5433,7 +5444,7 @@
         "activo": true
     },
     {
-        "id": 495,
+        "id": 496,
         "codigo": "JPB0025",
         "nombre": "GEL CONNECT FOR MEN X 275 CJ X 12",
         "precio": 9525,
@@ -5444,117 +5455,117 @@
         "activo": true
     },
     {
-        "id": 496,
+        "id": 497,
         "codigo": "JPB0026",
         "nombre": "ELIZABETH ARDEN DISPLAY CLASSIC X 18 COJINES CJ X 24",
         "precio": 13090,
         "imagen": "../assets/img_catalogo/7702044246477.png",
         "barra": 7702044246477,
-        "invetario": 656,
-        "proveedor": "PREBEL",
-        "activo": true
-    },
-    {
-        "id": 497,
-        "codigo": "JPB0027",
-        "nombre": "ELIZABETH ARDEN MINI ROLL ON CLASSIC X 30 ML CJ X 6",
-        "precio": 3478,
-        "imagen": "../assets/img_catalogo/7702044246378.png",
-        "barra": 7702044246378,
-        "invetario": 14,
+        "invetario": 644,
         "proveedor": "PREBEL",
         "activo": true
     },
     {
         "id": 498,
-        "codigo": "JPB0028",
-        "nombre": "ELIZABETH ARDEN MINI COLAPSIBLE CLASSIC X 40 ML CJ X 6",
+        "codigo": "JPB0027",
+        "nombre": "ELIZABETH ARDEN MINI ROLL ON CLASSIC X 30 ML CJ X 6",
         "precio": 3478,
-        "imagen": "../assets/img_catalogo/7702044246408.png",
-        "barra": 7702044246408,
-        "invetario": 116,
+        "imagen": "../assets/img_catalogo/7702044246378.png",
+        "barra": 7702044246378,
+        "invetario": 0,
         "proveedor": "PREBEL",
         "activo": true
     },
     {
         "id": 499,
-        "codigo": "JPB0029",
-        "nombre": "ELIZABETH ARDEN ROLL ON CLASSIC X 50 X 2 CJ X 12",
-        "precio": 18495,
-        "imagen": "../assets/img_catalogo/7702044285865.png",
-        "barra": 7702044285865,
-        "invetario": 191,
+        "codigo": "JPB0028",
+        "nombre": "ELIZABETH ARDEN MINI COLAPSIBLE CLASSIC X 40 ML CJ X 6",
+        "precio": 3478,
+        "imagen": "../assets/img_catalogo/7702044246408.png",
+        "barra": 7702044246408,
+        "invetario": 76,
         "proveedor": "PREBEL",
         "activo": true
     },
     {
         "id": 500,
-        "codigo": "JPB0030",
-        "nombre": "ELIZABETH ARDEN ROLL ON BICARBONATO Y COCO X 50 X 2 CJ X 12",
-        "precio": 18965,
-        "imagen": "../assets/img_catalogo/7702044284585.png",
-        "barra": 7702044284585,
-        "invetario": 20,
+        "codigo": "JPB0029",
+        "nombre": "ELIZABETH ARDEN ROLL ON CLASSIC X 50 X 2 CJ X 12",
+        "precio": 18495,
+        "imagen": "../assets/img_catalogo/7702044285865.png",
+        "barra": 7702044285865,
+        "invetario": 174,
         "proveedor": "PREBEL",
         "activo": true
     },
     {
         "id": 501,
-        "codigo": "JPB0031",
-        "nombre": "ELIZABETH ARDEN COLAPSIBLE BICARBONATO Y COCO X 100 CJ X 6",
-        "precio": 8695,
-        "imagen": "../assets/img_catalogo/7702044284554.png",
-        "barra": 7702044284554,
-        "invetario": 81,
+        "codigo": "JPB0030",
+        "nombre": "ELIZABETH ARDEN ROLL ON BICARBONATO Y COCO X 50 X 2 CJ X 12",
+        "precio": 18965,
+        "imagen": "../assets/img_catalogo/7702044284585.png",
+        "barra": 7702044284585,
+        "invetario": 14,
         "proveedor": "PREBEL",
         "activo": true
     },
     {
         "id": 502,
-        "codigo": "JPB0032",
-        "nombre": "ELIZABETH ARDEN CREMA CLASSIC X 60 X 2 CJ X 12",
-        "precio": 12340,
-        "imagen": "../assets/img_catalogo/7702044246866.png",
-        "barra": 7702044246866,
-        "invetario": 72,
+        "codigo": "JPB0031",
+        "nombre": "ELIZABETH ARDEN COLAPSIBLE BICARBONATO Y COCO X 100 CJ X 6",
+        "precio": 8695,
+        "imagen": "../assets/img_catalogo/7702044284554.png",
+        "barra": 7702044284554,
+        "invetario": 75,
         "proveedor": "PREBEL",
         "activo": true
     },
     {
         "id": 503,
-        "codigo": "JPB0033",
-        "nombre": "ELIZABETH ARDEN CREMA CLASSIC X 100 X 2 CJ X 12",
-        "precio": 15654,
-        "imagen": "../assets/img_catalogo/7702044246842.png",
-        "barra": 7702044246842,
-        "invetario": 194,
+        "codigo": "JPB0032",
+        "nombre": "ELIZABETH ARDEN CREMA CLASSIC X 60 X 2 CJ X 12",
+        "precio": 12340,
+        "imagen": "../assets/img_catalogo/7702044246866.png",
+        "barra": 7702044246866,
+        "invetario": 45,
         "proveedor": "PREBEL",
         "activo": true
     },
     {
         "id": 504,
-        "codigo": "JPB0034",
-        "nombre": "ELIZABETH ARDEN CREMA CLASSIC X 135 X 2 CJ X 12",
-        "precio": 18965,
-        "imagen": "../assets/img_catalogo/7702044246859.png",
-        "barra": 7702044246859,
-        "invetario": 112,
+        "codigo": "JPB0033",
+        "nombre": "ELIZABETH ARDEN CREMA CLASSIC X 100 X 2 CJ X 12",
+        "precio": 15654,
+        "imagen": "../assets/img_catalogo/7702044246842.png",
+        "barra": 7702044246842,
+        "invetario": 189,
         "proveedor": "PREBEL",
         "activo": true
     },
     {
         "id": 505,
-        "codigo": "JPB0035",
-        "nombre": "ELIZABETH ARDEN AEROSOL X 165 X 2 CJ X 6",
-        "precio": 23604,
-        "imagen": "../assets/img_catalogo/7702044243889.png",
-        "barra": 7702044243889,
-        "invetario": 30,
+        "codigo": "JPB0034",
+        "nombre": "ELIZABETH ARDEN CREMA CLASSIC X 135 X 2 CJ X 12",
+        "precio": 18965,
+        "imagen": "../assets/img_catalogo/7702044246859.png",
+        "barra": 7702044246859,
+        "invetario": 100,
         "proveedor": "PREBEL",
         "activo": true
     },
     {
         "id": 506,
+        "codigo": "JPB0035",
+        "nombre": "ELIZABETH ARDEN AEROSOL X 165 X 2 CJ X 6",
+        "precio": 23604,
+        "imagen": "../assets/img_catalogo/7702044243889.png",
+        "barra": 7702044243889,
+        "invetario": 27,
+        "proveedor": "PREBEL",
+        "activo": true
+    },
+    {
+        "id": 507,
         "codigo": "JPB0036",
         "nombre": "NUDE AUTOBRONCEADOR RISTRA SACHET X 6 CJ X 12",
         "precio": 39671,
@@ -5565,7 +5576,7 @@
         "activo": true
     },
     {
-        "id": 507,
+        "id": 508,
         "codigo": "JPB0037",
         "nombre": "NUDE BRONCEADOR RISTRA SACHET X 6 CJ X 12",
         "precio": 0,
@@ -5576,29 +5587,29 @@
         "activo": false
     },
     {
-        "id": 508,
+        "id": 509,
         "codigo": "JPB0038",
         "nombre": "NUDE PROTECTOR SOLAR FACIAL SPF50 X 10 ML DISPLAY X 12 CJ X 10",
         "precio": 33045,
         "imagen": "../assets/img_catalogo/7702044260909.png",
         "barra": 7702044260909,
-        "invetario": 121,
-        "proveedor": "PREBEL",
-        "activo": true
-    },
-    {
-        "id": 509,
-        "codigo": "JPB0039",
-        "nombre": "NUDE PROTECTOR SOLAR FACIAL COLOR SPF50 X 10 ML DISPLAY X 12 CJ X 10",
-        "precio": 33045,
-        "imagen": "../assets/img_catalogo/7702044280587.png",
-        "barra": 7702044280587,
-        "invetario": 127,
+        "invetario": 115,
         "proveedor": "PREBEL",
         "activo": true
     },
     {
         "id": 510,
+        "codigo": "JPB0039",
+        "nombre": "NUDE PROTECTOR SOLAR FACIAL COLOR SPF50 X 10 ML DISPLAY X 12 CJ X 10",
+        "precio": 33045,
+        "imagen": "../assets/img_catalogo/7702044280587.png",
+        "barra": 7702044280587,
+        "invetario": 122,
+        "proveedor": "PREBEL",
+        "activo": true
+    },
+    {
+        "id": 511,
         "codigo": "JPB0040",
         "nombre": "NUDE PROTECTOR SOLAR FACIAL SPF60 X 10 ML DISPLAY X 24 CJ X 12",
         "precio": 41328,
@@ -5609,7 +5620,7 @@
         "activo": true
     },
     {
-        "id": 511,
+        "id": 512,
         "codigo": "JPB0041",
         "nombre": "NUDE PROTECTOR SOLAR FACIAL SPF50 X 60 ML + NUDE LABIAL SPF15 CJ X 12",
         "precio": 31389,
@@ -5620,7 +5631,7 @@
         "activo": true
     },
     {
-        "id": 512,
+        "id": 513,
         "codigo": "JPB0042",
         "nombre": "NUDE PROTECTOR SOLAR PORTABLE 30 SPF X 40 ML CJ X 6",
         "precio": 18635,
@@ -5631,7 +5642,7 @@
         "activo": true
     },
     {
-        "id": 513,
+        "id": 514,
         "codigo": "JPB0043",
         "nombre": "NUDE PROTECTOR SOLAR CARA Y CUERPO SPF60  X 90 ML CJ X 6",
         "precio": 23934,
@@ -5642,7 +5653,7 @@
         "activo": true
     },
     {
-        "id": 514,
+        "id": 515,
         "codigo": "JPB0044",
         "nombre": "NUDE PROTECTOR SOLAR LIVIANA SENSACION SPF80 X 40 ML X 2 CJ X 12",
         "precio": 24764,
@@ -5653,7 +5664,7 @@
         "activo": true
     },
     {
-        "id": 515,
+        "id": 516,
         "codigo": "JPB0045",
         "nombre": "NUDE PROTECTOR SOLAR LIVIANA SENSACION SPF80 X 120 ML X 2 CJ X 6",
         "precio": 69486,
@@ -5664,29 +5675,29 @@
         "activo": true
     },
     {
-        "id": 516,
+        "id": 517,
         "codigo": "JPB0046",
         "nombre": "NUDE PROTECTOR SOLAR FACIAL COLOR FLUIDO SPF60 X 50 ML CJ X 6",
         "precio": 41328,
         "imagen": "../assets/img_catalogo/7702044294157.png",
         "barra": 7702044294157,
-        "invetario": 14,
-        "proveedor": "PREBEL",
-        "activo": true
-    },
-    {
-        "id": 517,
-        "codigo": "JPB0047",
-        "nombre": "NUDE PROTECTOR SOLAR FACIAL FLUIDO SPF60 X 50 ML CJ X 6",
-        "precio": 41328,
-        "imagen": "../assets/img_catalogo/7702044294164.png",
-        "barra": 7702044294164,
-        "invetario": 25,
+        "invetario": 13,
         "proveedor": "PREBEL",
         "activo": true
     },
     {
         "id": 518,
+        "codigo": "JPB0047",
+        "nombre": "NUDE PROTECTOR SOLAR FACIAL FLUIDO SPF60 X 50 ML CJ X 6",
+        "precio": 41328,
+        "imagen": "../assets/img_catalogo/7702044294164.png",
+        "barra": 7702044294164,
+        "invetario": 24,
+        "proveedor": "PREBEL",
+        "activo": true
+    },
+    {
+        "id": 519,
         "codigo": "JPB0048",
         "nombre": "VITU CREMA  PEPINO Y TE VERDE 1 LITRO CJ X 6",
         "precio": 22774,
@@ -5697,7 +5708,7 @@
         "activo": true
     },
     {
-        "id": 519,
+        "id": 520,
         "codigo": "JPB0049",
         "nombre": "VITU CREMA YOGURT Y FRUTOS ROJOS 1 LITRO CJ X 6",
         "precio": 22774,
@@ -5708,40 +5719,40 @@
         "activo": true
     },
     {
-        "id": 520,
+        "id": 521,
         "codigo": "JPB0050",
         "nombre": "VITU LOCION CORPORAL PISTACHO Y NUECES 1 LITRO CJ X 6",
         "precio": 18138,
         "imagen": "../assets/img_catalogo/7702044255752.png",
         "barra": 7702044255752,
-        "invetario": 51,
-        "proveedor": "PREBEL",
-        "activo": true
-    },
-    {
-        "id": 521,
-        "codigo": "JPB0051",
-        "nombre": "VITU LOCION CORPORAL MORA Y ALMENDRAS 1 LITRO CJ X 6",
-        "precio": 18138,
-        "imagen": "../assets/img_catalogo/7702044258821.png",
-        "barra": 7702044258821,
-        "invetario": 59,
+        "invetario": 43,
         "proveedor": "PREBEL",
         "activo": true
     },
     {
         "id": 522,
-        "codigo": "JPB0052",
-        "nombre": "VITU LOCION CORPORAL MANGO Y LICHI 1 LITRO CJ X 6",
+        "codigo": "JPB0051",
+        "nombre": "VITU LOCION CORPORAL MORA Y ALMENDRAS 1 LITRO CJ X 6",
         "precio": 18138,
-        "imagen": "../assets/img_catalogo/7702044257831.png",
-        "barra": 7702044257831,
-        "invetario": 57,
+        "imagen": "../assets/img_catalogo/7702044258821.png",
+        "barra": 7702044258821,
+        "invetario": 51,
         "proveedor": "PREBEL",
         "activo": true
     },
     {
         "id": 523,
+        "codigo": "JPB0052",
+        "nombre": "VITU LOCION CORPORAL MANGO Y LICHI 1 LITRO CJ X 6",
+        "precio": 18138,
+        "imagen": "../assets/img_catalogo/7702044257831.png",
+        "barra": 7702044257831,
+        "invetario": 55,
+        "proveedor": "PREBEL",
+        "activo": true
+    },
+    {
+        "id": 524,
         "codigo": "JPB0053",
         "nombre": "VITU LOCION CORPORAL MORA Y ALMENDRAS 1 LITRO DOYPACK CJ X 6",
         "precio": 20623,
@@ -5752,7 +5763,7 @@
         "activo": false
     },
     {
-        "id": 524,
+        "id": 525,
         "codigo": "JPB0054",
         "nombre": "YARLEY APRIL VIOLET ROLLO ON X 2 CJ X 6",
         "precio": 16165,
@@ -5763,7 +5774,7 @@
         "activo": true
     },
     {
-        "id": 525,
+        "id": 526,
         "codigo": "JPB0055",
         "nombre": "YARLEY BOND STREET ROLLO ON X 2 CJ X 6",
         "precio": 16164,
@@ -5774,7 +5785,7 @@
         "activo": true
     },
     {
-        "id": 526,
+        "id": 527,
         "codigo": "JPB0056",
         "nombre": "MAX FACTOR LASH MAKER NEGRA PESTAÑINA + DELINEADOR CJ X 48",
         "precio": 27464,
@@ -5785,7 +5796,7 @@
         "activo": true
     },
     {
-        "id": 527,
+        "id": 528,
         "codigo": "JPB0057",
         "nombre": "MAX FACTOR LASH MAKER NEGRA PESTAÑINA X 2 CJ X 48",
         "precio": 24797,
@@ -5796,40 +5807,40 @@
         "activo": true
     },
     {
-        "id": 528,
+        "id": 529,
         "codigo": "JPB0058",
         "nombre": "NOPIKEX REPELENTE BARRA SOLIDO X 50 GR CJ X 12",
         "precio": 17287,
         "imagen": "../assets/img_catalogo/7703644001039.png",
         "barra": 7703644001039,
-        "invetario": 150,
-        "proveedor": "PREBEL",
-        "activo": true
-    },
-    {
-        "id": 529,
-        "codigo": "JPB0059",
-        "nombre": "NOPIKEX REPELENTE LIQUIDO ADULTO X 120 GR CJ X 6",
-        "precio": 22694,
-        "imagen": "../assets/img_catalogo/7703644001206.png",
-        "barra": 7703644001206,
-        "invetario": 105,
+        "invetario": 144,
         "proveedor": "PREBEL",
         "activo": true
     },
     {
         "id": 530,
-        "codigo": "JPB0060",
-        "nombre": "NOPIKEX REPELENTE LIQUIDO NIÑOS X 120 GR CJ X 6",
+        "codigo": "JPB0059",
+        "nombre": "NOPIKEX REPELENTE LIQUIDO ADULTO X 120 GR CJ X 6",
         "precio": 22694,
-        "imagen": "../assets/img_catalogo/7703644001404.png",
-        "barra": 7703644001404,
-        "invetario": 38,
+        "imagen": "../assets/img_catalogo/7703644001206.png",
+        "barra": 7703644001206,
+        "invetario": 103,
         "proveedor": "PREBEL",
         "activo": true
     },
     {
         "id": 531,
+        "codigo": "JPB0060",
+        "nombre": "NOPIKEX REPELENTE LIQUIDO NIÑOS X 120 GR CJ X 6",
+        "precio": 22694,
+        "imagen": "../assets/img_catalogo/7703644001404.png",
+        "barra": 7703644001404,
+        "invetario": 36,
+        "proveedor": "PREBEL",
+        "activo": true
+    },
+    {
+        "id": 532,
         "codigo": "JPB0061",
         "nombre": "ARDEN FOR MEN AEROSOL PIES ANTIBACTERIAL X 240 ML X 2 CJ 6",
         "precio": "27628,23",
@@ -5840,7 +5851,7 @@
         "activo": true
     },
     {
-        "id": 532,
+        "id": 533,
         "codigo": "JPB0062",
         "nombre": "ARDEN FOR MEN CREMA ORIGINAL X 135  X 2 + SHAMPOO X 310ML CJ X 12",
         "precio": 22253,
@@ -5851,7 +5862,7 @@
         "activo": true
     },
     {
-        "id": 533,
+        "id": 534,
         "codigo": "JPB0063",
         "nombre": "BALSAMO POST AFEITADO CONNECT FOR MEN X 130 ML CJ X 6",
         "precio": "16711,17",
@@ -5862,18 +5873,18 @@
         "activo": true
     },
     {
-        "id": 534,
+        "id": 535,
         "codigo": "JPB0064",
         "nombre": "ESPUMA PARA AFEITAR CONNECT FOR MEN X 195 ML  CJ X 12",
         "precio": "16712,36",
         "imagen": "../assets/img_catalogo/7702044282987.png",
         "barra": 7702044282987,
-        "invetario": 34,
+        "invetario": 28,
         "proveedor": "PREBEL",
         "activo": true
     },
     {
-        "id": 535,
+        "id": 536,
         "codigo": "JPB0065",
         "nombre": "NUDE PROTECTOR SPF 50 FACIAL MATE X 50 ML CJ X 12",
         "precio": "41903,47",
@@ -5884,29 +5895,29 @@
         "activo": true
     },
     {
-        "id": 536,
+        "id": 537,
         "codigo": "JPB0066",
         "nombre": "NUDE PROTECTOR SPF 50 FACIAL COLOR X 50 ML CJ X 12",
         "precio": "41903,47",
         "imagen": "../assets/img_catalogo/7702044272186.png",
         "barra": 7702044272186,
-        "invetario": 26,
-        "proveedor": "PREBEL",
-        "activo": true
-    },
-    {
-        "id": 537,
-        "codigo": "JPB0067",
-        "nombre": "PESTAÑIA LASH MARKER X 2 CJ X 6",
-        "precio": "27446,16",
-        "imagen": "../assets/img_catalogo/7702044160353.png",
-        "barra": 7702044160353,
-        "invetario": 30,
+        "invetario": 25,
         "proveedor": "PREBEL",
         "activo": true
     },
     {
         "id": 538,
+        "codigo": "JPB0067",
+        "nombre": "PESTAÑIA LASH MARKER X 2 CJ X 6",
+        "precio": "27446,16",
+        "imagen": "../assets/img_catalogo/7702044160353.png",
+        "barra": 7702044160353,
+        "invetario": 29,
+        "proveedor": "PREBEL",
+        "activo": true
+    },
+    {
+        "id": 539,
         "codigo": "JPB0068",
         "nombre": "ELIZABETH ARDEN ROLL ON ACLARADOR X 50 ML CJ X 6",
         "precio": "19230,4",
@@ -5917,7 +5928,7 @@
         "activo": true
     },
     {
-        "id": 539,
+        "id": 540,
         "codigo": "JPB0069",
         "nombre": "TALCO ARDEN FOR MEN POLVO 85GR X 2 CJ X 6",
         "precio": "14696,5",
@@ -5928,29 +5939,29 @@
         "activo": true
     },
     {
-        "id": 540,
+        "id": 541,
         "codigo": "JPB0070",
         "nombre": "PESTAÑIA LASH MARKER ALARGA X 2 CJ X 6",
         "precio": "27847,19",
         "imagen": "../assets/img_catalogo/7702044197458.png",
         "barra": 7702044197458,
-        "invetario": 25,
-        "proveedor": "PREBEL",
-        "activo": true
-    },
-    {
-        "id": 541,
-        "codigo": "JPB0071",
-        "nombre": "VITU LOCION CORPORAL MORA Y ALMENDRAS DOYPACK + 1 LITRO CJ X 4",
-        "precio": "20622,7",
-        "imagen": "../assets/img_catalogo/17702044290104.png",
-        "barra": 17702044290104,
-        "invetario": 205,
+        "invetario": 24,
         "proveedor": "PREBEL",
         "activo": true
     },
     {
         "id": 542,
+        "codigo": "JPB0071",
+        "nombre": "VITU LOCION CORPORAL MORA Y ALMENDRAS DOYPACK + 1 LITRO CJ X 4",
+        "precio": "20622,7",
+        "imagen": "../assets/img_catalogo/17702044290104.png",
+        "barra": 17702044290104,
+        "invetario": 201,
+        "proveedor": "PREBEL",
+        "activo": true
+    },
+    {
+        "id": 543,
         "codigo": "JPB0072",
         "nombre": "ELIZABETH ARDEN ROLL ON HYALU-DERMA X 50 X 2 CJ X 12",
         "precio": "18965,03",
@@ -5961,7 +5972,7 @@
         "activo": true
     },
     {
-        "id": 543,
+        "id": 544,
         "codigo": "JPB0073",
         "nombre": "ELIZABETH ARDEN ROLL ON HYALU-DERMA COLAPSIBLE X 100 CJ X 6",
         "precio": "8695,33",
@@ -5972,18 +5983,18 @@
         "activo": true
     },
     {
-        "id": 544,
+        "id": 545,
         "codigo": "JPB0074",
         "nombre": "ARDEN FOR MEN MINI COLAPSIBLE 72 H X 40 CJ X 6",
         "precio": "3478,37",
         "imagen": "../assets/img_catalogo/7702044295178.png",
         "barra": 7702044295178,
-        "invetario": 66,
+        "invetario": 38,
         "proveedor": "PREBEL",
         "activo": true
     },
     {
-        "id": 545,
+        "id": 546,
         "codigo": "JPB0075",
         "nombre": "ARDEN FOR MEN MINI ROLL ON 72 H X 30 CJ X 6",
         "precio": "3478,37",
@@ -5994,128 +6005,128 @@
         "activo": false
     },
     {
-        "id": 546,
+        "id": 547,
         "codigo": "JPB0076",
         "nombre": "ARDEN FOR MEN ROLL ON 72 H X 50 X 2 CJ X 12",
         "precio": "17807,16",
         "imagen": "../assets/img_catalogo/7702044295260.png",
         "barra": 7702044295260,
-        "invetario": 184,
+        "invetario": 152,
         "proveedor": "PREBEL",
         "activo": true
     },
     {
-        "id": 547,
+        "id": 548,
         "codigo": "JPD0001",
         "nombre": "PROTECTOR  X 15 PRECIO ESPECIAL CAJA X 36",
         "precio": 3161,
         "imagen": "../assets/img_catalogo/7702108205556.png",
         "barra": 7702108205556,
-        "invetario": 848,
-        "proveedor": "PRODUSA",
-        "activo": true
-    },
-    {
-        "id": 548,
-        "codigo": "JPD0002",
-        "nombre": "PROTECTOR ELLAS ANATOMICO PAGUE 160 LLEV 180 CJ X 10",
-        "precio": 14217,
-        "imagen": "../assets/img_catalogo/7702108206317.png",
-        "barra": 7702108206317,
-        "invetario": 49,
+        "invetario": 668,
         "proveedor": "PRODUSA",
         "activo": true
     },
     {
         "id": 549,
-        "codigo": "JPD0003",
-        "nombre": "PROTECTOR X 30 PRECIO ESPECIAL CAJA X 18",
-        "precio": 6084,
-        "imagen": "../assets/img_catalogo/7702108205457.png",
-        "barra": 7702108205457,
-        "invetario": 575,
+        "codigo": "JPD0002",
+        "nombre": "PROTECTOR ELLAS ANATOMICO PAGUE 160 LLEV 180 CJ X 10",
+        "precio": 14217,
+        "imagen": "../assets/img_catalogo/7702108206317.png",
+        "barra": 7702108206317,
+        "invetario": 29,
         "proveedor": "PRODUSA",
         "activo": true
     },
     {
         "id": 550,
-        "codigo": "JPD0006",
-        "nombre": "TOALLA NOCTURNA + NOCTURNA PC X 18",
-        "precio": 6610,
-        "imagen": "../assets/img_catalogo/7702108209714.png",
-        "barra": 7702108209714,
-        "invetario": 182,
+        "codigo": "JPD0003",
+        "nombre": "PROTECTOR X 30 PRECIO ESPECIAL CAJA X 18",
+        "precio": 6084,
+        "imagen": "../assets/img_catalogo/7702108205457.png",
+        "barra": 7702108205457,
+        "invetario": 431,
         "proveedor": "PRODUSA",
         "activo": true
     },
     {
         "id": 551,
-        "codigo": "JPD0007",
-        "nombre": "TOALLAS ELLAS CON ALAS  PC X 24 (VERDE)",
-        "precio": 4304,
-        "imagen": "../assets/img_catalogo/7702108209813.png",
-        "barra": 7702108209813,
-        "invetario": 11377,
+        "codigo": "JPD0006",
+        "nombre": "TOALLA NOCTURNA + NOCTURNA PC X 18",
+        "precio": 6610,
+        "imagen": "../assets/img_catalogo/7702108209714.png",
+        "barra": 7702108209714,
+        "invetario": 92,
         "proveedor": "PRODUSA",
         "activo": true
     },
     {
         "id": 552,
-        "codigo": "JPD0011",
-        "nombre": "TOALLA NOCTURNA +DELGADA PC X 24",
-        "precio": 4454,
-        "imagen": "../assets/img_catalogo/7702108850794.png",
-        "barra": 7702108850794,
-        "invetario": 10208,
+        "codigo": "JPD0007",
+        "nombre": "TOALLAS ELLAS CON ALAS  PC X 24 (VERDE)",
+        "precio": 4304,
+        "imagen": "../assets/img_catalogo/7702108209813.png",
+        "barra": 7702108209813,
+        "invetario": 11233,
         "proveedor": "PRODUSA",
         "activo": true
     },
     {
         "id": 553,
-        "codigo": "JPD0012",
-        "nombre": "TOALLA ELLAS DESGADAS X 40 UND PCA X 12",
-        "precio": 8411,
-        "imagen": "../assets/img_catalogo/7702108201770.png",
-        "barra": 7702108201770,
-        "invetario": 161,
+        "codigo": "JPD0011",
+        "nombre": "TOALLA NOCTURNA +DELGADA PC X 24",
+        "precio": 4454,
+        "imagen": "../assets/img_catalogo/7702108850794.png",
+        "barra": 7702108850794,
+        "invetario": 10016,
         "proveedor": "PRODUSA",
         "activo": true
     },
     {
         "id": 554,
-        "codigo": "JPD0013",
-        "nombre": "TOALLA ELLAS DELGA. NARANJA  PAGUE 10 LLEVE 20 PC X 24",
-        "precio": 5060,
-        "imagen": "../assets/img_catalogo/7702108200919.png",
-        "barra": 7702108200919,
-        "invetario": 2069,
+        "codigo": "JPD0012",
+        "nombre": "TOALLA ELLAS DELGADAS X 40 UND PCA X 12",
+        "precio": 8411,
+        "imagen": "../assets/img_catalogo/7702108201770.png",
+        "barra": 7702108201770,
+        "invetario": 113,
         "proveedor": "PRODUSA",
         "activo": true
     },
     {
         "id": 555,
-        "codigo": "JPD0016",
-        "nombre": "PROTECTOR ELLAS X 10 PACA X 144 UND",
-        "precio": 1053,
-        "imagen": "../assets/img_catalogo/7702108206751.png",
-        "barra": 7702108206751,
-        "invetario": 2490,
+        "codigo": "JPD0013",
+        "nombre": "TOALLA ELLAS DELGA. NARANJA  PAGUE 10 LLEVE 20 PC X 24",
+        "precio": 5060,
+        "imagen": "../assets/img_catalogo/7702108200919.png",
+        "barra": 7702108200919,
+        "invetario": 1949,
         "proveedor": "PRODUSA",
         "activo": true
     },
     {
         "id": 556,
-        "codigo": "JPD0018",
-        "nombre": "JABON INTIMO ELLAS X 200 ML CAJA X 12 UND",
-        "precio": 6992,
-        "imagen": "../assets/img_catalogo/7702108207819.png",
-        "barra": 7702108207819,
-        "invetario": 98,
+        "codigo": "JPD0016",
+        "nombre": "PROTECTOR ELLAS X 10 PACA X 144 UND",
+        "precio": 1053,
+        "imagen": "../assets/img_catalogo/7702108206751.png",
+        "barra": 7702108206751,
+        "invetario": 2466,
         "proveedor": "PRODUSA",
         "activo": true
     },
     {
         "id": 557,
+        "codigo": "JPD0018",
+        "nombre": "JABON INTIMO ELLAS X 200 ML CAJA X 12 UND",
+        "precio": 6992,
+        "imagen": "../assets/img_catalogo/7702108207819.png",
+        "barra": 7702108207819,
+        "invetario": 95,
+        "proveedor": "PRODUSA",
+        "activo": true
+    },
+    {
+        "id": 558,
         "codigo": "JPD0023",
         "nombre": "TOALLAS ELLAS CON ALAS PACA X 48 (VERDE)",
         "precio": 2298,
@@ -6126,18 +6137,18 @@
         "activo": true
     },
     {
-        "id": 558,
+        "id": 559,
         "codigo": "JPN0001",
         "nombre": "PAPELS ROSAL XXG 12 PAQUETES X 4 ROLLOS",
         "precio": 6902,
         "imagen": "../assets/img_catalogo/7702120012996.png",
         "barra": 7702120012996,
-        "invetario": 60,
+        "invetario": 36,
         "proveedor": "PAPELES NACIONALES",
         "activo": true
     },
     {
-        "id": 559,
+        "id": 560,
         "codigo": "JPN0002",
         "nombre": "PAPELS ROSAL XXG 4 PAQUETES X 12 ROLLOS",
         "precio": 16421,
@@ -6148,7 +6159,7 @@
         "activo": true
     },
     {
-        "id": 560,
+        "id": 561,
         "codigo": "JPN0003",
         "nombre": "PAPELS ROSAL XXG 3 PAQUETES X 15 ROLLOS",
         "precio": 21551,
@@ -6159,7 +6170,7 @@
         "activo": false
     },
     {
-        "id": 561,
+        "id": 562,
         "codigo": "JPN0004",
         "nombre": "PAPELS ROSAL XG 12 PAQUETES X 4 ROLLOS",
         "precio": 5908,
@@ -6170,18 +6181,18 @@
         "activo": true
     },
     {
-        "id": 562,
+        "id": 563,
         "codigo": "JPN0005",
         "nombre": "PAPELS ROSAL XG 4 PAQUETES X 12 ROLLOS",
         "precio": 12682,
         "imagen": "../assets/img_catalogo/7702120013078.png",
         "barra": 7702120013078,
-        "invetario": 2108,
+        "invetario": 2090,
         "proveedor": "PAPELES NACIONALES",
         "activo": true
     },
     {
-        "id": 563,
+        "id": 564,
         "codigo": "JPN0006",
         "nombre": "PAPELS SUAVE GOLD 12 PAQUETES X 4 ROLLOS",
         "precio": 9303,
@@ -6192,7 +6203,7 @@
         "activo": true
     },
     {
-        "id": 564,
+        "id": 565,
         "codigo": "JPN0007",
         "nombre": "PAPELS SUAVE GOLD 4 PAQUETES X 12 ROLLOS",
         "precio": 26257,
@@ -6203,29 +6214,29 @@
         "activo": true
     },
     {
-        "id": 565,
+        "id": 566,
         "codigo": "JPN0008",
         "nombre": "TOALLA DE COCINA FAVORITA CJ X 24",
         "precio": 1746,
         "imagen": "../assets/img_catalogo/7702120009569.png",
         "barra": 7702120009569,
-        "invetario": 766,
-        "proveedor": "PAPELES NACIONALES",
-        "activo": true
-    },
-    {
-        "id": 566,
-        "codigo": "JPN0009",
-        "nombre": "TOALLA DE COCINA FAVORITA POR X 3  CJ X 8",
-        "precio": 5136,
-        "imagen": "../assets/img_catalogo/7702120014457.png",
-        "barra": 7702120014457,
-        "invetario": 217,
+        "invetario": 718,
         "proveedor": "PAPELES NACIONALES",
         "activo": true
     },
     {
         "id": 567,
+        "codigo": "JPN0009",
+        "nombre": "TOALLA DE COCINA FAVORITA POR X 3  CJ X 8",
+        "precio": 5136,
+        "imagen": "../assets/img_catalogo/7702120014457.png",
+        "barra": 7702120014457,
+        "invetario": 209,
+        "proveedor": "PAPELES NACIONALES",
+        "activo": true
+    },
+    {
+        "id": 568,
         "codigo": "JPN0010",
         "nombre": "PAÑUELO FACIAL SUAVE PEQUEÑO CJ X 18",
         "precio": 3450,
@@ -6236,7 +6247,7 @@
         "activo": true
     },
     {
-        "id": 568,
+        "id": 569,
         "codigo": "JPN0011",
         "nombre": "PAÑUELO FACIAL SUAVE BOLSILLO 30 PAQUETES X 4 UNIDADES",
         "precio": 3195,
@@ -6247,7 +6258,7 @@
         "activo": true
     },
     {
-        "id": 569,
+        "id": 570,
         "codigo": "JPN0012",
         "nombre": "PAÑAL BEBE DREAMS ETAPA 3 TALLA G PACA X 8",
         "precio": 23717,
@@ -6258,7 +6269,7 @@
         "activo": true
     },
     {
-        "id": 570,
+        "id": 571,
         "codigo": "JPN0013",
         "nombre": "PAÑAL BEBE DREAMS ETAPA 4 TALLA XG PACA X 8",
         "precio": 29889,
@@ -6269,7 +6280,7 @@
         "activo": true
     },
     {
-        "id": 571,
+        "id": 572,
         "codigo": "JPN0014",
         "nombre": "TOALLA HIGIENICA SUAVE NOCTURNA MIX CJ X 24",
         "precio": 3274,
@@ -6280,18 +6291,18 @@
         "activo": true
     },
     {
-        "id": 572,
+        "id": 573,
         "codigo": "JPN0015",
         "nombre": "TOALLA HIGIENICA SUAVE DELGADA MIX CJ X 36",
         "precio": 2866,
         "imagen": "../assets/img_catalogo/7702120013269.png",
         "barra": 7702120013269,
-        "invetario": 559,
+        "invetario": 547,
         "proveedor": "PAPELES NACIONALES",
         "activo": true
     },
     {
-        "id": 573,
+        "id": 574,
         "codigo": "JPN0016",
         "nombre": "PROTECTOR DIARIO SUAVE X 15 CJ X 36",
         "precio": 1717,
@@ -6302,7 +6313,7 @@
         "activo": true
     },
     {
-        "id": 574,
+        "id": 575,
         "codigo": "JPN0017",
         "nombre": "PAPELS ROSAL XXG PC X 48 UND",
         "precio": 1647,
@@ -6313,7 +6324,7 @@
         "activo": true
     },
     {
-        "id": 575,
+        "id": 576,
         "codigo": "JPN0018",
         "nombre": "PAPELS ROSAL G PC X 54 UND",
         "precio": 1179,
@@ -6324,7 +6335,7 @@
         "activo": true
     },
     {
-        "id": 576,
+        "id": 577,
         "codigo": "JPN0019",
         "nombre": "PAPELS ROSAL G 4 PAQUETES X 12 ROLLOS",
         "precio": 12731,
@@ -6335,7 +6346,7 @@
         "activo": true
     },
     {
-        "id": 577,
+        "id": 578,
         "codigo": "JPN0020",
         "nombre": "PAPELS ROSAL XXG 8 PAQUETES X 6 ROLLOS",
         "precio": 8844,
@@ -6346,18 +6357,18 @@
         "activo": true
     },
     {
-        "id": 578,
+        "id": 579,
         "codigo": "JPN0021",
         "nombre": "SERVILLETA FAVORITA X 300  CJ X 15",
         "precio": 3896,
         "imagen": "../assets/img_catalogo/7702120012682.png",
         "barra": 7702120012682,
-        "invetario": 450,
+        "invetario": 390,
         "proveedor": "PAPELES NACIONALES",
         "activo": true
     },
     {
-        "id": 579,
+        "id": 580,
         "codigo": "JPN0022",
         "nombre": "SERVILLETA SUAVE GOLD  X 40  CJ X 24",
         "precio": 4748,
@@ -6368,7 +6379,7 @@
         "activo": true
     },
     {
-        "id": 580,
+        "id": 581,
         "codigo": "JPN0023",
         "nombre": "SERVILLETA ROSAL X 100 CJ X 30",
         "precio": 3357,
@@ -6379,7 +6390,7 @@
         "activo": true
     },
     {
-        "id": 581,
+        "id": 582,
         "codigo": "JPN0024",
         "nombre": "SERVILLETA ROSAL MEGAPACK CJ X 10",
         "precio": 9299,
@@ -6390,7 +6401,7 @@
         "activo": true
     },
     {
-        "id": 582,
+        "id": 583,
         "codigo": "JPN0025",
         "nombre": "SERVILLETA SUAVE GOLD  X 100  CJ X 24",
         "precio": 6014,
@@ -6401,7 +6412,7 @@
         "activo": true
     },
     {
-        "id": 583,
+        "id": 584,
         "codigo": "JPN0026",
         "nombre": "SERVILLETA FAVORITA CAFETERIA X 100 CJ X 30",
         "precio": 2121,
@@ -6412,7 +6423,7 @@
         "activo": true
     },
     {
-        "id": 584,
+        "id": 585,
         "codigo": "JPN0027",
         "nombre": "TOALLA COCINA ROSAL X 1 CJ X 12",
         "precio": 6501,
@@ -6423,7 +6434,7 @@
         "activo": true
     },
     {
-        "id": 585,
+        "id": 586,
         "codigo": "JPN0028",
         "nombre": "TOALLA COCINA ROSAL X 3 CJ X 4",
         "precio": 14801,
@@ -6434,18 +6445,18 @@
         "activo": true
     },
     {
-        "id": 586,
+        "id": 587,
         "codigo": "JPN0029",
         "nombre": "PAPEL ROSAL MAXIMO 4PAQUETES X 12 ROLLOS",
         "precio": 12931,
         "imagen": "../assets/img_catalogo/7702120014105.png",
         "barra": 7702120014105,
-        "invetario": 1000,
+        "invetario": 784,
         "proveedor": "PAPELES NACIONALES",
         "activo": true
     },
     {
-        "id": 587,
+        "id": 588,
         "codigo": "JPN0030",
         "nombre": "PAPELS SUAVE GOLD SOLT CARE 4 PAQUETES X 12 ROLLOS",
         "precio": 20472,
@@ -6456,128 +6467,128 @@
         "activo": true
     },
     {
-        "id": 588,
+        "id": 589,
         "codigo": "JPO0001",
         "nombre": "AREPASAN BLANCA X 1000 GR PC X 10",
         "precio": 2785,
         "imagen": "../assets/img_catalogo/7705525010123.png",
         "barra": 7705525010123,
-        "invetario": 11549,
-        "proveedor": "PRECOCIDOS",
-        "activo": true
-    },
-    {
-        "id": 589,
-        "codigo": "JPO0002",
-        "nombre": "AREPASAN BLANCA X 500 GR PC X 24",
-        "precio": 1339,
-        "imagen": "../assets/img_catalogo/7705525010017.png",
-        "barra": 7705525010017,
-        "invetario": -248,
+        "invetario": 11179,
         "proveedor": "PRECOCIDOS",
         "activo": true
     },
     {
         "id": 590,
-        "codigo": "JPO0003",
-        "nombre": "HARINA LA MONJITA X 500 GR PC X 24",
-        "precio": 1276,
-        "imagen": "../assets/img_catalogo/7705525020122.png",
-        "barra": 7705525020122,
-        "invetario": 3418,
+        "codigo": "JPO0002",
+        "nombre": "AREPASAN BLANCA X 500 GR PC X 24",
+        "precio": 1339,
+        "imagen": "../assets/img_catalogo/7705525010017.png",
+        "barra": 7705525010017,
+        "invetario": -56,
         "proveedor": "PRECOCIDOS",
         "activo": true
     },
     {
         "id": 591,
-        "codigo": "JPO0005",
-        "nombre": "MACARRON RIOKA X 250 PC X 24",
-        "precio": 919,
-        "imagen": "../assets/img_catalogo/7705525095014.png",
-        "barra": 7705525095014,
-        "invetario": 2603,
+        "codigo": "JPO0003",
+        "nombre": "HARINA LA MONJITA X 500 GR PC X 24",
+        "precio": 1276,
+        "imagen": "../assets/img_catalogo/7705525020122.png",
+        "barra": 7705525020122,
+        "invetario": 3058,
         "proveedor": "PRECOCIDOS",
         "activo": true
     },
     {
         "id": 592,
-        "codigo": "JPO0006",
-        "nombre": "FIDEOS RIOKA X 250 PC X 24",
+        "codigo": "JPO0005",
+        "nombre": "MACARRON RIOKA X 250 PC X 24",
         "precio": 919,
-        "imagen": "../assets/img_catalogo/7705525093072.png",
-        "barra": 7705525093072,
-        "invetario": 3110,
+        "imagen": "../assets/img_catalogo/7705525095014.png",
+        "barra": 7705525095014,
+        "invetario": 2195,
         "proveedor": "PRECOCIDOS",
         "activo": true
     },
     {
         "id": 593,
-        "codigo": "JPO0007",
-        "nombre": "CONCHAS RIOKA X 250 PC X 24",
+        "codigo": "JPO0006",
+        "nombre": "FIDEOS RIOKA X 250 PC X 24",
         "precio": 919,
-        "imagen": "../assets/img_catalogo/7707525092013.png",
-        "barra": 7707525092013,
-        "invetario": 4412,
+        "imagen": "../assets/img_catalogo/7705525093072.png",
+        "barra": 7705525093072,
+        "invetario": 1694,
         "proveedor": "PRECOCIDOS",
         "activo": true
     },
     {
         "id": 594,
-        "codigo": "JPO0008",
-        "nombre": "SPAGUETTI RIOKA X 1000 PC X 12",
-        "precio": 3675,
-        "imagen": "../assets/img_catalogo/7705525091054.png",
-        "barra": 7705525091054,
-        "invetario": 3126,
+        "codigo": "JPO0007",
+        "nombre": "CONCHAS RIOKA X 250 PC X 24",
+        "precio": 919,
+        "imagen": "../assets/img_catalogo/7707525092013.png",
+        "barra": 7707525092013,
+        "invetario": 3620,
         "proveedor": "PRECOCIDOS",
         "activo": true
     },
     {
         "id": 595,
-        "codigo": "JPO0009",
-        "nombre": "SPAGUETTI RIOKA X 250 PC X 24",
-        "precio": 919,
-        "imagen": "../assets/img_catalogo/7707525091016.png",
-        "barra": 7707525091016,
-        "invetario": 4515,
+        "codigo": "JPO0008",
+        "nombre": "SPAGUETTI RIOKA X 1000 PC X 12",
+        "precio": 3675,
+        "imagen": "../assets/img_catalogo/7705525091054.png",
+        "barra": 7705525091054,
+        "invetario": 2592,
         "proveedor": "PRECOCIDOS",
         "activo": true
     },
     {
         "id": 596,
-        "codigo": "JPO0010",
-        "nombre": "FIDEOS RIOKA X 1000 PC X 6",
-        "precio": 3675,
-        "imagen": "../assets/img_catalogo/7705525093089.png",
-        "barra": 7705525093089,
-        "invetario": 2010,
+        "codigo": "JPO0009",
+        "nombre": "SPAGUETTI RIOKA X 250 PC X 24",
+        "precio": 919,
+        "imagen": "../assets/img_catalogo/7707525091016.png",
+        "barra": 7707525091016,
+        "invetario": 3315,
         "proveedor": "PRECOCIDOS",
         "activo": true
     },
     {
         "id": 597,
-        "codigo": "JPO0011",
-        "nombre": "CONCHAS RIOKA X 1000 PC X 6",
+        "codigo": "JPO0010",
+        "nombre": "FIDEOS RIOKA X 1000 PC X 6",
         "precio": 3675,
-        "imagen": "../assets/img_catalogo/7705525092037.png",
-        "barra": 7705525092037,
-        "invetario": 275,
+        "imagen": "../assets/img_catalogo/7705525093089.png",
+        "barra": 7705525093089,
+        "invetario": 3181,
         "proveedor": "PRECOCIDOS",
         "activo": true
     },
     {
         "id": 598,
-        "codigo": "JPO0012",
-        "nombre": "MACARRON X 1000 PC X 6",
+        "codigo": "JPO0011",
+        "nombre": "CONCHAS RIOKA X 1000 PC X 6",
         "precio": 3675,
-        "imagen": "../assets/img_catalogo/7705525090354.png",
-        "barra": 7705525090354,
-        "invetario": 386,
+        "imagen": "../assets/img_catalogo/7705525092037.png",
+        "barra": 7705525092037,
+        "invetario": 424,
         "proveedor": "PRECOCIDOS",
         "activo": true
     },
     {
         "id": 599,
+        "codigo": "JPO0012",
+        "nombre": "MACARRON X 1000 PC X 6",
+        "precio": 3675,
+        "imagen": "../assets/img_catalogo/7705525090354.png",
+        "barra": 7705525090354,
+        "invetario": 763,
+        "proveedor": "PRECOCIDOS",
+        "activo": true
+    },
+    {
+        "id": 600,
         "codigo": "JPR0001",
         "nombre": "ARENA FELIGATO VALVULA X 4 KL PC X 6",
         "precio": 11877,
@@ -6588,18 +6599,18 @@
         "activo": true
     },
     {
-        "id": 600,
+        "id": 601,
         "codigo": "JPR0002",
         "nombre": "ARENA FELIGATO X 25 KL",
         "precio": 64635,
         "imagen": "../assets/img_catalogo/2222070727207.png",
         "barra": 2222070727207,
-        "invetario": 17,
+        "invetario": 16,
         "proveedor": "PROPETS",
         "activo": true
     },
     {
-        "id": 601,
+        "id": 602,
         "codigo": "JPR0003",
         "nombre": "ARENA FELIGATO LAVANDA X 4,5 KL PC X 6",
         "precio": 14635,
@@ -6610,84 +6621,84 @@
         "activo": true
     },
     {
-        "id": 602,
+        "id": 603,
         "codigo": "JPR0006",
         "nombre": "ARENA FELIGATO X 8 KL PC X 4",
         "precio": 21961,
         "imagen": "../assets/img_catalogo/2222070752629.png",
         "barra": 2222070752629,
-        "invetario": 162,
-        "proveedor": "PROPETS",
-        "activo": true
-    },
-    {
-        "id": 603,
-        "codigo": "JPR0008",
-        "nombre": "ARENA FELIGATO SIN VALVULA  X 4 KL PC X 6",
-        "precio": 10487,
-        "imagen": "../assets/img_catalogo/2222070752520.png",
-        "barra": 2222070752520,
-        "invetario": 179,
+        "invetario": 138,
         "proveedor": "PROPETS",
         "activo": true
     },
     {
         "id": 604,
+        "codigo": "JPR0008",
+        "nombre": "ARENA FELIGATO SIN VALVULA  X 4 KL PC X 6",
+        "precio": 10487,
+        "imagen": "../assets/img_catalogo/2222070752520.png",
+        "barra": 2222070752520,
+        "invetario": 966,
+        "proveedor": "PROPETS",
+        "activo": true
+    },
+    {
+        "id": 605,
         "codigo": "JPS0001",
         "nombre": "VINAGRE DE MANZANA X 500 ML CJ X 24",
         "precio": 1270,
         "imagen": "../assets/img_catalogo/7709645809834.png",
         "barra": 7709645809834,
-        "invetario": 647,
-        "proveedor": "LA SABANA",
-        "activo": true
-    },
-    {
-        "id": 605,
-        "codigo": "JPS0002",
-        "nombre": "VINAGRE BLANCO X 500 ML CJ X 24",
-        "precio": 1270,
-        "imagen": "../assets/img_catalogo/7709645809889.png",
-        "barra": 7709645809889,
-        "invetario": 1640,
+        "invetario": 383,
         "proveedor": "LA SABANA",
         "activo": true
     },
     {
         "id": 606,
-        "codigo": "JPS0003",
-        "nombre": "VINAGRE BLANCO X 3000 ML CJ X 6",
-        "precio": 4881,
-        "imagen": "../assets/img_catalogo/7709645809896.png",
-        "barra": 7709645809896,
-        "invetario": 477,
+        "codigo": "JPS0002",
+        "nombre": "VINAGRE BLANCO X 500 ML CJ X 24",
+        "precio": 1270,
+        "imagen": "../assets/img_catalogo/7709645809889.png",
+        "barra": 7709645809889,
+        "invetario": 2984,
         "proveedor": "LA SABANA",
         "activo": true
     },
     {
         "id": 607,
-        "codigo": "JPS0004",
-        "nombre": "VINAGRE BLANCO X 1000 ML CJ X 12",
-        "precio": 2542,
-        "imagen": "../assets/img_catalogo/7709645809865.png",
-        "barra": 7709645809865,
-        "invetario": 220,
+        "codigo": "JPS0003",
+        "nombre": "VINAGRE BLANCO X 3000 ML CJ X 6",
+        "precio": 4881,
+        "imagen": "../assets/img_catalogo/7709645809896.png",
+        "barra": 7709645809896,
+        "invetario": 687,
         "proveedor": "LA SABANA",
         "activo": true
     },
     {
         "id": 608,
-        "codigo": "JPS0005",
-        "nombre": "VINAGRE BLANCO X 5000 ML CJ X 4",
-        "precio": 7474,
-        "imagen": "../assets/img_catalogo/7709645809841.png",
-        "barra": 7709645809841,
-        "invetario": 341,
+        "codigo": "JPS0004",
+        "nombre": "VINAGRE BLANCO X 1000 ML CJ X 12",
+        "precio": 2542,
+        "imagen": "../assets/img_catalogo/7709645809865.png",
+        "barra": 7709645809865,
+        "invetario": 724,
         "proveedor": "LA SABANA",
         "activo": true
     },
     {
         "id": 609,
+        "codigo": "JPS0005",
+        "nombre": "VINAGRE BLANCO X 5000 ML CJ X 4",
+        "precio": 7474,
+        "imagen": "../assets/img_catalogo/7709645809841.png",
+        "barra": 7709645809841,
+        "invetario": 641,
+        "proveedor": "LA SABANA",
+        "activo": true
+    },
+    {
+        "id": 610,
         "codigo": "JPS0006",
         "nombre": "VINAGRE DE MANZANA X 3000 ML CJ X 6",
         "precio": 5081,
@@ -6698,7 +6709,7 @@
         "activo": true
     },
     {
-        "id": 610,
+        "id": 611,
         "codigo": "JPS0007",
         "nombre": "VINAGRE DE MANZANA X 1000 ML CJ X 12",
         "precio": 2542,
@@ -6709,7 +6720,7 @@
         "activo": true
     },
     {
-        "id": 611,
+        "id": 612,
         "codigo": "JPS0009",
         "nombre": "SALSA DE AJI CJ X 12",
         "precio": 2562,
@@ -6720,18 +6731,18 @@
         "activo": true
     },
     {
-        "id": 612,
+        "id": 613,
         "codigo": "JRD0001",
         "nombre": "SALCHICHA RONDA VIENA X 7 UND CJ X 48",
         "precio": 3998,
         "imagen": "../assets/img_catalogo/7702160000601.png",
         "barra": 7702160000601,
-        "invetario": 6096,
+        "invetario": 6090,
         "proveedor": "RONDA",
         "activo": true
     },
     {
-        "id": 613,
+        "id": 614,
         "codigo": "JRD0002",
         "nombre": "SALCHICHA RONDA FRANKFURT X 7 CJ X 24",
         "precio": 7996,
@@ -6742,18 +6753,18 @@
         "activo": true
     },
     {
-        "id": 614,
+        "id": 615,
         "codigo": "JRR0001",
         "nombre": "TISANAS SURTIDA PC X 24 UND",
         "precio": 43102,
         "imagen": "../assets/img_catalogo/7709990899000.png",
         "barra": 7709990899000,
-        "invetario": 70,
+        "invetario": 55,
         "proveedor": "HERBAR",
         "activo": true
     },
     {
-        "id": 615,
+        "id": 616,
         "codigo": "JRR0002",
         "nombre": "AROMATICA PANELA FRUTOS ROJOS PC X 12",
         "precio": 3630,
@@ -6764,51 +6775,51 @@
         "activo": true
     },
     {
-        "id": 616,
+        "id": 617,
         "codigo": "JRR0003",
         "nombre": "AROMATICA PANELA SURTIDA PC X 12DP",
         "precio": 3630,
         "imagen": "../assets/img_catalogo/7709990000000.png",
         "barra": 7709990000000,
-        "invetario": 1175,
-        "proveedor": "HERBAR",
-        "activo": true
-    },
-    {
-        "id": 617,
-        "codigo": "JRR0005",
-        "nombre": "AROMATICA PANELA MARACUYA X 12",
-        "precio": 3630,
-        "imagen": "../assets/img_catalogo/7709990336160.png",
-        "barra": 7709990336160,
-        "invetario": 240,
+        "invetario": 911,
         "proveedor": "HERBAR",
         "activo": true
     },
     {
         "id": 618,
-        "codigo": "JRR0006",
-        "nombre": "AROMATICA PANELA FRUTAS TROPICALES PC X 12",
-        "precio": "3629,85",
-        "imagen": "../assets/img_catalogo/7709990336153.png",
-        "barra": 7709990336153,
-        "invetario": 48,
+        "codigo": "JRR0005",
+        "nombre": "AROMATICA PANELA MARACUYA X 12",
+        "precio": 3630,
+        "imagen": "../assets/img_catalogo/7709990336160.png",
+        "barra": 7709990336160,
+        "invetario": 144,
         "proveedor": "HERBAR",
         "activo": true
     },
     {
         "id": 619,
-        "codigo": "JRR0007",
-        "nombre": "AROMATICA PANELA LIMON PC X 12",
+        "codigo": "JRR0006",
+        "nombre": "AROMATICA PANELA FRUTAS TROPICALES PC X 12",
         "precio": "3629,85",
-        "imagen": "../assets/img_catalogo/7709990078169.png",
-        "barra": 7709990078169,
-        "invetario": 96,
+        "imagen": "../assets/img_catalogo/7709990336153.png",
+        "barra": 7709990336153,
+        "invetario": 36,
         "proveedor": "HERBAR",
         "activo": true
     },
     {
         "id": 620,
+        "codigo": "JRR0007",
+        "nombre": "AROMATICA PANELA LIMON PC X 12",
+        "precio": "3629,85",
+        "imagen": "../assets/img_catalogo/7709990078169.png",
+        "barra": 7709990078169,
+        "invetario": 84,
+        "proveedor": "HERBAR",
+        "activo": true
+    },
+    {
+        "id": 621,
         "codigo": "JRR0011",
         "nombre": "TISANA MANZANILLA",
         "precio": "43101,8",
@@ -6819,29 +6830,29 @@
         "activo": true
     },
     {
-        "id": 621,
+        "id": 622,
         "codigo": "JRR0012",
         "nombre": "TISANA YERBABUENA",
         "precio": "43101,8",
         "imagen": "../assets/img_catalogo/7709990078176.png",
         "barra": 7709990078176,
-        "invetario": 1,
-        "proveedor": "HERBAR",
-        "activo": true
-    },
-    {
-        "id": 622,
-        "codigo": "JRR0013",
-        "nombre": "TISANA ALBAHACA",
-        "precio": "43101,8",
-        "imagen": "../assets/img_catalogo/7709990078152.png",
-        "barra": 7709990078152,
-        "invetario": 1,
+        "invetario": 0,
         "proveedor": "HERBAR",
         "activo": true
     },
     {
         "id": 623,
+        "codigo": "JRR0013",
+        "nombre": "TISANA ALBAHACA",
+        "precio": "43101,8",
+        "imagen": "../assets/img_catalogo/7709990078152.png",
+        "barra": 7709990078152,
+        "invetario": 0,
+        "proveedor": "HERBAR",
+        "activo": true
+    },
+    {
+        "id": 624,
         "codigo": "JRR0014",
         "nombre": "TISANA LIMONARIA",
         "precio": "43101,8",
@@ -6852,18 +6863,18 @@
         "activo": true
     },
     {
-        "id": 624,
+        "id": 625,
         "codigo": "JRR0015",
         "nombre": "TISANA CIDRON",
         "precio": "43101,8",
         "imagen": "../assets/img_catalogo/7709990899290.png",
         "barra": 7709990899290,
-        "invetario": 2,
+        "invetario": 1,
         "proveedor": "HERBAR",
         "activo": true
     },
     {
-        "id": 625,
+        "id": 626,
         "codigo": "JRR0016",
         "nombre": "TISANA TORONJIL",
         "precio": "43101,8",
@@ -6874,7 +6885,7 @@
         "activo": true
     },
     {
-        "id": 626,
+        "id": 627,
         "codigo": "JRS0001",
         "nombre": "MEGA NATILLA COCO X 200 CJ X 20 UND",
         "precio": 2404,
@@ -6885,7 +6896,7 @@
         "activo": true
     },
     {
-        "id": 627,
+        "id": 628,
         "codigo": "JRS0002",
         "nombre": "MEGA NATILLA COCO X 300 CJ X 20 UND",
         "precio": 2911,
@@ -6896,7 +6907,7 @@
         "activo": true
     },
     {
-        "id": 628,
+        "id": 629,
         "codigo": "JRS0003",
         "nombre": "MEGA NATILLA AREQUIPE X 200 CJ X 20 UND",
         "precio": 2404,
@@ -6907,7 +6918,7 @@
         "activo": true
     },
     {
-        "id": 629,
+        "id": 630,
         "codigo": "JRS0004",
         "nombre": "MEGA NATILLA AREQUIPE X 300 CJ X 20 UND",
         "precio": 2911,
@@ -6918,7 +6929,7 @@
         "activo": true
     },
     {
-        "id": 630,
+        "id": 631,
         "codigo": "JRS0005",
         "nombre": "MEGA NATILLA MARACUYA X 200 CJ X 20 UND",
         "precio": "2403,8",
@@ -6929,7 +6940,7 @@
         "activo": true
     },
     {
-        "id": 631,
+        "id": 632,
         "codigo": "JRS0006",
         "nombre": "MEGA NATILLA MARACUYA X 300 CJ X 20 UND",
         "precio": "2910,74",
@@ -6940,7 +6951,7 @@
         "activo": true
     },
     {
-        "id": 632,
+        "id": 633,
         "codigo": "JRS0007",
         "nombre": "MEGA NATILLA TRACIONAL X 200 CJ X 20 UND",
         "precio": "2403,8",
@@ -6951,7 +6962,7 @@
         "activo": true
     },
     {
-        "id": 633,
+        "id": 634,
         "codigo": "JRS0008",
         "nombre": "MEGA NATILLA TRACIONAL X 300 CJ X 20 UND",
         "precio": "2910,74",
@@ -6962,7 +6973,7 @@
         "activo": true
     },
     {
-        "id": 634,
+        "id": 635,
         "codigo": "JRS0009",
         "nombre": "MEGA NATILLA TRES LECHES X 200 CJ X 20 UND",
         "precio": "2403,8",
@@ -6973,7 +6984,7 @@
         "activo": true
     },
     {
-        "id": 635,
+        "id": 636,
         "codigo": "JRS0011",
         "nombre": "MEGA BUÑUELOS X 200 CJ X 20 UND",
         "precio": "2403,8",
@@ -6984,7 +6995,7 @@
         "activo": true
     },
     {
-        "id": 636,
+        "id": 637,
         "codigo": "JRS0012",
         "nombre": "MEGA BUÑUELOS X 300 CJ X 20 UND",
         "precio": "2910,74",
@@ -6995,79 +7006,79 @@
         "activo": true
     },
     {
-        "id": 637,
+        "id": 638,
         "codigo": "JSA0001",
         "nombre": "PIÑA COLADA MAUI X 700 ML CJ X 12",
         "precio": 30965,
         "imagen": "../assets/img_catalogo/7702534200026.png",
         "barra": 7702534200026,
-        "invetario": 32,
-        "proveedor": "SABAJON APOLO",
-        "activo": true
-    },
-    {
-        "id": 638,
-        "codigo": "JSA0002",
-        "nombre": "SABAJON APOLO SABOR A BRANDY X 700 ML CJ X 12",
-        "precio": 31201,
-        "imagen": "../assets/img_catalogo/7702534100029.png",
-        "barra": 7702534100029,
-        "invetario": 153,
+        "invetario": 5,
         "proveedor": "SABAJON APOLO",
         "activo": true
     },
     {
         "id": 639,
-        "codigo": "JSA0003",
-        "nombre": "SABAJON APOLO SABOR A VAINILLA X 700 ML CJ X 12",
-        "precio": 30783,
-        "imagen": "../assets/img_catalogo/770253410012.png",
-        "barra": 770253410012,
-        "invetario": 76,
+        "codigo": "JSA0002",
+        "nombre": "SABAJON APOLO SABOR A BRANDY X 700 ML CJ X 12",
+        "precio": 31201,
+        "imagen": "../assets/img_catalogo/7702534100029.png",
+        "barra": 7702534100029,
+        "invetario": 131,
         "proveedor": "SABAJON APOLO",
         "activo": true
     },
     {
         "id": 640,
+        "codigo": "JSA0003",
+        "nombre": "SABAJON APOLO SABOR A VAINILLA X 700 ML CJ X 12",
+        "precio": 30783,
+        "imagen": "../assets/img_catalogo/770253410012.png",
+        "barra": 770253410012,
+        "invetario": 60,
+        "proveedor": "SABAJON APOLO",
+        "activo": true
+    },
+    {
+        "id": 641,
         "codigo": "JVN0001",
         "nombre": "GELATINA FRUT DAY X 250 CJ X  50",
         "precio": 4495,
         "imagen": "../assets/img_catalogo/7700718564000.png",
         "barra": 7700718564000,
-        "invetario": 2238,
-        "proveedor": "VENTAS NACIONALES",
-        "activo": true
-    },
-    {
-        "id": 641,
-        "codigo": "JVN0002",
-        "nombre": "GELATINA FRUT DAY X 500 CJ X 50",
-        "precio": 8988,
-        "imagen": "../assets/img_catalogo/7700718565000.png",
-        "barra": 7700718565000,
-        "invetario": 987,
+        "invetario": 2195,
         "proveedor": "VENTAS NACIONALES",
         "activo": true
     },
     {
         "id": 642,
-        "codigo": "JVN0003",
-        "nombre": "GELATINA FRUT DAY X 1000 CJ  X 25",
-        "precio": 17977,
-        "imagen": "../assets/img_catalogo/7707185646000.png",
-        "barra": 7707185646000,
-        "invetario": 335,
+        "codigo": "JVN0002",
+        "nombre": "GELATINA FRUT DAY X 500 CJ X 50",
+        "precio": 8988,
+        "imagen": "../assets/img_catalogo/7700718565000.png",
+        "barra": 7700718565000,
+        "invetario": 948,
         "proveedor": "VENTAS NACIONALES",
         "activo": true
     },
     {
         "id": 643,
+        "codigo": "JVN0003",
+        "nombre": "GELATINA FRUT DAY X 1000 CJ  X 25",
+        "precio": 17977,
+        "imagen": "../assets/img_catalogo/7707185646000.png",
+        "barra": 7707185646000,
+        "invetario": 329,
+        "proveedor": "VENTAS NACIONALES",
+        "activo": true
+    },
+    {
+        "id": 644,
         "codigo": "JVN0004",
         "nombre": "GELATINA FRUT DAY X 105 GR 3 SABORES CJ X 32",
         "precio": 3369,
         "imagen": "../assets/img_catalogo/7707185642300.png",
         "barra": 7707185642300,
-        "invetario": 928,
+        "invetario": 832,
         "proveedor": "VENTAS NACIONALES",
         "activo": true
     }
