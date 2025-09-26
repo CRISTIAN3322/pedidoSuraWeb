@@ -184,7 +184,8 @@ function ClienteSelectorReact() {
                 sinCupo = { sinCupo }
                 /> <
                 p style = {
-                    { marginTop: '8px' } } > < strong > Forma de pago: < /strong> { formaPago || 'No registrada' } < /p >
+                    { marginTop: '8px' }
+                } > < strong > Forma de pago: < /strong> { formaPago || 'No registrada' } < /p >
 
                 <
                 ul className = "lista-sucursales" > {
@@ -242,11 +243,11 @@ function ClienteSelectorReact() {
                                 formaPago,
                             };
                             localStorage.setItem('datosCliente', JSON.stringify(datosCliente));
-                            window.location.href = '/carrito';
+                            window.location.href = '/producto';
                         }
                     }
                 } >
-                Ir al Carrito <
+                Ir al Producto <
                 /button> < /
                 div >
             )
