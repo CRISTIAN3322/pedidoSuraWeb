@@ -1,271 +1,329 @@
-import React, { useState } from 'react';
-import clientesData from '../../data/clientes.json';
-import cuposData from '../../data/cupo.json';
-import carteraData from '../../data/cartera.json';
+import React, { useState, useCallback, useMemo } from 'react';
+import { useClienteData, useClientesFiltrados } from '../../hooks/useClienteData';
+import styles from './ClienteSelectorReact.module.css';
 
-function CupoCliente({ cupoDisponible, totalCartera, sinCupo }) {
-    return ( <
-        div className = "cupo-cliente" > {
-            sinCupo ? ( <
-                span style = {
-                    { color: 'red', fontWeight: 'bold' }
-                } > ⚠️SIN CUPO - Cupo: { cupoDisponible.toLocaleString('es-CO') } | Cartera: { totalCartera.toLocaleString('es-CO') } <
-                /span>
-            ) : ( <
-                span style = {
-                    { color: 'green' }
-                } > ✅Con Cupo - Cupo: { cupoDisponible.toLocaleString('es-CO') } | Cartera: { totalCartera.toLocaleString('es-CO') } <
-                /span>
-            )
-        } <
-        /div>
+// Componente para mostrar información del cupo
+const CupoCliente = React.memo(({ cupoDisponible, totalCartera, sinCupo, error }) => {
+  const cupoInfoClass = useMemo(() => {
+    if (error) return styles.cupoInfo;
+    if (sinCupo) return `${styles.cupoInfo} ${styles.danger}`;
+    if (totalCartera > cupoDisponible * 0.8) return `${styles.cupoInfo} ${styles.warning}`;
+    return `${styles.cupoInfo} ${styles.success}`;
+  }, [sinCupo, totalCartera, cupoDisponible, error]);
+
+  if (error) {
+    return (
+      <div className={cupoInfoClass} role="alert" aria-live="polite">
+        ⚠️ Error: {error}
+      </div>
     );
-}
+  }
 
-function CarteraCliente({ cartera, totalCartera }) {
-    return ( <
-        div className = "tabla-cartera-responsive" >
-        <
-        h4 style = {
-            { marginBottom: '1rem', color: '#1a365d' }
-        } > Cartera del Cliente < /h4> <
-        div className = "tabla-cartera-scroll" >
-        <
-        table className = "tabla-cartera-moderna" >
-        <
-        thead >
-        <
-        tr >
-        <
-        th > Factura < /th> <
-        th > Fecha < /th> <
-        th > Valor < /th> <
-        th > Días < /th> < /
-        tr > <
-        /thead> <
-        tbody > {
-            cartera.length > 0 ? (
-                cartera.map((factura, idx) => ( <
-                    tr key = { idx }
-                    className = {
-                        Number(factura.dias) >= 30 ?
-                        'dias-mayor-treinta' : Number(factura.dias) >= 11 ?
-                            'dias-mayor-diez' : Number(factura.dias) >= 1 ?
-                            'dias-mayor-uno' : ''
-                    } >
-                    <
-                    td > { factura.fac } < /td> <
-                    td > { factura.fecha } < /td> <
-                    td >
-                    $ { Number(String(factura.valor).replace(/\./g, '').replace(',', '.')).toLocaleString('es-CO') } <
-                    /td> <
-                    td > { factura.dias } < /td> < /
-                    tr >
-                ))
-            ) : ( <
-                tr >
-                <
-                td colSpan = "4" > Sin facturas pendientes < /td> < /
-                tr >
-            )
-        } <
-        /tbody> <
-        tfoot >
-        <
-        tr >
-        <
-        td colSpan = "2" >
-        <
-        strong > Total Cartera: < /strong> < /
-        td > <
-        td colSpan = "2" >
-        <
-        strong > $ { totalCartera.toLocaleString('es-CO') } < /strong> < /
-        td > <
-        /tr> < /
-        tfoot > <
-        /table> < /
-        div > <
-        style > { `
-        .tabla-cartera-responsive { width: 100%; margin: 20px 0; }
-        .tabla-cartera-scroll { overflow-x: auto; border-radius: 10px; box-shadow: 0 2px 8px rgba(44,82,130,0.08); background: #fff; }
-        .tabla-cartera-moderna { width: 100%; border-collapse: collapse; min-width: 400px; }
-        .tabla-cartera-moderna th, .tabla-cartera-moderna td { padding: 0.75rem 1rem; border-bottom: 1px solid #e2e8f0; text-align: left; }
-        .tabla-cartera-moderna th { background: #f7fafc; color: #2d3748; font-weight: 600; }
-        .tabla-cartera-moderna tbody tr:hover { background: #f7fafc; }
-        .tabla-cartera-moderna tfoot { background: #f8f9fa; }
-        .tabla-cartera-moderna tfoot td { font-weight: bold; color: #1a365d; }
-        .tabla-cartera-moderna tr.dias-mayor-uno { background-color: #fff3cd !important; }
-        .tabla-cartera-moderna tr.dias-mayor-diez { background-color: #f8d7da !important; }
-        .tabla-cartera-moderna tr.dias-mayor-treinta { background-color: #dc3545 !important; color: white !important; }
-        @media (max-width: 700px) {
-          .tabla-cartera-moderna th, .tabla-cartera-moderna td { padding: 0.5rem 0.4rem; font-size: 0.95rem; }
-          .tabla-cartera-moderna { min-width: 320px; }
-        }
-        @media (max-width: 480px) {
-          .tabla-cartera-responsive h4 { font-size: 1.1rem; }
-          .tabla-cartera-moderna th, .tabla-cartera-moderna td { font-size: 0.85rem; padding: 0.3rem 0.2rem; }
-        }
-      ` } < /style> < /
-        div >
-    );
-}
+  return (
+    <div className={cupoInfoClass} role="status" aria-live="polite">
+      {sinCupo ? '⚠️' : '✅'}
+      {sinCupo ? 'SIN CUPO' : 'Con Cupo'} - Cupo: ${cupoDisponible.toLocaleString('es-CO')} | Cartera: ${totalCartera.toLocaleString('es-CO')}
+    </div>
+  );
+});
 
-function ClienteSelectorReact() {
-    const [busqueda, setBusqueda] = useState('');
-    const [clienteSeleccionado, setClienteSeleccionado] = useState(null);
-    const [sucursalSeleccionada, setSucursalSeleccionada] = useState(null);
+// Componente para mostrar la tabla de cartera
+const CarteraCliente = React.memo(({ cartera, totalCartera, isLoading }) => {
+  const getDiasClass = useCallback((dias) => {
+    const diasNum = Number(dias) || 0;
+    if (diasNum >= 30) return styles.critical;
+    if (diasNum >= 11) return styles.danger;
+    if (diasNum >= 1) return styles.warning;
+    return styles.normal;
+  }, []);
 
-    const resultados =
-        Array.isArray(clientesData) && busqueda.length >= 1 ?
-        clientesData.filter(
-            (cliente) =>
-            cliente.nombre.toLowerCase().includes(busqueda.toLowerCase()) ||
-            String(cliente.id).includes(busqueda)
-        ) : [];
-
-    let cupoDisponible = 0;
-    let totalCartera = 0;
-    let sinCupo = false;
-    let carteraCliente = [];
-    let formaPago = '';
-
-    if (clienteSeleccionado) {
-        const cupoInfo = cuposData.find((c) => c.id === clienteSeleccionado.id);
-        if (cupoInfo) {
-            cupoDisponible = parseFloat(String(cupoInfo.cupo).replace(/,/g, ''));
-            formaPago = cupoInfo.Forma || '';
-        }
-        carteraCliente = carteraData.filter((c) => c.id === clienteSeleccionado.id);
-        if (carteraCliente.length > 0) {
-            totalCartera = carteraCliente.reduce(
-                (sum, f) => sum + parseFloat(String(f.valor).replace(/,/g, '')),
-                0
-            );
-        }
-        sinCupo = totalCartera > cupoDisponible;
+  const formatCurrency = useCallback((valor) => {
+    try {
+      const valorNumerico = Number(String(valor).replace(/\./g, '').replace(',', '.'));
+      return isNaN(valorNumerico) ? 0 : valorNumerico;
+    } catch {
+      return 0;
     }
+  }, []);
 
-    return ( <
-        div className = "cliente-selector" >
-        <
-        input type = "text"
-        placeholder = "Buscar Cliente..."
-        value = { busqueda }
-        onChange = {
-            (e) => setBusqueda(e.target.value)
-        }
-        className = "input-busqueda" /
-        >
-
-        <
-        ul className = "lista-clientes" > {
-            resultados.map((cliente) => ( <
-                li key = { cliente.id }
-                className = "cliente-item"
-                onClick = {
-                    () => {
-                        setClienteSeleccionado(cliente);
-                        setSucursalSeleccionada(null);
-                    }
-                } > { cliente.nombre } <
-                /li>
-            ))
-        } <
-        /ul>
-
-        {
-            clienteSeleccionado && ( <
-                div className = "sucursales" >
-                <
-                h3 > Sucursales de { clienteSeleccionado.nombre }: < /h3> <
-                CupoCliente cupoDisponible = { cupoDisponible }
-                totalCartera = { totalCartera }
-                sinCupo = { sinCupo }
-                /> <
-                p style = {
-                    { marginTop: '8px' }
-                } > < strong > Forma de pago: < /strong> { formaPago || 'No registrada' } < /p >
-
-                <
-                ul className = "lista-sucursales" > {
-                    Array.isArray(clienteSeleccionado.sucursales) ? (
-                        clienteSeleccionado.sucursales.map((sucursal, idx) => ( <
-                            li key = { idx }
-                            className = {
-                                'sucursal-item' +
-                                (sucursalSeleccionada === sucursal ? ' sucursal-activa' : '')
-                            }
-                            onClick = {
-                                () => setSucursalSeleccionada(sucursal)
-                            } >
-                            Dirección: { sucursal.direccion } | Vendedor: { sucursal.vendedor } <
-                            /li>
-                        ))
-                    ) : ( <
-                        li > No hay sucursales registradas < /li>
-                    )
-                } <
-                /ul>
-
-                <
-                CarteraCliente cartera = { carteraCliente }
-                totalCartera = { totalCartera }
-                />
-
-                <
-                button className = "boton-carrito"
-                style = {
-                    {
-                        marginTop: '1.5rem',
-                        width: '100%',
-                        padding: '12px',
-                        fontSize: '1.1rem',
-                        background: '#4CAF50',
-                        color: 'white',
-                        border: 'none',
-                        borderRadius: '6px',
-                        cursor: 'pointer',
-                    }
-                }
-                disabled = {!sucursalSeleccionada }
-                onClick = {
-                    () => {
-                        if (clienteSeleccionado && sucursalSeleccionada) {
-                            const datosCliente = {
-                                clienteId: clienteSeleccionado.id,
-                                clienteNombre: clienteSeleccionado.nombre,
-                                sucursalDireccion: sucursalSeleccionada.direccion,
-                                sucursalVendedor: sucursalSeleccionada.vendedor,
-                                totalCartera,
-                                cupoDisponible,
-                                sinCupo,
-                                formaPago,
-                            };
-                            localStorage.setItem('datosCliente', JSON.stringify(datosCliente));
-                            window.location.href = '/producto';
-                        }
-                    }
-                } >
-                Ir al Producto <
-                /button> < /
-                div >
-            )
-        }
-
-        {
-            clienteSeleccionado && sucursalSeleccionada && ( <
-                div className = "datos-seleccionados" >
-                <
-                h4 > Datos Seleccionados: < /h4> <
-                p > Cliente: { clienteSeleccionado.nombre } < /p> <
-                p > Dirección: { sucursalSeleccionada.direccion } < /p> <
-                p > Vendedor: { sucursalSeleccionada.vendedor } < /p> < /
-                div >
-            )
-        } <
-        /div>
+  if (isLoading) {
+    return (
+      <div className={styles.carteraSection}>
+        <h4 className={styles.carteraTitle}>Cartera del Cliente</h4>
+        <div className={styles.loading}>Cargando cartera...</div>
+      </div>
     );
+  }
+
+  return (
+    <div className={styles.carteraSection}>
+      <h4 className={styles.carteraTitle}>Cartera del Cliente</h4>
+      <div style={{ overflowX: 'auto' }}>
+        <table className={styles.carteraTable}>
+          <thead>
+            <tr>
+              <th>Factura</th>
+              <th>Fecha</th>
+              <th>Valor</th>
+              <th>Días</th>
+            </tr>
+          </thead>
+          <tbody>
+            {cartera.length > 0 ? (
+              cartera.map((factura, idx) => (
+                <tr key={factura.fac || idx}>
+                  <td>{factura.fac || 'N/A'}</td>
+                  <td>{factura.fecha || 'N/A'}</td>
+                  <td>${formatCurrency(factura.valor).toLocaleString('es-CO')}</td>
+                  <td>
+                    <span className={`${styles.daysBadge} ${getDiasClass(factura.dias)}`}>
+                      {factura.dias || 0}
+                    </span>
+                  </td>
+                </tr>
+              ))
+            ) : (
+              <tr>
+                <td colSpan="4" style={{ textAlign: 'center', color: '#6c757d' }}>
+                  Sin facturas pendientes
+                </td>
+              </tr>
+            )}
+          </tbody>
+          {totalCartera > 0 && (
+            <tfoot>
+              <tr>
+                <td colSpan="2"><strong>Total Cartera:</strong></td>
+                <td colSpan="2"><strong>${totalCartera.toLocaleString('es-CO')}</strong></td>
+              </tr>
+            </tfoot>
+          )}
+        </table>
+      </div>
+    </div>
+  );
+});
+
+// Componente principal refactorizado
+function ClienteSelectorReact() {
+  const [busqueda, setBusqueda] = useState('');
+  const [clienteSeleccionado, setClienteSeleccionado] = useState(null);
+  const [sucursalSeleccionada, setSucursalSeleccionada] = useState(null);
+  const [isLoading, setIsLoading] = useState(false);
+
+  // Usar hooks personalizados para lógica de negocio
+  const resultados = useClientesFiltrados(busqueda);
+  const {
+    cupoDisponible,
+    totalCartera,
+    sinCupo,
+    carteraCliente,
+    formaPago,
+    error: dataError
+  } = useClienteData(clienteSeleccionado);
+
+  // Manejadores de eventos optimizados
+  const handleClienteSelect = useCallback((cliente) => {
+    setClienteSeleccionado(cliente);
+    setSucursalSeleccionada(null);
+  }, []);
+
+  const handleSucursalSelect = useCallback((sucursal) => {
+    setSucursalSeleccionada(sucursal);
+  }, []);
+
+  const handleContinue = useCallback(() => {
+    if (!clienteSeleccionado || !sucursalSeleccionada) return;
+
+    setIsLoading(true);
+
+    try {
+      const datosCliente = {
+        clienteId: clienteSeleccionado.id,
+        clienteNombre: clienteSeleccionado.nombre,
+        sucursalDireccion: sucursalSeleccionada.direccion,
+        sucursalVendedor: sucursalSeleccionada.vendedor,
+        totalCartera,
+        cupoDisponible,
+        sinCupo,
+        formaPago,
+      };
+
+      localStorage.setItem('datosCliente', JSON.stringify(datosCliente));
+      window.location.href = '/producto';
+    } catch (error) {
+      console.error('Error al guardar datos del cliente:', error);
+      alert('Error al procesar la información. Por favor, inténtelo de nuevo.');
+    } finally {
+      setIsLoading(false);
+    }
+  }, [clienteSeleccionado, sucursalSeleccionada, totalCartera, cupoDisponible, sinCupo, formaPago]);
+
+  const handleSearchChange = useCallback((e) => {
+    setBusqueda(e.target.value);
+  }, []);
+
+  // Datos seleccionados para mostrar
+  const datosSeleccionados = useMemo(() => {
+    if (!clienteSeleccionado || !sucursalSeleccionada) return null;
+
+    return {
+      cliente: clienteSeleccionado.nombre,
+      direccion: sucursalSeleccionada.direccion,
+      vendedor: sucursalSeleccionada.vendedor,
+    };
+  }, [clienteSeleccionado, sucursalSeleccionada]);
+
+  return (
+    <div className={styles.container}>
+      {/* Sección de búsqueda */}
+      <div className={styles.searchSection}>
+        <label htmlFor="cliente-search" style={{ display: 'block', marginBottom: '0.5rem', fontWeight: '600', color: '#2d3748' }}>
+          Buscar Cliente
+        </label>
+        <input
+          id="cliente-search"
+          type="text"
+          placeholder="Buscar por nombre o ID del cliente..."
+          value={busqueda}
+          onChange={handleSearchChange}
+          className={styles.searchInput}
+          aria-describedby="search-help"
+        />
+        <div id="search-help" style={{ fontSize: '0.9rem', color: '#6c757d', marginTop: '0.25rem' }}>
+          Busque por nombre del cliente o número de identificación
+        </div>
+
+        {/* Resultados de búsqueda */}
+        {resultados.length > 0 && (
+          <ul className={styles.resultsList} role="listbox" aria-label="Resultados de búsqueda">
+            {resultados.map((cliente) => (
+              <li
+                key={cliente.id}
+                className={styles.clientItem}
+                onClick={() => handleClienteSelect(cliente)}
+                role="option"
+                tabIndex={0}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    handleClienteSelect(cliente);
+                  }
+                }}
+                aria-selected={clienteSeleccionado?.id === cliente.id}
+              >
+                <strong>{cliente.nombre}</strong>
+                {cliente.id && <span style={{ color: '#6c757d', marginLeft: '0.5rem' }}>ID: {cliente.id}</span>}
+              </li>
+            ))}
+          </ul>
+        )}
+
+        {busqueda.length >= 1 && resultados.length === 0 && (
+          <div className={styles.noResults}>
+            No se encontraron clientes que coincidan con "{busqueda}"
+          </div>
+        )}
+      </div>
+
+      {/* Información del cliente seleccionado */}
+      {clienteSeleccionado && (
+        <div className={styles.branchesSection}>
+          <h3 className={styles.branchesTitle}>
+            Sucursales de {clienteSeleccionado.nombre}
+          </h3>
+
+          {/* Error display */}
+          {dataError && (
+            <div className={styles.errorMessage} role="alert">
+              {dataError}
+            </div>
+          )}
+
+          {/* Información del cupo */}
+          <CupoCliente
+            cupoDisponible={cupoDisponible}
+            totalCartera={totalCartera}
+            sinCupo={sinCupo}
+            error={dataError}
+          />
+
+          {/* Información de forma de pago */}
+          <div className={styles.paymentInfo}>
+            <strong>Forma de pago:</strong> {formaPago || 'No registrada'}
+          </div>
+
+          {/* Lista de sucursales */}
+          {clienteSeleccionado.sucursales && clienteSeleccionado.sucursales.length > 0 ? (
+            <div>
+              <h4 style={{ margin: '1.5rem 0 1rem 0', color: '#2d3748' }}>Seleccione una sucursal:</h4>
+              <ul className={styles.branchesList} role="radiogroup" aria-labelledby="branches-label">
+                <div id="branches-label" style={{ display: 'none' }}>
+                  Opciones de sucursales
+                </div>
+                {clienteSeleccionado.sucursales.map((sucursal, idx) => (
+                  <li
+                    key={idx}
+                    className={`${styles.branchItem} ${sucursalSeleccionada === sucursal ? styles.active : ''}`}
+                    onClick={() => handleSucursalSelect(sucursal)}
+                    role="radio"
+                    tabIndex={0}
+                    aria-checked={sucursalSeleccionada === sucursal}
+                    onKeyDown={(e) => {
+                      if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        handleSucursalSelect(sucursal);
+                      }
+                    }}
+                  >
+                    <strong>Dirección:</strong> {sucursal.direccion}<br />
+                    <strong>Vendedor:</strong> {sucursal.vendedor}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ) : (
+            <div className={styles.noResults}>
+              No hay sucursales registradas para este cliente
+            </div>
+          )}
+
+          {/* Tabla de cartera */}
+          <CarteraCliente
+            cartera={carteraCliente}
+            totalCartera={totalCartera}
+            isLoading={isLoading}
+          />
+
+
+          {/* Botón continuar */}
+          <button
+            className={styles.continueButton}
+            disabled={!sucursalSeleccionada || isLoading}
+            onClick={handleContinue}
+            aria-describedby="continue-help"
+          >
+            {isLoading ? 'Procesando...' : 'Continuar al Producto'}
+          </button>
+          <div id="continue-help" style={{ fontSize: '0.9rem', color: '#6c757d', marginTop: '0.5rem' }}>
+            Seleccione una sucursal para continuar
+          </div>
+        </div>
+      )}
+
+      {/* Datos seleccionados */}
+      {datosSeleccionados && (
+        <div className={styles.selectedData}>
+          <h4 className={styles.selectedTitle}>Datos Seleccionados:</h4>
+          <div className={styles.selectedInfo}>
+            <p><strong>Cliente:</strong> {datosSeleccionados.cliente}</p>
+            <p><strong>Dirección:</strong> {datosSeleccionados.direccion}</p>
+            <p><strong>Vendedor:</strong> {datosSeleccionados.vendedor}</p>
+          </div>
+        </div>
+      )}
+    </div>
+  );
 }
 
 export default ClienteSelectorReact;

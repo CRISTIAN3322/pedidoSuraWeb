@@ -1,0 +1,330 @@
+/* ClienteSelectorReact.module.css */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+.searchSection {
+  margin-bottom: 2rem;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.1rem;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  box-sizing: border-box;
+}
+
+.searchInput:focus {
+  outline: none;
+  border-color: #4CAF50;
+  box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.1);
+}
+
+.searchInput::placeholder {
+  color: #a0aec0;
+}
+
+.resultsList {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0 0;
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.clientItem {
+  padding: 1rem;
+  cursor: pointer;
+  border-bottom: 1px solid #e2e8f0;
+  transition: background-color 0.2s;
+}
+
+.clientItem:hover {
+  background-color: #f7fafc;
+}
+
+.clientItem:last-child {
+  border-bottom: none;
+}
+
+.branchesSection {
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(44, 82, 130, 0.08);
+}
+
+.branchesTitle {
+  margin: 0 0 1.5rem 0;
+  color: #1a365d;
+  font-size: 1.3rem;
+}
+
+.cupoInfo {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.cupoInfo.success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.cupoInfo.warning {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.cupoInfo.danger {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.paymentInfo {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+}
+
+.paymentInfo strong {
+  color: #2d3748;
+}
+
+.branchesList {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0;
+}
+
+.branchItem {
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  background-color: white;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.branchItem:hover {
+  border-color: #4CAF50;
+  transform: translateY(-1px);
+}
+
+.branchItem.active {
+  border-color: #4CAF50;
+  background-color: #f0f8f0;
+}
+
+.carteraSection {
+  margin-top: 2rem;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(44, 82, 130, 0.08);
+  overflow: hidden;
+}
+
+.carteraTitle {
+  margin: 0;
+  padding: 1.5rem;
+  background-color: #1a365d;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.carteraTable {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 500px;
+}
+
+.carteraTable th,
+.carteraTable td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.carteraTable th {
+  background-color: #f7fafc;
+  color: #2d3748;
+  font-weight: 600;
+  position: sticky;
+  top: 0;
+}
+
+.carteraTable tbody tr:hover {
+  background-color: #f7fafc;
+}
+
+.carteraTable tfoot {
+  background-color: #f8f9fa;
+  font-weight: bold;
+}
+
+.carteraTable tfoot td {
+  color: #1a365d;
+  border-top: 2px solid #e2e8f0;
+}
+
+.daysBadge {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.daysBadge.normal {
+  background-color: #e9ecef;
+  color: #495057;
+}
+
+.daysBadge.warning {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.daysBadge.danger {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.daysBadge.critical {
+  background-color: #dc3545;
+  color: white;
+}
+
+.selectedData {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: #e7f3ff;
+  border: 1px solid #b3d9ff;
+  border-radius: 8px;
+}
+
+.selectedTitle {
+  margin: 0 0 1rem 0;
+  color: #1a365d;
+  font-size: 1.2rem;
+}
+
+.selectedInfo p {
+  margin: 0.5rem 0;
+  color: #2d3748;
+  font-size: 1rem;
+}
+
+.continueButton {
+  margin-top: 2rem;
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-weight: 600;
+}
+
+.continueButton:hover:not(:disabled) {
+  background-color: #45a049;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(76, 175, 80, 0.3);
+}
+
+.continueButton:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.noResults {
+  text-align: center;
+  padding: 2rem;
+  color: #6c757d;
+  font-style: italic;
+}
+
+.errorMessage {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 1rem;
+  border-radius: 8px;
+  margin: 1rem 0;
+  border: 1px solid #f5c6cb;
+}
+
+.loading {
+  text-align: center;
+  padding: 2rem;
+  color: #6c757d;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .branchesSection {
+    padding: 1rem;
+  }
+
+  .carteraTitle {
+    padding: 1rem;
+    font-size: 1.1rem;
+  }
+
+  .carteraTable th,
+  .carteraTable td {
+    padding: 0.75rem 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .carteraTable {
+    min-width: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .searchInput {
+    font-size: 1rem;
+    padding: 0.75rem;
+  }
+
+  .clientItem {
+    padding: 0.75rem;
+    font-size: 0.9rem;
+  }
+
+  .branchItem {
+    padding: 0.75rem;
+    font-size: 0.9rem;
+  }
+
+  .carteraTable {
+    min-width: 300px;
+  }
+
+  .carteraTable th,
+  .carteraTable td {
+    padding: 0.5rem 0.25rem;
+    font-size: 0.8rem;
+  }
+}

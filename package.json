@@ -3,7 +3,14 @@
     "type": "module",
     "version": "2.0.0",
     "description": "Sistema de gestión de pedidos para Sura - Versión mejorada",
-    "keywords": ["pedidos", "sura", "gestión", "inventario", "astro", "react"],
+    "keywords": [
+        "pedidos",
+        "sura",
+        "gestión",
+        "inventario",
+        "astro",
+        "react"
+    ],
     "author": "CCPOVEDA <ccpoveda.programador@gmail.com>",
     "license": "MIT",
     "scripts": {
@@ -17,10 +24,10 @@
         "start": "npm run build && npm run preview"
     },
     "dependencies": {
-        "@astrojs/react": "^4.3.0",
+        "@astrojs/react": "^4.4.0",
         "@types/react": "^19.0.8",
         "@types/react-dom": "^19.0.3",
-        "astro": "^5.13.3"
+        "astro": "^5.14.1"
     },
     "devDependencies": {
         "typescript": "^5.0.0"
