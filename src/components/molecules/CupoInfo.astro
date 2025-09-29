@@ -1,0 +1,91 @@
+---
+import StatusBadge from "../atoms/StatusBadge.astro";
+import Icon from "../atoms/Icon.astro";
+
+// Componente molecular CupoInfo - Muestra información del cupo del cliente
+// Props esperadas:
+// - cupoDisponible: número
+// - totalCartera: número
+// - sinCupo: boolean
+// - error: string
+
+const {
+  cupoDisponible = 0,
+  totalCartera = 0,
+  sinCupo = false,
+  error = "",
+} = Astro.props;
+---
+
+<div class="molecule-cupo-info">
+  {
+    error ? (
+      <div class="molecule-cupo-info__error">
+        <Icon name="warning" size="sm" />
+        <span>Error: {error}</span>
+      </div>
+    ) : (
+      <div class="molecule-cupo-info__content">
+        <StatusBadge status={sinCupo ? "danger" : "success"}>
+          {sinCupo ? "⚠️" : "✅"}
+          {sinCupo ? "SIN CUPO" : "Con Cupo"}
+        </StatusBadge>
+
+        <div class="molecule-cupo-info__details">
+          <span class="molecule-cupo-info__detail">
+            <Icon name="money" size="sm" />
+            Cupo: ${cupoDisponible.toLocaleString("es-CO")}
+          </span>
+          <span class="molecule-cupo-info__detail">
+            <Icon name="cart" size="sm" />
+            Cartera: ${totalCartera.toLocaleString("es-CO")}
+          </span>
+        </div>
+      </div>
+    )
+  }
+</div>
+
+<style>
+  .molecule-cupo-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .molecule-cupo-info__error {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #dc3545;
+    font-weight: 600;
+  }
+
+  .molecule-cupo-info__content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .molecule-cupo-info__details {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .molecule-cupo-info__detail {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.9rem;
+    color: #4a5568;
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .molecule-cupo-info__details {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  }
+</style>

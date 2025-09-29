@@ -1,0 +1,373 @@
+---
+import SearchInput from "../molecules/SearchInput.astro";
+import ClienteResults from "../molecules/ClienteResults.astro";
+import ClienteInfo from "../molecules/ClienteInfo.astro";
+import CupoInfo from "../molecules/CupoInfo.astro";
+import CarteraTable from "../molecules/CarteraTable.astro";
+import SucursalList from "../molecules/SucursalList.astro";
+import Button from "../atoms/Button.astro";
+import StatusBadge from "../atoms/StatusBadge.astro";
+import Icon from "../atoms/Icon.astro";
+
+// Props de la plantilla
+const {
+  // Estados de la aplicación
+  busqueda = "",
+  clienteSeleccionado = null,
+  sucursalSeleccionada = null,
+  isLoading = false,
+
+  // Datos del negocio
+  resultados = [],
+  cupoDisponible = 0,
+  totalCartera = 0,
+  sinCupo = false,
+  carteraCliente = [],
+  formaPago = "",
+
+  // Funciones de manejo
+  onSearchChange = null,
+  onClienteSelect = null,
+  onSucursalSelect = null,
+  onContinue = null,
+
+  // Estados de error
+  error = "",
+} = Astro.props;
+---
+
+<div class="template-cliente-selector">
+  {/* Encabezado de la aplicación */}
+  <header class="template-cliente-selector__header">
+    <div class="template-cliente-selector__info-cards">
+      <div class="info-card">
+        <h3>📅 Última Actualización</h3>
+        <p>24 de septiembre del 2025</p>
+      </div>
+      <div class="info-card">
+        <h3>📦 Inventario</h3>
+        <p>Actualizado a las 11:00 AM</p>
+      </div>
+      <div class="info-card">
+        <h3>💰 Cartera</h3>
+        <p>Actualizado 22 de septiembre del 2025</p>
+      </div>
+    </div>
+  </header>
+
+  {/* Sección principal de selección de cliente */}
+  <main class="template-cliente-selector__main">
+    <div class="template-cliente-selector__container">
+      {/* Sección de búsqueda */}
+      <section class="template-cliente-selector__search-section">
+        <SearchInput
+          placeholder="Buscar por nombre o ID del cliente..."
+          value={busqueda}
+          onInput={onSearchChange}
+          showIcon={true}
+        >
+          <ClienteResults
+            slot="results"
+            clientes={resultados}
+            clienteSeleccionado={clienteSeleccionado}
+            onClienteSelect={onClienteSelect}
+            isLoading={isLoading}
+          />
+        </SearchInput>
+
+        <div class="search-help">
+          Busque por nombre del cliente o número de identificación
+        </div>
+      </section>
+
+      {/* Información del cliente seleccionado */}
+      {
+        clienteSeleccionado && (
+          <section class="template-cliente-selector__client-section">
+            {/* Error display */}
+            {error && (
+              <div class="template-cliente-selector__error">
+                <Icon name="warning" size="sm" />
+                {error}
+              </div>
+            )}
+
+            {/* Información del cliente */}
+            <ClienteInfo
+              cliente={clienteSeleccionado}
+              sucursal={sucursalSeleccionada}
+              isLoading={isLoading}
+            />
+
+            {/* Información del cupo */}
+            <CupoInfo
+              cupoDisponible={cupoDisponible}
+              totalCartera={totalCartera}
+              sinCupo={sinCupo}
+              error={error}
+            />
+
+            {/* Información de forma de pago */}
+            <div class="template-cliente-selector__payment-info">
+              <strong>Forma de pago:</strong> {formaPago || "No registrada"}
+            </div>
+
+            {/* Lista de sucursales */}
+            {clienteSeleccionado.sucursales &&
+            clienteSeleccionado.sucursales.length > 0 ? (
+              <SucursalList
+                sucursales={clienteSeleccionado.sucursales}
+                sucursalSeleccionada={sucursalSeleccionada}
+                onSucursalSelect={onSucursalSelect}
+                disabled={isLoading}
+              />
+            ) : (
+              <div class="template-cliente-selector__no-branches">
+                <Icon name="warning" size="md" />
+                No hay sucursales registradas para este cliente
+              </div>
+            )}
+
+            {/* Tabla de cartera */}
+            <CarteraTable
+              cartera={carteraCliente}
+              totalCartera={totalCartera}
+              isLoading={isLoading}
+            />
+
+            {/* Botón continuar */}
+            <div class="template-cliente-selector__action">
+              <Button
+                variant={
+                  clienteSeleccionado.cartera &&
+                  clienteSeleccionado.cartera.some(
+                    (f: any) => Number(f.dias) > 40
+                  )
+                    ? "blocked"
+                    : "primary"
+                }
+                size="lg"
+                disabled={
+                  !sucursalSeleccionada ||
+                  isLoading ||
+                  (clienteSeleccionado.cartera &&
+                    clienteSeleccionado.cartera.some(
+                      (f: any) => Number(f.dias) > 40
+                    ))
+                }
+                onclick={onContinue}
+              >
+                {isLoading
+                  ? "Procesando..."
+                  : clienteSeleccionado.cartera &&
+                      clienteSeleccionado.cartera.some(
+                        (f: any) => Number(f.dias) > 40
+                      )
+                    ? "Cliente bloqueado por factura"
+                    : "Continuar al Producto"}
+              </Button>
+
+              <div class="template-cliente-selector__help">
+                {clienteSeleccionado.cartera &&
+                clienteSeleccionado.cartera.some(
+                  (f: any) => Number(f.dias) > 40
+                )
+                  ? "El cliente tiene facturas vencidas mayores a 40 días. Contacte al área de cartera para resolver."
+                  : "Seleccione una sucursal para continuar"}
+              </div>
+            </div>
+          </section>
+        )
+      }
+    </div>
+  </main>
+</div>
+
+<style>
+  .template-cliente-selector {
+    min-height: 100vh;
+    background-color: #f8f9fa;
+  }
+
+  .template-cliente-selector__header {
+    background-color: white;
+    padding: 2rem 0;
+    border-bottom: 1px solid #e2e8f0;
+  }
+
+  .template-cliente-selector__info-cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+
+  .info-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(44, 82, 130, 0.08);
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .info-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(44, 82, 130, 0.12);
+  }
+
+  .info-card h3 {
+    color: #4caf50;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+  }
+
+  .info-card p {
+    color: #6c757d;
+    font-size: 0.875rem;
+    margin: 0;
+  }
+
+  .template-cliente-selector__main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  .template-cliente-selector__container {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(44, 82, 130, 0.08);
+    overflow: hidden;
+  }
+
+  .template-cliente-selector__search-section {
+    padding: 2rem;
+    border-bottom: 1px solid #e2e8f0;
+  }
+
+  .search-help {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-top: 0.5rem;
+  }
+
+  .template-cliente-selector__client-section {
+    padding: 2rem;
+  }
+
+  .template-cliente-selector__error {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    border: 1px solid #f5c6cb;
+  }
+
+  .template-cliente-selector__payment-info {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+    color: #2d3748;
+  }
+
+  .template-cliente-selector__payment-info strong {
+    color: #1a365d;
+  }
+
+  .template-cliente-selector__no-branches {
+    text-align: center;
+    padding: 2rem;
+    color: #6c757d;
+    font-style: italic;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  .template-cliente-selector__action {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .template-cliente-selector__help {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-top: 0.5rem;
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .template-cliente-selector__header {
+      padding: 1.5rem 0;
+    }
+
+    .template-cliente-selector__info-cards {
+      padding: 0 1rem;
+      grid-template-columns: 1fr;
+      gap: 0.75rem;
+    }
+
+    .template-cliente-selector__main {
+      padding: 1rem;
+    }
+
+    .template-cliente-selector__search-section,
+    .template-cliente-selector__client-section {
+      padding: 1rem;
+    }
+
+    .info-card {
+      padding: 1rem;
+    }
+
+    .info-card h3 {
+      font-size: 0.9rem;
+    }
+
+    .info-card p {
+      font-size: 0.8rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .template-cliente-selector__header {
+      padding: 1rem 0;
+    }
+
+    .template-cliente-selector__info-cards {
+      padding: 0 0.75rem;
+    }
+
+    .template-cliente-selector__main {
+      padding: 0.75rem;
+    }
+
+    .template-cliente-selector__search-section,
+    .template-cliente-selector__client-section {
+      padding: 0.75rem;
+    }
+
+    .info-card {
+      padding: 0.75rem;
+    }
+
+    .info-card h3 {
+      font-size: 0.85rem;
+    }
+
+    .info-card p {
+      font-size: 0.75rem;
+    }
+  }
+</style>

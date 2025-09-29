@@ -163,6 +163,16 @@ function ClienteSelectorReact() {
     setBusqueda(e.target.value);
   }, []);
 
+  // Verificar si el cliente tiene facturas vencidas > 40 días
+  const tieneFacturasVencidas = useMemo(() => {
+    if (!carteraCliente || carteraCliente.length === 0) return false;
+
+    return carteraCliente.some(factura => {
+      const dias = Number(factura.dias) || 0;
+      return dias > 40; // Facturas vencidas mayores a 40 días
+    });
+  }, [carteraCliente]);
+
   // Datos seleccionados para mostrar
   const datosSeleccionados = useMemo(() => {
     if (!clienteSeleccionado || !sucursalSeleccionada) return null;
@@ -298,15 +308,19 @@ function ClienteSelectorReact() {
 
           {/* Botón continuar */}
           <button
-            className={styles.continueButton}
-            disabled={!sucursalSeleccionada || isLoading}
-            onClick={handleContinue}
+            className={`${styles.continueButton} ${tieneFacturasVencidas ? styles.blockedButton : ''}`}
+            disabled={!sucursalSeleccionada || isLoading || tieneFacturasVencidas}
+            onClick={tieneFacturasVencidas ? undefined : handleContinue}
             aria-describedby="continue-help"
           >
-            {isLoading ? 'Procesando...' : 'Continuar al Producto'}
+            {isLoading ? 'Procesando...' :
+             tieneFacturasVencidas ? 'Cliente bloqueado por factura' :
+             'Continuar al Producto'}
           </button>
           <div id="continue-help" style={{ fontSize: '0.9rem', color: '#6c757d', marginTop: '0.5rem' }}>
-            Seleccione una sucursal para continuar
+            {tieneFacturasVencidas ?
+              'El cliente tiene facturas vencidas mayores a 40 días. Contacte al área de cartera para resolver.' :
+              'Seleccione una sucursal para continuar'}
           </div>
         </div>
       )}

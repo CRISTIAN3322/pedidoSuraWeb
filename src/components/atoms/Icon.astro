@@ -1,0 +1,99 @@
+---
+// Componente atómico Icon - Para íconos reutilizables
+// Props esperadas:
+// - name: nombre del ícono (check, warning, error, info, search, etc.)
+// - size: 'sm' | 'md' | 'lg' | 'xl'
+// - color: string (color hex o nombre)
+
+const { name = "info", size = "md", color = "currentColor" } = Astro.props;
+---
+
+<span
+  class={`atom-icon atom-icon--${name} atom-icon--${size}`}
+  style={`color: ${color};`}
+  aria-hidden="true"
+>
+</span>
+
+<style>
+  .atom-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  /* Tamaños */
+  .atom-icon--sm {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .atom-icon--md {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+
+  .atom-icon--lg {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .atom-icon--xl {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  /* Íconos usando pseudo-elementos */
+  .atom-icon--check::before {
+    content: "✅";
+  }
+
+  .atom-icon--warning::before {
+    content: "⚠️";
+  }
+
+  .atom-icon--error::before {
+    content: "❌";
+  }
+
+  .atom-icon--info::before {
+    content: "ℹ️";
+  }
+
+  .atom-icon--search::before {
+    content: "🔍";
+  }
+
+  .atom-icon--loading::before {
+    content: "⏳";
+  }
+
+  .atom-icon--success::before {
+    content: "✅";
+  }
+
+  .atom-icon--blocked::before {
+    content: "🚫";
+  }
+
+  .atom-icon--user::before {
+    content: "👤";
+  }
+
+  .atom-icon--cart::before {
+    content: "🛒";
+  }
+
+  .atom-icon--money::before {
+    content: "💰";
+  }
+
+  .atom-icon--calendar::before {
+    content: "📅";
+  }
+
+  .atom-icon--clock::before {
+    content: "🕐";
+  }
+</style>

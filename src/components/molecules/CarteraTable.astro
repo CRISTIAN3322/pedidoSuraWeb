@@ -1,0 +1,203 @@
+---
+import StatusBadge from "../atoms/StatusBadge.astro";
+import Icon from "../atoms/Icon.astro";
+
+// Componente molecular CarteraTable - Muestra tabla de facturas del cliente
+// Props esperadas:
+// - cartera: array de facturas
+// - totalCartera: número
+// - isLoading: boolean
+
+const { cartera = [], totalCartera = 0, isLoading = false } = Astro.props;
+
+// Función para determinar el estado de los días
+const getDiasStatus = (dias: any) => {
+  const diasNum = Number(dias) || 0;
+  if (diasNum >= 30) return "danger";
+  if (diasNum >= 11) return "warning";
+  if (diasNum >= 1) return "info";
+  return "success";
+};
+
+// Función para formatear moneda
+const formatCurrency = (valor: any) => {
+  try {
+    const valorNumerico = Number(
+      String(valor).replace(/\./g, "").replace(",", ".")
+    );
+    return isNaN(valorNumerico) ? 0 : valorNumerico;
+  } catch {
+    return 0;
+  }
+};
+---
+
+<div class="molecule-cartera-table">
+  <h4 class="molecule-cartera-table__title">
+    <Icon name="cart" size="sm" />
+    Cartera del Cliente
+  </h4>
+
+  {
+    isLoading ? (
+      <div class="molecule-cartera-table__loading">
+        <Icon name="loading" size="md" />
+        <span>Cargando cartera...</span>
+      </div>
+    ) : (
+      <div class="molecule-cartera-table__wrapper">
+        <table class="molecule-cartera-table__table">
+          <thead>
+            <tr>
+              <th>Factura</th>
+              <th>Fecha</th>
+              <th>Valor</th>
+              <th>Días</th>
+            </tr>
+          </thead>
+          <tbody>
+            {cartera.length > 0 ? (
+              cartera.map((factura: any) => (
+                <tr>
+                  <td>{factura.fac || "N/A"}</td>
+                  <td>{factura.fecha || "N/A"}</td>
+                  <td>
+                    ${formatCurrency(factura.valor).toLocaleString("es-CO")}
+                  </td>
+                  <td>
+                    <StatusBadge status={getDiasStatus(factura.dias)}>
+                      {factura.dias || 0}
+                    </StatusBadge>
+                  </td>
+                </tr>
+              ))
+            ) : (
+              <tr>
+                <td colspan="4" class="molecule-cartera-table__empty">
+                  Sin facturas pendientes
+                </td>
+              </tr>
+            )}
+          </tbody>
+          {totalCartera > 0 && (
+            <tfoot>
+              <tr>
+                <td colspan="2">
+                  <strong>Total Cartera:</strong>
+                </td>
+                <td colspan="2">
+                  <strong>${totalCartera.toLocaleString("es-CO")}</strong>
+                </td>
+              </tr>
+            </tfoot>
+          )}
+        </table>
+      </div>
+    )
+  }
+</div>
+
+<style>
+  .molecule-cartera-table {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(44, 82, 130, 0.08);
+    overflow: hidden;
+  }
+
+  .molecule-cartera-table__title {
+    margin: 0;
+    padding: 1.5rem;
+    background-color: #1a365d;
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .molecule-cartera-table__loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 2rem;
+    color: #6c757d;
+  }
+
+  .molecule-cartera-table__wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .molecule-cartera-table__table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 500px;
+  }
+
+  .molecule-cartera-table__table th,
+  .molecule-cartera-table__table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+  }
+
+  .molecule-cartera-table__table th {
+    background-color: #f7fafc;
+    color: #2d3748;
+    font-weight: 600;
+    position: sticky;
+    top: 0;
+  }
+
+  .molecule-cartera-table__table tbody tr:hover {
+    background-color: #f7fafc;
+  }
+
+  .molecule-cartera-table__table tfoot {
+    background-color: #f8f9fa;
+    font-weight: bold;
+  }
+
+  .molecule-cartera-table__table tfoot td {
+    color: #1a365d;
+    border-top: 2px solid #e2e8f0;
+  }
+
+  .molecule-cartera-table__empty {
+    text-align: center;
+    color: #6c757d;
+    font-style: italic;
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .molecule-cartera-table__title {
+      padding: 1rem;
+      font-size: 1.1rem;
+    }
+
+    .molecule-cartera-table__table {
+      min-width: 400px;
+    }
+
+    .molecule-cartera-table__table th,
+    .molecule-cartera-table__table td {
+      padding: 0.75rem 0.5rem;
+      font-size: 0.9rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .molecule-cartera-table__table {
+      min-width: 300px;
+    }
+
+    .molecule-cartera-table__table th,
+    .molecule-cartera-table__table td {
+      padding: 0.5rem 0.25rem;
+      font-size: 0.8rem;
+    }
+  }
+</style>

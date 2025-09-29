@@ -1,0 +1,164 @@
+---
+import Button from "../atoms/Button.astro";
+import Icon from "../atoms/Icon.astro";
+
+// Componente molecular SucursalList - Lista de sucursales del cliente
+// Props esperadas:
+// - sucursales: array de sucursales
+// - sucursalSeleccionada: sucursal actualmente seleccionada
+// - onSucursalSelect: función para manejar la selección
+// - disabled: boolean
+
+const {
+  sucursales = [],
+  sucursalSeleccionada = null,
+  onSucursalSelect = null,
+  disabled = false,
+} = Astro.props;
+---
+
+<div class="molecule-sucursal-list">
+  <h4 class="molecule-sucursal-list__title">
+    <Icon name="cart" size="sm" />
+    Seleccione una sucursal:
+  </h4>
+
+  {
+    sucursales.length > 0 ? (
+      <ul
+        class="molecule-sucursal-list__list"
+        role="radiogroup"
+        aria-labelledby="sucursales-label"
+      >
+        <div id="sucursales-label" style="display: none;">
+          Opciones de sucursales
+        </div>
+        {sucursales.map((sucursal: any, idx: any) => (
+          <li
+            class={`molecule-sucursal-list__item ${sucursalSeleccionada === sucursal ? "molecule-sucursal-list__item--active" : ""}`}
+            role="radio"
+            tabindex={disabled ? -1 : 0}
+            aria-checked={sucursalSeleccionada === sucursal}
+          >
+            <div class="molecule-sucursal-list__content">
+              <div class="molecule-sucursal-list__field">
+                <strong>Dirección:</strong> {sucursal.direccion}
+              </div>
+              <div class="molecule-sucursal-list__field">
+                <strong>Vendedor:</strong> {sucursal.vendedor}
+              </div>
+            </div>
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <div class="molecule-sucursal-list__empty">
+        <Icon name="warning" size="md" />
+        <span>No hay sucursales registradas para este cliente</span>
+      </div>
+    )
+  }
+</div>
+
+<style>
+  .molecule-sucursal-list {
+    margin: 1.5rem 0;
+  }
+
+  .molecule-sucursal-list__title {
+    margin: 0 0 1rem 0;
+    color: #2d3748;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .molecule-sucursal-list__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 0.5rem;
+  }
+
+  .molecule-sucursal-list__item {
+    background-color: white;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    padding: 1rem;
+  }
+
+  .molecule-sucursal-list__item:hover:not(
+      .molecule-sucursal-list__item--active
+    ) {
+    border-color: #4caf50;
+    transform: translateY(-1px);
+  }
+
+  .molecule-sucursal-list__item--active {
+    border-color: #4caf50;
+    background-color: #f0f8f0;
+  }
+
+  .molecule-sucursal-list__item:focus-visible {
+    outline: 2px solid #4caf50;
+    outline-offset: 2px;
+  }
+
+  .molecule-sucursal-list__content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .molecule-sucursal-list__field {
+    color: #4a5568;
+    line-height: 1.4;
+  }
+
+  .molecule-sucursal-list__field strong {
+    color: #2d3748;
+    display: inline-block;
+    min-width: 80px;
+  }
+
+  .molecule-sucursal-list__empty {
+    text-align: center;
+    padding: 2rem;
+    color: #6c757d;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+  }
+
+  /* Estados deshabilitados */
+  .molecule-sucursal-list--disabled .molecule-sucursal-list__item {
+    opacity: 0.6;
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .molecule-sucursal-list__item {
+      padding: 0.75rem;
+    }
+
+    .molecule-sucursal-list__field strong {
+      min-width: 70px;
+      font-size: 0.9rem;
+    }
+
+    .molecule-sucursal-list__field {
+      font-size: 0.9rem;
+    }
+  }
+</style>

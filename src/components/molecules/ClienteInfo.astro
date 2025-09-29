@@ -1,0 +1,131 @@
+---
+import StatusBadge from "../atoms/StatusBadge.astro";
+import Icon from "../atoms/Icon.astro";
+
+// Componente molecular ClienteInfo - Muestra información del cliente seleccionado
+// Props esperadas:
+// - cliente: object con información del cliente
+// - sucursal: object con información de la sucursal
+// - isLoading: boolean
+
+const { cliente = null, sucursal = null, isLoading = false } = Astro.props;
+---
+
+<div class="molecule-cliente-info">
+  {
+    isLoading ? (
+      <div class="molecule-cliente-info__loading">
+        <Icon name="loading" size="md" />
+        <span>Cargando información del cliente...</span>
+      </div>
+    ) : cliente && sucursal ? (
+      <div class="molecule-cliente-info__content">
+        <h4 class="molecule-cliente-info__title">
+          <Icon name="user" size="sm" />
+          Información del Cliente
+        </h4>
+
+        <div class="molecule-cliente-info__grid">
+          <div class="molecule-cliente-info__field">
+            <span class="molecule-cliente-info__label">Cliente:</span>
+            <StatusBadge status="info">{cliente.nombre}</StatusBadge>
+          </div>
+
+          <div class="molecule-cliente-info__field">
+            <span class="molecule-cliente-info__label">ID:</span>
+            <span class="molecule-cliente-info__value">
+              {cliente.id || "N/A"}
+            </span>
+          </div>
+
+          <div class="molecule-cliente-info__field">
+            <span class="molecule-cliente-info__label">Dirección:</span>
+            <span class="molecule-cliente-info__value">
+              {sucursal.direccion}
+            </span>
+          </div>
+
+          <div class="molecule-cliente-info__field">
+            <span class="molecule-cliente-info__label">Vendedor:</span>
+            <span class="molecule-cliente-info__value">
+              {sucursal.vendedor}
+            </span>
+          </div>
+        </div>
+      </div>
+    ) : (
+      <div class="molecule-cliente-info__empty">
+        <Icon name="user" size="md" />
+        <span>Seleccione un cliente para ver su información</span>
+      </div>
+    )
+  }
+</div>
+
+<style>
+  .molecule-cliente-info {
+    background-color: #e7f3ff;
+    border: 1px solid #b3d9ff;
+    border-radius: 12px;
+    padding: 1.5rem;
+  }
+
+  .molecule-cliente-info__loading,
+  .molecule-cliente-info__empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    color: #6c757d;
+    font-style: italic;
+  }
+
+  .molecule-cliente-info__title {
+    margin: 0 0 1rem 0;
+    color: #1a365d;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .molecule-cliente-info__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+
+  .molecule-cliente-info__field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .molecule-cliente-info__label {
+    font-weight: 600;
+    color: #2d3748;
+    font-size: 0.9rem;
+  }
+
+  .molecule-cliente-info__value {
+    color: #4a5568;
+    font-size: 1rem;
+    word-break: break-word;
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .molecule-cliente-info {
+      padding: 1rem;
+    }
+
+    .molecule-cliente-info__grid {
+      grid-template-columns: 1fr;
+      gap: 0.75rem;
+    }
+
+    .molecule-cliente-info__title {
+      font-size: 1.1rem;
+    }
+  }
+</style>

@@ -254,6 +254,20 @@
   box-shadow: none;
 }
 
+.blockedButton {
+  background-color: #dc3545 !important;
+  cursor: not-allowed !important;
+  transform: none !important;
+  box-shadow: none !important;
+  animation: none !important;
+}
+
+.blockedButton:hover {
+  background-color: #c82333 !important;
+  transform: none !important;
+  box-shadow: none !important;
+}
+
 .noResults {
   text-align: center;
   padding: 2rem;

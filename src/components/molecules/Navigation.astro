@@ -3,181 +3,186 @@
 ---
 
 <nav class="navigation">
-    <div class="nav-container">
-        <div class="nav-brand">
-            <a href="/" class="brand-link">
-                Sura Pedidos
-            </a>
-        </div>
-        
-        <div class="nav-menu">
-            <a href="/" class="nav-link">
-                👥 Clientes
-            </a>
-            <a href="/producto" class="nav-link">
-                📦 Productos
-            </a>
-            <a href="/carrito" class="nav-link cart-link">
-                🛒 Carrito
-                <span class="cart-count" id="cart-count">0</span>
-            </a>
-        </div>
+  <div class="nav-container">
+    <div class="nav-brand">
+      <a href="/" class="brand-link"> Sura Pedidos </a>
     </div>
+
+    <div class="nav-menu">
+      <a href="/" class="nav-link"> 👥 Clientes </a>
+      <a href="/producto" class="nav-link"> 📦 Productos </a>
+      <a href="/carrito" class="nav-link cart-link">
+        🛒 Carrito
+        <span class="cart-count" id="cart-count">0</span>
+      </a>
+    </div>
+  </div>
 </nav>
 
 <style>
-    .navigation {
-        background: var(--white);
-        box-shadow: var(--shadow-md);
-        position: sticky;
-        top: 0;
-        z-index: 1000;
-        margin-bottom: 2rem;
-    }
+  .navigation {
+    background: linear-gradient(
+      135deg,
+      rgba(0, 168, 120, 0.95) 0%,
+      rgba(0, 168, 120, 0.9) 100%
+    );
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 20px rgba(0, 168, 120, 0.15);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid rgba(0, 168, 120, 0.2);
+  }
 
+  .nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+  }
+
+  .brand-link {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    transition: var(--transition);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+
+  .brand-link:hover {
+    color: #f5f5f0;
+    transform: scale(1.05);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .nav-menu {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+  }
+
+  .nav-link {
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: var(--border-radius);
+    transition: var(--transition);
+    position: relative;
+  }
+
+  .nav-link:hover {
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5px);
+  }
+
+  .cart-link {
+    position: relative;
+  }
+
+  .cart-count {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background: #fe5e41ff;
+    color: #ffffff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(254, 94, 65, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+  }
+
+  @media (max-width: 768px) {
     .nav-container {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 0 1rem;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        height: 60px;
-    }
-
-    .brand-link {
-        font-size: 1.5rem;
-        font-weight: 700;
-        color: var(--primary-color);
-        text-decoration: none;
-        transition: var(--transition);
-    }
-
-    .brand-link:hover {
-        color: var(--primary-dark);
-        transform: scale(1.05);
+      padding: 0 0.5rem;
+      height: 50px;
     }
 
     .nav-menu {
-        display: flex;
-        gap: 1.5rem;
-        align-items: center;
+      gap: 0.75rem;
     }
 
     .nav-link {
-        color: var(--gray-600);
-        text-decoration: none;
-        font-weight: 500;
-        padding: 0.5rem 1rem;
-        border-radius: var(--border-radius);
-        transition: var(--transition);
-        position: relative;
+      padding: 0.5rem 0.75rem;
+      font-size: 0.875rem;
+      border-radius: 6px;
     }
 
-    .nav-link:hover {
-        color: var(--primary-color);
-        background: var(--light-bg);
-    }
-
-    .cart-link {
-        position: relative;
+    .brand-link {
+      font-size: 0.5rem;
     }
 
     .cart-count {
-        position: absolute;
-        top: -5px;
-        right: -5px;
-        background: var(--danger-color);
-        color: var(--white);
-        border-radius: 50%;
-        width: 20px;
-        height: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 0.75rem;
-        font-weight: 600;
+      width: 18px;
+      height: 18px;
+      font-size: 0.7rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .nav-container {
+      height: 45px;
+      padding: 0 0.25rem;
     }
 
-    @media (max-width: 768px) {
-        .nav-container {
-            padding: 0 0.5rem;
-            height: 50px;
-        }
-
-        .nav-menu {
-            gap: 0.75rem;
-        }
-
-        .nav-link {
-            padding: 0.5rem 0.75rem;
-            font-size: 0.875rem;
-            border-radius: 6px;
-        }
-
-        .brand-link {
-            font-size: 0.5rem;
-        }
-
-        .cart-count {
-            width: 18px;
-            height: 18px;
-            font-size: 0.7rem;
-        }
+    .nav-menu {
+      gap: 0.5rem;
     }
 
-    @media (max-width: 480px) {
-        .nav-container {
-            height: 45px;
-            padding: 0 0.25rem;
-        }
-
-        .nav-menu {
-            gap: 0.5rem;
-        }
-
-        .nav-link {
-            padding: 0.4rem 0.75rem;
-            font-size: 0.75rem;
-            border-radius: 4px;
-        }
-
-        .brand-link {
-            display: none;
-        }
-
-        .cart-count {
-            width: 16px;
-            height: 16px;
-            font-size: 0.65rem;
-        }
+    .nav-link {
+      padding: 0.4rem 0.75rem;
+      font-size: 0.75rem;
+      border-radius: 4px;
     }
+
+    .brand-link {
+      display: none;
+    }
+
+    .cart-count {
+      width: 16px;
+      height: 16px;
+      font-size: 0.65rem;
+    }
+  }
 </style>
 
 <script>
-    // Actualizar contador del carrito
-    function updateCartCount() {
-        const cartItems = JSON.parse(localStorage.getItem('cartItems') || '[]');
-        const totalItems = cartItems.reduce((sum, item) => sum + item.cantidad, 0);
-        const cartCountElement = document.getElementById('cart-count');
-        if (cartCountElement) {
-            cartCountElement.textContent = totalItems;
-            cartCountElement.style.display = totalItems > 0 ? 'flex' : 'none';
-        }
+  // Actualizar contador del carrito
+  function updateCartCount() {
+    const cartItems = JSON.parse(localStorage.getItem("cartItems") || "[]");
+    const totalItems = cartItems.reduce((sum, item) => sum + item.cantidad, 0);
+    const cartCountElement = document.getElementById("cart-count");
+    if (cartCountElement) {
+      cartCountElement.textContent = totalItems;
+      cartCountElement.style.display = totalItems > 0 ? "flex" : "none";
     }
+  }
 
-    // Actualizar contador al cargar la página
-    document.addEventListener('DOMContentLoaded', updateCartCount);
+  // Actualizar contador al cargar la página
+  document.addEventListener("DOMContentLoaded", updateCartCount);
 
-    // Escuchar cambios en el localStorage
-    window.addEventListener('storage', updateCartCount);
-    
-    // Actualizar cuando se agregan items al carrito (para la misma pestaña)
-    const originalSetItem = localStorage.setItem;
-    localStorage.setItem = function(key, value) {
-        originalSetItem.apply(this, arguments);
-        if (key === 'cartItems') {
-            updateCartCount();
-        }
-    };
+  // Escuchar cambios en el localStorage
+  window.addEventListener("storage", updateCartCount);
+
+  // Actualizar cuando se agregan items al carrito (para la misma pestaña)
+  const originalSetItem = localStorage.setItem;
+  localStorage.setItem = function (key, value) {
+    originalSetItem.apply(this, arguments);
+    if (key === "cartItems") {
+      updateCartCount();
+    }
+  };
 </script>

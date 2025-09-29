@@ -1,0 +1,81 @@
+---
+import Input from "../atoms/Input.astro";
+import Icon from "../atoms/Icon.astro";
+
+// Componente molecular SearchInput - Combina Input y Icon para búsqueda
+// Props esperadas:
+// - placeholder: string
+// - value: string
+// - onInput: function
+// - onSearch: function
+// - disabled: boolean
+// - size: 'sm' | 'md' | 'lg'
+// - showIcon: boolean
+
+const {
+  placeholder = "Buscar...",
+  value = "",
+  onInput = null,
+  onSearch = null,
+  disabled = false,
+  size = "md",
+  showIcon = true,
+} = Astro.props;
+---
+
+<div class="molecule-search-input">
+  <div class="molecule-search-input__wrapper">
+    {
+      showIcon && (
+        <Icon name="search" size="sm" className="molecule-search-input__icon" />
+      )
+    }
+
+    <Input
+      type="text"
+      placeholder={placeholder}
+      value={value}
+      disabled={disabled}
+      size={size}
+      className="molecule-search-input__input"
+      onInput={onInput}
+    />
+
+    <slot name="results" />
+  </div>
+</div>
+
+<style>
+  .molecule-search-input {
+    position: relative;
+    width: 100%;
+  }
+
+  .molecule-search-input__wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  .molecule-search-input__icon {
+    position: absolute;
+    left: 1rem;
+    z-index: 2;
+    pointer-events: none;
+  }
+
+  .molecule-search-input__input {
+    padding-left: 3rem !important;
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .molecule-search-input__icon {
+      left: 0.75rem;
+    }
+
+    .molecule-search-input__input {
+      padding-left: 2.5rem !important;
+    }
+  }
+</style>

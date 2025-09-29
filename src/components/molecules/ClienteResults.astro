@@ -1,0 +1,140 @@
+---
+import Icon from "../atoms/Icon.astro";
+
+// Componente molecular ClienteResults - Muestra resultados de búsqueda de clientes
+// Props esperadas:
+// - clientes: array de clientes encontrados
+// - clienteSeleccionado: cliente actualmente seleccionado
+// - onClienteSelect: función para manejar la selección
+// - isLoading: boolean
+
+const {
+  clientes = [],
+  clienteSeleccionado = null,
+  onClienteSelect = null,
+  isLoading = false,
+} = Astro.props;
+---
+
+<div class="molecule-cliente-results">
+  {
+    isLoading ? (
+      <div class="molecule-cliente-results__loading">
+        <Icon name="loading" size="md" />
+        <span>Buscando clientes...</span>
+      </div>
+    ) : clientes.length > 0 ? (
+      <ul
+        class="molecule-cliente-results__list"
+        role="listbox"
+        aria-label="Resultados de búsqueda"
+      >
+        {clientes.map((cliente: any) => (
+          <li
+            class={`molecule-cliente-results__item ${clienteSeleccionado?.id === cliente.id ? "molecule-cliente-results__item--selected" : ""}`}
+            role="option"
+            tabindex={0}
+            aria-selected={clienteSeleccionado?.id === cliente.id}
+          >
+            <div class="molecule-cliente-results__content">
+              <strong class="molecule-cliente-results__name">
+                {cliente.nombre}
+              </strong>
+              {cliente.id && (
+                <span class="molecule-cliente-results__id">
+                  ID: {cliente.id}
+                </span>
+              )}
+            </div>
+          </li>
+        ))}
+      </ul>
+    ) : null
+  }
+</div>
+
+<style>
+  .molecule-cliente-results {
+    margin: 1rem 0 0 0;
+  }
+
+  .molecule-cliente-results__loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    color: #6c757d;
+    padding: 1rem;
+  }
+
+  .molecule-cliente-results__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    max-height: 300px;
+    overflow-y: auto;
+  }
+
+  .molecule-cliente-results__item {
+    padding: 1rem;
+    cursor: pointer;
+    border-bottom: 1px solid #e2e8f0;
+    transition: background-color 0.2s ease-in-out;
+  }
+
+  .molecule-cliente-results__item:hover {
+    background-color: #f7fafc;
+  }
+
+  .molecule-cliente-results__item:last-child {
+    border-bottom: none;
+  }
+
+  .molecule-cliente-results__item--selected {
+    background-color: #e7f3ff;
+    border-left: 3px solid #4caf50;
+  }
+
+  .molecule-cliente-results__content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .molecule-cliente-results__name {
+    color: #2d3748;
+    font-size: 1rem;
+  }
+
+  .molecule-cliente-results__id {
+    color: #6c757d;
+    font-size: 0.9rem;
+  }
+
+  .molecule-cliente-results__item:focus-visible {
+    outline: 2px solid #4caf50;
+    outline-offset: -2px;
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .molecule-cliente-results__list {
+      max-height: 250px;
+    }
+
+    .molecule-cliente-results__item {
+      padding: 0.75rem;
+    }
+
+    .molecule-cliente-results__name {
+      font-size: 0.95rem;
+    }
+
+    .molecule-cliente-results__id {
+      font-size: 0.85rem;
+    }
+  }
+</style>

@@ -13,11 +13,21 @@ Bienvenido a la documentación técnica y funcional del proyecto. Aquí encontra
 - [Guía de Bloqueo de Horario](../BLOQUEO_HORARIO.md)
 
 Información rápida:
+
 - Framework: Astro 5 + React
 - Lenguaje: TypeScript / JavaScript
 - Requisitos: Node.js >= 18
 - Comandos clave: `npm run dev`, `npm run build`, `npm run preview`
 
+### Características del Diseño
+
+- **Paleta de colores personalizada**: Verde jade, blanco suave, amarillo tierra
+- **Navegación glassmorphism**: Efectos modernos con fondo verde semi-transparente
+- **Diseño responsivo**: Optimizado para móviles y desktop
+- **Accesibilidad**: Alto contraste y focus visible
+- **Sistema de diseño atómico**: Componentes reutilizables y consistentes
+
 Enlaces útiles:
+
 - Sitio en producción: https://sura-pedidos-web.vercel.app
 - Repositorio: https://github.com/CRISTIAN3322/suraPedidosWeb

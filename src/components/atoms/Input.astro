@@ -1,0 +1,165 @@
+---
+// Componente atómico Input - Para campos de texto reutilizables
+// Props esperadas:
+// - type: 'text' | 'email' | 'password' | 'number' | 'tel' | 'url' | 'search'
+// - placeholder: string
+// - value: string
+// - disabled: boolean
+// - readonly: boolean
+// - required: boolean
+// - error: string
+// - label: string
+// - id: string
+// - name: string
+// - size: 'sm' | 'md' | 'lg'
+
+const {
+  type = "text",
+  placeholder = "",
+  value = "",
+  disabled = false,
+  readonly = false,
+  required = false,
+  error = "",
+  label = "",
+  id = "",
+  name = "",
+  size = "md",
+} = Astro.props;
+---
+
+<div class="atom-input-wrapper">
+  {
+    label && (
+      <label for={id} class="atom-input__label">
+        {label}
+        {required && (
+          <span class="atom-input__required" aria-label="Campo requerido">
+            *
+          </span>
+        )}
+      </label>
+    )
+  }
+
+  <input
+    type={type}
+    placeholder={placeholder}
+    value={value}
+    disabled={disabled}
+    readonly={readonly}
+    required={required}
+    id={id}
+    name={name}
+    class={`atom-input atom-input--${size} ${error ? "atom-input--error" : ""}`}
+    aria-invalid={error ? "true" : "false"}
+    aria-describedby={error ? `${id}-error` : undefined}
+  />
+
+  {
+    error && (
+      <div id={`${id}-error`} class="atom-input__error" role="alert">
+        {error}
+      </div>
+    )
+  }
+</div>
+
+<style>
+  .atom-input-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .atom-input__label {
+    font-weight: 600;
+    color: #2d3748;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+  }
+
+  .atom-input__required {
+    color: #dc3545;
+    font-weight: bold;
+  }
+
+  .atom-input {
+    width: 100%;
+    font-family: inherit;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    transition: all 0.2s ease-in-out;
+    box-sizing: border-box;
+    outline: none;
+  }
+
+  .atom-input:focus {
+    border-color: #4caf50;
+    box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.1);
+  }
+
+  .atom-input--error {
+    border-color: #dc3545;
+  }
+
+  .atom-input--error:focus {
+    border-color: #dc3545;
+    box-shadow: 0 0 0 3px rgba(220, 53, 69, 0.1);
+  }
+
+  /* Tamaños */
+  .atom-input--sm {
+    padding: 0.5rem;
+    font-size: 0.875rem;
+  }
+
+  .atom-input--md {
+    padding: 0.75rem;
+    font-size: 1rem;
+  }
+
+  .atom-input--lg {
+    padding: 1rem;
+    font-size: 1.125rem;
+  }
+
+  /* Estados */
+  .atom-input:disabled {
+    background-color: #f7fafc;
+    color: #a0aec0;
+    cursor: not-allowed;
+  }
+
+  .atom-input:readonly {
+    background-color: #f7fafc;
+    color: #4a5568;
+    cursor: default;
+  }
+
+  .atom-input__error {
+    color: #dc3545;
+    font-size: 0.8rem;
+    margin-top: 0.25rem;
+  }
+
+  /* Placeholder styles */
+  .atom-input::placeholder {
+    color: #a0aec0;
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .atom-input--lg {
+      padding: 0.875rem;
+      font-size: 1rem;
+    }
+
+    .atom-input--md {
+      padding: 0.625rem;
+      font-size: 0.9rem;
+    }
+  }
+</style>
