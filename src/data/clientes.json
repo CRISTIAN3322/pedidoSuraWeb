@@ -6896,5 +6896,13 @@
             "direccion": "CR 103 A 19 45 Fontibon ",
             "vendedor": "David Yedid Ramirez Leguizamon "
         }]
+    },
+    {
+        "id": 25127700,
+        "nombre": "MARIA SOCORRO GONZALEZ LOPEZ",
+        "sucursales": [{
+            "direccion": "CL 49 B SUR 1 D 8  Diana Turbay ",
+            "vendedor": "Claudia Yojana Corredor Gonzalez "
+        }]
     }
 ]

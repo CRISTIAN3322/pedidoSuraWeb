@@ -4131,5 +4131,11 @@
         "nombre": "OSCAR ALEXANDER CHAPARRO DELGADO",
         "cupo": 1000000,
         "Forma": "Contado"
+    },
+    {
+        "id": 25127700,
+        "nombre": "MARIA SOCORRO GONZALEZ LOPEZ",
+        "cupo": 1000000,
+        "Forma": "Contado"
     }
 ]
