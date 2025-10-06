@@ -3670,7 +3670,7 @@
         "barra": 74530110015787,
         "invetario": 361,
         "proveedor": "COMERCIALIZADORA JS",
-        "activo": false
+        "activo": true
     },
     {
         "id": 335,
@@ -3681,7 +3681,7 @@
         "barra": 7453010015787,
         "invetario": 2,
         "proveedor": "COMERCIALIZADORA JS",
-        "activo": true
+        "activo": false
     },
     {
         "id": 336,
