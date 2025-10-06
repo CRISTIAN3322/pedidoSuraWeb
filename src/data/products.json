@@ -5,7 +5,7 @@
         "precio": 2830,
         "imagen": "../assets/img_catalogo/7703207400248.png",
         "barra": 7703207400248,
-        "invetario": 115,
+        "invetario": 111,
         "proveedor": "ALUMINIO NACIONAL",
         "activo": true
     },
@@ -38,7 +38,7 @@
         "precio": 5874,
         "imagen": "../assets/img_catalogo/7702110440242.png",
         "barra": 7702110440242,
-        "invetario": 726,
+        "invetario": 714,
         "proveedor": "ALUMINIO NACIONAL",
         "activo": true
     },
@@ -71,7 +71,7 @@
         "precio": 1625,
         "imagen": "../assets/img_catalogo/7702622525093.png",
         "barra": 7702622525093,
-        "invetario": 3115,
+        "invetario": 3103,
         "proveedor": "TONING",
         "activo": true
     },
@@ -82,7 +82,7 @@
         "precio": 3765,
         "imagen": "../assets/img_catalogo/7702622527103.png",
         "barra": 7702622527103,
-        "invetario": 9083,
+        "invetario": 9059,
         "proveedor": "TONING",
         "activo": true
     },
@@ -104,7 +104,7 @@
         "precio": 3054,
         "imagen": "../assets/img_catalogo/7702622522139.png",
         "barra": 7702622522139,
-        "invetario": 1128,
+        "invetario": 1110,
         "proveedor": "TONING",
         "activo": true
     },
@@ -115,7 +115,7 @@
         "precio": 3054,
         "imagen": "../assets/img_catalogo/7702622522016.png",
         "barra": 7702622522016,
-        "invetario": 1105,
+        "invetario": 1093,
         "proveedor": "TONING",
         "activo": true
     },
@@ -126,7 +126,7 @@
         "precio": 3054,
         "imagen": "../assets/img_catalogo/7702622522023.png",
         "barra": 7702622522023,
-        "invetario": 941,
+        "invetario": 923,
         "proveedor": "TONING",
         "activo": true
     },
@@ -137,7 +137,7 @@
         "precio": 1625,
         "imagen": "../assets/img_catalogo/7702622528131.png",
         "barra": 7702622528131,
-        "invetario": 1486,
+        "invetario": 1474,
         "proveedor": "TONING",
         "activo": true
     },
@@ -159,7 +159,7 @@
         "precio": 3713,
         "imagen": "../assets/img_catalogo/7702622423146.png",
         "barra": 7702622423146,
-        "invetario": 1345,
+        "invetario": 1333,
         "proveedor": "TONING",
         "activo": true
     },
@@ -225,7 +225,7 @@
         "precio": 16342,
         "imagen": "../assets/img_catalogo/7702622627070.png",
         "barra": 7702622627070,
-        "invetario": 209,
+        "invetario": 206,
         "proveedor": "TONING",
         "activo": true
     },
@@ -247,7 +247,7 @@
         "precio": 7715,
         "imagen": "../assets/img_catalogo/7702622226143.png",
         "barra": 7702622226143,
-        "invetario": 366,
+        "invetario": 360,
         "proveedor": "TONING",
         "activo": true
     },
@@ -313,7 +313,7 @@
         "precio": 9169,
         "imagen": "../assets/img_catalogo/7702622624116.png",
         "barra": 7702622624116,
-        "invetario": 878,
+        "invetario": 872,
         "proveedor": "TONING",
         "activo": true
     },
@@ -335,7 +335,7 @@
         "precio": 9169,
         "imagen": "../assets/img_catalogo/7702622624154.png",
         "barra": 7702622624154,
-        "invetario": 904,
+        "invetario": 898,
         "proveedor": "TONING",
         "activo": true
     },
@@ -368,7 +368,7 @@
         "precio": 6468,
         "imagen": "../assets/img_catalogo/7702622131577.png",
         "barra": 7702622131577,
-        "invetario": 12552,
+        "invetario": 12528,
         "proveedor": "TONING",
         "activo": true
     },
@@ -478,7 +478,7 @@
         "precio": 4664,
         "imagen": "../assets/img_catalogo/7702622678263.png",
         "barra": 7702622678263,
-        "invetario": 436,
+        "invetario": 424,
         "proveedor": "TONING",
         "activo": true
     },
@@ -489,7 +489,7 @@
         "precio": 8639,
         "imagen": "../assets/img_catalogo/7702622755582.png",
         "barra": 7702622755582,
-        "invetario": 624,
+        "invetario": 618,
         "proveedor": "TONING",
         "activo": true
     },
@@ -555,7 +555,7 @@
         "precio": 15963,
         "imagen": "../assets/img_catalogo/7702622429186.png",
         "barra": 7702622429186,
-        "invetario": 71,
+        "invetario": 67,
         "proveedor": "TONING",
         "activo": true
     },
@@ -566,7 +566,7 @@
         "precio": 15963,
         "imagen": "../assets/img_catalogo/7702622429124.png",
         "barra": 7702622429124,
-        "invetario": 91,
+        "invetario": 87,
         "proveedor": "TONING",
         "activo": true
     },
@@ -610,7 +610,7 @@
         "precio": 6064,
         "imagen": "../assets/img_catalogo/7702622069603.png",
         "barra": 7702622069603,
-        "invetario": 7,
+        "invetario": 1,
         "proveedor": "TONING",
         "activo": true
     },
@@ -665,7 +665,7 @@
         "precio": 12722,
         "imagen": "../assets/img_catalogo/7702622529046.png",
         "barra": 7702622529046,
-        "invetario": 9,
+        "invetario": 3,
         "proveedor": "TONING",
         "activo": true
     },
@@ -709,7 +709,7 @@
         "precio": "12142,76",
         "imagen": "../assets/img_catalogo/7702622440228.png",
         "barra": 7702622440228,
-        "invetario": 1521,
+        "invetario": 1515,
         "proveedor": "TONING",
         "activo": true
     },
@@ -720,7 +720,7 @@
         "precio": "12142,76",
         "imagen": "../assets/img_catalogo/7702622956545.png",
         "barra": 7702622956545,
-        "invetario": 1562,
+        "invetario": 1556,
         "proveedor": "TONING",
         "activo": true
     },
@@ -852,7 +852,7 @@
         "precio": 9850,
         "imagen": "../assets/img_catalogo/7702622668462.png",
         "barra": 7702622668462,
-        "invetario": 2891,
+        "invetario": 2879,
         "proveedor": "TONING",
         "activo": true
     },
@@ -874,7 +874,7 @@
         "precio": 6476,
         "imagen": "../assets/img_catalogo/7702622713414.png",
         "barra": 7702622713414,
-        "invetario": 333,
+        "invetario": 329,
         "proveedor": "TONING",
         "activo": true
     },
@@ -885,7 +885,7 @@
         "precio": 857,
         "imagen": "../assets/img_catalogo/7709990840643.png",
         "barra": 7709990840643,
-        "invetario": 289,
+        "invetario": 247,
         "proveedor": "ATW INTERNACIONAL SAS",
         "activo": true
     },
@@ -1138,7 +1138,7 @@
         "precio": 22203,
         "imagen": "../assets/img_catalogo/7707255633061.png",
         "barra": 7707255633061,
-        "invetario": 90,
+        "invetario": 84,
         "proveedor": "CASA IBAÑEZ",
         "activo": true
     },
@@ -1215,7 +1215,7 @@
         "precio": 4917,
         "imagen": "../assets/img_catalogo/7501006559019.png",
         "barra": 7501006559019,
-        "invetario": 80,
+        "invetario": 74,
         "proveedor": "CONGRUPO",
         "activo": true
     },
@@ -1248,7 +1248,7 @@
         "precio": 21030,
         "imagen": "../assets/img_catalogo/7591039505190.png",
         "barra": 7591039505190,
-        "invetario": 34,
+        "invetario": 28,
         "proveedor": "CONGRUPO",
         "activo": true
     },
@@ -1270,7 +1270,7 @@
         "precio": 4457,
         "imagen": "../assets/img_catalogo/7707200710342.png",
         "barra": 7707200710342,
-        "invetario": 219,
+        "invetario": 205,
         "proveedor": "CONGRUPO",
         "activo": true
     },
@@ -1281,7 +1281,7 @@
         "precio": 4457,
         "imagen": "../assets/img_catalogo/7707200710359.png",
         "barra": 7707200710359,
-        "invetario": 84,
+        "invetario": 70,
         "proveedor": "CONGRUPO",
         "activo": true
     },
@@ -1292,7 +1292,7 @@
         "precio": 14291,
         "imagen": "../assets/img_catalogo/7702807414112.png",
         "barra": 7702807414112,
-        "invetario": 25,
+        "invetario": 19,
         "proveedor": "CONGRUPO",
         "activo": true
     },
@@ -1325,7 +1325,7 @@
         "precio": 2624,
         "imagen": "../assets/img_catalogo/7702117008216.png",
         "barra": 7702117008216,
-        "invetario": 979,
+        "invetario": 976,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1523,7 +1523,7 @@
         "precio": 3490,
         "imagen": "../assets/img_catalogo/7702117007271.png",
         "barra": 7702117007271,
-        "invetario": 988,
+        "invetario": 961,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1545,7 +1545,7 @@
         "precio": 1897,
         "imagen": "../assets/img_catalogo/7702117002498.png",
         "barra": 7702117002498,
-        "invetario": 967,
+        "invetario": 961,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1600,7 +1600,7 @@
         "precio": 5156,
         "imagen": "../assets/img_catalogo/7702117008087.png",
         "barra": 7702117008087,
-        "invetario": 920,
+        "invetario": 896,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1622,7 +1622,7 @@
         "precio": 13824,
         "imagen": "../assets/img_catalogo/7702117018796.png",
         "barra": 7702117018796,
-        "invetario": 165,
+        "invetario": 163,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1633,7 +1633,7 @@
         "precio": 25141,
         "imagen": "../assets/img_catalogo/7702117018789.png",
         "barra": 7702117018789,
-        "invetario": "197,166666",
+        "invetario": "196,166666",
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1644,7 +1644,7 @@
         "precio": 46586,
         "imagen": "../assets/img_catalogo/7702117017294.png",
         "barra": 7702117017294,
-        "invetario": 24,
+        "invetario": 23,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1677,7 +1677,7 @@
         "precio": 9133,
         "imagen": "../assets/img_catalogo/7702117010707.png",
         "barra": 7702117010707,
-        "invetario": 982,
+        "invetario": 976,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1765,7 +1765,7 @@
         "precio": 7501,
         "imagen": "../assets/img_catalogo/7702117010653.png",
         "barra": 7702117010653,
-        "invetario": 399,
+        "invetario": 375,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1787,7 +1787,7 @@
         "precio": 5172,
         "imagen": "../assets/img_catalogo/7702117006656.png",
         "barra": 7702117006656,
-        "invetario": 731,
+        "invetario": 725,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1820,7 +1820,7 @@
         "precio": 6829,
         "imagen": "../assets/img_catalogo/7702117160914.png",
         "barra": 7702117160914,
-        "invetario": 1440,
+        "invetario": 1422,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1831,7 +1831,7 @@
         "precio": 3875,
         "imagen": "../assets/img_catalogo/7702117006717.png",
         "barra": 7702117006717,
-        "invetario": 2025,
+        "invetario": 2019,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1853,7 +1853,7 @@
         "precio": 2202,
         "imagen": "../assets/img_catalogo/7702117015078.png",
         "barra": 7702117015078,
-        "invetario": 347,
+        "invetario": 323,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1875,7 +1875,7 @@
         "precio": 2668,
         "imagen": "../assets/img_catalogo/7702117007769.png",
         "barra": 7702117007769,
-        "invetario": 249,
+        "invetario": 237,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1886,7 +1886,7 @@
         "precio": 10095,
         "imagen": "../assets/img_catalogo/7702117007745.png",
         "barra": 7702117007745,
-        "invetario": 4,
+        "invetario": 0,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1908,7 +1908,7 @@
         "precio": 5819,
         "imagen": "../assets/img_catalogo/7702117002504.png",
         "barra": 7702117002504,
-        "invetario": 891,
+        "invetario": 879,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1985,7 +1985,7 @@
         "precio": 2393,
         "imagen": "../assets/img_catalogo/7702117012527.png",
         "barra": 7702117012527,
-        "invetario": 726,
+        "invetario": 702,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -1996,7 +1996,7 @@
         "precio": 3576,
         "imagen": "../assets/img_catalogo/7702117006724.png",
         "barra": 7702117006724,
-        "invetario": 1326,
+        "invetario": 1284,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2007,7 +2007,7 @@
         "precio": 3972,
         "imagen": "../assets/img_catalogo/7702117006076.png",
         "barra": 7702117006076,
-        "invetario": 438,
+        "invetario": 388,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2084,7 +2084,7 @@
         "precio": 14980,
         "imagen": "../assets/img_catalogo/7702117006960.png",
         "barra": 7702117006960,
-        "invetario": 34,
+        "invetario": 32,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2106,7 +2106,7 @@
         "precio": 4578,
         "imagen": "../assets/img_catalogo/7702117011148.png",
         "barra": 7702117011148,
-        "invetario": 341,
+        "invetario": 331,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2326,7 +2326,7 @@
         "precio": 2838,
         "imagen": "../assets/img_catalogo/7702117008711.png",
         "barra": 7702117008711,
-        "invetario": 939,
+        "invetario": 927,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2370,7 +2370,7 @@
         "precio": 2838,
         "imagen": "../assets/img_catalogo/7702117160679.png",
         "barra": 7702117160679,
-        "invetario": 2539,
+        "invetario": 2527,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2381,7 +2381,7 @@
         "precio": 2838,
         "imagen": "../assets/img_catalogo/7702117012374.png",
         "barra": 7702117012374,
-        "invetario": 486,
+        "invetario": 474,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2392,7 +2392,7 @@
         "precio": 6193,
         "imagen": "../assets/img_catalogo/7702117008452.png",
         "barra": 7702117008452,
-        "invetario": 806,
+        "invetario": 794,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2403,7 +2403,7 @@
         "precio": 6193,
         "imagen": "../assets/img_catalogo/7702117008438.png",
         "barra": 7702117008438,
-        "invetario": 1401,
+        "invetario": 1389,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2414,7 +2414,7 @@
         "precio": 6193,
         "imagen": "../assets/img_catalogo/7702117003815.png",
         "barra": 7702117003815,
-        "invetario": 932,
+        "invetario": 920,
         "proveedor": "COMESTIBLES ITALO",
         "activo": true
     },
@@ -2722,7 +2722,7 @@
         "precio": 29200,
         "imagen": "../assets/img_catalogo/7804300010638.png",
         "barra": 7804300010638,
-        "invetario": 57,
+        "invetario": 51,
         "proveedor": "DISLICORES",
         "activo": true
     },
@@ -2733,7 +2733,7 @@
         "precio": 29200,
         "imagen": "../assets/img_catalogo/7804300120603.png",
         "barra": 7804300120603,
-        "invetario": 193,
+        "invetario": 187,
         "proveedor": "DISLICORES",
         "activo": true
     },
@@ -2810,7 +2810,7 @@
         "precio": "13520,78",
         "imagen": "../assets/img_catalogo/633148100013.png",
         "barra": 633148100013,
-        "invetario": 433,
+        "invetario": 425,
         "proveedor": "DISLICORES",
         "activo": true
     },
@@ -2865,7 +2865,7 @@
         "precio": 2303,
         "imagen": "../assets/img_catalogo/7709947872215.png",
         "barra": 7709947872215,
-        "invetario": 234,
+        "invetario": 222,
         "proveedor": "DISTRI SAMY",
         "activo": true
     },
@@ -2876,7 +2876,7 @@
         "precio": 2303,
         "imagen": "../assets/img_catalogo/7709947872291.png",
         "barra": 7709947872291,
-        "invetario": 150,
+        "invetario": 144,
         "proveedor": "DISTRI SAMY",
         "activo": true
     },
@@ -2898,7 +2898,7 @@
         "precio": 129480,
         "imagen": "../assets/img_catalogo/7707142301660.png",
         "barra": 7707142301660,
-        "invetario": "81,0375",
+        "invetario": "80,0375",
         "proveedor": "DUQUESA",
         "activo": true
     },
@@ -2920,7 +2920,7 @@
         "precio": 117554,
         "imagen": "../assets/img_catalogo/7707142301639.png",
         "barra": 7707142301639,
-        "invetario": 146,
+        "invetario": 144,
         "proveedor": "DUQUESA",
         "activo": true
     },
@@ -3107,7 +3107,7 @@
         "precio": 7417,
         "imagen": "../assets/img_catalogo/7707096600055.png",
         "barra": 7707096600055,
-        "invetario": 852,
+        "invetario": 804,
         "proveedor": "FARINA CIA",
         "activo": true
     },
@@ -3118,7 +3118,7 @@
         "precio": 3023,
         "imagen": "../assets/img_catalogo/7707096000000.png",
         "barra": 7707096000000,
-        "invetario": 419,
+        "invetario": 221,
         "proveedor": "FARINA CIA",
         "activo": true
     },
@@ -3129,7 +3129,7 @@
         "precio": 3967,
         "imagen": "../assets/img_catalogo/7707096600147.png",
         "barra": 7707096600147,
-        "invetario": 1105,
+        "invetario": 1085,
         "proveedor": "FARINA CIA",
         "activo": true
     },
@@ -3140,7 +3140,7 @@
         "precio": 3967,
         "imagen": "../assets/img_catalogo/7707096600178.png",
         "barra": 7707096600178,
-        "invetario": 1269,
+        "invetario": 1249,
         "proveedor": "FARINA CIA",
         "activo": true
     },
@@ -3151,7 +3151,7 @@
         "precio": 1683,
         "imagen": "../assets/img_catalogo/7707096600017.png",
         "barra": 7707096600017,
-        "invetario": 2579,
+        "invetario": 2291,
         "proveedor": "FARINA CIA",
         "activo": true
     },
@@ -3162,7 +3162,7 @@
         "precio": 1683,
         "imagen": "../assets/img_catalogo/7707096600000.png",
         "barra": 7707096600000,
-        "invetario": 1824,
+        "invetario": 1524,
         "proveedor": "FARINA CIA",
         "activo": true
     },
@@ -3668,9 +3668,9 @@
         "precio": 6471,
         "imagen": "../assets/img_catalogo/74530110015787.png",
         "barra": 74530110015787,
-        "invetario": 361,
+        "invetario": 333,
         "proveedor": "COMERCIALIZADORA JS",
-        "activo": true
+        "activo": false
     },
     {
         "id": 335,
@@ -3681,7 +3681,7 @@
         "barra": 7453010015787,
         "invetario": 2,
         "proveedor": "COMERCIALIZADORA JS",
-        "activo": false
+        "activo": true
     },
     {
         "id": 336,
@@ -3822,7 +3822,7 @@
         "precio": 5210,
         "imagen": "../assets/img_catalogo/7702532370899.png",
         "barra": 7702532370899,
-        "invetario": 88,
+        "invetario": 85,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -3833,7 +3833,7 @@
         "precio": 4495,
         "imagen": "../assets/img_catalogo/7702532370882.png",
         "barra": 7702532370882,
-        "invetario": 106,
+        "invetario": 104,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -3844,7 +3844,7 @@
         "precio": 8092,
         "imagen": "../assets/img_catalogo/7702532370974.png",
         "barra": 7702532370974,
-        "invetario": 69,
+        "invetario": 62,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -3855,7 +3855,7 @@
         "precio": 8092,
         "imagen": "../assets/img_catalogo/7702532370905.png",
         "barra": 7702532370905,
-        "invetario": 115,
+        "invetario": 114,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -3877,7 +3877,7 @@
         "precio": 8092,
         "imagen": "../assets/img_catalogo/7702532370912.png",
         "barra": 7702532370912,
-        "invetario": 80,
+        "invetario": 74,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -3888,7 +3888,7 @@
         "precio": 8092,
         "imagen": "../assets/img_catalogo/7702532828901.png",
         "barra": 7702532828901,
-        "invetario": 54,
+        "invetario": 53,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -3899,7 +3899,7 @@
         "precio": 8092,
         "imagen": "../assets/img_catalogo/7702532370707.png",
         "barra": 7702532370707,
-        "invetario": 114,
+        "invetario": 113,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -3910,7 +3910,7 @@
         "precio": 8092,
         "imagen": "../assets/img_catalogo/7702532370943.png",
         "barra": 7702532370943,
-        "invetario": 108,
+        "invetario": 107,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -3921,7 +3921,7 @@
         "precio": 8092,
         "imagen": "../assets/img_catalogo/7702532370981.png",
         "barra": 7702532370981,
-        "invetario": 104,
+        "invetario": 103,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -3987,7 +3987,7 @@
         "precio": 22059,
         "imagen": "../assets/img_catalogo/7702532840187.png",
         "barra": 7702532840187,
-        "invetario": 40,
+        "invetario": 37,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -3998,7 +3998,7 @@
         "precio": 22059,
         "imagen": "../assets/img_catalogo/7702532371803.png",
         "barra": 7702532371803,
-        "invetario": 42,
+        "invetario": 39,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4009,7 +4009,7 @@
         "precio": 22059,
         "imagen": "../assets/img_catalogo/7702532312295.png",
         "barra": 7702532312295,
-        "invetario": 40,
+        "invetario": 37,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4020,7 +4020,7 @@
         "precio": 22059,
         "imagen": "../assets/img_catalogo/7702532300131.png",
         "barra": 7702532300131,
-        "invetario": 32,
+        "invetario": 29,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4031,7 +4031,7 @@
         "precio": 12575,
         "imagen": "../assets/img_catalogo/7702532087059.png",
         "barra": 7702532087059,
-        "invetario": 48,
+        "invetario": 45,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4042,7 +4042,7 @@
         "precio": 12575,
         "imagen": "../assets/img_catalogo/7702532312394.png",
         "barra": 7702532312394,
-        "invetario": 47,
+        "invetario": 44,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4053,7 +4053,7 @@
         "precio": 12575,
         "imagen": "../assets/img_catalogo/7702532300124.png",
         "barra": 7702532300124,
-        "invetario": 37,
+        "invetario": 34,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4482,7 +4482,7 @@
         "precio": 1353,
         "imagen": "../assets/img_catalogo/7702532430678.png",
         "barra": 7702532430678,
-        "invetario": 347,
+        "invetario": 335,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4504,7 +4504,7 @@
         "precio": 1353,
         "imagen": "../assets/img_catalogo/7702532430685.png",
         "barra": 7702532430685,
-        "invetario": 206,
+        "invetario": 194,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4515,7 +4515,7 @@
         "precio": 7623,
         "imagen": "../assets/img_catalogo/7702532630108.png",
         "barra": 7702532630108,
-        "invetario": 138,
+        "invetario": 128,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4537,7 +4537,7 @@
         "precio": 12639,
         "imagen": "../assets/img_catalogo/7702532630207.png",
         "barra": 7702532630207,
-        "invetario": 164,
+        "invetario": 158,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4559,7 +4559,7 @@
         "precio": 10690,
         "imagen": "../assets/img_catalogo/7702532863155.png",
         "barra": 7702532863155,
-        "invetario": 167,
+        "invetario": 161,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4625,7 +4625,7 @@
         "precio": 7685,
         "imagen": "../assets/img_catalogo/7702532476836.png",
         "barra": 7702532476836,
-        "invetario": 295,
+        "invetario": 294,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4636,7 +4636,7 @@
         "precio": 7685,
         "imagen": "../assets/img_catalogo/7702532312103.png",
         "barra": 7702532312103,
-        "invetario": 235,
+        "invetario": 232,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4647,7 +4647,7 @@
         "precio": 6005,
         "imagen": "../assets/img_catalogo/7702532312110.png",
         "barra": 7702532312110,
-        "invetario": 187,
+        "invetario": 175,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4658,7 +4658,7 @@
         "precio": 7685,
         "imagen": "../assets/img_catalogo/7702532312127.png",
         "barra": 7702532312127,
-        "invetario": 231,
+        "invetario": 225,
         "proveedor": "COFARMA",
         "activo": true
     },
@@ -4812,7 +4812,7 @@
         "precio": 2244,
         "imagen": "../assets/img_catalogo/7709990961584.png",
         "barra": 7709990961584,
-        "invetario": 591,
+        "invetario": 566,
         "proveedor": "DORIS PATRICIA FONSECA",
         "activo": true
     },
@@ -4911,7 +4911,7 @@
         "precio": 3577,
         "imagen": "../assets/img_catalogo/7702764024003.png",
         "barra": 7702764024003,
-        "invetario": 650,
+        "invetario": 638,
         "proveedor": "RUBIFLEX",
         "activo": true
     },
@@ -4922,7 +4922,7 @@
         "precio": 3577,
         "imagen": "../assets/img_catalogo/7702764025000.png",
         "barra": 7702764025000,
-        "invetario": 745,
+        "invetario": 733,
         "proveedor": "RUBIFLEX",
         "activo": true
     },
@@ -5054,7 +5054,7 @@
         "precio": 8239,
         "imagen": "../assets/img_catalogo/7702648000017.png",
         "barra": 7702648000017,
-        "invetario": 2162,
+        "invetario": 2112,
         "proveedor": "DISCOA",
         "activo": true
     },
@@ -5098,7 +5098,7 @@
         "precio": 1547,
         "imagen": "../assets/img_catalogo/7707181391959.png",
         "barra": 7707181391959,
-        "invetario": 3825,
+        "invetario": 3575,
         "proveedor": "MARCHEN",
         "activo": true
     },
@@ -5296,7 +5296,7 @@
         "precio": 4058,
         "imagen": "../assets/img_catalogo/7702044283571.png",
         "barra": 7702044283571,
-        "invetario": 474,
+        "invetario": 462,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5593,7 +5593,7 @@
         "precio": 33045,
         "imagen": "../assets/img_catalogo/7702044260909.png",
         "barra": 7702044260909,
-        "invetario": 79,
+        "invetario": 76,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -5659,7 +5659,7 @@
         "precio": 24764,
         "imagen": "../assets/img_catalogo/7702044288415.png",
         "barra": 7702044288415,
-        "invetario": 98,
+        "invetario": 89,
         "proveedor": "PREBEL",
         "activo": true
     },
@@ -6035,7 +6035,7 @@
         "barra": 7702044295239,
         "invetario": 177,
         "proveedor": "PREBEL",
-        "activo": true
+        "activo": false
     },
     {
         "id": 550,
@@ -6046,7 +6046,7 @@
         "barra": 7702044295253,
         "invetario": 114,
         "proveedor": "PREBEL",
-        "activo": true
+        "activo": false
     },
     {
         "id": 551,
@@ -6088,7 +6088,7 @@
         "precio": 6610,
         "imagen": "../assets/img_catalogo/7702108209714.png",
         "barra": 7702108209714,
-        "invetario": 1547,
+        "invetario": 1529,
         "proveedor": "PRODUSA",
         "activo": true
     },
@@ -6099,7 +6099,7 @@
         "precio": 4304,
         "imagen": "../assets/img_catalogo/7702108209813.png",
         "barra": 7702108209813,
-        "invetario": 10344,
+        "invetario": 10296,
         "proveedor": "PRODUSA",
         "activo": true
     },
@@ -6110,7 +6110,7 @@
         "precio": 4454,
         "imagen": "../assets/img_catalogo/7702108850794.png",
         "barra": 7702108850794,
-        "invetario": 9701,
+        "invetario": 9677,
         "proveedor": "PRODUSA",
         "activo": true
     },
@@ -6253,7 +6253,7 @@
         "precio": 1746,
         "imagen": "../assets/img_catalogo/7702120009569.png",
         "barra": 7702120009569,
-        "invetario": 646,
+        "invetario": 640,
         "proveedor": "PAPELES NACIONALES",
         "activo": true
     },
@@ -6484,7 +6484,7 @@
         "precio": 12931,
         "imagen": "../assets/img_catalogo/7702120014105.png",
         "barra": 7702120014105,
-        "invetario": 428,
+        "invetario": 348,
         "proveedor": "PAPELES NACIONALES",
         "activo": true
     },
@@ -6506,7 +6506,7 @@
         "precio": 2785,
         "imagen": "../assets/img_catalogo/7705525010123.png",
         "barra": 7705525010123,
-        "invetario": 8669,
+        "invetario": 8569,
         "proveedor": "PRECOCIDOS",
         "activo": true
     },
@@ -6583,7 +6583,7 @@
         "precio": 3675,
         "imagen": "../assets/img_catalogo/7705525091054.png",
         "barra": 7705525091054,
-        "invetario": 510,
+        "invetario": 486,
         "proveedor": "PRECOCIDOS",
         "activo": true
     },
@@ -6594,7 +6594,7 @@
         "precio": 919,
         "imagen": "../assets/img_catalogo/7707525091016.png",
         "barra": 7707525091016,
-        "invetario": 555,
+        "invetario": 507,
         "proveedor": "PRECOCIDOS",
         "activo": true
     },
@@ -6605,7 +6605,7 @@
         "precio": 3675,
         "imagen": "../assets/img_catalogo/7705525093089.png",
         "barra": 7705525093089,
-        "invetario": 3253,
+        "invetario": 3247,
         "proveedor": "PRECOCIDOS",
         "activo": true
     },
@@ -6660,7 +6660,7 @@
         "precio": 14635,
         "imagen": "../assets/img_catalogo/7709376795369.png",
         "barra": 7709376795369,
-        "invetario": 157,
+        "invetario": 151,
         "proveedor": "PROPETS",
         "activo": true
     },
@@ -6682,7 +6682,7 @@
         "precio": 10487,
         "imagen": "../assets/img_catalogo/2222070752520.png",
         "barra": 2222070752520,
-        "invetario": 802,
+        "invetario": 790,
         "proveedor": "PROPETS",
         "activo": true
     },
@@ -6693,7 +6693,7 @@
         "precio": 1270,
         "imagen": "../assets/img_catalogo/7709645809834.png",
         "barra": 7709645809834,
-        "invetario": 119,
+        "invetario": 95,
         "proveedor": "LA SABANA",
         "activo": true
     },
@@ -6704,7 +6704,7 @@
         "precio": 1270,
         "imagen": "../assets/img_catalogo/7709645809889.png",
         "barra": 7709645809889,
-        "invetario": 2599,
+        "invetario": 2551,
         "proveedor": "LA SABANA",
         "activo": true
     },
@@ -6715,7 +6715,7 @@
         "precio": 4881,
         "imagen": "../assets/img_catalogo/7709645809896.png",
         "barra": 7709645809896,
-        "invetario": 396,
+        "invetario": 375,
         "proveedor": "LA SABANA",
         "activo": true
     },
@@ -6726,7 +6726,7 @@
         "precio": 2542,
         "imagen": "../assets/img_catalogo/7709645809865.png",
         "barra": 7709645809865,
-        "invetario": 195,
+        "invetario": 183,
         "proveedor": "LA SABANA",
         "activo": true
     },
@@ -6825,7 +6825,7 @@
         "precio": 3630,
         "imagen": "../assets/img_catalogo/7709990000000.png",
         "barra": 7709990000000,
-        "invetario": 1619,
+        "invetario": 1463,
         "proveedor": "HERBAR",
         "activo": true
     },
@@ -7111,7 +7111,7 @@
         "precio": 4495,
         "imagen": "../assets/img_catalogo/7700718564000.png",
         "barra": 7700718564000,
-        "invetario": 2030,
+        "invetario": 2020,
         "proveedor": "VENTAS NACIONALES",
         "activo": true
     },
