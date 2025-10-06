@@ -1774,7 +1774,7 @@
         "codigo": "JCI0042",
         "nombre": "GALLETAS NAVIDAD X 160 G CJ X 20",
         "precio": 4420,
-        "imagen": "../assets/img_catalogo/7702117018772.png",
+        "imagen": "../assets/img_catalogo/7702117018772.PNG",
         "barra": 7702117018772,
         "invetario": 4000,
         "proveedor": "COMESTIBLES ITALO",
@@ -6002,7 +6002,7 @@
         "barra": 7702044295185,
         "invetario": 582,
         "proveedor": "PREBEL",
-        "activo": false
+        "activo": true
     },
     {
         "id": 547,
