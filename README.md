@@ -1,6 +1,6 @@
 # 🛍️ Sura Pedidos Web v2.0
 
-Sistema web moderno para gestión de pedidos desarrollado con **Astro**, **React** y **Atomic Design**.
+Sistema web moderno para gestión de pedidos desarrollado con **Astro 5**, **React 19** y **Atomic Design**. Plataforma completa para la gestión de clientes, productos y pedidos con sistema de bloqueo automático por deudas.
 
 ## ✨ Características Principales
 
@@ -33,73 +33,86 @@ Sistema web moderno para gestión de pedidos desarrollado con **Astro**, **React
 
 ## 🛠️ Tecnologías
 
-- **[Astro](https://astro.build/)** - Framework web moderno
-- **[React](https://reactjs.org/)** - Componentes interactivos
-- **[TypeScript](https://www.typescriptlang.org/)** - Tipado estático
-- **CSS Variables** - Sistema de diseño consistente
-- **LocalStorage API** - Persistencia de datos
-- **WhatsApp API** - Integración de mensajería
+- **[Astro 5.14.1](https://astro.build/)** - Framework web moderno con SSR
+- **[React 19](https://reactjs.org/)** - Componentes interactivos con hooks
+- **[TypeScript 5.0](https://www.typescriptlang.org/)** - Tipado estático completo
+- **CSS Variables** - Sistema de diseño consistente y personalizable
+- **LocalStorage API** - Persistencia de datos del cliente
+- **WhatsApp API** - Integración de mensajería automática
+- **Vercel** - Despliegue y hosting estático
 
 ## 📁 Estructura del Proyecto
 
-```bash
+```
 suraPedidosWeb/
 ├── src/
-│   ├── components/
-│   │   ├── atoms/              # 🧱 Componentes básicos indivisibles
-│   │   │   ├── Button.astro    # Botones reutilizables
-│   │   │   ├── Input.astro     # Campos de entrada
-│   │   │   ├── StatusBadge.astro # Indicadores de estado
-│   │   │   └── Icon.astro      # Iconos estandarizados
-│   │   ├── molecules/          # 🔗 Combinaciones de átomos
-│   │   │   ├── SearchInput.astro    # Campo de búsqueda
-│   │   │   ├── CupoInfo.astro       # Información de cupo
-│   │   │   ├── CarteraTable.astro   # Tabla de facturas
-│   │   │   ├── ClienteInfo.astro    # Info del cliente
+│   ├── components/           # 🧩 Componentes Atomic Design
+│   │   ├── atoms/            # 🧱 Componentes básicos indivisibles
+│   │   │   ├── Button.astro    # Botones reutilizables con variantes
+│   │   │   ├── Input.astro     # Campos de entrada estandarizados
+│   │   │   ├── StatusBadge.astro # Indicadores de estado con colores
+│   │   │   └── Icon.astro      # Iconos consistentes en toda la app
+│   │   ├── molecules/        # 🔗 Combinaciones de átomos
+│   │   │   ├── SearchInput.astro    # Campo de búsqueda con ícono
+│   │   │   ├── CupoInfo.astro       # Información de cupo formateada
+│   │   │   ├── CarteraTable.astro   # Tabla de facturas del cliente
+│   │   │   ├── ClienteInfo.astro    # Información del cliente seleccionado
 │   │   │   ├── SucursalList.astro   # Lista de sucursales
+│   │   │   ├── Navigation.astro     # Navegación principal
 │   │   │   └── ClienteResults.astro # Resultados de búsqueda
-│   │   ├── organisms/          # 🏗️ Secciones funcionales completas
+│   │   ├── organisms/        # 🏗️ Secciones funcionales completas
 │   │   │   ├── ClienteSelector.astro      # Selector de clientes
-│   │   │   ├── ClienteSelectorReact.jsx   # Lógica de selección
+│   │   │   ├── ClienteSelectorReact.jsx   # Lógica de selección React
 │   │   │   ├── ProductosSelector.astro    # Selector de productos
 │   │   │   └── BloqueoHorario.astro       # Control de horarios
-│   │   ├── templates/          # 📄 Estructuras de página
-│   │   │   └── ClienteSelectorTemplate.astro # Plantilla completa
-│   │   └── pages/              # 📋 Páginas específicas
+│   │   └── templates/        # 📄 Estructuras de página
+│   │       └── ClienteSelectorTemplate.astro # Plantilla completa
 │   ├── layouts/
 │   │   └── BaseLayout.astro    # Layout base de la aplicación
-│   ├── pages/
+│   ├── pages/                # 📋 Páginas de la aplicación
 │   │   ├── index.astro         # Página principal (catálogo)
+│   │   ├── principal.astro     # Página de selección de clientes
 │   │   ├── producto.astro      # Página de productos
 │   │   └── carrito.astro       # Carrito de compras
-│   ├── data/                   # 📊 Datos de la aplicación
-│   │   ├── products.json       # Catálogo de productos
+│   ├── data/                 # 📊 Datos de la aplicación
+│   │   ├── products.json       # Catálogo de productos (629 items)
 │   │   ├── clientes.json       # Información de clientes
-│   │   ├── cartera.json        # Facturas y deudas
-│   │   └── cupo.json          # Cupos de crédito
-│   ├── styles/                 # 🎨 Estilos organizados
-│   │   ├── global.css          # Estilos globales
-│   │   ├── atoms/             # Estilos de átomos
-│   │   ├── molecules/         # Estilos de moléculas
-│   │   └── organisms/         # Estilos de organismos
+│   │   ├── cartera.json        # Facturas y deudas (15,004 líneas)
+│   │   ├── cupo.json          # Cupos de crédito
+│   │   └── vendedores.json     # Información de vendedores
+│   ├── styles/               # 🎨 Estilos organizados
+│   │   ├── global.css          # Estilos globales y variables CSS
+│   │   └── atoms/
+│   │       └── variables.css   # Variables del sistema de diseño
 │   ├── config/
 │   │   └── app.config.ts      # Configuración centralizada
-│   ├── hooks/                  # 🪝 Hooks personalizados
+│   ├── hooks/                # 🪝 Hooks personalizados
 │   │   └── useClienteData.js   # Lógica de datos de clientes
-│   └── utils/                  # 🛠️ Utilidades y helpers
+│   └── utils/                # 🛠️ Utilidades y helpers
 │       ├── helpers.ts          # Utilidades generales
 │       └── atomic-design/      # Lógica de negocio Atomic Design
 │           └── deudaUtils.ts   # Utilidades para verificación de deudas
 ├── public/
 │   └── assets/
-│       └── img_catalogo/      # 🖼️ Imágenes de productos
-├── doc/                        # 📚 Documentación técnica
-│   ├── 01-guia-inicio.md      # Guía de inicio
-│   ├── 09-arquitectura-atomic-design.md    # Arquitectura Atomic Design
-│   ├── 10-guia-verificacion-deudas.md      # Guía de bloqueo por deudas
+│       └── img_catalogo/      # 🖼️ Imágenes de productos (629 archivos)
+├── doc/                      # 📚 Documentación técnica completa
+│   ├── 01-guia-inicio.md      # Guía de inicio y configuración
+│   ├── 02-arquitectura.md     # Arquitectura del sistema
+│   ├── 03-componentes.md      # Documentación de componentes
+│   ├── 04-datos.md           # Estructura de datos
+│   ├── 05-configuracion.md   # Configuración del proyecto
+│   ├── 06-convenciones.md    # Convenciones y buenas prácticas
+│   ├── 07-diagramas.md       # Diagramas del sistema
+│   ├── 08-componentes-props.md # Props y ejemplos de componentes
+│   ├── 09-arquitectura-atomic-design.md # Arquitectura Atomic Design
+│   ├── 10-guia-verificacion-deudas.md   # Guía de bloqueo por deudas
+│   ├── 11-ejemplos-codigo-verificacion-deudas.md # Ejemplos de código
 │   └── README.md              # Índice de documentación
 ├── astro.config.mjs           # ⚙️ Configuración de Astro
-├── package.json              # 📦 Dependencias del proyecto
+├── tsconfig.json             # 🔧 Configuración de TypeScript
+├── package.json              # 📦 Dependencias y scripts del proyecto
+├── CHANGELOG.md              # 📋 Historial de cambios y versiones
+├── BLOQUEO_HORARIO.md        # 🕒 Documentación del sistema de bloqueo
 └── README.md                 # 📖 Este archivo
 ```
 
@@ -136,13 +149,14 @@ npm run dev
 ### Scripts Disponibles
 
 ```bash
-npm run dev        # Servidor de desarrollo (con --host)
-npm run build      # Construir para producción
-npm run preview    # Vista previa de la build
-npm run lint       # Verificar código (astro check)
+npm run dev        # Servidor de desarrollo con host habilitado
+npm run build      # Construir aplicación para producción
+npm run preview    # Vista previa de la build local
+npm run lint       # Verificar código con Astro Check
 npm run type-check # Verificar tipos TypeScript
-npm run clean      # Limpiar archivos generados
-npm start          # Build y preview
+npm run clean      # Limpiar archivos generados y cache
+npm start          # Build completo y preview en un comando
+npm run astro      # Comando directo de Astro
 ```
 
 ## 🔒 Funcionalidad de Bloqueo por Deudas
@@ -264,14 +278,19 @@ Este proyecto está bajo la Licencia MIT.
 
 ## 📚 Documentación
 
-### Guías Técnicas
+### 📋 Historial de Versiones
+- **[CHANGELOG.md](CHANGELOG.md)**: Historial completo de cambios y nuevas funcionalidades
 
+### 🚀 Guías Técnicas
+
+- **[Guía de Inicio](doc/01-guia-inicio.md)**: Configuración inicial y primeros pasos
 - **[Arquitectura Atomic Design](doc/09-arquitectura-atomic-design.md)**: Documentación completa de la arquitectura de componentes
 - **[Guía de Verificación de Deudas](doc/10-guia-verificacion-deudas.md)**: Manual completo del sistema de bloqueo por deudas
-- **[Guía de Inicio](doc/01-guia-inicio.md)**: Introducción al proyecto y primeros pasos
+- **[Sistema de Bloqueo Horario](BLOQUEO_HORARIO.md)**: Documentación del control de horarios
 
-### Recursos Adicionales
+### 📖 Recursos Adicionales
 
+- **Documentación Técnica**: Ver [doc/README.md](doc/README.md) para índice completo
 - **Diseño de Sistema**: Variables CSS y componentes reutilizables
 - **Casos de Uso**: Ejemplos prácticos de implementación
 - **Mejores Prácticas**: Guías para desarrollo y mantenimiento
@@ -308,6 +327,13 @@ npm run build       # Verificar build de producción
 npm run build      # Construir para producción
 npm run preview    # Vista previa local de la build
 ```
+
+### Características del Despliegue
+
+- **Hosting**: Vercel con despliegue automático desde GitHub
+- **Build**: Estática optimizada con Astro
+- **Performance**: Lazy loading y optimizaciones automáticas
+- **SEO**: Meta tags y estructura semántica incluida
 
 ## 🤝 Contribución
 

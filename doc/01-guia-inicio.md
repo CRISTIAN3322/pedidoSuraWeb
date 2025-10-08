@@ -1,47 +1,71 @@
-## 01. Guía de Inicio
+# 🚀 01. Guía de Inicio
 
-### Prerrequisitos
-- Node.js 18 o superior
-- npm 9+ (o yarn/pnpm si prefieres)
+## 📋 Prerrequisitos
+- **Node.js:** 18.0.0 o superior
+- **npm:** 9+ (o yarn/pnpm si prefieres)
+- **Memoria:** >= 4GB recomendada (catálogo de imágenes extenso)
+- **Almacenamiento:** >= 1GB (imágenes y datos)
 
-### Instalación
+## ⚙️ Instalación
+
 ```bash
 git clone https://github.com/CRISTIAN3322/suraPedidosWeb.git
 cd suraPedidosWeb
 npm install
 ```
 
-### Scripts disponibles
+## 🔧 Scripts Disponibles
+
 ```bash
-npm run dev        # Servidor de desarrollo (por defecto en http://localhost:4321)
+npm run dev        # Servidor de desarrollo con host habilitado
 npm run build      # Construcción para producción
-npm run preview    # Vista previa de la build
+npm run preview    # Vista previa de la build local
 npm run lint       # Revisión estática con Astro Check
 npm run type-check # Verificación de tipos TypeScript
-npm run clean      # Limpieza de artefactos generados
-npm start          # build + preview
+npm run clean      # Limpieza de artefactos generados y cache
+npm start          # Build completo y preview en un comando
+npm run astro      # Comando directo de Astro
 ```
 
-### Variables de entorno
+## 🔧 Configuración
+
+### Variables de Entorno
 Actualmente el proyecto no requiere variables sensibles. La configuración general está en `src/config/app.config.ts`.
 
-### Requisitos del sistema
-- Memoria: >= 4GB recomendada (el catálogo de imágenes es grande)
-- Almacenamiento: >= 1GB (por `public/assets/img_catalogo` y `products.json`)
+### Requisitos del Sistema
+- **Memoria:** >= 4GB recomendada (catálogo de 629 imágenes)
+- **Almacenamiento:** >= 1GB (imágenes y datos JSON)
+- **Navegador:** Chrome 90+, Firefox 88+, Safari 14+, Edge 90+
 
-### Estructura básica de ejecución
-1. `npm run dev`
-2. Abrir `http://localhost:4321`
-3. Flujos principales:
-   - Catálogo de productos (`/`)
-   - Selección de cliente (`/principal`)
-   - Carrito de compras y envío por WhatsApp (`/carrito`)
+## 🚀 Estructura Básica de Ejecución
 
-### Despliegue
-- Soportado en plataformas estáticas (ej. Vercel). Usa `npm run build` y sirve el resultado de `dist/`.
+1. **Iniciar servidor:** `npm run dev`
+2. **Abrir navegador:** `http://localhost:4321`
+3. **Flujos principales:**
+   - 📋 **Catálogo de productos** (`/`)
+   - 👤 **Selección de cliente** (`/principal`)
+   - 🛒 **Carrito de compras** (`/carrito`)
+   - 📱 **Envío por WhatsApp**
 
-### Solución de problemas
-- Puerto ocupado: cambia el puerto usando `astro dev --host --port 4322`.
-- Tipos TS: ejecuta `npm run type-check`.
-- Caché Astro: `npm run clean` y reinstala dependencias.
+## 🌐 Despliegue
+
+- **Hosting:** Plataformas estáticas (Vercel recomendado)
+- **Build:** `npm run build` genera `dist/`
+- **URL Producción:** https://sura-pedidos-web.vercel.app
+
+## 🔧 Solución de Problemas
+
+| Problema | Solución |
+|----------|----------|
+| **Puerto ocupado** | `astro dev --host --port 4322` |
+| **Errores TypeScript** | `npm run type-check` |
+| **Caché corrupto** | `npm run clean` + reinstalar dependencias |
+| **Imágenes no cargan** | Verificar `public/assets/img_catalogo/` |
+| **Sistema bloqueado** | Verificar horario (5:00 AM - 6:00 PM) |
+
+## 📞 Soporte
+
+- **Desarrollador:** CCPOVEDA
+- **Email:** ccpoveda.programador@gmail.com
+- **Documentación:** Ver carpeta `doc/` para más detalles
 
