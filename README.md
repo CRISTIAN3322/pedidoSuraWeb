@@ -10,7 +10,7 @@ Sistema web moderno para gestión de pedidos desarrollado con **Astro 5**, **Rea
 - **Gestión de Clientes**: Selección con información de cupo y cartera
 - **Carrito Inteligente**: Persistencia local y validaciones
 - **Sistema de Bloqueo**: Control de horarios de atención
-- **🔒 Bloqueo por Deudas**: Control automático de clientes con facturas vencidas > 40 días
+- **🔒 Bloqueo por Deudas**: Control automático de clientes con facturas vencidas > 20 días
 - **Integración WhatsApp**: Envío automático de pedidos
 
 ### 🎨 Mejoras de UI/UX
@@ -163,7 +163,7 @@ npm run astro      # Comando directo de Astro
 
 ### Sistema Automático de Control
 
-El sistema implementa un control automático que **bloquea** a clientes con facturas vencidas mayores a **40 días**:
+El sistema implementa un control automático que **bloquea** a clientes con facturas vencidas mayores a **20 días**:
 
 - 🚫 **Botón deshabilitado**: El botón "Continuar al Producto" se deshabilita automáticamente
 - 📝 **Texto dinámico**: Cambia a "Cliente bloqueado por factura"
@@ -174,7 +174,7 @@ El sistema implementa un control automático que **bloquea** a clientes con fact
 
 ```typescript
 // Verificación automática
-const tieneFacturasVencidas = (cliente, diasLimite = 40) => {
+const tieneFacturasVencidas = (cliente, diasLimite = 20) => {
   return cliente.cartera.some((factura) => Number(factura.dias) > diasLimite);
 };
 
@@ -186,8 +186,8 @@ const clienteBloqueado = tieneFacturasVencidas(clienteSeleccionado);
 
 | Facturas     | Días | Estado        | Acción           |
 | ------------ | ---- | ------------- | ---------------- |
-| Sin vencidas | ≤ 40 | ✅ Habilitado | Permitir pedido  |
-| Con vencidas | > 40 | 🚫 Bloqueado  | Bloquear sistema |
+| Sin vencidas | ≤ 20 | ✅ Habilitado | Permitir pedido  |
+| Con vencidas | > 20 | 🚫 Bloqueado  | Bloquear sistema |
 | Sin facturas | -    | ✅ Habilitado | Permitir pedido  |
 
 ### Proceso de Desbloqueo
@@ -279,6 +279,7 @@ Este proyecto está bajo la Licencia MIT.
 ## 📚 Documentación
 
 ### 📋 Historial de Versiones
+
 - **[CHANGELOG.md](CHANGELOG.md)**: Historial completo de cambios y nuevas funcionalidades
 
 ### 🚀 Guías Técnicas
