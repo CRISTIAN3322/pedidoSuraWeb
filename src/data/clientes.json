@@ -6924,5 +6924,13 @@
             "direccion": "CL 5 A 71 El Colegio ",
             "vendedor": "Ydiana Maria Sanchez Jimenez "
         }]
+    },
+    {
+        "id": 901405718,
+        "nombre": "MAKROCAMPO CON CALIDAD SAS ",
+        "sucursales": [{
+            "direccion": "CL 27 SUR 9 68 20 de Julio ",
+            "vendedor": "Maria Esther Caballero Benitez "
+        }]
     }
 ]
