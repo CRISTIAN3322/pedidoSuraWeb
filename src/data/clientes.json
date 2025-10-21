@@ -6932,5 +6932,13 @@
             "direccion": "CL 27 SUR 9 68 20 de Julio ",
             "vendedor": "Maria Esther Caballero Benitez "
         }]
+    },
+    {
+        "id": 19490387,
+        "nombre": "ALVARO SANCHEZ ROBAYO ",
+        "sucursales": [{
+            "direccion": "CL 45 SUR 78 A 22 Timiza ",
+            "vendedor": "Yeny Maribel Monroy Patiño "
+        }]
     }
 ]

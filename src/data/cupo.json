@@ -4155,5 +4155,11 @@
         "nombre": "MAKROCAMPO CON CALIDAD SAS",
         "cupo": 1000000,
         "Forma": "Contado"
+    },
+    {
+        "id": 19490387,
+        "nombre": "ALVARO SANCHEZ ROBAYO",
+        "cupo": 2000000,
+        "Forma": "Credito"
     }
 ]
