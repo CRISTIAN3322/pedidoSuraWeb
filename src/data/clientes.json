@@ -2719,6 +2719,10 @@
             {
                 "direccion": "CL 139 106 41 Suba Villamaria ",
                 "vendedor": "Consuelo Muñoz"
+            },
+            {
+                "direccion": "CL 15 4 52  Funza ",
+                "vendedor": "Consuelo Muñoz"
             }
         ]
     },
@@ -2804,6 +2808,10 @@
             },
             {
                 "direccion": "CL 26 SUR 89 D 39 Patio Bonito ",
+                "vendedor": "Consuelo Muñoz"
+            },
+            {
+                "direccion": "CL 48 8 11 Leon XIII Soacha ",
                 "vendedor": "Consuelo Muñoz"
             }
         ]
