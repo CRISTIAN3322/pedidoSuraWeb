@@ -6948,5 +6948,13 @@
             "direccion": "CL 45 SUR 78 A 22 Timiza ",
             "vendedor": "Yeny Maribel Monroy Patiño "
         }]
+    },
+    {
+        "id": 901796086,
+        "nombre": "SUPERTIENDAS EL REY SAS ",
+        "sucursales": [{
+            "direccion": "CR 7 10 47  El Rosal ",
+            "vendedor": "Helio Arturo Gamboa Rodriguez "
+        }]
     }
 ]

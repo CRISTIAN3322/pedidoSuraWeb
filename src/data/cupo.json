@@ -4161,5 +4161,11 @@
         "nombre": "ALVARO SANCHEZ ROBAYO",
         "cupo": 2000000,
         "Forma": "Credito"
+    },
+    {
+        "id": 901796086,
+        "nombre": "SUPERTIENDAS EL REY SAS",
+        "cupo": 3000000,
+        "Forma": "Credito"
     }
 ]
