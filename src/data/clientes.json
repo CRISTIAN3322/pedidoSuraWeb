@@ -6960,5 +6960,13 @@
             "direccion": "CR 7 10 47  El Rosal ",
             "vendedor": "Helio Arturo Gamboa Rodriguez "
         }]
+    },
+    {
+        "id": 901409672,
+        "nombre": "FRUTOS LA HUERTA SAS ",
+        "sucursales": [{
+            "direccion": "CR 12 D BIS 22 B 39 SUR San Jose ",
+            "vendedor": "Maria Esther Caballero Benitez "
+        }]
     }
 ]

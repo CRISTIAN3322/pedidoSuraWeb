@@ -4167,5 +4167,11 @@
         "nombre": "SUPERTIENDAS EL REY SAS",
         "cupo": 3000000,
         "Forma": "Credito"
+    },
+    {
+        "id": 901409672,
+        "nombre": "FRUTOS LA HUERTA SAS",
+        "cupo": 1000000,
+        "Forma": "Contado"
     }
 ]
