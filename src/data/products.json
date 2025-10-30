@@ -7265,8 +7265,8 @@
         "precio": 92227,
         "imagen": "../assets/img_catalogo/27702532312000.png",
         "barra": 27702532312000,
-        "invetario": 51,
+        "invetario": 0,
         "proveedor": "COFARMA",
-        "activo": true
+        "activo": false
     }
 ]
