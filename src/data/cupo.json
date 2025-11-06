@@ -4173,5 +4173,11 @@
         "nombre": "FRUTOS LA HUERTA SAS",
         "cupo": 1000000,
         "Forma": "Contado"
+    },
+    {
+        "id": 80137044,
+        "nombre": "JUAN GABRIEL FINO SALAMANCA",
+        "cupo": 5000000,
+        "Forma": "Credito"
     }
 ]
