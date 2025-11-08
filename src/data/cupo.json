@@ -4179,5 +4179,17 @@
         "nombre": "JUAN GABRIEL FINO SALAMANCA",
         "cupo": 5000000,
         "Forma": "Credito"
+    },
+    {
+        "id": 1057690212,
+        "nombre": "JORGE EDILBERTO JIMENEZ VERA",
+        "cupo": 1000000,
+        "Forma": "Contado"
+    },
+    {
+        "id": 1022375719,
+        "nombre": "JUAN DAVID OVALLE RAMIREZ",
+        "cupo": 1000000,
+        "Forma": "Contado"
     }
 ]

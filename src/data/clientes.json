@@ -6976,5 +6976,21 @@
             "direccion": "CL 57 B SUR 63 47  Villa del Rio  ",
             "vendedor": "Bucky Santana Vanegas  "
         }]
+    },
+    {
+        "id": 1057690212,
+        "nombre": "JORGE EDILBERTO JIMENEZ VERA ",
+        "sucursales": [{
+            "direccion": "CL 63 D BIS 116 A 08 Engativa ",
+            "vendedor": "David Yedid Ramirez Leguizamon  "
+        }]
+    },
+    {
+        "id": 1022375719,
+        "nombre": "JUAN DAVID OVALLE RAMIREZ ",
+        "sucursales": [{
+            "direccion": "CR 90 69 A 20 Engativa ",
+            "vendedor": "David Yedid Ramirez Leguizamon  "
+        }]
     }
 ]
