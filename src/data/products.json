@@ -5853,7 +5853,7 @@
     {
         "id": 533,
         "codigo": "JPB0057",
-        "nombre": "MAX FACTOR LASH MAKER NEGRA PESTAÑINA X 2 CJ X 48",
+        "nombre": "MAX FACTOR LASH MAKER NEGRA PESTAÑINA MINI PESTAÑINA CJ X 48",
         "precio": 24797,
         "imagen": "../assets/img_catalogo/7702044082969.png",
         "barra": 7702044082969,
@@ -6090,7 +6090,7 @@
         "barra": 7702044295239,
         "invetario": 159,
         "proveedor": "PREBEL",
-        "activo": true
+        "activo": false
     },
     {
         "id": 555,
