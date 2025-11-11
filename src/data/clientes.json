@@ -2513,14 +2513,6 @@
         }]
     },
     {
-        "id": 37943368,
-        "nombre": "LUZ MERCEDES RUIZ FRANCO",
-        "sucursales": [{
-            "direccion": "CR 102A 131 16 Aures ",
-            "vendedor": "Consuelo Muñoz"
-        }]
-    },
-    {
         "id": 39532339,
         "nombre": "ELIZABETH CASALLAS RICAURTE",
         "sucursales": [{
@@ -6991,6 +6983,14 @@
         "sucursales": [{
             "direccion": "CR 90 69 A 20 Engativa ",
             "vendedor": "David Yedid Ramirez Leguizamon  "
+        }]
+    },
+    {
+        "id": 901991199,
+        "nombre": "BERAKHAH SUPERMECADO SAS ",
+        "sucursales": [{
+            "direccion": "CCR 102 A 131 16 Suba Aures ",
+            "vendedor": "Consuelo Muñoz "
         }]
     }
 ]

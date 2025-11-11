@@ -839,12 +839,6 @@
         "Forma": "Contado"
     },
     {
-        "id": 37943368,
-        "nombre": "LUZ MERCEDES RUIZ FRANCO",
-        "cupo": 1500000,
-        "Forma": "Credito"
-    },
-    {
         "id": 38246976,
         "nombre": "GLADYS ARDILA POVEDA",
         "cupo": 6000000,
@@ -4191,5 +4185,11 @@
         "nombre": "JUAN DAVID OVALLE RAMIREZ",
         "cupo": 1000000,
         "Forma": "Contado"
+    },
+    {
+        "id": 901991199,
+        "nombre": "BERAKHAH SUPERMECADO SAS",
+        "cupo": 2000000,
+        "Forma": "Credito"
     }
 ]
