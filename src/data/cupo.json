@@ -4191,5 +4191,11 @@
         "nombre": "BERAKHAH SUPERMECADO SAS",
         "cupo": 2000000,
         "Forma": "Credito"
+    },
+    {
+        "id": 1070004699,
+        "nombre": "SANDRA JINA ISABEL RUGE TRIVIÑO",
+        "cupo": 1000000,
+        "Forma": "Contado"
     }
 ]

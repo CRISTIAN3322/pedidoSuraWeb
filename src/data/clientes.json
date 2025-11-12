@@ -6989,8 +6989,16 @@
         "id": 901991199,
         "nombre": "BERAKHAH SUPERMECADO SAS ",
         "sucursales": [{
-            "direccion": "CCR 102 A 131 16 Suba Aures ",
+            "direccion": "CR 102 A 131 16 Suba Aures ",
             "vendedor": "Consuelo Muñoz "
+        }]
+    },
+    {
+        "id": 1070004699,
+        "nombre": "SANDRA JINA ISABEL RUGE TRIVIÑO ",
+        "sucursales": [{
+            "direccion": "VDA CENTRO SANTA BARBARA  Tabio ",
+            "vendedor": "Ana Sofia Roldan Rique "
         }]
     }
 ]
