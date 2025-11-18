@@ -1206,7 +1206,7 @@
         "barra": 7501006559026,
         "invetario": 1,
         "proveedor": "CONGRUPO",
-        "activo": true
+        "activo": false
     },
     {
         "id": 111,
@@ -1217,7 +1217,7 @@
         "barra": 7501006559002,
         "invetario": 0,
         "proveedor": "CONGRUPO",
-        "activo": true
+        "activo": false
     },
     {
         "id": 112,
@@ -1250,7 +1250,7 @@
         "barra": 7501006559019,
         "invetario": 1,
         "proveedor": "CONGRUPO",
-        "activo": true
+        "activo": false
     },
     {
         "id": 115,
@@ -1261,7 +1261,7 @@
         "barra": 722776000175,
         "invetario": 149,
         "proveedor": "CONGRUPO",
-        "activo": true
+        "activo": false
     },
     {
         "id": 116,
@@ -1272,7 +1272,7 @@
         "barra": 722776020012,
         "invetario": 0,
         "proveedor": "CONGRUPO",
-        "activo": true
+        "activo": false
     },
     {
         "id": 117,
@@ -1283,7 +1283,7 @@
         "barra": 7591039505190,
         "invetario": 13,
         "proveedor": "CONGRUPO",
-        "activo": true
+        "activo": false
     },
     {
         "id": 118,
@@ -1294,7 +1294,7 @@
         "barra": 7591039505992,
         "invetario": 0,
         "proveedor": "CONGRUPO",
-        "activo": true
+        "activo": false
     },
     {
         "id": 119,
@@ -1305,7 +1305,7 @@
         "barra": 7707200710342,
         "invetario": 349,
         "proveedor": "CONGRUPO",
-        "activo": true
+        "activo": false
     },
     {
         "id": 120,
@@ -1316,7 +1316,7 @@
         "barra": 7707200710359,
         "invetario": 362,
         "proveedor": "CONGRUPO",
-        "activo": true
+        "activo": false
     },
     {
         "id": 121,
@@ -1327,7 +1327,7 @@
         "barra": 7702807414112,
         "invetario": 1,
         "proveedor": "CONGRUPO",
-        "activo": true
+        "activo": false
     },
     {
         "id": 122,
@@ -1338,7 +1338,7 @@
         "barra": 7702807395596,
         "invetario": 0,
         "proveedor": "CONGRUPO",
-        "activo": true
+        "activo": false
     },
     {
         "id": 123,
