@@ -7000,5 +7000,22 @@
             "direccion": "VDA CENTRO SANTA BARBARA  Tabio ",
             "vendedor": "Ana Sofia Roldan Rique "
         }]
+    },
+    {
+        "id": 901553862,
+        "nombre": "MUNDO TERNURA PA SAS ",
+        "sucursales": [{
+                "direccion": "CL 135 B 126 A 07 Suba La Gaitana ",
+                "vendedor": "Consuelo Muñoz "
+            },
+            {
+                "direccion": "DG 129 B BIS 93 A 05 La Palma ",
+                "vendedor": "Consuelo Muñoz "
+            },
+            {
+                "direccion": "CL 132 91 12 La Estanzuela ",
+                "vendedor": "Consuelo Muñoz "
+            }
+        ]
     }
 ]
