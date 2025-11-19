@@ -4197,5 +4197,11 @@
         "nombre": "MUNDO TERNURA PA SAS",
         "cupo": 3000000,
         "Forma": "Credito"
+    },
+    {
+        "id": 901995539,
+        "nombre": "SUPERMERCADO MERKAHORRO A N SAS",
+        "cupo": 1000000,
+        "Forma": "Contado"
     }
 ]

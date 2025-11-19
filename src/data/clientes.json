@@ -7017,5 +7017,13 @@
                 "vendedor": "Consuelo Muñoz "
             }
         ]
+    },
+    {
+        "id": 901995539,
+        "nombre": "SUPERMERCADO MERKAHORRO A N SAS ",
+        "sucursales": [{
+            "direccion": "CL 10 12 09  Mosquera ",
+            "vendedor": "Helio Arturo Gamboa Rodriguez "
+        }]
     }
 ]
