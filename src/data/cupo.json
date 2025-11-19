@@ -4129,8 +4129,8 @@
     {
         "id": 25127700,
         "nombre": "MARIA SOCORRO GONZALEZ LOPEZ",
-        "cupo": 1000000,
-        "Forma": "Contado"
+        "cupo": 4000000,
+        "Forma": "Credito"
     },
     {
         "id": 35377187,
@@ -4203,5 +4203,11 @@
         "nombre": "SUPERMERCADO MERKAHORRO A N SAS",
         "cupo": 1000000,
         "Forma": "Contado"
+    },
+    {
+        "id": 52965020,
+        "nombre": "LEIDY VIVIANA MONDRAGON ROJAS",
+        "cupo": 6000000,
+        "Forma": "Credito"
     }
 ]

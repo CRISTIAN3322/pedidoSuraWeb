@@ -7025,5 +7025,14 @@
             "direccion": "CL 10 12 09  Mosquera ",
             "vendedor": "Helio Arturo Gamboa Rodriguez "
         }]
+    },
+    {
+        "id": 52965020,
+        "nombre": "LEIDY VIVIANA MONDRAGON ROJAS ",
+        "sucursales": [{
+            "direccion": "CL 91 SUR 7 B 20 Chuniza ",
+            "vendedor": "Claudia Yojana Corredor Gonzalez "
+        }]
     }
+
 ]
