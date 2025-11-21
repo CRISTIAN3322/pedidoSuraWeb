@@ -3845,14 +3845,9 @@
         "id": 30389199,
         "nombre": "ANGELA PATRICIA BARRIOS CASTIBLANCO",
         "sucursales": [{
-                "direccion": "CL 56 SUR 81 J 19 Chicala ",
-                "vendedor": "Francy Janeth Huertas Martinez"
-            },
-            {
-                "direccion": "CL 56 SUR 81 J 19 Villa Sonia ",
-                "vendedor": "Francy Janeth Huertas Martinez"
-            }
-        ]
+            "direccion": "CL 56 SUR 81 J 19 Villa Sonia ",
+            "vendedor": "Francy Janeth Huertas Martinez"
+        }]
     },
     {
         "id": 39727085,
