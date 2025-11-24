@@ -4209,5 +4209,11 @@
         "nombre": "LEIDY VIVIANA MONDRAGON ROJAS",
         "cupo": 6000000,
         "Forma": "Credito"
+    },
+    {
+        "id": 1010142660,
+        "nombre": "MAICOL YESITH GONZALEZ VELANDIA",
+        "cupo": 1000000,
+        "Forma": "Contado"
     }
 ]

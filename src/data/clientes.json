@@ -5679,7 +5679,32 @@
             {
                 "direccion": "CC EL PEÑON INN PLAZA LOCAL 7 Girardot Girardot",
                 "vendedor": "Ydiana Maria Sanchez Jimenez"
+            },
+            {
+                "direccion": "PLAZA KENNEDY 12 LC  Kennedy Girardot ",
+                "vendedor": "Ydiana Maria Sanchez Jimenez"
+            },
+            {
+                "direccion": "LC 11-12 PLAZA SATELITE KENNEDY ED PLAZA SATELITE  Girardot ",
+                "vendedor": "Ydiana Maria Sanchez Jimenez"
+            },
+            {
+                "direccion": "CR 10 26 40  Girardot ",
+                "vendedor": "Ydiana Maria Sanchez Jimenez"
+            },
+            {
+                "direccion": "CR 9 10 36 PLAZA DE MERCADO  Girardot ",
+                "vendedor": "Ydiana Maria Sanchez Jimenez"
+            },
+            {
+                "direccion": "CR 24 CL 9 33 LC ESTACION DE SERVICIO COLINA TERPEL  Girardot ",
+                "vendedor": "Ydiana Maria Sanchez Jimenez"
+            },
+            {
+                "direccion": "CR 7 7 A 128  Flandes Tolima ",
+                "vendedor": "Ydiana Maria Sanchez Jimenez"
             }
+
         ]
     },
     {
@@ -7027,6 +7052,14 @@
         "sucursales": [{
             "direccion": "CL 91 SUR 7 B 20 Chuniza ",
             "vendedor": "Claudia Yojana Corredor Gonzalez "
+        }]
+    },
+    {
+        "id": 1010142660,
+        "nombre": "MAICOL YESITH GONZALEZ VELANDIA ",
+        "sucursales": [{
+            "direccion": "CL 1 1A 50  Sopó ",
+            "vendedor": "Ana Sofia Roldan Rique "
         }]
     }
 
