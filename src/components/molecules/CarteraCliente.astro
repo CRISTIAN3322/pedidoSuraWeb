@@ -15,6 +15,7 @@ const { cartera = [], totalCartera = 0, cupoDisponible = 0, sinCupo = false, mos
         <tr>
           <th>Factura</th>
           <th>Fecha</th>
+          <th>Vendedor</th>
           <th>Valor</th>
           <th>Días</th>
         </tr>
@@ -28,6 +29,7 @@ const { cartera = [], totalCartera = 0, cupoDisponible = 0, sinCupo = false, mos
           }>
             <td>{factura.fac}</td>
             <td>{factura.fecha}</td>
+            <td>{factura.vendedor}</td>
             <td>${Number(factura.valor.replace(/\./g, '').replace(',', '.')).toLocaleString('es-CO')}</td>
             <td>{factura.dias}</td>
           </tr>

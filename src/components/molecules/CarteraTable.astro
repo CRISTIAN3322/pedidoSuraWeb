@@ -50,6 +50,7 @@ const formatCurrency = (valor: any) => {
           <thead>
             <tr>
               <th>Factura</th>
+              <th>Vendedor</th>
               <th>Fecha</th>
               <th>Valor</th>
               <th>Días</th>
@@ -61,6 +62,7 @@ const formatCurrency = (valor: any) => {
                 <tr>
                   <td>{factura.fac || "N/A"}</td>
                   <td>{factura.fecha || "N/A"}</td>
+                  <td>{factura.vendedor||"N/A"} </td>
                   <td>
                     ${formatCurrency(factura.valor).toLocaleString("es-CO")}
                   </td>
