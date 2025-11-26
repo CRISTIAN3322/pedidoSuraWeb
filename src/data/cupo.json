@@ -4221,5 +4221,11 @@
         "nombre": "JUAN DAVID CALDERON SALINAS",
         "cupo": 1000000,
         "Forma": "Contado"
+    },
+    {
+        "id": 80088757,
+        "nombre": "AISNARDO GONZALEZ SUAREZ",
+        "cupo": 1000000,
+        "Forma": "Contado"
     }
 ]

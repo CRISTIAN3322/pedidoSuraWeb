@@ -3539,9 +3539,14 @@
         "id": 900035973,
         "nombre": "FRUVER DEL CAMPO ALIMENTOS FRESCOS S.A.S",
         "sucursales": [{
-            "direccion": "CL 119 12 55 Santa Barbara ",
-            "vendedor": "Diana Marcela Bermudez Serrano"
-        }]
+                "direccion": "CL 119 12 55 Santa Barbara ",
+                "vendedor": "Diana Marcela Bermudez Serrano"
+            },
+            {
+                "direccion": "CL 63 7 A 13  Nueva Granada ",
+                "vendedor": "Diana Marcela Bermudez Serrano"
+            }
+        ]
     },
     {
         "id": 900204753,
@@ -7068,6 +7073,14 @@
         "sucursales": [{
             "direccion": "CR 117 A 69 A 21 Villa Teresita ",
             "vendedor": "David Yedid Ramirez Leguizamon "
+        }]
+    },
+    {
+        "id": 80088757,
+        "nombre": "AISNARDO GONZALEZ SUAREZ",
+        "sucursales": [{
+            "direccion": "CL 176 49 A 22 Nueva Zelandia ",
+            "vendedor": "Diana Marcela Bermudez Serrano "
         }]
     }
 
