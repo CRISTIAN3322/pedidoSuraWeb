@@ -4215,5 +4215,11 @@
         "nombre": "MAICOL YESITH GONZALEZ VELANDIA",
         "cupo": 1000000,
         "Forma": "Contado"
+    },
+    {
+        "id": 1016018804,
+        "nombre": "JUAN DAVID CALDERON SALINAS",
+        "cupo": 1000000,
+        "Forma": "Contado"
     }
 ]

@@ -7061,6 +7061,14 @@
             "direccion": "CL 1 1A 50  Sopó ",
             "vendedor": "Ana Sofia Roldan Rique "
         }]
+    },
+    {
+        "id": 1016018804,
+        "nombre": "JUAN DAVID CALDERON SALINAS",
+        "sucursales": [{
+            "direccion": "CR 117 A 69 A 21 Villa Teresita ",
+            "vendedor": "David Yedid Ramirez Leguizamon "
+        }]
     }
 
 ]
