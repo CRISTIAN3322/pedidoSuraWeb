@@ -6905,11 +6905,11 @@
         "id": 901566558,
         "nombre": "GRUPO SUPERDIA SAS",
         "sucursales": [{
-                "direccion": "CR 27 47 31  Zipaquirá ",
+                "direccion": "Cl 8 32 24  Zipaquirá ",
                 "vendedor": "Berenice Herminda Muñoz Mondragon "
             },
             {
-                "direccion": "CR 16 04 07  Zipaquirá ",
+                "direccion": "CR 16 07 02  Zipaquirá ",
                 "vendedor": "Berenice Herminda Muñoz Mondragon "
             },
             {
@@ -6918,6 +6918,18 @@
             },
             {
                 "direccion": "DG 52 C BIS SUR 29 38 El Carmen ",
+                "vendedor": "Berenice Herminda Muñoz Mondragon "
+            },
+            {
+                "direccion": "CL 24 26 70 Samper Mendoza  ",
+                "vendedor": "Berenice Herminda Muñoz Mondragon "
+            },
+            {
+                "direccion": "CL 29 SUR 4 60 ESTE  Santa Ines ",
+                "vendedor": "Berenice Herminda Muñoz Mondragon "
+            },
+            {
+                "direccion": "CL 64 SUR 37 24 Candelaria ",
                 "vendedor": "Berenice Herminda Muñoz Mondragon "
             }
         ]
@@ -7081,6 +7093,14 @@
         "sucursales": [{
             "direccion": "CL 176 49 A 22 Nueva Zelandia ",
             "vendedor": "Diana Marcela Bermudez Serrano "
+        }]
+    },
+    {
+        "id": 11384738,
+        "nombre": "LEONARDO RODRIGUEZ DIAZ",
+        "sucursales": [{
+            "direccion": "CL 7 A 9 99  Fusagasugá ",
+            "vendedor": "Ydiana Maria Sanchez Jimenez "
         }]
     }
 
