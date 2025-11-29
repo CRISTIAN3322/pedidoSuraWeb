@@ -6905,11 +6905,15 @@
         "id": 901566558,
         "nombre": "GRUPO SUPERDIA SAS",
         "sucursales": [{
-                "direccion": "Cl 8 32 24  Zipaquirá ",
+                "direccion": "CL 35 SUR 29 35 Bravo Paez ",
                 "vendedor": "Berenice Herminda Muñoz Mondragon "
             },
             {
-                "direccion": "CR 16 07 02  Zipaquirá ",
+                "direccion": "CL 64 SUR 37 24 Candelaria ",
+                "vendedor": "Berenice Herminda Muñoz Mondragon "
+            },
+            {
+                "direccion": "CL 47 SUR 27 09 Claret ",
                 "vendedor": "Berenice Herminda Muñoz Mondragon "
             },
             {
@@ -6921,7 +6925,7 @@
                 "vendedor": "Berenice Herminda Muñoz Mondragon "
             },
             {
-                "direccion": "CL 24 26 70 Samper Mendoza  ",
+                "direccion": "CL 24 26 70 Samper Mendoza ",
                 "vendedor": "Berenice Herminda Muñoz Mondragon "
             },
             {
@@ -6929,9 +6933,14 @@
                 "vendedor": "Berenice Herminda Muñoz Mondragon "
             },
             {
-                "direccion": "CL 64 SUR 37 24 Candelaria ",
+                "direccion": "CR 16 7 02   Zipaquirá ",
+                "vendedor": "Berenice Herminda Muñoz Mondragon "
+            },
+            {
+                "direccion": "CL 8 32 24 ZONA INDUSTRIAL  Zipaquirá ",
                 "vendedor": "Berenice Herminda Muñoz Mondragon "
             }
+
         ]
     },
     {
