@@ -4227,5 +4227,11 @@
         "nombre": "AISNARDO GONZALEZ SUAREZ",
         "cupo": 1000000,
         "Forma": "Contado"
+    },
+    {
+        "id": 1074131556,
+        "nombre": "HORACIO PARRADO RICO",
+        "cupo": 1000000,
+        "Forma": "Contado"
     }
 ]
