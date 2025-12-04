@@ -2605,8 +2605,8 @@
     {
         "id": 901050418,
         "nombre": "INVERSIONES GACHA SAS",
-        "cupo": 5000000,
-        "Forma": "Credito"
+        "cupo": 1000000,
+        "Forma": "Contado"
     },
     {
         "id": 901059741,
