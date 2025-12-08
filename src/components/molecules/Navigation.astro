@@ -8,6 +8,14 @@
       <a href="/" class="brand-link"> Sura Web</a>
     </div>
 
+    <!-- Botón hamburguesa para mobile -->
+    <button class="hamburger" id="hamburgerButton" aria-label="Menú">
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+    </button>
+
+    <!-- Menú desktop -->
     <div class="nav-menu">
       <div class="nav-user" id="navUser">
         <span class="nav-user__icon">👤</span>
@@ -20,6 +28,23 @@
         <span class="cart-count" id="cart-count">0</span>
       </a>
       <button class="nav-link nav-link--button" id="logoutButton" title="Cerrar Sesión">
+        🚪 Salir
+      </button>
+    </div>
+
+    <!-- Menú mobile (desplegable) -->
+    <div class="nav-menu-mobile" id="navMenuMobile">
+      <div class="nav-user-mobile" id="navUserMobile">
+        <span class="nav-user__icon">👤</span>
+        <span class="nav-user__name" id="vendedorNameMobile">Cargando...</span>
+      </div>
+      <a href="/" class="nav-link-mobile"> 👥 Clientes </a>
+      <a href="/producto" class="nav-link-mobile"> 📦 Productos </a>
+      <a href="/carrito" class="nav-link-mobile cart-link-mobile">
+        🛒 Carrito
+        <span class="cart-count-mobile" id="cart-count-mobile">0</span>
+      </a>
+      <button class="nav-link-mobile nav-link-mobile--button" id="logoutButtonMobile" title="Cerrar Sesión">
         🚪 Salir
       </button>
     </div>
@@ -147,66 +172,160 @@
     text-overflow: ellipsis;
   }
 
+  /* Botón hamburguesa - oculto por defecto */
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 1001;
+  }
+
+  .hamburger-line {
+    width: 100%;
+    height: 3px;
+    background: #ffffff;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+  }
+
+  .hamburger.active .hamburger-line:nth-child(1) {
+    transform: rotate(45deg) translate(8px, 8px);
+  }
+
+  .hamburger.active .hamburger-line:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .hamburger-line:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -7px);
+  }
+
+  /* Menú mobile - oculto por defecto */
+  .nav-menu-mobile {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: linear-gradient(
+      135deg,
+      rgba(0, 168, 120, 0.98) 0%,
+      rgba(0, 168, 120, 0.95) 100%
+    );
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 20px rgba(0, 168, 120, 0.3);
+    padding: 1rem;
+    gap: 0.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    z-index: 999;
+  }
+
+  .nav-menu-mobile.active {
+    display: flex;
+  }
+
+  .nav-link-mobile {
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    transition: var(--transition);
+    text-align: left;
+    width: 100%;
+  }
+
+  .nav-link-mobile:hover {
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5px);
+  }
+
+  .nav-link-mobile--button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 500;
+    text-align: left;
+  }
+
+  .nav-link-mobile--button:hover {
+    background: rgba(255, 255, 255, 0.15);
+  }
+
+  .nav-user-mobile {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: rgba(255, 255, 255, 0.95);
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    font-weight: 500;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .cart-link-mobile {
+    position: relative;
+  }
+
+  .cart-count-mobile {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    background: #fe5e41ff;
+    color: #ffffff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(254, 94, 65, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+  }
+
   @media (max-width: 768px) {
     .nav-container {
-      padding: 0 0.5rem;
-      height: 50px;
+      padding: 0 1rem;
+      height: 60px;
+      position: relative;
     }
 
+    /* Ocultar menú desktop en mobile */
     .nav-menu {
-      gap: 0.75rem;
+      display: none;
     }
 
-    .nav-link {
-      padding: 0.5rem 0.75rem;
-      font-size: 0.875rem;
-      border-radius: 6px;
+    /* Mostrar botón hamburguesa */
+    .hamburger {
+      display: flex;
     }
 
     .brand-link {
-      font-size: 0.5rem;
-    }
-
-    .cart-count {
-      width: 18px;
-      height: 18px;
-      font-size: 0.7rem;
+      font-size: 1.25rem;
     }
   }
 
   @media (max-width: 480px) {
     .nav-container {
-      height: 45px;
-      padding: 0 0.25rem;
-    }
-
-    .nav-menu {
-      gap: 0.5rem;
-    }
-
-    .nav-link {
-      padding: 0.4rem 0.75rem;
-      font-size: 0.75rem;
-      border-radius: 4px;
-    }
-
-    .nav-user {
-      padding: 0.3rem 0.5rem;
-      font-size: 0.7rem;
-    }
-
-    .nav-user__name {
-      max-width: 80px;
+      padding: 0 0.75rem;
     }
 
     .brand-link {
-      display: none;
-    }
-
-    .cart-count {
-      width: 16px;
-      height: 16px;
-      font-size: 0.65rem;
+      font-size: 1rem;
     }
   }
 </style>
@@ -222,26 +341,70 @@
   function updateCartCount() {
     const cartItems = JSON.parse(localStorage.getItem("cartItems") || "[]");
     const totalItems = cartItems.reduce((sum: number, item: any) => sum + item.cantidad, 0);
+    
+    // Actualizar contador desktop
     const cartCountElement = document.getElementById("cart-count");
     if (cartCountElement) {
       cartCountElement.textContent = String(totalItems);
       cartCountElement.style.display = totalItems > 0 ? "flex" : "none";
     }
+
+    // Actualizar contador mobile
+    const cartCountMobileElement = document.getElementById("cart-count-mobile");
+    if (cartCountMobileElement) {
+      cartCountMobileElement.textContent = String(totalItems);
+      cartCountMobileElement.style.display = totalItems > 0 ? "flex" : "none";
+    }
   }
 
-  // Manejar logout
+  // Toggle menú hamburguesa
+  function toggleMobileMenu() {
+    const hamburgerButton = document.getElementById("hamburgerButton");
+    const navMenuMobile = document.getElementById("navMenuMobile");
+    
+    if (hamburgerButton && navMenuMobile) {
+      hamburgerButton.classList.toggle("active");
+      navMenuMobile.classList.toggle("active");
+    }
+  }
+
+  // Cerrar menú mobile al hacer clic en un enlace
+  function closeMobileMenu() {
+    const hamburgerButton = document.getElementById("hamburgerButton");
+    const navMenuMobile = document.getElementById("navMenuMobile");
+    
+    if (hamburgerButton && navMenuMobile) {
+      hamburgerButton.classList.remove("active");
+      navMenuMobile.classList.remove("active");
+    }
+  }
+
+  // Manejar logout (desktop y mobile)
   const logoutButton = document.getElementById("logoutButton");
+  const logoutButtonMobile = document.getElementById("logoutButtonMobile");
+
+  function handleLogout() {
+    if (confirm("¿Estás seguro de que deseas cerrar sesión?")) {
+      logout();
+    }
+  }
+
   if (logoutButton) {
-    logoutButton.addEventListener("click", () => {
-      if (confirm("¿Estás seguro de que deseas cerrar sesión?")) {
-        logout();
-      }
+    logoutButton.addEventListener("click", handleLogout);
+  }
+
+  if (logoutButtonMobile) {
+    logoutButtonMobile.addEventListener("click", () => {
+      handleLogout();
+      closeMobileMenu();
     });
   }
 
   // Mostrar nombre del vendedor
   function updateVendedorName() {
     const session = sessionStorage.getItem('vendedorSession');
+    
+    // Actualizar nombre desktop
     const vendedorNameElement = document.getElementById("vendedorName");
     if (vendedorNameElement) {
       if (session) {
@@ -255,12 +418,52 @@
         vendedorNameElement.textContent = 'No autenticado';
       }
     }
+
+    // Actualizar nombre mobile
+    const vendedorNameMobileElement = document.getElementById("vendedorNameMobile");
+    if (vendedorNameMobileElement) {
+      if (session) {
+        try {
+          const sessionData = JSON.parse(session);
+          vendedorNameMobileElement.textContent = sessionData.nombre || 'Usuario';
+        } catch {
+          vendedorNameMobileElement.textContent = 'Usuario';
+        }
+      } else {
+        vendedorNameMobileElement.textContent = 'No autenticado';
+      }
+    }
   }
 
   // Actualizar contador al cargar la página
   document.addEventListener("DOMContentLoaded", () => {
     updateCartCount();
     updateVendedorName();
+
+    // Configurar botón hamburguesa
+    const hamburgerButton = document.getElementById("hamburgerButton");
+    if (hamburgerButton) {
+      hamburgerButton.addEventListener("click", toggleMobileMenu);
+    }
+
+    // Cerrar menú al hacer clic en enlaces mobile
+    const mobileLinks = document.querySelectorAll(".nav-link-mobile");
+    mobileLinks.forEach(link => {
+      link.addEventListener("click", closeMobileMenu);
+    });
+
+    // Cerrar menú al hacer clic fuera de él
+    document.addEventListener("click", (e) => {
+      const navMenuMobile = document.getElementById("navMenuMobile");
+      const hamburgerButton = document.getElementById("hamburgerButton");
+      
+      if (navMenuMobile && hamburgerButton && 
+          !navMenuMobile.contains(e.target as Node) && 
+          !hamburgerButton.contains(e.target as Node) &&
+          navMenuMobile.classList.contains("active")) {
+        closeMobileMenu();
+      }
+    });
   });
 
   // Escuchar cambios en el localStorage
