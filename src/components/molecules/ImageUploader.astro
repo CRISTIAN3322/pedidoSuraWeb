@@ -1,0 +1,321 @@
+---
+// Componente para cargar imágenes de productos con soporte para múltiples formatos
+interface Props {
+    productId?: string | number;
+}
+
+const { productId } = Astro.props;
+---
+
+<div class="image-uploader-container">
+    <label for="imageInput" class="upload-label">
+        <span class="upload-icon">📷</span>
+        <span class="upload-text">Cargar Imagen</span>
+    </label>
+    <input 
+        type="file" 
+        id="imageInput" 
+        accept="image/jpeg,image/jpg,image/png,image/gif,image/webp,image/svg+xml,image/bmp,image/x-icon"
+        class="image-input"
+    />
+    <div class="image-preview-container" id="imagePreviewContainer" style="display: none;">
+        <img id="imagePreview" class="image-preview" alt="Vista previa" />
+        <button type="button" class="remove-image-btn" id="removeImageBtn">✕</button>
+    </div>
+    <p class="format-info">Formatos soportados: JPG, JPEG, PNG, GIF, WEBP, SVG, BMP, ICO</p>
+    <p class="error-message" id="errorMessage" style="display: none;"></p>
+</div>
+
+<script>
+    import { saveProductImage, isValidImageFile, fileToBase64 } from '../../utils/imageUtils.js';
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const container = document.querySelector('.image-uploader-container[data-product-id]');
+        if (!container) return;
+        
+        const productId = container.getAttribute('data-product-id');
+        const inputId = `imageInput-${productId || 'default'}`;
+        const imageInput = document.getElementById(inputId) as HTMLInputElement;
+        const imagePreview = document.getElementById('imagePreview') as HTMLImageElement;
+        const imagePreviewContainer = document.getElementById('imagePreviewContainer') as HTMLElement;
+        const removeImageBtn = document.getElementById('removeImageBtn') as HTMLButtonElement;
+        const errorMessage = document.getElementById('errorMessage') as HTMLElement;
+
+        if (!imageInput) return;
+
+        // Función para validar el archivo
+        function validateFile(file: File) {
+            return isValidImageFile(file);
+        }
+
+        // Función para mostrar error
+        function showError(message: string) {
+            if (errorMessage) {
+                errorMessage.textContent = message;
+                errorMessage.style.display = 'block';
+                setTimeout(() => {
+                    errorMessage.style.display = 'none';
+                }, 5000);
+            }
+        }
+
+        // Función para convertir a base64
+        function fileToBase64(file: File): Promise<string> {
+            return new Promise((resolve, reject) => {
+                const reader = new FileReader();
+                reader.onload = () => {
+                    if (typeof reader.result === 'string') {
+                        resolve(reader.result);
+                    } else {
+                        reject(new Error('Error al leer el archivo'));
+                    }
+                };
+                reader.onerror = reject;
+                reader.readAsDataURL(file);
+            });
+        }
+
+        // Manejar cambio de archivo
+        imageInput.addEventListener('change', async (e) => {
+            const target = e.target as HTMLInputElement;
+            const file = target.files?.[0];
+            if (!file) return;
+
+            // Validar archivo
+            const validation = validateFile(file);
+            if (!validation.valid) {
+                showError(validation.error || 'Error al validar el archivo');
+                imageInput.value = '';
+                return;
+            }
+
+            try {
+                // Convertir a base64
+                const base64 = await fileToBase64(file);
+                
+                // Mostrar vista previa
+                if (imagePreview) {
+                    imagePreview.src = base64;
+                }
+                if (imagePreviewContainer) {
+                    imagePreviewContainer.style.display = 'block';
+                }
+
+                // Preparar datos de la imagen
+                const imageData = {
+                    base64: base64,
+                    fileName: file.name,
+                    fileType: file.type,
+                    fileSize: file.size,
+                    uploadedAt: new Date().toISOString()
+                };
+
+                // Guardar imagen si hay productId
+                if (productId) {
+                    try {
+                        saveProductImage(productId, imageData);
+                    } catch (error) {
+                        console.error('Error al guardar imagen:', error);
+                        showError('Error al guardar la imagen. Intente nuevamente.');
+                        return;
+                    }
+                }
+
+                // Emitir evento personalizado con la imagen en base64
+                const event = new CustomEvent('imageUploaded', {
+                    detail: {
+                        ...imageData,
+                        productId: productId
+                    }
+                });
+                document.dispatchEvent(event);
+
+                // Ocultar error si existe
+                if (errorMessage) {
+                    errorMessage.style.display = 'none';
+                }
+            } catch (error) {
+                showError('Error al procesar la imagen. Intente nuevamente.');
+                console.error('Error al procesar imagen:', error);
+            }
+        });
+
+        // Botón para eliminar imagen
+        if (removeImageBtn) {
+            removeImageBtn.addEventListener('click', async () => {
+                if (imageInput) {
+                    imageInput.value = '';
+                }
+                if (imagePreview) {
+                    imagePreview.src = '';
+                }
+                if (imagePreviewContainer) {
+                    imagePreviewContainer.style.display = 'none';
+                }
+                
+                // Eliminar imagen guardada si hay productId
+                if (productId) {
+                    import('../../utils/imageUtils.js').then(({ removeProductImage }) => {
+                        try {
+                            removeProductImage(productId);
+                        } catch (error) {
+                            console.error('Error al eliminar imagen:', error);
+                        }
+                    }).catch((error) => {
+                        console.error('Error al importar utilidades:', error);
+                    });
+                }
+                
+                // Emitir evento de eliminación
+                const event = new CustomEvent('imageRemoved', {
+                    detail: { productId: productId }
+                });
+                document.dispatchEvent(event);
+            });
+        }
+
+        // Cargar imagen existente si hay productId
+        if (productId) {
+            import('../../utils/imageUtils.js').then(({ getProductImage }) => {
+                try {
+                    const existingImage = getProductImage(productId);
+                    if (existingImage && existingImage.base64) {
+                        if (imagePreview) {
+                            imagePreview.src = existingImage.base64;
+                        }
+                        if (imagePreviewContainer) {
+                            imagePreviewContainer.style.display = 'block';
+                        }
+                    }
+                } catch (error) {
+                    console.error('Error al cargar imagen existente:', error);
+                }
+            }).catch((error) => {
+                console.error('Error al importar utilidades:', error);
+            });
+        }
+    });
+</script>
+
+<style>
+    .image-uploader-container {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+        padding: 1rem;
+        border: 2px dashed var(--gray-300, #cbd5e0);
+        border-radius: var(--border-radius, 8px);
+        background: var(--white, #ffffff);
+        transition: border-color 0.3s ease, background-color 0.3s ease;
+    }
+
+    .image-uploader-container:hover {
+        border-color: var(--primary-color, #2c5282);
+        background: var(--light-bg, #f7fafc);
+    }
+
+    .upload-label {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        padding: 1rem;
+        background: var(--primary-color, #2c5282);
+        color: white;
+        border-radius: var(--border-radius, 8px);
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        font-weight: 600;
+    }
+
+    .upload-label:hover {
+        background: var(--primary-color-dark, #1a365d);
+    }
+
+    .upload-icon {
+        font-size: 1.5rem;
+    }
+
+    .image-input {
+        display: none;
+    }
+
+    .image-preview-container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        background: #f7fafc;
+        border-radius: var(--border-radius, 8px);
+        min-height: 200px;
+    }
+
+    .image-preview {
+        max-width: 100%;
+        max-height: 300px;
+        object-fit: contain;
+        border-radius: var(--border-radius, 8px);
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .remove-image-btn {
+        position: absolute;
+        top: 0.5rem;
+        right: 0.5rem;
+        background: #e53e3e;
+        color: white;
+        border: none;
+        border-radius: 50%;
+        width: 32px;
+        height: 32px;
+        cursor: pointer;
+        font-size: 1.2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background-color 0.3s ease;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    .remove-image-btn:hover {
+        background: #c53030;
+    }
+
+    .format-info {
+        font-size: 0.85rem;
+        color: var(--gray-600, #718096);
+        text-align: center;
+        margin: 0;
+    }
+
+    .error-message {
+        padding: 0.75rem;
+        background: #fed7d7;
+        color: #c53030;
+        border-radius: var(--border-radius, 8px);
+        font-size: 0.9rem;
+        text-align: center;
+        border: 1px solid #fc8181;
+    }
+
+    @media (max-width: 768px) {
+        .image-uploader-container {
+            padding: 0.75rem;
+        }
+
+        .upload-label {
+            padding: 0.75rem;
+            font-size: 0.9rem;
+        }
+
+        .image-preview-container {
+            min-height: 150px;
+        }
+
+        .image-preview {
+            max-height: 200px;
+        }
+    }
+</style>
+

@@ -1,0 +1,489 @@
+---
+// Componente Molecule - LoginForm
+// Formulario de login que valida contra el JSON de vendedores
+---
+
+<div class="login-form">
+  <div class="login-form__header">
+    <h2>🔐 Iniciar Sesión</h2>
+    <p>Ingresa tus credenciales para acceder al sistema</p>
+  </div>
+
+  <form id="loginForm" class="login-form__form">
+    <div class="login-form__field">
+      <label for="vendedorId" class="login-form__label">
+        ID de Vendedor
+        <span class="login-form__required">*</span>
+      </label>
+      <input
+        type="number"
+        id="vendedorId"
+        name="vendedorId"
+        class="login-form__input"
+        placeholder="Ingresa tu ID"
+        required
+        autocomplete="username"
+      />
+      <span class="login-form__error" id="vendedorIdError"></span>
+    </div>
+
+    <div class="login-form__field">
+      <label for="password" class="login-form__label">
+        Contraseña
+        <span class="login-form__required">*</span>
+      </label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        class="login-form__input"
+        placeholder="Ingresa tu contraseña"
+        required
+        autocomplete="current-password"
+      />
+      <span class="login-form__error" id="passwordError"></span>
+    </div>
+
+    <div class="login-form__error login-form__error--general" id="generalError"></div>
+
+    <button type="submit" class="login-form__button" id="submitButton">
+      Iniciar Sesión
+    </button>
+  </form>
+</div>
+
+<script>
+  import vendedores from '../../data/vendedores.json';
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const loginForm = document.getElementById('loginForm') as HTMLFormElement | null;
+    const vendedorIdInput = document.getElementById('vendedorId') as HTMLInputElement | null;
+    const passwordInput = document.getElementById('password') as HTMLInputElement | null;
+    const vendedorIdError = document.getElementById('vendedorIdError') as HTMLSpanElement | null;
+    const passwordError = document.getElementById('passwordError') as HTMLSpanElement | null;
+    const generalError = document.getElementById('generalError') as HTMLDivElement | null;
+    const submitButton = document.getElementById('submitButton') as HTMLButtonElement | null;
+
+    if (!loginForm || !vendedorIdInput || !passwordInput || !vendedorIdError || !passwordError || !generalError || !submitButton) {
+      console.error('No se pudieron encontrar todos los elementos del formulario');
+      return;
+    }
+
+    // Limpiar errores
+    function clearErrors() {
+      vendedorIdError.textContent = '';
+      passwordError.textContent = '';
+      generalError.textContent = '';
+      vendedorIdInput.classList.remove('login-form__input--error');
+      passwordInput.classList.remove('login-form__input--error');
+    }
+
+    // Mostrar error
+    function showError(field: string, message: string) {
+      const errorElement = field === 'vendedorId' ? vendedorIdError : passwordError;
+      const inputElement = field === 'vendedorId' ? vendedorIdInput : passwordInput;
+      
+      errorElement.textContent = message;
+      inputElement.classList.add('login-form__input--error');
+    }
+
+    // Validar credenciales
+    function validateCredentials(vendedorId: string, password: string) {
+      const vendedor = vendedores.find(
+        (v) => v.id === parseInt(vendedorId) && v.pass === parseInt(password)
+      );
+
+      return vendedor || null;
+    }
+
+    // Manejar envío del formulario
+    loginForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      clearErrors();
+
+      const vendedorId = vendedorIdInput.value.trim();
+      const password = passwordInput.value.trim();
+
+      // Validaciones básicas
+      if (!vendedorId) {
+        showError('vendedorId', 'El ID de vendedor es requerido');
+        return;
+      }
+
+      if (!password) {
+        showError('password', 'La contraseña es requerida');
+        return;
+      }
+
+      // Deshabilitar botón durante la validación
+      submitButton.disabled = true;
+      submitButton.textContent = 'Validando...';
+
+      // Simular pequeña demora para mejor UX
+      await new Promise(resolve => setTimeout(resolve, 300));
+
+      // Validar credenciales
+      const vendedor = validateCredentials(vendedorId, password);
+
+      if (vendedor) {
+        // Guardar sesión
+        const sessionData = {
+          id: vendedor.id,
+          nombre: vendedor.vendedor,
+          rol: vendedor.rol || 'vendedor',
+          loginTime: new Date().toISOString()
+        };
+        
+        sessionStorage.setItem('vendedorSession', JSON.stringify(sessionData));
+        
+        // Redirigir a la página principal
+        window.location.href = '/principal';
+      } else {
+        generalError.textContent = 'Credenciales incorrectas. Por favor, verifica tu ID y contraseña.';
+        vendedorIdInput.classList.add('login-form__input--error');
+        passwordInput.classList.add('login-form__input--error');
+        
+        // Rehabilitar botón
+        submitButton.disabled = false;
+        submitButton.textContent = 'Iniciar Sesión';
+      }
+    });
+
+    // Limpiar errores al escribir
+    vendedorIdInput.addEventListener('input', () => {
+      if (vendedorIdInput.classList.contains('login-form__input--error')) {
+        clearErrors();
+      }
+    });
+
+    passwordInput.addEventListener('input', () => {
+      if (passwordInput.classList.contains('login-form__input--error')) {
+        clearErrors();
+      }
+    });
+  });
+</script>
+
+<style>
+  .login-form {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    background: var(--color-surface);
+    padding: var(--space-2xl);
+    border-radius: var(--border-radius-xl);
+    box-shadow: var(--shadow-lg);
+  }
+
+  .login-form__header {
+    text-align: center;
+    margin-bottom: var(--space-xl);
+  }
+
+  .login-form__header h2 {
+    color: var(--color-text-primary);
+    font-size: var(--font-size-2xl);
+    font-weight: var(--font-weight-bold);
+    margin-bottom: var(--space-sm);
+  }
+
+  .login-form__header p {
+    color: var(--color-text-muted);
+    font-size: var(--font-size-base);
+  }
+
+  .login-form__form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-lg);
+  }
+
+  .login-form__field {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+
+  .login-form__label {
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-text-primary);
+    font-size: var(--font-size-sm);
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+  }
+
+  .login-form__required {
+    color: var(--color-danger);
+    font-weight: var(--font-weight-bold);
+  }
+
+  .login-form__input {
+    width: 100%;
+    padding: var(--space-md);
+    font-size: var(--font-size-base);
+    border: var(--border-width-base) solid var(--color-border-light);
+    border-radius: var(--border-radius-lg);
+    transition: var(--transition-all);
+    box-sizing: border-box;
+    font-family: inherit;
+  }
+
+  .login-form__input:focus {
+    outline: none;
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px rgba(0, 168, 120, 0.1);
+  }
+
+  .login-form__input--error {
+    border-color: var(--color-danger);
+  }
+
+  .login-form__input--error:focus {
+    border-color: var(--color-danger);
+    box-shadow: 0 0 0 3px rgba(254, 94, 65, 0.1);
+  }
+
+  .login-form__error {
+    color: var(--color-danger);
+    font-size: var(--font-size-sm);
+    min-height: 1.25rem;
+  }
+
+  .login-form__error--general {
+    text-align: center;
+    padding: var(--space-sm);
+    background: rgba(254, 94, 65, 0.1);
+    border-radius: var(--border-radius-md);
+    border: 1px solid rgba(254, 94, 65, 0.3);
+  }
+
+  .login-form__button {
+    width: 100%;
+    padding: var(--space-md);
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-text-inverse);
+    background: var(--color-primary);
+    border: none;
+    border-radius: var(--border-radius-lg);
+    cursor: pointer;
+    transition: var(--transition-all);
+    margin-top: var(--space-sm);
+  }
+
+  .login-form__button:hover:not(:disabled) {
+    background: var(--color-primary-dark);
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-md);
+  }
+
+  .login-form__button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none;
+  }
+
+  .login-form__button:focus-visible {
+    outline: var(--focus-ring-width) solid var(--focus-ring-color);
+    outline-offset: var(--focus-ring-offset);
+  }
+
+  /* Tablets */
+  @media (max-width: 768px) {
+    .login-form {
+      padding: var(--space-xl);
+      margin: 0;
+      max-width: 100%;
+      border-radius: var(--border-radius-lg);
+    }
+
+    .login-form__header {
+      margin-bottom: var(--space-lg);
+    }
+
+    .login-form__header h2 {
+      font-size: var(--font-size-xl);
+    }
+
+    .login-form__header p {
+      font-size: var(--font-size-sm);
+    }
+
+    .login-form__form {
+      gap: var(--space-md);
+    }
+
+    .login-form__input {
+      padding: 0.875rem;
+      font-size: 16px; /* Previene zoom en iOS */
+      min-height: 48px; /* Tamaño táctil mínimo */
+    }
+
+    .login-form__button {
+      padding: 0.875rem;
+      font-size: var(--font-size-base);
+      min-height: 48px;
+    }
+  }
+
+  /* Móviles pequeños */
+  @media (max-width: 480px) {
+    .login-form {
+      padding: var(--space-lg);
+      border-radius: var(--border-radius-md);
+      box-shadow: var(--shadow-md);
+    }
+
+    .login-form__header {
+      margin-bottom: var(--space-md);
+    }
+
+    .login-form__header h2 {
+      font-size: var(--font-size-lg);
+      margin-bottom: var(--space-xs);
+    }
+
+    .login-form__header p {
+      font-size: var(--font-size-xs);
+    }
+
+    .login-form__form {
+      gap: var(--space-md);
+    }
+
+    .login-form__field {
+      gap: var(--space-xs);
+    }
+
+    .login-form__label {
+      font-size: var(--font-size-xs);
+    }
+
+    .login-form__input {
+      padding: 0.875rem 1rem;
+      font-size: 16px; /* Previene zoom automático en iOS */
+      min-height: 48px;
+      border-radius: var(--border-radius-md);
+    }
+
+    .login-form__input:focus {
+      box-shadow: 0 0 0 2px rgba(0, 168, 120, 0.15);
+    }
+
+    .login-form__error {
+      font-size: var(--font-size-xs);
+      min-height: 1rem;
+    }
+
+    .login-form__error--general {
+      padding: var(--space-xs);
+      font-size: var(--font-size-xs);
+    }
+
+    .login-form__button {
+      padding: 1rem;
+      font-size: var(--font-size-base);
+      font-weight: var(--font-weight-bold);
+      min-height: 52px; /* Botón más grande para mejor usabilidad táctil */
+      border-radius: var(--border-radius-md);
+      margin-top: var(--space-xs);
+      -webkit-tap-highlight-color: rgba(0, 168, 120, 0.2);
+    }
+
+    .login-form__button:active {
+      transform: scale(0.98);
+    }
+  }
+
+  /* Móviles muy pequeños */
+  @media (max-width: 360px) {
+    .login-form {
+      padding: var(--space-md);
+    }
+
+    .login-form__header h2 {
+      font-size: var(--font-size-base);
+    }
+
+    .login-form__input,
+    .login-form__button {
+      padding: 0.75rem;
+      min-height: 44px;
+    }
+  }
+
+  /* Orientación landscape en móviles */
+  @media (max-width: 768px) and (orientation: landscape) {
+    .login-form {
+      padding: var(--space-md) var(--space-lg);
+      max-width: 500px;
+    }
+
+    .login-form__header {
+      margin-bottom: var(--space-md);
+    }
+
+    .login-form__header h2 {
+      font-size: var(--font-size-lg);
+    }
+
+    .login-form__form {
+      gap: var(--space-sm);
+    }
+
+    .login-form__input {
+      padding: 0.75rem;
+      min-height: 44px;
+    }
+
+    .login-form__button {
+      padding: 0.75rem;
+      min-height: 44px;
+      margin-top: var(--space-xs);
+    }
+  }
+
+  /* Mejoras para pantallas táctiles */
+  @media (hover: none) and (pointer: coarse) {
+    .login-form__input {
+      font-size: 16px; /* Previene zoom en iOS */
+    }
+
+    .login-form__button {
+      min-height: 48px;
+    }
+
+    .login-form__button:hover {
+      transform: none; /* Desactivar hover en táctiles */
+    }
+
+    .login-form__button:active {
+      background: var(--color-primary-dark);
+      transform: scale(0.97);
+    }
+  }
+
+  /* Mejoras de accesibilidad */
+  @media (prefers-reduced-motion: reduce) {
+    .login-form__input,
+    .login-form__button {
+      transition: none;
+    }
+  }
+
+  /* Alto contraste */
+  @media (prefers-contrast: high) {
+    .login-form {
+      border: 2px solid var(--color-text-primary);
+    }
+
+    .login-form__input {
+      border-width: 2px;
+    }
+
+    .login-form__button {
+      border: 2px solid var(--color-text-inverse);
+    }
+  }
+</style>
