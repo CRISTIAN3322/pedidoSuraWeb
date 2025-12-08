@@ -5,6 +5,16 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import ClienteSelector from "../components/organisms/ClienteSelector.astro";
 ---
 
+<script>
+  // Proteger ruta - verificar si hay sesión activa
+  if (typeof window !== 'undefined') {
+    const session = sessionStorage.getItem('vendedorSession');
+    if (!session) {
+      window.location.href = '/login';
+    }
+  }
+</script>
+
 <BaseLayout title="Catálogo de Productos - Sura Pedidos Web" description="Explora nuestro catálogo completo de productos con precios actualizados">
     <BloqueoHorario />
     

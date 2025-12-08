@@ -6,11 +6,13 @@ Sistema web moderno para gestión de pedidos desarrollado con **Astro 5**, **Rea
 
 ### 🎯 Funcionalidades Core
 
+- **🔐 Sistema de Autenticación**: Login seguro con validación de vendedores
 - **Catálogo de Productos**: Búsqueda avanzada y filtros por proveedor
 - **Gestión de Clientes**: Selección con información de cupo y cartera
 - **Carrito Inteligente**: Persistencia local y validaciones
 - **Sistema de Bloqueo**: Control de horarios de atención
 - **🔒 Bloqueo por Deudas**: Control automático de clientes con facturas vencidas > 20 días
+- **📷 Carga de Imágenes**: Sistema para cargar y gestionar imágenes de productos
 - **Integración WhatsApp**: Envío automático de pedidos
 
 ### 🎨 Mejoras de UI/UX
@@ -27,6 +29,8 @@ Sistema web moderno para gestión de pedidos desarrollado con **Astro 5**, **Rea
 - **Arquitectura Modular**: Componentes organizados por atomic design (Atoms, Molecules, Organisms, Templates, Pages)
 - **TypeScript**: Tipado estático para mayor robustez
 - **Configuración Centralizada**: Archivos de configuración y utilidades
+- **Sistema de Sesiones**: Gestión de autenticación con sessionStorage
+- **Gestión de Archivos**: Carga y almacenamiento de imágenes en base64
 - **Performance**: Lazy loading y optimizaciones de carga
 - **SEO Optimizado**: Meta tags y estructura semántica
 - **Accesibilidad**: Cumple con estándares WCAG 2.1 AA
@@ -59,6 +63,8 @@ suraPedidosWeb/
 │   │   │   ├── ClienteInfo.astro    # Información del cliente seleccionado
 │   │   │   ├── SucursalList.astro   # Lista de sucursales
 │   │   │   ├── Navigation.astro     # Navegación principal
+│   │   │   ├── LoginForm.astro      # Formulario de autenticación
+│   │   │   ├── ImageUploader.astro  # Componente para carga de imágenes
 │   │   │   └── ClienteResults.astro # Resultados de búsqueda
 │   │   ├── organisms/        # 🏗️ Secciones funcionales completas
 │   │   │   ├── ClienteSelector.astro      # Selector de clientes
@@ -71,6 +77,7 @@ suraPedidosWeb/
 │   │   └── BaseLayout.astro    # Layout base de la aplicación
 │   ├── pages/                # 📋 Páginas de la aplicación
 │   │   ├── index.astro         # Página principal (catálogo)
+│   │   ├── login.astro         # Página de autenticación
 │   │   ├── principal.astro     # Página de selección de clientes
 │   │   ├── producto.astro      # Página de productos
 │   │   └── carrito.astro       # Carrito de compras
@@ -90,6 +97,8 @@ suraPedidosWeb/
 │   │   └── useClienteData.js   # Lógica de datos de clientes
 │   └── utils/                # 🛠️ Utilidades y helpers
 │       ├── helpers.ts          # Utilidades generales
+│       ├── auth.ts             # Utilidades de autenticación y sesiones
+│       ├── imageUtils.ts       # Utilidades para manejo de imágenes
 │       └── atomic-design/      # Lógica de negocio Atomic Design
 │           └── deudaUtils.ts   # Utilidades para verificación de deudas
 ├── public/
@@ -159,6 +168,82 @@ npm start          # Build completo y preview en un comando
 npm run astro      # Comando directo de Astro
 ```
 
+## 🔐 Sistema de Autenticación
+
+### Gestión de Sesiones
+
+El sistema implementa un sistema de autenticación basado en sesiones del navegador:
+
+- **Login**: Validación de credenciales contra `vendedores.json`
+- **Sesión**: Almacenada en `sessionStorage` con información del vendedor
+- **Protección de Rutas**: Todas las páginas principales verifican sesión activa
+- **Cierre de Sesión**: Botón disponible en la navegación
+
+### Flujo de Autenticación
+
+1. Usuario accede a cualquier página protegida
+2. Si no hay sesión, redirige a `/login`
+3. Usuario ingresa ID y contraseña
+4. Sistema valida contra `vendedores.json`
+5. Si es válido, guarda sesión y redirige a `/principal`
+6. Todas las páginas verifican sesión antes de renderizar
+
+### Utilidades de Autenticación
+
+```typescript
+// Verificar si hay sesión activa
+import { isAuthenticated, getSession, logout } from './utils/auth';
+
+if (isAuthenticated()) {
+  const session = getSession();
+  console.log(`Usuario: ${session?.nombre}`);
+}
+
+// Cerrar sesión
+logout();
+```
+
+## 📷 Sistema de Carga de Imágenes
+
+### Características
+
+El sistema permite cargar y gestionar imágenes de productos:
+
+- **Formatos Soportados**: JPG, JPEG, PNG, GIF, WEBP, SVG, BMP, ICO
+- **Tamaño Máximo**: 5MB por archivo
+- **Almacenamiento**: LocalStorage con codificación base64
+- **Vista Previa**: Visualización inmediata tras carga
+- **Validación**: Verificación de tipo y tamaño antes de guardar
+
+### Uso del Componente
+
+```astro
+---
+import ImageUploader from '../components/molecules/ImageUploader.astro';
+---
+
+<ImageUploader productId="123" />
+```
+
+### Utilidades de Imágenes
+
+```typescript
+import { 
+  saveProductImage, 
+  getProductImage, 
+  isValidImageFile 
+} from './utils/imageUtils';
+
+// Guardar imagen
+saveProductImage(productId, imageData);
+
+// Obtener imagen
+const image = getProductImage(productId);
+
+// Validar archivo
+const validation = isValidImageFile(file);
+```
+
 ## 🔒 Funcionalidad de Bloqueo por Deudas
 
 ### Sistema Automático de Control
@@ -201,10 +286,21 @@ const clienteBloqueado = tieneFacturasVencidas(clienteSeleccionado);
 
 ### Pages
 
+#### login.astro
+
+Página de autenticación del sistema. Características:
+
+- Formulario de login con validación
+- Validación contra archivo `vendedores.json`
+- Gestión de sesiones con sessionStorage
+- Redirección automática si ya hay sesión activa
+- Diseño responsive y accesible
+
 #### index.astro
 
 Página principal que muestra el catálogo de productos disponibles. Incluye:
 
+- Protección de ruta (requiere autenticación)
 - Encabezado con información de actualización
 - Selector de clientes con funcionalidad de búsqueda
 - Información de cupo y cartera del cliente
@@ -231,6 +327,28 @@ Página del carrito de compras donde se pueden gestionar los productos seleccion
 #### ProductosSelector.astro
 
 Componente que maneja la visualización y selección de productos disponibles.
+
+### Molecules
+
+#### LoginForm.astro
+
+Formulario de autenticación que valida credenciales contra el archivo `vendedores.json`:
+
+- Validación de ID de vendedor y contraseña
+- Manejo de errores con mensajes descriptivos
+- Almacenamiento de sesión en sessionStorage
+- Redirección automática tras login exitoso
+- Diseño responsive y accesible
+
+#### ImageUploader.astro
+
+Componente para cargar imágenes de productos:
+
+- Soporte para múltiples formatos (JPG, PNG, GIF, WEBP, SVG, BMP, ICO)
+- Vista previa de imágenes
+- Validación de tipo y tamaño de archivo (máx. 5MB)
+- Almacenamiento en localStorage con base64
+- Integración con utilidades de manejo de imágenes
 
 ### Arquitectura Atomic Design
 

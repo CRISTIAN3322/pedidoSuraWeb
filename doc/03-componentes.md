@@ -8,7 +8,27 @@ Estructurados según Atomic Design. A continuación, un mapa funcional de los pr
 
 ### Molecules
 
-- `molecules/Navigation.astro`: navegación principal.
+- `molecules/Navigation.astro`: 
+  - Navegación principal con información de usuario logueado
+  - Botón de cierre de sesión
+  - Contador de productos en carrito
+  - Diseño glassmorphism responsive
+
+- `molecules/LoginForm.astro`: 
+  - Formulario de autenticación con validación de credenciales
+  - Validación contra archivo `vendedores.json`
+  - Manejo de errores y estados de carga
+  - Almacenamiento de sesión en sessionStorage
+  - Diseño responsive y accesible
+
+- `molecules/ImageUploader.astro`: 
+  - Componente para carga de imágenes de productos
+  - Soporte para múltiples formatos (JPG, PNG, GIF, WEBP, SVG, BMP, ICO)
+  - Validación de tipo y tamaño (máx. 5MB)
+  - Vista previa de imágenes
+  - Almacenamiento en localStorage con base64
+  - Props: `productId` (opcional)
+
 - `molecules/CarteraCliente.astro`: muestra cartera, cupo y estado del cliente.
 - `molecules/CupoCliente.astro`: desglosa cupo disponible.
 
@@ -18,12 +38,47 @@ Estructurados según Atomic Design. A continuación, un mapa funcional de los pr
   - Fuente: `src/data/products.json` (catálogo grande).
   - Render: tarjetas/lista de productos, buscador y filtros.
   - Acción: agrega al carrito usando `localStorage.cartItems`.
+
 - `organisms/ClienteSelector.astro` y `ClienteSelectorReact.jsx`:
   - Fuente: `src/data/clientes.json`, `cartera.json`, `cupo.json`.
   - Acción: persiste `datosCliente` en `localStorage` y redirige a `/carrito` con query params.
+
 - `organisms/BloqueoHorario.astro`:
   - Lógica: lee horario de `APP_CONFIG.schedule` o `helpers.isBusinessHours()`.
   - Comportamiento: bloquea UI fuera de horario y muestra tiempo restante.
+
+### Pages
+
+- `pages/login.astro`:
+  - Página de autenticación del sistema
+  - Redirige a `/principal` si ya hay sesión activa
+  - Integra el componente `LoginForm`
+
+- `pages/index.astro`:
+  - Página principal (catálogo de productos)
+  - Protección de ruta (requiere autenticación)
+  - Incluye selector de clientes y bloqueo horario
+
+- `pages/principal.astro`:
+  - Página de selección de clientes
+  - Protección de ruta (requiere autenticación)
+  - Incluye selector de clientes completo
+
+### Utilidades
+
+- `utils/auth.ts`:
+  - Funciones para gestión de autenticación
+  - `isAuthenticated()`: verifica sesión activa
+  - `getSession()`: obtiene datos de sesión
+  - `logout()`: cierra sesión y redirige
+  - `protectRoute()`: protege rutas
+
+- `utils/imageUtils.ts`:
+  - Funciones para manejo de imágenes
+  - `saveProductImage()`: guarda imagen de producto
+  - `getProductImage()`: obtiene imagen guardada
+  - `isValidImageFile()`: valida archivo de imagen
+  - `fileToBase64()`: convierte archivo a base64
 
 ### Props y convenciones
 

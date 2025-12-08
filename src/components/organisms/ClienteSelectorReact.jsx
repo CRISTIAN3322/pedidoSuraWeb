@@ -2,6 +2,38 @@ import React, { useState, useCallback, useMemo } from 'react';
 import { useClienteData, useClientesFiltrados } from '../../hooks/useClienteData';
 import styles from './ClienteSelectorReact.module.css';
 
+// Función auxiliar para obtener el nombre del vendedor de la sesión
+function getVendedorNombre() {
+  if (typeof window === 'undefined') return null;
+  try {
+    const session = sessionStorage.getItem('vendedorSession');
+    if (!session) return null;
+    const sessionData = JSON.parse(session);
+    return sessionData.nombre || null;
+  } catch {
+    return null;
+  }
+}
+
+// Función auxiliar para comparar nombres de vendedores (case-insensitive)
+function compareVendedorNames(name1, name2) {
+  if (!name1 || !name2) return false;
+  return name1.trim().toUpperCase() === name2.trim().toUpperCase();
+}
+
+// Función auxiliar para verificar si el usuario es administrador
+function isAdministrador() {
+  if (typeof window === 'undefined') return false;
+  try {
+    const session = sessionStorage.getItem('vendedorSession');
+    if (!session) return false;
+    const sessionData = JSON.parse(session);
+    return sessionData.rol === 'administrador' || sessionData.nombre?.toUpperCase() === 'ADMINISTRADOR';
+  } catch {
+    return false;
+  }
+}
+
 // Componente para mostrar información del cupo
 const CupoCliente = React.memo(({ cupoDisponible, totalCartera, sinCupo, error }) => {
   const cupoInfoClass = useMemo(() => {
@@ -121,6 +153,32 @@ function ClienteSelectorReact() {
     formaPago,
     error: dataError
   } = useClienteData(clienteSeleccionado);
+
+  // Filtrar sucursales por vendedor logueado (o mostrar todas si es administrador)
+  const sucursalesFiltradas = useMemo(() => {
+    if (!clienteSeleccionado || !clienteSeleccionado.sucursales) {
+      return [];
+    }
+
+    const esAdministrador = isAdministrador();
+    
+    // Si es administrador, mostrar todas las sucursales
+    if (esAdministrador) {
+      return clienteSeleccionado.sucursales;
+    }
+
+    const vendedorNombre = getVendedorNombre();
+    
+    // Si no hay vendedor logueado, no mostrar sucursales
+    if (!vendedorNombre) {
+      return [];
+    }
+
+    // Filtrar sucursales que pertenecen al vendedor logueado
+    return clienteSeleccionado.sucursales.filter((sucursal) =>
+      compareVendedorNames(sucursal.vendedor, vendedorNombre)
+    );
+  }, [clienteSeleccionado]);
 
   // Manejadores de eventos optimizados
   const handleClienteSelect = useCallback((cliente) => {
@@ -264,14 +322,14 @@ function ClienteSelectorReact() {
           </div>
 
           {/* Lista de sucursales */}
-          {clienteSeleccionado.sucursales && clienteSeleccionado.sucursales.length > 0 ? (
+          {sucursalesFiltradas && sucursalesFiltradas.length > 0 ? (
             <div>
               <h4 style={{ margin: '1.5rem 0 1rem 0', color: '#2d3748' }}>Seleccione una sucursal:</h4>
               <ul className={styles.branchesList} role="radiogroup" aria-labelledby="branches-label">
                 <div id="branches-label" style={{ display: 'none' }}>
                   Opciones de sucursales
                 </div>
-                {clienteSeleccionado.sucursales.map((sucursal, idx) => (
+                {sucursalesFiltradas.map((sucursal, idx) => (
                   <li
                     key={idx}
                     className={`${styles.branchItem} ${sucursalSeleccionada === sucursal ? styles.active : ''}`}
@@ -294,7 +352,9 @@ function ClienteSelectorReact() {
             </div>
           ) : (
             <div className={styles.noResults}>
-              No hay sucursales registradas para este cliente
+              {clienteSeleccionado.sucursales && clienteSeleccionado.sucursales.length > 0
+                ? 'No hay sucursales asignadas a tu usuario para este cliente'
+                : 'No hay sucursales registradas para este cliente'}
             </div>
           )}
 

@@ -26,6 +26,11 @@ Bienvenido a la documentación técnica y funcional del proyecto. Aquí encontra
 - [11. Ejemplos de código - Verificación de deudas](./11-ejemplos-codigo-verificacion-deudas.md) - Ejemplos prácticos
 - [Guía de Bloqueo de Horario](../BLOQUEO_HORARIO.md) - Sistema de control horario
 
+### 🔐 Seguridad y Autenticación
+- **Sistema de Login**: Validación de credenciales contra `vendedores.json`
+- **Protección de Rutas**: Verificación de sesión en páginas principales
+- **Gestión de Sesiones**: Almacenamiento seguro en sessionStorage
+
 ## ⚡ Información Rápida
 
 | Aspecto | Detalles |

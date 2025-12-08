@@ -4,6 +4,16 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
 import ProductosSelector from '../components/organisms/ProductosSelector.astro';
 ---
+
+<script>
+  // Proteger ruta - verificar si hay sesión activa
+  if (typeof window !== 'undefined') {
+    const session = sessionStorage.getItem('vendedorSession');
+    if (!session) {
+      window.location.href = '/login';
+    }
+  }
+</script>
 <BaseLayout>
     <h1>🛍️ Catálogo de Productos</h1>
     <div class="container">    

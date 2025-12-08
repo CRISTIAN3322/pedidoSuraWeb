@@ -9,6 +9,16 @@ import CarteraCliente from '../components/molecules/CarteraCliente.astro';
 import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
 ---
 
+<script>
+  // Proteger ruta - verificar si hay sesión activa
+  if (typeof window !== 'undefined') {
+    const session = sessionStorage.getItem('vendedorSession');
+    if (!session) {
+      window.location.href = '/login';
+    }
+  }
+</script>
+
 <BaseLayout title="Carrito de Compras">
     <BloqueoHorario />
     <div class="container">

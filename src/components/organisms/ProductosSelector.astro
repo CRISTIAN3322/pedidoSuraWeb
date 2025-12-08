@@ -1,6 +1,7 @@
 ---
 // Import products data from JSON file
 import products from '../../data/products.json';
+
 // Obtener proveedores únicos
 const proveedores = Array.from(
   new Set(
@@ -34,7 +35,21 @@ const proveedores = Array.from(
     {products.map((product) => (
         <div class="product-card" data-active={product.activo} data-product-name={product.nombre.toLowerCase()} data-product-code={product.codigo} data-product-barcode={product.barra} data-product-proveedor={product.proveedor} style={Number(product.invetario) < 1 ? 'background-color: #ffb3b3;' : ''}>
         <div class="imagen-card">
-            {product.imagen && <img src={product.imagen} alt={product.nombre} class="imagen-Product"/>}
+            {product.imagen ? (
+                <img 
+                    src={product.imagen} 
+                    alt={product.nombre} 
+                    class="imagen-Product"
+                    data-product-id={product.id}
+                    data-default-image={product.imagen}
+                    loading="lazy"
+                    onerror="this.onerror=null; this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'120\' height=\'140\'%3E%3Crect width=\'120\' height=\'140\' fill=\'%23f0f0f0\'/%3E%3Ctext x=\'50%25\' y=\'50%25\' text-anchor=\'middle\' dy=\'.3em\' fill=\'%23999\' font-size=\'12\'%3ESin imagen%3C/text%3E%3C/svg%3E';"
+                />
+            ) : (
+                <div class="imagen-placeholder">
+                    <span>Sin imagen</span>
+                </div>
+            )}
         </div>
             <h3>{product.nombre}</h3>
             <p class="code">Código: {product.codigo}</p>
@@ -86,9 +101,114 @@ const proveedores = Array.from(
         });
     }
 
-    // Ejecutar el filtro inicial para ocultar productos inactivos al cargar
-    window.addEventListener('DOMContentLoaded', () => {
+    // Función para validar formatos de imagen permitidos
+    function isValidImageFormat(url: string): boolean {
+        if (!url) return false;
+        const validFormats = ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.svg', '.bmp', '.ico'];
+        const lowerUrl = url.toLowerCase();
+        // Verificar si es base64
+        if (lowerUrl.startsWith('data:image/')) return true;
+        // Verificar si es URL completa
+        if (lowerUrl.startsWith('http://') || lowerUrl.startsWith('https://')) return true;
+        // Verificar extensión de archivo
+        return validFormats.some(format => lowerUrl.includes(format));
+    }
+
+    // Función para normalizar rutas de imágenes
+    function normalizeImagePath(imagePath: string): string {
+        if (!imagePath) return '';
+        // Si ya es una URL completa o base64, retornar tal cual
+        if (imagePath.startsWith('http://') || imagePath.startsWith('https://') || imagePath.startsWith('data:')) {
+            return imagePath;
+        }
+        // Si es una ruta relativa, asegurar que comience con /
+        if (imagePath.startsWith('../')) {
+            return imagePath.replace('../', '/');
+        }
+        if (!imagePath.startsWith('/')) {
+            return '/' + imagePath;
+        }
+        return imagePath;
+    }
+
+    // Importar utilidades de imagen (solo en cliente)
+    import { getProductImageUrl } from '../../utils/imageUtils.js';
+
+    // Manejo de errores de carga de imágenes y actualización con imágenes cargadas
+    document.addEventListener('DOMContentLoaded', () => {
         filterProducts('', '');
+        
+        // Actualizar imágenes con las cargadas desde localStorage
+        const productImages = document.querySelectorAll('.imagen-Product');
+        productImages.forEach((img) => {
+            const imageElement = img as HTMLImageElement;
+            const productId = imageElement.dataset.productId;
+            const defaultImage = imageElement.dataset.defaultImage || '';
+            
+            if (productId) {
+                // Obtener imagen cargada o usar la predeterminada
+                try {
+                    const imageUrl = getProductImageUrl(productId, defaultImage);
+                    if (imageUrl && imageUrl !== defaultImage) {
+                        imageElement.src = imageUrl;
+                    }
+                } catch (error) {
+                    console.error('Error al obtener imagen:', error);
+                }
+            }
+        });
+        
+        // Agregar manejadores de error a todas las imágenes
+        productImages.forEach((img) => {
+            const imageElement = img as HTMLImageElement;
+            const originalSrc = imageElement.src;
+            
+            imageElement.addEventListener('error', function() {
+                // Si la imagen falla, intentar diferentes variaciones
+                const productId = imageElement.dataset.productId;
+                if (productId) {
+                    // Intentar con diferentes extensiones
+                    const extensions = ['.png', '.jpg', '.jpeg', '.gif', '.webp', '.svg', '.bmp'];
+                    const basePath = originalSrc.substring(0, originalSrc.lastIndexOf('.'));
+                    
+                    let attemptIndex = 0;
+                    const tryNextFormat = () => {
+                        if (attemptIndex < extensions.length) {
+                            imageElement.src = basePath + extensions[attemptIndex];
+                            attemptIndex++;
+                        } else {
+                            // Si todos los formatos fallan, mostrar placeholder
+                            imageElement.src = 'data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'120\' height=\'140\'%3E%3Crect width=\'120\' height=\'140\' fill=\'%23f0f0f0\'/%3E%3Ctext x=\'50%25\' y=\'50%25\' text-anchor=\'middle\' dy=\'.3em\' fill=\'%23999\' font-size=\'12\'%3ESin imagen%3C/text%3E%3C/svg%3E';
+                            imageElement.style.opacity = '0.6';
+                        }
+                    };
+                    
+                    imageElement.addEventListener('error', tryNextFormat, { once: true });
+                }
+            });
+        });
+
+        // Escuchar eventos de carga de nuevas imágenes
+        document.addEventListener('imageUploaded', ((e: CustomEvent) => {
+            // Recargar imágenes si es necesario
+            const productImages = document.querySelectorAll('.imagen-Product');
+            productImages.forEach((img) => {
+                const imageElement = img as HTMLImageElement;
+                const productId = imageElement.dataset.productId;
+                const defaultImage = imageElement.dataset.defaultImage || '';
+                
+                if (productId) {
+                    try {
+                        const imageUrl = getProductImageUrl(productId, defaultImage);
+                        if (imageUrl) {
+                            imageElement.src = imageUrl;
+                        }
+                    } catch (error) {
+                        console.error('Error al actualizar imagen:', error);
+                    }
+                }
+            });
+        }) as EventListener);
     });
 
     // Evento de búsqueda y proveedor
@@ -285,9 +405,28 @@ const proveedores = Array.from(
         max-width: 120px;
         max-height: 140px;
         width: auto;
+        height: auto;
         object-fit: contain;
         margin: 0 auto;
         display: block;
+        transition: opacity 0.3s ease;
+    }
+
+    .imagen-placeholder {
+        width: 120px;
+        height: 140px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #f0f0f0;
+        border-radius: 8px;
+        color: #999;
+        font-size: 0.85rem;
+        text-align: center;
+    }
+
+    .imagen-placeholder span {
+        padding: 0.5rem;
     }
 
     .product-card:hover {

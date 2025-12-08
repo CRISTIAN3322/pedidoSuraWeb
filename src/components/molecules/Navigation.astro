@@ -9,12 +9,19 @@
     </div>
 
     <div class="nav-menu">
+      <div class="nav-user" id="navUser">
+        <span class="nav-user__icon">👤</span>
+        <span class="nav-user__name" id="vendedorName">Cargando...</span>
+      </div>
       <a href="/" class="nav-link"> 👥 Clientes </a>
       <a href="/producto" class="nav-link"> 📦 Productos </a>
       <a href="/carrito" class="nav-link cart-link">
         🛒 Carrito
         <span class="cart-count" id="cart-count">0</span>
       </a>
+      <button class="nav-link nav-link--button" id="logoutButton" title="Cerrar Sesión">
+        🚪 Salir
+      </button>
     </div>
   </div>
 </nav>
@@ -104,6 +111,42 @@
     border: 2px solid rgba(255, 255, 255, 0.2);
   }
 
+  .nav-link--button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 500;
+  }
+
+  .nav-link--button:hover {
+    background: rgba(255, 255, 255, 0.15);
+  }
+
+  .nav-user {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: rgba(255, 255, 255, 0.95);
+    padding: 0.5rem 1rem;
+    border-radius: var(--border-radius);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+
+  .nav-user__icon {
+    font-size: 1.1rem;
+  }
+
+  .nav-user__name {
+    white-space: nowrap;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
   @media (max-width: 768px) {
     .nav-container {
       padding: 0 0.5rem;
@@ -147,6 +190,15 @@
       border-radius: 4px;
     }
 
+    .nav-user {
+      padding: 0.3rem 0.5rem;
+      font-size: 0.7rem;
+    }
+
+    .nav-user__name {
+      max-width: 80px;
+    }
+
     .brand-link {
       display: none;
     }
@@ -160,29 +212,67 @@
 </style>
 
 <script>
+  // Función para cerrar sesión
+  function logout() {
+    sessionStorage.removeItem('vendedorSession');
+    window.location.href = '/login';
+  }
+
   // Actualizar contador del carrito
   function updateCartCount() {
     const cartItems = JSON.parse(localStorage.getItem("cartItems") || "[]");
-    const totalItems = cartItems.reduce((sum, item) => sum + item.cantidad, 0);
+    const totalItems = cartItems.reduce((sum: number, item: any) => sum + item.cantidad, 0);
     const cartCountElement = document.getElementById("cart-count");
     if (cartCountElement) {
-      cartCountElement.textContent = totalItems;
+      cartCountElement.textContent = String(totalItems);
       cartCountElement.style.display = totalItems > 0 ? "flex" : "none";
     }
   }
 
+  // Manejar logout
+  const logoutButton = document.getElementById("logoutButton");
+  if (logoutButton) {
+    logoutButton.addEventListener("click", () => {
+      if (confirm("¿Estás seguro de que deseas cerrar sesión?")) {
+        logout();
+      }
+    });
+  }
+
+  // Mostrar nombre del vendedor
+  function updateVendedorName() {
+    const session = sessionStorage.getItem('vendedorSession');
+    const vendedorNameElement = document.getElementById("vendedorName");
+    if (vendedorNameElement) {
+      if (session) {
+        try {
+          const sessionData = JSON.parse(session);
+          vendedorNameElement.textContent = sessionData.nombre || 'Usuario';
+        } catch {
+          vendedorNameElement.textContent = 'Usuario';
+        }
+      } else {
+        vendedorNameElement.textContent = 'No autenticado';
+      }
+    }
+  }
+
   // Actualizar contador al cargar la página
-  document.addEventListener("DOMContentLoaded", updateCartCount);
+  document.addEventListener("DOMContentLoaded", () => {
+    updateCartCount();
+    updateVendedorName();
+  });
 
   // Escuchar cambios en el localStorage
   window.addEventListener("storage", updateCartCount);
 
   // Actualizar cuando se agregan items al carrito (para la misma pestaña)
-  const originalSetItem = localStorage.setItem;
-  localStorage.setItem = function (key, value) {
-    originalSetItem.apply(this, arguments);
+  const originalSetItem = localStorage.setItem.bind(localStorage);
+  const setItemOverride = function (key: string, value: string) {
+    originalSetItem(key, value);
     if (key === "cartItems") {
       updateCartCount();
     }
   };
+  localStorage.setItem = setItemOverride;
 </script>

@@ -5,6 +5,41 @@ Todos los cambios notables en este proyecto serán documentados en este archivo.
 El formato está basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/),
 y este proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.1.0] - 2024-12-20
+
+### ✨ Añadido
+- **Sistema de Autenticación**: Login seguro con validación de vendedores
+  - Página de login (`/login`)
+  - Componente `LoginForm.astro` para formulario de autenticación
+  - Utilidades de autenticación en `auth.ts`
+  - Protección de rutas en todas las páginas principales
+  - Gestión de sesiones con sessionStorage
+  - Información del usuario en navegación
+  - Botón de cierre de sesión
+
+- **Sistema de Carga de Imágenes**: Gestión de imágenes de productos
+  - Componente `ImageUploader.astro` para carga de archivos
+  - Utilidades de manejo de imágenes en `imageUtils.ts`
+  - Soporte para múltiples formatos (JPG, PNG, GIF, WEBP, SVG, BMP, ICO)
+  - Validación de tipo y tamaño de archivo (máx. 5MB)
+  - Vista previa de imágenes antes de guardar
+  - Almacenamiento en localStorage con codificación base64
+
+### 🎨 Mejoras de UI/UX
+- Diseño responsive mejorado para página de login
+- Indicadores visuales de estado de autenticación
+- Mejoras en navegación con información del usuario logueado
+
+### 🔒 Funcionalidades de Seguridad
+- Protección de rutas mediante verificación de sesión
+- Validación de credenciales contra archivo de vendedores
+- Gestión segura de sesiones del navegador
+
+### 📚 Documentación
+- Actualización de README.md con nuevas funcionalidades
+- Documentación de sistema de autenticación
+- Guía de uso del sistema de carga de imágenes
+
 ## [2.0.0] - 2024-12-19
 
 ### ✨ Añadido

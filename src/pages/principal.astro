@@ -3,6 +3,16 @@ import ClienteSelector from '../components/organisms/ClienteSelector.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
 ---
+
+<script>
+  // Proteger ruta - verificar si hay sesión activa
+  if (typeof window !== 'undefined') {
+    const session = sessionStorage.getItem('vendedorSession');
+    if (!session) {
+      window.location.href = '/login';
+    }
+  }
+</script>
 <BaseLayout title="Selección de Cliente - Sura Pedidos Web" description="Selecciona un cliente para realizar un pedido">
     <BloqueoHorario />
     
