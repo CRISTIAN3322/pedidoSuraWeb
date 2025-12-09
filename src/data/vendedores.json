@@ -1,92 +1,91 @@
-[
-  {
-    "id": 900658244,
-    "vendedor": "ADMINISTRADOR",
-    "pass": 900658244,
-    "rol": "administrador"
+[{
+        "id": 900658244,
+        "vendedor": "ADMINISTRADOR",
+        "pass": 900658244,
+        "rol": "administrador"
     },
-  {
-    "id": 52530962,
-    "vendedor": "ANA SOFIA ROLDAN RIQUE",
-    "pass": 52530962,
-    "rol": "vendedor"
-  },
-  {
-    "id": 23622408,
-    "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
-    "pass": 23622408,
-    "rol": "vendedor"
-  },
-  {
-    "id": 79967815,
-    "vendedor": "BUCKY SANTANA VANEGAS",
-    "pass": 79967815,
-    "rol": "vendedor"
-  },
-  {
-    "id": 52321795,
-    "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
-    "pass": 52321795,
-    "rol": "vendedor"
-  },
-  {
-    "id": 52342724,
-    "vendedor": "CONSUELO MUÑOZ",
-    "pass": 52342724,
-    "rol": "vendedor"
-  },
-  {
-    "id": 80062394,
-    "vendedor": "DAVID YESID RAMIREZ LEGUIZAMON",
-    "pass": 80062394,
-    "rol": "vendedor"
-  },
-  {
-    "id": 52832197,
-    "vendedor": "DIANA MARCELA BERMUDEZ SERRANO",
-    "pass": 52832197,
-    "rol": "vendedor"
-  },
-  {
-    "id": 52806346,
-    "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
-    "pass": 52806346,
-    "rol": "vendedor"
-  },
-  {
-    "id": 79765804,
-    "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ",
-    "pass": 79765804,
-    "rol": "vendedor"
-  },
-  {
-    "id": 1023890032,
-    "vendedor": "LISBETH JULIETH NARANJO ROJAS",
-    "pass": 1023890032,
-    "rol": "vendedor"
-  },
-  {
-    "id": 52464418,
-    "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
-    "pass": 52464418,
-    "rol": "vendedor"
-  },
-  {
-    "id": 80065456,
-    "vendedor": "RAUL FERNANDO JIMENEZ TRIANA",
-    "pass": 80065456,
-    "rol": "vendedor"
-  },
-  {
-    "id": 43676882,
-    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "pass": 43676882,
-    "rol": "vendedor"
-  },
-  {
-    "id": 52957099,
-    "vendedor": "YENY MARIBEL MONROY PATIÑO",
-    "pass": 52957099,
-    "rol": "vendedor"
-  }
+    {
+        "id": 52530962,
+        "vendedor": "ANA SOFIA ROLDAN RIQUE",
+        "pass": 52530962,
+        "rol": "vendedor"
+    },
+    {
+        "id": 23622408,
+        "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
+        "pass": 23622408,
+        "rol": "vendedor"
+    },
+    {
+        "id": 52501193,
+        "vendedor": "CLARA INES PEÑA PEÑA",
+        "pass": 52501193,
+        "rol": "vendedor"
+    },
+    {
+        "id": 52321795,
+        "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
+        "pass": 52321795,
+        "rol": "vendedor"
+    },
+    {
+        "id": 52342724,
+        "vendedor": "CONSUELO MUÑOZ",
+        "pass": 52342724,
+        "rol": "vendedor"
+    },
+    {
+        "id": 80062394,
+        "vendedor": "DAVID YESID RAMIREZ LEGUIZAMON",
+        "pass": 80062394,
+        "rol": "vendedor"
+    },
+    {
+        "id": 52832197,
+        "vendedor": "DIANA MARCELA BERMUDEZ SERRANO",
+        "pass": 52832197,
+        "rol": "vendedor"
+    },
+    {
+        "id": 52806346,
+        "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
+        "pass": 52806346,
+        "rol": "vendedor"
+    },
+    {
+        "id": 79765804,
+        "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ",
+        "pass": 79765804,
+        "rol": "vendedor"
+    },
+    {
+        "id": 1023890032,
+        "vendedor": "LISBETH JULIETH NARANJO ROJAS",
+        "pass": 1023890032,
+        "rol": "vendedor"
+    },
+    {
+        "id": 52464418,
+        "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
+        "pass": 52464418,
+        "rol": "vendedor"
+    },
+    {
+        "id": 80065456,
+        "vendedor": "RAUL FERNANDO JIMENEZ TRIANA",
+        "pass": 80065456,
+        "rol": "vendedor"
+    },
+    {
+        "id": 43676882,
+        "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
+        "pass": 43676882,
+        "rol": "vendedor"
+    },
+    {
+        "id": 52957099,
+        "vendedor": "YENY MARIBEL MONROY PATIÑO",
+        "pass": 52957099,
+        "rol": "vendedor"
+    }
 ]
