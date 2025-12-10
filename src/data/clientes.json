@@ -2922,14 +2922,6 @@
         }]
     },
     {
-        "id": 830113748,
-        "nombre": "INVERSIONES JOMAYOSA SAS",
-        "sucursales": [{
-            "direccion": "CL 72 F 112 B 05 Villas del Granada ",
-            "vendedor": "David Yedid Ramirez Leguizamon"
-        }]
-    },
-    {
         "id": 901841597,
         "nombre": "MERCAPRECIOS SAS",
         "sucursales": [{
@@ -7118,6 +7110,22 @@
         "sucursales": [{
             "direccion": "CR 5 48 X SUR 53 Marruecos ",
             "vendedor": "Claudia Yojana Corredor Gonzalez "
+        }]
+    },
+    {
+        "id": 901689476,
+        "nombre": "INVERSIONES DISTRIVILLA SAS",
+        "sucursales": [{
+            "direccion": "CR 15 12 16  Chia ",
+            "vendedor": "Ana Sofia Roldan Rique "
+        }]
+    },
+    {
+        "id": 830113748,
+        "nombre": "INVERSIONES JOMAYOSA SAS",
+        "sucursales": [{
+            "direccion": "CL 72 F 112 B 05 Villas del Granada ",
+            "vendedor": "David Yedid Ramirez Leguizamon"
         }]
     }
 
