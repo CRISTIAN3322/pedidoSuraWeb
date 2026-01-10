@@ -13,6 +13,11 @@ const proveedores = Array.from(
 ---
 
 <div class="filter-container">
+    <div class="bulk-actions">
+        <button id="downloadProducts" class="bulk-btn">⬇️ Descargar productos</button>
+        <button id="uploadProducts" class="bulk-btn bulk-btn--secondary">⬆️ Cargar desde Excel/CSV</button>
+        <input type="file" id="uploadProductsInput" accept=".csv,.xls,.xlsx" hidden />
+    </div>
     <label for="proveedorSelect">Filtrar por proveedor:</label>
     <select id="proveedorSelect" class="proveedor-select">
         <option value="">Todos</option>
@@ -76,6 +81,9 @@ const proveedores = Array.from(
 </div>
 
 <script>
+    const CUSTOM_PRODUCTS_KEY = 'customProducts';
+    const REQUIRED_HEADERS = ['codigo','nombre','precio','barra','invetario','proveedor','imagen','activo'];
+
     // Filtro por proveedor y búsqueda
     function filterProducts(searchTerm = '', proveedor = '') {
         const productCards = document.querySelectorAll('.product-card');
@@ -100,6 +108,193 @@ const proveedores = Array.from(
             (card as HTMLElement).style.display = matches ? 'block' : 'none';
         });
     }
+
+    const getCustomProducts = () => {
+        try {
+            return JSON.parse(localStorage.getItem(CUSTOM_PRODUCTS_KEY) || '[]');
+        } catch {
+            return [];
+        }
+    };
+
+    const syncProveedorOption = (proveedor: string) => {
+        const proveedorSelect = document.getElementById('proveedorSelect') as HTMLSelectElement | null;
+        if (!proveedorSelect || !proveedor) return;
+        const exists = Array.from(proveedorSelect.options).some(opt => opt.value === proveedor);
+        if (!exists) {
+            const option = document.createElement('option');
+            option.value = proveedor;
+            option.textContent = proveedor;
+            proveedorSelect.appendChild(option);
+        }
+    };
+
+    const createProductCard = (product: any, isCustom = false) => {
+        const container = document.createElement('div');
+        container.className = 'product-card';
+        container.dataset.active = String(product.activo);
+        container.dataset.productName = (product.nombre || '').toLowerCase();
+        container.dataset.productCode = product.codigo || '';
+        container.dataset.productBarcode = String(product.barra || '');
+        container.dataset.productProveedor = product.proveedor || '';
+        if (isCustom) {
+            container.dataset.custom = 'true';
+        }
+
+        const safeImage = product.imagen ? normalizeImagePath(product.imagen) : '';
+        const priceText = product.precio !== undefined ? `$${product.precio}` : '$0';
+        const inventory = product.invetario ?? 0;
+
+        container.innerHTML = `
+            <div class="imagen-card">
+                ${safeImage
+                    ? `<img src="${safeImage}" alt="${product.nombre}" class="imagen-Product" data-product-id="${product.id || product.codigo}" data-default-image="${product.imagen || ''}" loading="lazy" />`
+                    : `<div class="imagen-placeholder"><span>Sin imagen</span></div>`
+                }
+            </div>
+            <h3>${product.nombre}</h3>
+            <p class="code">Código: ${product.codigo}</p>
+            <p class="price">${priceText}</p>
+            <p class="inventory${Number(inventory) < 1 ? ' inventory-low' : ''}">Stock: ${inventory}</p>
+            <p class="barcode">Código de Barras: ${product.barra || 'N/A'}</p>
+            <div class="quantity-control">
+                <button class="quantity-btn minus" data-product-id="${product.codigo}">-</button>
+                <input type="number" class="quantity-input" value="0" min="0" data-product-id="${product.codigo}" />
+                <button class="quantity-btn plus" data-product-id="${product.codigo}">+</button>
+            </div>
+            <button class="add-to-cart-btn" data-product-id="${product.codigo}">
+                Agregar al Carrito
+            </button>
+        `;
+
+        return container;
+    };
+
+    const renderCustomProducts = () => {
+        const container = document.querySelector('.products-container');
+        if (!container) return;
+
+        // limpiar previos
+        container.querySelectorAll('.product-card[data-custom="true"]').forEach(el => el.remove());
+
+        const customProducts = getCustomProducts();
+        customProducts.forEach((product: any) => {
+            const card = createProductCard(product, true);
+            container.appendChild(card);
+            syncProveedorOption(product.proveedor);
+
+            const imageElement = card.querySelector('.imagen-Product') as HTMLImageElement | null;
+            if (imageElement) {
+                imageElement.addEventListener('error', () => {
+                    imageElement.src = 'data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'120\' height=\'140\'%3E%3Crect width=\'120\' height=\'140\' fill=\'%23f0f0f0\'/%3E%3Ctext x=\'50%25\' y=\'50%25\' text-anchor=\'middle\' dy=\'.3em\' fill=\'%23999\' font-size=\'12\'%3ESin imagen%3C/text%3E%3C/svg%3E';
+                    imageElement.style.opacity = '0.6';
+                }, { once: true });
+            }
+        });
+
+        const searchInput = document.getElementById('searchInput') as HTMLInputElement | null;
+        const proveedorSelect = document.getElementById('proveedorSelect') as HTMLSelectElement | null;
+        filterProducts(searchInput?.value || '', proveedorSelect?.value || '');
+    };
+
+    const downloadProducts = () => {
+        const custom = getCustomProducts();
+        const all = [
+            ...products,
+            ...custom,
+        ];
+
+        const headers = ['codigo','nombre','precio','barra','invetario','proveedor','imagen','activo','esPersonalizado'];
+        const rows = all.map(p => ([
+            p.codigo ?? '',
+            p.nombre ?? '',
+            p.precio ?? '',
+            p.barra ?? '',
+            p.invetario ?? '',
+            p.proveedor ?? '',
+            p.imagen ?? '',
+            String(p.activo ?? true),
+            String((p as any).esPersonalizado ?? false),
+        ]));
+
+        const csv = [headers.join(','), ...rows.map(r => r.map(v => `"${String(v).replace(/"/g, '""')}"`).join(','))].join('\n');
+        const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'productos.csv';
+        a.click();
+        URL.revokeObjectURL(url);
+    };
+
+    const parseCSV = (text: string) => {
+        const lines = text.split(/\r?\n/).filter(l => l.trim().length > 0);
+        if (lines.length === 0) return [];
+        const headers = lines[0].split(',').map(h => h.trim().replace(/^"|"$/g, '').toLowerCase());
+        const missing = REQUIRED_HEADERS.filter(h => !headers.includes(h));
+        if (missing.length) {
+            throw new Error(`Faltan columnas: ${missing.join(', ')}`);
+        }
+        const rows = lines.slice(1).map(line => {
+            const cells = line.match(/("([^"]|"")*"|[^,]+)/g) || [];
+            const record: any = {};
+            cells.forEach((cell, idx) => {
+                const key = headers[idx];
+                const value = cell.replace(/^"|"$/g, '').replace(/""/g, '"').trim();
+                record[key] = value;
+            });
+            return record;
+        });
+        return rows;
+    };
+
+    const toBool = (val: string) => {
+        const v = (val || '').toLowerCase();
+        return v === 'true' || v === '1' || v === 'si' || v === 'sí';
+    };
+
+    const importProducts = async (file: File, statusEl: HTMLElement) => {
+        const text = await file.text();
+        const rows = parseCSV(text);
+
+        const actuales = getCustomProducts();
+        let inserted = 0;
+
+        rows.forEach((row: any) => {
+            const nuevo = {
+                id: `custom-${Date.now()}-${Math.random().toString(16).slice(2)}`,
+                codigo: row.codigo || '',
+                nombre: row.nombre || '',
+                precio: Number(row.precio) || 0,
+                barra: row.barra || '',
+                invetario: Number(row.invetario) || 0,
+                proveedor: row.proveedor || '',
+                imagen: row.imagen || '',
+                activo: toBool(row.activo ?? 'true'),
+                esPersonalizado: true,
+            };
+
+            if (!nuevo.codigo || !nuevo.nombre || !nuevo.proveedor) {
+                return;
+            }
+
+            const exists = actuales.some(p => (p.codigo || '').toLowerCase() === nuevo.codigo.toLowerCase());
+            if (!exists) {
+                actuales.push(nuevo);
+                inserted += 1;
+            }
+        });
+
+        saveCustomProducts(actuales);
+        renderCustomProducts();
+        showImportStatus(statusEl, `Importación completa. Agregados ${inserted} productos.`);
+    };
+
+    const showImportStatus = (el: HTMLElement, msg: string, isError = false) => {
+        el.textContent = msg;
+        el.classList.remove('status-error', 'status-ok');
+        el.classList.add(isError ? 'status-error' : 'status-ok');
+    };
 
     // Función para validar formatos de imagen permitidos
     function isValidImageFormat(url: string): boolean {
@@ -137,6 +332,40 @@ const proveedores = Array.from(
     // Manejo de errores de carga de imágenes y actualización con imágenes cargadas
     document.addEventListener('DOMContentLoaded', () => {
         filterProducts('', '');
+        renderCustomProducts();
+        
+        const downloadBtn = document.getElementById('downloadProducts');
+        const uploadBtn = document.getElementById('uploadProducts');
+        const uploadInput = document.getElementById('uploadProductsInput') as HTMLInputElement | null;
+        const statusEl = document.getElementById('pcStatus') || document.createElement('div');
+        
+        downloadBtn?.addEventListener('click', () => {
+            downloadProducts();
+            showImportStatus(statusEl as HTMLElement, 'Descarga lista.', false);
+        });
+
+        uploadBtn?.addEventListener('click', () => {
+            uploadInput?.click();
+        });
+
+        uploadInput?.addEventListener('change', async (e) => {
+            const target = e.target as HTMLInputElement;
+            const file = target.files?.[0];
+            if (!file) return;
+            try {
+                showImportStatus(statusEl as HTMLElement, 'Procesando archivo...', false);
+                await importProducts(file, statusEl as HTMLElement);
+            } catch (err: any) {
+                showImportStatus(statusEl as HTMLElement, err?.message || 'Error al importar', true);
+                console.error(err);
+            } finally {
+                target.value = '';
+            }
+        });
+        
+        document.addEventListener('productCreated', () => {
+            renderCustomProducts();
+        });
         
         // Actualizar imágenes con las cargadas desde localStorage
         const productImages = document.querySelectorAll('.imagen-Product');
@@ -222,83 +451,81 @@ const proveedores = Array.from(
         proveedorSelect.addEventListener('change', updateFilter);
     }
 
-    // Manejo de la cantidad de productos
-    document.querySelectorAll('.quantity-control').forEach(control => {
-        const input = control.querySelector('.quantity-input') as HTMLInputElement;
-        const minusBtn = control.querySelector('.minus') as HTMLButtonElement;
-        const plusBtn = control.querySelector('.plus') as HTMLButtonElement;
+    const productsContainer = document.querySelector('.products-container');
 
-        if (!input || !minusBtn || !plusBtn) return;
+    // Manejo de cantidad (delegación)
+    productsContainer?.addEventListener('click', (event) => {
+        const target = event.target as HTMLElement;
+        const control = target.closest('.quantity-control');
+        if (!control) return;
 
-        minusBtn.addEventListener('click', () => {
+        const input = control.querySelector('.quantity-input') as HTMLInputElement | null;
+        if (!input) return;
+
+        if (target.classList.contains('minus')) {
             const currentValue = parseInt(input.value) || 0;
             if (currentValue > 0) {
-                input.value = (currentValue - 1).toString();
+                input.value = String(currentValue - 1);
             }
-        });
+        }
 
-        plusBtn.addEventListener('click', () => {
+        if (target.classList.contains('plus')) {
             const currentValue = parseInt(input.value) || 0;
-            input.value = (currentValue + 1).toString();
-        });
-
-        input.addEventListener('change', (e: Event) => {
-            const target = e.target as HTMLInputElement;
-            let value = parseInt(target.value) || 0;
-            if (value < 0) value = 0;
-            target.value = value.toString();
-        });
+            input.value = String(currentValue + 1);
+        }
     });
 
-    // Manejo de agregar al carrito
-    document.querySelectorAll('.add-to-cart-btn').forEach(button => {
-        button.addEventListener('click', (e) => {
-            const btn = e.target as HTMLButtonElement;
-            const productId = btn.dataset.productId;
-            const card = btn.closest('.product-card');
-            const quantityInput = card?.querySelector('.quantity-input') as HTMLInputElement;
-            const quantity = parseInt(quantityInput?.value || '0');
+    productsContainer?.addEventListener('change', (event) => {
+        const target = event.target as HTMLElement;
+        if (!target.classList.contains('quantity-input')) return;
+        const input = target as HTMLInputElement;
+        let value = parseInt(input.value) || 0;
+        if (value < 0) value = 0;
+        input.value = value.toString();
+    });
 
-            if (quantity > 0) {
-                // Obtener información del producto
-                const productName = card?.querySelector('h3')?.textContent || '';
-                const priceText = card?.querySelector('.price')?.textContent || '';
-                const price = parseFloat(priceText.replace('$', '').trim());
+    // Manejo de agregar al carrito (delegación)
+    productsContainer?.addEventListener('click', (event) => {
+        const target = event.target as HTMLElement;
+        if (!target.classList.contains('add-to-cart-btn')) return;
 
-                // Obtener carrito actual del localStorage
-                const currentCart = JSON.parse(localStorage.getItem('cartItems') || '[]');
-                
-                // Buscar si el producto ya existe en el carrito
-                const existingItemIndex = currentCart.findIndex((item: any) => item.codigo === productId);
-                
-                if (existingItemIndex >= 0) {
-                    // Actualizar cantidad si el producto ya existe
-                    currentCart[existingItemIndex].cantidad += quantity;
-                } else {
-                    // Agregar nuevo producto al carrito
-                    currentCart.push({
-                        codigo: productId,
-                        nombre: productName,
-                        precio: price,
-                        cantidad: quantity
-                    });
-                }
+        const btn = target as HTMLButtonElement;
+        const productId = btn.dataset.productId;
+        const card = btn.closest('.product-card');
+        const quantityInput = card?.querySelector('.quantity-input') as HTMLInputElement;
+        const quantity = parseInt(quantityInput?.value || '0');
 
-                // Guardar carrito actualizado
-                localStorage.setItem('cartItems', JSON.stringify(currentCart));
+        if (quantity > 0) {
+            const productName = card?.querySelector('h3')?.textContent || '';
+            const priceText = card?.querySelector('.price')?.textContent || '';
+            const price = parseFloat(priceText.replace('$', '').trim());
 
-                // Mostrar mensaje y resetear cantidad
-                alert(`Producto agregado al carrito - Cantidad: ${quantity}`);
-                quantityInput.value = '0';
-
-                // Opcional: Redirigir al carrito
-                if (confirm('¿Desea ir al carrito?')) {
-                    window.location.href = '/carrito';
-                }
+            const currentCart = JSON.parse(localStorage.getItem('cartItems') || '[]');
+            
+            const existingItemIndex = currentCart.findIndex((item: any) => item.codigo === productId);
+            
+            if (existingItemIndex >= 0) {
+                currentCart[existingItemIndex].cantidad += quantity;
             } else {
-                alert('Por favor seleccione una cantidad mayor a 0');
+                currentCart.push({
+                    codigo: productId,
+                    nombre: productName,
+                    precio: price,
+                    cantidad: quantity
+                });
             }
-        });
+
+            localStorage.setItem('cartItems', JSON.stringify(currentCart));
+
+            alert(`Producto agregado al carrito - Cantidad: ${quantity}`);
+            quantityInput.value = '0';
+
+            if (confirm('¿Desea ir al carrito?')) {
+                window.location.href = '/carrito';
+            }
+        } else {
+            alert('Por favor seleccione una cantidad mayor a 0');
+        }
     });
 </script>
 
@@ -314,6 +541,26 @@ const proveedores = Array.from(
         border-radius: var(--border-radius-lg);
         box-shadow: var(--shadow-lg);
         border: 1px solid var(--gray-200);
+    }
+    .bulk-actions {
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .bulk-btn {
+        background: var(--primary-color);
+        color: white;
+        border: none;
+        padding: 0.65rem 1rem;
+        border-radius: var(--border-radius);
+        cursor: pointer;
+        font-weight: 600;
+    }
+    .bulk-btn--secondary {
+        background: var(--secondary-color);
+        color: var(--primary-color);
+        border: 1px solid var(--primary-color);
     }
     .filter-container label {
         font-weight: 600;

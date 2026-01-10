@@ -7,6 +7,7 @@ export interface VendedorSession {
   id: number;
   nombre: string;
   loginTime: string;
+  rol?: string;
 }
 
 /**
@@ -49,6 +50,15 @@ export function logout(): void {
   if (typeof window === 'undefined') return;
   sessionStorage.removeItem('vendedorSession');
   window.location.href = '/login';
+}
+
+/**
+ * Verifica si el usuario autenticado es administrador
+ */
+export function isAdmin(): boolean {
+  if (typeof window === 'undefined') return false;
+  const session = getSession();
+  return (session?.rol || '').toLowerCase() === 'administrador';
 }
 
 /**

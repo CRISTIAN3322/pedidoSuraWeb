@@ -3725,7 +3725,7 @@
         "barra": 5010677713009,
         "invetario": 0,
         "proveedor": "GLOBAL",
-        "activo": true
+        "activo": false
     },
     {
         "id": 340,
