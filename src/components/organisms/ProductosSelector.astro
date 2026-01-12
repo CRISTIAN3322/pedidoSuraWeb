@@ -13,7 +13,7 @@ const proveedores = Array.from(
 ---
 
 <div class="filter-container">
-    <div class="bulk-actions">
+    <div class="bulk-actions" id="bulkActionsContainer" style="display: none;">
         <button id="downloadProducts" class="bulk-btn">⬇️ Descargar productos</button>
         <button id="uploadProducts" class="bulk-btn bulk-btn--secondary">⬆️ Cargar desde Excel/CSV</button>
         <input type="file" id="uploadProductsInput" accept=".csv,.xls,.xlsx" hidden />
@@ -329,39 +329,67 @@ const proveedores = Array.from(
     // Importar utilidades de imagen (solo en cliente)
     import { getProductImageUrl } from '../../utils/imageUtils.js';
 
+    // Función para verificar si el usuario es administrador
+    function isAdministrador() {
+        if (typeof window === 'undefined') return false;
+        try {
+            const session = sessionStorage.getItem('vendedorSession');
+            if (!session) return false;
+            const sessionData = JSON.parse(session);
+            return (sessionData.rol || '').toLowerCase() === 'administrador';
+        } catch {
+            return false;
+        }
+    }
+
     // Manejo de errores de carga de imágenes y actualización con imágenes cargadas
     document.addEventListener('DOMContentLoaded', () => {
         filterProducts('', '');
         renderCustomProducts();
         
+        // Verificar si es administrador y mostrar/ocultar todos los botones bulk-btn
+        const esAdmin = isAdministrador();
+        const bulkActionsContainer = document.getElementById('bulkActionsContainer');
         const downloadBtn = document.getElementById('downloadProducts');
         const uploadBtn = document.getElementById('uploadProducts');
         const uploadInput = document.getElementById('uploadProductsInput') as HTMLInputElement | null;
         const statusEl = document.getElementById('pcStatus') || document.createElement('div');
         
-        downloadBtn?.addEventListener('click', () => {
-            downloadProducts();
-            showImportStatus(statusEl as HTMLElement, 'Descarga lista.', false);
-        });
-
-        uploadBtn?.addEventListener('click', () => {
-            uploadInput?.click();
-        });
-
-        uploadInput?.addEventListener('change', async (e) => {
-            const target = e.target as HTMLInputElement;
-            const file = target.files?.[0];
-            if (!file) return;
-            try {
-                showImportStatus(statusEl as HTMLElement, 'Procesando archivo...', false);
-                await importProducts(file, statusEl as HTMLElement);
-            } catch (err: any) {
-                showImportStatus(statusEl as HTMLElement, err?.message || 'Error al importar', true);
-                console.error(err);
-            } finally {
-                target.value = '';
+        // Mostrar u ocultar todo el contenedor de botones bulk según el rol
+        if (bulkActionsContainer) {
+            if (esAdmin) {
+                bulkActionsContainer.style.display = '';
+            } else {
+                bulkActionsContainer.style.display = 'none';
             }
-        });
+        }
+        
+        // Solo agregar event listeners si es administrador
+        if (esAdmin) {
+            downloadBtn?.addEventListener('click', () => {
+                downloadProducts();
+                showImportStatus(statusEl as HTMLElement, 'Descarga lista.', false);
+            });
+
+            uploadBtn?.addEventListener('click', () => {
+                uploadInput?.click();
+            });
+
+            uploadInput?.addEventListener('change', async (e) => {
+                const target = e.target as HTMLInputElement;
+                const file = target.files?.[0];
+                if (!file) return;
+                try {
+                    showImportStatus(statusEl as HTMLElement, 'Procesando archivo...', false);
+                    await importProducts(file, statusEl as HTMLElement);
+                } catch (err: any) {
+                    showImportStatus(statusEl as HTMLElement, err?.message || 'Error al importar', true);
+                    console.error(err);
+                } finally {
+                    target.value = '';
+                }
+            });
+        }
         
         document.addEventListener('productCreated', () => {
             renderCustomProducts();
