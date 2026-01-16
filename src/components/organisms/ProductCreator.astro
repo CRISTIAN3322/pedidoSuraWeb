@@ -1,0 +1,280 @@
+---
+// Formulario para crear productos. Solo se muestra a administradores.
+---
+
+<section class="product-creator" id="productCreator" hidden>
+  <div class="product-creator__header">
+    <h2>🆕 Crear producto</h2>
+    <p>Solo visible para administradores autenticados</p>
+  </div>
+
+  <form class="product-creator__form" id="productCreatorForm">
+    <div class="form-row">
+      <label>
+        Código*
+        <input type="text" id="pcCodigo" required autocomplete="off" placeholder="ABC0001" />
+      </label>
+      <label>
+        Nombre*
+        <input type="text" id="pcNombre" required autocomplete="off" placeholder="Nombre del producto" />
+      </label>
+    </div>
+
+    <div class="form-row">
+      <label>
+        Precio*
+        <input type="number" id="pcPrecio" required min="0" step="0.01" placeholder="0" />
+      </label>
+      <label>
+        Stock*
+        <input type="number" id="pcInventario" required min="0" step="1" placeholder="0" />
+      </label>
+      <label>
+        Código de barras
+        <input type="text" id="pcBarra" autocomplete="off" placeholder="Opcional" />
+      </label>
+    </div>
+
+    <div class="form-row">
+      <label>
+        Proveedor*
+        <input type="text" id="pcProveedor" required autocomplete="off" placeholder="Proveedor" />
+      </label>
+      <label>
+        Imagen (URL)
+        <input type="url" id="pcImagen" autocomplete="off" placeholder="https://..." />
+      </label>
+      <label class="checkbox-label">
+        <input type="checkbox" id="pcActivo" checked />
+        <span>Activo</span>
+      </label>
+    </div>
+
+    <div class="product-creator__actions">
+      <button type="submit" class="btn-primary" id="pcSubmit">Guardar producto</button>
+      <span class="helper-text">Se guarda en tu navegador y se añade al listado.</span>
+    </div>
+    <p class="product-creator__status" id="pcStatus"></p>
+  </form>
+</section>
+
+<script>
+  import { isAdmin } from '../../utils/auth.ts';
+
+  interface CustomProduct {
+    id: string;
+    codigo: string;
+    nombre: string;
+    precio: number;
+    imagen: string;
+    barra: string;
+    invetario: number;
+    proveedor: string;
+    activo: boolean;
+    esPersonalizado: true;
+  }
+
+  const CUSTOM_PRODUCTS_KEY = 'customProducts';
+
+  const getCustomProducts = (): CustomProduct[] => {
+    try {
+      return JSON.parse(localStorage.getItem(CUSTOM_PRODUCTS_KEY) || '[]');
+    } catch {
+      return [];
+    }
+  };
+
+  const saveCustomProducts = (products: CustomProduct[]) => {
+    localStorage.setItem(CUSTOM_PRODUCTS_KEY, JSON.stringify(products));
+  };
+
+  const showStatus = (element: HTMLElement, message: string, type: 'ok' | 'error') => {
+    element.textContent = message;
+    element.classList.remove('status-ok', 'status-error');
+    element.classList.add(type === 'ok' ? 'status-ok' : 'status-error');
+  };
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const container = document.getElementById('productCreator') as HTMLElement | null;
+    const form = document.getElementById('productCreatorForm') as HTMLFormElement | null;
+    const status = document.getElementById('pcStatus') as HTMLElement | null;
+
+    if (!container || !form || !status) return;
+
+    // Solo mostrar si es administrador
+    if (isAdmin()) {
+      container.hidden = false;
+    }
+
+    const codigo = document.getElementById('pcCodigo') as HTMLInputElement;
+    const nombre = document.getElementById('pcNombre') as HTMLInputElement;
+    const precio = document.getElementById('pcPrecio') as HTMLInputElement;
+    const inventario = document.getElementById('pcInventario') as HTMLInputElement;
+    const barra = document.getElementById('pcBarra') as HTMLInputElement;
+    const proveedor = document.getElementById('pcProveedor') as HTMLInputElement;
+    const imagen = document.getElementById('pcImagen') as HTMLInputElement;
+    const activo = document.getElementById('pcActivo') as HTMLInputElement;
+    const submitBtn = document.getElementById('pcSubmit') as HTMLButtonElement;
+
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      if (!isAdmin()) {
+        showStatus(status, 'Solo los administradores pueden crear productos.', 'error');
+        return;
+      }
+
+      const nuevoProducto: CustomProduct = {
+        id: `custom-${Date.now()}`,
+        codigo: codigo.value.trim(),
+        nombre: nombre.value.trim(),
+        precio: parseFloat(precio.value) || 0,
+        imagen: imagen.value.trim(),
+        barra: barra.value.trim(),
+        invetario: parseInt(inventario.value, 10) || 0,
+        proveedor: proveedor.value.trim(),
+        activo: activo.checked,
+        esPersonalizado: true,
+      };
+
+      if (!nuevoProducto.codigo || !nuevoProducto.nombre || !nuevoProducto.proveedor) {
+        showStatus(status, 'Completa los campos obligatorios.', 'error');
+        return;
+      }
+
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Guardando...';
+
+      const actuales = getCustomProducts();
+      if (actuales.some((p) => p.codigo.toLowerCase() === nuevoProducto.codigo.toLowerCase())) {
+        showStatus(status, 'Ya existe un producto con ese código.', 'error');
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Guardar producto';
+        return;
+      }
+
+      actuales.push(nuevoProducto);
+      saveCustomProducts(actuales);
+
+      form.reset();
+      activo.checked = true;
+      showStatus(status, 'Producto creado y agregado al catálogo.', 'ok');
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Guardar producto';
+
+      document.dispatchEvent(new CustomEvent('productCreated', { detail: nuevoProducto }));
+    });
+  });
+</script>
+
+<style>
+  .product-creator {
+    background: #ffffff;
+    border: 1px solid var(--gray-200);
+    border-radius: var(--border-radius-lg);
+    padding: 1.25rem;
+    box-shadow: var(--shadow-md);
+    margin: 1rem auto 1.5rem;
+    max-width: 1400px;
+  }
+
+  .product-creator__header h2 {
+    margin: 0 0 0.25rem 0;
+    color: var(--primary-color);
+  }
+
+  .product-creator__header p {
+    margin: 0;
+    color: var(--gray-600);
+    font-size: 0.95rem;
+  }
+
+  .product-creator__form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .form-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 0.75rem;
+  }
+
+  label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    font-weight: 600;
+    color: var(--color-text-primary, #1a365d);
+  }
+
+  input[type='text'],
+  input[type='number'],
+  input[type='url'] {
+    padding: 0.65rem 0.75rem;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--gray-300);
+    font-size: 1rem;
+  }
+
+  input:focus {
+    outline: 2px solid var(--primary-color);
+    border-color: transparent;
+  }
+
+  .checkbox-label {
+    align-self: end;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.4rem;
+  }
+
+  .product-creator__actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .btn-primary {
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: var(--border-radius);
+    padding: 0.75rem 1.2rem;
+    cursor: pointer;
+    font-weight: 700;
+  }
+
+  .btn-primary:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
+  .helper-text {
+    color: var(--gray-600);
+    font-size: 0.95rem;
+  }
+
+  .product-creator__status {
+    margin: 0;
+    font-weight: 600;
+  }
+
+  .status-ok {
+    color: #2f855a;
+  }
+
+  .status-error {
+    color: #c53030;
+  }
+
+  @media (max-width: 768px) {
+    .product-creator {
+      padding: 1rem;
+    }
+  }
+</style>
+
+

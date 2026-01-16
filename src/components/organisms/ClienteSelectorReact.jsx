@@ -227,7 +227,7 @@ function ClienteSelectorReact() {
 
     return carteraCliente.some(factura => {
       const dias = Number(factura.dias) || 0;
-      return dias >= 70; // Facturas vencidas mayores a 20 días
+      return dias > 40; // Facturas vencidas mayores a 40 días
     });
   }, [carteraCliente]);
 

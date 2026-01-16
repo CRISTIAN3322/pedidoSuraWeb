@@ -1,0 +1,1132 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
+---
+
+<script>
+  // Proteger ruta - verificar si hay sesión activa
+  if (typeof window !== 'undefined') {
+    const session = sessionStorage.getItem('vendedorSession');
+    if (!session) {
+      window.location.href = '/login';
+    }
+  }
+</script>
+
+<BaseLayout title="Ventas - Sura Pedidos Web" description="Consulta tus ventas por proveedor">
+  <BloqueoHorario />
+  
+  <div class="container">
+    <header class="header">
+      <h1 id="pageTitle">💰 Mis Ventas</h1>
+      <p class="subtitle" id="vendedorTitle">Cargando información del vendedor...</p>
+    </header>
+
+    <div class="ventas-container">
+      <div id="ventasContent">
+        <div class="loading">Cargando datos de ventas...</div>
+      </div>
+    </div>
+  </div>
+</BaseLayout>
+
+<script>
+  // Función para formatear números como moneda
+  const formatCurrency = (amount: number) => {
+    return new Intl.NumberFormat('es-CO', {
+      style: 'currency',
+      currency: 'COP',
+      minimumFractionDigits: 0,
+      maximumFractionDigits: 0
+    }).format(amount);
+  };
+
+  // Obtener datos del vendedor de la sesión
+  function getVendedorNombre() {
+    if (typeof window === 'undefined') return null;
+    try {
+      const session = sessionStorage.getItem('vendedorSession');
+      if (!session) return null;
+      const sessionData = JSON.parse(session);
+      return sessionData.nombre || null;
+    } catch {
+      return null;
+    }
+  }
+
+  // Verificar si el usuario es administrador
+  function isAdministrador() {
+    if (typeof window === 'undefined') return false;
+    try {
+      const session = sessionStorage.getItem('vendedorSession');
+      if (!session) return false;
+      const sessionData = JSON.parse(session);
+      return (sessionData.rol || '').toLowerCase() === 'administrador';
+    } catch {
+      return false;
+    }
+  }
+
+  // Renderizar tabla de ventas para un vendedor
+  function renderVendedorTable(ventasVendedor: any, vendedorNombre: string) {
+    if (!ventasVendedor || !ventasVendedor.proveedor || ventasVendedor.proveedor.length === 0) {
+      return `
+        <div class="no-data">
+          <p>📊 No se encontraron datos de ventas para este vendedor.</p>
+        </div>
+      `;
+    }
+
+    // Ordenar proveedores por total descendente
+    const proveedores = [...ventasVendedor.proveedor].sort((a: any, b: any) => b.total - a.total);
+
+    // Calcular total general
+    const totalGeneral = proveedores.reduce((sum: number, prov: any) => sum + prov.total, 0);
+
+    return `
+      <div class="vendedor-stats">
+        <div class="stat-card">
+          <span class="stat-label">Total Proveedores</span>
+          <span class="stat-value">${proveedores.length}</span>
+        </div>
+        <div class="stat-card stat-card--primary">
+          <span class="stat-label">Total General</span>
+          <span class="stat-value">${formatCurrency(totalGeneral)}</span>
+        </div>
+      </div>
+
+      <div class="table-container">
+        <table class="ventas-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Proveedor</th>
+              <th class="text-right">Total Ventas</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${proveedores.map((proveedor: any, index: number) => `
+              <tr>
+                <td class="text-center">${index + 1}</td>
+                <td>${proveedor.grupo}</td>
+                <td class="text-right amount">${formatCurrency(proveedor.total)}</td>
+              </tr>
+            `).join('')}
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="2" class="text-right total-label"><strong>Total General:</strong></td>
+              <td class="text-right total-amount"><strong>${formatCurrency(totalGeneral)}</strong></td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    `;
+  }
+
+  // Renderizar las ventas
+  async function renderVentas() {
+    const vendedorNombre = getVendedorNombre();
+    const esAdmin = isAdministrador();
+    const ventasContent = document.getElementById('ventasContent');
+    const vendedorTitle = document.getElementById('vendedorTitle');
+
+    if (!vendedorNombre) {
+      if (ventasContent) {
+        ventasContent.innerHTML = '<div class="error">No se pudo obtener la información del vendedor. Por favor, inicia sesión nuevamente.</div>';
+      }
+      return;
+    }
+
+    // Actualizar título
+    const pageTitle = document.getElementById('pageTitle');
+    if (pageTitle) {
+      if (esAdmin) {
+        pageTitle.textContent = '👑 Ventas - Vista Administrador';
+      } else {
+        pageTitle.textContent = '💰 Mis Ventas';
+      }
+    }
+
+    if (vendedorTitle) {
+      if (esAdmin) {
+        vendedorTitle.textContent = `Vista general de todas las ventas por vendedor`;
+      } else {
+        vendedorTitle.textContent = `Vendedor: ${vendedorNombre}`;
+      }
+    }
+
+    // Cargar datos de ventas desde el API
+    let ventasData: any[] = [];
+    let timeoutId: any = null;
+    
+    try {
+      const controller = new AbortController();
+      timeoutId = setTimeout(() => controller.abort(), 10000); // 10 segundos timeout
+      
+      const response = await fetch('/api/ventas.json', {
+        signal: controller.signal,
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        method: 'GET',
+      });
+      
+      if (timeoutId) {
+        clearTimeout(timeoutId);
+        timeoutId = null;
+      }
+      
+      if (!response.ok) {
+        throw new Error(`Error al cargar datos de ventas: ${response.status} ${response.statusText}`);
+      }
+      
+      const data = await response.json();
+      if (!Array.isArray(data)) {
+        throw new Error('Los datos recibidos no tienen el formato esperado');
+      }
+      ventasData = data;
+    } catch (error: any) {
+      if (timeoutId) {
+        clearTimeout(timeoutId);
+      }
+      console.error('Error cargando datos de ventas:', error);
+      const errorMessage = error.name === 'AbortError' 
+        ? 'La carga de datos está tardando demasiado. Por favor, intenta de nuevo.'
+        : error.message || 'Error al cargar los datos de ventas. Por favor, recarga la página.';
+      
+      if (ventasContent) {
+        ventasContent.innerHTML = `<div class="error">${errorMessage}</div>`;
+      }
+      return;
+    }
+
+    if (!ventasContent) return;
+
+    // Si es administrador, mostrar todas las ventas en acordeón
+    if (esAdmin) {
+      // Filtrar ventas que tienen datos
+      const ventasConDatos = ventasData.filter((venta: any) => 
+        venta.proveedor && venta.proveedor.length > 0
+      );
+
+      if (ventasConDatos.length === 0) {
+        ventasContent.innerHTML = `
+          <div class="no-data">
+            <p>📊 No se encontraron datos de ventas.</p>
+          </div>
+        `;
+        return;
+      }
+
+      // Calcular total general de todos los vendedores
+      const totalGlobal = ventasConDatos.reduce((sum: number, venta: any) => {
+        const totalVendedor = venta.proveedor.reduce((s: number, p: any) => s + p.total, 0);
+        return sum + totalVendedor;
+      }, 0);
+
+      // Ordenar por total descendente
+      ventasConDatos.sort((a: any, b: any) => {
+        const totalA = a.proveedor.reduce((sum: number, p: any) => sum + p.total, 0);
+        const totalB = b.proveedor.reduce((sum: number, p: any) => sum + p.total, 0);
+        return totalB - totalA;
+      });
+
+      const acordeonHTML = `
+        <div class="admin-stats">
+          <div class="stat-card stat-card--admin">
+            <span class="stat-label">Total Vendedores</span>
+            <span class="stat-value">${ventasConDatos.length}</span>
+          </div>
+          <div class="stat-card stat-card--primary stat-card--admin">
+            <span class="stat-label">Total Global</span>
+            <span class="stat-value">${formatCurrency(totalGlobal)}</span>
+          </div>
+        </div>
+
+        <div class="accordion-container">
+          ${ventasConDatos.map((venta: any, index: number) => {
+            const totalVendedor = venta.proveedor.reduce((sum: number, p: any) => sum + p.total, 0);
+            const totalProveedores = venta.proveedor.length;
+            const accordionId = `accordion-${index}`;
+            
+            return `
+              <div class="accordion-item">
+                <button class="accordion-header" onclick="toggleAccordion('${accordionId}')" aria-expanded="false">
+                  <div class="accordion-header-content">
+                    <span class="accordion-title">${venta.vendedor}</span>
+                    <div class="accordion-badges">
+                      <span class="badge badge--proveedores">${totalProveedores} proveedores</span>
+                      <span class="badge badge--total">${formatCurrency(totalVendedor)}</span>
+                    </div>
+                  </div>
+                  <span class="accordion-icon" id="icon-${accordionId}">+</span>
+                </button>
+                <div class="accordion-content" id="${accordionId}" style="display: none;">
+                  ${renderVendedorTable(venta, venta.vendedor)}
+                </div>
+              </div>
+            `;
+          }).join('')}
+        </div>
+      `;
+
+      ventasContent.innerHTML = acordeonHTML;
+      
+      // Asegurar que los estilos se apliquen correctamente
+      requestAnimationFrame(() => {
+        const accordionItems = ventasContent.querySelectorAll('.accordion-item');
+        accordionItems.forEach((item: any, index: number) => {
+          if (item.style) {
+            item.style.setProperty('background', '#00a878', 'important');
+            item.style.setProperty('padding', '5px', 'important');
+            item.style.setProperty('margin-top', index === 0 ? '0' : '10px', 'important');
+            item.style.setProperty('border-radius', '7px', 'important');
+          }
+        });
+        
+        const accordionHeaders = ventasContent.querySelectorAll('.accordion-header');
+        accordionHeaders.forEach((header: any) => {
+          if (header.style) {
+            header.style.setProperty('background', '#0b5d3f', 'important');
+            header.style.setProperty('color', '#ffffff', 'important');
+            header.style.setProperty('width', '100%', 'important');
+            header.style.setProperty('border-radius', '7px 7px 0 0', 'important');
+          }
+        });
+        
+        const accordionTitles = ventasContent.querySelectorAll('.accordion-title');
+        accordionTitles.forEach((title: any) => {
+          if (title.style) {
+            title.style.setProperty('color', '#ffffff', 'important');
+          }
+        });
+        
+        const accordionIcons = ventasContent.querySelectorAll('.accordion-icon');
+        accordionIcons.forEach((icon: any) => {
+          if (icon.style) {
+            icon.style.setProperty('background', 'transparent', 'important');
+            icon.style.setProperty('color', '#ffffff', 'important');
+          }
+        });
+      });
+      
+      return;
+    }
+
+    // Si es vendedor normal, mostrar solo sus ventas
+    const ventasVendedor = ventasData.find((venta: any) => 
+      venta.vendedor === vendedorNombre
+    );
+
+    if (!ventasVendedor || !ventasVendedor.proveedor || ventasVendedor.proveedor.length === 0) {
+      ventasContent.innerHTML = `
+        <div class="no-data">
+          <p>📊 No se encontraron datos de ventas para este vendedor.</p>
+        </div>
+      `;
+      return;
+    }
+
+    // Renderizar tabla normal para vendedor
+    ventasContent.innerHTML = renderVendedorTable(ventasVendedor, vendedorNombre);
+  }
+
+  // Función para toggle del acordeón
+  (window as any).toggleAccordion = function(accordionId: string) {
+    try {
+      const content = document.getElementById(accordionId);
+      const icon = document.getElementById(`icon-${accordionId}`);
+      const button = content?.previousElementSibling as HTMLElement;
+      const accordionItem = button?.closest('.accordion-item') as HTMLElement;
+
+      if (!content || !icon || !button || !accordionItem) {
+        console.warn('Elementos del acordeón no encontrados:', { accordionId, content, icon, button, accordionItem });
+        return;
+      }
+
+      const isExpanded = content.style.display !== 'none';
+      
+      if (isExpanded) {
+        content.style.display = 'none';
+        icon.textContent = '+';
+        accordionItem.classList.remove('accordion-item--active');
+        button.setAttribute('aria-expanded', 'false');
+      } else {
+        content.style.display = 'block';
+        icon.textContent = '−';
+        accordionItem.classList.add('accordion-item--active');
+        button.setAttribute('aria-expanded', 'true');
+      }
+    } catch (error) {
+      console.error('Error en toggleAccordion:', error);
+    }
+  };
+
+  // Ejecutar cuando se cargue la página
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => {
+      renderVentas().catch((error) => {
+        console.error('Error al renderizar ventas:', error);
+        const ventasContent = document.getElementById('ventasContent');
+        if (ventasContent) {
+          ventasContent.innerHTML = '<div class="error">Ocurrió un error al cargar la página. Por favor, recarga.</div>';
+        }
+      });
+    });
+  } else {
+    // El DOM ya está listo
+    renderVentas().catch((error) => {
+      console.error('Error al renderizar ventas:', error);
+      const ventasContent = document.getElementById('ventasContent');
+      if (ventasContent) {
+        ventasContent.innerHTML = '<div class="error">Ocurrió un error al cargar la página. Por favor, recarga.</div>';
+      }
+    });
+  }
+</script>
+
+<style>
+  .container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+
+  .header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 2rem 0;
+    background: linear-gradient(135deg, rgba(0, 168, 120, 0.05) 0%, rgba(0, 217, 154, 0.05) 100%);
+    border-radius: var(--border-radius-2xl, 16px);
+    border: 1px solid rgba(0, 168, 120, 0.1);
+  }
+
+  .header h1 {
+    background: linear-gradient(135deg, #00a878 0%, #00d99a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 0.75rem;
+    letter-spacing: -0.02em;
+  }
+
+  .subtitle {
+    color: var(--color-text-muted, #666);
+    font-size: 1.125rem;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+  }
+
+  .ventas-container {
+    background: var(--color-surface, #ffffff);
+    border-radius: var(--border-radius-2xl, 16px);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08), 0 2px 8px rgba(0, 0, 0, 0.04);
+    padding: 2.5rem;
+    border: 1px solid rgba(0, 168, 120, 0.08);
+    transition: box-shadow 0.3s ease;
+  }
+
+  .ventas-container:hover {
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.12), 0 4px 12px rgba(0, 0, 0, 0.06);
+  }
+
+  .loading {
+    text-align: center;
+    padding: 4rem 3rem;
+    color: var(--color-text-muted, #666);
+    font-size: 1.125rem;
+    font-weight: 500;
+  }
+
+  .loading::after {
+    content: '...';
+    animation: dots 1.5s steps(4, end) infinite;
+  }
+
+  @keyframes dots {
+    0%, 20% { content: '.'; }
+    40% { content: '..'; }
+    60%, 100% { content: '...'; }
+  }
+
+  .error {
+    text-align: center;
+    padding: 3rem;
+    color: #c53030;
+    background: linear-gradient(135deg, rgba(254, 94, 65, 0.1) 0%, rgba(229, 62, 62, 0.1) 100%);
+    border-radius: var(--border-radius-xl, 12px);
+    font-size: 1.125rem;
+    font-weight: 500;
+    border: 2px solid rgba(254, 94, 65, 0.2);
+  }
+
+  .no-data {
+    text-align: center;
+    padding: 4rem 3rem;
+    color: var(--color-text-muted, #666);
+    font-size: 1.125rem;
+    background: linear-gradient(135deg, rgba(0, 168, 120, 0.03) 0%, rgba(0, 217, 154, 0.03) 100%);
+    border-radius: var(--border-radius-xl, 12px);
+    border: 2px dashed rgba(0, 168, 120, 0.2);
+  }
+
+  .stats-summary,
+  .admin-stats,
+  .vendedor-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .stat-card {
+    background: var(--color-surface, #ffffff);
+    border: 2px solid rgba(0, 168, 120, 0.12);
+    border-radius: var(--border-radius-2xl, 16px);
+    padding: 2rem 1.5rem;
+    text-align: center;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+
+  .stat-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #00a878 0%, #00d99a 100%);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.4s ease;
+  }
+
+  .stat-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 12px 24px rgba(0, 168, 120, 0.15), 0 4px 8px rgba(0, 0, 0, 0.08);
+    border-color: rgba(0, 168, 120, 0.3);
+  }
+
+  .stat-card:hover::before {
+    transform: scaleX(1);
+  }
+
+  .stat-card--primary {
+    background: linear-gradient(135deg, #00a878 0%, #00d99a 100%);
+    border-color: #00a878;
+    color: white;
+    box-shadow: 0 8px 20px rgba(0, 168, 120, 0.25);
+  }
+
+  .stat-card--primary::before {
+    background: rgba(255, 255, 255, 0.3);
+    height: 100%;
+    opacity: 0;
+    transform: scaleY(0);
+  }
+
+  .stat-card--primary:hover::before {
+    opacity: 1;
+    transform: scaleY(1);
+  }
+
+  .stat-card--admin {
+    background: linear-gradient(135deg, #4a5568 0%, #2d3748 100%);
+    border-color: #4a5568;
+    color: white;
+    box-shadow: 0 8px 20px rgba(74, 85, 104, 0.25);
+  }
+
+  .stat-card--admin::before {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.05) 100%);
+  }
+
+  .stat-card--admin:hover {
+    box-shadow: 0 12px 24px rgba(74, 85, 104, 0.3), 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+
+  .stat-label {
+    display: block;
+    font-size: 0.875rem;
+    color: var(--color-text-muted, #666);
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .stat-card--primary .stat-label,
+  .stat-card--admin .stat-label {
+    color: rgba(255, 255, 255, 0.95);
+    font-weight: 600;
+  }
+
+  .stat-value {
+    display: block;
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--color-primary, #00a878);
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+  }
+
+  .stat-card--primary .stat-value,
+  .stat-card--admin .stat-value {
+    color: white;
+  }
+
+  .table-container {
+    overflow-x: auto;
+    border-radius: var(--border-radius-xl, 12px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 168, 120, 0.1);
+    background: var(--color-surface, #ffffff);
+  }
+
+  .ventas-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background: var(--color-surface, #ffffff);
+  }
+
+  .ventas-table thead {
+    background: linear-gradient(135deg, #00a878 0%, #00d99a 100%);
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+
+  .ventas-table th {
+    padding: 1.25rem 1rem;
+    text-align: left;
+    font-weight: 700;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: white;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .ventas-table th:first-child {
+    border-top-left-radius: var(--border-radius-xl, 12px);
+  }
+
+  .ventas-table th:last-child {
+    border-top-right-radius: var(--border-radius-xl, 12px);
+  }
+
+  .ventas-table tbody tr {
+    border-bottom: 1px solid rgba(0, 168, 120, 0.08);
+    transition: all 0.2s ease;
+    background: var(--color-surface, #ffffff);
+  }
+
+  .ventas-table tbody tr:hover {
+    background: linear-gradient(135deg, rgba(0, 168, 120, 0.05) 0%, rgba(0, 217, 154, 0.05) 100%);
+    transform: scale(1.01);
+    box-shadow: 0 2px 8px rgba(0, 168, 120, 0.1);
+  }
+
+  .ventas-table tbody tr:last-child {
+    border-bottom: none;
+  }
+
+  .ventas-table td {
+    padding: 1.25rem 1rem;
+    color: var(--color-text-primary, #2d3748);
+    font-size: 0.9375rem;
+  }
+
+  .ventas-table tfoot {
+    background: linear-gradient(135deg, rgba(0, 168, 120, 0.08) 0%, rgba(0, 217, 154, 0.08) 100%);
+    border-top: 3px solid var(--color-primary, #00a878);
+  }
+
+  .ventas-table tfoot td {
+    padding: 1.5rem 1rem;
+    font-size: 1.125rem;
+    font-weight: 700;
+  }
+
+  .text-right {
+    text-align: right;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .amount {
+    font-weight: 700;
+    color: var(--color-primary, #00a878);
+    font-size: 1rem;
+  }
+
+  .total-label {
+    color: var(--color-text-primary, #2d3748);
+    font-weight: 700;
+  }
+
+  .total-amount {
+    color: var(--color-primary, #00a878);
+    font-size: 1.375rem;
+    font-weight: 800;
+  }
+
+  /* Estilos del acordeón - Estilo verde */
+  #ventasContent .accordion-container,
+  .ventas-container .accordion-container,
+  .ventas-container #ventasContent .accordion-container,
+  .accordion-container {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 10px !important;
+    background: transparent !important;
+    border-radius: 0 !important;
+    overflow: visible !important;
+    box-shadow: none !important;
+    margin-top: 2rem !important;
+    width: 100% !important;
+    min-height: 0 !important;
+  }
+
+  #ventasContent .accordion-item,
+  .ventas-container .accordion-item,
+  .accordion-item {
+    background: #00a878 !important;
+    border: none !important;
+    border-bottom: none !important;
+    overflow: hidden !important;
+    transition: all 0.3s ease !important;
+    position: relative !important;
+    padding: 5px !important;
+    margin-top: 10px !important;
+    border-radius: 7px !important;
+  }
+
+  .accordion-item:first-child {
+    margin-top: 0 !important;
+  }
+
+  .accordion-item:hover {
+    background: #00b884 !important;
+  }
+
+  .accordion-item--active {
+    background: #ffffff !important;
+  }
+
+  .accordion-item--active .accordion-header {
+    background: transparent !important;
+    border-left: 4px solid #00a878 !important;
+  }
+
+  #ventasContent .accordion-header,
+  .ventas-container .accordion-header,
+  .accordion-header {
+    width: 100% !important;
+    background: #0b5d3f !important;
+    border: none !important;
+    padding: 1.25rem 1.5rem !important;
+    text-align: left !important;
+    cursor: pointer !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    transition: all 0.2s ease !important;
+    font-family: inherit !important;
+    position: relative !important;
+    border-left: 4px solid #00a878 !important;
+    color: #ffffff !important;
+    border-radius: 7px 7px 0 0 !important;
+  }
+
+  .accordion-header:hover {
+    background: #0a5238 !important;
+  }
+
+  .accordion-item--active .accordion-header {
+    background: #0b5d3f !important;
+    color: #ffffff !important;
+    border-radius: 7px 7px 0 0 !important;
+  }
+
+  .accordion-item--active .accordion-header:hover {
+    background: #0a5238 !important;
+  }
+
+  .accordion-header:focus-visible {
+    outline: 2px solid #00a878 !important;
+    outline-offset: -2px !important;
+  }
+
+  .accordion-header-content {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0.5rem !important;
+    flex: 1 !important;
+  }
+
+  #ventasContent .accordion-title,
+  .ventas-container .accordion-title,
+  .accordion-title {
+    font-size: 1.0625rem !important;
+    font-weight: 600 !important;
+    color: #ffffff !important;
+    letter-spacing: 0.01em !important;
+    line-height: 1.4 !important;
+    margin: 0 !important;
+  }
+
+  .accordion-item--active .accordion-title {
+    color: #ffffff !important;
+    font-weight: 700 !important;
+  }
+
+  .accordion-badges {
+    display: flex !important;
+    gap: 0.75rem !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+  }
+
+  .badge {
+    padding: 0.375rem 0.75rem !important;
+    border-radius: 4px !important;
+    font-size: 0.8125rem !important;
+    font-weight: 500 !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 0.25rem !important;
+    transition: all 0.2s ease !important;
+  }
+
+  .badge--proveedores {
+    background: rgba(255, 255, 255, 0.2) !important;
+    color: #ffffff !important;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+  }
+
+  .accordion-item--active .badge--proveedores {
+    background: rgba(255, 255, 255, 0.2) !important;
+    color: #ffffff !important;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+  }
+
+  .badge--total {
+    background: rgba(255, 255, 255, 0.9) !important;
+    color: #0b5d3f !important;
+    border: 1px solid rgba(255, 255, 255, 0.5) !important;
+    font-weight: 600 !important;
+  }
+
+  .accordion-item--active .badge--total {
+    background: rgba(255, 255, 255, 0.9) !important;
+    color: #0b5d3f !important;
+    border: 1px solid rgba(255, 255, 255, 0.5) !important;
+  }
+
+  .accordion-icon {
+    font-size: 1.5rem !important;
+    color: #ffffff !important;
+    transition: all 0.2s ease !important;
+    flex-shrink: 0 !important;
+    margin-left: 1rem !important;
+    width: auto !important;
+    height: auto !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-weight: 700 !important;
+    line-height: 1 !important;
+    background: transparent !important;
+    border-radius: 0 !important;
+  }
+
+  .accordion-item--active .accordion-icon {
+    color: #ffffff !important;
+    background: transparent !important;
+  }
+
+  .accordion-content {
+    padding: 2rem 1.5rem 2rem 3rem !important;
+    background: #ffffff !important;
+    border-top: 2px solid rgba(0, 168, 120, 0.3) !important;
+    animation: slideDown 0.3s ease !important;
+    border-radius: 0 0 7px 7px !important;
+  }
+
+  /* Ajustar estilos de tabla dentro del acordeón */
+  .accordion-content .vendedor-stats {
+    margin-bottom: 1.5rem !important;
+  }
+
+  .accordion-content .stat-card {
+    background: #ffffff !important;
+    border-color: rgba(0, 168, 120, 0.2) !important;
+    color: #0b0500 !important;
+  }
+
+  .accordion-content .stat-label {
+    color: #666 !important;
+  }
+
+  .accordion-content .stat-value {
+    color: #00a878 !important;
+  }
+
+  .accordion-content .stat-card--primary {
+    background: linear-gradient(135deg, #00a878 0%, #00d99a 100%) !important;
+    border-color: #00a878 !important;
+    color: white !important;
+  }
+
+  .accordion-content .stat-card--primary .stat-label {
+    color: rgba(255, 255, 255, 0.95) !important;
+  }
+
+  .accordion-content .stat-card--primary .stat-value {
+    color: white !important;
+  }
+
+  .accordion-content .table-container {
+    background: #ffffff !important;
+    border-color: rgba(0, 168, 120, 0.2) !important;
+  }
+
+  .accordion-content .ventas-table {
+    background: transparent !important;
+  }
+
+  .accordion-content .ventas-table thead {
+    background: linear-gradient(135deg, #00a878 0%, #00d99a 100%) !important;
+  }
+
+  .accordion-content .ventas-table tbody tr {
+    background: #ffffff !important;
+    border-bottom-color: rgba(0, 168, 120, 0.1) !important;
+  }
+
+  .accordion-content .ventas-table tbody tr:hover {
+    background: rgba(0, 168, 120, 0.05) !important;
+  }
+
+  .accordion-content .ventas-table td {
+    color: #0b0500 !important;
+  }
+
+  .accordion-content .ventas-table tfoot {
+    background: rgba(0, 168, 120, 0.08) !important;
+    border-top-color: #00a878 !important;
+  }
+
+  .accordion-content .amount {
+    color: #00a878 !important;
+  }
+
+  .accordion-content .total-label {
+    color: #0b0500 !important;
+  }
+
+  .accordion-content .total-amount {
+    color: #00a878 !important;
+  }
+
+  @keyframes slideDown {
+    from {
+      opacity: 0;
+      transform: translateY(-15px);
+      max-height: 0;
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+      max-height: 5000px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      padding: 1rem 0.75rem;
+    }
+
+    .header {
+      padding: 1.5rem 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .header h1 {
+      font-size: 2rem;
+    }
+
+    .subtitle {
+      font-size: 1rem;
+    }
+
+    .ventas-container {
+      padding: 1.5rem;
+      border-radius: var(--border-radius-xl, 12px);
+    }
+
+    .stats-summary,
+    .admin-stats,
+    .vendedor-stats {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .stat-card {
+      padding: 1.5rem 1.25rem;
+    }
+
+    .stat-value {
+      font-size: 1.75rem;
+    }
+
+    .ventas-table {
+      font-size: 0.875rem;
+    }
+
+    .ventas-table th {
+      padding: 1rem 0.75rem;
+      font-size: 0.8rem;
+    }
+
+    .ventas-table td {
+      padding: 1rem 0.75rem;
+    }
+
+    .ventas-table tfoot td {
+      padding: 1.25rem 0.75rem;
+      font-size: 1rem;
+    }
+
+    .accordion-header {
+      padding: 1.125rem 1.25rem;
+    }
+
+    .accordion-title {
+      font-size: 1.0625rem;
+    }
+
+    .accordion-content {
+      padding: 1.5rem 1.25rem 1.5rem 2rem;
+    }
+
+    .badge {
+      font-size: 0.8125rem;
+      padding: 0.375rem 0.6875rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .container {
+      padding: 0.75rem 0.5rem;
+    }
+
+    .header {
+      padding: 1.25rem 0.75rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .header h1 {
+      font-size: 1.75rem;
+    }
+
+    .subtitle {
+      font-size: 0.9375rem;
+    }
+
+    .ventas-container {
+      padding: 1rem;
+    }
+
+    .stat-card {
+      padding: 1.25rem 1rem;
+    }
+
+    .stat-label {
+      font-size: 0.8125rem;
+    }
+
+    .stat-value {
+      font-size: 1.5rem;
+    }
+
+    .ventas-table {
+      font-size: 0.8125rem;
+    }
+
+    .ventas-table th {
+      padding: 0.875rem 0.5rem;
+      font-size: 0.75rem;
+    }
+
+    .ventas-table td {
+      padding: 0.875rem 0.5rem;
+      font-size: 0.8125rem;
+    }
+
+    .ventas-table tfoot td {
+      padding: 1rem 0.5rem;
+      font-size: 0.9375rem;
+    }
+
+    .total-amount {
+      font-size: 1.125rem;
+    }
+
+    .accordion-header {
+      padding: 1rem 1.125rem;
+      flex-wrap: wrap;
+    }
+
+    .accordion-title {
+      font-size: 1rem;
+      width: calc(100% - 40px);
+      margin-bottom: 0.5rem;
+    }
+
+    .accordion-header-content {
+      width: calc(100% - 40px);
+    }
+
+    .accordion-badges {
+      flex-direction: column;
+      gap: 0.5rem;
+      width: 100%;
+    }
+
+    .badge {
+      width: 100%;
+      justify-content: center;
+    }
+
+    .accordion-icon {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      margin: 0;
+      width: 28px;
+      height: 28px;
+      font-size: 1.25rem;
+    }
+
+    .accordion-content {
+      padding: 1.25rem 1.125rem 1.25rem 1.75rem;
+    }
+
+    .vendedor-stats {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

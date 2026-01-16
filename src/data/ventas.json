@@ -1,0 +1,1836 @@
+[
+    {
+        "vendedor": "ANA SOFIA ROLDAN RIQUE",
+        "proveedor": [
+            {
+                "grupo": "ATW INTERNACIONAL SAS",
+                "total": 26172
+            },
+            {
+                "grupo": "BODEGAS CASA DEL RHIN ZF SAS",
+                "total": 2366034
+            },
+            {
+                "grupo": "CASA IBAÑEZ COLOMBIA SAS",
+                "total": 6352097
+            },
+            {
+                "grupo": "COMERCIALIZADORA JS PRODUCTOS SAS",
+                "total": 228396
+            },
+            {
+                "grupo": "COMESTIBLES ITALO SA",
+                "total": 4139428
+            },
+            {
+                "grupo": "COMPAÑÍA DE DULCES SAS",
+                "total": 10439010
+            },
+            {
+                "grupo": "DISCOA SAS",
+                "total": 2045193
+            },
+            {
+                "grupo": "DISLICORES - DISTRIBUIDORA DE VINOS Y LICORES",
+                "total": 4976074
+            },
+            {
+                "grupo": "DORIS PATRICIA FONSECA RODRIGUEZ",
+                "total": 2143671
+            },
+            {
+                "grupo": "DS DISTRI SAMY SAS",
+                "total": 60432
+            },
+            {
+                "grupo": "DUQUESA S.A. BIC",
+                "total": 3191883
+            },
+            {
+                "grupo": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
+                "total": 1131620
+            },
+            {
+                "grupo": "GLOBAL WINE & SPIRITS LTDA",
+                "total": 22251662
+            },
+            {
+                "grupo": "INDUSTRIAS F C S.A.S - MARCHEN",
+                "total": 157300
+            },
+            {
+                "grupo": "INFUSIONES HERBAR SAS",
+                "total": 466224
+            },
+            {
+                "grupo": "LABORATORIOS COFARMA S.A",
+                "total": 3279998
+            },
+            {
+                "grupo": "PAPELES NACIONALES SAS",
+                "total": 1510796
+            },
+            {
+                "grupo": "PREBEL SA BIC",
+                "total": 15295631
+            },
+            {
+                "grupo": "PRECOCIDOS DEL ORIENTE SA",
+                "total": 2241170
+            },
+            {
+                "grupo": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
+                "total": 390656
+            },
+            {
+                "grupo": "PRODUSA ZONA FRANCA SAS",
+                "total": 684024
+            },
+            {
+                "grupo": "PROPETS SAS",
+                "total": 181013
+            },
+            {
+                "grupo": "PUERTOMAR ZOMAC SAS",
+                "total": 1163776
+            },
+            {
+                "grupo": "RONDA - INDUSTRIA COLOMBIANA DE CARNE SA",
+                "total": 3217536
+            },
+            {
+                "grupo": "RUBIFLEX SAS",
+                "total": 331848
+            },
+            {
+                "grupo": "SABAJON APOLO SA",
+                "total": 6281470
+            },
+            {
+                "grupo": "SURAMERICANA JI SAS",
+                "total": 69822
+            },
+            {
+                "grupo": "SURAMERICANA JI SAS - TEMPORADA",
+                "total": 919207
+            },
+            {
+                "grupo": "TONING SAS",
+                "total": 39621284
+            },
+            {
+                "grupo": "VENTAS NACIONALES SAS",
+                "total": 2028908
+            },
+            {
+                "grupo": "Z06 - CONGRUPO S A",
+                "total": 266371
+            }
+        ]
+    },
+    {
+        "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
+        "proveedor": [
+            {
+                "grupo": "ALUMINIO NACIONAL S.A",
+                "total": 129105
+            },
+            {
+                "grupo": "ATW INTERNACIONAL SAS",
+                "total": 5361984
+            },
+            {
+                "grupo": "BODEGAS CASA DEL RHIN ZF SAS",
+                "total": 3805140
+            },
+            {
+                "grupo": "CASA IBAÑEZ COLOMBIA SAS",
+                "total": 1016937
+            },
+            {
+                "grupo": "COMERCIALIZADORA JS PRODUCTOS SAS",
+                "total": 97884
+            },
+            {
+                "grupo": "COMESTIBLES ITALO SA",
+                "total": 21205613
+            },
+            {
+                "grupo": "DISCOA SAS",
+                "total": 1569400
+            },
+            {
+                "grupo": "DISLICORES - DISTRIBUIDORA DE VINOS Y LICORES",
+                "total": 1158374
+            },
+            {
+                "grupo": "DORIS PATRICIA FONSECA RODRIGUEZ",
+                "total": 1315123
+            },
+            {
+                "grupo": "DS DISTRI SAMY SAS",
+                "total": 400234
+            },
+            {
+                "grupo": "DUQUESA S.A. BIC",
+                "total": 3961907
+            },
+            {
+                "grupo": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
+                "total": 2764999
+            },
+            {
+                "grupo": "GLOBAL WINE & SPIRITS LTDA",
+                "total": 7078840
+            },
+            {
+                "grupo": "INDUSTRIAS F C S.A.S - MARCHEN",
+                "total": 443950
+            },
+            {
+                "grupo": "INFUSIONES HERBAR SAS",
+                "total": 2096752
+            },
+            {
+                "grupo": "LABORATORIOS COFARMA S.A",
+                "total": 1656354
+            },
+            {
+                "grupo": "PAPELES NACIONALES SAS",
+                "total": 492369
+            },
+            {
+                "grupo": "PREBEL SA BIC",
+                "total": 5157352
+            },
+            {
+                "grupo": "PRECOCIDOS DEL ORIENTE SA",
+                "total": 6978186
+            },
+            {
+                "grupo": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
+                "total": 1282012
+            },
+            {
+                "grupo": "PRODUSA ZONA FRANCA SAS",
+                "total": 7153002
+            },
+            {
+                "grupo": "PROPETS SAS",
+                "total": 317268
+            },
+            {
+                "grupo": "PUERTOMAR ZOMAC SAS",
+                "total": 1966088
+            },
+            {
+                "grupo": "RONDA - INDUSTRIA COLOMBIANA DE CARNE SA",
+                "total": 612864
+            },
+            {
+                "grupo": "RUBIFLEX SAS",
+                "total": 1298520
+            },
+            {
+                "grupo": "SABAJON APOLO SA",
+                "total": 5871420
+            },
+            {
+                "grupo": "SURAMERICANA JI SAS",
+                "total": 195276
+            },
+            {
+                "grupo": "TONING SAS",
+                "total": 27008137
+            },
+            {
+                "grupo": "VENTAS NACIONALES SAS",
+                "total": 377650
+            }
+        ]
+    },
+    {
+        "vendedor": "BUCKY SANTANA VANEGAS",
+        "proveedor": [
+            {
+                "grupo": "COMESTIBLES ITALO SA",
+                "total": -4499
+            }
+        ]
+    },
+    {
+        "vendedor": "CLARA INES PEÑA PEÑA",
+        "proveedor": [
+            {
+                "grupo": "ALUMINIO NACIONAL S.A",
+                "total": 44052
+            },
+            {
+                "grupo": "BODEGAS CASA DEL RHIN ZF SAS",
+                "total": 6012240
+            },
+            {
+                "grupo": "CASA IBAÑEZ COLOMBIA SAS",
+                "total": 348348
+            },
+            {
+                "grupo": "COMERCIALIZADORA JS PRODUCTOS SAS",
+                "total": 27190
+            },
+            {
+                "grupo": "COMESTIBLES ITALO SA",
+                "total": 7999964
+            },
+            {
+                "grupo": "DISCOA SAS",
+                "total": 94164
+            },
+            {
+                "grupo": "DISLICORES - DISTRIBUIDORA DE VINOS Y LICORES",
+                "total": 1991244
+            },
+            {
+                "grupo": "DS DISTRI SAMY SAS",
+                "total": 51204
+            },
+            {
+                "grupo": "DUQUESA S.A. BIC",
+                "total": 1944956
+            },
+            {
+                "grupo": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
+                "total": 1362496
+            },
+            {
+                "grupo": "GLOBAL WINE & SPIRITS LTDA",
+                "total": 435804
+            },
+            {
+                "grupo": "INFUSIONES HERBAR SAS",
+                "total": 626896
+            },
+            {
+                "grupo": "LABORATORIOS COFARMA S.A",
+                "total": 257368
+            },
+            {
+                "grupo": "PAPELES NACIONALES SAS",
+                "total": 66432
+            },
+            {
+                "grupo": "PREBEL SA BIC",
+                "total": 1271856
+            },
+            {
+                "grupo": "PRECOCIDOS DEL ORIENTE SA",
+                "total": 4816718
+            },
+            {
+                "grupo": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
+                "total": 530436
+            },
+            {
+                "grupo": "PRODUSA ZONA FRANCA SAS",
+                "total": 3326920
+            },
+            {
+                "grupo": "PROPETS SAS",
+                "total": 306274
+            },
+            {
+                "grupo": "PUERTOMAR ZOMAC SAS",
+                "total": 171144
+            },
+            {
+                "grupo": "SURAMERICANA JI SAS",
+                "total": 36738
+            },
+            {
+                "grupo": "TONING SAS",
+                "total": 7864825
+            },
+            {
+                "grupo": "Z06 - CONGRUPO S A",
+                "total": 22896
+            }
+        ]
+    },
+    {
+        "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
+        "proveedor": [
+            {
+                "grupo": "ATW INTERNACIONAL SAS",
+                "total": 524368
+            },
+            {
+                "grupo": "BODEGAS CASA DEL RHIN ZF SAS",
+                "total": 16527918
+            },
+            {
+                "grupo": "CASA IBAÑEZ COLOMBIA SAS",
+                "total": 300282
+            },
+            {
+                "grupo": "COMERCIALIZADORA JS PRODUCTOS SAS",
+                "total": 244710
+            },
+            {
+                "grupo": "COMESTIBLES ITALO SA",
+                "total": 21421685
+            },
+            {
+                "grupo": "COMPAÑÍA DE DULCES SAS",
+                "total": 4202500
+            },
+            {
+                "grupo": "DISCOA SAS",
+                "total": 2303496
+            },
+            {
+                "grupo": "DISLICORES - DISTRIBUIDORA DE VINOS Y LICORES",
+                "total": 2165502
+            },
+            {
+                "grupo": "DORIS PATRICIA FONSECA RODRIGUEZ",
+                "total": 191200
+            },
+            {
+                "grupo": "DS DISTRI SAMY SAS",
+                "total": -177640
+            },
+            {
+                "grupo": "DUQUESA S.A. BIC",
+                "total": 11831238
+            },
+            {
+                "grupo": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
+                "total": 3381142
+            },
+            {
+                "grupo": "GLOBAL WINE & SPIRITS LTDA",
+                "total": 2008185
+            },
+            {
+                "grupo": "INDUSTRIAS F C S.A.S - MARCHEN",
+                "total": 646694
+            },
+            {
+                "grupo": "INFUSIONES HERBAR SAS",
+                "total": 855372
+            },
+            {
+                "grupo": "LABORATORIOS COFARMA S.A",
+                "total": 599893
+            },
+            {
+                "grupo": "PAPELES NACIONALES SAS",
+                "total": 10753975
+            },
+            {
+                "grupo": "PREBEL SA BIC",
+                "total": 1357535
+            },
+            {
+                "grupo": "PRECOCIDOS DEL ORIENTE SA",
+                "total": 51114982
+            },
+            {
+                "grupo": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
+                "total": 6120402
+            },
+            {
+                "grupo": "PRODUSA ZONA FRANCA SAS",
+                "total": 8205800
+            },
+            {
+                "grupo": "PROPETS SAS",
+                "total": 2987607
+            },
+            {
+                "grupo": "PUERTOMAR ZOMAC SAS",
+                "total": 4444357
+            },
+            {
+                "grupo": "RUBIFLEX SAS",
+                "total": 7120476
+            },
+            {
+                "grupo": "SABAJON APOLO SA",
+                "total": 1134530
+            },
+            {
+                "grupo": "SURAMERICANA JI SAS - TEMPORADA",
+                "total": 5779860
+            },
+            {
+                "grupo": "TONING SAS",
+                "total": 28348944
+            },
+            {
+                "grupo": "VENTAS NACIONALES SAS",
+                "total": 6572616
+            },
+            {
+                "grupo": "Z06 - CONGRUPO S A",
+                "total": 127330
+            },
+            {
+                "grupo": "Z43 - DESCUENTOS DE ITALO",
+                "total": -68083
+            }
+        ]
+    },
+    {
+        "vendedor": "CONSUELO MUÑOZ",
+        "proveedor": [
+            {
+                "grupo": "ALUMINIO NACIONAL S.A",
+                "total": 505950
+            },
+            {
+                "grupo": "ATW INTERNACIONAL SAS",
+                "total": 222778
+            },
+            {
+                "grupo": "BODEGAS CASA DEL RHIN ZF SAS",
+                "total": 3996516
+            },
+            {
+                "grupo": "CASA IBAÑEZ COLOMBIA SAS",
+                "total": 1772265
+            },
+            {
+                "grupo": "COMERCIALIZADORA JS PRODUCTOS SAS",
+                "total": 48942
+            },
+            {
+                "grupo": "COMESTIBLES ITALO SA",
+                "total": 14659673
+            },
+            {
+                "grupo": "COMPAÑÍA DE DULCES SAS",
+                "total": 2353400
+            },
+            {
+                "grupo": "DISCOA SAS",
+                "total": 2354100
+            },
+            {
+                "grupo": "DISLICORES - DISTRIBUIDORA DE VINOS Y LICORES",
+                "total": 1048532
+            },
+            {
+                "grupo": "DORIS PATRICIA FONSECA RODRIGUEZ",
+                "total": 2954497
+            },
+            {
+                "grupo": "DS DISTRI SAMY SAS",
+                "total": 777395
+            },
+            {
+                "grupo": "DUQUESA S.A. BIC",
+                "total": 6069291
+            },
+            {
+                "grupo": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
+                "total": 555906
+            },
+            {
+                "grupo": "GLOBAL WINE & SPIRITS LTDA",
+                "total": 27782521
+            },
+            {
+                "grupo": "INDUSTRIAS F C S.A.S - MARCHEN",
+                "total": 97500
+            },
+            {
+                "grupo": "INFUSIONES HERBAR SAS",
+                "total": 667201
+            },
+            {
+                "grupo": "LABORATORIOS COFARMA S.A",
+                "total": 3377685
+            },
+            {
+                "grupo": "PAPELES NACIONALES SAS",
+                "total": 1489838
+            },
+            {
+                "grupo": "PREBEL SA BIC",
+                "total": 7554726
+            },
+            {
+                "grupo": "PRECOCIDOS DEL ORIENTE SA",
+                "total": 20854002
+            },
+            {
+                "grupo": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
+                "total": 4459180
+            },
+            {
+                "grupo": "PRODUCTOS ALIMENTICIOS BELLINI S.A.S",
+                "total": 66524
+            },
+            {
+                "grupo": "PRODUSA ZONA FRANCA SAS",
+                "total": 5204634
+            },
+            {
+                "grupo": "PROPETS SAS",
+                "total": 288986
+            },
+            {
+                "grupo": "PUERTOMAR ZOMAC SAS",
+                "total": 863832
+            },
+            {
+                "grupo": "RUBIFLEX SAS",
+                "total": 5386716
+            },
+            {
+                "grupo": "SABAJON APOLO SA",
+                "total": 1798338
+            },
+            {
+                "grupo": "SURAMERICANA JI SAS - TEMPORADA",
+                "total": 1535960
+            },
+            {
+                "grupo": "TONING SAS",
+                "total": 45194865
+            },
+            {
+                "grupo": "VENTAS NACIONALES SAS",
+                "total": 2779025
+            },
+            {
+                "grupo": "Z06 - CONGRUPO S A",
+                "total": 793940
+            }
+        ]
+    },
+    {
+        "vendedor": "CRISTIAN CAMILO POVEDA LAMPREA",
+        "proveedor": [
+            {
+                "grupo": "TONING SAS",
+                "total": -80640
+            }
+        ]
+    },
+    {
+        "vendedor": "DAVID YESID RAMIREZ LEGUIZAMON",
+        "proveedor": [
+            {
+                "grupo": "ALUMINIO NACIONAL S.A",
+                "total": 131564
+            },
+            {
+                "grupo": "BODEGAS CASA DEL RHIN ZF SAS",
+                "total": 538992
+            },
+            {
+                "grupo": "CASA IBAÑEZ COLOMBIA SAS",
+                "total": 1154586
+            },
+            {
+                "grupo": "COMERCIALIZADORA JS PRODUCTOS SAS",
+                "total": 146010
+            },
+            {
+                "grupo": "COMESTIBLES ITALO SA",
+                "total": 15578545
+            },
+            {
+                "grupo": "COMPAÑÍA DE DULCES SAS",
+                "total": 80688
+            },
+            {
+                "grupo": "DISCOA SAS",
+                "total": 1828351
+            },
+            {
+                "grupo": "DISLICORES - DISTRIBUIDORA DE VINOS Y LICORES",
+                "total": 1901075
+            },
+            {
+                "grupo": "DORIS PATRICIA FONSECA RODRIGUEZ",
+                "total": 3072094
+            },
+            {
+                "grupo": "DS DISTRI SAMY SAS",
+                "total": 337930
+            },
+            {
+                "grupo": "DUQUESA S.A. BIC",
+                "total": 1447861
+            },
+            {
+                "grupo": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
+                "total": 691900
+            },
+            {
+                "grupo": "GLOBAL WINE & SPIRITS LTDA",
+                "total": 2653231
+            },
+            {
+                "grupo": "INDUSTRIAS F C S.A.S - MARCHEN",
+                "total": 195000
+            },
+            {
+                "grupo": "INFUSIONES HERBAR SAS",
+                "total": 1702776
+            },
+            {
+                "grupo": "LABORATORIOS COFARMA S.A",
+                "total": 2664380
+            },
+            {
+                "grupo": "LICORES ARTESANAL SAS",
+                "total": 483432
+            },
+            {
+                "grupo": "PAPELES NACIONALES SAS",
+                "total": 1387751
+            },
+            {
+                "grupo": "PREBEL SA BIC",
+                "total": 2812557
+            },
+            {
+                "grupo": "PRECOCIDOS DEL ORIENTE SA",
+                "total": 7143231
+            },
+            {
+                "grupo": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
+                "total": 4854924
+            },
+            {
+                "grupo": "PRODUSA ZONA FRANCA SAS",
+                "total": 1023982
+            },
+            {
+                "grupo": "PROPETS SAS",
+                "total": 840519
+            },
+            {
+                "grupo": "PUERTOMAR ZOMAC SAS",
+                "total": 633232
+            },
+            {
+                "grupo": "RONDA - INDUSTRIA COLOMBIANA DE CARNE SA",
+                "total": 229824
+            },
+            {
+                "grupo": "RUBIFLEX SAS",
+                "total": 267498
+            },
+            {
+                "grupo": "SABAJON APOLO SA",
+                "total": 1200174
+            },
+            {
+                "grupo": "SURAMERICANA JI SAS",
+                "total": 569466
+            },
+            {
+                "grupo": "SURAMERICANA JI SAS - TEMPORADA",
+                "total": 129760
+            },
+            {
+                "grupo": "TONING SAS",
+                "total": 24703831
+            },
+            {
+                "grupo": "VENTAS NACIONALES SAS",
+                "total": 639531
+            },
+            {
+                "grupo": "Z06 - CONGRUPO S A",
+                "total": 652384
+            }
+        ]
+    },
+    {
+        "vendedor": "DIANA MARCELA BERMUDEZ SERRANO",
+        "proveedor": [
+            {
+                "grupo": "ALUMINIO NACIONAL S.A",
+                "total": 175320
+            },
+            {
+                "grupo": "ATW INTERNACIONAL SAS",
+                "total": 104688
+            },
+            {
+                "grupo": "BODEGAS CASA DEL RHIN ZF SAS",
+                "total": 1565664
+            },
+            {
+                "grupo": "CASA IBAÑEZ COLOMBIA SAS",
+                "total": 1447825
+            },
+            {
+                "grupo": "COMERCIALIZADORA JS PRODUCTOS SAS",
+                "total": 87008
+            },
+            {
+                "grupo": "COMESTIBLES ITALO SA",
+                "total": 5795458
+            },
+            {
+                "grupo": "COMPAÑÍA DE DULCES SAS",
+                "total": 806880
+            },
+            {
+                "grupo": "DISCOA SAS",
+                "total": 337421
+            },
+            {
+                "grupo": "DISLICORES - DISTRIBUIDORA DE VINOS Y LICORES",
+                "total": 2073404
+            },
+            {
+                "grupo": "DORIS PATRICIA FONSECA RODRIGUEZ",
+                "total": 4412854
+            },
+            {
+                "grupo": "DS DISTRI SAMY SAS",
+                "total": 47344
+            },
+            {
+                "grupo": "DUQUESA S.A. BIC",
+                "total": 467406
+            },
+            {
+                "grupo": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
+                "total": 913908
+            },
+            {
+                "grupo": "GLOBAL WINE & SPIRITS LTDA",
+                "total": 4054746
+            },
+            {
+                "grupo": "INDUSTRIAS F C S.A.S - MARCHEN",
+                "total": 317200
+            },
+            {
+                "grupo": "INFUSIONES HERBAR SAS",
+                "total": 867079
+            },
+            {
+                "grupo": "LABORATORIOS COFARMA S.A",
+                "total": 8502748
+            },
+            {
+                "grupo": "PAPELES NACIONALES SAS",
+                "total": 904963
+            },
+            {
+                "grupo": "PREBEL SA BIC",
+                "total": 1702003
+            },
+            {
+                "grupo": "PRECOCIDOS DEL ORIENTE SA",
+                "total": 1511362
+            },
+            {
+                "grupo": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
+                "total": 25608
+            },
+            {
+                "grupo": "PRODUSA ZONA FRANCA SAS",
+                "total": 1337259
+            },
+            {
+                "grupo": "PROPETS SAS",
+                "total": 1659114
+            },
+            {
+                "grupo": "PUERTOMAR ZOMAC SAS",
+                "total": 400476
+            },
+            {
+                "grupo": "RONDA - INDUSTRIA COLOMBIANA DE CARNE SA",
+                "total": 57456
+            },
+            {
+                "grupo": "RUBIFLEX SAS",
+                "total": 905544
+            },
+            {
+                "grupo": "SABAJON APOLO SA",
+                "total": 1540542
+            },
+            {
+                "grupo": "SURAMERICANA JI SAS",
+                "total": 614190
+            },
+            {
+                "grupo": "SURAMERICANA JI SAS - TEMPORADA",
+                "total": 120160
+            },
+            {
+                "grupo": "TONING SAS",
+                "total": 64293350
+            },
+            {
+                "grupo": "VENTAS NACIONALES SAS",
+                "total": 1067184
+            },
+            {
+                "grupo": "Z06 - CONGRUPO S A",
+                "total": 89880
+            }
+        ]
+    },
+    {
+        "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
+        "proveedor": [
+            {
+                "grupo": "ALUMINIO NACIONAL S.A",
+                "total": 1519320
+            },
+            {
+                "grupo": "ATW INTERNACIONAL SAS",
+                "total": 174480
+            },
+            {
+                "grupo": "BODEGAS CASA DEL RHIN ZF SAS",
+                "total": 1358410
+            },
+            {
+                "grupo": "CASA IBAÑEZ COLOMBIA SAS",
+                "total": 9364224
+            },
+            {
+                "grupo": "COMERCIALIZADORA JS PRODUCTOS SAS",
+                "total": 32628
+            },
+            {
+                "grupo": "COMESTIBLES ITALO SA",
+                "total": 19399695
+            },
+            {
+                "grupo": "DISCOA SAS",
+                "total": 2448264
+            },
+            {
+                "grupo": "DISLICORES - DISTRIBUIDORA DE VINOS Y LICORES",
+                "total": 5265333
+            },
+            {
+                "grupo": "DORIS PATRICIA FONSECA RODRIGUEZ",
+                "total": 1797706
+            },
+            {
+                "grupo": "DUQUESA S.A. BIC",
+                "total": 4077941
+            },
+            {
+                "grupo": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
+                "total": 3214771
+            },
+            {
+                "grupo": "GLOBAL WINE & SPIRITS LTDA",
+                "total": 2045936
+            },
+            {
+                "grupo": "INDUSTRIAS F C S.A.S - MARCHEN",
+                "total": 544700
+            },
+            {
+                "grupo": "INFUSIONES HERBAR SAS",
+                "total": 1047000
+            },
+            {
+                "grupo": "LABORATORIOS COFARMA S.A",
+                "total": 1737758
+            },
+            {
+                "grupo": "PAPELES NACIONALES SAS",
+                "total": 6548712
+            },
+            {
+                "grupo": "PREBEL SA BIC",
+                "total": 9733051
+            },
+            {
+                "grupo": "PRECOCIDOS DEL ORIENTE SA",
+                "total": 19474243
+            },
+            {
+                "grupo": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
+                "total": 1957384
+            },
+            {
+                "grupo": "PRODUSA ZONA FRANCA SAS",
+                "total": 8730038
+            },
+            {
+                "grupo": "PROPETS SAS",
+                "total": 533754
+            },
+            {
+                "grupo": "PUERTOMAR ZOMAC SAS",
+                "total": 119800
+            },
+            {
+                "grupo": "RONDA - INDUSTRIA COLOMBIANA DE CARNE SA",
+                "total": 153216
+            },
+            {
+                "grupo": "RUBIFLEX SAS",
+                "total": 804816
+            },
+            {
+                "grupo": "SABAJON APOLO SA",
+                "total": 2793588
+            },
+            {
+                "grupo": "SURAMERICANA JI SAS",
+                "total": 128658
+            },
+            {
+                "grupo": "SURAMERICANA JI SAS - TEMPORADA",
+                "total": 1667719
+            },
+            {
+                "grupo": "TONING SAS",
+                "total": 42185921
+            },
+            {
+                "grupo": "VENTAS NACIONALES SAS",
+                "total": 2123841
+            },
+            {
+                "grupo": "Z06 - CONGRUPO S A",
+                "total": 120692
+            },
+            {
+                "grupo": "Z43 - DESCUENTOS DE ITALO",
+                "total": -152251
+            }
+        ]
+    },
+    {
+        "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ",
+        "proveedor": [
+            {
+                "grupo": "ALUMINIO NACIONAL S.A",
+                "total": 894642
+            },
+            {
+                "grupo": "ATW INTERNACIONAL SAS",
+                "total": 861090
+            },
+            {
+                "grupo": "BODEGAS CASA DEL RHIN ZF SAS",
+                "total": 748418
+            },
+            {
+                "grupo": "CASA IBAÑEZ COLOMBIA SAS",
+                "total": 446534
+            },
+            {
+                "grupo": "COMERCIALIZADORA JS PRODUCTOS SAS",
+                "total": 331718
+            },
+            {
+                "grupo": "COMESTIBLES ITALO SA",
+                "total": 5671915
+            },
+            {
+                "grupo": "DISCOA SAS",
+                "total": 1112513
+            },
+            {
+                "grupo": "DISLICORES - DISTRIBUIDORA DE VINOS Y LICORES",
+                "total": 1542481
+            },
+            {
+                "grupo": "DORIS PATRICIA FONSECA RODRIGUEZ",
+                "total": 1208325
+            },
+            {
+                "grupo": "DS DISTRI SAMY SAS",
+                "total": 722662
+            },
+            {
+                "grupo": "DUQUESA S.A. BIC",
+                "total": 4188545
+            },
+            {
+                "grupo": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
+                "total": 1989012
+            },
+            {
+                "grupo": "GLOBAL WINE & SPIRITS LTDA",
+                "total": 2910793
+            },
+            {
+                "grupo": "INDUSTRIAS F C S.A.S - MARCHEN",
+                "total": 287300
+            },
+            {
+                "grupo": "INFUSIONES HERBAR SAS",
+                "total": 6415724
+            },
+            {
+                "grupo": "LABORATORIOS COFARMA S.A",
+                "total": 2003607
+            },
+            {
+                "grupo": "PAPELES NACIONALES SAS",
+                "total": 386631
+            },
+            {
+                "grupo": "PREBEL SA BIC",
+                "total": 2356505
+            },
+            {
+                "grupo": "PRECOCIDOS DEL ORIENTE SA",
+                "total": 6509492
+            },
+            {
+                "grupo": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
+                "total": 748532
+            },
+            {
+                "grupo": "PRODUCTOS ALIMENTICIOS BELLINI S.A.S",
+                "total": 3570630
+            },
+            {
+                "grupo": "PRODUSA ZONA FRANCA SAS",
+                "total": 3902616
+            },
+            {
+                "grupo": "PROPETS SAS",
+                "total": 290829
+            },
+            {
+                "grupo": "PUERTOMAR ZOMAC SAS",
+                "total": 1086248
+            },
+            {
+                "grupo": "RONDA - INDUSTRIA COLOMBIANA DE CARNE SA",
+                "total": 1570464
+            },
+            {
+                "grupo": "RUBIFLEX SAS",
+                "total": 864252
+            },
+            {
+                "grupo": "SABAJON APOLO SA",
+                "total": 406229
+            },
+            {
+                "grupo": "SURAMERICANA JI SAS",
+                "total": 192912
+            },
+            {
+                "grupo": "SURAMERICANA JI SAS - TEMPORADA",
+                "total": 121260
+            },
+            {
+                "grupo": "TONING SAS",
+                "total": 27793479
+            },
+            {
+                "grupo": "VENTAS NACIONALES SAS",
+                "total": 3002405
+            },
+            {
+                "grupo": "Z06 - CONGRUPO S A",
+                "total": 28620
+            }
+        ]
+    },
+    {
+        "vendedor": "JAIRO IBAÑEZ ARTUNDUAGA",
+        "proveedor": [
+            {
+                "grupo": "CASA IBAÑEZ COLOMBIA SAS",
+                "total": 9554648
+            },
+            {
+                "grupo": "COMERCIALIZADORA JS PRODUCTOS SAS",
+                "total": 1064958
+            },
+            {
+                "grupo": "COMESTIBLES ITALO SA",
+                "total": -152394
+            },
+            {
+                "grupo": "COMPAÑÍA DE DULCES SAS",
+                "total": 8008264
+            },
+            {
+                "grupo": "DORIS PATRICIA FONSECA RODRIGUEZ",
+                "total": 2038150
+            },
+            {
+                "grupo": "ESTACION CERVECERA SAS",
+                "total": 265588
+            },
+            {
+                "grupo": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
+                "total": 3692678
+            },
+            {
+                "grupo": "GLOBAL WINE & SPIRITS LTDA",
+                "total": 12021371
+            },
+            {
+                "grupo": "LABORATORIOS COFARMA S.A",
+                "total": 1969138
+            },
+            {
+                "grupo": "PREBEL SA BIC",
+                "total": 8117515
+            },
+            {
+                "grupo": "PRECOCIDOS DEL ORIENTE SA",
+                "total": 3845798
+            },
+            {
+                "grupo": "PRODUSA ZONA FRANCA SAS",
+                "total": 4808146
+            },
+            {
+                "grupo": "SABAJON APOLO SA",
+                "total": 20066
+            },
+            {
+                "grupo": "TONING SAS",
+                "total": 32836811
+            }
+        ]
+    },
+    {
+        "vendedor": "LISBETH JULIETH NARANJO ROJAS",
+        "proveedor": [
+            {
+                "grupo": "ATW INTERNACIONAL SAS",
+                "total": 8724
+            },
+            {
+                "grupo": "BODEGAS CASA DEL RHIN ZF SAS",
+                "total": 44916
+            },
+            {
+                "grupo": "CASA IBAÑEZ COLOMBIA SAS",
+                "total": 151276
+            },
+            {
+                "grupo": "COMERCIALIZADORA CONFIDULCES ELITE S.A.",
+                "total": 11481
+            },
+            {
+                "grupo": "COMERCIALIZADORA JS PRODUCTOS SAS",
+                "total": 5438
+            },
+            {
+                "grupo": "COMESTIBLES ITALO SA",
+                "total": 420934
+            },
+            {
+                "grupo": "COMPAÑÍA DE DULCES SAS",
+                "total": -336200
+            },
+            {
+                "grupo": "DS DISTRI SAMY SAS",
+                "total": 0
+            },
+            {
+                "grupo": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
+                "total": 286581
+            },
+            {
+                "grupo": "GLOBAL WINE & SPIRITS LTDA",
+                "total": 1146148
+            },
+            {
+                "grupo": "LABORATORIOS COFARMA S.A",
+                "total": 104348
+            },
+            {
+                "grupo": "LICORES ARTESANAL SAS",
+                "total": 39480
+            },
+            {
+                "grupo": "PAPELES NACIONALES SAS",
+                "total": 3600396
+            },
+            {
+                "grupo": "PREBEL SA BIC",
+                "total": 72062
+            },
+            {
+                "grupo": "PRECOCIDOS DEL ORIENTE SA",
+                "total": 531612
+            },
+            {
+                "grupo": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
+                "total": 198936
+            },
+            {
+                "grupo": "PRODUCTOS ALIMENTICIOS BELLINI S.A.S",
+                "total": 238042
+            },
+            {
+                "grupo": "PRODUSA ZONA FRANCA SAS",
+                "total": 11752
+            },
+            {
+                "grupo": "PROPETS SAS",
+                "total": 72770
+            },
+            {
+                "grupo": "PUERTOMAR ZOMAC SAS",
+                "total": 2396
+            },
+            {
+                "grupo": "RONDA - INDUSTRIA COLOMBIANA DE CARNE SA",
+                "total": 76608
+            },
+            {
+                "grupo": "SABAJON APOLO SA",
+                "total": 20822
+            },
+            {
+                "grupo": "SURAMERICANA JI SAS - TEMPORADA",
+                "total": -120546
+            },
+            {
+                "grupo": "TONING SAS",
+                "total": 6283863
+            }
+        ]
+    },
+    {
+        "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
+        "proveedor": [
+            {
+                "grupo": "ALUMINIO NACIONAL S.A",
+                "total": 639000
+            },
+            {
+                "grupo": "ATW INTERNACIONAL SAS",
+                "total": -349230
+            },
+            {
+                "grupo": "BODEGAS CASA DEL RHIN ZF SAS",
+                "total": 1727294
+            },
+            {
+                "grupo": "CASA IBAÑEZ COLOMBIA SAS",
+                "total": 1691908
+            },
+            {
+                "grupo": "COMERCIALIZADORA CONFIDULCES ELITE S.A.",
+                "total": -1148100
+            },
+            {
+                "grupo": "COMERCIALIZADORA JS PRODUCTOS SAS",
+                "total": 65256
+            },
+            {
+                "grupo": "COMESTIBLES ITALO SA",
+                "total": 11129882
+            },
+            {
+                "grupo": "COMPAÑÍA DE DULCES SAS",
+                "total": 1936512
+            },
+            {
+                "grupo": "DISCOA SAS",
+                "total": 313880
+            },
+            {
+                "grupo": "DISLICORES - DISTRIBUIDORA DE VINOS Y LICORES",
+                "total": 4874745
+            },
+            {
+                "grupo": "DORIS PATRICIA FONSECA RODRIGUEZ",
+                "total": 628401
+            },
+            {
+                "grupo": "DS DISTRI SAMY SAS",
+                "total": 253210
+            },
+            {
+                "grupo": "DUQUESA S.A. BIC",
+                "total": 5375853
+            },
+            {
+                "grupo": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
+                "total": 1399844
+            },
+            {
+                "grupo": "GLOBAL WINE & SPIRITS LTDA",
+                "total": 968795
+            },
+            {
+                "grupo": "INFUSIONES HERBAR SAS",
+                "total": 554456
+            },
+            {
+                "grupo": "LABORATORIOS COFARMA S.A",
+                "total": 559777
+            },
+            {
+                "grupo": "PAPELES NACIONALES SAS",
+                "total": 1311284
+            },
+            {
+                "grupo": "PREBEL SA BIC",
+                "total": 35859374
+            },
+            {
+                "grupo": "PRECOCIDOS DEL ORIENTE SA",
+                "total": 5741065
+            },
+            {
+                "grupo": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
+                "total": 2056554
+            },
+            {
+                "grupo": "PRODUSA ZONA FRANCA SAS",
+                "total": 3792144
+            },
+            {
+                "grupo": "PROPETS SAS",
+                "total": 708324
+            },
+            {
+                "grupo": "RONDA - INDUSTRIA COLOMBIANA DE CARNE SA",
+                "total": 452753
+            },
+            {
+                "grupo": "RUBIFLEX SAS",
+                "total": 1341864
+            },
+            {
+                "grupo": "SABAJON APOLO SA",
+                "total": 8519690
+            },
+            {
+                "grupo": "SURAMERICANA JI SAS",
+                "total": 192624
+            },
+            {
+                "grupo": "SURAMERICANA JI SAS - TEMPORADA",
+                "total": 1933376
+            },
+            {
+                "grupo": "TONING SAS",
+                "total": 18564136
+            },
+            {
+                "grupo": "VENTAS NACIONALES SAS",
+                "total": 546000
+            }
+        ]
+    },
+    {
+        "vendedor": "RAUL FERNANDO JIMENEZ TRIANA",
+        "proveedor": [
+            {
+                "grupo": "ATW INTERNACIONAL SAS",
+                "total": 83218
+            },
+            {
+                "grupo": "BODEGAS CASA DEL RHIN ZF SAS",
+                "total": 1032514
+            },
+            {
+                "grupo": "CASA IBAÑEZ COLOMBIA SAS",
+                "total": 322039
+            },
+            {
+                "grupo": "COMERCIALIZADORA JS PRODUCTOS SAS",
+                "total": 38718
+            },
+            {
+                "grupo": "COMESTIBLES ITALO SA",
+                "total": 6157160
+            },
+            {
+                "grupo": "COMPAÑÍA DE DULCES SAS",
+                "total": 227405
+            },
+            {
+                "grupo": "DISCOA SAS",
+                "total": 830280
+            },
+            {
+                "grupo": "DISLICORES - DISTRIBUIDORA DE VINOS Y LICORES",
+                "total": 3355499
+            },
+            {
+                "grupo": "DORIS PATRICIA FONSECA RODRIGUEZ",
+                "total": 6475527
+            },
+            {
+                "grupo": "DS DISTRI SAMY SAS",
+                "total": 147346
+            },
+            {
+                "grupo": "DUQUESA S.A. BIC",
+                "total": 95733
+            },
+            {
+                "grupo": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
+                "total": 2569874
+            },
+            {
+                "grupo": "GLOBAL WINE & SPIRITS LTDA",
+                "total": 2497392
+            },
+            {
+                "grupo": "INDUSTRIAS F C S.A.S - MARCHEN",
+                "total": 346983
+            },
+            {
+                "grupo": "INFUSIONES HERBAR SAS",
+                "total": 253760
+            },
+            {
+                "grupo": "LABORATORIOS COFARMA S.A",
+                "total": 999628
+            },
+            {
+                "grupo": "PAPELES NACIONALES SAS",
+                "total": 2634234
+            },
+            {
+                "grupo": "PREBEL SA BIC",
+                "total": 1877381
+            },
+            {
+                "grupo": "PRECOCIDOS DEL ORIENTE SA",
+                "total": 2383461
+            },
+            {
+                "grupo": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
+                "total": 45603
+            },
+            {
+                "grupo": "PRODUSA ZONA FRANCA SAS",
+                "total": 550096
+            },
+            {
+                "grupo": "PROPETS SAS",
+                "total": 330708
+            },
+            {
+                "grupo": "PUERTOMAR ZOMAC SAS",
+                "total": 98054
+            },
+            {
+                "grupo": "RONDA - INDUSTRIA COLOMBIANA DE CARNE SA",
+                "total": 407426
+            },
+            {
+                "grupo": "RUBIFLEX SAS",
+                "total": 357502
+            },
+            {
+                "grupo": "SABAJON APOLO SA",
+                "total": 202080
+            },
+            {
+                "grupo": "SURAMERICANA JI SAS",
+                "total": 123108
+            },
+            {
+                "grupo": "SURAMERICANA JI SAS - TEMPORADA",
+                "total": 1865466
+            },
+            {
+                "grupo": "TONING SAS",
+                "total": 5406924
+            },
+            {
+                "grupo": "VENTAS NACIONALES SAS",
+                "total": 675949
+            },
+            {
+                "grupo": "Z06 - CONGRUPO S A",
+                "total": -26408
+            }
+        ]
+    },
+    {
+        "vendedor": "SURAMERICANA JI SAS",
+        "proveedor": [
+            {
+                "grupo": "DISLICORES - DISTRIBUIDORA DE VINOS Y LICORES",
+                "total": 0
+            },
+            {
+                "grupo": "LICORES ARTESANAL SAS",
+                "total": 40286
+            },
+            {
+                "grupo": "SABAJON APOLO SA",
+                "total": 20039
+            },
+            {
+                "grupo": "SURAMERICANA JI SAS - TEMPORADA",
+                "total": 40420
+            },
+            {
+                "grupo": "Z38 - SERVICIOS",
+                "total": 69530101
+            }
+        ]
+    },
+    {
+        "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
+        "proveedor": [
+            {
+                "grupo": "ALUMINIO NACIONAL S.A",
+                "total": 533789
+            },
+            {
+                "grupo": "ATW INTERNACIONAL SAS",
+                "total": 154392
+            },
+            {
+                "grupo": "BODEGAS CASA DEL RHIN ZF SAS",
+                "total": 1619182
+            },
+            {
+                "grupo": "CASA IBAÑEZ COLOMBIA SAS",
+                "total": 4181527
+            },
+            {
+                "grupo": "COMERCIALIZADORA JS PRODUCTOS SAS",
+                "total": 1114137
+            },
+            {
+                "grupo": "COMESTIBLES ITALO SA",
+                "total": 6738623
+            },
+            {
+                "grupo": "COMPAÑÍA DE DULCES SAS",
+                "total": 1344800
+            },
+            {
+                "grupo": "DISCOA SAS",
+                "total": 962369
+            },
+            {
+                "grupo": "DISLICORES - DISTRIBUIDORA DE VINOS Y LICORES",
+                "total": 1655785
+            },
+            {
+                "grupo": "DORIS PATRICIA FONSECA RODRIGUEZ",
+                "total": 4114647
+            },
+            {
+                "grupo": "DS DISTRI SAMY SAS",
+                "total": 173667
+            },
+            {
+                "grupo": "DUQUESA S.A. BIC",
+                "total": 2154766
+            },
+            {
+                "grupo": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
+                "total": 3364064
+            },
+            {
+                "grupo": "GLOBAL WINE & SPIRITS LTDA",
+                "total": 24762551
+            },
+            {
+                "grupo": "INDUSTRIAS F C S.A.S - MARCHEN",
+                "total": 499720
+            },
+            {
+                "grupo": "INFUSIONES HERBAR SAS",
+                "total": 1419100
+            },
+            {
+                "grupo": "LABORATORIOS COFARMA S.A",
+                "total": 11696788
+            },
+            {
+                "grupo": "PAPELES NACIONALES SAS",
+                "total": 1895717
+            },
+            {
+                "grupo": "PREBEL SA BIC",
+                "total": 9164570
+            },
+            {
+                "grupo": "PRECOCIDOS DEL ORIENTE SA",
+                "total": 9007578
+            },
+            {
+                "grupo": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
+                "total": 8444785
+            },
+            {
+                "grupo": "PRODUCTOS ALIMENTICIOS BELLINI S.A.S",
+                "total": 204780
+            },
+            {
+                "grupo": "PRODUSA ZONA FRANCA SAS",
+                "total": 3219745
+            },
+            {
+                "grupo": "PROPETS SAS",
+                "total": 1459257
+            },
+            {
+                "grupo": "PUERTOMAR ZOMAC SAS",
+                "total": 224552
+            },
+            {
+                "grupo": "RONDA - INDUSTRIA COLOMBIANA DE CARNE SA",
+                "total": 720881
+            },
+            {
+                "grupo": "RUBIFLEX SAS",
+                "total": 2555536
+            },
+            {
+                "grupo": "SABAJON APOLO SA",
+                "total": 11917600
+            },
+            {
+                "grupo": "SURAMERICANA JI SAS",
+                "total": 830754
+            },
+            {
+                "grupo": "SURAMERICANA JI SAS - TEMPORADA",
+                "total": 440340
+            },
+            {
+                "grupo": "TONING SAS",
+                "total": 26756079
+            },
+            {
+                "grupo": "VENTAS NACIONALES SAS",
+                "total": 3270630
+            },
+            {
+                "grupo": "Z06 - CONGRUPO S A",
+                "total": 120204
+            }
+        ]
+    },
+    {
+        "vendedor": "YENY MARIBEL MONROY PATIÑO",
+        "proveedor": [
+            {
+                "grupo": "ATW INTERNACIONAL SAS",
+                "total": 1462707
+            },
+            {
+                "grupo": "BODEGAS CASA DEL RHIN ZF SAS",
+                "total": 1434762
+            },
+            {
+                "grupo": "CASA IBAÑEZ COLOMBIA SAS",
+                "total": 12560664
+            },
+            {
+                "grupo": "COMESTIBLES ITALO SA",
+                "total": 22202454
+            },
+            {
+                "grupo": "DISCOA SAS",
+                "total": 1294755
+            },
+            {
+                "grupo": "DISLICORES - DISTRIBUIDORA DE VINOS Y LICORES",
+                "total": 2510302
+            },
+            {
+                "grupo": "DORIS PATRICIA FONSECA RODRIGUEZ",
+                "total": 392760
+            },
+            {
+                "grupo": "DUQUESA S.A. BIC",
+                "total": 3192292
+            },
+            {
+                "grupo": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
+                "total": 896697
+            },
+            {
+                "grupo": "GLOBAL WINE & SPIRITS LTDA",
+                "total": 8110386
+            },
+            {
+                "grupo": "INDUSTRIAS F C S.A.S - MARCHEN",
+                "total": 65000
+            },
+            {
+                "grupo": "INFUSIONES HERBAR SAS",
+                "total": 554456
+            },
+            {
+                "grupo": "LABORATORIOS COFARMA S.A",
+                "total": 7969344
+            },
+            {
+                "grupo": "PAPELES NACIONALES SAS",
+                "total": 4810912
+            },
+            {
+                "grupo": "PREBEL SA BIC",
+                "total": 2344550
+            },
+            {
+                "grupo": "PRECOCIDOS DEL ORIENTE SA",
+                "total": 3082661
+            },
+            {
+                "grupo": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
+                "total": 644892
+            },
+            {
+                "grupo": "PRODUSA ZONA FRANCA SAS",
+                "total": 11544628
+            },
+            {
+                "grupo": "PUERTOMAR ZOMAC SAS",
+                "total": 799724
+            },
+            {
+                "grupo": "RUBIFLEX SAS",
+                "total": 3619272
+            },
+            {
+                "grupo": "SABAJON APOLO SA",
+                "total": 1155508
+            },
+            {
+                "grupo": "SURAMERICANA JI SAS",
+                "total": 103044
+            },
+            {
+                "grupo": "SURAMERICANA JI SAS - TEMPORADA",
+                "total": 760178
+            },
+            {
+                "grupo": "TONING SAS",
+                "total": 15658055
+            },
+            {
+                "grupo": "VENTAS NACIONALES SAS",
+                "total": 566500
+            },
+            {
+                "grupo": "Z06 - CONGRUPO S A",
+                "total": 378245
+            }
+        ]
+    }
+]

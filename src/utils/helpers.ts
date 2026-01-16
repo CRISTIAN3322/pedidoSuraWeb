@@ -68,7 +68,7 @@ export function throttle<T extends (...args: any[]) => any>(
  * Genera un ID único
  */
 export function generateId(): string {
-  return Math.random().toString(36).substr(2, 9);
+  return Math.random().toString(36).slice(2, 11);
 }
 
 /**
@@ -76,7 +76,7 @@ export function generateId(): string {
  */
 export function capitalizeWords(str: string): string {
   return str.replace(/\w\S*/g, (txt) => 
-    txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase()
+    txt.charAt(0).toUpperCase() + txt.slice(1).toLowerCase()
   );
 }
 
@@ -85,7 +85,7 @@ export function capitalizeWords(str: string): string {
  */
 export function truncateText(text: string, maxLength: number): string {
   if (text.length <= maxLength) return text;
-  return text.substr(0, maxLength) + '...';
+  return text.slice(0, maxLength) + '...';
 }
 
 /**
