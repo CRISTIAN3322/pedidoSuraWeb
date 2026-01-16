@@ -35,12 +35,6 @@
         "rol": "vendedor"
     },
     {
-        "id": 80062394,
-        "vendedor": "DAVID YESID RAMIREZ LEGUIZAMON",
-        "pass": 80062394,
-        "rol": "vendedor"
-    },
-    {
         "id": 52832197,
         "vendedor": "DIANA MARCELA BERMUDEZ SERRANO",
         "pass": 52832197,
@@ -68,12 +62,6 @@
         "id": 52464418,
         "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
         "pass": 52464418,
-        "rol": "vendedor"
-    },
-    {
-        "id": 80065456,
-        "vendedor": "RAUL FERNANDO JIMENEZ TRIANA",
-        "pass": 80065456,
         "rol": "vendedor"
     },
     {
