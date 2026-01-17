@@ -75,5 +75,11 @@
         "vendedor": "ESTHER ANGELA SALAZAR MORA",
         "pass": 52519851,
         "rol": "vendedor"
+    },
+    {
+        "id": 52953233,
+        "vendedor": "XIMENA DEL PILAR SANTANA GAMBOA",
+        "pass": 52953233,
+        "rol": "vendedor"
     }
 ]
