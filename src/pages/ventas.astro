@@ -86,13 +86,10 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
     return `
       <div class="vendedor-stats">
         <div class="stat-card">
-          <span class="stat-label">Total Proveedores</span>
+          <span class="stat-label">Total Proveedores : </span>
           <span class="stat-value">${proveedores.length}</span>
         </div>
-        <div class="stat-card stat-card--primary">
-          <span class="stat-label">Total General</span>
-          <span class="stat-value">${formatCurrency(totalGeneral)}</span>
-        </div>
+        
       </div>
 
       <div class="table-container">

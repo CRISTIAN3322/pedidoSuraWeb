@@ -17,12 +17,6 @@
         "rol": "vendedor"
     },
     {
-        "id": 52501193,
-        "vendedor": "CLARA INES PEÑA PEÑA",
-        "pass": 52501193,
-        "rol": "vendedor"
-    },
-    {
         "id": 52321795,
         "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
         "pass": 52321795,
@@ -74,6 +68,12 @@
         "id": 52957099,
         "vendedor": "YENY MARIBEL MONROY PATIÑO",
         "pass": 52957099,
+        "rol": "vendedor"
+    },
+    {
+        "id": 52519851,
+        "vendedor": "ESTHER ANGELA SALAZAR MORA",
+        "pass": 52519851,
         "rol": "vendedor"
     }
 ]
