@@ -7138,5 +7138,13 @@
             "direccion": "CL 21 2 D 21 San Pedro Madrid",
             "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
         }]
+    },
+    {
+        "id": 80065456,
+        "nombre": "RAUL FERNANDO JIMENEZ TRIANA",
+        "sucursales": [{
+            "direccion": "CR 7 42 12 SOACHA",
+            "vendedor": "RAUL FERNANDO JIMENEZ TRIANA"
+        }]
     }
 ]

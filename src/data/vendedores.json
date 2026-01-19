@@ -81,5 +81,11 @@
         "vendedor": "XIMENA DEL PILAR SANTANA GAMBOA",
         "pass": 52953233,
         "rol": "vendedor"
+    },
+    {
+        "id": 80065456,
+        "vendedor": "RAUL FERNANDO JIMENEZ TRIANA",
+        "pass": 80065456,
+        "rol": "vendedor"
     }
 ]
