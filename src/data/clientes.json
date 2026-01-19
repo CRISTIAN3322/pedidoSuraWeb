@@ -7146,5 +7146,13 @@
             "direccion": "CR 7 42 12 SOACHA",
             "vendedor": "RAUL FERNANDO JIMENEZ TRIANA"
         }]
+    },
+    {
+        "id": 1024494177,
+        "nombre": "DUVAN DARIO GALVIS ARIAS",
+        "sucursales": [{
+            "direccion": "CR 77 C 57 X SUR 17 Casaviaca",
+            "vendedor": "ESTHER ANGELA SALAZAR MORA"
+        }]
     }
 ]
