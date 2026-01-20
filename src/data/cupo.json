@@ -4233,5 +4233,17 @@
         "nombre": "HORACIO PARRADO RICO",
         "cupo": 1000000,
         "Forma": "Contado"
+    },
+    {
+        "id": 80065456,
+        "nombre": "DUVAN DARIO GALVIS ARIAS",
+        "cupo": 60000000,
+        "Forma": "Credito"
+    },
+    {
+        "id": 79693652,
+        "nombre": "RIGOBERTO PATIÑO DUQUE",
+        "cupo": 4000000,
+        "Forma": "Credito"
     }
 ]

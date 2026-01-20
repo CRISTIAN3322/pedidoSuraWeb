@@ -7154,5 +7154,13 @@
             "direccion": "CR 77 C 57 X SUR 17 Casaviaca",
             "vendedor": "ESTHER ANGELA SALAZAR MORA"
         }]
+    },
+    {
+        "id": 79693652,
+        "nombre": "RIGOBERTO PATIÑO DUQUE",
+        "sucursales": [{
+            "direccion": "CR 72 A 56 C 13 SUR Olarte",
+            "vendedor": "YENY MARIBEL MONROY PATIÑO"
+        }]
     }
 ]
