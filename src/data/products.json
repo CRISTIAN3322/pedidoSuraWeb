@@ -5252,7 +5252,7 @@
         "precio": 850,
         "imagen": "../assets/toWEBP/7707181397379.webp",
         "barra": 7707181397379,
-        "invetario": 0,
+        "invetario": 5000,
         "proveedor": "INDUSTRIAS F C S.A.S - MARCHEN",
         "activo": true
     },
@@ -5263,7 +5263,7 @@
         "precio": 1625,
         "imagen": "../assets/toWEBP/7707181398499.webp",
         "barra": 7707181398499,
-        "invetario": 0,
+        "invetario": 1500,
         "proveedor": "INDUSTRIAS F C S.A.S - MARCHEN",
         "activo": true
     },
