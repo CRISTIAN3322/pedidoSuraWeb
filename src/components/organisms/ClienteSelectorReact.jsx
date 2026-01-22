@@ -204,6 +204,7 @@ function ClienteSelectorReact() {
                 cupoDisponible,
                 sinCupo,
                 formaPago,
+                cartera: carteraCliente, // Incluir la cartera completa
             };
 
             localStorage.setItem('datosCliente', JSON.stringify(datosCliente));
@@ -214,7 +215,7 @@ function ClienteSelectorReact() {
         } finally {
             setIsLoading(false);
         }
-    }, [clienteSeleccionado, sucursalSeleccionada, totalCartera, cupoDisponible, sinCupo, formaPago]);
+    }, [clienteSeleccionado, sucursalSeleccionada, totalCartera, cupoDisponible, sinCupo, formaPago, carteraCliente]);
 
     const handleSearchChange = useCallback((e) => {
         setBusqueda(e.target.value);

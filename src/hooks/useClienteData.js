@@ -73,9 +73,11 @@ export const useClienteData = (clienteSeleccionado) => {
       
       // Si hay un vendedor logueado y NO es administrador, filtrar la cartera por ese vendedor
       if (vendedorNombre && !isAdministrador()) {
-        carteraCliente = carteraCliente.filter((c) => 
-          compareVendedorNames(c.vendedor, vendedorNombre)
-        );
+        carteraCliente = carteraCliente.filter((c) => {
+          // El campo puede venir como "Vendedor" (mayúscula) o "vendedor" (minúscula)
+          const vendedorFactura = c.Vendedor || c.vendedor || '';
+          return compareVendedorNames(vendedorFactura, vendedorNombre);
+        });
       }
 
       const totalCartera = carteraCliente.reduce((sum, factura) => {

@@ -58,24 +58,28 @@ const formatCurrency = (valor: any) => {
           </thead>
           <tbody>
             {cartera.length > 0 ? (
-              cartera.map((factura: any) => (
-                <tr>
-                  <td>{factura.fac || "N/A"}</td>
-                  <td>{factura.fecha || "N/A"}</td>
-                  <td>{factura.vendedor||"N/A"} </td>
-                  <td>
-                    ${formatCurrency(factura.valor).toLocaleString("es-CO")}
-                  </td>
-                  <td>
-                    <StatusBadge status={getDiasStatus(factura.dias)}>
-                      {factura.dias || 0}
-                    </StatusBadge>
-                  </td>
-                </tr>
-              ))
+              cartera.map((factura: any) => {
+                // Manejar el campo vendedor que puede venir como "Vendedor" o "vendedor"
+                const vendedorNombre = factura.Vendedor || factura.vendedor || "N/A";
+                return (
+                  <tr>
+                    <td>{factura.fac || "N/A"}</td>
+                    <td>{vendedorNombre}</td>
+                    <td>{factura.fecha || "N/A"}</td>
+                    <td>
+                      ${formatCurrency(factura.valor).toLocaleString("es-CO")}
+                    </td>
+                    <td>
+                      <StatusBadge status={getDiasStatus(factura.dias)}>
+                        {factura.dias || 0}
+                      </StatusBadge>
+                    </td>
+                  </tr>
+                );
+              })
             ) : (
               <tr>
-                <td colspan="4" class="molecule-cartera-table__empty">
+                <td colspan="5" class="molecule-cartera-table__empty">
                   Sin facturas pendientes
                 </td>
               </tr>
@@ -84,7 +88,7 @@ const formatCurrency = (valor: any) => {
           {totalCartera > 0 && (
             <tfoot>
               <tr>
-                <td colspan="2">
+                <td colspan="3">
                   <strong>Total Cartera:</strong>
                 </td>
                 <td colspan="2">

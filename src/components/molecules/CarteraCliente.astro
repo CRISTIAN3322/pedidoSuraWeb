@@ -21,20 +21,29 @@ const { cartera = [], totalCartera = 0, cupoDisponible = 0, sinCupo = false, mos
         </tr>
       </thead>
       <tbody>
-        {cartera.length > 0 ? cartera.map((factura: any) => (
-          <tr class={
-            Number(factura.dias) >= 30 ? 'dias-mayor-treinta' :
-            Number(factura.dias) >= 11 ? 'dias-mayor-diez' :
-            Number(factura.dias) >= 1 ? 'dias-mayor-uno' : ''
-          }>
-            <td>{factura.fac}</td>
-            <td>{factura.fecha}</td>
-            <td>{factura.vendedor}</td>
-            <td>${Number(factura.valor.replace(/\./g, '').replace(',', '.')).toLocaleString('es-CO')}</td>
-            <td>{factura.dias}</td>
-          </tr>
-        )) : (
-          <tr><td colspan="4">Sin facturas pendientes</td></tr>
+        {cartera.length > 0 ? cartera.map((factura: any) => {
+          // Manejar el campo vendedor que puede venir como "Vendedor" o "vendedor"
+          const vendedorNombre = factura.Vendedor || factura.vendedor || 'N/A';
+          // Manejar el valor que puede ser número o string
+          const valorNumerico = typeof factura.valor === 'number' 
+            ? factura.valor 
+            : Number(String(factura.valor).replace(/\./g, '').replace(',', '.')) || 0;
+          
+          return (
+            <tr class={
+              Number(factura.dias) >= 30 ? 'dias-mayor-treinta' :
+              Number(factura.dias) >= 11 ? 'dias-mayor-diez' :
+              Number(factura.dias) >= 1 ? 'dias-mayor-uno' : ''
+            }>
+              <td>{factura.fac || 'N/A'}</td>
+              <td>{factura.fecha || 'N/A'}</td>
+              <td>{vendedorNombre}</td>
+              <td>${valorNumerico.toLocaleString('es-CO')}</td>
+              <td>{factura.dias || 0}</td>
+            </tr>
+          );
+        }) : (
+          <tr><td colspan="5">Sin facturas pendientes</td></tr>
         )}
       </tbody>
       <tfoot>

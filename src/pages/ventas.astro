@@ -41,6 +41,12 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
     }).format(amount);
   };
 
+  // Función auxiliar para comparar nombres de vendedores (case-insensitive)
+  function compareVendedorNames(name1: string, name2: string): boolean {
+    if (!name1 || !name2) return false;
+    return name1.trim().toUpperCase() === name2.trim().toUpperCase();
+  }
+
   // Obtener datos del vendedor de la sesión
   function getVendedorNombre() {
     if (typeof window === 'undefined') return null;
@@ -67,8 +73,87 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
     }
   }
 
+  // Renderizar tabla de carteras para un vendedor
+  function renderCarteraTable(carteraVendedor: any) {
+    if (!carteraVendedor || !carteraVendedor.facturas || carteraVendedor.facturas.length === 0) {
+      return `
+        <div class="no-data">
+          <p>📋 No se encontraron facturas en cartera para este vendedor.</p>
+        </div>
+      `;
+    }
+
+    // Ordenar facturas por días descendente (las más vencidas primero)
+    const facturas = [...carteraVendedor.facturas].sort((a: any, b: any) => {
+      const diasA = Number(a.dias) || 0;
+      const diasB = Number(b.dias) || 0;
+      return diasB - diasA;
+    });
+
+    return `
+      <div class="cartera-section">
+        <h3 class="cartera-title">📋 Cartera del Vendedor</h3>
+        <div class="vendedor-stats">
+          <div class="stat-card">
+            <span class="stat-label">Total Facturas</span>
+            <span class="stat-value">${carteraVendedor.totalFacturas}</span>
+          </div>
+          <div class="stat-card ${carteraVendedor.facturasVencidas > 0 ? 'stat-card--warning' : ''}">
+            <span class="stat-label">Facturas Vencidas (≥30 días)</span>
+            <span class="stat-value">${carteraVendedor.facturasVencidas}</span>
+          </div>
+          <div class="stat-card ${carteraVendedor.facturasPorVencer > 0 ? 'stat-card--info' : ''}">
+            <span class="stat-label">Por Vencer (11-29 días)</span>
+            <span class="stat-value">${carteraVendedor.facturasPorVencer}</span>
+          </div>
+          <div class="stat-card stat-card--primary">
+            <span class="stat-label">Total Cartera</span>
+            <span class="stat-value">${formatCurrency(carteraVendedor.totalCartera)}</span>
+          </div>
+        </div>
+
+        <div class="table-container">
+          <table class="ventas-table cartera-table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Factura</th>
+                <th>Cliente</th>
+                <th>Fecha</th>
+                <th class="text-right">Valor</th>
+                <th class="text-center">Días</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${facturas.map((factura: any, index: number) => {
+                const dias = Number(factura.dias) || 0;
+                const rowClass = dias >= 30 ? 'dias-vencida' : dias >= 11 ? 'dias-por-vencer' : dias >= 1 ? 'dias-vigente' : '';
+                return `
+                  <tr class="${rowClass}">
+                    <td class="text-center">${index + 1}</td>
+                    <td>${factura.fac || 'N/A'}</td>
+                    <td>${factura.cliente || 'N/A'}</td>
+                    <td>${factura.fecha || 'N/A'}</td>
+                    <td class="text-right amount">${formatCurrency(typeof factura.valor === 'number' ? factura.valor : parseFloat(String(factura.valor).replace(/\./g, '').replace(',', '.')) || 0)}</td>
+                    <td class="text-center ${dias >= 30 ? 'dias-danger' : dias >= 11 ? 'dias-warning' : ''}">${dias}</td>
+                  </tr>
+                `;
+              }).join('')}
+            </tbody>
+            <tfoot>
+              <tr>
+                <td colspan="4" class="text-right total-label"><strong>Total Cartera:</strong></td>
+                <td class="text-right total-amount" colspan="2"><strong>${formatCurrency(carteraVendedor.totalCartera)}</strong></td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+    `;
+  }
+
   // Renderizar tabla de ventas para un vendedor
-  function renderVendedorTable(ventasVendedor: any, vendedorNombre: string) {
+  function renderVendedorTable(ventasVendedor: any, vendedorNombre: string, carteraVendedor?: any) {
     if (!ventasVendedor || !ventasVendedor.proveedor || ventasVendedor.proveedor.length === 0) {
       return `
         <div class="no-data">
@@ -82,6 +167,8 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
 
     // Calcular total general
     const totalGeneral = proveedores.reduce((sum: number, prov: any) => sum + prov.total, 0);
+
+    const carteraHTML = carteraVendedor ? renderCarteraTable(carteraVendedor) : '';
 
     return `
       <div class="vendedor-stats">
@@ -118,6 +205,7 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
           </tfoot>
         </table>
       </div>
+      ${carteraHTML}
     `;
   }
 
@@ -155,42 +243,63 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
 
     // Cargar datos de ventas desde el API
     let ventasData: any[] = [];
+    let carterasData: any[] = [];
     let timeoutId: any = null;
     
     try {
       const controller = new AbortController();
       timeoutId = setTimeout(() => controller.abort(), 10000); // 10 segundos timeout
       
-      const response = await fetch('/api/ventas.json', {
-        signal: controller.signal,
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        method: 'GET',
-      });
+      // Cargar ventas y carteras en paralelo
+      const [ventasResponse, carterasResponse] = await Promise.all([
+        fetch('/api/ventas.json', {
+          signal: controller.signal,
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          method: 'GET',
+        }),
+        fetch('/api/carteras.json', {
+          signal: controller.signal,
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          method: 'GET',
+        })
+      ]);
       
       if (timeoutId) {
         clearTimeout(timeoutId);
         timeoutId = null;
       }
       
-      if (!response.ok) {
-        throw new Error(`Error al cargar datos de ventas: ${response.status} ${response.statusText}`);
+      if (!ventasResponse.ok) {
+        throw new Error(`Error al cargar datos de ventas: ${ventasResponse.status} ${ventasResponse.statusText}`);
       }
       
-      const data = await response.json();
-      if (!Array.isArray(data)) {
-        throw new Error('Los datos recibidos no tienen el formato esperado');
+      const ventasDataJson = await ventasResponse.json();
+      if (!Array.isArray(ventasDataJson)) {
+        throw new Error('Los datos de ventas no tienen el formato esperado');
       }
-      ventasData = data;
+      ventasData = ventasDataJson;
+
+      // Cargar carteras (puede fallar sin afectar la carga de ventas)
+      if (carterasResponse.ok) {
+        const carterasDataJson = await carterasResponse.json();
+        if (Array.isArray(carterasDataJson)) {
+          carterasData = carterasDataJson;
+        }
+      } else {
+        console.warn('No se pudieron cargar las carteras, continuando sin ellas');
+      }
     } catch (error: any) {
       if (timeoutId) {
         clearTimeout(timeoutId);
       }
-      console.error('Error cargando datos de ventas:', error);
+      console.error('Error cargando datos:', error);
       const errorMessage = error.name === 'AbortError' 
         ? 'La carga de datos está tardando demasiado. Por favor, intenta de nuevo.'
-        : error.message || 'Error al cargar los datos de ventas. Por favor, recarga la página.';
+        : error.message || 'Error al cargar los datos. Por favor, recarga la página.';
       
       if (ventasContent) {
         ventasContent.innerHTML = `<div class="error">${errorMessage}</div>`;
@@ -247,6 +356,16 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
             const totalProveedores = venta.proveedor.length;
             const accordionId = `accordion-${index}`;
             
+            // Buscar cartera del vendedor
+            const carteraVendedor = carterasData.find((c: any) => 
+              compareVendedorNames(c.vendedor, venta.vendedor)
+            );
+            
+            // Agregar badge de cartera si existe
+            const carteraBadge = carteraVendedor 
+              ? `<span class="badge badge--cartera">Cartera: ${formatCurrency(carteraVendedor.totalCartera)}</span>`
+              : '';
+            
             return `
               <div class="accordion-item">
                 <button class="accordion-header" onclick="toggleAccordion('${accordionId}')" aria-expanded="false">
@@ -255,12 +374,13 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
                     <div class="accordion-badges">
                       <span class="badge badge--proveedores">${totalProveedores} proveedores</span>
                       <span class="badge badge--total">${formatCurrency(totalVendedor)}</span>
+                      ${carteraBadge}
                     </div>
                   </div>
                   <span class="accordion-icon" id="icon-${accordionId}">+</span>
                 </button>
                 <div class="accordion-content" id="${accordionId}" style="display: none;">
-                  ${renderVendedorTable(venta, venta.vendedor)}
+                  ${renderVendedorTable(venta, venta.vendedor, carteraVendedor)}
                 </div>
               </div>
             `;
@@ -313,10 +433,26 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
 
     // Si es vendedor normal, mostrar solo sus ventas
     const ventasVendedor = ventasData.find((venta: any) => 
-      venta.vendedor === vendedorNombre
+      compareVendedorNames(venta.vendedor, vendedorNombre)
+    );
+
+    // Buscar cartera del vendedor
+    const carteraVendedor = carterasData.find((c: any) => 
+      compareVendedorNames(c.vendedor, vendedorNombre)
     );
 
     if (!ventasVendedor || !ventasVendedor.proveedor || ventasVendedor.proveedor.length === 0) {
+      // Si no hay ventas pero hay cartera, mostrar solo la cartera
+      if (carteraVendedor) {
+        ventasContent.innerHTML = `
+          <div class="no-data" style="margin-bottom: 2rem;">
+            <p>📊 No se encontraron datos de ventas para este vendedor.</p>
+          </div>
+          ${renderCarteraTable(carteraVendedor)}
+        `;
+        return;
+      }
+      
       ventasContent.innerHTML = `
         <div class="no-data">
           <p>📊 No se encontraron datos de ventas para este vendedor.</p>
@@ -325,8 +461,8 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
       return;
     }
 
-    // Renderizar tabla normal para vendedor
-    ventasContent.innerHTML = renderVendedorTable(ventasVendedor, vendedorNombre);
+    // Renderizar tabla normal para vendedor con cartera
+    ventasContent.innerHTML = renderVendedorTable(ventasVendedor, vendedorNombre, carteraVendedor);
   }
 
   // Función para toggle del acordeón
@@ -831,6 +967,19 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
     border: 1px solid rgba(255, 255, 255, 0.5) !important;
   }
 
+  .badge--cartera {
+    background: rgba(255, 193, 7, 0.9) !important;
+    color: #0b5d3f !important;
+    border: 1px solid rgba(255, 193, 7, 0.5) !important;
+    font-weight: 600 !important;
+  }
+
+  .accordion-item--active .badge--cartera {
+    background: rgba(255, 193, 7, 0.9) !important;
+    color: #0b5d3f !important;
+    border: 1px solid rgba(255, 193, 7, 0.5) !important;
+  }
+
   .accordion-icon {
     font-size: 1.5rem !important;
     color: #ffffff !important;
@@ -935,6 +1084,86 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
 
   .accordion-content .total-amount {
     color: #00a878 !important;
+  }
+
+  /* Estilos para sección de cartera */
+  .cartera-section {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 2px solid rgba(0, 168, 120, 0.2);
+  }
+
+  .cartera-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #00a878;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .cartera-table {
+    margin-top: 1rem;
+  }
+
+  .cartera-table tbody tr.dias-vencida {
+    background-color: #fee2e2 !important;
+    border-left: 4px solid #dc2626;
+  }
+
+  .cartera-table tbody tr.dias-vencida:hover {
+    background-color: #fecaca !important;
+  }
+
+  .cartera-table tbody tr.dias-por-vencer {
+    background-color: #fef3c7 !important;
+    border-left: 4px solid #f59e0b;
+  }
+
+  .cartera-table tbody tr.dias-por-vencer:hover {
+    background-color: #fde68a !important;
+  }
+
+  .cartera-table tbody tr.dias-vigente {
+    background-color: #d1fae5 !important;
+    border-left: 4px solid #10b981;
+  }
+
+  .cartera-table tbody tr.dias-vigente:hover {
+    background-color: #a7f3d0 !important;
+  }
+
+  .dias-danger {
+    color: #dc2626 !important;
+    font-weight: 700 !important;
+  }
+
+  .dias-warning {
+    color: #f59e0b !important;
+    font-weight: 600 !important;
+  }
+
+  .stat-card--warning {
+    background: linear-gradient(135deg, #f59e0b 0%, #fbbf24 100%) !important;
+    border-color: #f59e0b !important;
+    color: white !important;
+  }
+
+  .stat-card--warning .stat-label,
+  .stat-card--warning .stat-value {
+    color: white !important;
+  }
+
+  .stat-card--info {
+    background: linear-gradient(135deg, #3b82f6 0%, #60a5fa 100%) !important;
+    border-color: #3b82f6 !important;
+    color: white !important;
+  }
+
+  .stat-card--info .stat-label,
+  .stat-card--info .stat-value {
+    color: white !important;
   }
 
   @keyframes slideDown {
