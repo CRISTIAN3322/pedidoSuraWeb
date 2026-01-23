@@ -5573,8 +5573,8 @@
         }]
     },
     {
-        "id": 901828723,
-        "nombre": "SUPERMERCADOS MAXIOFERTAS SAS",
+        "id": 901974514,
+        "nombre": "SUPERMERCADOS MAXIOFERTAS D'MIL SAS",
         "sucursales": [{
             "direccion": "CL 7 6 27  Fusagasugá",
             "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
@@ -5674,14 +5674,6 @@
         "sucursales": [{
             "direccion": "CL 21 6 43  Chía",
             "vendedor": "ANA SOFIA ROLDAN RIQUE"
-        }]
-    },
-    {
-        "id": 901974514,
-        "nombre": "SUPERMERCADOS MAXIOFERTAS DMIL SAS",
-        "sucursales": [{
-            "direccion": "CL 7 6 27  Fusagasugá",
-            "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
         }]
     },
     {
