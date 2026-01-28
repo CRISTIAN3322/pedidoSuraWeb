@@ -80,14 +80,6 @@
         }]
     },
     {
-        "id": 3197575,
-        "nombre": "LEONARDO HERRERA MOLINA",
-        "sucursales": [{
-            "direccion": "CR 4 4 15  San Antonio Del Tequendama",
-            "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
-        }]
-    },
-    {
         "id": 3199694,
         "nombre": "OSCAR RUBEN FORERO MARQUEZ",
         "sucursales": [{
@@ -7149,6 +7141,22 @@
         "sucursales": [{
             "direccion": "CR 72 A 56 C 13 SUR Olarte",
             "vendedor": "YENY MARIBEL MONROY PATIÑO"
+        }]
+    },
+    {
+        "id": 902024565,
+        "nombre": "INVERSIONES M.A.R.A SAS",
+        "sucursales": [{
+            "direccion": "CR 5 4 44  Chocontá",
+            "vendedor": "ANA SOFIA ROLDAN RIQUE"
+        }]
+    },
+    {
+        "id": 901958282,
+        "nombre": "AGROCENTRO GRANJERO EL MONO SAS",
+        "sucursales": [{
+            "direccion": "CR 4 4 28  San Antonio Del Tequendama",
+            "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
         }]
     }
 ]

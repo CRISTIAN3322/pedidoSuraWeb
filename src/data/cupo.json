@@ -4245,5 +4245,17 @@
         "nombre": "RIGOBERTO PATIÑO DUQUE",
         "cupo": 4000000,
         "Forma": "Credito"
+    },
+    {
+        "id": 902024565,
+        "nombre": "INVERSIONES M.A.R.A SAS",
+        "cupo": 4000000,
+        "Forma": "Credito"
+    },
+    {
+        "id": 901958282,
+        "nombre": "AGROCENTRO GRANJERO EL MONO SAS",
+        "cupo": 4000000,
+        "Forma": "Credito"
     }
 ]
