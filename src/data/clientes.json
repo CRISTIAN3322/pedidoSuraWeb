@@ -7158,5 +7158,13 @@
             "direccion": "CR 4 4 28  San Antonio Del Tequendama",
             "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
         }]
+    },
+    {
+        "id": 52470223,
+        "nombre": "REINA CONSUELO COY VILLAMIL",
+        "sucursales": [{
+            "direccion": "CR 88 C 49 A 10 SUR Bosa Brasil ",
+            "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
+        }]
     }
 ]

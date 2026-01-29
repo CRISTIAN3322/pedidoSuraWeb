@@ -4257,5 +4257,11 @@
         "nombre": "AGROCENTRO GRANJERO EL MONO SAS",
         "cupo": 1000000,
         "Forma": "Contado"
+    },
+    {
+        "id": 52470223,
+        "nombre": "REINA CONSUELO COY VILLAMIL",
+        "cupo": 1000000,
+        "Forma": "Contado"
     }
 ]
