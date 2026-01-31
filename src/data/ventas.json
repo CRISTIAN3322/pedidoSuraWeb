@@ -1,40 +1,124 @@
 [{
-        "vendedor": "JAIRO IBAÑEZ ARTUNDUAGA",
+        "vendedor": "ANA SOFIA ROLDAN RIQUE",
         "proveedor": [{
+                "grupo": "ATW INTERNACIONAL SAS",
+                "total": 612258,
+                "mes": "ENERO"
+            },
+            {
                 "grupo": "CASA IBAÑEZ COLOMBIA SAS",
-                "total": 1217572
+                "total": 5068823,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "COMERCIALIZADORA JS PRODUCTOS SAS",
+                "total": 250148,
+                "mes": "ENERO"
             },
             {
                 "grupo": "COMESTIBLES ITALO SA",
-                "total": -22065
+                "total": 2880939,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "DISCOA SAS",
+                "total": 3356600,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "DISLICORES - DISTRIBUIDORA DE VINOS Y LICORES",
+                "total": 734681,
+                "mes": "ENERO"
             },
             {
                 "grupo": "DORIS PATRICIA FONSECA RODRIGUEZ",
-                "total": 840154
+                "total": 1621450,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "DS DISTRI SAMY SAS",
+                "total": 142142,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "DUQUESA S.A. BIC",
+                "total": 2028612,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
+                "total": 363138,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "GLOBAL WINE & SPIRITS LTDA",
+                "total": 2223022,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "INDUSTRIAS F C S.A.S - MARCHEN",
+                "total": 572000,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "INFUSIONES HERBAR SAS",
+                "total": 715128,
+                "mes": "ENERO"
             },
             {
                 "grupo": "LABORATORIOS COFARMA S.A",
-                "total": 884571
+                "total": 3792851,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PAPELES NACIONALES SAS",
+                "total": 6588892,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PREBEL SA BIC",
+                "total": 4797052,
+                "mes": "ENERO"
             },
             {
                 "grupo": "PRECOCIDOS DEL ORIENTE SA",
-                "total": 3958928
+                "total": 2354156,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
+                "total": 908788,
+                "mes": "ENERO"
             },
             {
                 "grupo": "PRODUSA ZONA FRANCA SAS",
-                "total": 1990792
+                "total": 1017744,
+                "mes": "ENERO"
             },
             {
                 "grupo": "PROPETS SAS",
-                "total": -8637
+                "total": 211512,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PUERTOMAR ZOMAC SAS",
+                "total": 3339372,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "RONDA - INDUSTRIA COLOMBIANA DE CARNE SA",
+                "total": 114912,
+                "mes": "ENERO"
             },
             {
                 "grupo": "TONING SAS",
-                "total": 18608784
+                "total": 29616685,
+                "mes": "ENERO"
             },
             {
-                "grupo": "Z06 - CONGRUPO S A",
-                "total": -28346
+                "grupo": "VENTAS NACIONALES SAS",
+                "total": 2262662,
+                "mes": "ENERO"
             }
         ]
     },
@@ -42,938 +126,148 @@
         "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
         "proveedor": [{
                 "grupo": "ALUMINIO NACIONAL S.A",
-                "total": 57072
+                "total": 57072,
+                "mes": "ENERO"
             },
             {
                 "grupo": "ATW INTERNACIONAL SAS",
-                "total": 4374000
+                "total": 4374000,
+                "mes": "ENERO"
             },
             {
                 "grupo": "BODEGAS CASA DEL RHIN ZF SAS",
-                "total": 134748
+                "total": 134748,
+                "mes": "ENERO"
             },
             {
                 "grupo": "CASA IBAÑEZ COLOMBIA SAS",
-                "total": 860784
+                "total": 860784,
+                "mes": "ENERO"
             },
             {
                 "grupo": "COMERCIALIZADORA JS PRODUCTOS SAS",
-                "total": 217520
+                "total": 217520,
+                "mes": "ENERO"
             },
             {
                 "grupo": "COMESTIBLES ITALO SA",
-                "total": 22359203
+                "total": 22359203,
+                "mes": "ENERO"
             },
             {
                 "grupo": "COMPAÑÍA DE DULCES SAS",
-                "total": 40344
+                "total": 40344,
+                "mes": "ENERO"
             },
             {
                 "grupo": "DISCOA SAS",
-                "total": 392350
+                "total": 4315850,
+                "mes": "ENERO"
             },
             {
                 "grupo": "DISLICORES - DISTRIBUIDORA DE VINOS Y LICORES",
-                "total": 540492
+                "total": 540492,
+                "mes": "ENERO"
             },
             {
                 "grupo": "DORIS PATRICIA FONSECA RODRIGUEZ",
-                "total": 678500
+                "total": 678500,
+                "mes": "ENERO"
             },
             {
                 "grupo": "DS DISTRI SAMY SAS",
-                "total": 398686
+                "total": 396751,
+                "mes": "ENERO"
             },
             {
                 "grupo": "DUQUESA S.A. BIC",
-                "total": 839390
+                "total": 839390,
+                "mes": "ENERO"
             },
             {
                 "grupo": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
-                "total": 1525625
+                "total": 2511417,
+                "mes": "ENERO"
             },
             {
                 "grupo": "GLOBAL WINE & SPIRITS LTDA",
-                "total": 1271500
+                "total": 1271500,
+                "mes": "ENERO"
             },
             {
                 "grupo": "INDUSTRIAS F C S.A.S - MARCHEN",
-                "total": 32500
+                "total": 32500,
+                "mes": "ENERO"
             },
             {
                 "grupo": "INFUSIONES HERBAR SAS",
-                "total": 1252536
+                "total": 1252536,
+                "mes": "ENERO"
             },
             {
                 "grupo": "LABORATORIOS COFARMA S.A",
-                "total": 1304762
+                "total": 1304762,
+                "mes": "ENERO"
             },
             {
                 "grupo": "PAPELES NACIONALES SAS",
-                "total": 262272
+                "total": 262272,
+                "mes": "ENERO"
             },
             {
                 "grupo": "PREBEL SA BIC",
-                "total": 4040958
+                "total": 7013817,
+                "mes": "ENERO"
             },
             {
                 "grupo": "PRECOCIDOS DEL ORIENTE SA",
-                "total": 14686724
+                "total": 14686724,
+                "mes": "ENERO"
             },
             {
                 "grupo": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
-                "total": 376232
+                "total": 2381996,
+                "mes": "ENERO"
             },
             {
                 "grupo": "PRODUSA ZONA FRANCA SAS",
-                "total": 2878104
+                "total": 2878104,
+                "mes": "ENERO"
             },
             {
                 "grupo": "PROPETS SAS",
-                "total": 359152
+                "total": 359152,
+                "mes": "ENERO"
             },
             {
                 "grupo": "PUERTOMAR ZOMAC SAS",
-                "total": 2807168
+                "total": 2807168,
+                "mes": "ENERO"
             },
             {
                 "grupo": "RONDA - INDUSTRIA COLOMBIANA DE CARNE SA",
-                "total": 344736
+                "total": 344736,
+                "mes": "ENERO"
             },
             {
                 "grupo": "SABAJON APOLO SA",
-                "total": 179769
-            },
-            {
-                "grupo": "TONING SAS",
-                "total": 8922165
-            },
-            {
-                "grupo": "VENTAS NACIONALES SAS",
-                "total": 1111500
-            }
-        ]
-    },
-    {
-        "vendedor": "LISBETH JULIETH NARANJO ROJAS",
-        "proveedor": [{
-                "grupo": "ATW INTERNACIONAL SAS",
-                "total": 10272
-            },
-            {
-                "grupo": "CASA IBAÑEZ COLOMBIA SAS",
-                "total": 60255
-            },
-            {
-                "grupo": "COMESTIBLES ITALO SA",
-                "total": 92951
-            },
-            {
-                "grupo": "COMPAÑÍA DE DULCES SAS",
-                "total": 3362
-            },
-            {
-                "grupo": "GLOBAL WINE & SPIRITS LTDA",
-                "total": 110220
-            },
-            {
-                "grupo": "LABORATORIOS COFARMA S.A",
-                "total": 13197
-            },
-            {
-                "grupo": "PAPELES NACIONALES SAS",
-                "total": 1916536
-            },
-            {
-                "grupo": "PREBEL SA BIC",
-                "total": 12350
-            },
-            {
-                "grupo": "PRECOCIDOS DEL ORIENTE SA",
-                "total": 347640
-            },
-            {
-                "grupo": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
-                "total": 12562
-            },
-            {
-                "grupo": "PUERTOMAR ZOMAC SAS",
-                "total": 41462
+                "total": 179769,
+                "mes": "ENERO"
             },
             {
                 "grupo": "SURAMERICANA JI SAS",
-                "total": 4269
+                "total": -22248,
+                "mes": "ENERO"
             },
             {
                 "grupo": "TONING SAS",
-                "total": 2092871
+                "total": 13119435,
+                "mes": "ENERO"
             },
             {
                 "grupo": "VENTAS NACIONALES SAS",
-                "total": 15085
-            },
-            {
-                "grupo": "Z06 - CONGRUPO S A",
-                "total": 12009
-            }
-        ]
-    },
-    {
-        "vendedor": "DAVID YESID RAMIREZ LEGUIZAMON",
-        "proveedor": [{
-            "grupo": "TONING SAS",
-            "total": -79049
-        }]
-    },
-    {
-        "vendedor": "SURAMERICANA JI SAS",
-        "proveedor": [{
-                "grupo": "LABORATORIOS COFARMA S.A",
-                "total": 16361
-            },
-            {
-                "grupo": "PAPELES NACIONALES SAS",
-                "total": 41568
-            },
-            {
-                "grupo": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
-                "total": 25124
-            },
-            {
-                "grupo": "Z38 - SERVICIOS",
-                "total": 1040000
-            }
-        ]
-    },
-    {
-        "vendedor": "DIANA MARCELA BERMUDEZ SERRANO",
-        "proveedor": [{
-                "grupo": "ALUMINIO NACIONAL S.A",
-                "total": 14616
-            },
-            {
-                "grupo": "BODEGAS CASA DEL RHIN ZF SAS",
-                "total": 59680
-            },
-            {
-                "grupo": "CASA IBAÑEZ COLOMBIA SAS",
-                "total": 2836616
-            },
-            {
-                "grupo": "COMERCIALIZADORA JS PRODUCTOS SAS",
-                "total": 10876
-            },
-            {
-                "grupo": "COMESTIBLES ITALO SA",
-                "total": 606720
-            },
-            {
-                "grupo": "COMPAÑÍA DE DULCES SAS",
-                "total": -104222
-            },
-            {
-                "grupo": "DISCOA SAS",
-                "total": 491704
-            },
-            {
-                "grupo": "DISLICORES - DISTRIBUIDORA DE VINOS Y LICORES",
-                "total": 197451
-            },
-            {
-                "grupo": "DORIS PATRICIA FONSECA RODRIGUEZ",
-                "total": 2479242
-            },
-            {
-                "grupo": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
-                "total": 167898
-            },
-            {
-                "grupo": "GLOBAL WINE & SPIRITS LTDA",
-                "total": 508831
-            },
-            {
-                "grupo": "INFUSIONES HERBAR SAS",
-                "total": 279860
-            },
-            {
-                "grupo": "LABORATORIOS COFARMA S.A",
-                "total": 2851167
-            },
-            {
-                "grupo": "PAPELES NACIONALES SAS",
-                "total": 60996
-            },
-            {
-                "grupo": "PREBEL SA BIC",
-                "total": 698292
-            },
-            {
-                "grupo": "PRECOCIDOS DEL ORIENTE SA",
-                "total": 56662
-            },
-            {
-                "grupo": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
-                "total": 49224
-            },
-            {
-                "grupo": "PRODUSA ZONA FRANCA SAS",
-                "total": 317088
-            },
-            {
-                "grupo": "PROPETS SAS",
-                "total": 52878
-            },
-            {
-                "grupo": "SURAMERICANA JI SAS",
-                "total": 72024
-            },
-            {
-                "grupo": "SURAMERICANA JI SAS - TEMPORADA",
-                "total": -145497
-            },
-            {
-                "grupo": "TONING SAS",
-                "total": 31911533
-            },
-            {
-                "grupo": "VENTAS NACIONALES SAS",
-                "total": 100416
-            }
-        ]
-    },
-    {
-        "vendedor": "RAUL FERNANDO JIMENEZ TRIANA",
-        "proveedor": [{
-                "grupo": "ALUMINIO NACIONAL S.A",
-                "total": 97994
-            },
-            {
-                "grupo": "ATW INTERNACIONAL SAS",
-                "total": 164401
-            },
-            {
-                "grupo": "CASA IBAÑEZ COLOMBIA SAS",
-                "total": 560358
-            },
-            {
-                "grupo": "COMERCIALIZADORA JS PRODUCTOS SAS",
-                "total": 48398
-            },
-            {
-                "grupo": "COMESTIBLES ITALO SA",
-                "total": 3910303
-            },
-            {
-                "grupo": "DISCOA SAS",
-                "total": 181469
-            },
-            {
-                "grupo": "DISLICORES - DISTRIBUIDORA DE VINOS Y LICORES",
-                "total": 313407
-            },
-            {
-                "grupo": "DORIS PATRICIA FONSECA RODRIGUEZ",
-                "total": 2797358
-            },
-            {
-                "grupo": "DS DISTRI SAMY SAS",
-                "total": 609526
-            },
-            {
-                "grupo": "DUQUESA S.A. BIC",
-                "total": 300465
-            },
-            {
-                "grupo": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
-                "total": 2231472
-            },
-            {
-                "grupo": "INDUSTRIAS F C S.A.S - MARCHEN",
-                "total": 144625
-            },
-            {
-                "grupo": "INFUSIONES HERBAR SAS",
-                "total": 285997
-            },
-            {
-                "grupo": "LABORATORIOS COFARMA S.A",
-                "total": 1263468
-            },
-            {
-                "grupo": "PAPELES NACIONALES SAS",
-                "total": 1863864
-            },
-            {
-                "grupo": "PREBEL SA BIC",
-                "total": 997980
-            },
-            {
-                "grupo": "PRECOCIDOS DEL ORIENTE SA",
-                "total": 248499
-            },
-            {
-                "grupo": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
-                "total": 11497
-            },
-            {
-                "grupo": "PRODUCTOS ALIMENTICIOS BELLINI S.A.S",
-                "total": 13820
-            },
-            {
-                "grupo": "PRODUSA ZONA FRANCA SAS",
-                "total": 244999
-            },
-            {
-                "grupo": "PROPETS SAS",
-                "total": 876380
-            },
-            {
-                "grupo": "PUERTOMAR ZOMAC SAS",
-                "total": 673804
-            },
-            {
-                "grupo": "RONDA - INDUSTRIA COLOMBIANA DE CARNE SA",
-                "total": 85226
-            },
-            {
-                "grupo": "RUBIFLEX SAS",
-                "total": 475378
-            },
-            {
-                "grupo": "SURAMERICANA JI SAS",
-                "total": 305352
-            },
-            {
-                "grupo": "TONING SAS",
-                "total": 4226906
-            },
-            {
-                "grupo": "VENTAS NACIONALES SAS",
-                "total": 1208701
-            },
-            {
-                "grupo": "Z06 - CONGRUPO S A",
-                "total": 173471
-            }
-        ]
-    },
-    {
-        "vendedor": "ANA SOFIA ROLDAN RIQUE",
-        "proveedor": [{
-                "grupo": "ATW INTERNACIONAL SAS",
-                "total": 612258
-            },
-            {
-                "grupo": "CASA IBAÑEZ COLOMBIA SAS",
-                "total": 3930535
-            },
-            {
-                "grupo": "COMERCIALIZADORA JS PRODUCTOS SAS",
-                "total": 250148
-            },
-            {
-                "grupo": "COMESTIBLES ITALO SA",
-                "total": 2496520
-            },
-            {
-                "grupo": "DISCOA SAS",
-                "total": 1002500
-            },
-            {
-                "grupo": "DISLICORES - DISTRIBUIDORA DE VINOS Y LICORES",
-                "total": 683774
-            },
-            {
-                "grupo": "DORIS PATRICIA FONSECA RODRIGUEZ",
-                "total": 1585075
-            },
-            {
-                "grupo": "DS DISTRI SAMY SAS",
-                "total": 142142
-            },
-            {
-                "grupo": "DUQUESA S.A. BIC",
-                "total": 2028612
-            },
-            {
-                "grupo": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
-                "total": 363138
-            },
-            {
-                "grupo": "GLOBAL WINE & SPIRITS LTDA",
-                "total": 2053174
-            },
-            {
-                "grupo": "INDUSTRIAS F C S.A.S - MARCHEN",
-                "total": 572000
-            },
-            {
-                "grupo": "INFUSIONES HERBAR SAS",
-                "total": 637424
-            },
-            {
-                "grupo": "LABORATORIOS COFARMA S.A",
-                "total": 3640807
-            },
-            {
-                "grupo": "PAPELES NACIONALES SAS",
-                "total": 6588892
-            },
-            {
-                "grupo": "PREBEL SA BIC",
-                "total": 4116053
-            },
-            {
-                "grupo": "PRECOCIDOS DEL ORIENTE SA",
-                "total": 2088956
-            },
-            {
-                "grupo": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
-                "total": 908788
-            },
-            {
-                "grupo": "PRODUSA ZONA FRANCA SAS",
-                "total": 1017744
-            },
-            {
-                "grupo": "PROPETS SAS",
-                "total": 211512
-            },
-            {
-                "grupo": "PUERTOMAR ZOMAC SAS",
-                "total": 3339372
-            },
-            {
-                "grupo": "RONDA - INDUSTRIA COLOMBIANA DE CARNE SA",
-                "total": 114912
-            },
-            {
-                "grupo": "TONING SAS",
-                "total": 14246910
-            },
-            {
-                "grupo": "VENTAS NACIONALES SAS",
-                "total": 2262662
-            }
-        ]
-    },
-    {
-        "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-        "proveedor": [{
-                "grupo": "CASA IBAÑEZ COLOMBIA SAS",
-                "total": 1854685
-            },
-            {
-                "grupo": "COMERCIALIZADORA JS PRODUCTOS SAS",
-                "total": 685188
-            },
-            {
-                "grupo": "COMESTIBLES ITALO SA",
-                "total": 5897986
-            },
-            {
-                "grupo": "DISCOA SAS",
-                "total": 3138025
-            },
-            {
-                "grupo": "DISLICORES - DISTRIBUIDORA DE VINOS Y LICORES",
-                "total": 290286
-            },
-            {
-                "grupo": "DORIS PATRICIA FONSECA RODRIGUEZ",
-                "total": 2292350
-            },
-            {
-                "grupo": "DS DISTRI SAMY SAS",
-                "total": 109284
-            },
-            {
-                "grupo": "DUQUESA S.A. BIC",
-                "total": 834584
-            },
-            {
-                "grupo": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
-                "total": 922396
-            },
-            {
-                "grupo": "INDUSTRIAS F C S.A.S - MARCHEN",
-                "total": 374400
-            },
-            {
-                "grupo": "INFUSIONES HERBAR SAS",
-                "total": 1491540
-            },
-            {
-                "grupo": "LABORATORIOS COFARMA S.A",
-                "total": 11117084
-            },
-            {
-                "grupo": "PAPELES NACIONALES SAS",
-                "total": 3088017
-            },
-            {
-                "grupo": "PREBEL SA BIC",
-                "total": 2246505
-            },
-            {
-                "grupo": "PRECOCIDOS DEL ORIENTE SA",
-                "total": 6224424
-            },
-            {
-                "grupo": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
-                "total": 2251448
-            },
-            {
-                "grupo": "PRODUCTOS ALIMENTICIOS BELLINI S.A.S",
-                "total": 2045223
-            },
-            {
-                "grupo": "PRODUSA ZONA FRANCA SAS",
-                "total": 2937102
-            },
-            {
-                "grupo": "PROPETS SAS",
-                "total": 1541499
-            },
-            {
-                "grupo": "RUBIFLEX SAS",
-                "total": 2700720
-            },
-            {
-                "grupo": "SURAMERICANA JI SAS",
-                "total": 279978
-            },
-            {
-                "grupo": "TONING SAS",
-                "total": 19512531
-            },
-            {
-                "grupo": "VENTAS NACIONALES SAS",
-                "total": 1605719
-            },
-            {
-                "grupo": "Z06 - CONGRUPO S A",
-                "total": 34344
-            }
-        ]
-    },
-    {
-        "vendedor": "CONSUELO MUÑOZ",
-        "proveedor": [{
-                "grupo": "ALUMINIO NACIONAL S.A",
-                "total": 228736
-            },
-            {
-                "grupo": "ATW INTERNACIONAL SAS",
-                "total": 699432
-            },
-            {
-                "grupo": "BODEGAS CASA DEL RHIN ZF SAS",
-                "total": 91569
-            },
-            {
-                "grupo": "CASA IBAÑEZ COLOMBIA SAS",
-                "total": 1534239
-            },
-            {
-                "grupo": "COMERCIALIZADORA JS PRODUCTOS SAS",
-                "total": 320842
-            },
-            {
-                "grupo": "COMESTIBLES ITALO SA",
-                "total": 11161430
-            },
-            {
-                "grupo": "DISCOA SAS",
-                "total": 392350
-            },
-            {
-                "grupo": "DISLICORES - DISTRIBUIDORA DE VINOS Y LICORES",
-                "total": 783492
-            },
-            {
-                "grupo": "DORIS PATRICIA FONSECA RODRIGUEZ",
-                "total": 781359
-            },
-            {
-                "grupo": "DS DISTRI SAMY SAS",
-                "total": 271818
-            },
-            {
-                "grupo": "DUQUESA S.A. BIC",
-                "total": 1979422
-            },
-            {
-                "grupo": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
-                "total": 428428
-            },
-            {
-                "grupo": "GLOBAL WINE & SPIRITS LTDA",
-                "total": 5987239
-            },
-            {
-                "grupo": "INDUSTRIAS F C S.A.S - MARCHEN",
-                "total": 97500
-            },
-            {
-                "grupo": "INFUSIONES HERBAR SAS",
-                "total": 310816
-            },
-            {
-                "grupo": "LABORATORIOS COFARMA S.A",
-                "total": 4445239
-            },
-            {
-                "grupo": "PAPELES NACIONALES SAS",
-                "total": 3127808
-            },
-            {
-                "grupo": "PREBEL SA BIC",
-                "total": 3179829
-            },
-            {
-                "grupo": "PRECOCIDOS DEL ORIENTE SA",
-                "total": 10998332
-            },
-            {
-                "grupo": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
-                "total": 3138933
-            },
-            {
-                "grupo": "PRODUCTOS ALIMENTICIOS BELLINI S.A.S",
-                "total": 33262
-            },
-            {
-                "grupo": "PRODUSA ZONA FRANCA SAS",
-                "total": 3265464
-            },
-            {
-                "grupo": "PROPETS SAS",
-                "total": 2361884
-            },
-            {
-                "grupo": "PUERTOMAR ZOMAC SAS",
-                "total": 2472186
-            },
-            {
-                "grupo": "RONDA - INDUSTRIA COLOMBIANA DE CARNE SA",
-                "total": 268128
-            },
-            {
-                "grupo": "RUBIFLEX SAS",
-                "total": 657936
-            },
-            {
-                "grupo": "SURAMERICANA JI SAS - TEMPORADA",
-                "total": -665312
-            },
-            {
-                "grupo": "TONING SAS",
-                "total": 26541502
-            },
-            {
-                "grupo": "VENTAS NACIONALES SAS",
-                "total": 973176
-            }
-        ]
-    },
-    {
-        "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ",
-        "proveedor": [{
-                "grupo": "ALUMINIO NACIONAL S.A",
-                "total": 24360
-            },
-            {
-                "grupo": "ATW INTERNACIONAL SAS",
-                "total": 13086
-            },
-            {
-                "grupo": "CASA IBAÑEZ COLOMBIA SAS",
-                "total": 1003446
-            },
-            {
-                "grupo": "COMERCIALIZADORA JS PRODUCTOS SAS",
-                "total": 38066
-            },
-            {
-                "grupo": "COMESTIBLES ITALO SA",
-                "total": 1165142
-            },
-            {
-                "grupo": "DISCOA SAS",
-                "total": 1606009
-            },
-            {
-                "grupo": "DISLICORES - DISTRIBUIDORA DE VINOS Y LICORES",
-                "total": 231507
-            },
-            {
-                "grupo": "DORIS PATRICIA FONSECA RODRIGUEZ",
-                "total": 508375
-            },
-            {
-                "grupo": "DS DISTRI SAMY SAS",
-                "total": 6258
-            },
-            {
-                "grupo": "DUQUESA S.A. BIC",
-                "total": 2165387
-            },
-            {
-                "grupo": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
-                "total": 2091634
-            },
-            {
-                "grupo": "GLOBAL WINE & SPIRITS LTDA",
-                "total": 525456
-            },
-            {
-                "grupo": "INDUSTRIAS F C S.A.S - MARCHEN",
-                "total": 127400
-            },
-            {
-                "grupo": "INFUSIONES HERBAR SAS",
-                "total": 2616872
-            },
-            {
-                "grupo": "LABORATORIOS COFARMA S.A",
-                "total": 1698794
-            },
-            {
-                "grupo": "PREBEL SA BIC",
-                "total": 1293697
-            },
-            {
-                "grupo": "PRECOCIDOS DEL ORIENTE SA",
-                "total": 2276148
-            },
-            {
-                "grupo": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
-                "total": 177516
-            },
-            {
-                "grupo": "PRODUSA ZONA FRANCA SAS",
-                "total": 249380
-            },
-            {
-                "grupo": "PROPETS SAS",
-                "total": 105756
-            },
-            {
-                "grupo": "PUERTOMAR ZOMAC SAS",
-                "total": 776799
-            },
-            {
-                "grupo": "RONDA - INDUSTRIA COLOMBIANA DE CARNE SA",
-                "total": 25536
-            },
-            {
-                "grupo": "RUBIFLEX SAS",
-                "total": 91188
-            },
-            {
-                "grupo": "TONING SAS",
-                "total": 9466891
-            },
-            {
-                "grupo": "VENTAS NACIONALES SAS",
-                "total": 584938
-            }
-        ]
-    },
-    {
-        "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
-        "proveedor": [{
-                "grupo": "ALUMINIO NACIONAL S.A",
-                "total": 146160
-            },
-            {
-                "grupo": "ATW INTERNACIONAL SAS",
-                "total": 52344
-            },
-            {
-                "grupo": "CASA IBAÑEZ COLOMBIA SAS",
-                "total": 10497250
-            },
-            {
-                "grupo": "COMESTIBLES ITALO SA",
-                "total": 18668644
-            },
-            {
-                "grupo": "DISLICORES - DISTRIBUIDORA DE VINOS Y LICORES",
-                "total": 1122850
-            },
-            {
-                "grupo": "DORIS PATRICIA FONSECA RODRIGUEZ",
-                "total": 1824915
-            },
-            {
-                "grupo": "DUQUESA S.A. BIC",
-                "total": 926204
-            },
-            {
-                "grupo": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
-                "total": 2483988
-            },
-            {
-                "grupo": "INDUSTRIAS F C S.A.S - MARCHEN",
-                "total": 509600
-            },
-            {
-                "grupo": "INFUSIONES HERBAR SAS",
-                "total": 165936
-            },
-            {
-                "grupo": "LABORATORIOS COFARMA S.A",
-                "total": 666048
-            },
-            {
-                "grupo": "PREBEL SA BIC",
-                "total": 4955069
-            },
-            {
-                "grupo": "PRECOCIDOS DEL ORIENTE SA",
-                "total": 8347650
-            },
-            {
-                "grupo": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
-                "total": 999748
-            },
-            {
-                "grupo": "PRODUSA ZONA FRANCA SAS",
-                "total": 6575718
-            },
-            {
-                "grupo": "PROPETS SAS",
-                "total": 105756
-            },
-            {
-                "grupo": "PUERTOMAR ZOMAC SAS",
-                "total": 107046
-            },
-            {
-                "grupo": "RUBIFLEX SAS",
-                "total": 36072
-            },
-            {
-                "grupo": "SABAJON APOLO SA",
-                "total": 79714
-            },
-            {
-                "grupo": "SURAMERICANA JI SAS",
-                "total": 26634
-            },
-            {
-                "grupo": "TONING SAS",
-                "total": 30500232
-            },
-            {
-                "grupo": "VENTAS NACIONALES SAS",
-                "total": 2216678
-            },
-            {
-                "grupo": "Z06 - CONGRUPO S A",
-                "total": 30212
+                "total": 1111500,
+                "mes": "ENERO"
             }
         ]
     },
@@ -981,383 +275,414 @@
         "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
         "proveedor": [{
                 "grupo": "ATW INTERNACIONAL SAS",
-                "total": 1098258
+                "total": 1098258,
+                "mes": "ENERO"
             },
             {
                 "grupo": "CASA IBAÑEZ COLOMBIA SAS",
-                "total": 40248
+                "total": 40248,
+                "mes": "ENERO"
             },
             {
                 "grupo": "COMESTIBLES ITALO SA",
-                "total": 12318189
+                "total": 13273461,
+                "mes": "ENERO"
             },
             {
                 "grupo": "DISCOA SAS",
-                "total": 2070650
+                "total": 2070650,
+                "mes": "ENERO"
             },
             {
                 "grupo": "DISLICORES - DISTRIBUIDORA DE VINOS Y LICORES",
-                "total": 326982
+                "total": 326982,
+                "mes": "ENERO"
             },
             {
                 "grupo": "DORIS PATRICIA FONSECA RODRIGUEZ",
-                "total": 394200
+                "total": 394200,
+                "mes": "ENERO"
             },
             {
                 "grupo": "DS DISTRI SAMY SAS",
-                "total": 12801
+                "total": 12801,
+                "mes": "ENERO"
             },
             {
                 "grupo": "DUQUESA S.A. BIC",
-                "total": 4907631
+                "total": 4907631,
+                "mes": "ENERO"
             },
             {
                 "grupo": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
-                "total": 519596
+                "total": 519596,
+                "mes": "ENERO"
             },
             {
                 "grupo": "GLOBAL WINE & SPIRITS LTDA",
-                "total": 342644
+                "total": 342644,
+                "mes": "ENERO"
             },
             {
                 "grupo": "INDUSTRIAS F C S.A.S - MARCHEN",
-                "total": 585000
+                "total": 585000,
+                "mes": "ENERO"
             },
             {
                 "grupo": "INFUSIONES HERBAR SAS",
-                "total": 202156
+                "total": 202156,
+                "mes": "ENERO"
             },
             {
                 "grupo": "LABORATORIOS COFARMA S.A",
-                "total": 501917
+                "total": 501917,
+                "mes": "ENERO"
             },
             {
                 "grupo": "PAPELES NACIONALES SAS",
-                "total": 761368
+                "total": 761368,
+                "mes": "ENERO"
             },
             {
                 "grupo": "PREBEL SA BIC",
-                "total": 600660
+                "total": 600660,
+                "mes": "ENERO"
             },
             {
                 "grupo": "PRECOCIDOS DEL ORIENTE SA",
-                "total": 16310276
+                "total": 16310276,
+                "mes": "ENERO"
             },
             {
                 "grupo": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
-                "total": 3110002
+                "total": 3110002,
+                "mes": "ENERO"
             },
             {
                 "grupo": "PRODUCTOS ALIMENTICIOS BELLINI S.A.S",
-                "total": 99786
+                "total": 99786,
+                "mes": "ENERO"
             },
             {
                 "grupo": "PRODUSA ZONA FRANCA SAS",
-                "total": 2624034
+                "total": 2624034,
+                "mes": "ENERO"
             },
             {
                 "grupo": "PROPETS SAS",
-                "total": 1827664
+                "total": 1827664,
+                "mes": "ENERO"
             },
             {
                 "grupo": "PUERTOMAR ZOMAC SAS",
-                "total": 3301898
+                "total": 3301898,
+                "mes": "ENERO"
             },
             {
                 "grupo": "RONDA - INDUSTRIA COLOMBIANA DE CARNE SA",
-                "total": 153216
+                "total": 153216,
+                "mes": "ENERO"
             },
             {
                 "grupo": "RUBIFLEX SAS",
-                "total": 4665444
+                "total": 5067132,
+                "mes": "ENERO"
             },
             {
                 "grupo": "TONING SAS",
-                "total": 7019777
+                "total": 7091801,
+                "mes": "ENERO"
             },
             {
                 "grupo": "VENTAS NACIONALES SAS",
-                "total": 159700
+                "total": 159700,
+                "mes": "ENERO"
             }
         ]
     },
     {
-        "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
+        "vendedor": "CONSUELO MUÑOZ",
         "proveedor": [{
                 "grupo": "ALUMINIO NACIONAL S.A",
-                "total": 221160
+                "total": 228736,
+                "mes": "ENERO"
             },
             {
-                "grupo": "CASA IBAÑEZ COLOMBIA SAS",
-                "total": 1865457
-            },
-            {
-                "grupo": "COMESTIBLES ITALO SA",
-                "total": 9575181
-            },
-            {
-                "grupo": "COMPAÑÍA DE DULCES SAS",
-                "total": -73964
-            },
-            {
-                "grupo": "DISCOA SAS",
-                "total": 676527
-            },
-            {
-                "grupo": "DISLICORES - DISTRIBUIDORA DE VINOS Y LICORES",
-                "total": 534004
-            },
-            {
-                "grupo": "DORIS PATRICIA FONSECA RODRIGUEZ",
-                "total": 244001
-            },
-            {
-                "grupo": "DS DISTRI SAMY SAS",
-                "total": 52493
-            },
-            {
-                "grupo": "DUQUESA S.A. BIC",
-                "total": 2895821
-            },
-            {
-                "grupo": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
-                "total": 424538
-            },
-            {
-                "grupo": "GLOBAL WINE & SPIRITS LTDA",
-                "total": 1029562
-            },
-            {
-                "grupo": "INDUSTRIAS F C S.A.S - MARCHEN",
-                "total": 255976
-            },
-            {
-                "grupo": "INFUSIONES HERBAR SAS",
-                "total": 278460
-            },
-            {
-                "grupo": "LABORATORIOS COFARMA S.A",
-                "total": 1054838
-            },
-            {
-                "grupo": "PAPELES NACIONALES SAS",
-                "total": 1163890
-            },
-            {
-                "grupo": "PREBEL SA BIC",
-                "total": 225403
-            },
-            {
-                "grupo": "PRECOCIDOS DEL ORIENTE SA",
-                "total": 4105797
-            },
-            {
-                "grupo": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
-                "total": 807791
-            },
-            {
-                "grupo": "PRODUSA ZONA FRANCA SAS",
-                "total": 2751679
-            },
-            {
-                "grupo": "PROPETS SAS",
-                "total": 473258
-            },
-            {
-                "grupo": "PUERTOMAR ZOMAC SAS",
-                "total": 1786368
-            },
-            {
-                "grupo": "RUBIFLEX SAS",
-                "total": 2199586
-            },
-            {
-                "grupo": "SURAMERICANA JI SAS",
-                "total": 177098
-            },
-            {
-                "grupo": "SURAMERICANA JI SAS - TEMPORADA",
-                "total": -1730479
-            },
-            {
-                "grupo": "TONING SAS",
-                "total": 6031253
-            }
-        ]
-    },
-    {
-        "vendedor": "YENY MARIBEL MONROY PATIÑO",
-        "proveedor": [{
                 "grupo": "ATW INTERNACIONAL SAS",
-                "total": 17865124
+                "total": 702768,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "BODEGAS CASA DEL RHIN ZF SAS",
+                "total": 91569,
+                "mes": "ENERO"
             },
             {
                 "grupo": "CASA IBAÑEZ COLOMBIA SAS",
-                "total": 20329978
+                "total": 1534239,
+                "mes": "ENERO"
             },
             {
                 "grupo": "COMERCIALIZADORA JS PRODUCTOS SAS",
-                "total": 65256
+                "total": 320842,
+                "mes": "ENERO"
             },
             {
                 "grupo": "COMESTIBLES ITALO SA",
-                "total": 10672069
+                "total": 11161430,
+                "mes": "ENERO"
             },
             {
                 "grupo": "DISCOA SAS",
-                "total": 1177050
+                "total": 392350,
+                "mes": "ENERO"
             },
             {
                 "grupo": "DISLICORES - DISTRIBUIDORA DE VINOS Y LICORES",
-                "total": 1204334
+                "total": 789099,
+                "mes": "ENERO"
             },
             {
                 "grupo": "DORIS PATRICIA FONSECA RODRIGUEZ",
-                "total": 978114
+                "total": 781359,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "DS DISTRI SAMY SAS",
+                "total": 271818,
+                "mes": "ENERO"
             },
             {
                 "grupo": "DUQUESA S.A. BIC",
-                "total": 834993
+                "total": 1979422,
+                "mes": "ENERO"
             },
             {
                 "grupo": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
-                "total": 190932
+                "total": 428428,
+                "mes": "ENERO"
             },
             {
                 "grupo": "GLOBAL WINE & SPIRITS LTDA",
-                "total": 584004
+                "total": 5987240,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "INDUSTRIAS F C S.A.S - MARCHEN",
+                "total": 97500,
+                "mes": "ENERO"
             },
             {
                 "grupo": "INFUSIONES HERBAR SAS",
-                "total": 989724
+                "total": 310816,
+                "mes": "ENERO"
             },
             {
                 "grupo": "LABORATORIOS COFARMA S.A",
-                "total": 6732548
+                "total": 4467463,
+                "mes": "ENERO"
             },
             {
                 "grupo": "PAPELES NACIONALES SAS",
-                "total": 11511540
+                "total": 3263876,
+                "mes": "ENERO"
             },
             {
                 "grupo": "PREBEL SA BIC",
-                "total": 4056169
+                "total": 3179829,
+                "mes": "ENERO"
             },
             {
                 "grupo": "PRECOCIDOS DEL ORIENTE SA",
-                "total": 3432850
+                "total": 11100956,
+                "mes": "ENERO"
             },
             {
                 "grupo": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
-                "total": 396804
+                "total": 3164541,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PRODUCTOS ALIMENTICIOS BELLINI S.A.S",
+                "total": 33262,
+                "mes": "ENERO"
             },
             {
                 "grupo": "PRODUSA ZONA FRANCA SAS",
-                "total": 7251929
+                "total": 3265464,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PROPETS SAS",
+                "total": 2379510,
+                "mes": "ENERO"
             },
             {
                 "grupo": "PUERTOMAR ZOMAC SAS",
-                "total": 343096
+                "total": 2472186,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "RONDA - INDUSTRIA COLOMBIANA DE CARNE SA",
+                "total": 268128,
+                "mes": "ENERO"
             },
             {
                 "grupo": "RUBIFLEX SAS",
-                "total": 3899748
+                "total": 657936,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "SURAMERICANA JI SAS - TEMPORADA",
+                "total": -665312,
+                "mes": "ENERO"
             },
             {
                 "grupo": "TONING SAS",
-                "total": 18780604
+                "total": 27758217,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "VENTAS NACIONALES SAS",
+                "total": 973176,
+                "mes": "ENERO"
             }
         ]
     },
     {
-        "vendedor": "XIMENA DEL PILAR SANTANA GAMBOA",
+        "vendedor": "DAVID YESID RAMIREZ LEGUIZAMON",
+        "proveedor": [{
+            "grupo": "TONING SAS",
+            "total": -79049,
+            "mes": "ENERO"
+        }]
+    },
+    {
+        "vendedor": "DIANA MARCELA BERMUDEZ SERRANO",
         "proveedor": [{
                 "grupo": "ALUMINIO NACIONAL S.A",
-                "total": 219218
+                "total": 14616,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "ATW INTERNACIONAL SAS",
+                "total": 20544,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "BODEGAS CASA DEL RHIN ZF SAS",
+                "total": 59680,
+                "mes": "ENERO"
             },
             {
                 "grupo": "CASA IBAÑEZ COLOMBIA SAS",
-                "total": 76222
+                "total": 3314928,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "COMERCIALIZADORA JS PRODUCTOS SAS",
+                "total": 10876,
+                "mes": "ENERO"
             },
             {
                 "grupo": "COMESTIBLES ITALO SA",
-                "total": 8412469
+                "total": 2052359,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "COMPAÑÍA DE DULCES SAS",
+                "total": -104222,
+                "mes": "ENERO"
             },
             {
                 "grupo": "DISCOA SAS",
-                "total": 3923500
+                "total": 491704,
+                "mes": "ENERO"
             },
             {
                 "grupo": "DISLICORES - DISTRIBUIDORA DE VINOS Y LICORES",
-                "total": 67284
+                "total": 197451,
+                "mes": "ENERO"
             },
             {
                 "grupo": "DORIS PATRICIA FONSECA RODRIGUEZ",
-                "total": 1121075
-            },
-            {
-                "grupo": "DS DISTRI SAMY SAS",
-                "total": 201440
+                "total": 2620692,
+                "mes": "ENERO"
             },
             {
                 "grupo": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
-                "total": 306604
+                "total": 344178,
+                "mes": "ENERO"
             },
             {
-                "grupo": "INDUSTRIAS F C S.A.S - MARCHEN",
-                "total": 349700
+                "grupo": "GLOBAL WINE & SPIRITS LTDA",
+                "total": 508831,
+                "mes": "ENERO"
             },
             {
                 "grupo": "INFUSIONES HERBAR SAS",
-                "total": 507708
+                "total": 279860,
+                "mes": "ENERO"
             },
             {
                 "grupo": "LABORATORIOS COFARMA S.A",
-                "total": 3165491
+                "total": 9752746,
+                "mes": "ENERO"
             },
             {
                 "grupo": "PAPELES NACIONALES SAS",
-                "total": 271140
+                "total": 60996,
+                "mes": "ENERO"
             },
             {
                 "grupo": "PREBEL SA BIC",
-                "total": 2047299
+                "total": 698292,
+                "mes": "ENERO"
             },
             {
                 "grupo": "PRECOCIDOS DEL ORIENTE SA",
-                "total": 3830353
+                "total": 698542,
+                "mes": "ENERO"
             },
             {
                 "grupo": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
-                "total": 6856292
+                "total": 49224,
+                "mes": "ENERO"
             },
             {
                 "grupo": "PRODUSA ZONA FRANCA SAS",
-                "total": 1123800
+                "total": 331305,
+                "mes": "ENERO"
             },
             {
                 "grupo": "PROPETS SAS",
-                "total": 52878
-            },
-            {
-                "grupo": "PUERTOMAR ZOMAC SAS",
-                "total": 49188
-            },
-            {
-                "grupo": "RONDA - INDUSTRIA COLOMBIANA DE CARNE SA",
-                "total": 153216
+                "total": 52878,
+                "mes": "ENERO"
             },
             {
                 "grupo": "RUBIFLEX SAS",
-                "total": 381204
+                "total": 8946,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "SURAMERICANA JI SAS",
+                "total": 1238904,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "SURAMERICANA JI SAS - TEMPORADA",
+                "total": -145497,
+                "mes": "ENERO"
             },
             {
                 "grupo": "TONING SAS",
-                "total": 26282965
+                "total": 46175949,
+                "mes": "ENERO"
             },
             {
-                "grupo": "Z06 - CONGRUPO S A",
-                "total": 34344
+                "grupo": "VENTAS NACIONALES SAS",
+                "total": 100416,
+                "mes": "ENERO"
             }
         ]
     },
@@ -1365,103 +690,1128 @@
         "vendedor": "ESTHER ANGELA SALAZAR MORA",
         "proveedor": [{
                 "grupo": "ALUMINIO NACIONAL S.A",
-                "total": 183210
+                "total": 183210,
+                "mes": "ENERO"
             },
             {
                 "grupo": "ATW INTERNACIONAL SAS",
-                "total": 29058
+                "total": 29058,
+                "mes": "ENERO"
             },
             {
                 "grupo": "CASA IBAÑEZ COLOMBIA SAS",
-                "total": 406116
+                "total": 406116,
+                "mes": "ENERO"
             },
             {
                 "grupo": "COMERCIALIZADORA JS PRODUCTOS SAS",
-                "total": 108760
+                "total": 108760,
+                "mes": "ENERO"
             },
             {
                 "grupo": "COMESTIBLES ITALO SA",
-                "total": 3421484
+                "total": 3421484,
+                "mes": "ENERO"
             },
             {
                 "grupo": "DISCOA SAS",
-                "total": 604898
+                "total": 604898,
+                "mes": "ENERO"
             },
             {
                 "grupo": "DISLICORES - DISTRIBUIDORA DE VINOS Y LICORES",
-                "total": 568026
+                "total": 568026,
+                "mes": "ENERO"
             },
             {
                 "grupo": "DORIS PATRICIA FONSECA RODRIGUEZ",
-                "total": 1022775
+                "total": 1022775,
+                "mes": "ENERO"
             },
             {
                 "grupo": "DS DISTRI SAMY SAS",
-                "total": 479688
+                "total": 479688,
+                "mes": "ENERO"
             },
             {
                 "grupo": "DUQUESA S.A. BIC",
-                "total": 1562121
+                "total": 1562121,
+                "mes": "ENERO"
             },
             {
                 "grupo": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
-                "total": 1156676
+                "total": 1156676,
+                "mes": "ENERO"
             },
             {
                 "grupo": "GLOBAL WINE & SPIRITS LTDA",
-                "total": 470178
+                "total": 470178,
+                "mes": "ENERO"
             },
             {
                 "grupo": "INDUSTRIAS F C S.A.S - MARCHEN",
-                "total": 32500
+                "total": 32500,
+                "mes": "ENERO"
             },
             {
                 "grupo": "INFUSIONES HERBAR SAS",
-                "total": 844216
+                "total": 844216,
+                "mes": "ENERO"
             },
             {
                 "grupo": "LABORATORIOS COFARMA S.A",
-                "total": 1133317
+                "total": 1133317,
+                "mes": "ENERO"
             },
             {
                 "grupo": "PAPELES NACIONALES SAS",
-                "total": 2479248
+                "total": 2479248,
+                "mes": "ENERO"
             },
             {
                 "grupo": "PREBEL SA BIC",
-                "total": 1582874
+                "total": 1693950,
+                "mes": "ENERO"
             },
             {
                 "grupo": "PRECOCIDOS DEL ORIENTE SA",
-                "total": 3966012
+                "total": 3966012,
+                "mes": "ENERO"
             },
             {
                 "grupo": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
-                "total": 1435720
+                "total": 1435720,
+                "mes": "ENERO"
             },
             {
                 "grupo": "PRODUSA ZONA FRANCA SAS",
-                "total": 2086026
+                "total": 2086026,
+                "mes": "ENERO"
             },
             {
                 "grupo": "PROPETS SAS",
-                "total": 105756
+                "total": 105756,
+                "mes": "ENERO"
             },
             {
                 "grupo": "PUERTOMAR ZOMAC SAS",
-                "total": 2155080
+                "total": 2155080,
+                "mes": "ENERO"
             },
             {
                 "grupo": "SURAMERICANA JI SAS",
-                "total": 51666
+                "total": 51666,
+                "mes": "ENERO"
             },
             {
                 "grupo": "TONING SAS",
-                "total": 10452324
+                "total": 10452324,
+                "mes": "ENERO"
             },
             {
                 "grupo": "VENTAS NACIONALES SAS",
-                "total": 1115844
+                "total": 1115844,
+                "mes": "ENERO"
+            }
+        ]
+    },
+    {
+        "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
+        "proveedor": [{
+                "grupo": "ALUMINIO NACIONAL S.A",
+                "total": 146160,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "ATW INTERNACIONAL SAS",
+                "total": 52344,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "CASA IBAÑEZ COLOMBIA SAS",
+                "total": 10646776,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "COMESTIBLES ITALO SA",
+                "total": 18985504,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "DISLICORES - DISTRIBUIDORA DE VINOS Y LICORES",
+                "total": 1122850,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "DORIS PATRICIA FONSECA RODRIGUEZ",
+                "total": 2082240,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "DS DISTRI SAMY SAS",
+                "total": 126040,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "DUQUESA S.A. BIC",
+                "total": 1030262,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
+                "total": 2551860,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "INDUSTRIAS F C S.A.S - MARCHEN",
+                "total": 509600,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "INFUSIONES HERBAR SAS",
+                "total": 165936,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "LABORATORIOS COFARMA S.A",
+                "total": 863852,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PAPELES NACIONALES SAS",
+                "total": 375564,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PREBEL SA BIC",
+                "total": 5038389,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PRECOCIDOS DEL ORIENTE SA",
+                "total": 9289410,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
+                "total": 1083192,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PRODUSA ZONA FRANCA SAS",
+                "total": 7180623,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PROPETS SAS",
+                "total": 114569,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PUERTOMAR ZOMAC SAS",
+                "total": 121394,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "RONDA - INDUSTRIA COLOMBIANA DE CARNE SA",
+                "total": 38304,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "RUBIFLEX SAS",
+                "total": 36072,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "SABAJON APOLO SA",
+                "total": 79714,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "SURAMERICANA JI SAS",
+                "total": 40542,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "TONING SAS",
+                "total": 31662866,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "VENTAS NACIONALES SAS",
+                "total": 2823554,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "Z06 - CONGRUPO S A",
+                "total": 30212,
+                "mes": "ENERO"
+            }
+        ]
+    },
+    {
+        "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ",
+        "proveedor": [{
+                "grupo": "ALUMINIO NACIONAL S.A",
+                "total": 24360,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "ATW INTERNACIONAL SAS",
+                "total": 13086,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "CASA IBAÑEZ COLOMBIA SAS",
+                "total": 1003446,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "COMERCIALIZADORA JS PRODUCTOS SAS",
+                "total": 38066,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "COMESTIBLES ITALO SA",
+                "total": 1165142,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "DISCOA SAS",
+                "total": 1606009,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "DISLICORES - DISTRIBUIDORA DE VINOS Y LICORES",
+                "total": 231507,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "DORIS PATRICIA FONSECA RODRIGUEZ",
+                "total": 508375,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "DS DISTRI SAMY SAS",
+                "total": 6258,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "DUQUESA S.A. BIC",
+                "total": 2377433,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
+                "total": 2091634,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "GLOBAL WINE & SPIRITS LTDA",
+                "total": 525456,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "INDUSTRIAS F C S.A.S - MARCHEN",
+                "total": 127400,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "INFUSIONES HERBAR SAS",
+                "total": 2616872,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "LABORATORIOS COFARMA S.A",
+                "total": 1698794,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PREBEL SA BIC",
+                "total": 1293697,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PRECOCIDOS DEL ORIENTE SA",
+                "total": 2276148,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
+                "total": 177516,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PRODUSA ZONA FRANCA SAS",
+                "total": 249380,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PROPETS SAS",
+                "total": 105756,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PUERTOMAR ZOMAC SAS",
+                "total": 776799,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "RONDA - INDUSTRIA COLOMBIANA DE CARNE SA",
+                "total": 25536,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "RUBIFLEX SAS",
+                "total": 91188,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "TONING SAS",
+                "total": 12979050,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "VENTAS NACIONALES SAS",
+                "total": 584938,
+                "mes": "ENERO"
+            }
+        ]
+    },
+    {
+        "vendedor": "JAIRO IBAÑEZ ARTUNDUAGA",
+        "proveedor": [{
+                "grupo": "CASA IBAÑEZ COLOMBIA SAS",
+                "total": 1217572,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "COMESTIBLES ITALO SA",
+                "total": -22065,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "DORIS PATRICIA FONSECA RODRIGUEZ",
+                "total": 840154,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "LABORATORIOS COFARMA S.A",
+                "total": 884574,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PREBEL SA BIC",
+                "total": 9300538,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PRECOCIDOS DEL ORIENTE SA",
+                "total": 3958928,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PRODUSA ZONA FRANCA SAS",
+                "total": 1990792,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PROPETS SAS",
+                "total": -8637,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "TONING SAS",
+                "total": 18608783,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "Z06 - CONGRUPO S A",
+                "total": -28346,
+                "mes": "ENERO"
+            }
+        ]
+    },
+    {
+        "vendedor": "LISBETH JULIETH NARANJO ROJAS",
+        "proveedor": [{
+                "grupo": "ATW INTERNACIONAL SAS",
+                "total": 10067,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "CASA IBAÑEZ COLOMBIA SAS",
+                "total": 60255,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "COMESTIBLES ITALO SA",
+                "total": 92951,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "COMPAÑÍA DE DULCES SAS",
+                "total": 3362,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "GLOBAL WINE & SPIRITS LTDA",
+                "total": 110220,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "LABORATORIOS COFARMA S.A",
+                "total": 13082,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PAPELES NACIONALES SAS",
+                "total": 1916306,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PREBEL SA BIC",
+                "total": 12103,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PRECOCIDOS DEL ORIENTE SA",
+                "total": 400680,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
+                "total": 11267,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PRODUCTOS ALIMENTICIOS BELLINI S.A.S",
+                "total": 3831800,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PUERTOMAR ZOMAC SAS",
+                "total": 41462,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "SURAMERICANA JI SAS",
+                "total": 4184,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "TONING SAS",
+                "total": 2092508,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "VENTAS NACIONALES SAS",
+                "total": 15085,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "Z06 - CONGRUPO S A",
+                "total": 12009,
+                "mes": "ENERO"
+            }
+        ]
+    },
+    {
+        "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
+        "proveedor": [{
+                "grupo": "ALUMINIO NACIONAL S.A",
+                "total": 221160,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "CASA IBAÑEZ COLOMBIA SAS",
+                "total": 2043999,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "COMESTIBLES ITALO SA",
+                "total": 9647936,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "COMPAÑÍA DE DULCES SAS",
+                "total": -73964,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "DISCOA SAS",
+                "total": 769279,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "DISLICORES - DISTRIBUIDORA DE VINOS Y LICORES",
+                "total": 534003,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "DORIS PATRICIA FONSECA RODRIGUEZ",
+                "total": 244000,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "DS DISTRI SAMY SAS",
+                "total": 52493,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "DUQUESA S.A. BIC",
+                "total": 3098664,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
+                "total": 507686,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "GLOBAL WINE & SPIRITS LTDA",
+                "total": 1029562,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "INDUSTRIAS F C S.A.S - MARCHEN",
+                "total": 287989,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "INFUSIONES HERBAR SAS",
+                "total": 278461,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "LABORATORIOS COFARMA S.A",
+                "total": 1246351,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PAPELES NACIONALES SAS",
+                "total": 1255986,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PREBEL SA BIC",
+                "total": 225403,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PRECOCIDOS DEL ORIENTE SA",
+                "total": 4279965,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
+                "total": 909251,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PRODUSA ZONA FRANCA SAS",
+                "total": 2751679,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PROPETS SAS",
+                "total": 473258,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PUERTOMAR ZOMAC SAS",
+                "total": 2011317,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "RUBIFLEX SAS",
+                "total": 2199587,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "SURAMERICANA JI SAS",
+                "total": 177098,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "SURAMERICANA JI SAS - TEMPORADA",
+                "total": -1730479,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "TONING SAS",
+                "total": 6255964,
+                "mes": "ENERO"
+            }
+        ]
+    },
+    {
+        "vendedor": "RAUL FERNANDO JIMENEZ TRIANA",
+        "proveedor": [{
+                "grupo": "ALUMINIO NACIONAL S.A",
+                "total": 58970,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "ATW INTERNACIONAL SAS",
+                "total": 121298,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "CASA IBAÑEZ COLOMBIA SAS",
+                "total": 441541,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "COMERCIALIZADORA JS PRODUCTOS SAS",
+                "total": 48398,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "COMESTIBLES ITALO SA",
+                "total": 1387482,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "DISLICORES - DISTRIBUIDORA DE VINOS Y LICORES",
+                "total": 90614,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "DORIS PATRICIA FONSECA RODRIGUEZ",
+                "total": 2061952,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "DS DISTRI SAMY SAS",
+                "total": 78690,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
+                "total": 1884415,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "INDUSTRIAS F C S.A.S - MARCHEN",
+                "total": 28925,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "INFUSIONES HERBAR SAS",
+                "total": 106077,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "LABORATORIOS COFARMA S.A",
+                "total": 224909,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PAPELES NACIONALES SAS",
+                "total": 89125,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PREBEL SA BIC",
+                "total": 547229,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PROPETS SAS",
+                "total": 528340,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PUERTOMAR ZOMAC SAS",
+                "total": 68608,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "RUBIFLEX SAS",
+                "total": 210855,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "SURAMERICANA JI SAS",
+                "total": 45075,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "TONING SAS",
+                "total": 1780135,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "VENTAS NACIONALES SAS",
+                "total": 352696,
+                "mes": "ENERO"
+            }
+        ]
+    },
+    {
+        "vendedor": "SURAMERICANA JI SAS",
+        "proveedor": [{
+                "grupo": "LABORATORIOS COFARMA S.A",
+                "total": 16361,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PAPELES NACIONALES SAS",
+                "total": 41568,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
+                "total": 25124,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "Z38 - SERVICIOS",
+                "total": 1040000,
+                "mes": "ENERO"
+            }
+        ]
+    },
+    {
+        "vendedor": "XIMENA DEL PILAR SANTANA GAMBOA",
+        "proveedor": [{
+                "grupo": "ALUMINIO NACIONAL S.A",
+                "total": 219218,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "CASA IBAÑEZ COLOMBIA SAS",
+                "total": 76222,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "COMESTIBLES ITALO SA",
+                "total": 8412469,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "DISCOA SAS",
+                "total": 3923500,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "DISLICORES - DISTRIBUIDORA DE VINOS Y LICORES",
+                "total": 67284,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "DORIS PATRICIA FONSECA RODRIGUEZ",
+                "total": 1121075,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "DS DISTRI SAMY SAS",
+                "total": 201440,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
+                "total": 306604,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "INDUSTRIAS F C S.A.S - MARCHEN",
+                "total": 349700,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "INFUSIONES HERBAR SAS",
+                "total": 507708,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "LABORATORIOS COFARMA S.A",
+                "total": 3165491,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PAPELES NACIONALES SAS",
+                "total": 271140,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PREBEL SA BIC",
+                "total": 2047299,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PRECOCIDOS DEL ORIENTE SA",
+                "total": 3830353,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
+                "total": 6856292,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PRODUSA ZONA FRANCA SAS",
+                "total": 1123800,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PROPETS SAS",
+                "total": 52878,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PUERTOMAR ZOMAC SAS",
+                "total": 49188,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "RONDA - INDUSTRIA COLOMBIANA DE CARNE SA",
+                "total": 153216,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "RUBIFLEX SAS",
+                "total": 381204,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "TONING SAS",
+                "total": 27057715,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "Z06 - CONGRUPO S A",
+                "total": 34344,
+                "mes": "ENERO"
+            }
+        ]
+    },
+    {
+        "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
+        "proveedor": [{
+                "grupo": "CASA IBAÑEZ COLOMBIA SAS",
+                "total": 1854685,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "COMERCIALIZADORA JS PRODUCTOS SAS",
+                "total": 685188,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "COMESTIBLES ITALO SA",
+                "total": 5897986,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "DISCOA SAS",
+                "total": 3138025,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "DISLICORES - DISTRIBUIDORA DE VINOS Y LICORES",
+                "total": 290286,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "DORIS PATRICIA FONSECA RODRIGUEZ",
+                "total": 2292350,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "DS DISTRI SAMY SAS",
+                "total": 109284,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "DUQUESA S.A. BIC",
+                "total": 834584,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
+                "total": 922396,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "INDUSTRIAS F C S.A.S - MARCHEN",
+                "total": 374400,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "INFUSIONES HERBAR SAS",
+                "total": 1491540,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "LABORATORIOS COFARMA S.A",
+                "total": 11117086,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PAPELES NACIONALES SAS",
+                "total": 3088017,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PREBEL SA BIC",
+                "total": 2246505,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PRECOCIDOS DEL ORIENTE SA",
+                "total": 6224424,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
+                "total": 2251448,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PRODUCTOS ALIMENTICIOS BELLINI S.A.S",
+                "total": 2045223,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PRODUSA ZONA FRANCA SAS",
+                "total": 2937103,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PROPETS SAS",
+                "total": 1541499,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "RUBIFLEX SAS",
+                "total": 2700720,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "SURAMERICANA JI SAS",
+                "total": 279978,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "TONING SAS",
+                "total": 19512533,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "VENTAS NACIONALES SAS",
+                "total": 1605719,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "Z06 - CONGRUPO S A",
+                "total": 34344,
+                "mes": "ENERO"
+            }
+        ]
+    },
+    {
+        "vendedor": "YENY MARIBEL MONROY PATIÑO",
+        "proveedor": [{
+                "grupo": "ATW INTERNACIONAL SAS",
+                "total": 17865124,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "CASA IBAÑEZ COLOMBIA SAS",
+                "total": 20329978,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "COMERCIALIZADORA JS PRODUCTOS SAS",
+                "total": 65256,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "COMESTIBLES ITALO SA",
+                "total": 10727925,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "DISCOA SAS",
+                "total": 1177050,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "DISLICORES - DISTRIBUIDORA DE VINOS Y LICORES",
+                "total": 1204334,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "DORIS PATRICIA FONSECA RODRIGUEZ",
+                "total": 978114,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "DUQUESA S.A. BIC",
+                "total": 834993,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
+                "total": 190932,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "GLOBAL WINE & SPIRITS LTDA",
+                "total": 584004,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "INFUSIONES HERBAR SAS",
+                "total": 989724,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "LABORATORIOS COFARMA S.A",
+                "total": 6834283,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PAPELES NACIONALES SAS",
+                "total": 11774932,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PREBEL SA BIC",
+                "total": 4056169,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PRECOCIDOS DEL ORIENTE SA",
+                "total": 3432850,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
+                "total": 396804,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PRODUSA ZONA FRANCA SAS",
+                "total": 7251929,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "PUERTOMAR ZOMAC SAS",
+                "total": 343096,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "RUBIFLEX SAS",
+                "total": 3899748,
+                "mes": "ENERO"
+            },
+            {
+                "grupo": "TONING SAS",
+                "total": 19025502,
+                "mes": "ENERO"
             }
         ]
     }
