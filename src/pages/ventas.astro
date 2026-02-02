@@ -18,8 +18,16 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
   
   <div class="container">
     <header class="header">
-      <h1 id="pageTitle">💰 Mis Ventas ENERO 2026</h1>
+      <h1 id="pageTitle">💰 Mis Ventas</h1>
       <p class="subtitle" id="vendedorTitle">Cargando información del vendedor...</p>
+      
+      <!-- Selector de mes -->
+      <div class="mes-selector-container">
+        <label for="mesSelector" class="mes-label">Seleccionar Mes:</label>
+        <select id="mesSelector" class="mes-selector">
+          <option value="">Cargando meses...</option>
+        </select>
+      </div>
     </header>
 
     <div class="ventas-container">
@@ -209,117 +217,113 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
     `;
   }
 
-  // Renderizar las ventas
-  async function renderVentas() {
+  // Variables globales para almacenar datos cargados
+  let ventasDataGlobal: any[] = [];
+  let carterasDataGlobal: any[] = [];
+  let mesSeleccionado: string = '';
+
+  // Función para obtener meses únicos de los datos de ventas
+  function obtenerMesesUnicos(ventasData: any[]): string[] {
+    const mesesSet = new Set<string>();
+    ventasData.forEach((venta: any) => {
+      if (venta.proveedor && Array.isArray(venta.proveedor)) {
+        venta.proveedor.forEach((prov: any) => {
+          if (prov.mes) {
+            mesesSet.add(prov.mes.toUpperCase());
+          }
+        });
+      }
+    });
+    
+    // Ordenar meses cronológicamente
+    const ordenMeses: { [key: string]: number } = {
+      'ENERO': 1, 'FEBRERO': 2, 'MARZO': 3, 'ABRIL': 4,
+      'MAYO': 5, 'JUNIO': 6, 'JULIO': 7, 'AGOSTO': 8,
+      'SEPTIEMBRE': 9, 'OCTUBRE': 10, 'NOVIEMBRE': 11, 'DICIEMBRE': 12
+    };
+    
+    return Array.from(mesesSet).sort((a, b) => (ordenMeses[a] || 99) - (ordenMeses[b] || 99));
+  }
+
+  // Función para filtrar ventas por mes
+  function filtrarVentasPorMes(ventasData: any[], mes: string): any[] {
+    if (!mes) return ventasData;
+    
+    return ventasData.map((venta: any) => {
+      const proveedoresFiltrados = venta.proveedor?.filter((prov: any) => 
+        prov.mes && prov.mes.toUpperCase() === mes.toUpperCase()
+      ) || [];
+      
+      return {
+        ...venta,
+        proveedor: proveedoresFiltrados
+      };
+    }).filter((venta: any) => venta.proveedor && venta.proveedor.length > 0);
+  }
+
+  // Función para llenar el selector de meses
+  function llenarSelectorMeses(meses: string[]) {
+    const mesSelector = document.getElementById('mesSelector') as HTMLSelectElement;
+    if (!mesSelector) return;
+    
+    mesSelector.innerHTML = '';
+    
+    if (meses.length === 0) {
+      mesSelector.innerHTML = '<option value="">No hay meses disponibles</option>';
+      return;
+    }
+    
+    // Seleccionar el primer mes por defecto
+    meses.forEach((mes, index) => {
+      const option = document.createElement('option');
+      option.value = mes;
+      option.textContent = mes;
+      if (index === 0) {
+        option.selected = true;
+        mesSeleccionado = mes;
+      }
+      mesSelector.appendChild(option);
+    });
+    
+    // Agregar evento de cambio
+    mesSelector.addEventListener('change', (e) => {
+      mesSeleccionado = (e.target as HTMLSelectElement).value;
+      renderVentasConFiltro();
+    });
+  }
+
+  // Función para renderizar ventas con el filtro de mes aplicado
+  function renderVentasConFiltro() {
     const vendedorNombre = getVendedorNombre();
     const esAdmin = isAdministrador();
     const ventasContent = document.getElementById('ventasContent');
-    const vendedorTitle = document.getElementById('vendedorTitle');
-
-    if (!vendedorNombre) {
-      if (ventasContent) {
-        ventasContent.innerHTML = '<div class="error">No se pudo obtener la información del vendedor. Por favor, inicia sesión nuevamente.</div>';
-      }
-      return;
-    }
-
-    // Actualizar título
+    
+    if (!ventasContent || !vendedorNombre) return;
+    
+    // Filtrar datos por mes seleccionado
+    const ventasDataFiltrado = filtrarVentasPorMes(ventasDataGlobal, mesSeleccionado);
+    
+    // Actualizar título con el mes
     const pageTitle = document.getElementById('pageTitle');
     if (pageTitle) {
       if (esAdmin) {
-        pageTitle.textContent = '👑 Ventas - Vista Administrador';
+        pageTitle.textContent = `👑 Ventas ${mesSeleccionado} - Vista Administrador`;
       } else {
-        pageTitle.textContent = '💰 Mis Ventas';
+        pageTitle.textContent = `💰 Mis Ventas ${mesSeleccionado}`;
       }
     }
-
-    if (vendedorTitle) {
-      if (esAdmin) {
-        vendedorTitle.textContent = `Vista general de todas las ventas por vendedor`;
-      } else {
-        vendedorTitle.textContent = `Vendedor: ${vendedorNombre}`;
-      }
-    }
-
-    // Cargar datos de ventas desde el API
-    let ventasData: any[] = [];
-    let carterasData: any[] = [];
-    let timeoutId: any = null;
     
-    try {
-      const controller = new AbortController();
-      timeoutId = setTimeout(() => controller.abort(), 10000); // 10 segundos timeout
-      
-      // Cargar ventas y carteras en paralelo
-      const [ventasResponse, carterasResponse] = await Promise.all([
-        fetch('/api/ventas.json', {
-          signal: controller.signal,
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          method: 'GET',
-        }),
-        fetch('/api/carteras.json', {
-          signal: controller.signal,
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          method: 'GET',
-        })
-      ]);
-      
-      if (timeoutId) {
-        clearTimeout(timeoutId);
-        timeoutId = null;
-      }
-      
-      if (!ventasResponse.ok) {
-        throw new Error(`Error al cargar datos de ventas: ${ventasResponse.status} ${ventasResponse.statusText}`);
-      }
-      
-      const ventasDataJson = await ventasResponse.json();
-      if (!Array.isArray(ventasDataJson)) {
-        throw new Error('Los datos de ventas no tienen el formato esperado');
-      }
-      ventasData = ventasDataJson;
-
-      // Cargar carteras (puede fallar sin afectar la carga de ventas)
-      if (carterasResponse.ok) {
-        const carterasDataJson = await carterasResponse.json();
-        if (Array.isArray(carterasDataJson)) {
-          carterasData = carterasDataJson;
-        }
-      } else {
-        console.warn('No se pudieron cargar las carteras, continuando sin ellas');
-      }
-    } catch (error: any) {
-      if (timeoutId) {
-        clearTimeout(timeoutId);
-      }
-      console.error('Error cargando datos:', error);
-      const errorMessage = error.name === 'AbortError' 
-        ? 'La carga de datos está tardando demasiado. Por favor, intenta de nuevo.'
-        : error.message || 'Error al cargar los datos. Por favor, recarga la página.';
-      
-      if (ventasContent) {
-        ventasContent.innerHTML = `<div class="error">${errorMessage}</div>`;
-      }
-      return;
-    }
-
-    if (!ventasContent) return;
-
     // Si es administrador, mostrar todas las ventas en acordeón
     if (esAdmin) {
       // Filtrar ventas que tienen datos
-      const ventasConDatos = ventasData.filter((venta: any) => 
+      const ventasConDatos = ventasDataFiltrado.filter((venta: any) => 
         venta.proveedor && venta.proveedor.length > 0
       );
 
       if (ventasConDatos.length === 0) {
         ventasContent.innerHTML = `
           <div class="no-data">
-            <p>📊 No se encontraron datos de ventas.</p>
+            <p>📊 No se encontraron datos de ventas para el mes de ${mesSeleccionado}.</p>
           </div>
         `;
         return;
@@ -345,7 +349,7 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
             <span class="stat-value">${ventasConDatos.length}</span>
           </div>
           <div class="stat-card stat-card--primary stat-card--admin">
-            <span class="stat-label">Total Global</span>
+            <span class="stat-label">Total Global ${mesSeleccionado}</span>
             <span class="stat-value">${formatCurrency(totalGlobal)}</span>
           </div>
         </div>
@@ -357,7 +361,7 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
             const accordionId = `accordion-${index}`;
             
             // Buscar cartera del vendedor
-            const carteraVendedor = carterasData.find((c: any) => 
+            const carteraVendedor = carterasDataGlobal.find((c: any) => 
               compareVendedorNames(c.vendedor, venta.vendedor)
             );
             
@@ -432,12 +436,12 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
     }
 
     // Si es vendedor normal, mostrar solo sus ventas
-    const ventasVendedor = ventasData.find((venta: any) => 
+    const ventasVendedor = ventasDataFiltrado.find((venta: any) => 
       compareVendedorNames(venta.vendedor, vendedorNombre)
     );
 
     // Buscar cartera del vendedor
-    const carteraVendedor = carterasData.find((c: any) => 
+    const carteraVendedor = carterasDataGlobal.find((c: any) => 
       compareVendedorNames(c.vendedor, vendedorNombre)
     );
 
@@ -446,7 +450,7 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
       if (carteraVendedor) {
         ventasContent.innerHTML = `
           <div class="no-data" style="margin-bottom: 2rem;">
-            <p>📊 No se encontraron datos de ventas para este vendedor.</p>
+            <p>📊 No se encontraron datos de ventas para el mes de ${mesSeleccionado}.</p>
           </div>
           ${renderCarteraTable(carteraVendedor)}
         `;
@@ -455,7 +459,7 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
       
       ventasContent.innerHTML = `
         <div class="no-data">
-          <p>📊 No se encontraron datos de ventas para este vendedor.</p>
+          <p>📊 No se encontraron datos de ventas para el mes de ${mesSeleccionado}.</p>
         </div>
       `;
       return;
@@ -463,6 +467,117 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
 
     // Renderizar tabla normal para vendedor con cartera
     ventasContent.innerHTML = renderVendedorTable(ventasVendedor, vendedorNombre, carteraVendedor);
+  }
+
+  // Renderizar las ventas
+  async function renderVentas() {
+    const vendedorNombre = getVendedorNombre();
+    const esAdmin = isAdministrador();
+    const ventasContent = document.getElementById('ventasContent');
+    const vendedorTitle = document.getElementById('vendedorTitle');
+
+    if (!vendedorNombre) {
+      if (ventasContent) {
+        ventasContent.innerHTML = '<div class="error">No se pudo obtener la información del vendedor. Por favor, inicia sesión nuevamente.</div>';
+      }
+      return;
+    }
+
+    // Actualizar título
+    const pageTitle = document.getElementById('pageTitle');
+    if (pageTitle) {
+      if (esAdmin) {
+        pageTitle.textContent = '👑 Ventas - Vista Administrador';
+      } else {
+        pageTitle.textContent = '💰 Mis Ventas';
+      }
+    }
+
+    if (vendedorTitle) {
+      if (esAdmin) {
+        vendedorTitle.textContent = `Vista general de todas las ventas por vendedor`;
+      } else {
+        vendedorTitle.textContent = `Vendedor: ${vendedorNombre}`;
+      }
+    }
+
+    // Cargar datos de ventas desde el API
+    let ventasData: any[] = [];
+    let carterasData: any[] = [];
+    let timeoutId: any = null;
+    
+    try {
+      const controller = new AbortController();
+      timeoutId = setTimeout(() => controller.abort(), 10000); // 10 segundos timeout
+      
+      // Cargar ventas y carteras en paralelo
+      const [ventasResponse, carterasResponse] = await Promise.all([
+        fetch('/api/ventas.json', {
+          signal: controller.signal,
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          method: 'GET',
+        }),
+        fetch('/api/carteras.json', {
+          signal: controller.signal,
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          method: 'GET',
+        })
+      ]);
+      
+      if (timeoutId) {
+        clearTimeout(timeoutId);
+        timeoutId = null;
+      }
+      
+      if (!ventasResponse.ok) {
+        throw new Error(`Error al cargar datos de ventas: ${ventasResponse.status} ${ventasResponse.statusText}`);
+      }
+      
+      const ventasDataJson = await ventasResponse.json();
+      if (!Array.isArray(ventasDataJson)) {
+        throw new Error('Los datos de ventas no tienen el formato esperado');
+      }
+      ventasData = ventasDataJson;
+      ventasDataGlobal = ventasData; // Guardar en variable global
+
+      // Cargar carteras (puede fallar sin afectar la carga de ventas)
+      if (carterasResponse.ok) {
+        const carterasDataJson = await carterasResponse.json();
+        if (Array.isArray(carterasDataJson)) {
+          carterasData = carterasDataJson;
+          carterasDataGlobal = carterasData; // Guardar en variable global
+        }
+      } else {
+        console.warn('No se pudieron cargar las carteras, continuando sin ellas');
+      }
+
+      // Obtener meses únicos y llenar el selector
+      const mesesUnicos = obtenerMesesUnicos(ventasData);
+      llenarSelectorMeses(mesesUnicos);
+      
+    } catch (error: any) {
+      if (timeoutId) {
+        clearTimeout(timeoutId);
+      }
+      console.error('Error cargando datos:', error);
+      const errorMessage = error.name === 'AbortError' 
+        ? 'La carga de datos está tardando demasiado. Por favor, intenta de nuevo.'
+        : error.message || 'Error al cargar los datos. Por favor, recarga la página.';
+      
+      if (ventasContent) {
+        ventasContent.innerHTML = `<div class="error">${errorMessage}</div>`;
+      }
+      return;
+    }
+
+    if (!ventasContent) return;
+    
+    // Renderizar con el filtro de mes aplicado
+    renderVentasConFiltro();
   }
 
   // Función para toggle del acordeón
@@ -551,6 +666,58 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
     font-size: 1.125rem;
     font-weight: 500;
     letter-spacing: 0.01em;
+  }
+
+  /* Estilos del selector de mes */
+  .mes-selector-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: var(--border-radius-xl, 12px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+
+  .mes-label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-text-primary, #2d3748);
+  }
+
+  .mes-selector {
+    padding: 0.75rem 2rem 0.75rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-text-primary, #2d3748);
+    background: #ffffff;
+    border: 2px solid rgba(0, 168, 120, 0.3);
+    border-radius: var(--border-radius-lg, 8px);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%2300a878' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    min-width: 180px;
+  }
+
+  .mes-selector:hover {
+    border-color: var(--color-primary, #00a878);
+    box-shadow: 0 4px 12px rgba(0, 168, 120, 0.15);
+  }
+
+  .mes-selector:focus {
+    outline: none;
+    border-color: var(--color-primary, #00a878);
+    box-shadow: 0 0 0 3px rgba(0, 168, 120, 0.2);
+  }
+
+  .mes-selector option {
+    padding: 0.5rem;
+    font-weight: 500;
   }
 
   .ventas-container {
@@ -1197,6 +1364,16 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
       font-size: 1rem;
     }
 
+    .mes-selector-container {
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .mes-selector {
+      min-width: 100%;
+      max-width: 300px;
+    }
+
     .ventas-container {
       padding: 1.5rem;
       border-radius: var(--border-radius-xl, 12px);
@@ -1269,6 +1446,19 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
     }
 
     .subtitle {
+      font-size: 0.9375rem;
+    }
+
+    .mes-selector-container {
+      padding: 0.75rem;
+    }
+
+    .mes-label {
+      font-size: 0.9375rem;
+    }
+
+    .mes-selector {
+      padding: 0.625rem 1.75rem 0.625rem 0.875rem;
       font-size: 0.9375rem;
     }
 
