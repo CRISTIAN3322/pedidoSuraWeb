@@ -160,7 +160,36 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
     `;
   }
 
-  // Renderizar tabla de ventas para un vendedor
+  // Función para procesar la nueva estructura y agrupar por mes y grupo
+  function procesarVentasPorMesYGrupo(proveedores: any[]): { [mes: string]: { [grupo: string]: number } } {
+    const agrupados: { [mes: string]: { [grupo: string]: number } } = {};
+    
+    proveedores.forEach((prov: any) => {
+      const grupo = prov.grupo || 'SIN GRUPO';
+      
+      // Procesar ventas_por_mes si existe
+      if (prov.ventas_por_mes && Array.isArray(prov.ventas_por_mes)) {
+        prov.ventas_por_mes.forEach((ventaMes: any) => {
+          const mes = (ventaMes.mes || 'SIN MES').toUpperCase();
+          const total = ventaMes.total || 0;
+          
+          if (!agrupados[mes]) {
+            agrupados[mes] = {};
+          }
+          
+          // Sumar el total por grupo y mes
+          if (!agrupados[mes][grupo]) {
+            agrupados[mes][grupo] = 0;
+          }
+          agrupados[mes][grupo] += total;
+        });
+      }
+    });
+    
+    return agrupados;
+  }
+
+  // Renderizar tabla de ventas para un vendedor agrupada por mes y grupo
   function renderVendedorTable(ventasVendedor: any, vendedorNombre: string, carteraVendedor?: any) {
     if (!ventasVendedor || !ventasVendedor.proveedor || ventasVendedor.proveedor.length === 0) {
       return `
@@ -170,49 +199,103 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
       `;
     }
 
-    // Ordenar proveedores por total descendente
-    const proveedores = [...ventasVendedor.proveedor].sort((a: any, b: any) => b.total - a.total);
+    // Procesar ventas agrupadas por mes y grupo
+    const ventasPorMesYGrupo = procesarVentasPorMesYGrupo(ventasVendedor.proveedor);
+    
+    // Ordenar meses cronológicamente
+    const ordenMeses: { [key: string]: number } = {
+      'ENERO': 1, 'FEBRERO': 2, 'MARZO': 3, 'ABRIL': 4,
+      'MAYO': 5, 'JUNIO': 6, 'JULIO': 7, 'AGOSTO': 8,
+      'SEPTIEMBRE': 9, 'OCTUBRE': 10, 'NOVIEMBRE': 11, 'DICIEMBRE': 12
+    };
+    
+    const mesesOrdenados = Object.keys(ventasPorMesYGrupo).sort((a, b) => 
+      (ordenMeses[a] || 99) - (ordenMeses[b] || 99)
+    );
 
-    // Calcular total general
-    const totalGeneral = proveedores.reduce((sum: number, prov: any) => sum + prov.total, 0);
+    // Calcular total general de todos los meses y grupos
+    let totalGeneral = 0;
+    const gruposUnicos = new Set<string>();
+    
+    mesesOrdenados.forEach((mes) => {
+      Object.keys(ventasPorMesYGrupo[mes]).forEach((grupo) => {
+        gruposUnicos.add(grupo);
+        totalGeneral += ventasPorMesYGrupo[mes][grupo];
+      });
+    });
 
     const carteraHTML = carteraVendedor ? renderCarteraTable(carteraVendedor) : '';
+
+    // Generar HTML para cada mes
+    const mesesHTML = mesesOrdenados.map((mes) => {
+      const gruposDelMes = ventasPorMesYGrupo[mes];
+      
+      // Convertir objeto a array y ordenar por total descendente
+      const gruposArray = Object.keys(gruposDelMes).map((grupo) => ({
+        grupo,
+        total: gruposDelMes[grupo]
+      })).sort((a, b) => b.total - a.total);
+      
+      const totalMes = gruposArray.reduce((sum, item) => sum + item.total, 0);
+      
+      return `
+        <div class="mes-section">
+          <h3 class="mes-title">📅 ${mes}</h3>
+          <div class="mes-stats">
+            <div class="stat-card stat-card--mes">
+              <span class="stat-label">Grupos en ${mes}</span>
+              <span class="stat-value">${gruposArray.length}</span>
+            </div>
+            <div class="stat-card stat-card--mes stat-card--primary">
+              <span class="stat-label">Total ${mes}</span>
+              <span class="stat-value">${formatCurrency(totalMes)}</span>
+            </div>
+          </div>
+          
+          <div class="table-container">
+            <table class="ventas-table">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Grupo / Línea</th>
+                  <th class="text-right">Total Ventas ${mes}</th>
+                </tr>
+              </thead>
+              <tbody>
+                ${gruposArray.map((item: any, index: number) => `
+                  <tr>
+                    <td class="text-center">${index + 1}</td>
+                    <td>${item.grupo}</td>
+                    <td class="text-right amount">${formatCurrency(item.total)}</td>
+                  </tr>
+                `).join('')}
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td colspan="2" class="text-right total-label"><strong>Total ${mes}:</strong></td>
+                  <td class="text-right total-amount"><strong>${formatCurrency(totalMes)}</strong></td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+        </div>
+      `;
+    }).join('');
 
     return `
       <div class="vendedor-stats">
         <div class="stat-card">
-          <span class="stat-label">Total Proveedores : </span>
-          <span class="stat-value">${proveedores.length}</span>
+          <span class="stat-label">Total Grupos</span>
+          <span class="stat-value">${gruposUnicos.size}</span>
         </div>
-        
+        <div class="stat-card stat-card--primary">
+          <span class="stat-label">Total General</span>
+          <span class="stat-value">${formatCurrency(totalGeneral)}</span>
+        </div>
       </div>
 
-      <div class="table-container">
-        <table class="ventas-table">
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>Proveedor</th>
-              <th class="text-right">Total Ventas</th>
-            </tr>
-          </thead>
-          <tbody>
-            ${proveedores.map((proveedor: any, index: number) => `
-              <tr>
-                <td class="text-center">${index + 1}</td>
-                <td>${proveedor.grupo}</td>
-                <td class="text-right amount">${formatCurrency(proveedor.total)}</td>
-              </tr>
-            `).join('')}
-          </tbody>
-          <tfoot>
-            <tr>
-              <td colspan="2" class="text-right total-label"><strong>Total General:</strong></td>
-              <td class="text-right total-amount"><strong>${formatCurrency(totalGeneral)}</strong></td>
-            </tr>
-          </tfoot>
-        </table>
-      </div>
+      ${mesesHTML}
+      
       ${carteraHTML}
     `;
   }
@@ -222,14 +305,19 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
   let carterasDataGlobal: any[] = [];
   let mesSeleccionado: string = '';
 
-  // Función para obtener meses únicos de los datos de ventas
+  // Función para obtener meses únicos de los datos de ventas (nueva estructura)
   function obtenerMesesUnicos(ventasData: any[]): string[] {
     const mesesSet = new Set<string>();
     ventasData.forEach((venta: any) => {
       if (venta.proveedor && Array.isArray(venta.proveedor)) {
         venta.proveedor.forEach((prov: any) => {
-          if (prov.mes) {
-            mesesSet.add(prov.mes.toUpperCase());
+          // Procesar ventas_por_mes si existe
+          if (prov.ventas_por_mes && Array.isArray(prov.ventas_por_mes)) {
+            prov.ventas_por_mes.forEach((ventaMes: any) => {
+              if (ventaMes.mes) {
+                mesesSet.add(ventaMes.mes.toUpperCase());
+              }
+            });
           }
         });
       }
@@ -245,14 +333,28 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
     return Array.from(mesesSet).sort((a, b) => (ordenMeses[a] || 99) - (ordenMeses[b] || 99));
   }
 
-  // Función para filtrar ventas por mes
+  // Función para filtrar ventas por mes (nueva estructura)
   function filtrarVentasPorMes(ventasData: any[], mes: string): any[] {
     if (!mes) return ventasData;
     
     return ventasData.map((venta: any) => {
-      const proveedoresFiltrados = venta.proveedor?.filter((prov: any) => 
-        prov.mes && prov.mes.toUpperCase() === mes.toUpperCase()
-      ) || [];
+      const proveedoresFiltrados = venta.proveedor?.map((prov: any) => {
+        // Filtrar ventas_por_mes para solo incluir el mes seleccionado
+        if (prov.ventas_por_mes && Array.isArray(prov.ventas_por_mes)) {
+          const ventasFiltradas = prov.ventas_por_mes.filter((ventaMes: any) => 
+            ventaMes.mes && ventaMes.mes.toUpperCase() === mes.toUpperCase()
+          );
+          
+          // Solo incluir el proveedor si tiene ventas en el mes seleccionado
+          if (ventasFiltradas.length > 0) {
+            return {
+              ...prov,
+              ventas_por_mes: ventasFiltradas
+            };
+          }
+        }
+        return null;
+      }).filter((prov: any) => prov !== null) || [];
       
       return {
         ...venta,
@@ -273,15 +375,19 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
       return;
     }
     
-    // Seleccionar el primer mes por defecto
-    meses.forEach((mes, index) => {
+    // Agregar opción "Todos los meses"
+    const optionTodos = document.createElement('option');
+    optionTodos.value = '';
+    optionTodos.textContent = 'Todos los meses';
+    optionTodos.selected = true;
+    mesSeleccionado = '';
+    mesSelector.appendChild(optionTodos);
+    
+    // Agregar cada mes
+    meses.forEach((mes) => {
       const option = document.createElement('option');
       option.value = mes;
       option.textContent = mes;
-      if (index === 0) {
-        option.selected = true;
-        mesSeleccionado = mes;
-      }
       mesSelector.appendChild(option);
     });
     
@@ -300,16 +406,22 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
     
     if (!ventasContent || !vendedorNombre) return;
     
-    // Filtrar datos por mes seleccionado
-    const ventasDataFiltrado = filtrarVentasPorMes(ventasDataGlobal, mesSeleccionado);
+    // Si hay mes seleccionado, filtrar; si no, mostrar todos agrupados por mes
+    const ventasDataFiltrado = mesSeleccionado 
+      ? filtrarVentasPorMes(ventasDataGlobal, mesSeleccionado)
+      : ventasDataGlobal;
     
     // Actualizar título con el mes
     const pageTitle = document.getElementById('pageTitle');
     if (pageTitle) {
       if (esAdmin) {
-        pageTitle.textContent = `👑 Ventas ${mesSeleccionado} - Vista Administrador`;
+        pageTitle.textContent = mesSeleccionado 
+          ? `👑 Ventas ${mesSeleccionado} - Vista Administrador`
+          : '👑 Ventas - Vista Administrador';
       } else {
-        pageTitle.textContent = `💰 Mis Ventas ${mesSeleccionado}`;
+        pageTitle.textContent = mesSeleccionado 
+          ? `💰 Mis Ventas ${mesSeleccionado}`
+          : '💰 Mis Ventas';
       }
     }
     
@@ -323,22 +435,37 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
       if (ventasConDatos.length === 0) {
         ventasContent.innerHTML = `
           <div class="no-data">
-            <p>📊 No se encontraron datos de ventas para el mes de ${mesSeleccionado}.</p>
+            <p>📊 No se encontraron datos de ventas${mesSeleccionado ? ` para el mes de ${mesSeleccionado}` : ''}.</p>
           </div>
         `;
         return;
       }
 
-      // Calcular total general de todos los vendedores
+      // Calcular total general de todos los vendedores (nueva estructura)
       const totalGlobal = ventasConDatos.reduce((sum: number, venta: any) => {
-        const totalVendedor = venta.proveedor.reduce((s: number, p: any) => s + p.total, 0);
+        const totalVendedor = venta.proveedor.reduce((s: number, p: any) => {
+          if (p.ventas_por_mes && Array.isArray(p.ventas_por_mes)) {
+            return s + p.ventas_por_mes.reduce((sumMes: number, v: any) => sumMes + (v.total || 0), 0);
+          }
+          return s;
+        }, 0);
         return sum + totalVendedor;
       }, 0);
 
-      // Ordenar por total descendente
+      // Ordenar por total descendente (nueva estructura)
       ventasConDatos.sort((a: any, b: any) => {
-        const totalA = a.proveedor.reduce((sum: number, p: any) => sum + p.total, 0);
-        const totalB = b.proveedor.reduce((sum: number, p: any) => sum + p.total, 0);
+        const totalA = a.proveedor.reduce((sum: number, p: any) => {
+          if (p.ventas_por_mes && Array.isArray(p.ventas_por_mes)) {
+            return sum + p.ventas_por_mes.reduce((sumMes: number, v: any) => sumMes + (v.total || 0), 0);
+          }
+          return sum;
+        }, 0);
+        const totalB = b.proveedor.reduce((sum: number, p: any) => {
+          if (p.ventas_por_mes && Array.isArray(p.ventas_por_mes)) {
+            return sum + p.ventas_por_mes.reduce((sumMes: number, v: any) => sumMes + (v.total || 0), 0);
+          }
+          return sum;
+        }, 0);
         return totalB - totalA;
       });
 
@@ -356,7 +483,12 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
 
         <div class="accordion-container">
           ${ventasConDatos.map((venta: any, index: number) => {
-            const totalVendedor = venta.proveedor.reduce((sum: number, p: any) => sum + p.total, 0);
+            const totalVendedor = venta.proveedor.reduce((sum: number, p: any) => {
+              if (p.ventas_por_mes && Array.isArray(p.ventas_por_mes)) {
+                return sum + p.ventas_por_mes.reduce((sumMes: number, v: any) => sumMes + (v.total || 0), 0);
+              }
+              return sum;
+            }, 0);
             const totalProveedores = venta.proveedor.length;
             const accordionId = `accordion-${index}`;
             
@@ -1271,6 +1403,58 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
   }
 
   .cartera-table {
+    margin-top: 1rem;
+  }
+
+  /* Estilos para secciones de mes */
+  .mes-section {
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background: linear-gradient(135deg, rgba(0, 168, 120, 0.03) 0%, rgba(0, 217, 154, 0.03) 100%);
+    border-radius: var(--border-radius-xl, 12px);
+    border: 2px solid rgba(0, 168, 120, 0.15);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+
+  .mes-section:last-child {
+    margin-bottom: 0;
+  }
+
+  .mes-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #00a878;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 3px solid rgba(0, 168, 120, 0.3);
+  }
+
+  .mes-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .stat-card--mes {
+    background: var(--color-surface, #ffffff);
+    border: 2px solid rgba(0, 168, 120, 0.2);
+  }
+
+  .stat-card--mes .stat-label {
+    color: var(--color-text-muted, #666);
+    font-size: 0.875rem;
+  }
+
+  .stat-card--mes .stat-value {
+    color: var(--color-primary, #00a878);
+    font-size: 1.5rem;
+  }
+
+  .mes-section .table-container {
     margin-top: 1rem;
   }
 
