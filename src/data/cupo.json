@@ -4263,5 +4263,11 @@
         "nombre": "REINA CONSUELO COY VILLAMIL",
         "cupo": 1000000,
         "Forma": "Contado"
+    },
+    {
+        "id": 1010205627,
+        "nombre": "JHOSMAN ALEXANDER RINCON VANEGAS",
+        "cupo": 1000000,
+        "Forma": "Contado"
     }
 ]
