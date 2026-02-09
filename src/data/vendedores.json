@@ -5,6 +5,12 @@
         "rol": "administrador"
     },
     {
+        "id": 83230173,
+        "vendedor": "JOSE ORTEGA",
+        "pass": 83230173,
+        "rol": "administrador"
+    },
+    {
         "id": 52530962,
         "vendedor": "ANA SOFIA ROLDAN RIQUE",
         "pass": 52530962,
