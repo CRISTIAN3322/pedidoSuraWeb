@@ -6299,7 +6299,7 @@
         "barra": 7702044295161,
         "invetario": 154,
         "proveedor": "PREBEL SA BIC",
-        "activo": false
+        "activo": true
     },
     {
         "id": 574,
