@@ -425,7 +425,7 @@
         "barra": 7702622695857,
         "invetario": 0,
         "proveedor": "TONING SAS",
-        "activo": true
+        "activo": false
     },
     {
         "id": 40,
@@ -612,7 +612,7 @@
         "barra": 7702622100214,
         "invetario": 0,
         "proveedor": "TONING SAS",
-        "activo": true
+        "activo": false
     },
     {
         "id": 57,
@@ -1248,8 +1248,8 @@
         "precio": 3450,
         "imagen": "../assets/toWEBP/6971375186573.webp",
         "barra": 6971375186573,
-        "invetario": 0,
-        "proveedor": "",
+        "invetario": 7200,
+        "proveedor": "BIOMEDICH",
         "activo": true
     },
     {
