@@ -7174,5 +7174,13 @@
             "direccion": "CL 28 SUR 0 14 ESTE Sosiego Sur ",
             "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
         }]
+    },
+    {
+        "id": 1016070394,
+        "nombre": "ALEIDA PAOLA CASTELLANOS AGUDELO",
+        "sucursales": [{
+            "direccion": "CL 10 6 51   Madrid ",
+            "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
+        }]
     }
 ]
