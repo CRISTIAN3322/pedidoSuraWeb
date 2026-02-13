@@ -55,112 +55,110 @@
 <script>
   import vendedores from '../../data/vendedores.json';
 
-  document.addEventListener('DOMContentLoaded', () => {
-    const loginForm = document.getElementById('loginForm') as HTMLFormElement | null;
-    const vendedorIdInput = document.getElementById('vendedorId') as HTMLInputElement | null;
-    const passwordInput = document.getElementById('password') as HTMLInputElement | null;
-    const vendedorIdError = document.getElementById('vendedorIdError') as HTMLSpanElement | null;
-    const passwordError = document.getElementById('passwordError') as HTMLSpanElement | null;
-    const generalError = document.getElementById('generalError') as HTMLDivElement | null;
-    const submitButton = document.getElementById('submitButton') as HTMLButtonElement | null;
+  const loginForm = document.getElementById('loginForm') as HTMLFormElement;
+  const vendedorIdInput = document.getElementById('vendedorId') as HTMLInputElement;
+  const passwordInput = document.getElementById('password') as HTMLInputElement;
+  const vendedorIdError = document.getElementById('vendedorIdError') as HTMLSpanElement;
+  const passwordError = document.getElementById('passwordError') as HTMLSpanElement;
+  const generalError = document.getElementById('generalError') as HTMLDivElement;
+  const submitButton = document.getElementById('submitButton') as HTMLButtonElement;
 
-    if (!loginForm || !vendedorIdInput || !passwordInput || !vendedorIdError || !passwordError || !generalError || !submitButton) {
-      console.error('No se pudieron encontrar todos los elementos del formulario');
+  if (!loginForm || !vendedorIdInput || !passwordInput || !vendedorIdError || !passwordError || !generalError || !submitButton) {
+    console.error('No se pudieron encontrar todos los elementos del formulario');
+    throw new Error('Elementos del formulario no encontrados');
+  }
+
+  // Limpiar errores
+  function clearErrors() {
+    vendedorIdError.textContent = '';
+    passwordError.textContent = '';
+    generalError.textContent = '';
+    vendedorIdInput.classList.remove('login-form__input--error');
+    passwordInput.classList.remove('login-form__input--error');
+  }
+
+  // Mostrar error
+  function showError(field: string, message: string) {
+    const errorElement = field === 'vendedorId' ? vendedorIdError : passwordError;
+    const inputElement = field === 'vendedorId' ? vendedorIdInput : passwordInput;
+    
+    errorElement.textContent = message;
+    inputElement.classList.add('login-form__input--error');
+  }
+
+  // Validar credenciales
+  function validateCredentials(vendedorId: string, password: string) {
+    const vendedor = vendedores.find(
+      (v) => v.id === parseInt(vendedorId) && v.pass === parseInt(password)
+    );
+
+    return vendedor || null;
+  }
+
+  // Manejar envío del formulario
+  loginForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    clearErrors();
+
+    const vendedorId = vendedorIdInput.value.trim();
+    const password = passwordInput.value.trim();
+
+    // Validaciones básicas
+    if (!vendedorId) {
+      showError('vendedorId', 'El ID de vendedor es requerido');
       return;
     }
 
-    // Limpiar errores
-    function clearErrors() {
-      vendedorIdError.textContent = '';
-      passwordError.textContent = '';
-      generalError.textContent = '';
-      vendedorIdInput.classList.remove('login-form__input--error');
-      passwordInput.classList.remove('login-form__input--error');
+    if (!password) {
+      showError('password', 'La contraseña es requerida');
+      return;
     }
 
-    // Mostrar error
-    function showError(field: string, message: string) {
-      const errorElement = field === 'vendedorId' ? vendedorIdError : passwordError;
-      const inputElement = field === 'vendedorId' ? vendedorIdInput : passwordInput;
-      
-      errorElement.textContent = message;
-      inputElement.classList.add('login-form__input--error');
-    }
+    // Deshabilitar botón durante la validación
+    submitButton.disabled = true;
+    submitButton.textContent = 'Validando...';
+
+    // Simular pequeña demora para mejor UX
+    await new Promise(resolve => setTimeout(resolve, 300));
 
     // Validar credenciales
-    function validateCredentials(vendedorId: string, password: string) {
-      const vendedor = vendedores.find(
-        (v) => v.id === parseInt(vendedorId) && v.pass === parseInt(password)
-      );
+    const vendedor = validateCredentials(vendedorId, password);
 
-      return vendedor || null;
+    if (vendedor) {
+      // Guardar sesión
+      const sessionData = {
+        id: vendedor.id,
+        nombre: vendedor.vendedor,
+        rol: vendedor.rol || 'vendedor',
+        loginTime: new Date().toISOString()
+      };
+      
+      sessionStorage.setItem('vendedorSession', JSON.stringify(sessionData));
+      
+      // Redirigir a la página principal
+      window.location.href = '/principal';
+    } else {
+      generalError.textContent = 'Credenciales incorrectas. Por favor, verifica tu ID y contraseña.';
+      vendedorIdInput.classList.add('login-form__input--error');
+      passwordInput.classList.add('login-form__input--error');
+      
+      // Rehabilitar botón
+      submitButton.disabled = false;
+      submitButton.textContent = 'Iniciar Sesión';
     }
+  });
 
-    // Manejar envío del formulario
-    loginForm.addEventListener('submit', async (e) => {
-      e.preventDefault();
+  // Limpiar errores al escribir
+  vendedorIdInput.addEventListener('input', () => {
+    if (vendedorIdInput.classList.contains('login-form__input--error')) {
       clearErrors();
+    }
+  });
 
-      const vendedorId = vendedorIdInput.value.trim();
-      const password = passwordInput.value.trim();
-
-      // Validaciones básicas
-      if (!vendedorId) {
-        showError('vendedorId', 'El ID de vendedor es requerido');
-        return;
-      }
-
-      if (!password) {
-        showError('password', 'La contraseña es requerida');
-        return;
-      }
-
-      // Deshabilitar botón durante la validación
-      submitButton.disabled = true;
-      submitButton.textContent = 'Validando...';
-
-      // Simular pequeña demora para mejor UX
-      await new Promise(resolve => setTimeout(resolve, 300));
-
-      // Validar credenciales
-      const vendedor = validateCredentials(vendedorId, password);
-
-      if (vendedor) {
-        // Guardar sesión
-        const sessionData = {
-          id: vendedor.id,
-          nombre: vendedor.vendedor,
-          rol: vendedor.rol || 'vendedor',
-          loginTime: new Date().toISOString()
-        };
-        
-        sessionStorage.setItem('vendedorSession', JSON.stringify(sessionData));
-        
-        // Redirigir a la página principal
-        window.location.href = '/principal';
-      } else {
-        generalError.textContent = 'Credenciales incorrectas. Por favor, verifica tu ID y contraseña.';
-        vendedorIdInput.classList.add('login-form__input--error');
-        passwordInput.classList.add('login-form__input--error');
-        
-        // Rehabilitar botón
-        submitButton.disabled = false;
-        submitButton.textContent = 'Iniciar Sesión';
-      }
-    });
-
-    // Limpiar errores al escribir
-    vendedorIdInput.addEventListener('input', () => {
-      if (vendedorIdInput.classList.contains('login-form__input--error')) {
-        clearErrors();
-      }
-    });
-
-    passwordInput.addEventListener('input', () => {
-      if (passwordInput.classList.contains('login-form__input--error')) {
-        clearErrors();
-      }
-    });
+  passwordInput.addEventListener('input', () => {
+    if (passwordInput.classList.contains('login-form__input--error')) {
+      clearErrors();
+    }
   });
 </script>
 

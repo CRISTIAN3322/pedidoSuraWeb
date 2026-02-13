@@ -3,9 +3,14 @@
         "proveedor": [{
                 "grupo": "ATW INTERNACIONAL SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 612258
-                }]
+                        "mes": "ENERO",
+                        "total": 612258
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": -486000
+                    }
+                ]
             },
             {
                 "grupo": "CASA IBAÑEZ COLOMBIA SAS",
@@ -15,7 +20,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 80496
+                        "total": 891240
                     }
                 ]
             },
@@ -34,30 +39,45 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": -35904
+                        "total": 1867566
                     }
                 ]
             },
             {
                 "grupo": "DISCOA SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 3356600
-                }]
+                        "mes": "ENERO",
+                        "total": 3356600
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 392350
+                    }
+                ]
             },
             {
                 "grupo": "DISLICORES - DISTRIBUIDORA DE VINOS Y LICORES",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 734681
-                }]
+                        "mes": "ENERO",
+                        "total": 734681
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 881424
+                    }
+                ]
             },
             {
                 "grupo": "DORIS PATRICIA FONSECA RODRIGUEZ",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 1621450
-                }]
+                        "mes": "ENERO",
+                        "total": 1621450
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 40650
+                    }
+                ]
             },
             {
                 "grupo": "DS DISTRI SAMY SAS",
@@ -79,7 +99,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": -114671
+                        "total": -5807
                     }
                 ]
             },
@@ -91,16 +111,21 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": -33340
+                        "total": 31420
                     }
                 ]
             },
             {
                 "grupo": "GLOBAL WINE & SPIRITS LTDA",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 2223022
-                }]
+                        "mes": "ENERO",
+                        "total": 2223022
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 1678993
+                    }
+                ]
             },
             {
                 "grupo": "INDUSTRIAS F C S.A.S - MARCHEN",
@@ -112,16 +137,26 @@
             {
                 "grupo": "INFUSIONES HERBAR SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 715128
-                }]
+                        "mes": "ENERO",
+                        "total": 715128
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 233112
+                    }
+                ]
             },
             {
                 "grupo": "LABORATORIOS COFARMA S.A",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 3792851
-                }]
+                        "mes": "ENERO",
+                        "total": 3792851
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 792592
+                    }
+                ]
             },
             {
                 "grupo": "PAPELES NACIONALES SAS",
@@ -133,9 +168,14 @@
             {
                 "grupo": "PREBEL SA BIC",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 4797052
-                }]
+                        "mes": "ENERO",
+                        "total": 4797052
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 402569
+                    }
+                ]
             },
             {
                 "grupo": "PRECOCIDOS DEL ORIENTE SA",
@@ -145,23 +185,33 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": -5180
+                        "total": 290020
                     }
                 ]
             },
             {
                 "grupo": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 908788
-                }]
+                        "mes": "ENERO",
+                        "total": 908788
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 227584
+                    }
+                ]
             },
             {
                 "grupo": "PRODUSA ZONA FRANCA SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 1017744
-                }]
+                        "mes": "ENERO",
+                        "total": 1017744
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 118980
+                    }
+                ]
             },
             {
                 "grupo": "PROPETS SAS",
@@ -178,7 +228,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": -186524
+                        "total": 213028
                     }
                 ]
             },
@@ -197,7 +247,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 606316
+                        "total": 801794
                     }
                 ]
             },
@@ -209,7 +259,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": -66446
+                        "total": -63372
                     }
                 ]
             }
@@ -232,9 +282,14 @@
             {
                 "grupo": "ATW INTERNACIONAL SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 4374000
-                }]
+                        "mes": "ENERO",
+                        "total": 4374000
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": -4306198
+                    }
+                ]
             },
             {
                 "grupo": "BODEGAS CASA DEL RHIN ZF SAS",
@@ -251,7 +306,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 204657
+                        "total": 1100583
                     }
                 ]
             },
@@ -270,7 +325,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 1136496
+                        "total": 4183793
                     }
                 ]
             },
@@ -284,23 +339,38 @@
             {
                 "grupo": "DISCOA SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 4315850
-                }]
+                        "mes": "ENERO",
+                        "total": 4315850
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 392350
+                    }
+                ]
             },
             {
                 "grupo": "DISLICORES - DISTRIBUIDORA DE VINOS Y LICORES",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 540492
-                }]
+                        "mes": "ENERO",
+                        "total": 540492
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 301384
+                    }
+                ]
             },
             {
                 "grupo": "DORIS PATRICIA FONSECA RODRIGUEZ",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 678500
-                }]
+                        "mes": "ENERO",
+                        "total": 678500
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 610186
+                    }
+                ]
             },
             {
                 "grupo": "DS DISTRI SAMY SAS",
@@ -317,30 +387,45 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 227418
+                        "total": 1019076
                     }
                 ]
             },
             {
                 "grupo": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 2511417
-                }]
+                        "mes": "ENERO",
+                        "total": 2511417
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 271088
+                    }
+                ]
             },
             {
                 "grupo": "GLOBAL WINE & SPIRITS LTDA",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 1271500
-                }]
+                        "mes": "ENERO",
+                        "total": 1271500
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 275016
+                    }
+                ]
             },
             {
                 "grupo": "INDUSTRIAS F C S.A.S - MARCHEN",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 32500
-                }]
+                        "mes": "ENERO",
+                        "total": 32500
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 65000
+                    }
+                ]
             },
             {
                 "grupo": "INFUSIONES HERBAR SAS",
@@ -352,9 +437,14 @@
             {
                 "grupo": "LABORATORIOS COFARMA S.A",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 1304762
-                }]
+                        "mes": "ENERO",
+                        "total": 1304762
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 355680
+                    }
+                ]
             },
             {
                 "grupo": "PAPELES NACIONALES SAS",
@@ -366,16 +456,26 @@
             {
                 "grupo": "PREBEL SA BIC",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 7013817
-                }]
+                        "mes": "ENERO",
+                        "total": 7013817
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 982881
+                    }
+                ]
             },
             {
                 "grupo": "PRECOCIDOS DEL ORIENTE SA",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 14686724
-                }]
+                        "mes": "ENERO",
+                        "total": 14686724
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 5630433
+                    }
+                ]
             },
             {
                 "grupo": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
@@ -392,9 +492,14 @@
             {
                 "grupo": "PRODUSA ZONA FRANCA SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 2878104
-                }]
+                        "mes": "ENERO",
+                        "total": 2878104
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 2351472
+                    }
+                ]
             },
             {
                 "grupo": "PROPETS SAS",
@@ -404,23 +509,33 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 52878
+                        "total": 158634
                     }
                 ]
             },
             {
                 "grupo": "PUERTOMAR ZOMAC SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 2807168
-                }]
+                        "mes": "ENERO",
+                        "total": 2807168
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 480304
+                    }
+                ]
             },
             {
                 "grupo": "RONDA - INDUSTRIA COLOMBIANA DE CARNE SA",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 344736
-                }]
+                        "mes": "ENERO",
+                        "total": 344736
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 306432
+                    }
+                ]
             },
             {
                 "grupo": "SABAJON APOLO SA",
@@ -437,6 +552,13 @@
                 }]
             },
             {
+                "grupo": "SURAMERICANA JI SAS - TEMPORADA",
+                "ventas_por_mes": [{
+                    "mes": "FEBRERO",
+                    "total": -63596
+                }]
+            },
+            {
                 "grupo": "TONING SAS",
                 "ventas_por_mes": [{
                         "mes": "ENERO",
@@ -444,7 +566,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 820602
+                        "total": 4865056
                     }
                 ]
             },
@@ -456,9 +578,16 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": -297050
+                        "total": 0
                     }
                 ]
+            },
+            {
+                "grupo": "Z43 - DESCUENTOS DE ITALO",
+                "ventas_por_mes": [{
+                    "mes": "FEBRERO",
+                    "total": -6747909
+                }]
             }
         ]
     },
@@ -485,9 +614,14 @@
         "proveedor": [{
                 "grupo": "ATW INTERNACIONAL SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 1098258
-                }]
+                        "mes": "ENERO",
+                        "total": 1098258
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": -1020770
+                    }
+                ]
             },
             {
                 "grupo": "CASA IBAÑEZ COLOMBIA SAS",
@@ -497,7 +631,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 182928
+                        "total": 283431
                     }
                 ]
             },
@@ -509,7 +643,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 8837038
+                        "total": 11697858
                     }
                 ]
             },
@@ -521,7 +655,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 784700
+                        "total": 1271214
                     }
                 ]
             },
@@ -533,23 +667,33 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 203628
+                        "total": 351186
                     }
                 ]
             },
             {
                 "grupo": "DORIS PATRICIA FONSECA RODRIGUEZ",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 394200
-                }]
+                        "mes": "ENERO",
+                        "total": 394200
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 47150
+                    }
+                ]
             },
             {
                 "grupo": "DS DISTRI SAMY SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 12801
-                }]
+                        "mes": "ENERO",
+                        "total": 12801
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 38700
+                    }
+                ]
             },
             {
                 "grupo": "DUQUESA S.A. BIC",
@@ -559,7 +703,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 1841376
+                        "total": 3768614
                     }
                 ]
             },
@@ -571,7 +715,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 288092
+                        "total": 747674
                     }
                 ]
             },
@@ -597,9 +741,14 @@
             {
                 "grupo": "INFUSIONES HERBAR SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 202156
-                }]
+                        "mes": "ENERO",
+                        "total": 202156
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 720392
+                    }
+                ]
             },
             {
                 "grupo": "LABORATORIOS COFARMA S.A",
@@ -609,7 +758,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 364644
+                        "total": 1313452
                     }
                 ]
             },
@@ -621,7 +770,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 41568
+                        "total": 115776
                     }
                 ]
             },
@@ -633,7 +782,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 404038
+                        "total": 806049
                     }
                 ]
             },
@@ -645,7 +794,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 7016170
+                        "total": 13265666
                     }
                 ]
             },
@@ -657,7 +806,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 156257
+                        "total": 1061489
                     }
                 ]
             },
@@ -676,7 +825,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 1240020
+                        "total": 2679288
                     }
                 ]
             },
@@ -688,7 +837,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 264390
+                        "total": 317268
                     }
                 ]
             },
@@ -700,7 +849,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 3478187
+                        "total": 4026284
                     }
                 ]
             },
@@ -712,16 +861,21 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 153216
+                        "total": 268128
                     }
                 ]
             },
             {
                 "grupo": "RUBIFLEX SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 5067132
-                }]
+                        "mes": "ENERO",
+                        "total": 5067132
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 2721780
+                    }
+                ]
             },
             {
                 "grupo": "TONING SAS",
@@ -731,7 +885,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 5213854
+                        "total": 12185467
                     }
                 ]
             },
@@ -743,7 +897,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 958200
+                        "total": 1129920
                     }
                 ]
             },
@@ -768,9 +922,14 @@
             {
                 "grupo": "ATW INTERNACIONAL SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 702768
-                }]
+                        "mes": "ENERO",
+                        "total": 702768
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": -612258
+                    }
+                ]
             },
             {
                 "grupo": "BODEGAS CASA DEL RHIN ZF SAS",
@@ -787,7 +946,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 758559
+                        "total": 798807
                     }
                 ]
             },
@@ -811,7 +970,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 6641800
+                        "total": 11277762
                     }
                 ]
             },
@@ -823,7 +982,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 2354100
+                        "total": 3923500
                     }
                 ]
             },
@@ -835,7 +994,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": -189006
+                        "total": 294330
                     }
                 ]
             },
@@ -847,7 +1006,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 625146
+                        "total": 549120
                     }
                 ]
             },
@@ -859,7 +1018,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 42126
+                        "total": 268786
                     }
                 ]
             },
@@ -871,7 +1030,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 1145020
+                        "total": 1256299
                     }
                 ]
             },
@@ -883,7 +1042,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 719062
+                        "total": 854210
                     }
                 ]
             },
@@ -895,7 +1054,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 1600374
+                        "total": 3041833
                     }
                 ]
             },
@@ -914,9 +1073,14 @@
             {
                 "grupo": "INFUSIONES HERBAR SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 310816
-                }]
+                        "mes": "ENERO",
+                        "total": 310816
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 601204
+                    }
+                ]
             },
             {
                 "grupo": "LABORATORIOS COFARMA S.A",
@@ -926,16 +1090,21 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": -165754
+                        "total": 558266
                     }
                 ]
             },
             {
                 "grupo": "PAPELES NACIONALES SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 3263876
-                }]
+                        "mes": "ENERO",
+                        "total": 3263876
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 74208
+                    }
+                ]
             },
             {
                 "grupo": "PREBEL SA BIC",
@@ -945,7 +1114,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 613736
+                        "total": 1479109
                     }
                 ]
             },
@@ -957,7 +1126,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 3587886
+                        "total": 6351032
                     }
                 ]
             },
@@ -969,7 +1138,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 3072612
+                        "total": 4168072
                     }
                 ]
             },
@@ -1000,7 +1169,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 105756
+                        "total": 211512
                     }
                 ]
             },
@@ -1031,9 +1200,16 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 2434392
+                        "total": 2428260
                     }
                 ]
+            },
+            {
+                "grupo": "SABAJON APOLO SA",
+                "ventas_por_mes": [{
+                    "mes": "FEBRERO",
+                    "total": 159536
+                }]
             },
             {
                 "grupo": "SURAMERICANA JI SAS - TEMPORADA",
@@ -1055,16 +1231,21 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 16757782
+                        "total": 34373640
                     }
                 ]
             },
             {
                 "grupo": "VENTAS NACIONALES SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 973176
-                }]
+                        "mes": "ENERO",
+                        "total": 973176
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 95064
+                    }
+                ]
             }
         ]
     },
@@ -1104,23 +1285,38 @@
             {
                 "grupo": "CASA IBAÑEZ COLOMBIA SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 3314928
-                }]
+                        "mes": "ENERO",
+                        "total": 3314928
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 479268
+                    }
+                ]
             },
             {
                 "grupo": "COMERCIALIZADORA JS PRODUCTOS SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 10876
-                }]
+                        "mes": "ENERO",
+                        "total": 10876
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 16314
+                    }
+                ]
             },
             {
                 "grupo": "COMESTIBLES ITALO SA",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 2052359
-                }]
+                        "mes": "ENERO",
+                        "total": 2052359
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 311256
+                    }
+                ]
             },
             {
                 "grupo": "COMPAÑÍA DE DULCES SAS",
@@ -1132,23 +1328,38 @@
             {
                 "grupo": "DISCOA SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 491704
-                }]
+                        "mes": "ENERO",
+                        "total": 491704
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 784700
+                    }
+                ]
             },
             {
                 "grupo": "DISLICORES - DISTRIBUIDORA DE VINOS Y LICORES",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 197451
-                }]
+                        "mes": "ENERO",
+                        "total": 197451
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 34086
+                    }
+                ]
             },
             {
                 "grupo": "DORIS PATRICIA FONSECA RODRIGUEZ",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 2620692
-                }]
+                        "mes": "ENERO",
+                        "total": 2620692
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 191446
+                    }
+                ]
             },
             {
                 "grupo": "DS DISTRI SAMY SAS",
@@ -1160,23 +1371,38 @@
             {
                 "grupo": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 344178
-                }]
+                        "mes": "ENERO",
+                        "total": 344178
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 64416
+                    }
+                ]
             },
             {
                 "grupo": "GLOBAL WINE & SPIRITS LTDA",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 508831
-                }]
+                        "mes": "ENERO",
+                        "total": 508831
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 137508
+                    }
+                ]
             },
             {
                 "grupo": "INFUSIONES HERBAR SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 279860
-                }]
+                        "mes": "ENERO",
+                        "total": 279860
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 41484
+                    }
+                ]
             },
             {
                 "grupo": "LABORATORIOS COFARMA S.A",
@@ -1186,23 +1412,33 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": -73225
+                        "total": 427970
                     }
                 ]
             },
             {
                 "grupo": "PAPELES NACIONALES SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 60996
-                }]
+                        "mes": "ENERO",
+                        "total": 60996
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 98808
+                    }
+                ]
             },
             {
                 "grupo": "PREBEL SA BIC",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 698292
-                }]
+                        "mes": "ENERO",
+                        "total": 698292
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 283355
+                    }
+                ]
             },
             {
                 "grupo": "PRECOCIDOS DEL ORIENTE SA",
@@ -1212,7 +1448,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": -36570
+                        "total": 489030
                     }
                 ]
             },
@@ -1226,23 +1462,38 @@
             {
                 "grupo": "PRODUSA ZONA FRANCA SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 331305
-                }]
+                        "mes": "ENERO",
+                        "total": 331305
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 317088
+                    }
+                ]
             },
             {
                 "grupo": "PROPETS SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 52878
-                }]
+                        "mes": "ENERO",
+                        "total": 52878
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 52878
+                    }
+                ]
             },
             {
                 "grupo": "RUBIFLEX SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 8946
-                }]
+                        "mes": "ENERO",
+                        "total": 8946
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 545112
+                    }
+                ]
             },
             {
                 "grupo": "SURAMERICANA JI SAS",
@@ -1266,16 +1517,21 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": -290007
+                        "total": 8219712
                     }
                 ]
             },
             {
                 "grupo": "VENTAS NACIONALES SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 100416
-                }]
+                        "mes": "ENERO",
+                        "total": 100416
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 594100
+                    }
+                ]
             }
         ]
     },
@@ -1308,16 +1564,21 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 2734830
+                        "total": 2983620
                     }
                 ]
             },
             {
                 "grupo": "COMERCIALIZADORA JS PRODUCTOS SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 108760
-                }]
+                        "mes": "ENERO",
+                        "total": 108760
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 10876
+                    }
+                ]
             },
             {
                 "grupo": "COMESTIBLES ITALO SA",
@@ -1327,7 +1588,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 2577248
+                        "total": 5429490
                     }
                 ]
             },
@@ -1339,7 +1600,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 893600
+                        "total": 2070650
                     }
                 ]
             },
@@ -1351,23 +1612,33 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 95763
+                        "total": 184281
                     }
                 ]
             },
             {
                 "grupo": "DORIS PATRICIA FONSECA RODRIGUEZ",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 1022775
-                }]
+                        "mes": "ENERO",
+                        "total": 1022775
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": -664050
+                    }
+                ]
             },
             {
                 "grupo": "DS DISTRI SAMY SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 479688
-                }]
+                        "mes": "ENERO",
+                        "total": 479688
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 337870
+                    }
+                ]
             },
             {
                 "grupo": "DUQUESA S.A. BIC",
@@ -1377,7 +1648,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 1632671
+                        "total": 1529489
                     }
                 ]
             },
@@ -1389,7 +1660,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 368282
+                        "total": 518610
                     }
                 ]
             },
@@ -1401,7 +1672,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 402036
+                        "total": 471014
                     }
                 ]
             },
@@ -1425,7 +1696,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 269332
+                        "total": 502444
                     }
                 ]
             },
@@ -1444,9 +1715,14 @@
             {
                 "grupo": "PAPELES NACIONALES SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 2479248
-                }]
+                        "mes": "ENERO",
+                        "total": 2479248
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 145416
+                    }
+                ]
             },
             {
                 "grupo": "PREBEL SA BIC",
@@ -1456,7 +1732,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 225306
+                        "total": 476830
                     }
                 ]
             },
@@ -1468,7 +1744,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 266040
+                        "total": 735120
                     }
                 ]
             },
@@ -1480,7 +1756,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 99468
+                        "total": 324036
                     }
                 ]
             },
@@ -1516,7 +1792,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 296736
+                        "total": 234480
                     }
                 ]
             },
@@ -1535,7 +1811,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 11779199
+                        "total": 14161616
                     }
                 ]
             },
@@ -1547,7 +1823,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 396100
+                        "total": 467392
                     }
                 ]
             }
@@ -1563,16 +1839,21 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 2378
+                        "total": 482084
                     }
                 ]
             },
             {
                 "grupo": "ATW INTERNACIONAL SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 52344
-                }]
+                        "mes": "ENERO",
+                        "total": 52344
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 1944000
+                    }
+                ]
             },
             {
                 "grupo": "CASA IBAÑEZ COLOMBIA SAS",
@@ -1582,7 +1863,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 437268
+                        "total": 563493
                     }
                 ]
             },
@@ -1594,7 +1875,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 7110833
+                        "total": 8746735
                     }
                 ]
             },
@@ -1602,15 +1883,20 @@
                 "grupo": "DISCOA SAS",
                 "ventas_por_mes": [{
                     "mes": "FEBRERO",
-                    "total": 878864
+                    "total": 1526550
                 }]
             },
             {
                 "grupo": "DISLICORES - DISTRIBUIDORA DE VINOS Y LICORES",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 1122850
-                }]
+                        "mes": "ENERO",
+                        "total": 1122850
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 228262
+                    }
+                ]
             },
             {
                 "grupo": "DORIS PATRICIA FONSECA RODRIGUEZ",
@@ -1620,7 +1906,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 778600
+                        "total": 825750
                     }
                 ]
             },
@@ -1644,7 +1930,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 1025552
+                        "total": 2037953
                     }
                 ]
             },
@@ -1656,9 +1942,16 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 633615
+                        "total": 1599203
                     }
                 ]
+            },
+            {
+                "grupo": "GLOBAL WINE & SPIRITS LTDA",
+                "ventas_por_mes": [{
+                    "mes": "FEBRERO",
+                    "total": 272705
+                }]
             },
             {
                 "grupo": "INDUSTRIAS F C S.A.S - MARCHEN",
@@ -1668,7 +1961,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 97500
+                        "total": 130000
                     }
                 ]
             },
@@ -1680,7 +1973,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 678908
+                        "total": 792832
                     }
                 ]
             },
@@ -1692,7 +1985,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 171525
+                        "total": 225797
                     }
                 ]
             },
@@ -1704,7 +1997,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 65872
+                        "total": 15996
                     }
                 ]
             },
@@ -1716,7 +2009,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 324456
+                        "total": 1045820
                     }
                 ]
             },
@@ -1728,7 +2021,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 6355325
+                        "total": 9324821
                     }
                 ]
             },
@@ -1752,7 +2045,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 1956870
+                        "total": 2749878
                     }
                 ]
             },
@@ -1771,16 +2064,26 @@
             {
                 "grupo": "PUERTOMAR ZOMAC SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 121394
-                }]
+                        "mes": "ENERO",
+                        "total": 121394
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 1947832
+                    }
+                ]
             },
             {
                 "grupo": "RONDA - INDUSTRIA COLOMBIANA DE CARNE SA",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 38304
-                }]
+                        "mes": "ENERO",
+                        "total": 38304
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 459648
+                    }
+                ]
             },
             {
                 "grupo": "RUBIFLEX SAS",
@@ -1790,7 +2093,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 73584
+                        "total": 163332
                     }
                 ]
             },
@@ -1816,7 +2119,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 11086499
+                        "total": 20495201
                     }
                 ]
             },
@@ -1828,7 +2131,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": -3960
+                        "total": 396076
                     }
                 ]
             },
@@ -1863,16 +2166,21 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 70412
+                        "total": 110309
                     }
                 ]
             },
             {
                 "grupo": "ATW INTERNACIONAL SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 13086
-                }]
+                        "mes": "ENERO",
+                        "total": 13086
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 14529
+                    }
+                ]
             },
             {
                 "grupo": "CASA IBAÑEZ COLOMBIA SAS",
@@ -1882,16 +2190,21 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": -29998
+                        "total": 28538
                     }
                 ]
             },
             {
                 "grupo": "COMERCIALIZADORA JS PRODUCTOS SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 38066
-                }]
+                        "mes": "ENERO",
+                        "total": 38066
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 10876
+                    }
+                ]
             },
             {
                 "grupo": "COMESTIBLES ITALO SA",
@@ -1901,7 +2214,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 518702
+                        "total": 716576
                     }
                 ]
             },
@@ -1925,7 +2238,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 119592
+                        "total": 199126
                     }
                 ]
             },
@@ -1949,7 +2262,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 82622
+                        "total": 113138
                     }
                 ]
             },
@@ -1961,7 +2274,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 1149880
+                        "total": 2056507
                     }
                 ]
             },
@@ -1973,16 +2286,21 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 172546
+                        "total": 342558
                     }
                 ]
             },
             {
                 "grupo": "GLOBAL WINE & SPIRITS LTDA",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 525456
-                }]
+                        "mes": "ENERO",
+                        "total": 525456
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 391654
+                    }
+                ]
             },
             {
                 "grupo": "INDUSTRIAS F C S.A.S - MARCHEN",
@@ -1992,7 +2310,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 65000
+                        "total": 227500
                     }
                 ]
             },
@@ -2004,7 +2322,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 274596
+                        "total": 637424
                     }
                 ]
             },
@@ -2016,9 +2334,16 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 385593
+                        "total": 907841
                     }
                 ]
+            },
+            {
+                "grupo": "PAPELES NACIONALES SAS",
+                "ventas_por_mes": [{
+                    "mes": "FEBRERO",
+                    "total": 98808
+                }]
             },
             {
                 "grupo": "PREBEL SA BIC",
@@ -2028,7 +2353,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 455456
+                        "total": 610086
                     }
                 ]
             },
@@ -2040,7 +2365,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 605202
+                        "total": 1198602
                     }
                 ]
             },
@@ -2052,7 +2377,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 701304
+                        "total": 827400
                     }
                 ]
             },
@@ -2071,7 +2396,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 222276
+                        "total": 341256
                     }
                 ]
             },
@@ -2095,7 +2420,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 192812
+                        "total": 1038720
                     }
                 ]
             },
@@ -2133,7 +2458,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 3800546
+                        "total": 9654006
                     }
                 ]
             },
@@ -2154,18 +2479,49 @@
     {
         "vendedor": "JAIRO IBAÑEZ ARTUNDUAGA",
         "proveedor": [{
+                "grupo": "ALUMINIO NACIONAL S.A",
+                "ventas_por_mes": [{
+                    "mes": "FEBRERO",
+                    "total": 2731661
+                }]
+            },
+            {
+                "grupo": "ATW INTERNACIONAL SAS",
+                "ventas_por_mes": [{
+                    "mes": "FEBRERO",
+                    "total": 4276800
+                }]
+            },
+            {
                 "grupo": "CASA IBAÑEZ COLOMBIA SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 1217572
+                        "mes": "ENERO",
+                        "total": 1217572
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 7731318
+                    }
+                ]
+            },
+            {
+                "grupo": "COMERCIALIZADORA JS PRODUCTOS SAS",
+                "ventas_por_mes": [{
+                    "mes": "FEBRERO",
+                    "total": 1065848
                 }]
             },
             {
                 "grupo": "COMESTIBLES ITALO SA",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": -22065
-                }]
+                        "mes": "ENERO",
+                        "total": -22065
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 16959173
+                    }
+                ]
             },
             {
                 "grupo": "DORIS PATRICIA FONSECA RODRIGUEZ",
@@ -2175,11 +2531,23 @@
                 }]
             },
             {
+                "grupo": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
+                "ventas_por_mes": [{
+                    "mes": "FEBRERO",
+                    "total": 598631
+                }]
+            },
+            {
                 "grupo": "LABORATORIOS COFARMA S.A",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 884571
-                }]
+                        "mes": "ENERO",
+                        "total": 884571
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 4221411
+                    }
+                ]
             },
             {
                 "grupo": "PREBEL SA BIC",
@@ -2191,16 +2559,26 @@
             {
                 "grupo": "PRECOCIDOS DEL ORIENTE SA",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 3958928
-                }]
+                        "mes": "ENERO",
+                        "total": 3958928
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 3898440
+                    }
+                ]
             },
             {
                 "grupo": "PRODUSA ZONA FRANCA SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 1990792
-                }]
+                        "mes": "ENERO",
+                        "total": 1990792
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 4119764
+                    }
+                ]
             },
             {
                 "grupo": "PROPETS SAS",
@@ -2212,9 +2590,14 @@
             {
                 "grupo": "TONING SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 18608784
-                }]
+                        "mes": "ENERO",
+                        "total": 18608784
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 29101300
+                    }
+                ]
             },
             {
                 "grupo": "Z06 - CONGRUPO S A",
@@ -2231,22 +2614,32 @@
                 "grupo": "ALUMINIO NACIONAL S.A",
                 "ventas_por_mes": [{
                     "mes": "FEBRERO",
-                    "total": 4936
+                    "total": 15219
                 }]
             },
             {
                 "grupo": "ATW INTERNACIONAL SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 10067
-                }]
+                        "mes": "ENERO",
+                        "total": 10067
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 5136
+                    }
+                ]
             },
             {
                 "grupo": "CASA IBAÑEZ COLOMBIA SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 60255
-                }]
+                        "mes": "ENERO",
+                        "total": 60255
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 20085
+                    }
+                ]
             },
             {
                 "grupo": "COMESTIBLES ITALO SA",
@@ -2256,7 +2649,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 27888
+                        "total": 49468
                     }
                 ]
             },
@@ -2294,16 +2687,21 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 11224
+                        "total": 27627
                     }
                 ]
             },
             {
                 "grupo": "PAPELES NACIONALES SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 1916306
-                }]
+                        "mes": "ENERO",
+                        "total": 1916306
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 1627200
+                    }
+                ]
             },
             {
                 "grupo": "PREBEL SA BIC",
@@ -2320,7 +2718,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 53040
+                        "total": 159120
                     }
                 ]
             },
@@ -2334,9 +2732,14 @@
             {
                 "grupo": "PRODUCTOS ALIMENTICIOS BELLINI S.A.S",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 3831800
-                }]
+                        "mes": "ENERO",
+                        "total": 3831800
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 34436
+                    }
+                ]
             },
             {
                 "grupo": "PUERTOMAR ZOMAC SAS",
@@ -2349,6 +2752,13 @@
                         "total": 14348
                     }
                 ]
+            },
+            {
+                "grupo": "RUBIFLEX SAS",
+                "ventas_por_mes": [{
+                    "mes": "FEBRERO",
+                    "total": 37512
+                }]
             },
             {
                 "grupo": "SURAMERICANA JI SAS",
@@ -2365,7 +2775,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 1151804
+                        "total": 1477184
                     }
                 ]
             },
@@ -2390,8 +2800,20 @@
         "proveedor": [{
                 "grupo": "ALUMINIO NACIONAL S.A",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 221160
+                        "mes": "ENERO",
+                        "total": 221160
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 315790
+                    }
+                ]
+            },
+            {
+                "grupo": "ATW INTERNACIONAL SAS",
+                "ventas_por_mes": [{
+                    "mes": "FEBRERO",
+                    "total": 14529
                 }]
             },
             {
@@ -2402,9 +2824,16 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 149778
+                        "total": 551075
                     }
                 ]
+            },
+            {
+                "grupo": "COMERCIALIZADORA JS PRODUCTOS SAS",
+                "ventas_por_mes": [{
+                    "mes": "FEBRERO",
+                    "total": 16314
+                }]
             },
             {
                 "grupo": "COMESTIBLES ITALO SA",
@@ -2414,7 +2843,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 953032
+                        "total": 3708957
                     }
                 ]
             },
@@ -2433,7 +2862,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 119594
+                        "total": 213758
                     }
                 ]
             },
@@ -2476,7 +2905,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 576794
+                        "total": 801167
                     }
                 ]
             },
@@ -2488,7 +2917,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 476882
+                        "total": 731884
                     }
                 ]
             },
@@ -2500,16 +2929,21 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 333335
+                        "total": 2592783
                     }
                 ]
             },
             {
                 "grupo": "INDUSTRIAS F C S.A.S - MARCHEN",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 287989
-                }]
+                        "mes": "ENERO",
+                        "total": 287989
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 325000
+                    }
+                ]
             },
             {
                 "grupo": "INFUSIONES HERBAR SAS",
@@ -2519,7 +2953,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 323203
+                        "total": 1455475
                     }
                 ]
             },
@@ -2531,7 +2965,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 271788
+                        "total": 429434
                     }
                 ]
             },
@@ -2543,7 +2977,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 278916
+                        "total": 3897200
                     }
                 ]
             },
@@ -2555,7 +2989,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 838504
+                        "total": 1560552
                     }
                 ]
             },
@@ -2567,7 +3001,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 1937691
+                        "total": 2930233
                     }
                 ]
             },
@@ -2579,7 +3013,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 351688
+                        "total": 1105288
                     }
                 ]
             },
@@ -2591,7 +3025,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 342466
+                        "total": 1338466
                     }
                 ]
             },
@@ -2603,16 +3037,21 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 708356
+                        "total": 901413
                     }
                 ]
             },
             {
                 "grupo": "PUERTOMAR ZOMAC SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 2011317
-                }]
+                        "mes": "ENERO",
+                        "total": 2011317
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 71107
+                    }
+                ]
             },
             {
                 "grupo": "RUBIFLEX SAS",
@@ -2627,6 +3066,13 @@
                 ]
             },
             {
+                "grupo": "SABAJON APOLO SA",
+                "ventas_por_mes": [{
+                    "mes": "FEBRERO",
+                    "total": 540175
+                }]
+            },
+            {
                 "grupo": "SURAMERICANA JI SAS",
                 "ventas_por_mes": [{
                         "mes": "ENERO",
@@ -2634,7 +3080,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 122964
+                        "total": 428304
                     }
                 ]
             },
@@ -2653,7 +3099,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 4219371
+                        "total": 9819199
                     }
                 ]
             },
@@ -2661,7 +3107,7 @@
                 "grupo": "VENTAS NACIONALES SAS",
                 "ventas_por_mes": [{
                     "mes": "FEBRERO",
-                    "total": 442877
+                    "total": 712202
                 }]
             }
         ]
@@ -2700,7 +3146,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 118818
+                        "total": 328193
                     }
                 ]
             },
@@ -2719,7 +3165,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 2540592
+                        "total": 4403906
                     }
                 ]
             },
@@ -2727,7 +3173,7 @@
                 "grupo": "DISCOA SAS",
                 "ventas_por_mes": [{
                     "mes": "FEBRERO",
-                    "total": 761511
+                    "total": 1230912
                 }]
             },
             {
@@ -2738,7 +3184,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 222793
+                        "total": 455993
                     }
                 ]
             },
@@ -2750,7 +3196,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 735408
+                        "total": 813551
                     }
                 ]
             },
@@ -2770,7 +3216,7 @@
                 "grupo": "DUQUESA S.A. BIC",
                 "ventas_por_mes": [{
                     "mes": "FEBRERO",
-                    "total": 300465
+                    "total": 505218
                 }]
             },
             {
@@ -2781,7 +3227,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 347058
+                        "total": 1035020
                     }
                 ]
             },
@@ -2789,7 +3235,7 @@
                 "grupo": "GLOBAL WINE & SPIRITS LTDA",
                 "ventas_por_mes": [{
                     "mes": "FEBRERO",
-                    "total": 60633
+                    "total": 432094
                 }]
             },
             {
@@ -2800,7 +3246,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 115700
+                        "total": 173550
                     }
                 ]
             },
@@ -2812,7 +3258,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 179919
+                        "total": 249076
                     }
                 ]
             },
@@ -2824,7 +3270,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 1038559
+                        "total": 1292087
                     }
                 ]
             },
@@ -2836,7 +3282,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 1774739
+                        "total": 5198342
                     }
                 ]
             },
@@ -2848,7 +3294,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 450752
+                        "total": 629138
                     }
                 ]
             },
@@ -2856,21 +3302,21 @@
                 "grupo": "PRECOCIDOS DEL ORIENTE SA",
                 "ventas_por_mes": [{
                     "mes": "FEBRERO",
-                    "total": 248499
+                    "total": 1148137
                 }]
             },
             {
                 "grupo": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
                 "ventas_por_mes": [{
                     "mes": "FEBRERO",
-                    "total": 11497
+                    "total": 34288
                 }]
             },
             {
                 "grupo": "PRODUSA ZONA FRANCA SAS",
                 "ventas_por_mes": [{
                     "mes": "FEBRERO",
-                    "total": 244999
+                    "total": 432070
                 }]
             },
             {
@@ -2881,7 +3327,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 348040
+                        "total": 442162
                     }
                 ]
             },
@@ -2893,7 +3339,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 605196
+                        "total": 634381
                     }
                 ]
             },
@@ -2912,7 +3358,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 264522
+                        "total": 588639
                     }
                 ]
             },
@@ -2924,7 +3370,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 260278
+                        "total": 324768
                     }
                 ]
             },
@@ -2936,7 +3382,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 2455041
+                        "total": 5915012
                     }
                 ]
             },
@@ -2948,7 +3394,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 856006
+                        "total": 919455
                     }
                 ]
             },
@@ -2956,7 +3402,7 @@
                 "grupo": "Z06 - CONGRUPO S A",
                 "ventas_por_mes": [{
                     "mes": "FEBRERO",
-                    "total": 30566
+                    "total": 71321
                 }]
             }
         ]
@@ -2987,9 +3433,14 @@
             {
                 "grupo": "Z38 - SERVICIOS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 1040000
-                }]
+                        "mes": "ENERO",
+                        "total": 1040000
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 1240000
+                    }
+                ]
             }
         ]
     },
@@ -2998,9 +3449,14 @@
         "proveedor": [{
                 "grupo": "ALUMINIO NACIONAL S.A",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 219218
-                }]
+                        "mes": "ENERO",
+                        "total": 219218
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 331274
+                    }
+                ]
             },
             {
                 "grupo": "ATW INTERNACIONAL SAS",
@@ -3017,7 +3473,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 362703
+                        "total": 611265
                     }
                 ]
             },
@@ -3025,7 +3481,7 @@
                 "grupo": "COMERCIALIZADORA JS PRODUCTOS SAS",
                 "ventas_por_mes": [{
                     "mes": "FEBRERO",
-                    "total": 32628
+                    "total": 478544
                 }]
             },
             {
@@ -3036,16 +3492,21 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 1952795
+                        "total": 3666379
                     }
                 ]
             },
             {
                 "grupo": "DISCOA SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 3923500
-                }]
+                        "mes": "ENERO",
+                        "total": 3923500
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 580678
+                    }
+                ]
             },
             {
                 "grupo": "DISLICORES - DISTRIBUIDORA DE VINOS Y LICORES",
@@ -3055,7 +3516,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 245721
+                        "total": 448281
                     }
                 ]
             },
@@ -3067,7 +3528,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 94300
+                        "total": 316240
                     }
                 ]
             },
@@ -3079,7 +3540,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 30516
+                        "total": 81604
                     }
                 ]
             },
@@ -3087,7 +3548,7 @@
                 "grupo": "DUQUESA S.A. BIC",
                 "ventas_por_mes": [{
                     "mes": "FEBRERO",
-                    "total": 122534
+                    "total": 235628
                 }]
             },
             {
@@ -3098,7 +3559,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 16968
+                        "total": 133956
                     }
                 ]
             },
@@ -3117,7 +3578,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 32500
+                        "total": 130000
                     }
                 ]
             },
@@ -3129,7 +3590,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 82968
+                        "total": 238376
                     }
                 ]
             },
@@ -3141,7 +3602,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 34629
+                        "total": 143949
                     }
                 ]
             },
@@ -3160,7 +3621,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 845216
+                        "total": 1362728
                     }
                 ]
             },
@@ -3172,7 +3633,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 802428
+                        "total": 2380068
                     }
                 ]
             },
@@ -3184,7 +3645,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": -77308
+                        "total": 454608
                     }
                 ]
             },
@@ -3196,16 +3657,21 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 460302
+                        "total": 1248126
                     }
                 ]
             },
             {
                 "grupo": "PROPETS SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 52878
-                }]
+                        "mes": "ENERO",
+                        "total": 52878
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 743576
+                    }
+                ]
             },
             {
                 "grupo": "PUERTOMAR ZOMAC SAS",
@@ -3224,15 +3690,20 @@
             {
                 "grupo": "RUBIFLEX SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 381204
-                }]
+                        "mes": "ENERO",
+                        "total": 381204
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 545112
+                    }
+                ]
             },
             {
                 "grupo": "SURAMERICANA JI SAS",
                 "ventas_por_mes": [{
                     "mes": "FEBRERO",
-                    "total": 72606
+                    "total": 335640
                 }]
             },
             {
@@ -3243,7 +3714,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 1695192
+                        "total": 17945374
                     }
                 ]
             },
@@ -3262,7 +3733,7 @@
                 "grupo": "ALUMINIO NACIONAL S.A",
                 "ventas_por_mes": [{
                     "mes": "FEBRERO",
-                    "total": 14616
+                    "total": 28884
                 }]
             },
             {
@@ -3275,9 +3746,14 @@
             {
                 "grupo": "CASA IBAÑEZ COLOMBIA SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 1854685
-                }]
+                        "mes": "ENERO",
+                        "total": 1854685
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 188307
+                    }
+                ]
             },
             {
                 "grupo": "COMERCIALIZADORA JS PRODUCTOS SAS",
@@ -3299,7 +3775,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 588072
+                        "total": 2469749
                     }
                 ]
             },
@@ -3335,16 +3811,21 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 811000
+                        "total": 935175
                     }
                 ]
             },
             {
                 "grupo": "DS DISTRI SAMY SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 109284
-                }]
+                        "mes": "ENERO",
+                        "total": 109284
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 5805
+                    }
+                ]
             },
             {
                 "grupo": "DUQUESA S.A. BIC",
@@ -3361,7 +3842,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 275432
+                        "total": 2176056
                     }
                 ]
             },
@@ -3387,7 +3868,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 41484
+                        "total": 77704
                     }
                 ]
             },
@@ -3399,7 +3880,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 859592
+                        "total": 2245391
                     }
                 ]
             },
@@ -3411,7 +3892,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 378272
+                        "total": 1127744
                     }
                 ]
             },
@@ -3423,7 +3904,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 156744
+                        "total": 225814
                     }
                 ]
             },
@@ -3435,7 +3916,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 261191
+                        "total": 1060109
                     }
                 ]
             },
@@ -3447,16 +3928,21 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 854092
+                        "total": 4000292
                     }
                 ]
             },
             {
                 "grupo": "PRODUCTOS ALIMENTICIOS BELLINI S.A.S",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 2045223
-                }]
+                        "mes": "ENERO",
+                        "total": 2045223
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 239216
+                    }
+                ]
             },
             {
                 "grupo": "PRODUSA ZONA FRANCA SAS",
@@ -3466,22 +3952,34 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 23504
+                        "total": 817344
                     }
                 ]
             },
             {
                 "grupo": "PROPETS SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 1541499
-                }]
+                        "mes": "ENERO",
+                        "total": 1541499
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 503778
+                    }
+                ]
             },
             {
                 "grupo": "PUERTOMAR ZOMAC SAS",
                 "ventas_por_mes": [{
                     "mes": "FEBRERO",
                     "total": 84576
+                }]
+            },
+            {
+                "grupo": "RONDA - INDUSTRIA COLOMBIANA DE CARNE SA",
+                "ventas_por_mes": [{
+                    "mes": "FEBRERO",
+                    "total": 95760
                 }]
             },
             {
@@ -3492,9 +3990,16 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 36072
+                        "total": 392184
                     }
                 ]
+            },
+            {
+                "grupo": "SABAJON APOLO SA",
+                "ventas_por_mes": [{
+                    "mes": "FEBRERO",
+                    "total": 118908
+                }]
             },
             {
                 "grupo": "SURAMERICANA JI SAS",
@@ -3504,7 +4009,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 158670
+                        "total": 184284
                     }
                 ]
             },
@@ -3516,7 +4021,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 3899104
+                        "total": 14488931
                     }
                 ]
             },
@@ -3528,7 +4033,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 443620
+                        "total": 958505
                     }
                 ]
             },
@@ -3540,7 +4045,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 40068
+                        "total": 74412
                     }
                 ]
             }
@@ -3551,9 +4056,14 @@
         "proveedor": [{
                 "grupo": "ATW INTERNACIONAL SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 17865124
-                }]
+                        "mes": "ENERO",
+                        "total": 17865124
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": -17301600
+                    }
+                ]
             },
             {
                 "grupo": "CASA IBAÑEZ COLOMBIA SAS",
@@ -3563,7 +4073,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": -240232
+                        "total": 7538974
                     }
                 ]
             },
@@ -3582,7 +4092,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 5557979
+                        "total": 7860281
                     }
                 ]
             },
@@ -3601,7 +4111,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": -17450
+                        "total": 224218
                     }
                 ]
             },
@@ -3613,7 +4123,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 850839
+                        "total": 832953
                     }
                 ]
             },
@@ -3649,7 +4159,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 68754
+                        "total": 366069
                     }
                 ]
             },
@@ -3661,7 +4171,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 207420
+                        "total": 637424
                     }
                 ]
             },
@@ -3673,7 +4183,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": -9461
+                        "total": 3053271
                     }
                 ]
             },
@@ -3685,7 +4195,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 90084
+                        "total": 5338472
                     }
                 ]
             },
@@ -3697,7 +4207,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 224148
+                        "total": 807058
                     }
                 ]
             },
@@ -3709,16 +4219,21 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": -40944
+                        "total": 675266
                     }
                 ]
             },
             {
                 "grupo": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 396804
-                }]
+                        "mes": "ENERO",
+                        "total": 396804
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 49224
+                    }
+                ]
             },
             {
                 "grupo": "PRODUSA ZONA FRANCA SAS",
@@ -3728,7 +4243,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 344856
+                        "total": 1234878
                     }
                 ]
             },
@@ -3747,7 +4262,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 2284716
+                        "total": 2434764
                     }
                 ]
             },
@@ -3755,7 +4270,7 @@
                 "grupo": "SURAMERICANA JI SAS",
                 "ventas_por_mes": [{
                     "mes": "FEBRERO",
-                    "total": 21960
+                    "total": 72462
                 }]
             },
             {
@@ -3773,7 +4288,7 @@
                     },
                     {
                         "mes": "FEBRERO",
-                        "total": 6019639
+                        "total": 15622175
                     }
                 ]
             }
