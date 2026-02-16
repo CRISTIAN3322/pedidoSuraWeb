@@ -1248,7 +1248,7 @@
         "precio": 3451,
         "imagen": "../assets/toWEBP/6971375186573.webp",
         "barra": 6971375186573,
-        "invetario": 4641,
+        "invetario": 4401,
         "proveedor": "COMERCIALIZADORA CH COMPANY S.A.S ",
         "activo": true
     },
@@ -2224,7 +2224,7 @@
         "id": 203,
         "codigo": "JCI0062",
         "nombre": "MASMELOS X 120 GR CJ X 30 UN",
-        "precio": 3576,
+        "precio": 4138,
         "imagen": "../assets/toWEBP/7702117006724.webp",
         "barra": 7702117006724,
         "invetario": 1408,
@@ -2477,7 +2477,7 @@
         "id": 226,
         "codigo": "JCI0085",
         "nombre": "WAFER PAQUETACO AREQUIPE X 94 CJ X 24",
-        "precio": 2429,
+        "precio": 2637,
         "imagen": "../assets/toWEBP/7702117001491.webp",
         "barra": 7702117001491,
         "invetario": 355,
@@ -2488,7 +2488,7 @@
         "id": 227,
         "codigo": "JCI0086",
         "nombre": "WAFER PAQUETACO CHOCOLATE X 94 CJ X 24",
-        "precio": 2429,
+        "precio": 2637,
         "imagen": "../assets/toWEBP/7702117001675.webp",
         "barra": 7702117001675,
         "invetario": 354,
@@ -2499,7 +2499,7 @@
         "id": 228,
         "codigo": "JCI0087",
         "nombre": "WAFER PAQUETACO FRESA X 94 CJ X 24",
-        "precio": 2429,
+        "precio": 2637,
         "imagen": "../assets/toWEBP/7702117001699.webp",
         "barra": 7702117001699,
         "invetario": 378,
@@ -2510,7 +2510,7 @@
         "id": 229,
         "codigo": "JCI0088",
         "nombre": "WAFER PAQUETACO VAINILLA X 94 CJ X 24",
-        "precio": 2429,
+        "precio": 2637,
         "imagen": "../assets/toWEBP/7702117001842.webp",
         "barra": 7702117001842,
         "invetario": 317,
@@ -6902,7 +6902,7 @@
         "precio": 2785,
         "imagen": "../assets/toWEBP/7705525010123.webp",
         "barra": 7705525010123,
-        "invetario": 10976,
+        "invetario": 10966,
         "proveedor": "PRECOCIDOS DEL ORIENTE SA",
         "activo": true
     },
@@ -7084,6 +7084,17 @@
     },
     {
         "id": 645,
+        "codigo": "JPR0009",
+        "nombre": "ARENA FELIGATO CAFE X 4,5 KL CON VALVULA PC X 6",
+        "precio": 13171,
+        "imagen": "../assets/toWEBP/7709376795307.webp",
+        "barra": 7709376795307,
+        "invetario": 180,
+        "proveedor": "PROPETS SAS",
+        "activo": true
+    },
+    {
+        "id": 646,
         "codigo": "JPS0001",
         "nombre": "VINAGRE DE MANZANA X 500 ML CJ X 24",
         "precio": 1270,
@@ -7094,7 +7105,7 @@
         "activo": true
     },
     {
-        "id": 646,
+        "id": 647,
         "codigo": "JPS0002",
         "nombre": "VINAGRE BLANCO X 500 ML CJ X 24",
         "precio": 1270,
@@ -7105,7 +7116,7 @@
         "activo": true
     },
     {
-        "id": 647,
+        "id": 648,
         "codigo": "JPS0003",
         "nombre": "VINAGRE BLANCO X 3000 ML CJ X 6",
         "precio": 4881,
@@ -7116,7 +7127,7 @@
         "activo": true
     },
     {
-        "id": 648,
+        "id": 649,
         "codigo": "JPS0004",
         "nombre": "VINAGRE BLANCO X 1000 ML CJ X 12",
         "precio": 2542,
@@ -7127,7 +7138,7 @@
         "activo": true
     },
     {
-        "id": 649,
+        "id": 650,
         "codigo": "JPS0005",
         "nombre": "VINAGRE BLANCO X 5000 ML CJ X 4",
         "precio": 7474,
@@ -7138,7 +7149,7 @@
         "activo": true
     },
     {
-        "id": 650,
+        "id": 651,
         "codigo": "JPS0006",
         "nombre": "VINAGRE DE MANZANA X 3000 ML CJ X 6",
         "precio": 5081,
@@ -7149,7 +7160,7 @@
         "activo": true
     },
     {
-        "id": 651,
+        "id": 652,
         "codigo": "JPS0007",
         "nombre": "VINAGRE DE MANZANA X 1000 ML CJ X 12",
         "precio": 2542,
@@ -7160,7 +7171,7 @@
         "activo": true
     },
     {
-        "id": 652,
+        "id": 653,
         "codigo": "JPS0009",
         "nombre": "SALSA DE AJI CJ X 12",
         "precio": 2562,
@@ -7171,7 +7182,7 @@
         "activo": true
     },
     {
-        "id": 653,
+        "id": 654,
         "codigo": "JRD0001",
         "nombre": "SALCHICHA RONDA VIENA X 7 UND CJ X 48",
         "precio": 3798,
@@ -7182,7 +7193,7 @@
         "activo": true
     },
     {
-        "id": 654,
+        "id": 655,
         "codigo": "JRD0002",
         "nombre": "SALCHICHA RONDA FRANKFURT X 7 CJ X 24",
         "precio": 7597,
@@ -7193,7 +7204,7 @@
         "activo": true
     },
     {
-        "id": 655,
+        "id": 656,
         "codigo": "JRR0001",
         "nombre": "TISANAS SURTIDA PC X 24 UND",
         "precio": 43102,
@@ -7204,7 +7215,7 @@
         "activo": true
     },
     {
-        "id": 656,
+        "id": 657,
         "codigo": "JRR0002",
         "nombre": "AROMATICA PANELA FRUTOS ROJOS PC X 12",
         "precio": 3630,
@@ -7215,7 +7226,7 @@
         "activo": true
     },
     {
-        "id": 657,
+        "id": 658,
         "codigo": "JRR0003",
         "nombre": "AROMATICA PANELA SURTIDA PC X 12DP",
         "precio": 3630,
@@ -7226,7 +7237,7 @@
         "activo": true
     },
     {
-        "id": 658,
+        "id": 659,
         "codigo": "JRR0005",
         "nombre": "AROMATICA PANELA MARACUYA X 12",
         "precio": 3630,
@@ -7237,7 +7248,7 @@
         "activo": true
     },
     {
-        "id": 659,
+        "id": 660,
         "codigo": "JRR0006",
         "nombre": "AROMATICA PANELA FRUTAS TROPICALES PC X 12",
         "precio": 3630,
@@ -7248,7 +7259,7 @@
         "activo": true
     },
     {
-        "id": 660,
+        "id": 661,
         "codigo": "JRR0007",
         "nombre": "AROMATICA PANELA LIMON PC X 12",
         "precio": 3630,
@@ -7259,7 +7270,7 @@
         "activo": true
     },
     {
-        "id": 661,
+        "id": 662,
         "codigo": "JRR0011",
         "nombre": "TISANA MANZANILLA",
         "precio": 43102,
@@ -7270,7 +7281,7 @@
         "activo": true
     },
     {
-        "id": 662,
+        "id": 663,
         "codigo": "JRR0012",
         "nombre": "TISANA YERBABUENA",
         "precio": 43102,
@@ -7281,7 +7292,7 @@
         "activo": true
     },
     {
-        "id": 663,
+        "id": 664,
         "codigo": "JRR0013",
         "nombre": "TISANA ALBAHACA",
         "precio": 43102,
@@ -7292,7 +7303,7 @@
         "activo": true
     },
     {
-        "id": 664,
+        "id": 665,
         "codigo": "JRR0014",
         "nombre": "TISANA LIMONARIA",
         "precio": 43102,
@@ -7303,7 +7314,7 @@
         "activo": true
     },
     {
-        "id": 665,
+        "id": 666,
         "codigo": "JRR0015",
         "nombre": "TISANA CIDRON",
         "precio": 43102,
@@ -7314,7 +7325,7 @@
         "activo": true
     },
     {
-        "id": 666,
+        "id": 667,
         "codigo": "JRR0016",
         "nombre": "TISANA TORONJIL",
         "precio": 43102,
@@ -7325,7 +7336,7 @@
         "activo": true
     },
     {
-        "id": 667,
+        "id": 668,
         "codigo": "JRS0001",
         "nombre": "MEGA NATILLA COCO X 200 CJ X 20 UND",
         "precio": 2405,
@@ -7336,7 +7347,7 @@
         "activo": false
     },
     {
-        "id": 668,
+        "id": 669,
         "codigo": "JRS0002",
         "nombre": "MEGA NATILLA COCO X 300 CJ X 20 UND",
         "precio": 2911,
@@ -7347,7 +7358,7 @@
         "activo": false
     },
     {
-        "id": 669,
+        "id": 670,
         "codigo": "JRS0003",
         "nombre": "MEGA NATILLA AREQUIPE X 200 CJ X 20 UND",
         "precio": 2405,
@@ -7358,7 +7369,7 @@
         "activo": false
     },
     {
-        "id": 670,
+        "id": 671,
         "codigo": "JRS0004",
         "nombre": "MEGA NATILLA AREQUIPE X 300 CJ X 20 UND",
         "precio": 2911,
@@ -7369,7 +7380,7 @@
         "activo": false
     },
     {
-        "id": 671,
+        "id": 672,
         "codigo": "JRS0005",
         "nombre": "MEGA NATILLA MARACUYA X 200 CJ X 20 UND",
         "precio": 2405,
@@ -7380,7 +7391,7 @@
         "activo": false
     },
     {
-        "id": 672,
+        "id": 673,
         "codigo": "JRS0006",
         "nombre": "MEGA NATILLA MARACUYA X 300 CJ X 20 UND",
         "precio": 2911,
@@ -7391,7 +7402,7 @@
         "activo": false
     },
     {
-        "id": 673,
+        "id": 674,
         "codigo": "JRS0007",
         "nombre": "MEGA NATILLA TRACIONAL X 200 CJ X 20 UND",
         "precio": 2405,
@@ -7402,7 +7413,7 @@
         "activo": false
     },
     {
-        "id": 674,
+        "id": 675,
         "codigo": "JRS0008",
         "nombre": "MEGA NATILLA TRACIONAL X 300 CJ X 20 UND",
         "precio": 2911,
@@ -7413,7 +7424,7 @@
         "activo": false
     },
     {
-        "id": 675,
+        "id": 676,
         "codigo": "JRS0009",
         "nombre": "MEGA NATILLA TRES LECHES X 200 CJ X 20 UND",
         "precio": 2405,
@@ -7424,7 +7435,7 @@
         "activo": false
     },
     {
-        "id": 676,
+        "id": 677,
         "codigo": "JRS0011",
         "nombre": "MEGA BUÑUELOS X 200 CJ X 20 UND",
         "precio": 2404,
@@ -7435,7 +7446,7 @@
         "activo": false
     },
     {
-        "id": 677,
+        "id": 678,
         "codigo": "JRS0012",
         "nombre": "MEGA BUÑUELOS X 300 CJ X 20 UND",
         "precio": 2911,
@@ -7446,117 +7457,117 @@
         "activo": false
     },
     {
-        "id": 678,
+        "id": 679,
         "codigo": "JSA0001",
         "nombre": "PIÑA COLADA MAUI X 700 ML CJ X 12",
         "precio": 30965,
         "imagen": "../assets/toWEBP/7702534200026.webp",
         "barra": 7702534200026,
-        "invetario": 0,
-        "proveedor": "SABAJON APOLO SA",
-        "activo": true
-    },
-    {
-        "id": 679,
-        "codigo": "JSA0002",
-        "nombre": "SABAJON APOLO SABOR A BRANDY X 700 ML CJ X 12",
-        "precio": 31201,
-        "imagen": "../assets/toWEBP/7702534100029.webp",
-        "barra": 7702534100029,
-        "invetario": 0,
+        "invetario": 160,
         "proveedor": "SABAJON APOLO SA",
         "activo": true
     },
     {
         "id": 680,
-        "codigo": "JSA0003",
-        "nombre": "SABAJON APOLO SABOR A VAINILLA X 700 ML CJ X 12",
-        "precio": 30783,
-        "imagen": "../assets/toWEBP/770253410012.webp",
-        "barra": 770253410012,
-        "invetario": 0,
+        "codigo": "JSA0002",
+        "nombre": "SABAJON APOLO SABOR A BRANDY X 700 ML CJ X 12",
+        "precio": 31201,
+        "imagen": "../assets/toWEBP/7702534100029.webp",
+        "barra": 7702534100029,
+        "invetario": 60,
         "proveedor": "SABAJON APOLO SA",
         "activo": true
     },
     {
         "id": 681,
-        "codigo": "JSA0004",
-        "nombre": "PIÑA COLADA TAHITI X 700 ML CJ X 12",
-        "precio": 32783,
-        "imagen": "../assets/toWEBP/7702534200019.webp",
-        "barra": 7702534200019,
-        "invetario": 0,
+        "codigo": "JSA0003",
+        "nombre": "SABAJON APOLO SABOR A VAINILLA X 700 ML CJ X 12",
+        "precio": 30783,
+        "imagen": "../assets/toWEBP/770253410012.webp",
+        "barra": 770253410012,
+        "invetario": 195,
         "proveedor": "SABAJON APOLO SA",
         "activo": true
     },
     {
         "id": 682,
-        "codigo": "JSA0005",
-        "nombre": "CREMA DE CAFÉ SAN MARINO X 700 CJ X 12",
-        "precio": 38564,
-        "imagen": "../assets/toWEBP/7702534300016.webp",
-        "barra": 7702534300016,
-        "invetario": 0,
+        "codigo": "JSA0004",
+        "nombre": "PIÑA COLADA TAHITI X 700 ML CJ X 12",
+        "precio": 32783,
+        "imagen": "../assets/toWEBP/7702534200019.webp",
+        "barra": 7702534200019,
+        "invetario": 4,
         "proveedor": "SABAJON APOLO SA",
         "activo": true
     },
     {
         "id": 683,
+        "codigo": "JSA0005",
+        "nombre": "CREMA DE CAFÉ SAN MARINO X 700 CJ X 12",
+        "precio": 38564,
+        "imagen": "../assets/toWEBP/7702534300016.webp",
+        "barra": 7702534300016,
+        "invetario": 29,
+        "proveedor": "SABAJON APOLO SA",
+        "activo": true
+    },
+    {
+        "id": 684,
         "codigo": "JVN0001",
         "nombre": "GELATINA FRUT DAY X 250 CJ X  50",
         "precio": 4712,
         "imagen": "../assets/toWEBP/7700718564000.webp",
         "barra": 7700718564000,
-        "invetario": 0,
-        "proveedor": "VENTAS NACIONALES SAS",
-        "activo": true
-    },
-    {
-        "id": 684,
-        "codigo": "JVN0002",
-        "nombre": "GELATINA FRUT DAY X 500 CJ X 50",
-        "precio": 9427,
-        "imagen": "../assets/toWEBP/7700718565000.webp",
-        "barra": 7700718565000,
-        "invetario": 0,
+        "invetario": 1041,
         "proveedor": "VENTAS NACIONALES SAS",
         "activo": true
     },
     {
         "id": 685,
-        "codigo": "JVN0003",
-        "nombre": "GELATINA FRUT DAY X 1000 CJ  X 25",
-        "precio": 18853,
-        "imagen": "../assets/toWEBP/7707185646000.webp",
-        "barra": 7707185646000,
-        "invetario": 0,
+        "codigo": "JVN0002",
+        "nombre": "GELATINA FRUT DAY X 500 CJ X 50",
+        "precio": 9427,
+        "imagen": "../assets/toWEBP/7700718565000.webp",
+        "barra": 7700718565000,
+        "invetario": 554,
         "proveedor": "VENTAS NACIONALES SAS",
         "activo": true
     },
     {
         "id": 686,
-        "codigo": "JVN0004",
-        "nombre": "GELATINA FRUT DAY X 105 GR 3 SABORES CJ X 32",
-        "precio": 3658,
-        "imagen": "../assets/toWEBP/7707185642300.webp",
-        "barra": 7707185642300,
-        "invetario": 0,
+        "codigo": "JVN0003",
+        "nombre": "GELATINA FRUT DAY X 1000 CJ  X 25",
+        "precio": 18853,
+        "imagen": "../assets/toWEBP/7707185646000.webp",
+        "barra": 7707185646000,
+        "invetario": 115,
         "proveedor": "VENTAS NACIONALES SAS",
         "activo": true
     },
     {
         "id": 687,
-        "codigo": "JVN0031",
-        "nombre": "PASTILLA DE COCOA LA MALAGUEÑA TRADICIONAL  X 500 GR CJ X 50",
-        "precio": 6707,
-        "imagen": "../assets/toWEBP/7707185641136.webp",
-        "barra": 7707185641136,
-        "invetario": 0,
+        "codigo": "JVN0004",
+        "nombre": "GELATINA FRUT DAY X 105 GR 3 SABORES CJ X 32",
+        "precio": 3658,
+        "imagen": "../assets/toWEBP/7707185642300.webp",
+        "barra": 7707185642300,
+        "invetario": 1503,
         "proveedor": "VENTAS NACIONALES SAS",
         "activo": true
     },
     {
         "id": 688,
+        "codigo": "JVN0031",
+        "nombre": "PASTILLA DE COCOA LA MALAGUEÑA TRADICIONAL  X 500 GR CJ X 50",
+        "precio": 6707,
+        "imagen": "../assets/toWEBP/7707185641136.webp",
+        "barra": 7707185641136,
+        "invetario": 340,
+        "proveedor": "VENTAS NACIONALES SAS",
+        "activo": true
+    },
+    {
+        "id": 689,
         "codigo": "JVN0032",
         "nombre": "PASTILLA DE COCOA LA MALAGUEÑA CLAVOS Y CANELA  X 500 GR CJ X 50",
         "precio": 6707,
@@ -7567,7 +7578,7 @@
         "activo": true
     },
     {
-        "id": 689,
+        "id": 690,
         "codigo": "JVN0033",
         "nombre": "PASTILLA DE COCOA LA MALAGUEÑA VAINILLA  X 500 GR CJ X 50",
         "precio": 6707,
