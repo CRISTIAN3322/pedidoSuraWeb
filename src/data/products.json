@@ -1987,7 +1987,7 @@
         "barra": 7702117005680,
         "invetario": 2,
         "proveedor": "COMESTIBLES ITALO SA",
-        "activo": true
+        "activo": false
     },
     {
         "id": 182,
@@ -1998,7 +1998,7 @@
         "barra": 7702117005673,
         "invetario": 0,
         "proveedor": "COMESTIBLES ITALO SA",
-        "activo": true
+        "activo": false
     },
     {
         "id": 183,
@@ -2031,7 +2031,7 @@
         "barra": 7702117018772,
         "invetario": 24,
         "proveedor": "COMESTIBLES ITALO SA",
-        "activo": false
+        "activo": true
     },
     {
         "id": 186,
@@ -2317,7 +2317,7 @@
         "barra": 7702117005802,
         "invetario": 0,
         "proveedor": "COMESTIBLES ITALO SA",
-        "activo": true
+        "activo": false
     },
     {
         "id": 212,
@@ -2724,7 +2724,7 @@
         "barra": 7702117016037,
         "invetario": 13,
         "proveedor": "COMESTIBLES ITALO SA",
-        "activo": false
+        "activo": true
     },
     {
         "id": 249,
