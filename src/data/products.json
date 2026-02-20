@@ -5,7 +5,7 @@
         "precio": 2830,
         "imagen": "../assets/toWEBP/7703207400248.webp",
         "barra": 7703207400248,
-        "invetario": 738,
+        "invetario": 714,
         "proveedor": "ALUMINIO NACIONAL S.A",
         "activo": true
     },
@@ -49,7 +49,7 @@
         "precio": 12237,
         "imagen": "../assets/toWEBP/7702110627445.webp",
         "barra": 7702110627445,
-        "invetario": 236,
+        "invetario": 224,
         "proveedor": "ALUMINIO NACIONAL S.A",
         "activo": true
     },
@@ -71,7 +71,7 @@
         "precio": 1664,
         "imagen": "../assets/toWEBP/7702622525093.webp",
         "barra": 7702622525093,
-        "invetario": 2192,
+        "invetario": 2072,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -82,7 +82,7 @@
         "precio": 3857,
         "imagen": "../assets/toWEBP/7702622527103.webp",
         "barra": 7702622527103,
-        "invetario": 3241,
+        "invetario": 3193,
         "proveedor": "TONING SAS",
         "activo": false
     },
@@ -104,7 +104,7 @@
         "precio": 3631,
         "imagen": "../assets/toWEBP/7702622522139.webp",
         "barra": 7702622522139,
-        "invetario": 359,
+        "invetario": 1219,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -115,7 +115,7 @@
         "precio": 3631,
         "imagen": "../assets/toWEBP/7702622522016.webp",
         "barra": 7702622522016,
-        "invetario": 617,
+        "invetario": 1327,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -126,7 +126,7 @@
         "precio": 3631,
         "imagen": "../assets/toWEBP/7702622522023.webp",
         "barra": 7702622522023,
-        "invetario": 934,
+        "invetario": 1350,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -159,7 +159,7 @@
         "precio": 3971,
         "imagen": "../assets/toWEBP/7702622423146.webp",
         "barra": 7702622423146,
-        "invetario": 650,
+        "invetario": 1730,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -170,7 +170,7 @@
         "precio": 3971,
         "imagen": "../assets/toWEBP/7702622423139.webp",
         "barra": 7702622423139,
-        "invetario": 424,
+        "invetario": 1924,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -181,7 +181,7 @@
         "precio": 3971,
         "imagen": "../assets/toWEBP/7702622423153.webp",
         "barra": 7702622423153,
-        "invetario": 725,
+        "invetario": 1739,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -192,7 +192,7 @@
         "precio": 3625,
         "imagen": "../assets/toWEBP/7702622422132.webp",
         "barra": 7702622422132,
-        "invetario": 232,
+        "invetario": 172,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -203,7 +203,7 @@
         "precio": 17545,
         "imagen": "../assets/toWEBP/7702622725011.webp",
         "barra": 7702622725011,
-        "invetario": 66,
+        "invetario": 46,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -214,7 +214,7 @@
         "precio": 17545,
         "imagen": "../assets/toWEBP/7702622423559.webp",
         "barra": 7702622423559,
-        "invetario": 108,
+        "invetario": 164,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -225,7 +225,7 @@
         "precio": 18132,
         "imagen": "../assets/toWEBP/7702622627070.webp",
         "barra": 7702622627070,
-        "invetario": 107,
+        "invetario": 215,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -258,7 +258,7 @@
         "precio": 9763,
         "imagen": "../assets/toWEBP/7702622226143.webp",
         "barra": 7702622226143,
-        "invetario": 473,
+        "invetario": 731,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -269,7 +269,7 @@
         "precio": 3683,
         "imagen": "../assets/toWEBP/7702622425102.webp",
         "barra": 7702622425102,
-        "invetario": 132,
+        "invetario": 96,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -280,7 +280,7 @@
         "precio": 3683,
         "imagen": "../assets/toWEBP/7702622423191.webp",
         "barra": 7702622423191,
-        "invetario": 132,
+        "invetario": 96,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -302,7 +302,7 @@
         "precio": 26869,
         "imagen": "../assets/toWEBP/7702622629159.webp",
         "barra": 7702622629159,
-        "invetario": 98,
+        "invetario": 142,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -313,7 +313,7 @@
         "precio": 10326,
         "imagen": "../assets/toWEBP/7702622628060.webp",
         "barra": 7702622628060,
-        "invetario": 221,
+        "invetario": 335,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -324,7 +324,7 @@
         "precio": 10326,
         "imagen": "../assets/toWEBP/7702622624116.webp",
         "barra": 7702622624116,
-        "invetario": 432,
+        "invetario": 636,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -335,7 +335,7 @@
         "precio": 10326,
         "imagen": "../assets/toWEBP/7702622624109.webp",
         "barra": 7702622624109,
-        "invetario": 364,
+        "invetario": 634,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -346,7 +346,7 @@
         "precio": 10326,
         "imagen": "../assets/toWEBP/7702622624154.webp",
         "barra": 7702622624154,
-        "invetario": 355,
+        "invetario": 625,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -357,7 +357,7 @@
         "precio": 26869,
         "imagen": "../assets/toWEBP/7702622628008.webp",
         "barra": 7702622628008,
-        "invetario": 145,
+        "invetario": 153,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -379,7 +379,7 @@
         "precio": 7048,
         "imagen": "../assets/toWEBP/7702622131577.webp",
         "barra": 7702622131577,
-        "invetario": 1624,
+        "invetario": 4870,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -390,7 +390,7 @@
         "precio": 4656,
         "imagen": "../assets/toWEBP/7702622585103.webp",
         "barra": 7702622585103,
-        "invetario": 326,
+        "invetario": 751,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -401,7 +401,7 @@
         "precio": 4409,
         "imagen": "../assets/toWEBP/7702622329127.webp",
         "barra": 7702622329127,
-        "invetario": 192,
+        "invetario": 608,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -412,7 +412,7 @@
         "precio": 13265,
         "imagen": "../assets/toWEBP/7702622624031.webp",
         "barra": 7702622624031,
-        "invetario": 289,
+        "invetario": 280,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -445,7 +445,7 @@
         "precio": 25297,
         "imagen": "../assets/toWEBP/7702622624093.webp",
         "barra": 7702622624093,
-        "invetario": 96,
+        "invetario": 138,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -489,7 +489,7 @@
         "precio": 5159,
         "imagen": "../assets/toWEBP/7702622678263.webp",
         "barra": 7702622678263,
-        "invetario": 66,
+        "invetario": 528,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -500,7 +500,7 @@
         "precio": 11244,
         "imagen": "../assets/toWEBP/7702622755582.webp",
         "barra": 7702622755582,
-        "invetario": 221,
+        "invetario": 515,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -533,7 +533,7 @@
         "precio": 11993,
         "imagen": "../assets/toWEBP/7702622012319.webp",
         "barra": 7702622012319,
-        "invetario": 158,
+        "invetario": 278,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -555,7 +555,7 @@
         "precio": 3685,
         "imagen": "../assets/toWEBP/7702622792242.webp",
         "barra": 7702622792242,
-        "invetario": 100,
+        "invetario": 313,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -566,7 +566,7 @@
         "precio": 17080,
         "imagen": "../assets/toWEBP/7702622429100.webp",
         "barra": 7702622429100,
-        "invetario": 0,
+        "invetario": 60,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -577,7 +577,7 @@
         "precio": 17080,
         "imagen": "../assets/toWEBP/7702622429186.webp",
         "barra": 7702622429186,
-        "invetario": 0,
+        "invetario": 120,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -588,7 +588,7 @@
         "precio": 17080,
         "imagen": "../assets/toWEBP/7702622429124.webp",
         "barra": 7702622429124,
-        "invetario": 13,
+        "invetario": 109,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -599,7 +599,7 @@
         "precio": 15469,
         "imagen": "../assets/toWEBP/7702622529183.webp",
         "barra": 7702622529183,
-        "invetario": 86,
+        "invetario": 903,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -643,7 +643,7 @@
         "precio": 12597,
         "imagen": "../assets/toWEBP/7702622955128.webp",
         "barra": 7702622955128,
-        "invetario": 401,
+        "invetario": 389,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -742,7 +742,7 @@
         "precio": 12438,
         "imagen": "../assets/toWEBP/7702622606662.webp",
         "barra": 7702622606662,
-        "invetario": 726,
+        "invetario": 1394,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -753,7 +753,7 @@
         "precio": 12438,
         "imagen": "../assets/toWEBP/7702622440228.webp",
         "barra": 7702622440228,
-        "invetario": 359,
+        "invetario": 1431,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -764,7 +764,7 @@
         "precio": 12438,
         "imagen": "../assets/toWEBP/7702622956545.webp",
         "barra": 7702622956545,
-        "invetario": 700,
+        "invetario": 1766,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -775,7 +775,7 @@
         "precio": 12438,
         "imagen": "../assets/toWEBP/7702622556547.webp",
         "barra": 7702622556547,
-        "invetario": 68,
+        "invetario": 188,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -786,7 +786,7 @@
         "precio": 4560,
         "imagen": "../assets/toWEBP/7702622184894.webp",
         "barra": 7702622184894,
-        "invetario": 276,
+        "invetario": 360,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -797,7 +797,7 @@
         "precio": 4891,
         "imagen": "../assets/toWEBP/7702622770677.webp",
         "barra": 7702622770677,
-        "invetario": 110,
+        "invetario": 338,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -808,7 +808,7 @@
         "precio": 4560,
         "imagen": "../assets/toWEBP/7702622116499.webp",
         "barra": 7702622116499,
-        "invetario": 245,
+        "invetario": 443,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -819,7 +819,7 @@
         "precio": 3731,
         "imagen": "../assets/toWEBP/7702622482587.webp",
         "barra": 7702622482587,
-        "invetario": 121,
+        "invetario": 115,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -841,7 +841,7 @@
         "precio": 3151,
         "imagen": "../assets/toWEBP/7702622836502.webp",
         "barra": 7702622836502,
-        "invetario": 2312,
+        "invetario": 4328,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -852,7 +852,7 @@
         "precio": 16303,
         "imagen": "../assets/toWEBP/7702622315779.webp",
         "barra": 7702622315779,
-        "invetario": 110,
+        "invetario": 159,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -863,7 +863,7 @@
         "precio": 16303,
         "imagen": "../assets/toWEBP/7702622799968.webp",
         "barra": 7702622799968,
-        "invetario": 81,
+        "invetario": 106,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -874,7 +874,7 @@
         "precio": 16303,
         "imagen": "../assets/toWEBP/7702622813541.webp",
         "barra": 7702622813541,
-        "invetario": 91,
+        "invetario": 98,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -885,7 +885,7 @@
         "precio": 14025,
         "imagen": "../assets/toWEBP/7702622474278.webp",
         "barra": 7702622474278,
-        "invetario": 48,
+        "invetario": 376,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -896,7 +896,7 @@
         "precio": 8192,
         "imagen": "../assets/toWEBP/7702622710543.webp",
         "barra": 7702622710543,
-        "invetario": 200,
+        "invetario": 284,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -907,7 +907,7 @@
         "precio": 10201,
         "imagen": "../assets/toWEBP/7702622044303.webp",
         "barra": 7702622044303,
-        "invetario": 18,
+        "invetario": 2,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -918,7 +918,7 @@
         "precio": 17544,
         "imagen": "../assets/toWEBP/7702622260406.webp",
         "barra": 7702622260406,
-        "invetario": 74,
+        "invetario": 138,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -929,7 +929,7 @@
         "precio": 17544,
         "imagen": "../assets/toWEBP/7702622260406.webp",
         "barra": 7702622260406,
-        "invetario": 74,
+        "invetario": 138,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -940,7 +940,7 @@
         "precio": 28282,
         "imagen": "../assets/toWEBP/7702622411204.webp",
         "barra": 7702622411204,
-        "invetario": 21,
+        "invetario": 15,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -951,7 +951,7 @@
         "precio": 21403,
         "imagen": "../assets/toWEBP/7702622360779.webp",
         "barra": 7702622360779,
-        "invetario": 377,
+        "invetario": 365,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -962,7 +962,7 @@
         "precio": 16312,
         "imagen": "../assets/toWEBP/7702622423405.webp",
         "barra": 7702622423405,
-        "invetario": 755,
+        "invetario": 671,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -1017,7 +1017,7 @@
         "precio": 20391,
         "imagen": "../assets/toWEBP/7702622989963.webp",
         "barra": 7702622989963,
-        "invetario": 16,
+        "invetario": 124,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -1028,7 +1028,7 @@
         "precio": 20391,
         "imagen": "../assets/toWEBP/7702622312730.webp",
         "barra": 7702622312730,
-        "invetario": 80,
+        "invetario": 140,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -1050,7 +1050,7 @@
         "precio": 7068,
         "imagen": "../assets/toWEBP/7702622684172.webp",
         "barra": 7702622684172,
-        "invetario": 139,
+        "invetario": 440,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -1061,7 +1061,7 @@
         "precio": 10089,
         "imagen": "../assets/toWEBP/7702622668462.webp",
         "barra": 7702622668462,
-        "invetario": 1203,
+        "invetario": 2153,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -1072,7 +1072,7 @@
         "precio": 14197,
         "imagen": "../assets/toWEBP/7702622221933.webp",
         "barra": 7702622221933,
-        "invetario": 788,
+        "invetario": 1083,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -1083,7 +1083,7 @@
         "precio": 6634,
         "imagen": "../assets/toWEBP/7702622713414.webp",
         "barra": 7702622713414,
-        "invetario": 376,
+        "invetario": 318,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -1094,7 +1094,7 @@
         "precio": 21402,
         "imagen": "../assets/toWEBP/7702622961594.webp",
         "barra": 7702622961594,
-        "invetario": 0,
+        "invetario": 120,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -1160,7 +1160,7 @@
         "precio": 5191,
         "imagen": "../assets/toWEBP/7709808402230.webp",
         "barra": 7709808402230,
-        "invetario": 732,
+        "invetario": 727,
         "proveedor": "ATW INTERNACIONAL SAS",
         "activo": true
     },
@@ -1171,7 +1171,7 @@
         "precio": 5191,
         "imagen": "../assets/toWEBP/7708977668294.webp",
         "barra": 7708977668294,
-        "invetario": 783,
+        "invetario": 778,
         "proveedor": "ATW INTERNACIONAL SAS",
         "activo": true
     },
@@ -1182,7 +1182,7 @@
         "precio": 5763,
         "imagen": "../assets/toWEBP/7709586352369.webp",
         "barra": 7709586352369,
-        "invetario": 218,
+        "invetario": 214,
         "proveedor": "ATW INTERNACIONAL SAS",
         "activo": true
     },
@@ -1193,7 +1193,7 @@
         "precio": 5763,
         "imagen": "../assets/toWEBP/7709643563851.webp",
         "barra": 7709643563851,
-        "invetario": 222,
+        "invetario": 218,
         "proveedor": "ATW INTERNACIONAL SAS",
         "activo": true
     },
@@ -1259,7 +1259,7 @@
         "precio": 3451,
         "imagen": "../assets/toWEBP/6971375186573.webp",
         "barra": 6971375186573,
-        "invetario": 1053,
+        "invetario": 5229,
         "proveedor": "COMERCIALIZADORA CH COMPANY S.A.S ",
         "activo": true
     },
@@ -1303,7 +1303,7 @@
         "precio": 33378,
         "imagen": "../assets/toWEBP/7707255635355.webp",
         "barra": 7707255635355,
-        "invetario": 381,
+        "invetario": 352,
         "proveedor": "CASA IBAÑEZ COLOMBIA SAS",
         "activo": true
     },
@@ -1358,7 +1358,7 @@
         "precio": 16501,
         "imagen": "../assets/toWEBP/7707255636727.webp",
         "barra": 7707255636727,
-        "invetario": 477,
+        "invetario": 475,
         "proveedor": "CASA IBAÑEZ COLOMBIA SAS",
         "activo": true
     },
@@ -1369,7 +1369,7 @@
         "precio": 13061,
         "imagen": "../assets/toWEBP/7707255630015.webp",
         "barra": 7707255630015,
-        "invetario": 698,
+        "invetario": 680,
         "proveedor": "CASA IBAÑEZ COLOMBIA SAS",
         "activo": true
     },
@@ -1380,7 +1380,7 @@
         "precio": 23901,
         "imagen": "../assets/toWEBP/7707255634983.webp",
         "barra": 7707255634983,
-        "invetario": 2039,
+        "invetario": 2030,
         "proveedor": "CASA IBAÑEZ COLOMBIA SAS",
         "activo": true
     },
@@ -1578,7 +1578,7 @@
         "precio": 2904,
         "imagen": "../assets/toWEBP/7702117008216.webp",
         "barra": 7702117008216,
-        "invetario": 1100,
+        "invetario": 1085,
         "proveedor": "COMESTIBLES ITALO SA",
         "activo": true
     },
@@ -1798,7 +1798,7 @@
         "precio": 2568,
         "imagen": "../assets/toWEBP/7702117002498.webp",
         "barra": 7702117002498,
-        "invetario": 452,
+        "invetario": 440,
         "proveedor": "COMESTIBLES ITALO SA",
         "activo": true
     },
@@ -1820,7 +1820,7 @@
         "precio": 3050,
         "imagen": "../assets/toWEBP/7702117161102.webp",
         "barra": 7702117161102,
-        "invetario": 764,
+        "invetario": 752,
         "proveedor": "COMESTIBLES ITALO SA",
         "activo": true
     },
@@ -1831,7 +1831,7 @@
         "precio": 6812,
         "imagen": "../assets/toWEBP/7702117161041.webp",
         "barra": 7702117161041,
-        "invetario": 413,
+        "invetario": 401,
         "proveedor": "COMESTIBLES ITALO SA",
         "activo": true
     },
@@ -1853,7 +1853,7 @@
         "precio": 6580,
         "imagen": "../assets/toWEBP/7702117008087.webp",
         "barra": 7702117008087,
-        "invetario": 523,
+        "invetario": 499,
         "proveedor": "COMESTIBLES ITALO SA",
         "activo": true
     },
@@ -1875,7 +1875,7 @@
         "precio": 15043,
         "imagen": "../assets/toWEBP/7702117018796.webp",
         "barra": 7702117018796,
-        "invetario": 242,
+        "invetario": 240,
         "proveedor": "COMESTIBLES ITALO SA",
         "activo": true
     },
@@ -1897,7 +1897,7 @@
         "precio": 51354,
         "imagen": "../assets/toWEBP/7702117017294.webp",
         "barra": 7702117017294,
-        "invetario": 36,
+        "invetario": 33,
         "proveedor": "COMESTIBLES ITALO SA",
         "activo": true
     },
@@ -1930,7 +1930,7 @@
         "precio": 9133,
         "imagen": "../assets/toWEBP/7702117010707.webp",
         "barra": 7702117010707,
-        "invetario": 561,
+        "invetario": 555,
         "proveedor": "COMESTIBLES ITALO SA",
         "activo": true
     },
@@ -2018,7 +2018,7 @@
         "precio": 9036,
         "imagen": "../assets/toWEBP/7702117010653.webp",
         "barra": 7702117010653,
-        "invetario": 383,
+        "invetario": 359,
         "proveedor": "COMESTIBLES ITALO SA",
         "activo": true
     },
@@ -2073,7 +2073,7 @@
         "precio": 7827,
         "imagen": "../assets/toWEBP/7702117160914.webp",
         "barra": 7702117160914,
-        "invetario": 571,
+        "invetario": 565,
         "proveedor": "COMESTIBLES ITALO SA",
         "activo": true
     },
@@ -2106,7 +2106,7 @@
         "precio": 2772,
         "imagen": "../assets/toWEBP/7702117015078.webp",
         "barra": 7702117015078,
-        "invetario": 155,
+        "invetario": 131,
         "proveedor": "COMESTIBLES ITALO SA",
         "activo": true
     },
@@ -2128,7 +2128,7 @@
         "precio": 3057,
         "imagen": "../assets/toWEBP/7702117007769.webp",
         "barra": 7702117007769,
-        "invetario": 377,
+        "invetario": 359,
         "proveedor": "COMESTIBLES ITALO SA",
         "activo": true
     },
@@ -2216,7 +2216,7 @@
         "precio": 29500,
         "imagen": "../assets/toWEBP/7702117003259.webp",
         "barra": 7702117003259,
-        "invetario": 8,
+        "invetario": 5,
         "proveedor": "COMESTIBLES ITALO SA",
         "activo": true
     },
@@ -2249,7 +2249,7 @@
         "precio": 4138,
         "imagen": "../assets/toWEBP/7702117006724.webp",
         "barra": 7702117006724,
-        "invetario": 1712,
+        "invetario": 1706,
         "proveedor": "COMESTIBLES ITALO SA",
         "activo": true
     },
@@ -2260,7 +2260,7 @@
         "precio": 4138,
         "imagen": "../assets/toWEBP/7702117006076.webp",
         "barra": 7702117006076,
-        "invetario": 184,
+        "invetario": 178,
         "proveedor": "COMESTIBLES ITALO SA",
         "activo": true
     },
@@ -2337,7 +2337,7 @@
         "precio": 17162,
         "imagen": "../assets/toWEBP/7702117006960.webp",
         "barra": 7702117006960,
-        "invetario": 18,
+        "invetario": 17,
         "proveedor": "COMESTIBLES ITALO SA",
         "activo": true
     },
@@ -2359,7 +2359,7 @@
         "precio": 5019,
         "imagen": "../assets/toWEBP/7702117011148.webp",
         "barra": 7702117011148,
-        "invetario": 325,
+        "invetario": 322,
         "proveedor": "COMESTIBLES ITALO SA",
         "activo": true
     },
@@ -2403,7 +2403,7 @@
         "precio": 2223,
         "imagen": "../assets/toWEBP/7702117009404.webp",
         "barra": 7702117009404,
-        "invetario": 1217,
+        "invetario": 1193,
         "proveedor": "COMESTIBLES ITALO SA",
         "activo": true
     },
@@ -2447,7 +2447,7 @@
         "precio": 2223,
         "imagen": "../assets/toWEBP/7702117009640.webp",
         "barra": 7702117009640,
-        "invetario": 1262,
+        "invetario": 1238,
         "proveedor": "COMESTIBLES ITALO SA",
         "activo": true
     },
@@ -2645,7 +2645,7 @@
         "precio": 7629,
         "imagen": "../assets/toWEBP/7702117008452.webp",
         "barra": 7702117008452,
-        "invetario": 1041,
+        "invetario": 1029,
         "proveedor": "COMESTIBLES ITALO SA",
         "activo": true
     },
@@ -2656,7 +2656,7 @@
         "precio": 7629,
         "imagen": "../assets/toWEBP/7702117008438.webp",
         "barra": 7702117008438,
-        "invetario": 1306,
+        "invetario": 1294,
         "proveedor": "COMESTIBLES ITALO SA",
         "activo": true
     },
@@ -2667,7 +2667,7 @@
         "precio": 7629,
         "imagen": "../assets/toWEBP/7702117003815.webp",
         "barra": 7702117003815,
-        "invetario": 964,
+        "invetario": 952,
         "proveedor": "COMESTIBLES ITALO SA",
         "activo": true
     },
@@ -2678,7 +2678,7 @@
         "precio": 7629,
         "imagen": "../assets/toWEBP/7702117007875.webp",
         "barra": 7702117007875,
-        "invetario": 1113,
+        "invetario": 1101,
         "proveedor": "COMESTIBLES ITALO SA",
         "activo": true
     },
@@ -2876,7 +2876,7 @@
         "precio": 20081,
         "imagen": "../assets/toWEBP/7702307110422.webp",
         "barra": 7702307110422,
-        "invetario": 29,
+        "invetario": 27,
         "proveedor": "BODEGAS CASA DEL RHIN ZF SAS",
         "activo": true
     },
@@ -3041,7 +3041,7 @@
         "precio": 30701,
         "imagen": "../assets/toWEBP/7804300010638.webp",
         "barra": 7804300010638,
-        "invetario": 415,
+        "invetario": 413,
         "proveedor": "DISLICORES - DISTRIBUIDORA DE VINOS Y LICORES",
         "activo": true
     },
@@ -3052,7 +3052,7 @@
         "precio": 30700,
         "imagen": "../assets/toWEBP/7804300120603.webp",
         "barra": 7804300120603,
-        "invetario": 437,
+        "invetario": 435,
         "proveedor": "DISLICORES - DISTRIBUIDORA DE VINOS Y LICORES",
         "activo": true
     },
@@ -3118,7 +3118,7 @@
         "precio": 6672,
         "imagen": "../assets/toWEBP/633148100099.webp",
         "barra": 633148100099,
-        "invetario": 0,
+        "invetario": 1173,
         "proveedor": "DISLICORES - DISTRIBUIDORA DE VINOS Y LICORES",
         "activo": true
     },
@@ -3129,7 +3129,7 @@
         "precio": 13521,
         "imagen": "../assets/toWEBP/633148100013.webp",
         "barra": 633148100013,
-        "invetario": 39,
+        "invetario": 31,
         "proveedor": "DISLICORES - DISTRIBUIDORA DE VINOS Y LICORES",
         "activo": true
     },
@@ -3151,7 +3151,7 @@
         "precio": 10880,
         "imagen": "../assets/toWEBP/7709947872239.webp",
         "barra": 7709947872239,
-        "invetario": 37,
+        "invetario": 33,
         "proveedor": "DS DISTRI SAMY SAS",
         "activo": true
     },
@@ -3217,7 +3217,7 @@
         "precio": 145815,
         "imagen": "../assets/toWEBP/7707142301660.webp",
         "barra": 7707142301660,
-        "invetario": "145,5",
+        "invetario": "144,5",
         "proveedor": "DUQUESA S.A. BIC",
         "activo": true
     },
@@ -3239,7 +3239,7 @@
         "precio": 132422,
         "imagen": "../assets/toWEBP/7707142301639.webp",
         "barra": 7707142301639,
-        "invetario": 111,
+        "invetario": 102,
         "proveedor": "DUQUESA S.A. BIC",
         "activo": true
     },
@@ -3261,7 +3261,7 @@
         "precio": 5536,
         "imagen": "../assets/toWEBP/7862119507589.webp",
         "barra": 7862119507589,
-        "invetario": 1662,
+        "invetario": 1422,
         "proveedor": "PUERTOMAR ZOMAC SAS",
         "activo": true
     },
@@ -3272,7 +3272,7 @@
         "precio": 2851,
         "imagen": "../assets/toWEBP/7862119507572.webp",
         "barra": 7862119507572,
-        "invetario": 4176,
+        "invetario": 4126,
         "proveedor": "PUERTOMAR ZOMAC SAS",
         "activo": true
     },
@@ -3283,7 +3283,7 @@
         "precio": 4217,
         "imagen": "../assets/toWEBP/7862119501396.webp",
         "barra": 7862119501396,
-        "invetario": 2040,
+        "invetario": 1992,
         "proveedor": "PUERTOMAR ZOMAC SAS",
         "activo": true
     },
@@ -3294,7 +3294,7 @@
         "precio": 4269,
         "imagen": "../assets/toWEBP/7862119505493.webp",
         "barra": 7862119505493,
-        "invetario": 3269,
+        "invetario": 3221,
         "proveedor": "PUERTOMAR ZOMAC SAS",
         "activo": true
     },
@@ -3415,7 +3415,7 @@
         "precio": 4364,
         "imagen": "../assets/toWEBP/7707096600031.webp",
         "barra": 7707096600031,
-        "invetario": 1210,
+        "invetario": 920,
         "proveedor": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
         "activo": true
     },
@@ -3426,7 +3426,7 @@
         "precio": 8159,
         "imagen": "../assets/toWEBP/7707096600055.webp",
         "barra": 7707096600055,
-        "invetario": 1152,
+        "invetario": 1116,
         "proveedor": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
         "activo": true
     },
@@ -3437,7 +3437,7 @@
         "precio": 3325,
         "imagen": "../assets/toWEBP/7707096000000.webp",
         "barra": 7707096000000,
-        "invetario": 849,
+        "invetario": 837,
         "proveedor": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
         "activo": true
     },
@@ -3448,7 +3448,7 @@
         "precio": 4364,
         "imagen": "../assets/toWEBP/7707096600147.webp",
         "barra": 7707096600147,
-        "invetario": 1056,
+        "invetario": 756,
         "proveedor": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
         "activo": true
     },
@@ -3459,7 +3459,7 @@
         "precio": 4364,
         "imagen": "../assets/toWEBP/7707096600178.webp",
         "barra": 7707096600178,
-        "invetario": 1224,
+        "invetario": 1184,
         "proveedor": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
         "activo": true
     },
@@ -3470,7 +3470,7 @@
         "precio": 1850,
         "imagen": "../assets/toWEBP/7707096600017.webp",
         "barra": 7707096600017,
-        "invetario": 3060,
+        "invetario": 2892,
         "proveedor": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
         "activo": true
     },
@@ -3481,7 +3481,7 @@
         "precio": 1850,
         "imagen": "../assets/toWEBP/7707096600000.webp",
         "barra": 7707096600000,
-        "invetario": 2637,
+        "invetario": 2565,
         "proveedor": "FABRICA DE FECULA FARINA  COMPAÑIA LIMITADA",
         "activo": true
     },
@@ -3492,7 +3492,7 @@
         "precio": 99803,
         "imagen": "../assets/toWEBP/74460704910.webp",
         "barra": 74460704910,
-        "invetario": 130,
+        "invetario": 127,
         "proveedor": "GLOBAL WINE & SPIRITS LTDA",
         "activo": true
     },
@@ -3602,7 +3602,7 @@
         "precio": 33978,
         "imagen": "../assets/toWEBP/7804320559001.webp",
         "barra": 7804320559001,
-        "invetario": 146,
+        "invetario": 143,
         "proveedor": "GLOBAL WINE & SPIRITS LTDA",
         "activo": true
     },
@@ -3613,7 +3613,7 @@
         "precio": 33977,
         "imagen": "../assets/toWEBP/7804320706009.webp",
         "barra": 7804320706009,
-        "invetario": 68,
+        "invetario": 65,
         "proveedor": "GLOBAL WINE & SPIRITS LTDA",
         "activo": true
     },
@@ -3646,7 +3646,7 @@
         "precio": 103900,
         "imagen": "../assets/toWEBP/5099873001370.webp",
         "barra": 5099873001370,
-        "invetario": 138,
+        "invetario": 254,
         "proveedor": "GLOBAL WINE & SPIRITS LTDA",
         "activo": true
     },
@@ -3665,10 +3665,10 @@
         "id": 334,
         "codigo": "JFW0022",
         "nombre": "TEQUILA HERRADURA PLATA X 750",
-        "precio": 157274,
+        "precio": 168157,
         "imagen": "../assets/toWEBP/744607111317.webp",
         "barra": 744607111317,
-        "invetario": 0,
+        "invetario": 30,
         "proveedor": "GLOBAL WINE & SPIRITS LTDA",
         "activo": true
     },
@@ -3679,7 +3679,7 @@
         "precio": 103900,
         "imagen": "../assets/toWEBP/5099873017623.webp",
         "barra": 5099873017623,
-        "invetario": 42,
+        "invetario": 100,
         "proveedor": "GLOBAL WINE & SPIRITS LTDA",
         "activo": true
     },
@@ -3690,7 +3690,7 @@
         "precio": 101135,
         "imagen": "../assets/toWEBP/4067700015419.webp",
         "barra": 4067700015419,
-        "invetario": 5,
+        "invetario": 32,
         "proveedor": "GLOBAL WINE & SPIRITS LTDA",
         "activo": true
     },
@@ -3789,7 +3789,7 @@
         "precio": 44442,
         "imagen": "../assets/toWEBP/080480985493.webp",
         "barra": "080480985493",
-        "invetario": 44,
+        "invetario": 281,
         "proveedor": "GLOBAL WINE & SPIRITS LTDA",
         "activo": true
     },
@@ -3800,7 +3800,7 @@
         "precio": 43724,
         "imagen": "../assets/toWEBP/080480985462.webp",
         "barra": "080480985462",
-        "invetario": 301,
+        "invetario": 538,
         "proveedor": "GLOBAL WINE & SPIRITS LTDA",
         "activo": true
     },
@@ -3811,7 +3811,7 @@
         "precio": 43263,
         "imagen": "../assets/toWEBP/7610113006184.webp",
         "barra": 7610113006184,
-        "invetario": 97,
+        "invetario": 214,
         "proveedor": "GLOBAL WINE & SPIRITS LTDA",
         "activo": true
     },
@@ -3833,7 +3833,7 @@
         "precio": 45245,
         "imagen": "../assets/toWEBP/7501008611135.webp",
         "barra": 7501008611135,
-        "invetario": 33,
+        "invetario": 31,
         "proveedor": "GLOBAL WINE & SPIRITS LTDA",
         "activo": true
     },
@@ -3899,7 +3899,7 @@
         "precio": 103901,
         "imagen": "../assets/toWEBP/82184001172.webp",
         "barra": 82184001172,
-        "invetario": 53,
+        "invetario": 110,
         "proveedor": "GLOBAL WINE & SPIRITS LTDA",
         "activo": true
     },
@@ -3910,7 +3910,7 @@
         "precio": 103900,
         "imagen": "../assets/toWEBP/082184090473.webp",
         "barra": "082184090473",
-        "invetario": 147,
+        "invetario": 265,
         "proveedor": "GLOBAL WINE & SPIRITS LTDA",
         "activo": true
     },
@@ -3921,7 +3921,7 @@
         "precio": 43486,
         "imagen": "../assets/toWEBP/7610113025307.webp",
         "barra": 7610113025307,
-        "invetario": 11,
+        "invetario": 68,
         "proveedor": "GLOBAL WINE & SPIRITS LTDA",
         "activo": true
     },
@@ -3943,7 +3943,7 @@
         "precio": 44139,
         "imagen": "../assets/toWEBP/08048098550.webp",
         "barra": "08048098550",
-        "invetario": 69,
+        "invetario": 67,
         "proveedor": "GLOBAL WINE & SPIRITS LTDA",
         "activo": true
     },
@@ -3976,7 +3976,7 @@
         "precio": 72995,
         "imagen": "../assets/toWEBP/5010327000039.webp",
         "barra": 5010327000039,
-        "invetario": 51,
+        "invetario": 15,
         "proveedor": "GLOBAL WINE & SPIRITS LTDA",
         "activo": true
     },
@@ -4097,7 +4097,7 @@
         "precio": 32204,
         "imagen": "../assets/toWEBP/7702532462563.webp",
         "barra": 7702532462563,
-        "invetario": 9,
+        "invetario": 8,
         "proveedor": "LABORATORIOS COFARMA S.A",
         "activo": true
     },
@@ -4108,7 +4108,7 @@
         "precio": 32205,
         "imagen": "../assets/toWEBP/7702532911672.webp",
         "barra": 7702532911672,
-        "invetario": 9,
+        "invetario": 8,
         "proveedor": "LABORATORIOS COFARMA S.A",
         "activo": true
     },
@@ -4119,7 +4119,7 @@
         "precio": 17004,
         "imagen": "../assets/toWEBP/7702532372107.webp",
         "barra": 7702532372107,
-        "invetario": 9,
+        "invetario": 4,
         "proveedor": "LABORATORIOS COFARMA S.A",
         "activo": true
     },
@@ -4130,7 +4130,7 @@
         "precio": 17003,
         "imagen": "../assets/toWEBP/7702532372121.webp",
         "barra": 7702532372121,
-        "invetario": 13,
+        "invetario": 9,
         "proveedor": "LABORATORIOS COFARMA S.A",
         "activo": true
     },
@@ -4141,7 +4141,7 @@
         "precio": 5526,
         "imagen": "../assets/toWEBP/7702532370899.webp",
         "barra": 7702532370899,
-        "invetario": 19,
+        "invetario": 5,
         "proveedor": "LABORATORIOS COFARMA S.A",
         "activo": true
     },
@@ -4152,7 +4152,7 @@
         "precio": 5526,
         "imagen": "../assets/toWEBP/7702532370882.webp",
         "barra": 7702532370882,
-        "invetario": 148,
+        "invetario": 134,
         "proveedor": "LABORATORIOS COFARMA S.A",
         "activo": true
     },
@@ -4163,7 +4163,7 @@
         "precio": 8583,
         "imagen": "../assets/toWEBP/7702532370974.webp",
         "barra": 7702532370974,
-        "invetario": 69,
+        "invetario": 65,
         "proveedor": "LABORATORIOS COFARMA S.A",
         "activo": true
     },
@@ -4174,7 +4174,7 @@
         "precio": 8583,
         "imagen": "../assets/toWEBP/7702532370905.webp",
         "barra": 7702532370905,
-        "invetario": 98,
+        "invetario": 90,
         "proveedor": "LABORATORIOS COFARMA S.A",
         "activo": true
     },
@@ -4196,7 +4196,7 @@
         "precio": 8583,
         "imagen": "../assets/toWEBP/7702532370912.webp",
         "barra": 7702532370912,
-        "invetario": 102,
+        "invetario": 98,
         "proveedor": "LABORATORIOS COFARMA S.A",
         "activo": true
     },
@@ -4240,7 +4240,7 @@
         "precio": 8583,
         "imagen": "../assets/toWEBP/7702532370981.webp",
         "barra": 7702532370981,
-        "invetario": 62,
+        "invetario": 58,
         "proveedor": "LABORATORIOS COFARMA S.A",
         "activo": true
     },
@@ -4251,7 +4251,7 @@
         "precio": 8583,
         "imagen": "../assets/toWEBP/7702532370721.webp",
         "barra": 7702532370721,
-        "invetario": 93,
+        "invetario": 91,
         "proveedor": "LABORATORIOS COFARMA S.A",
         "activo": true
     },
@@ -4262,7 +4262,7 @@
         "precio": 8931,
         "imagen": "../assets/toWEBP/7702532312448.webp",
         "barra": 7702532312448,
-        "invetario": 39,
+        "invetario": 38,
         "proveedor": "LABORATORIOS COFARMA S.A",
         "activo": true
     },
@@ -4284,7 +4284,7 @@
         "precio": 8931,
         "imagen": "../assets/toWEBP/7702532300117.webp",
         "barra": 7702532300117,
-        "invetario": 66,
+        "invetario": 65,
         "proveedor": "LABORATORIOS COFARMA S.A",
         "activo": true
     },
@@ -4306,7 +4306,7 @@
         "precio": 22282,
         "imagen": "../assets/toWEBP/7702532840187.webp",
         "barra": 7702532840187,
-        "invetario": 44,
+        "invetario": 43,
         "proveedor": "LABORATORIOS COFARMA S.A",
         "activo": true
     },
@@ -4328,7 +4328,7 @@
         "precio": 22282,
         "imagen": "../assets/toWEBP/7702532312295.webp",
         "barra": 7702532312295,
-        "invetario": 44,
+        "invetario": 43,
         "proveedor": "LABORATORIOS COFARMA S.A",
         "activo": true
     },
@@ -4350,7 +4350,7 @@
         "precio": 12701,
         "imagen": "../assets/toWEBP/7702532087059.webp",
         "barra": 7702532087059,
-        "invetario": 33,
+        "invetario": 32,
         "proveedor": "LABORATORIOS COFARMA S.A",
         "activo": true
     },
@@ -4361,7 +4361,7 @@
         "precio": 12701,
         "imagen": "../assets/toWEBP/7702532312394.webp",
         "barra": 7702532312394,
-        "invetario": 30,
+        "invetario": 29,
         "proveedor": "LABORATORIOS COFARMA S.A",
         "activo": true
     },
@@ -4438,7 +4438,7 @@
         "precio": 9206,
         "imagen": "../assets/toWEBP/7702532188579.webp",
         "barra": 7702532188579,
-        "invetario": 18,
+        "invetario": 17,
         "proveedor": "LABORATORIOS COFARMA S.A",
         "activo": true
     },
@@ -4504,7 +4504,7 @@
         "precio": 3275,
         "imagen": "../assets/toWEBP/7702532430814.webp",
         "barra": 7702532430814,
-        "invetario": 263,
+        "invetario": 239,
         "proveedor": "LABORATORIOS COFARMA S.A",
         "activo": true
     },
@@ -4515,7 +4515,7 @@
         "precio": 3275,
         "imagen": "../assets/toWEBP/7702532430845.webp",
         "barra": 7702532430845,
-        "invetario": 346,
+        "invetario": 320,
         "proveedor": "LABORATORIOS COFARMA S.A",
         "activo": true
     },
@@ -4537,7 +4537,7 @@
         "precio": 3275,
         "imagen": "../assets/toWEBP/7702532430883.webp",
         "barra": 7702532430883,
-        "invetario": 312,
+        "invetario": 310,
         "proveedor": "LABORATORIOS COFARMA S.A",
         "activo": true
     },
@@ -4548,7 +4548,7 @@
         "precio": 3275,
         "imagen": "../assets/toWEBP/7702532430821.webp",
         "barra": 7702532430821,
-        "invetario": 286,
+        "invetario": 284,
         "proveedor": "LABORATORIOS COFARMA S.A",
         "activo": true
     },
@@ -4812,7 +4812,7 @@
         "precio": 1366,
         "imagen": "../assets/toWEBP/7707253243099.webp",
         "barra": 7707253243099,
-        "invetario": 176,
+        "invetario": 170,
         "proveedor": "LABORATORIOS COFARMA S.A",
         "activo": true
     },
@@ -4823,7 +4823,7 @@
         "precio": 1366,
         "imagen": "../assets/toWEBP/7702532430685.webp",
         "barra": 7702532430685,
-        "invetario": 132,
+        "invetario": 126,
         "proveedor": "LABORATORIOS COFARMA S.A",
         "activo": true
     },
@@ -4911,7 +4911,7 @@
         "precio": 4919,
         "imagen": "../assets/toWEBP/7702532720366.webp",
         "barra": 7702532720366,
-        "invetario": 81,
+        "invetario": 77,
         "proveedor": "LABORATORIOS COFARMA S.A",
         "activo": true
     },
@@ -4922,7 +4922,7 @@
         "precio": 4919,
         "imagen": "../assets/toWEBP/7702532720373.webp",
         "barra": 7702532720373,
-        "invetario": 102,
+        "invetario": 98,
         "proveedor": "LABORATORIOS COFARMA S.A",
         "activo": true
     },
@@ -4933,7 +4933,7 @@
         "precio": 4919,
         "imagen": "../assets/toWEBP/7702532720359.webp",
         "barra": 7702532720359,
-        "invetario": 90,
+        "invetario": 86,
         "proveedor": "LABORATORIOS COFARMA S.A",
         "activo": true
     },
@@ -4944,7 +4944,7 @@
         "precio": 8073,
         "imagen": "../assets/toWEBP/7702532476836.webp",
         "barra": 7702532476836,
-        "invetario": 247,
+        "invetario": 245,
         "proveedor": "LABORATORIOS COFARMA S.A",
         "activo": true
     },
@@ -4955,7 +4955,7 @@
         "precio": 8073,
         "imagen": "../assets/toWEBP/7702532312103.webp",
         "barra": 7702532312103,
-        "invetario": 198,
+        "invetario": 195,
         "proveedor": "LABORATORIOS COFARMA S.A",
         "activo": true
     },
@@ -4966,7 +4966,7 @@
         "precio": 8073,
         "imagen": "../assets/toWEBP/7702532312110.webp",
         "barra": 7702532312110,
-        "invetario": 254,
+        "invetario": 251,
         "proveedor": "LABORATORIOS COFARMA S.A",
         "activo": true
     },
@@ -4977,7 +4977,7 @@
         "precio": 8073,
         "imagen": "../assets/toWEBP/7702532312127.webp",
         "barra": 7702532312127,
-        "invetario": 244,
+        "invetario": 242,
         "proveedor": "LABORATORIOS COFARMA S.A",
         "activo": true
     },
@@ -4999,7 +4999,7 @@
         "precio": 13357,
         "imagen": "../assets/toWEBP/7702532313056.webp",
         "barra": 7702532313056,
-        "invetario": 54,
+        "invetario": 50,
         "proveedor": "LABORATORIOS COFARMA S.A",
         "activo": true
     },
@@ -5010,7 +5010,7 @@
         "precio": 13357,
         "imagen": "../assets/toWEBP/7702532312790.webp",
         "barra": 7702532312790,
-        "invetario": 32,
+        "invetario": 30,
         "proveedor": "LABORATORIOS COFARMA S.A",
         "activo": true
     },
@@ -5032,7 +5032,7 @@
         "precio": 13357,
         "imagen": "../assets/toWEBP/7702532312738.webp",
         "barra": 7702532312738,
-        "invetario": 33,
+        "invetario": 29,
         "proveedor": "LABORATORIOS COFARMA S.A",
         "activo": true
     },
@@ -5054,7 +5054,7 @@
         "precio": 13357,
         "imagen": "../assets/toWEBP/7702532312820.webp",
         "barra": 7702532312820,
-        "invetario": 56,
+        "invetario": 54,
         "proveedor": "LABORATORIOS COFARMA S.A",
         "activo": true
     },
@@ -5131,7 +5131,7 @@
         "precio": 9206,
         "imagen": "../assets/toWEBP/7702532314411.webp",
         "barra": 7702532314411,
-        "invetario": 5,
+        "invetario": 2,
         "proveedor": "LABORATORIOS COFARMA S.A",
         "activo": true
     },
@@ -5142,7 +5142,7 @@
         "precio": 2244,
         "imagen": "../assets/toWEBP/7709990961584.webp",
         "barra": 7709990961584,
-        "invetario": 2200,
+        "invetario": 2000,
         "proveedor": "DORIS PATRICIA FONSECA RODRIGUEZ",
         "activo": true
     },
@@ -5153,7 +5153,7 @@
         "precio": 2244,
         "imagen": "../assets/toWEBP/7709990285383.webp",
         "barra": 7709990285383,
-        "invetario": 1625,
+        "invetario": 1450,
         "proveedor": "DORIS PATRICIA FONSECA RODRIGUEZ",
         "activo": true
     },
@@ -5164,7 +5164,7 @@
         "precio": 1892,
         "imagen": "../assets/toWEBP/7709990202465.webp",
         "barra": 7709990202465,
-        "invetario": 1725,
+        "invetario": 1550,
         "proveedor": "DORIS PATRICIA FONSECA RODRIGUEZ",
         "activo": true
     },
@@ -5175,7 +5175,7 @@
         "precio": 1731,
         "imagen": "../assets/toWEBP/7709990584097.webp",
         "barra": 7709990584097,
-        "invetario": 1626,
+        "invetario": 1451,
         "proveedor": "DORIS PATRICIA FONSECA RODRIGUEZ",
         "activo": true
     },
@@ -5285,7 +5285,7 @@
         "precio": 3720,
         "imagen": "../assets/toWEBP/7702764027004.webp",
         "barra": 7702764027004,
-        "invetario": 12,
+        "invetario": 6,
         "proveedor": "RUBIFLEX SAS",
         "activo": true
     },
@@ -5296,7 +5296,7 @@
         "precio": 3720,
         "imagen": "../assets/toWEBP/7702764028001.webp",
         "barra": 7702764028001,
-        "invetario": 417,
+        "invetario": 411,
         "proveedor": "RUBIFLEX SAS",
         "activo": true
     },
@@ -5307,7 +5307,7 @@
         "precio": 3720,
         "imagen": "../assets/toWEBP/7702764029008.webp",
         "barra": 7702764029008,
-        "invetario": 448,
+        "invetario": 442,
         "proveedor": "RUBIFLEX SAS",
         "activo": true
     },
@@ -5384,7 +5384,7 @@
         "precio": 8239,
         "imagen": "../assets/toWEBP/7702648000017.webp",
         "barra": 7702648000017,
-        "invetario": 750,
+        "invetario": 700,
         "proveedor": "DISCOA SAS",
         "activo": true
     },
@@ -5593,7 +5593,7 @@
         "precio": 15482,
         "imagen": "../assets/toWEBP/7702044289061.webp",
         "barra": 7702044289061,
-        "invetario": 61,
+        "invetario": 60,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -5670,7 +5670,7 @@
         "precio": 27581,
         "imagen": "../assets/toWEBP/7702044283588.webp",
         "barra": 7702044283588,
-        "invetario": 24,
+        "invetario": 12,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -5725,7 +5725,7 @@
         "precio": 25903,
         "imagen": "../assets/toWEBP/7702044243797.webp",
         "barra": 7702044243797,
-        "invetario": 12,
+        "invetario": 0,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -5736,7 +5736,7 @@
         "precio": 26743,
         "imagen": "../assets/toWEBP/7702044243803.webp",
         "barra": 7702044243803,
-        "invetario": 40,
+        "invetario": 39,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -5758,7 +5758,7 @@
         "precio": 13831,
         "imagen": "../assets/toWEBP/7702044282994.webp",
         "barra": 7702044282994,
-        "invetario": 76,
+        "invetario": 70,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -5791,7 +5791,7 @@
         "precio": 14648,
         "imagen": "../assets/toWEBP/7702044246477.webp",
         "barra": 7702044246477,
-        "invetario": 229,
+        "invetario": 228,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -5802,7 +5802,7 @@
         "precio": 3772,
         "imagen": "../assets/toWEBP/7702044246378.webp",
         "barra": 7702044246378,
-        "invetario": 407,
+        "invetario": 383,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -5813,7 +5813,7 @@
         "precio": 3772,
         "imagen": "../assets/toWEBP/7702044246408.webp",
         "barra": 7702044246408,
-        "invetario": 357,
+        "invetario": 333,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -5824,7 +5824,7 @@
         "precio": 19197,
         "imagen": "../assets/toWEBP/7702044285865.webp",
         "barra": 7702044285865,
-        "invetario": 72,
+        "invetario": 60,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -5934,7 +5934,7 @@
         "precio": 36802,
         "imagen": "../assets/toWEBP/7702044280587.webp",
         "barra": 7702044280587,
-        "invetario": 12,
+        "invetario": 11,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -5945,7 +5945,7 @@
         "precio": 47699,
         "imagen": "../assets/toWEBP/7702044283670.webp",
         "barra": 7702044283670,
-        "invetario": 10,
+        "invetario": 9,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -6319,7 +6319,7 @@
         "precio": 3772,
         "imagen": "../assets/toWEBP/7702044295178.webp",
         "barra": 7702044295178,
-        "invetario": 414,
+        "invetario": 408,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -6330,7 +6330,7 @@
         "precio": 3772,
         "imagen": "../assets/toWEBP/7702044295185.webp",
         "barra": 7702044295185,
-        "invetario": 334,
+        "invetario": 310,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -6341,7 +6341,7 @@
         "precio": 18862,
         "imagen": "../assets/toWEBP/7702044295260.webp",
         "barra": 7702044295260,
-        "invetario": 64,
+        "invetario": 52,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -6429,7 +6429,7 @@
         "precio": 14648,
         "imagen": "../assets/toWEBP/7702044295161.webp",
         "barra": 7702044295161,
-        "invetario": 77,
+        "invetario": 76,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -6440,7 +6440,7 @@
         "precio": 17520,
         "imagen": "../assets/toWEBP/7702044295246.webp",
         "barra": 7702044295246,
-        "invetario": 131,
+        "invetario": 116,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -6462,7 +6462,7 @@
         "precio": 3161,
         "imagen": "../assets/toWEBP/7702108205556.webp",
         "barra": 7702108205556,
-        "invetario": 900,
+        "invetario": 864,
         "proveedor": "PRODUSA ZONA FRANCA SAS",
         "activo": true
     },
@@ -6506,7 +6506,7 @@
         "precio": 4304,
         "imagen": "../assets/toWEBP/7702108209813.webp",
         "barra": 7702108209813,
-        "invetario": 11496,
+        "invetario": 11400,
         "proveedor": "PRODUSA ZONA FRANCA SAS",
         "activo": true
     },
@@ -6517,7 +6517,7 @@
         "precio": 4454,
         "imagen": "../assets/toWEBP/7702108850794.webp",
         "barra": 7702108850794,
-        "invetario": 14863,
+        "invetario": 14791,
         "proveedor": "PRODUSA ZONA FRANCA SAS",
         "activo": true
     },
@@ -6528,7 +6528,7 @@
         "precio": 8411,
         "imagen": "../assets/toWEBP/7702108201770.webp",
         "barra": 7702108201770,
-        "invetario": 252,
+        "invetario": 240,
         "proveedor": "PRODUSA ZONA FRANCA SAS",
         "activo": true
     },
@@ -6539,7 +6539,7 @@
         "precio": 5060,
         "imagen": "../assets/toWEBP/7702108200919.webp",
         "barra": 7702108200919,
-        "invetario": 648,
+        "invetario": 600,
         "proveedor": "PRODUSA ZONA FRANCA SAS",
         "activo": true
     },
@@ -6583,7 +6583,7 @@
         "precio": 7210,
         "imagen": "../assets/toWEBP/7702120012996.webp",
         "barra": 7702120012996,
-        "invetario": 357,
+        "invetario": 348,
         "proveedor": "PAPELES NACIONALES SAS",
         "activo": true
     },
@@ -6616,7 +6616,7 @@
         "precio": 6225,
         "imagen": "../assets/toWEBP/7702120013061.webp",
         "barra": 7702120013061,
-        "invetario": 1020,
+        "invetario": 996,
         "proveedor": "PAPELES NACIONALES SAS",
         "activo": true
     },
@@ -6627,7 +6627,7 @@
         "precio": 13699,
         "imagen": "../assets/toWEBP/7702120013078.webp",
         "barra": 7702120013078,
-        "invetario": 1423,
+        "invetario": 1015,
         "proveedor": "PAPELES NACIONALES SAS",
         "activo": true
     },
@@ -6748,7 +6748,7 @@
         "precio": 1521,
         "imagen": "../assets/toWEBP/7702120012446.webp",
         "barra": 7702120012446,
-        "invetario": 282,
+        "invetario": 246,
         "proveedor": "PAPELES NACIONALES SAS",
         "activo": true
     },
@@ -6803,7 +6803,7 @@
         "precio": 3990,
         "imagen": "../assets/toWEBP/7702120012682.webp",
         "barra": 7702120012682,
-        "invetario": 540,
+        "invetario": 510,
         "proveedor": "PAPELES NACIONALES SAS",
         "activo": true
     },
@@ -6891,7 +6891,7 @@
         "precio": 13493,
         "imagen": "../assets/toWEBP/7702120014105.webp",
         "barra": 7702120014105,
-        "invetario": 444,
+        "invetario": 436,
         "proveedor": "PAPELES NACIONALES SAS",
         "activo": true
     },
@@ -6924,7 +6924,7 @@
         "precio": 2785,
         "imagen": "../assets/toWEBP/7705525010123.webp",
         "barra": 7705525010123,
-        "invetario": 9926,
+        "invetario": 9466,
         "proveedor": "PRECOCIDOS DEL ORIENTE SA",
         "activo": true
     },
@@ -6935,7 +6935,7 @@
         "precio": 1360,
         "imagen": "../assets/toWEBP/7705525010017.webp",
         "barra": 7705525010017,
-        "invetario": 6267,
+        "invetario": 6099,
         "proveedor": "PRECOCIDOS DEL ORIENTE SA",
         "activo": true
     },
@@ -6968,7 +6968,7 @@
         "precio": 1005,
         "imagen": "../assets/toWEBP/7705525095014.webp",
         "barra": 7705525095014,
-        "invetario": 4200,
+        "invetario": 4008,
         "proveedor": "PRECOCIDOS DEL ORIENTE SA",
         "activo": true
     },
@@ -6979,7 +6979,7 @@
         "precio": 1005,
         "imagen": "../assets/toWEBP/7705525093072.webp",
         "barra": 7705525093072,
-        "invetario": 13476,
+        "invetario": 13176,
         "proveedor": "PRECOCIDOS DEL ORIENTE SA",
         "activo": true
     },
@@ -6990,7 +6990,7 @@
         "precio": 1005,
         "imagen": "../assets/toWEBP/7707525092013.webp",
         "barra": 7707525092013,
-        "invetario": 9096,
+        "invetario": 8928,
         "proveedor": "PRECOCIDOS DEL ORIENTE SA",
         "activo": true
     },
@@ -7001,7 +7001,7 @@
         "precio": 4017,
         "imagen": "../assets/toWEBP/7705525091054.webp",
         "barra": 7705525091054,
-        "invetario": 4079,
+        "invetario": 3941,
         "proveedor": "PRECOCIDOS DEL ORIENTE SA",
         "activo": true
     },
@@ -7012,7 +7012,7 @@
         "precio": 1005,
         "imagen": "../assets/toWEBP/7707525091016.webp",
         "barra": 7707525091016,
-        "invetario": 11112,
+        "invetario": 10896,
         "proveedor": "PRECOCIDOS DEL ORIENTE SA",
         "activo": true
     },
@@ -7023,7 +7023,7 @@
         "precio": 4017,
         "imagen": "../assets/toWEBP/7705525093089.webp",
         "barra": 7705525093089,
-        "invetario": 4572,
+        "invetario": 4344,
         "proveedor": "PRECOCIDOS DEL ORIENTE SA",
         "activo": true
     },
@@ -7034,7 +7034,7 @@
         "precio": 4017,
         "imagen": "../assets/toWEBP/7705525092037.webp",
         "barra": 7705525092037,
-        "invetario": 870,
+        "invetario": 834,
         "proveedor": "PRECOCIDOS DEL ORIENTE SA",
         "activo": true
     },
@@ -7045,7 +7045,7 @@
         "precio": 4017,
         "imagen": "../assets/toWEBP/7705525090354.webp",
         "barra": 7705525090354,
-        "invetario": 1264,
+        "invetario": 1228,
         "proveedor": "PRECOCIDOS DEL ORIENTE SA",
         "activo": true
     },
@@ -7100,7 +7100,7 @@
         "precio": 10487,
         "imagen": "../assets/toWEBP/2222070752520.webp",
         "barra": 2222070752520,
-        "invetario": 754,
+        "invetario": 748,
         "proveedor": "PROPETS SAS",
         "activo": true
     },
@@ -7122,7 +7122,7 @@
         "precio": 1270,
         "imagen": "../assets/toWEBP/7709645809834.webp",
         "barra": 7709645809834,
-        "invetario": 480,
+        "invetario": 432,
         "proveedor": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
         "activo": true
     },
@@ -7133,7 +7133,7 @@
         "precio": 1270,
         "imagen": "../assets/toWEBP/7709645809889.webp",
         "barra": 7709645809889,
-        "invetario": 1512,
+        "invetario": 1440,
         "proveedor": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
         "activo": true
     },
@@ -7144,7 +7144,7 @@
         "precio": 4881,
         "imagen": "../assets/toWEBP/7709645809896.webp",
         "barra": 7709645809896,
-        "invetario": 1153,
+        "invetario": 1117,
         "proveedor": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
         "activo": true
     },
@@ -7155,7 +7155,7 @@
         "precio": 2542,
         "imagen": "../assets/toWEBP/7709645809865.webp",
         "barra": 7709645809865,
-        "invetario": 659,
+        "invetario": 587,
         "proveedor": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
         "activo": true
     },
@@ -7166,7 +7166,7 @@
         "precio": 7474,
         "imagen": "../assets/toWEBP/7709645809841.webp",
         "barra": 7709645809841,
-        "invetario": 427,
+        "invetario": 351,
         "proveedor": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
         "activo": true
     },
@@ -7199,7 +7199,7 @@
         "precio": 2562,
         "imagen": "../assets/toWEBP/7708672942651.webp",
         "barra": 7708672942651,
-        "invetario": 84,
+        "invetario": 72,
         "proveedor": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
         "activo": true
     },
@@ -7232,7 +7232,7 @@
         "precio": 43102,
         "imagen": "../assets/toWEBP/7709990899000.webp",
         "barra": 7709990899000,
-        "invetario": 16,
+        "invetario": 67,
         "proveedor": "INFUSIONES HERBAR SAS",
         "activo": true
     },
@@ -7254,7 +7254,7 @@
         "precio": 3630,
         "imagen": "../assets/toWEBP/7709990000000.webp",
         "barra": 7709990000000,
-        "invetario": 10,
+        "invetario": 1066,
         "proveedor": "INFUSIONES HERBAR SAS",
         "activo": true
     },
@@ -7485,7 +7485,7 @@
         "precio": 30965,
         "imagen": "../assets/toWEBP/7702534200026.webp",
         "barra": 7702534200026,
-        "invetario": 154,
+        "invetario": 142,
         "proveedor": "SABAJON APOLO SA",
         "activo": true
     },
@@ -7496,7 +7496,7 @@
         "precio": 31201,
         "imagen": "../assets/toWEBP/7702534100029.webp",
         "barra": 7702534100029,
-        "invetario": 54,
+        "invetario": 42,
         "proveedor": "SABAJON APOLO SA",
         "activo": true
     },
@@ -7551,7 +7551,7 @@
         "precio": 102761,
         "imagen": "../assets/toWEBP/7702174087605.webp",
         "barra": 7702174087605,
-        "invetario": 28,
+        "invetario": 27,
         "proveedor": "TROLLI WORLD SAS",
         "activo": true
     },
@@ -7584,7 +7584,7 @@
         "precio": 32580,
         "imagen": "../assets/toWEBP/7702174087766.webp",
         "barra": 7702174087766,
-        "invetario": 150,
+        "invetario": 144,
         "proveedor": "TROLLI WORLD SAS",
         "activo": true
     },
@@ -7595,7 +7595,7 @@
         "precio": 32580,
         "imagen": "../assets/toWEBP/7702174087759.webp",
         "barra": 7702174087759,
-        "invetario": 150,
+        "invetario": 145,
         "proveedor": "TROLLI WORLD SAS",
         "activo": true
     },
@@ -7606,7 +7606,7 @@
         "precio": 32581,
         "imagen": "../assets/toWEBP/7702174087773.webp",
         "barra": 7702174087773,
-        "invetario": 150,
+        "invetario": 145,
         "proveedor": "TROLLI WORLD SAS",
         "activo": true
     },
@@ -7639,7 +7639,7 @@
         "precio": 4712,
         "imagen": "../assets/toWEBP/7700718564000.webp",
         "barra": 7700718564000,
-        "invetario": 950,
+        "invetario": 932,
         "proveedor": "VENTAS NACIONALES SAS",
         "activo": true
     },
