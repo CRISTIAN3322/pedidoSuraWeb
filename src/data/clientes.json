@@ -152,7 +152,7 @@
         "id": 4228833,
         "nombre": "ALIRIO ENRIQUE CASTELLANOS CORTES",
         "sucursales": [{
-            "direccion": "CL 10 6 51  Madrid",
+            "direccion": "CL 21 1 A 16 San Pedro Madrid",
             "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
         }]
     },
@@ -805,7 +805,7 @@
         "id": 11435016,
         "nombre": "VICTOR JULIO CASTILLO SIERRA",
         "sucursales": [{
-            "direccion": "CR 1 SUR 21 A 16  Facatativá",
+            "direccion": "CR 1 SUR 21 A 16 Cartagenita Facatativá",
             "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
         }]
     },
@@ -871,14 +871,6 @@
         "sucursales": [{
             "direccion": "CR 149C 138 72 Suba San Pedro Berlin",
             "vendedor": "CONSUELO MUÑOZ"
-        }]
-    },
-    {
-        "id": 15940260,
-        "nombre": "JORGE IVAN PATIÑO HENAO",
-        "sucursales": [{
-            "direccion": "CR 15 5 39 Dos Caminos Facatativá",
-            "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
         }]
     },
     {
@@ -1619,14 +1611,6 @@
         }]
     },
     {
-        "id": 51935379,
-        "nombre": "SARA MARIA PASTRAN PEÑA",
-        "sucursales": [{
-            "direccion": "CL 5 7 15  Supatá",
-            "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
-        }]
-    },
-    {
         "id": 51949983,
         "nombre": "MARTHA LUCIA ALDERETE RENGIFO",
         "sucursales": [{
@@ -2045,7 +2029,7 @@
         "id": 52771721,
         "nombre": "BLANCA NYDIA VARGAS",
         "sucursales": [{
-            "direccion": "CR 5 SUR 2 A 37  Facatativá",
+            "direccion": "CL 5 SUR 2 A 37 LA Paz Facatativá",
             "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
         }]
     },
@@ -2598,14 +2582,6 @@
         "sucursales": [{
             "direccion": "CL 46 G SUR 14 34 ESTE Quindio",
             "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
-        }]
-    },
-    {
-        "id": 79568938,
-        "nombre": "MIGUEL ALFONSO VARGAS FORIGUA",
-        "sucursales": [{
-            "direccion": "CL 13 6 B 25 Serrezuelita Funza",
-            "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
         }]
     },
     {
@@ -3522,7 +3498,7 @@
         "id": 800205713,
         "nombre": "INVERSIONES VARGAS OTELO S.A.S",
         "sucursales": [{
-                "direccion": "CL 2 3 02 La Florida Anapoima",
+                "direccion": "CL 2 3 02 La Florida ",
                 "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
             },
             {
@@ -4325,14 +4301,6 @@
         ]
     },
     {
-        "id": 900732875,
-        "nombre": "SALAS CASTILLO E HIJOS SAS",
-        "sucursales": [{
-            "direccion": "CL 10 14 A 21  Mosquera",
-            "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
-        }]
-    },
-    {
         "id": 900734493,
         "nombre": "AUTOSERVICIO MI LLANITO NM SAS",
         "sucursales": [{
@@ -4992,7 +4960,7 @@
         "id": 901413657,
         "nombre": "AUTOSERVICIO GIRARDOT DUQUE SAS",
         "sucursales": [{
-            "direccion": "CL 1 3 52  Facatativá",
+            "direccion": "CL 1 3 52 SUR  Facatativá",
             "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
         }]
     },
@@ -5321,14 +5289,6 @@
         "sucursales": [{
             "direccion": "CL 91 SUR 5 05 ESTE Alfonso Lopez",
             "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
-        }]
-    },
-    {
-        "id": 901583452,
-        "nombre": "ROA RAMIREZ   ASOCIADOS SCS",
-        "sucursales": [{
-            "direccion": "CR 5 2 37  Anolaima",
-            "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
         }]
     },
     {
@@ -5779,14 +5739,6 @@
         "sucursales": [{
             "direccion": "VDA FONQUETA VIA LA CARLINA  Chía",
             "vendedor": "ANA SOFIA ROLDAN RIQUE"
-        }]
-    },
-    {
-        "id": 1007651415,
-        "nombre": "DANIEL ESTEBAN CASTRO PALACIO",
-        "sucursales": [{
-            "direccion": "CL 3  5 30 42  Cachipay",
-            "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
         }]
     },
     {
@@ -6935,14 +6887,6 @@
         "nombre": "CARLOS ORLANDO GARCIA WILCHES",
         "sucursales": [{
             "direccion": "CR 5 3A 83 PUENTE PIEDRA Madrid",
-            "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
-        }]
-    },
-    {
-        "id": 1079232072,
-        "nombre": "RABOMIR GONZALEZ ALVARADO",
-        "sucursales": [{
-            "direccion": "CL 5 7 15  Supatá",
             "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
         }]
     },
