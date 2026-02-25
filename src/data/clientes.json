@@ -7126,5 +7126,21 @@
             "direccion": "CL 10 6 51   Madrid ",
             "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
         }]
+    },
+    {
+        "id": 1053558820,
+        "nombre": "EDWIN FABIAN GUERRERO GALINDO",
+        "sucursales": [{
+            "direccion": "CL 43 SUR 12 33 San Jorge ",
+            "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
+        }]
+    },
+    {
+        "id": 900375894,
+        "nombre": "LA GRANJA TENJO SAS",
+        "sucursales": [{
+            "direccion": "KM 12 VIA SIBERIA  Tenjo ",
+            "vendedor": "ANA SOFIA ROLDAN RIQUE"
+        }]
     }
 ]

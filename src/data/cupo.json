@@ -4275,5 +4275,17 @@
         "nombre": "ALEIDA PAOLA CASTELLANOS AGUDELO",
         "cupo": 1000000,
         "Forma": "Contado"
+    },
+    {
+        "id": 1053558820,
+        "nombre": "EDWIN FABIAN GUERRERO GALINDO",
+        "cupo": 1000000,
+        "Forma": "Contado"
+    },
+    {
+        "id": 900375894,
+        "nombre": "LA GRANJA TENJO SAS",
+        "cupo": 1000000,
+        "Forma": "Contado"
     }
 ]
