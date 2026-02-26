@@ -84,7 +84,7 @@
         "barra": 7702622527103,
         "invetario": 3255,
         "proveedor": "TONING SAS",
-        "activo": false
+        "activo": true
     },
     {
         "id": 9,
@@ -843,7 +843,7 @@
         "barra": 7702622836502,
         "invetario": 3239,
         "proveedor": "TONING SAS",
-        "activo": true
+        "activo": false
     },
     {
         "id": 78,
