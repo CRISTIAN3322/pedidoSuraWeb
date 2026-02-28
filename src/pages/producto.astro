@@ -1,8 +1,6 @@
 ---
-import ClienteSelector from '../components/organisms/ClienteSelector.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
-import ProductCreator from '../components/organisms/ProductCreator.astro';
 import ProductosSelector from '../components/organisms/ProductosSelector.astro';
 ---
 
@@ -17,7 +15,6 @@ import ProductosSelector from '../components/organisms/ProductosSelector.astro';
 </script>
 <BaseLayout>
     <h1>🛍️ Catálogo de Productos</h1>
-    <ProductCreator />
     <div class="container">    
         <div class="card">
             <ProductosSelector />

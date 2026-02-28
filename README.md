@@ -37,7 +37,7 @@ Sistema web moderno para gestión de pedidos desarrollado con **Astro 5**, **Rea
 
 ## 🛠️ Tecnologías
 
-- **[Astro 5.14.1](https://astro.build/)** - Framework web moderno con SSR
+- **[Astro 5.17.1](https://astro.build/)** - Framework web moderno con SSR
 - **[React 19](https://reactjs.org/)** - Componentes interactivos con hooks
 - **[TypeScript 5.0](https://www.typescriptlang.org/)** - Tipado estático completo
 - **CSS Variables** - Sistema de diseño consistente y personalizable
@@ -60,7 +60,9 @@ suraPedidosWeb/
 │   │   │   ├── SearchInput.astro    # Campo de búsqueda con ícono
 │   │   │   ├── CupoInfo.astro       # Información de cupo formateada
 │   │   │   ├── CarteraTable.astro   # Tabla de facturas del cliente
+│   │   │   ├── CarteraCliente.astro # Resumen de cartera del cliente
 │   │   │   ├── ClienteInfo.astro    # Información del cliente seleccionado
+│   │   │   ├── CupoCliente.astro    # Información de cupo del cliente
 │   │   │   ├── SucursalList.astro   # Lista de sucursales
 │   │   │   ├── Navigation.astro     # Navegación principal
 │   │   │   ├── LoginForm.astro      # Formulario de autenticación
@@ -70,6 +72,7 @@ suraPedidosWeb/
 │   │   │   ├── ClienteSelector.astro      # Selector de clientes
 │   │   │   ├── ClienteSelectorReact.jsx   # Lógica de selección React
 │   │   │   ├── ProductosSelector.astro    # Selector de productos
+│   │   │   ├── ProductCreator.astro       # Creación de productos
 │   │   │   └── BloqueoHorario.astro       # Control de horarios
 │   │   └── templates/        # 📄 Estructuras de página
 │   │       └── ClienteSelectorTemplate.astro # Plantilla completa
@@ -80,13 +83,18 @@ suraPedidosWeb/
 │   │   ├── login.astro         # Página de autenticación
 │   │   ├── principal.astro     # Página de selección de clientes
 │   │   ├── producto.astro      # Página de productos
-│   │   └── carrito.astro       # Carrito de compras
+│   │   ├── carrito.astro       # Carrito de compras
+│   │   ├── ventas.astro        # Página de ventas
+│   │   └── api/                # Endpoints API
+│   │       ├── ventas.json.ts  # API de ventas
+│   │       └── carteras.json.ts # API de carteras
 │   ├── data/                 # 📊 Datos de la aplicación
-│   │   ├── products.json       # Catálogo de productos (629 items)
+│   │   ├── products.json       # Catálogo de productos
 │   │   ├── clientes.json       # Información de clientes
 │   │   ├── cartera.json        # Facturas y deudas (15,004 líneas)
 │   │   ├── cupo.json          # Cupos de crédito
-│   │   └── vendedores.json     # Información de vendedores
+│   │   ├── vendedores.json    # Información de vendedores
+│   │   └── ventas.json        # Datos de ventas
 │   ├── styles/               # 🎨 Estilos organizados
 │   │   ├── global.css          # Estilos globales y variables CSS
 │   │   └── atoms/
@@ -311,6 +319,10 @@ Página principal que muestra el catálogo de productos disponibles. Incluye:
 
 Página del carrito de compras donde se pueden gestionar los productos seleccionados.
 
+#### ventas.astro
+
+Página de ventas con acceso a datos de ventas y endpoints API (`/api/ventas.json`, `/api/carteras.json`).
+
 ### Components
 
 #### ClienteSelectorReact.jsx
@@ -363,7 +375,9 @@ Componente para cargar imágenes de productos:
 
 - **SearchInput.astro**: Campo de búsqueda con ícono
 - **CupoInfo.astro**: Información de cupo formateada
+- **CupoCliente.astro**: Información de cupo del cliente
 - **CarteraTable.astro**: Tabla de facturas del cliente
+- **CarteraCliente.astro**: Resumen de cartera del cliente
 - **ClienteInfo.astro**: Información del cliente seleccionado
 
 #### Plantillas (Templates) 📄
