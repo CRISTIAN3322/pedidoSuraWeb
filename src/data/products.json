@@ -9696,7 +9696,7 @@
         "barra": "",
         "invetario": 0,
         "unidad": "Caja",
-        "despacho": 24,
+        "despacho": 1,
         "proveedor": "TROLLI WORLD SAS",
         "activo": false
     },
@@ -9710,7 +9710,7 @@
         "barra": 7702174889780,
         "invetario": 112,
         "unidad": "Caja",
-        "despacho": 24,
+        "despacho": 1,
         "proveedor": "TROLLI WORLD SAS",
         "activo": true
     },
@@ -9724,7 +9724,7 @@
         "barra": 7702174890632,
         "invetario": 141,
         "unidad": "Caja",
-        "despacho": 24,
+        "despacho": 1,
         "proveedor": "TROLLI WORLD SAS",
         "activo": true
     },
@@ -9752,7 +9752,7 @@
         "barra": 7702174087766,
         "invetario": 105,
         "unidad": "Caja",
-        "despacho": 24,
+        "despacho": 1,
         "proveedor": "TROLLI WORLD SAS",
         "activo": true
     },
@@ -9766,7 +9766,7 @@
         "barra": 7702174087759,
         "invetario": 107,
         "unidad": "Caja",
-        "despacho": 24,
+        "despacho": 1,
         "proveedor": "TROLLI WORLD SAS",
         "activo": true
     },
@@ -9780,7 +9780,7 @@
         "barra": 7702174087773,
         "invetario": 105,
         "unidad": "Caja",
-        "despacho": 24,
+        "despacho": 1,
         "proveedor": "TROLLI WORLD SAS",
         "activo": true
     },
@@ -9794,7 +9794,7 @@
         "barra": 7702174088046,
         "invetario": 122,
         "unidad": "Caja",
-        "despacho": 24,
+        "despacho": 1,
         "proveedor": "TROLLI WORLD SAS",
         "activo": true
     },
