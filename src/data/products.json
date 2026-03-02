@@ -8851,7 +8851,7 @@
         "codigo": "JPN0029",
         "nombre": "PAPEL ROSAL MAXIMO 4PAQUETES X 12 ROLLOS",
         "precioUnidad": 13493,
-        "precio": 161921,
+        "precio": 53974,
         "imagen": "../assets/toWEBP/7702120014105.webp",
         "barra": 7702120014105,
         "invetario": 400,
@@ -9290,7 +9290,7 @@
         "barra": 7709990899000,
         "invetario": 37,
         "unidad": "Paca",
-        "despacho": 24,
+        "despacho": 1,
         "proveedor": "INFUSIONES HERBAR SAS",
         "activo": true
     },
@@ -9374,7 +9374,7 @@
         "barra": 7709990078190,
         "invetario": 0,
         "unidad": "Paca",
-        "despacho": 24,
+        "despacho": 1,
         "proveedor": "INFUSIONES HERBAR SAS",
         "activo": true
     },
@@ -9388,7 +9388,7 @@
         "barra": 7709990078176,
         "invetario": 5,
         "unidad": "Paca",
-        "despacho": 24,
+        "despacho": 1,
         "proveedor": "INFUSIONES HERBAR SAS",
         "activo": true
     },
@@ -9402,7 +9402,7 @@
         "barra": 7709990078152,
         "invetario": 5,
         "unidad": "Paca",
-        "despacho": 24,
+        "despacho": 1,
         "proveedor": "INFUSIONES HERBAR SAS",
         "activo": true
     },
@@ -9416,7 +9416,7 @@
         "barra": 7709990078107,
         "invetario": 0,
         "unidad": "Paca",
-        "despacho": 24,
+        "despacho": 1,
         "proveedor": "INFUSIONES HERBAR SAS",
         "activo": true
     },
@@ -9430,7 +9430,7 @@
         "barra": 7709990899290,
         "invetario": 5,
         "unidad": "Paca",
-        "despacho": 24,
+        "despacho": 1,
         "proveedor": "INFUSIONES HERBAR SAS",
         "activo": true
     },
@@ -9444,7 +9444,7 @@
         "barra": 7709990336108,
         "invetario": -1,
         "unidad": "Paca",
-        "despacho": 24,
+        "despacho": 1,
         "proveedor": "INFUSIONES HERBAR SAS",
         "activo": true
     },
