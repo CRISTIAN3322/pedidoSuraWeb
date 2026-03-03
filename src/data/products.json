@@ -2150,7 +2150,7 @@
         "barra": 7702117018796,
         "invetario": 201,
         "unidad": "Dsiplay",
-        "despacho": 6,
+        "despacho": 1,
         "proveedor": "COMESTIBLES ITALO SA",
         "activo": true
     },
@@ -2164,7 +2164,7 @@
         "barra": 7702117018789,
         "invetario": 0,
         "unidad": "Dsiplay",
-        "despacho": 6,
+        "despacho": 1,
         "proveedor": "COMESTIBLES ITALO SA",
         "activo": true
     },
@@ -2178,7 +2178,7 @@
         "barra": 7702117017294,
         "invetario": 11,
         "unidad": "Dsiplay",
-        "despacho": 6,
+        "despacho": 1,
         "proveedor": "COMESTIBLES ITALO SA",
         "activo": true
     },
@@ -3914,7 +3914,7 @@
         "barra": 7862119507589,
         "invetario": 567,
         "unidad": "unidad",
-        "despacho": 6,
+        "despacho": 1,
         "proveedor": "PUERTOMAR ZOMAC SAS",
         "activo": true
     },
@@ -3928,7 +3928,7 @@
         "barra": 7862119507572,
         "invetario": 3699,
         "unidad": "unidad",
-        "despacho": 6,
+        "despacho": 1,
         "proveedor": "PUERTOMAR ZOMAC SAS",
         "activo": true
     },
@@ -3942,7 +3942,7 @@
         "barra": 7862119501396,
         "invetario": 1857,
         "unidad": "unidad",
-        "despacho": 6,
+        "despacho": 1,
         "proveedor": "PUERTOMAR ZOMAC SAS",
         "activo": true
     },
@@ -3956,7 +3956,7 @@
         "barra": 7862119505493,
         "invetario": 3014,
         "unidad": "unidad",
-        "despacho": 6,
+        "despacho": 1,
         "proveedor": "PUERTOMAR ZOMAC SAS",
         "activo": true
     },
@@ -3970,7 +3970,7 @@
         "barra": 7862119505509,
         "invetario": 387,
         "unidad": "unidad",
-        "despacho": 6,
+        "despacho": 1,
         "proveedor": "PUERTOMAR ZOMAC SAS",
         "activo": true
     },
@@ -3984,7 +3984,7 @@
         "barra": 7862119508616,
         "invetario": 400,
         "unidad": "unidad",
-        "despacho": 6,
+        "despacho": 1,
         "proveedor": "PUERTOMAR ZOMAC SAS",
         "activo": true
     },
