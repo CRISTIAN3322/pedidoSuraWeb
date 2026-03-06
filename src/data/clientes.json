@@ -6120,9 +6120,14 @@
         "id": 1023902316,
         "nombre": "JACKSON DANIEL D ALEMAN DE ANTONIO",
         "sucursales": [{
-            "direccion": "CR 111 64B 04 San Antonio",
-            "vendedor": "XIMENA DEL PILAR SANTANA GAMBOA"
-        }]
+                "direccion": "CR 111 64B 04 San Antonio",
+                "vendedor": "XIMENA DEL PILAR SANTANA GAMBOA"
+            },
+            {
+                "direccion": "CL 67 116 B 20 Engativa",
+                "vendedor": "XIMENA DEL PILAR SANTANA GAMBOA"
+            }
+        ]
     },
     {
         "id": 1023924997,
