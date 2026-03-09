@@ -4287,5 +4287,11 @@
         "nombre": "LA GRANJA TENJO SAS",
         "cupo": 1000000,
         "Forma": "Contado"
+    },
+    {
+        "id": 901909009,
+        "nombre": "INVERSIONES MARIASVAL SAS",
+        "cupo": 1000000,
+        "Forma": "Credito"
     }
 ]

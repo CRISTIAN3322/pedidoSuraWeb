@@ -7147,5 +7147,13 @@
             "direccion": "KM 12 VIA SIBERIA  Tenjo ",
             "vendedor": "ANA SOFIA ROLDAN RIQUE"
         }]
+    },
+    {
+        "id": 901909009,
+        "nombre": "INVERSIONES MARIASVAL SAS",
+        "sucursales": [{
+            "direccion": "CR 93 128 F 14 La Palma  La Palma ",
+            "vendedor": "CONSUELO MUÑOZ"
+        }]
     }
 ]
