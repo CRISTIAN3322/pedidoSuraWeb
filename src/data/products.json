@@ -6952,7 +6952,7 @@
         "barra": 7702044285797,
         "invetario": 87,
         "unidad": "Display",
-        "despacho": 6,
+        "despacho": 1,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -6966,7 +6966,7 @@
         "barra": 7702044283588,
         "invetario": 60,
         "unidad": "Display",
-        "despacho": 6,
+        "despacho": 1,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -6980,7 +6980,7 @@
         "barra": 7702044283618,
         "invetario": 65,
         "unidad": "unidad",
-        "despacho": 3,
+        "despacho": 1,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -6994,7 +6994,7 @@
         "barra": 7702044181853,
         "invetario": 33,
         "unidad": "unidad",
-        "despacho": 3,
+        "despacho": 1,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -7008,7 +7008,7 @@
         "barra": 7702044286190,
         "invetario": 87,
         "unidad": "unidad",
-        "despacho": 3,
+        "despacho": 1,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -7022,7 +7022,7 @@
         "barra": 7702044194587,
         "invetario": 626,
         "unidad": "unidad",
-        "despacho": 3,
+        "despacho": 1,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -7036,7 +7036,7 @@
         "barra": 7702044243797,
         "invetario": 204,
         "unidad": "unidad",
-        "despacho": 3,
+        "despacho": 1,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -7050,7 +7050,7 @@
         "barra": 7702044243803,
         "invetario": 18,
         "unidad": "unidad",
-        "despacho": 3,
+        "despacho": 1,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -7064,7 +7064,7 @@
         "barra": 7702044273879,
         "invetario": 57,
         "unidad": "unidad",
-        "despacho": 3,
+        "despacho": 1,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -7078,7 +7078,7 @@
         "barra": 7702044282994,
         "invetario": 68,
         "unidad": "unidad",
-        "despacho": 3,
+        "despacho": 1,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -7092,7 +7092,7 @@
         "barra": 7702044283076,
         "invetario": 111,
         "unidad": "unidad",
-        "despacho": 3,
+        "despacho": 1,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -7106,7 +7106,7 @@
         "barra": 7702044288453,
         "invetario": 69,
         "unidad": "unidad",
-        "despacho": 3,
+        "despacho": 1,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -7162,7 +7162,7 @@
         "barra": 7702044285865,
         "invetario": 78,
         "unidad": "unidad",
-        "despacho": 3,
+        "despacho": 1,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -7176,7 +7176,7 @@
         "barra": 7702044284585,
         "invetario": 38,
         "unidad": "unidad",
-        "despacho": 3,
+        "despacho": 1,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -7190,7 +7190,7 @@
         "barra": 7702044284554,
         "invetario": 23,
         "unidad": "unidad",
-        "despacho": 3,
+        "despacho": 1,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -7204,7 +7204,7 @@
         "barra": 7702044246866,
         "invetario": 250,
         "unidad": "unidad",
-        "despacho": 3,
+        "despacho": 1,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -7218,7 +7218,7 @@
         "barra": 7702044246842,
         "invetario": 51,
         "unidad": "unidad",
-        "despacho": 3,
+        "despacho": 1,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -7232,7 +7232,7 @@
         "barra": 7702044246859,
         "invetario": 155,
         "unidad": "unidad",
-        "despacho": 3,
+        "despacho": 1,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -7246,7 +7246,7 @@
         "barra": 7702044243889,
         "invetario": 31,
         "unidad": "unidad",
-        "despacho": 3,
+        "despacho": 1,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -7610,7 +7610,7 @@
         "barra": 7702044266390,
         "invetario": 50,
         "unidad": "unidad",
-        "despacho": 2,
+        "despacho": 1,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -7624,7 +7624,7 @@
         "barra": 7702044283090,
         "invetario": 0,
         "unidad": "unidad",
-        "despacho": 2,
+        "despacho": 1,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -7638,7 +7638,7 @@
         "barra": 7702044282956,
         "invetario": 24,
         "unidad": "unidad",
-        "despacho": 2,
+        "despacho": 1,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -7652,7 +7652,7 @@
         "barra": 7702044282987,
         "invetario": 34,
         "unidad": "unidad",
-        "despacho": 2,
+        "despacho": 1,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -7708,7 +7708,7 @@
         "barra": 7702044285841,
         "invetario": 20,
         "unidad": "unidad",
-        "despacho": 3,
+        "despacho": 1,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -7722,7 +7722,7 @@
         "barra": 7702044197885,
         "invetario": 8,
         "unidad": "unidad",
-        "despacho": 3,
+        "despacho": 1,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -7764,7 +7764,7 @@
         "barra": 7702044294263,
         "invetario": 55,
         "unidad": "unidad",
-        "despacho": 3,
+        "despacho": 1,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -7778,7 +7778,7 @@
         "barra": 7702044294270,
         "invetario": 86,
         "unidad": "unidad",
-        "despacho": 3,
+        "despacho": 1,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -7792,7 +7792,7 @@
         "barra": 7702044295178,
         "invetario": 192,
         "unidad": "Display",
-        "despacho": 6,
+        "despacho": 1,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -7806,7 +7806,7 @@
         "barra": 7702044295185,
         "invetario": 136,
         "unidad": "Display",
-        "despacho": 6,
+        "despacho": 1,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -7820,7 +7820,7 @@
         "barra": 7702044295260,
         "invetario": 186,
         "unidad": "unidad",
-        "despacho": 3,
+        "despacho": 1,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -7848,7 +7848,7 @@
         "barra": 7702044295239,
         "invetario": 140,
         "unidad": "unidad",
-        "despacho": 3,
+        "despacho": 1,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -7862,7 +7862,7 @@
         "barra": 7702044295253,
         "invetario": 147,
         "unidad": "unidad",
-        "despacho": 3,
+        "despacho": 1,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -7890,7 +7890,7 @@
         "barra": 77020444295222,
         "invetario": 45,
         "unidad": "unidad",
-        "despacho": 3,
+        "despacho": 1,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -7904,7 +7904,7 @@
         "barra": 7702044295895,
         "invetario": 0,
         "unidad": "unidad",
-        "despacho": 3,
+        "despacho": 1,
         "proveedor": "PREBEL SA BIC",
         "activo": false
     },
@@ -7918,7 +7918,7 @@
         "barra": 7702044295918,
         "invetario": 0,
         "unidad": "unidad",
-        "despacho": 3,
+        "despacho": 1,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -7946,7 +7946,7 @@
         "barra": 7702044295246,
         "invetario": 240,
         "unidad": "unidad",
-        "despacho": 3,
+        "despacho": 1,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
