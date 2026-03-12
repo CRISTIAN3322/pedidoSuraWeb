@@ -4293,5 +4293,11 @@
         "nombre": "INVERSIONES MARIASVAL SAS",
         "cupo": 1000000,
         "Forma": "Credito"
+    },
+    {
+        "id": 79214894,
+        "nombre": "WILSON FERNANDO HERRERA GUTIERREZ",
+        "cupo": 1000000,
+        "Forma": "Credito"
     }
 ]

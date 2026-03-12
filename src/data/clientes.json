@@ -7155,5 +7155,13 @@
             "direccion": "CR 93 128 F 14 La Palma  La Palma ",
             "vendedor": "CONSUELO MUÑOZ"
         }]
+    },
+    {
+        "id": 79214894,
+        "nombre": "WILSON FERNANDO HERRERA GUTIERREZ",
+        "sucursales": [{
+            "direccion": "CR 52 C 30 25 SUR  La Arqueria ",
+            "vendedor": "ESTHER ANGELA SALAZAR MORA"
+        }]
     }
 ]
