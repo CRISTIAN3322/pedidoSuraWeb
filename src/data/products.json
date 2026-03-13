@@ -7792,7 +7792,7 @@
         "barra": 7702044295178,
         "invetario": 168,
         "unidad": "Display",
-        "despacho": 1,
+        "despacho": 6,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
@@ -7806,7 +7806,7 @@
         "barra": 7702044295185,
         "invetario": 118,
         "unidad": "Display",
-        "despacho": 1,
+        "despacho": 6,
         "proveedor": "PREBEL SA BIC",
         "activo": true
     },
