@@ -1678,7 +1678,7 @@
         "id": 52166995,
         "nombre": "ANA BELSU AVENDANO AVENDANO",
         "sucursales": [{
-            "direccion": "CL 3 5 20  Zipaquirá",
+            "direccion": "CL 3 5 20 Varandillas Zipaquirá",
             "vendedor": "ANA SOFIA ROLDAN RIQUE"
         }]
     },
@@ -5037,7 +5037,7 @@
         "id": 901451192,
         "nombre": "INVERSIONES BNC SAS",
         "sucursales": [{
-            "direccion": "CR 6 5 A 05  Cajicá",
+            "direccion": "CR 3 18 85 Chía",
             "vendedor": "ANA SOFIA ROLDAN RIQUE"
         }]
     },
@@ -5319,7 +5319,7 @@
         "id": 901689476,
         "nombre": "INVERSIONES DISTRIVILLA SAS",
         "sucursales": [{
-            "direccion": "CR 15 12 16  Chia",
+            "direccion": "CL 3 3 39 Cogua",
             "vendedor": "ANA SOFIA ROLDAN RIQUE"
         }]
     },
@@ -7161,6 +7161,14 @@
         "nombre": "WILSON FERNANDO HERRERA GUTIERREZ",
         "sucursales": [{
             "direccion": "CR 52 C 30 25 SUR  La Arqueria ",
+            "vendedor": "ESTHER ANGELA SALAZAR MORA"
+        }]
+    },
+    {
+        "id": 1023865933,
+        "nombre": "HUBER YAMITH NUÑEZ BARON",
+        "sucursales": [{
+            "direccion": "CR 18 11 A 16 CC PARQUE ESPAÑA IN 16 LC 113 ",
             "vendedor": "ESTHER ANGELA SALAZAR MORA"
         }]
     }
