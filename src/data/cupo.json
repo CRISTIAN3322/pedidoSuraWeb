@@ -4310,6 +4310,12 @@
         "id": 1022381117,
         "nombre": "JESSIKA LORENA BELTRAN OVIEDO",
         "cupo": 1000000,
-        "Forma": "Credito"
+        "Forma": "Contado"
+    },
+    {
+        "id": 20706009,
+        "nombre": "SANDRA MILENA GARZON OLIVARES",
+        "cupo": 1000000,
+        "Forma": "Contado"
     }
 ]
