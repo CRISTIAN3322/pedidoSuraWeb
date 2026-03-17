@@ -4305,5 +4305,11 @@
         "nombre": "HUBER YAMITH NUÑEZ BARON",
         "cupo": 2000000,
         "Forma": "Credito"
+    },
+    {
+        "id": 1022381117,
+        "nombre": "JESSIKA LORENA BELTRAN OVIEDO",
+        "cupo": 1000000,
+        "Forma": "Credito"
     }
 ]

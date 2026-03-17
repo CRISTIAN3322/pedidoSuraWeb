@@ -7171,5 +7171,13 @@
             "direccion": "CR 18 11 A 16 CC PARQUE ESPAÑA IN 16 LC 113 ",
             "vendedor": "ESTHER ANGELA SALAZAR MORA"
         }]
+    },
+    {
+        "id": 1022381117,
+        "nombre": "JESSIKA LORENA BELTRAN OVIEDO",
+        "sucursales": [{
+            "direccion": "CR 41 A 4 F 27 Primavera ",
+            "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
+        }]
     }
 ]
