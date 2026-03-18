@@ -4798,7 +4798,7 @@
         "unidad": "unidad",
         "despacho": 1,
         "proveedor": "GLOBAL WINE & SPIRITS LTDA",
-        "activo": false
+        "activo": true
     },
     {
         "id": 344,
