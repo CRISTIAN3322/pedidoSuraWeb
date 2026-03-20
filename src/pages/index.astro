@@ -53,6 +53,110 @@ import ClienteSelector from "../components/organisms/ClienteSelector.astro";
     </div>
 </BaseLayout>
 
+<script>
+  (() => {
+    const CHECK_URL = '/api/datos-version.json';
+    const POLL_INTERVAL_MS = 20000;
+    const SESSION_KEY = 'vendedorSession';
+    const TOAST_ID = 'update-toast';
+
+    let lastVersions: any = null;
+    let toastShownForHash = { productos: '', ventas: '' };
+
+    function ensureToast() {
+      let el = document.getElementById(TOAST_ID);
+      if (el) return el;
+
+      el = document.createElement('div');
+      el.id = TOAST_ID;
+      el.className = 'update-toast';
+      el.innerHTML = `
+        <div class="update-toast__title">Cambios detectados</div>
+        <div class="update-toast__message" id="update-toast-message"></div>
+        <div class="update-toast__actions">
+          <button type="button" class="update-toast__btn update-toast__btn--primary" id="update-toast-reload">Recargar</button>
+          <button type="button" class="update-toast__btn update-toast__btn--ghost" id="update-toast-close">Cerrar</button>
+        </div>
+      `;
+      document.body.appendChild(el);
+
+      const closeBtn = el.querySelector('#update-toast-close') as HTMLButtonElement | null;
+      closeBtn?.addEventListener('click', () => {
+        el?.classList.remove('update-toast--visible');
+      });
+
+      return el;
+    }
+
+    function showToast(message: string) {
+      const el = ensureToast();
+      const msgEl = el.querySelector('#update-toast-message');
+      if (msgEl) msgEl.textContent = message;
+      el.classList.add('update-toast--visible');
+
+      const reloadBtn = el.querySelector('#update-toast-reload') as HTMLButtonElement | null;
+      if (reloadBtn) {
+        reloadBtn.onclick = () => window.location.reload();
+      }
+    }
+
+    async function fetchVersions() {
+      const res = await fetch(CHECK_URL, { cache: 'no-store' });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return res.json();
+    }
+
+    async function init() {
+      const session = sessionStorage.getItem(SESSION_KEY);
+      if (!session) return;
+
+      try {
+        lastVersions = await fetchVersions();
+      } catch {
+        return;
+      }
+
+      window.setInterval(async () => {
+        try {
+          const current = await fetchVersions();
+
+          const productosChanged = current?.productos?.hash && current.productos.hash !== lastVersions?.productos?.hash;
+          const ventasChanged = current?.ventas?.hash && current.ventas.hash !== lastVersions?.ventas?.hash;
+
+          if (!productosChanged && !ventasChanged) return;
+
+          // Evitar múltiples toasts para el mismo hash
+          const newProductosHash = current?.productos?.hash || '';
+          const newVentasHash = current?.ventas?.hash || '';
+          if (newProductosHash === toastShownForHash.productos && newVentasHash === toastShownForHash.ventas) return;
+
+          toastShownForHash = { productos: newProductosHash, ventas: newVentasHash };
+          lastVersions = current;
+
+          let message = '';
+          if (productosChanged && ventasChanged) {
+            message = 'Se detectaron cambios en Productos y Ventas. Recarga para ver los datos actualizados.';
+          } else if (productosChanged) {
+            message = 'Se detectaron cambios en Productos. Recarga para ver los datos actualizados.';
+          } else {
+            message = 'Se detectaron cambios en Ventas. Recarga para ver los datos actualizados.';
+          }
+
+          showToast(message);
+        } catch {
+          // Silenciar errores de polling
+        }
+      }, POLL_INTERVAL_MS);
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', init);
+    } else {
+      init();
+    }
+  })();
+</script>
+
 <style>
     .header {
         text-align: center;

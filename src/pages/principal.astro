@@ -37,6 +37,76 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
     </div>
 </BaseLayout>
 
+<script>
+  (() => {
+    const SESSION_KEY = 'vendedorSession';
+    const PENDING_KEY = 'pendingUpdatesToast';
+    const TOAST_ID = 'update-toast';
+
+    function ensureToast() {
+      let el = document.getElementById(TOAST_ID);
+      if (el) return el;
+
+      el = document.createElement('div');
+      el.id = TOAST_ID;
+      el.className = 'update-toast';
+      el.innerHTML = `
+        <div class="update-toast__title">Cambios detectados</div>
+        <div class="update-toast__message" id="update-toast-message"></div>
+        <div class="update-toast__actions">
+          <button type="button" class="update-toast__btn update-toast__btn--primary" id="update-toast-reload">Recargar</button>
+          <button type="button" class="update-toast__btn update-toast__btn--ghost" id="update-toast-close">Cerrar</button>
+        </div>
+      `;
+      document.body.appendChild(el);
+
+      const closeBtn = el.querySelector('#update-toast-close') as HTMLButtonElement | null;
+      closeBtn?.addEventListener('click', () => {
+        el?.classList.remove('update-toast--visible');
+      });
+
+      return el;
+    }
+
+    function showToast(message: string) {
+      const el = ensureToast();
+      const msgEl = el.querySelector('#update-toast-message');
+      if (msgEl) msgEl.textContent = message;
+      el.classList.add('update-toast--visible');
+
+      const reloadBtn = el.querySelector('#update-toast-reload') as HTMLButtonElement | null;
+      if (reloadBtn) {
+        reloadBtn.onclick = () => window.location.reload();
+      }
+    }
+
+    async function maybeShowToastAfterLogin() {
+      if (typeof window === 'undefined') return;
+
+      const session = sessionStorage.getItem(SESSION_KEY);
+      if (!session) return;
+
+      const pending = sessionStorage.getItem(PENDING_KEY);
+      if (!pending) return;
+
+      // Consumir marca para evitar toasts repetidos
+      sessionStorage.removeItem(PENDING_KEY);
+
+      // Mensaje solicitado por el usuario (independiente de si el hash cambió).
+      // Solo mostramos una vez después del login.
+      showToast('Se realizó actualización en Ventas y Productos. Recarga para ver los datos actualizados.');
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', () => {
+        maybeShowToastAfterLogin();
+      });
+    } else {
+      maybeShowToastAfterLogin();
+    }
+  })();
+</script>
+
 <style>
     .page-header {
         text-align: center;

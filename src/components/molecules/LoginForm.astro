@@ -134,6 +134,8 @@
       };
       
       sessionStorage.setItem('vendedorSession', JSON.stringify(sessionData));
+      // Marca para mostrar el toast de actualización en la página de principal
+      sessionStorage.setItem('pendingUpdatesToast', '1');
       
       // Redirigir a la página principal
       window.location.href = '/principal';
