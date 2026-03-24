@@ -4317,5 +4317,17 @@
         "nombre": "SANDRA MILENA GARZON OLIVARES",
         "cupo": 1000000,
         "Forma": "Contado"
+    },
+    {
+        "id": 1107054687,
+        "nombre": "JUAN CARLOS BETANCOURT SANDOVAL",
+        "cupo": 2000000,
+        "Forma": "Credito"
+    },
+    {
+        "id": 901705446,
+        "nombre": "INVERSIONES SURTIYA EXPRESSO SAS",
+        "cupo": 1000000,
+        "Forma": "Contado"
     }
 ]

@@ -7179,5 +7179,21 @@
             "direccion": "CR 3 8 45  Gachancipá ",
             "vendedor": "ANA SOFIA ROLDAN RIQUE"
         }]
+    },
+    {
+        "id": 1107054687,
+        "nombre": "JUAN CARLOS BETANCOURT SANDOVAL",
+        "sucursales": [{
+            "direccion": "CR 1 D 43 B 3 SUR ESTE San Martín De Loba ",
+            "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
+        }]
+    },
+    {
+        "id": 901705446,
+        "nombre": "INVERSIONES SURTIYA EXPRESSO SAS",
+        "sucursales": [{
+            "direccion": "DG 51 A SUR 61 A 39 Rincon de Venecia ",
+            "vendedor": "JAIRO IBAÑEZ ARTUNDUAGA"
+        }]
     }
 ]
