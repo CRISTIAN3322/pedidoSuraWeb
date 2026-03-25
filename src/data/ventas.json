@@ -83,7 +83,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 420852
+                        "total": 2929670
                     }
                 ]
             },
@@ -106,7 +106,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 217800
+                        "total": 605832
                     }
                 ]
             },
@@ -170,7 +170,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 234240
+                        "total": 452664
                     }
                 ]
             },
@@ -186,7 +186,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 1019198
+                        "total": 1174810
                     }
                 ]
             },
@@ -202,7 +202,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 3358571
+                        "total": 3648275
                     }
                 ]
             },
@@ -246,7 +246,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 1930809
+                        "total": 2593775
                     }
                 ]
             },
@@ -262,7 +262,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 91980
+                        "total": 5986740
                     }
                 ]
             },
@@ -278,7 +278,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 813277
+                        "total": 1250150
                     }
                 ]
             },
@@ -310,9 +310,16 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 1653804
+                        "total": 1678416
                     }
                 ]
+            },
+            {
+                "grupo": "PRODUCTOS ALIMENTICIOS BELLINI S.A.S",
+                "ventas_por_mes": [{
+                    "mes": "MARZO",
+                    "total": 34436
+                }]
             },
             {
                 "grupo": "PRODUCTOS ALIMENTICIOS EL EMBAJADOR SAS",
@@ -349,7 +356,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 206636
+                        "total": 222896
                     }
                 ]
             },
@@ -365,7 +372,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 1282276
+                        "total": 1304736
                     }
                 ]
             },
@@ -424,7 +431,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 19525496
+                        "total": 26821921
                     }
                 ]
             },
@@ -436,7 +443,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 417597
+                        "total": 782180
                     }
                 ]
             },
@@ -515,7 +522,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 1127142
+                        "total": 1620024
                     }
                 ]
             },
@@ -527,7 +534,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 3271200
+                        "total": 4036800
                     }
                 ]
             },
@@ -543,7 +550,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 342594
+                        "total": 364346
                     }
                 ]
             },
@@ -559,7 +566,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 23481538
+                        "total": 24299657
                     }
                 ]
             },
@@ -598,7 +605,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 1394296
+                        "total": 1461580
                     }
                 ]
             },
@@ -614,7 +621,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 868577
+                        "total": 956377
                     }
                 ]
             },
@@ -637,7 +644,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 1700493
+                        "total": 1694210
                     }
                 ]
             },
@@ -653,7 +660,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 549833
+                        "total": 716622
                     }
                 ]
             },
@@ -697,7 +704,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 0
+                        "total": 1637120
                     }
                 ]
             },
@@ -713,7 +720,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 1142026
+                        "total": 1350358
                     }
                 ]
             },
@@ -725,7 +732,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 2218982
+                        "total": 2738862
                     }
                 ]
             },
@@ -741,7 +748,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 5757000
+                        "total": 7324411
                     }
                 ]
             },
@@ -757,7 +764,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 2435449
+                        "total": 3508765
                     }
                 ]
             },
@@ -773,7 +780,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 536966
+                        "total": 562802
                     }
                 ]
             },
@@ -789,7 +796,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 9522534
+                        "total": 10846230
                     }
                 ]
             },
@@ -805,7 +812,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": -236118
+                        "total": -187338
                     }
                 ]
             },
@@ -837,7 +844,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 1302336
+                        "total": 651168
                     }
                 ]
             },
@@ -849,7 +856,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 798768
+                        "total": 1180548
                     }
                 ]
             },
@@ -880,9 +887,14 @@
             {
                 "grupo": "SURAMERICANA JI SAS - TEMPORADA",
                 "ventas_por_mes": [{
-                    "mes": "FEBRERO",
-                    "total": -63596
-                }]
+                        "mes": "FEBRERO",
+                        "total": -63596
+                    },
+                    {
+                        "mes": "MARZO",
+                        "total": -18976
+                    }
+                ]
             },
             {
                 "grupo": "TONING SAS",
@@ -896,7 +908,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 16133651
+                        "total": 18335411
                     }
                 ]
             },
@@ -908,7 +920,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 778033
+                        "total": 818479
                     }
                 ]
             },
@@ -924,7 +936,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 3890972
+                        "total": 4188022
                     }
                 ]
             },
@@ -936,7 +948,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": -174172
+                        "total": -218404
                     }
                 ]
             }
@@ -984,7 +996,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 1113600
+                        "total": 1252800
                     }
                 ]
             },
@@ -1000,7 +1012,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 10308482
+                        "total": 16044181
                     }
                 ]
             },
@@ -1016,7 +1028,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 539236
+                        "total": 644328
                     }
                 ]
             },
@@ -1080,7 +1092,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 7017369
+                        "total": 8251535
                     }
                 ]
             },
@@ -1096,7 +1108,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 903270
+                        "total": 1198604
                     }
                 ]
             },
@@ -1179,7 +1191,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 2175586
+                        "total": 3211465
                     }
                 ]
             },
@@ -1195,7 +1207,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 20773104
+                        "total": 29376808
                     }
                 ]
             },
@@ -1211,7 +1223,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 2154000
+                        "total": 3650572
                     }
                 ]
             },
@@ -1246,7 +1258,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 5038258
+                        "total": 5810590
                     }
                 ]
             },
@@ -1262,7 +1274,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 211512
+                        "total": 601752
                     }
                 ]
             },
@@ -1278,7 +1290,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 3972260
+                        "total": 7100788
                     }
                 ]
             },
@@ -1326,7 +1338,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 22665483
+                        "total": 28565535
                     }
                 ]
             },
@@ -1354,7 +1366,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 570470
+                        "total": 3819970
                     }
                 ]
             },
@@ -1384,7 +1396,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 693330
+                        "total": 701177
                     }
                 ]
             },
@@ -1400,7 +1412,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 58116
+                        "total": 159819
                     }
                 ]
             },
@@ -1423,7 +1435,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 1126950
+                        "total": 1255002
                     }
                 ]
             },
@@ -1435,7 +1447,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 4735180
+                        "total": 6524410
                     }
                 ]
             },
@@ -1463,7 +1475,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 12073107
+                        "total": 15985865
                     }
                 ]
             },
@@ -1479,7 +1491,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 1002416
+                        "total": 1054688
                     }
                 ]
             },
@@ -1495,7 +1507,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 370950
+                        "total": 557770
                     }
                 ]
             },
@@ -1511,7 +1523,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 2778750
+                        "total": 3117375
                     }
                 ]
             },
@@ -1543,7 +1555,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 7242392
+                        "total": 7465587
                     }
                 ]
             },
@@ -1559,7 +1571,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 1264408
+                        "total": 1389936
                     }
                 ]
             },
@@ -1619,7 +1631,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 2586086
+                        "total": 5146016
                     }
                 ]
             },
@@ -1635,7 +1647,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 207792
+                        "total": 844448
                     }
                 ]
             },
@@ -1651,7 +1663,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 2619393
+                        "total": 6172789
                     }
                 ]
             },
@@ -1667,7 +1679,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 16984949
+                        "total": 19552067
                     }
                 ]
             },
@@ -1683,7 +1695,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 4790628
+                        "total": 4796909
                     }
                 ]
             },
@@ -1718,7 +1730,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 2768496
+                        "total": 4058454
                     }
                 ]
             },
@@ -1734,7 +1746,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 330798
+                        "total": 689884
                     }
                 ]
             },
@@ -1750,7 +1762,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 1360576
+                        "total": 1467964
                     }
                 ]
             },
@@ -1792,7 +1804,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 27816
+                        "total": 82212
                     }
                 ]
             },
@@ -1820,7 +1832,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 43542393
+                        "total": 49799085
                     }
                 ]
             },
@@ -1832,7 +1844,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 2163572
+                        "total": 2224514
                     }
                 ]
             },
@@ -1845,6 +1857,10 @@
                     {
                         "mes": "FEBRERO",
                         "total": 296418
+                    },
+                    {
+                        "mes": "MARZO",
+                        "total": 285162
                     }
                 ]
             },
@@ -1856,16 +1872,6 @@
                 }]
             }
         ]
-    },
-    {
-        "vendedor": "DAVID YESID RAMIREZ LEGUIZAMON",
-        "proveedor": [{
-            "grupo": "SURAMERICANA JI SAS - TEMPORADA",
-            "ventas_por_mes": [{
-                "mes": "MARZO",
-                "total": -48920
-            }]
-        }]
     },
     {
         "vendedor": "DIANA MARCELA BERMUDEZ SERRANO",
@@ -1921,7 +1927,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 59646
+                        "total": 99894
                     }
                 ]
             },
@@ -1933,7 +1939,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 348000
+                        "total": 417600
                     }
                 ]
             },
@@ -1965,7 +1971,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 2040086
+                        "total": 2135002
                     }
                 ]
             },
@@ -1988,7 +1994,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 572160
+                        "total": 669168
                     }
                 ]
             },
@@ -2004,7 +2010,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 559286
+                        "total": 626570
                     }
                 ]
             },
@@ -2020,7 +2026,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 904675
+                        "total": 3744039
                     }
                 ]
             },
@@ -2044,7 +2050,7 @@
                 "grupo": "DUQUESA S.A. BIC",
                 "ventas_por_mes": [{
                     "mes": "MARZO",
-                    "total": 583765
+                    "total": 704022
                 }]
             },
             {
@@ -2075,7 +2081,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 516259
+                        "total": 935908
                     }
                 ]
             },
@@ -2098,7 +2104,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 328188
+                        "total": 375072
                     }
                 ]
             },
@@ -2114,7 +2120,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 4021123
+                        "total": 4196269
                     }
                 ]
             },
@@ -2146,7 +2152,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 770730
+                        "total": 1958544
                     }
                 ]
             },
@@ -2162,7 +2168,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 1833098
+                        "total": 2406850
                     }
                 ]
             },
@@ -2174,7 +2180,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 18843
+                        "total": 44451
                     }
                 ]
             },
@@ -2182,7 +2188,7 @@
                 "grupo": "PRODUCTOS ALIMENTICIOS EL EMBAJADOR SAS",
                 "ventas_por_mes": [{
                     "mes": "MARZO",
-                    "total": 391774
+                    "total": 499006
                 }]
             },
             {
@@ -2197,7 +2203,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 982728
+                        "total": 1360236
                     }
                 ]
             },
@@ -2221,7 +2227,7 @@
                 "grupo": "PUERTOMAR ZOMAC SAS",
                 "ventas_por_mes": [{
                     "mes": "MARZO",
-                    "total": 680040
+                    "total": 897816
                 }]
             },
             {
@@ -2243,9 +2249,16 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 1858986
+                        "total": 2046546
                     }
                 ]
+            },
+            {
+                "grupo": "SABAJON APOLO SA",
+                "ventas_por_mes": [{
+                    "mes": "MARZO",
+                    "total": 60117
+                }]
             },
             {
                 "grupo": "SURAMERICANA JI SAS",
@@ -2282,7 +2295,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 31508121
+                        "total": 69359882
                     }
                 ]
             },
@@ -2290,7 +2303,7 @@
                 "grupo": "TROLLI WORLD SAS",
                 "ventas_por_mes": [{
                     "mes": "MARZO",
-                    "total": 657085
+                    "total": 1500156
                 }]
             },
             {
@@ -2305,7 +2318,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 423318
+                        "total": 565908
                     }
                 ]
             },
@@ -2317,7 +2330,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": -83199
+                        "total": -12919682
                     }
                 ]
             }
@@ -2361,7 +2374,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 160374
+                        "total": 220746
                     }
                 ]
             },
@@ -2373,7 +2386,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 1461600
+                        "total": 1948800
                     }
                 ]
             },
@@ -2389,7 +2402,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 21752
+                        "total": 239272
                     }
                 ]
             },
@@ -2405,7 +2418,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 4266714
+                        "total": 6069768
                     }
                 ]
             },
@@ -2421,7 +2434,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 565960
+                        "total": 1778560
                     }
                 ]
             },
@@ -2437,7 +2450,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 959793
+                        "total": 1389033
                     }
                 ]
             },
@@ -2450,6 +2463,10 @@
                     {
                         "mes": "FEBRERO",
                         "total": 73775
+                    },
+                    {
+                        "mes": "MARZO",
+                        "total": 246550
                     }
                 ]
             },
@@ -2481,7 +2498,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 447820
+                        "total": 1593662
                     }
                 ]
             },
@@ -2497,7 +2514,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 716376
+                        "total": 1794064
                     }
                 ]
             },
@@ -2541,7 +2558,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 1437160
+                        "total": 2819092
                     }
                 ]
             },
@@ -2557,7 +2574,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 1341309
+                        "total": 1771593
                     }
                 ]
             },
@@ -2570,6 +2587,10 @@
                     {
                         "mes": "FEBRERO",
                         "total": 1233616
+                    },
+                    {
+                        "mes": "MARZO",
+                        "total": 1852702
                     }
                 ]
             },
@@ -2585,7 +2606,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 9324561
+                        "total": 9478194
                     }
                 ]
             },
@@ -2601,7 +2622,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 2198100
+                        "total": 3174888
                     }
                 ]
             },
@@ -2617,7 +2638,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 828932
+                        "total": 1858228
                     }
                 ]
             },
@@ -2625,7 +2646,7 @@
                 "grupo": "PRODUCTOS ALIMENTICIOS EL EMBAJADOR SAS",
                 "ventas_por_mes": [{
                     "mes": "MARZO",
-                    "total": 160848
+                    "total": 214464
                 }]
             },
             {
@@ -2640,7 +2661,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 977760
+                        "total": 3995742
                     }
                 ]
             },
@@ -2656,7 +2677,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 463614
+                        "total": 622248
                     }
                 ]
             },
@@ -2672,16 +2693,21 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 223296
+                        "total": 1250160
                     }
                 ]
             },
             {
                 "grupo": "RUBIFLEX SAS",
                 "ventas_por_mes": [{
-                    "mes": "FEBRERO",
-                    "total": 219888
-                }]
+                        "mes": "FEBRERO",
+                        "total": 219888
+                    },
+                    {
+                        "mes": "MARZO",
+                        "total": 300096
+                    }
+                ]
             },
             {
                 "grupo": "SURAMERICANA JI SAS",
@@ -2711,7 +2737,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 5717903
+                        "total": 10657298
                     }
                 ]
             },
@@ -2723,7 +2749,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": -1094110
+                        "total": -545023
                     }
                 ]
             },
@@ -2797,7 +2823,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 7205226
+                        "total": 8008626
                     }
                 ]
             },
@@ -2809,9 +2835,16 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 765600
+                        "total": 904800
                     }
                 ]
+            },
+            {
+                "grupo": "COMERCIALIZADORA JS PRODUCTOS SAS",
+                "ventas_por_mes": [{
+                    "mes": "MARZO",
+                    "total": 16314
+                }]
             },
             {
                 "grupo": "COMESTIBLES ITALO SA",
@@ -2825,7 +2858,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 12949225
+                        "total": 16201087
                     }
                 ]
             },
@@ -2837,7 +2870,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 1284804
+                        "total": 1381812
                     }
                 ]
             },
@@ -2869,7 +2902,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 1921751
+                        "total": 1960986
                     }
                 ]
             },
@@ -2901,7 +2934,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 1901917
+                        "total": 2185315
                     }
                 ]
             },
@@ -2917,7 +2950,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 3561101
+                        "total": 4042961
                     }
                 ]
             },
@@ -2973,7 +3006,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 781787
+                        "total": 1014167
                     }
                 ]
             },
@@ -3005,7 +3038,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 799351
+                        "total": 742291
                     }
                 ]
             },
@@ -3021,7 +3054,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 8450127
+                        "total": 10249918
                     }
                 ]
             },
@@ -3037,7 +3070,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 1316318
+                        "total": 1768682
                     }
                 ]
             },
@@ -3060,7 +3093,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 7663050
+                        "total": 7980138
                     }
                 ]
             },
@@ -3092,7 +3125,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 35870
+                        "total": 516398
                     }
                 ]
             },
@@ -3120,7 +3153,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 109656
+                        "total": 345132
                     }
                 ]
             },
@@ -3171,7 +3204,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 43527071
+                        "total": 48934791
                     }
                 ]
             },
@@ -3199,7 +3232,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 1631830
+                        "total": 1956780
                     }
                 ]
             },
@@ -3314,7 +3347,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 1441002
+                        "total": 1675143
                     }
                 ]
             },
@@ -3454,7 +3487,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 2762036
+                        "total": 4091892
                     }
                 ]
             },
@@ -3632,7 +3665,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 508080
+                        "total": 559896
                     }
                 ]
             },
@@ -3660,7 +3693,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 21655364
+                        "total": 24421916
                     }
                 ]
             },
@@ -3774,7 +3807,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 13845636
+                        "total": 13843088
                     }
                 ]
             },
@@ -3883,7 +3916,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 34910270
+                        "total": 35555041
                     }
                 ]
             },
@@ -3944,7 +3977,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 211426
+                        "total": 232617
                     }
                 ]
             },
@@ -3982,7 +4015,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 487536
+                        "total": 1601904
                     }
                 ]
             },
@@ -4023,7 +4056,7 @@
                 "grupo": "PROPETS SAS",
                 "ventas_por_mes": [{
                     "mes": "MARZO",
-                    "total": 36910
+                    "total": 60276
                 }]
             },
             {
@@ -4055,7 +4088,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 2793122
+                        "total": 5685922
                     }
                 ]
             },
@@ -4096,9 +4129,14 @@
             {
                 "grupo": "ATW INTERNACIONAL SAS",
                 "ventas_por_mes": [{
-                    "mes": "FEBRERO",
-                    "total": 66873
-                }]
+                        "mes": "FEBRERO",
+                        "total": 66873
+                    },
+                    {
+                        "mes": "MARZO",
+                        "total": 87174
+                    }
+                ]
             },
             {
                 "grupo": "BODEGAS CASA DEL RHIN ZF SAS",
@@ -4124,7 +4162,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 4765682
+                        "total": 4897831
                     }
                 ]
             },
@@ -4136,7 +4174,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 930552
+                        "total": 1555908
                     }
                 ]
             },
@@ -4164,7 +4202,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 8184937
+                        "total": 9489880
                     }
                 ]
             },
@@ -4187,7 +4225,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 198058
+                        "total": 295066
                     }
                 ]
             },
@@ -4203,7 +4241,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 1251288
+                        "total": 1430924
                     }
                 ]
             },
@@ -4219,7 +4257,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 186925
+                        "total": 280518
                     }
                 ]
             },
@@ -4251,7 +4289,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 2740820
+                        "total": 3087265
                     }
                 ]
             },
@@ -4267,7 +4305,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 1274072
+                        "total": 1389568
                     }
                 ]
             },
@@ -4315,7 +4353,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 897132
+                        "total": 1078009
                     }
                 ]
             },
@@ -4331,7 +4369,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 1290915
+                        "total": 1321765
                     }
                 ]
             },
@@ -4347,7 +4385,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 1453402
+                        "total": 1641418
                     }
                 ]
             },
@@ -4363,7 +4401,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 25110867
+                        "total": 23883645
                     }
                 ]
             },
@@ -4379,7 +4417,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 4696486
+                        "total": 5162525
                     }
                 ]
             },
@@ -4395,7 +4433,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 926966
+                        "total": 1151788
                     }
                 ]
             },
@@ -4427,7 +4465,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 517786
+                        "total": 837514
                     }
                 ]
             },
@@ -4443,7 +4481,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 1590482
+                        "total": 1846710
                     }
                 ]
             },
@@ -4466,7 +4504,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 456228
+                        "total": 1619268
                     }
                 ]
             },
@@ -4522,7 +4560,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 17024148
+                        "total": 20443713
                     }
                 ]
             },
@@ -4541,9 +4579,14 @@
             {
                 "grupo": "VENTAS NACIONALES SAS",
                 "ventas_por_mes": [{
-                    "mes": "FEBRERO",
-                    "total": 759734
-                }]
+                        "mes": "FEBRERO",
+                        "total": 759734
+                    },
+                    {
+                        "mes": "MARZO",
+                        "total": 142584
+                    }
+                ]
             },
             {
                 "grupo": "Z29 - SIN USO",
@@ -4553,7 +4596,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": -52453
+                        "total": -61277
                     }
                 ]
             }
@@ -4647,7 +4690,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 4262718
+                        "total": 4253296
                     }
                 ]
             },
@@ -5033,7 +5076,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 252104
+                        "total": 437074
                     }
                 ]
             },
@@ -5065,7 +5108,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 298673
+                        "total": 615032
                     }
                 ]
             },
@@ -5077,7 +5120,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 1531200
+                        "total": 1740000
                     }
                 ]
             },
@@ -5105,7 +5148,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 4452175
+                        "total": 7033015
                     }
                 ]
             },
@@ -5137,7 +5180,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 661397
+                        "total": 1515131
                     }
                 ]
             },
@@ -5153,7 +5196,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 1686815
+                        "total": 1908665
                     }
                 ]
             },
@@ -5177,7 +5220,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 314316
+                        "total": 303271
                     }
                 ]
             },
@@ -5193,7 +5236,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 338444
+                        "total": 331110
                     }
                 ]
             },
@@ -5233,7 +5276,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 563648
+                        "total": 751184
                     }
                 ]
             },
@@ -5249,7 +5292,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 2307137
+                        "total": 2387633
                     }
                 ]
             },
@@ -5281,7 +5324,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 659810
+                        "total": 733971
                     }
                 ]
             },
@@ -5297,7 +5340,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 9578476
+                        "total": 9505328
                     }
                 ]
             },
@@ -5313,9 +5356,16 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 9574784
+                        "total": 10656012
                     }
                 ]
+            },
+            {
+                "grupo": "PRODUCTOS ALIMENTICIOS EL EMBAJADOR SAS",
+                "ventas_por_mes": [{
+                    "mes": "MARZO",
+                    "total": 53616
+                }]
             },
             {
                 "grupo": "PRODUSA ZONA FRANCA SAS",
@@ -5329,7 +5379,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 1121148
+                        "total": 1556556
                     }
                 ]
             },
@@ -5345,7 +5395,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 998011
+                        "total": 1241911
                     }
                 ]
             },
@@ -5361,7 +5411,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 0
+                        "total": 729544
                     }
                 ]
             },
@@ -5385,6 +5435,13 @@
                 ]
             },
             {
+                "grupo": "SABAJON APOLO SA",
+                "ventas_por_mes": [{
+                    "mes": "MARZO",
+                    "total": 159536
+                }]
+            },
+            {
                 "grupo": "SURAMERICANA JI SAS",
                 "ventas_por_mes": [{
                         "mes": "FEBRERO",
@@ -5392,9 +5449,16 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 798
+                        "total": 39924
                     }
                 ]
+            },
+            {
+                "grupo": "SURAMERICANA JI SAS - TEMPORADA",
+                "ventas_por_mes": [{
+                    "mes": "MARZO",
+                    "total": -48920
+                }]
             },
             {
                 "grupo": "TONING SAS",
@@ -5408,7 +5472,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 22325858
+                        "total": 28888209
                     }
                 ]
             },
@@ -5420,7 +5484,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 318977
+                        "total": 791951
                     }
                 ]
             },
@@ -5432,7 +5496,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 174272
+                        "total": 445514
                     }
                 ]
             },
@@ -5448,7 +5512,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 17172
+                        "total": 34344
                     }
                 ]
             },
@@ -5476,16 +5540,21 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 156492
+                        "total": 692949
                     }
                 ]
             },
             {
                 "grupo": "ATW INTERNACIONAL SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 0
-                }]
+                        "mes": "ENERO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "MARZO",
+                        "total": 145290
+                    }
+                ]
             },
             {
                 "grupo": "CASA IBAÑEZ COLOMBIA SAS",
@@ -5499,7 +5568,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 1330974
+                        "total": 1726648
                     }
                 ]
             },
@@ -5511,7 +5580,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 348000
+                        "total": 1044000
                     }
                 ]
             },
@@ -5527,7 +5596,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 435040
+                        "total": 1256178
                     }
                 ]
             },
@@ -5543,7 +5612,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 5361125
+                        "total": 8123204
                     }
                 ]
             },
@@ -5559,7 +5628,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 136667
+                        "total": 338767
                     }
                 ]
             },
@@ -5575,7 +5644,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 144651
+                        "total": 750793
                     }
                 ]
             },
@@ -5591,7 +5660,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 873275
+                        "total": 1448671
                     }
                 ]
             },
@@ -5607,7 +5676,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 26886
+                        "total": 50106
                     }
                 ]
             },
@@ -5623,7 +5692,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 456546
+                        "total": 902936
                     }
                 ]
             },
@@ -5639,7 +5708,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 3342576
+                        "total": 5138620
                     }
                 ]
             },
@@ -5651,7 +5720,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 330751
+                        "total": 4407191
                     }
                 ]
             },
@@ -5679,7 +5748,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 288300
+                        "total": 515516
                     }
                 ]
             },
@@ -5695,7 +5764,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 6987798
+                        "total": 8833036
                     }
                 ]
             },
@@ -5711,7 +5780,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 867711
+                        "total": 1998938
                     }
                 ]
             },
@@ -5727,7 +5796,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 3476801
+                        "total": 3850172
                     }
                 ]
             },
@@ -5743,7 +5812,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 2038344
+                        "total": 4414390
                     }
                 ]
             },
@@ -5759,7 +5828,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 8720318
+                        "total": 11955062
                     }
                 ]
             },
@@ -5775,9 +5844,16 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 1178140
+                        "total": 1382920
                     }
                 ]
+            },
+            {
+                "grupo": "PRODUCTOS ALIMENTICIOS EL EMBAJADOR SAS",
+                "ventas_por_mes": [{
+                    "mes": "MARZO",
+                    "total": 53616
+                }]
             },
             {
                 "grupo": "PRODUSA ZONA FRANCA SAS",
@@ -5791,7 +5867,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 972689
+                        "total": 4403545
                     }
                 ]
             },
@@ -5807,7 +5883,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 1069981
+                        "total": 1438589
                     }
                 ]
             },
@@ -5819,7 +5895,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 320728
+                        "total": 663824
                     }
                 ]
             },
@@ -5831,7 +5907,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 1072512
+                        "total": 1225728
                     }
                 ]
             },
@@ -5847,7 +5923,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 483372
+                        "total": 1706042
                     }
                 ]
             },
@@ -5859,7 +5935,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 3541248
+                        "total": 4263300
                     }
                 ]
             },
@@ -5875,7 +5951,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 567012
+                        "total": 662424
                     }
                 ]
             },
@@ -5891,7 +5967,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 19554985
+                        "total": 32458025
                     }
                 ]
             },
@@ -5903,7 +5979,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 3523792
+                        "total": 4719898
                     }
                 ]
             },
@@ -5916,6 +5992,10 @@
                     {
                         "mes": "FEBRERO",
                         "total": 3183910
+                    },
+                    {
+                        "mes": "MARZO",
+                        "total": 1695171
                     }
                 ]
             },
@@ -5965,7 +6045,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 1033168
+                        "total": 1589323
                     }
                 ]
             },
@@ -5988,7 +6068,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 4663149
+                        "total": 6592061
                     }
                 ]
             },
@@ -6000,7 +6080,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 7229700
+                        "total": 9665700
                     }
                 ]
             },
@@ -6028,7 +6108,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 6307508
+                        "total": 9902204
                     }
                 ]
             },
@@ -6060,7 +6140,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 195912
+                        "total": 320355
                     }
                 ]
             },
@@ -6124,7 +6204,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 350328
+                        "total": 512058
                     }
                 ]
             },
@@ -6156,7 +6236,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 4739408
+                        "total": 4901888
                     }
                 ]
             },
@@ -6172,7 +6252,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 414200
+                        "total": 5019000
                     }
                 ]
             },
@@ -6188,7 +6268,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 5341737
+                        "total": 5551583
                     }
                 ]
             },
@@ -6204,7 +6284,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 175746
+                        "total": 233346
                     }
                 ]
             },
@@ -6236,7 +6316,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 3170958
+                        "total": 3924018
                     }
                 ]
             },
@@ -6248,7 +6328,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 158634
+                        "total": 207414
                     }
                 ]
             },
@@ -6280,7 +6360,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 2153328
+                        "total": 4374297
                     }
                 ]
             },
@@ -6294,9 +6374,14 @@
             {
                 "grupo": "SURAMERICANA JI SAS",
                 "ventas_por_mes": [{
-                    "mes": "FEBRERO",
-                    "total": 72462
-                }]
+                        "mes": "FEBRERO",
+                        "total": 72462
+                    },
+                    {
+                        "mes": "MARZO",
+                        "total": 189564
+                    }
+                ]
             },
             {
                 "grupo": "TONING SAS",
@@ -6310,7 +6395,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 14485063
+                        "total": 20207684
                     }
                 ]
             },
@@ -6318,7 +6403,7 @@
                 "grupo": "TROLLI WORLD SAS",
                 "ventas_por_mes": [{
                     "mes": "MARZO",
-                    "total": 1684287
+                    "total": 2345995
                 }]
             },
             {
@@ -6329,7 +6414,7 @@
                     },
                     {
                         "mes": "MARZO",
-                        "total": 87130
+                        "total": 47520
                     }
                 ]
             },
