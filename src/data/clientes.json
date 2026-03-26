@@ -7195,5 +7195,14 @@
             "direccion": "DG 51 A SUR 61 A 39 Rincon de Venecia ",
             "vendedor": "JAIRO IBAÑEZ ARTUNDUAGA"
         }]
+    },
+    {
+        "id": 28817433,
+        "nombre": "LUISA FERNANDA SIERRA BETANCOURT",
+        "sucursales": [{
+            "direccion": "CR 76 73 A 28  Santa Maria del Lago ",
+            "vendedor": "XIMENA DEL PILAR SANTANA GAMBOA"
+        }]
     }
+
 ]
