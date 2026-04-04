@@ -22,7 +22,7 @@ Bienvenido a la documentación técnica y funcional del proyecto. Aquí encontra
 - [04. Datos](./04-datos.md) - Estructura y manejo de datos
 
 ### 🔒 Funcionalidades Especiales
-- [10. Guía de verificación de deudas](./10-guia-verificacion-deudas.md) - Sistema de bloqueo por deudas
+- [10. Guía de verificación de deudas](./10-guia-verificacion-deudas.md) - Bloqueo por cartera (`APP_CONFIG.portfolio.blockDays`)
 - [11. Ejemplos de código - Verificación de deudas](./11-ejemplos-codigo-verificacion-deudas.md) - Ejemplos prácticos
 - [Guía de Bloqueo de Horario](../BLOQUEO_HORARIO.md) - Sistema de control horario
 

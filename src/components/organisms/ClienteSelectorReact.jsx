@@ -1,6 +1,9 @@
 import React, { useState, useCallback, useMemo } from 'react';
 import { useClienteData, useClientesFiltrados } from '../../hooks/useClienteData';
+import { APP_CONFIG } from '../../config/app.config';
 import styles from './ClienteSelectorReact.module.css';
+
+const { blockDays } = APP_CONFIG.portfolio;
 
 // Función auxiliar para obtener el nombre del vendedor de la sesión
 function getVendedorNombre() {
@@ -221,13 +224,12 @@ function ClienteSelectorReact() {
         setBusqueda(e.target.value);
     }, []);
 
-    // Verificar si el cliente tiene facturas vencidas > 80 días
     const tieneFacturasVencidas = useMemo(() => {
         if (!carteraCliente || carteraCliente.length === 0) return false;
 
         return carteraCliente.some(factura => {
             const dias = Number(factura.dias) || 0;
-            return dias > 80;
+            return dias > blockDays;
         });
     }, [carteraCliente]);
 
@@ -388,7 +390,7 @@ function ClienteSelectorReact() {
                         style={{ fontSize: '0.9rem', color: '#6c757d', marginTop: '0.5rem' }}
                     >
                         {tieneFacturasVencidas
-                            ? 'El cliente tiene facturas vencidas mayores a 80 días. Contacte al área de cartera para resolver.'
+                            ? `El cliente tiene facturas vencidas mayores a ${blockDays} días. Contacte al área de cartera para resolver.`
                             : 'Seleccione una sucursal para continuar'
                         }
                     </div>

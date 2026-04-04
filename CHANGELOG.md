@@ -45,7 +45,7 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.h
 ### ✨ Añadido
 - Sistema completo de gestión de pedidos con Astro 5
 - Arquitectura Atomic Design para componentes escalables
-- Sistema de bloqueo automático por deudas (>40 días)
+- Sistema de bloqueo automático por deudas (umbral `portfolio.blockDays` en `app.config.ts`)
 - Sistema de bloqueo horario (18:00 - 5:00)
 - Integración con WhatsApp para envío de pedidos
 - Catálogo de productos con 629 items

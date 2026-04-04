@@ -6,6 +6,23 @@
 // Clave para almacenar imágenes en localStorage
 const IMAGES_STORAGE_KEY = 'productImages';
 
+/**
+ * Rechaza rutas sin nombre de archivo real (p. ej. ../assets/toWEBP/.webp).
+ */
+export function hasValidImageFilename(path) {
+    const trimmed = String(path).trim();
+    if (!trimmed) return false;
+    const lower = trimmed.toLowerCase();
+    if (lower.startsWith('data:image/')) return true;
+    if (lower.startsWith('http://') || lower.startsWith('https://')) return true;
+    const withoutQuery = trimmed.split('?')[0];
+    const parts = withoutQuery.split('/').filter(Boolean);
+    const last = parts[parts.length - 1] || '';
+    if (!last) return false;
+    if (/^\.[a-z0-9]{2,5}$/i.test(last)) return false;
+    return true;
+}
+
 // Formatos de imagen permitidos
 const ALLOWED_FORMATS = [
     'image/jpeg',
@@ -130,7 +147,7 @@ export function getProductImageUrl(productId, defaultImage) {
     }
 
     // Si no hay imagen cargada, usar la del JSON
-    if (defaultImage) {
+    if (defaultImage && hasValidImageFilename(defaultImage)) {
         // Normalizar ruta relativa
         if (defaultImage.startsWith('../')) {
             return defaultImage.replace('../', '/');

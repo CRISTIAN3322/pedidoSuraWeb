@@ -32,10 +32,12 @@ export default defineConfig({
 ### Configuración de la app (`src/config/app.config.ts`)
 
 - `schedule`: horario de atención y `timezone`.
-- `whatsapp`: número y plantillas de mensaje.
+- `whatsapp.number`: número para enlaces `wa.me` (p. ej. envío de pedido desde `carrito.astro`). Plantillas en `whatsapp.messageTemplate`.
 - `currency`: `code`, `locale`, `symbol`.
 - `inventory`: reglas de inventario.
-- `portfolio`: umbrales de alerta para cartera.
+- `portfolio`:
+  - `warningDays` / `criticalDays`: colores y clasificación en tablas de cartera (p. ej. ≥11 y ≥30 días).
+  - `blockDays`: umbral de **bloqueo al continuar** al catálogo; si alguna factura cumple `Number(dias) > blockDays`, se deshabilita el flujo en `ClienteSelectorReact.jsx` y en `ClienteSelectorTemplate.astro`.
 - `ui`: paginación, límites y animaciones.
 - `storage`: claves de `localStorage`.
 

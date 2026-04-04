@@ -1,4 +1,5 @@
 ---
+import { APP_CONFIG } from "../../config/app.config";
 import SearchInput from "../molecules/SearchInput.astro";
 import ClienteResults from "../molecules/ClienteResults.astro";
 import ClienteInfo from "../molecules/ClienteInfo.astro";
@@ -34,6 +35,8 @@ const {
   // Estados de error
   error = "",
 } = Astro.props;
+
+const blockDays = APP_CONFIG.portfolio.blockDays;
 ---
 
 <div class="template-cliente-selector">
@@ -141,7 +144,7 @@ const {
                 variant={
                   clienteSeleccionado.cartera &&
                   clienteSeleccionado.cartera.some(
-                    (f: any) => Number(f.dias) > 40
+                    (f: any) => Number(f.dias) > blockDays
                   )
                     ? "blocked"
                     : "primary"
@@ -152,7 +155,7 @@ const {
                   isLoading ||
                   (clienteSeleccionado.cartera &&
                     clienteSeleccionado.cartera.some(
-                      (f: any) => Number(f.dias) > 40
+                      (f: any) => Number(f.dias) > blockDays
                     ))
                 }
                 onclick={onContinue}
@@ -161,7 +164,7 @@ const {
                   ? "Procesando..."
                   : clienteSeleccionado.cartera &&
                       clienteSeleccionado.cartera.some(
-                        (f: any) => Number(f.dias) > 40
+                        (f: any) => Number(f.dias) > blockDays
                       )
                     ? "Cliente bloqueado por factura"
                     : "Continuar al Producto"}
@@ -170,9 +173,9 @@ const {
               <div class="template-cliente-selector__help">
                 {clienteSeleccionado.cartera &&
                 clienteSeleccionado.cartera.some(
-                  (f: any) => Number(f.dias) > 40
+                  (f: any) => Number(f.dias) > blockDays
                 )
-                  ? "El cliente tiene facturas vencidas mayores a 40 días. Contacte al área de cartera para resolver."
+                  ? `El cliente tiene facturas vencidas mayores a ${blockDays} días. Contacte al área de cartera para resolver.`
                   : "Seleccione una sucursal para continuar"}
               </div>
             </div>

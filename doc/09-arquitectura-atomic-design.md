@@ -180,6 +180,7 @@ Este documento describe la arquitectura de componentes basada en la metodología
 
 - **Propósito**: Plantilla completa para la página de selección de clientes
 - **Incluye**: Header, SearchInput, ClienteInfo, CupoInfo, CarteraTable, SucursalList
+- **Bloqueo por cartera**: usa `APP_CONFIG.portfolio.blockDays` (misma regla que `ClienteSelectorReact.jsx`: `dias > blockDays`).
 - **Uso**:
 
 ```astro
@@ -208,34 +209,36 @@ Este documento describe la arquitectura de componentes basada en la metodología
 
 ## 🎯 Funcionalidad de Bloqueo por Deudas
 
-### Lógica de Verificación
+### Lógica de verificación (UI)
+
+El límite efectivo del botón **Continuar al Producto** está en `src/config/app.config.ts`, campo `portfolio.blockDays` (por defecto 80). La condición es:
 
 ```typescript
-// Utilidad para verificar facturas vencidas
-import {
-  tieneFacturasVencidas,
-  obtenerFacturasVencidas,
-} from "../utils/atomic-design/deudaUtils";
+import { APP_CONFIG } from "../config/app.config";
 
-// Verificación en el componente
-const clienteBloqueado = tieneFacturasVencidas(clienteSeleccionado, 40);
+const { blockDays } = APP_CONFIG.portfolio;
+const bloqueado = cliente.cartera?.some(
+  (f) => Number(f.dias) > blockDays
+);
 ```
+
+Las funciones de `deudaUtils.ts` pueden usar otro `diasLimite` por parámetro (por defecto 40); para alinearlas con la UI, pasa `APP_CONFIG.portfolio.blockDays` explícitamente.
 
 ### Estados del Botón
 
-| Condición                      | Estado        | Texto                           | Acción                   |
-| ------------------------------ | ------------- | ------------------------------- | ------------------------ |
-| Cliente sin facturas vencidas  | Habilitado    | "Continuar al Producto"         | Navegar a productos      |
-| Cliente con facturas > 40 días | Bloqueado     | "Cliente bloqueado por factura" | Mostrar mensaje de error |
-| Cliente sin seleccionar        | Deshabilitado | "Continuar al Producto"         | Ninguna                  |
+| Condición                                      | Estado        | Texto                           | Acción                   |
+| ---------------------------------------------- | ------------- | ------------------------------- | ------------------------ |
+| Cliente sin facturas por encima del umbral     | Habilitado    | "Continuar al Producto"         | Navegar a productos      |
+| Alguna factura con `dias > portfolio.blockDays` | Bloqueado     | "Cliente bloqueado por factura" | Mostrar mensaje de error |
+| Cliente sin seleccionar                        | Deshabilitado | "Continuar al Producto"         | Ninguna                  |
 
 ### Flujo de Verificación
 
 ```mermaid
 graph TD
     A[Cliente selecciona cliente] --> B{Check facturas}
-    B -->|Sin facturas > 40 días| C[Botón habilitado]
-    B -->|Con facturas > 40 días| D[Botón bloqueado]
+    B -->|Ninguna supera blockDays| C[Botón habilitado]
+    B -->|Alguna supera blockDays| D[Botón bloqueado]
     C --> E[Usuario hace clic]
     E --> F[Navegar a productos]
     D --> G[Mostrar mensaje de bloqueo]

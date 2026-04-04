@@ -2,13 +2,13 @@
 
 ## 📋 Introducción
 
-Este documento proporciona una guía completa para entender y utilizar la funcionalidad de verificación de deudas implementada en el proyecto Pedido Sura Web. El sistema bloquea automáticamente a clientes que tienen facturas vencidas mayores a 40 días, previniendo la realización de nuevos pedidos hasta que se regularice su situación financiera.
+Este documento describe la verificación de deudas en Pedido Sura Web. El **bloqueo del botón "Continuar al Producto"** usa el umbral `APP_CONFIG.portfolio.blockDays` en `src/config/app.config.ts` (valor por defecto **80**): si alguna factura cumple `Number(factura.dias) > blockDays`, el cliente no puede avanzar al catálogo hasta regularizar cartera.
 
 ## 🎯 Funcionalidad Principal
 
 ### Bloqueo Automático de Clientes
 
-El sistema verifica automáticamente si un cliente tiene facturas vencidas mayores a 40 días y:
+El sistema verifica automáticamente si alguna factura supera `portfolio.blockDays` y:
 
 - **Bloquea el botón** "Continuar al Producto"
 - **Cambia el texto** a "Cliente bloqueado por factura"
@@ -18,8 +18,10 @@ El sistema verifica automáticamente si un cliente tiene facturas vencidas mayor
 ### Criterios de Bloqueo
 
 ```typescript
-// Un cliente se bloquea si:
-cliente.cartera.some((factura) => Number(factura.dias) > 40);
+// Un cliente se bloquea en la UI si (blockDays viene de app.config):
+import { APP_CONFIG } from "../config/app.config";
+const { blockDays } = APP_CONFIG.portfolio;
+cliente.cartera.some((factura) => Number(factura.dias) > blockDays);
 ```
 
 **Ejemplo de factura bloqueada:**
@@ -29,7 +31,7 @@ cliente.cartera.some((factura) => Number(factura.dias) > 40);
   "fac": "SURA 47126",
   "fecha": "14/08/2025",
   "valor": 664051,
-  "dias": 45 // ← Factura vencida > 40 días
+  "dias": 95 // ← Ejemplo: supera blockDays si blockDays es 80
 }
 ```
 
@@ -62,7 +64,7 @@ interface ClienteDeuda {
 graph TD
     A[Usuario selecciona cliente] --> B[Cargar datos de cartera]
     B --> C[Verificar cada factura]
-    C --> D{¿Alguna factura > 40 días?}
+    C --> D{¿Alguna factura > blockDays?}
     D -->|Sí| E[Cliente BLOQUEADO]
     D -->|No| F[Cliente HABILITADO]
     E --> G[Botón deshabilitado]
@@ -73,11 +75,11 @@ graph TD
 
 ### 3. Estados del Sistema
 
-| Estado del Cliente | Días de Facturas  | Botón         | Acción                   |
-| ------------------ | ----------------- | ------------- | ------------------------ |
-| **Normal**         | Todas ≤ 40 días   | Habilitado    | Navegar a productos      |
-| **Bloqueado**      | Algunas > 40 días | Deshabilitado | Mostrar mensaje de error |
-| **Sin Cartera**    | Sin facturas      | Habilitado    | Navegar a productos      |
+| Estado del Cliente | Días de facturas (vs `blockDays`) | Botón         | Acción                   |
+| ------------------ | --------------------------------- | ------------- | ------------------------ |
+| **Normal**         | Ninguna con `dias > blockDays`    | Habilitado    | Navegar a productos      |
+| **Bloqueado**      | Alguna con `dias > blockDays`     | Deshabilitado | Mostrar mensaje de error |
+| **Sin Cartera**    | Sin facturas                      | Habilitado    | Navegar a productos      |
 
 ## 💻 Implementación Técnica
 
@@ -92,7 +94,7 @@ import { Factura, ClienteDeuda } from "./types";
  */
 export function tieneFacturasVencidas(
   cliente: ClienteDeuda | null,
-  diasLimite: number = 40
+  diasLimite: number = 40 // por defecto 40; para igualar la UI, pasar APP_CONFIG.portfolio.blockDays
 ): boolean {
   if (!cliente?.cartera) return false;
 
@@ -107,7 +109,7 @@ export function tieneFacturasVencidas(
  */
 export function obtenerFacturasVencidas(
   cliente: ClienteDeuda | null,
-  diasLimite: number = 40
+  diasLimite: number = 40 // idem tieneFacturasVencidas
 ): Factura[] {
   if (!cliente?.cartera) return [];
 
@@ -121,25 +123,13 @@ export function obtenerFacturasVencidas(
 ### Uso en Componentes
 
 ```jsx
-// En ClienteSelectorReact.jsx
-import { tieneFacturasVencidas } from "../utils/atomic-design/deudaUtils";
+// En ClienteSelectorReact.jsx (implementación real: useMemo + APP_CONFIG.portfolio.blockDays)
+import { APP_CONFIG } from "../../config/app.config";
 
-function ClienteSelectorReact() {
-  const clienteBloqueado = tieneFacturasVencidas(clienteSeleccionado, 40);
-
-  return (
-    <div>
-      <button
-        disabled={clienteBloqueado}
-        className={clienteBloqueado ? "blocked" : "enabled"}
-      >
-        {clienteBloqueado
-          ? "Cliente bloqueado por factura"
-          : "Continuar al Producto"}
-      </button>
-    </div>
-  );
-}
+const { blockDays } = APP_CONFIG.portfolio;
+const bloqueado = carteraCliente.some(
+  (factura) => Number(factura.dias) > blockDays
+);
 ```
 
 ## 🎨 Experiencia de Usuario
@@ -166,17 +156,17 @@ function ClienteSelectorReact() {
 
 ```jsx
 <div className="help-message">
-  El cliente tiene facturas vencidas mayores a 40 días. Contacte al área de
-  cartera para resolver.
+  El cliente tiene facturas vencidas mayores a {blockDays} días. Contacte al área
+  de cartera para resolver.
 </div>
 ```
 
 ### Estados de Facturas
 
-| Días     | Color | Estado    | Acción           |
-| -------- | ----- | --------- | ---------------- |
-| **≤ 40** | Verde | Normal    | Permitir pedido  |
-| **> 40** | Rojo  | Bloqueado | Bloquear sistema |
+| Días (vs `blockDays`) | Color | Estado    | Acción           |
+| --------------------- | ----- | --------- | ---------------- |
+| **≤ blockDays**       | Verde | Normal    | Permitir pedido  |
+| **> blockDays**       | Rojo  | Bloqueado | Bloquear sistema |
 
 ## 📊 Casos de Uso
 
@@ -194,13 +184,15 @@ function ClienteSelectorReact() {
 
 **Resultado**: ✅ Cliente habilitado, puede realizar pedidos
 
-### Caso 2: Cliente con Facturas Vencidas
+### Caso 2: Cliente con facturas que superan `blockDays`
+
+Con `blockDays` en 80, basta una factura con `dias` mayor a 80.
 
 ```json
 {
   "cliente": "COMERCIO XYZ LTDA",
   "cartera": [
-    { "fac": "003", "dias": 45, "valor": 5000000 },
+    { "fac": "003", "dias": 95, "valor": 5000000 },
     { "fac": "004", "dias": 25, "valor": 1500000 }
   ]
 }
@@ -221,23 +213,28 @@ function ClienteSelectorReact() {
 
 ## 🔧 Configuración y Personalización
 
-### Cambiar Límite de Días
+### Cambiar el umbral de bloqueo (UI)
 
 ```typescript
-// En cualquier componente
-import { tieneFacturasVencidas } from "../utils/atomic-design/deudaUtils";
-
-// Usar límite personalizado
-const clienteBloqueado = tieneFacturasVencidas(cliente, 30); // 30 días en lugar de 40
+// src/config/app.config.ts
+portfolio: {
+  // ...
+  blockDays: 80, // ajustar aquí; afecta ClienteSelectorReact y ClienteSelectorTemplate
+},
 ```
+
+Si usas `deudaUtils.tieneFacturasVencidas` con el mismo criterio que la pantalla, pasa `APP_CONFIG.portfolio.blockDays` como segundo argumento.
 
 ### Mensajes Personalizados
 
 ```jsx
 // En componente React
+import { APP_CONFIG } from "../config/app.config";
+
 const getBloqueoMessage = (cliente) => {
-  const facturasVencidas = obtenerFacturasVencidas(cliente, 40);
-  const totalDeuda = calcularDeudaVencida(cliente, 40);
+  const diasLimite = APP_CONFIG.portfolio.blockDays;
+  const facturasVencidas = obtenerFacturasVencidas(cliente, diasLimite);
+  const totalDeuda = calcularDeudaVencida(cliente, diasLimite);
 
   return `Cliente bloqueado por ${
     facturasVencidas.length
@@ -312,8 +309,9 @@ const getBloqueoMessage = (cliente) => {
 </button>
 
 <div id="bloqueo-help" role="alert">
-  El cliente tiene facturas vencidas mayores a 40 días.
-  Contacte al área de cartera para resolver.
+  {/* Texto alineado con APP_CONFIG.portfolio.blockDays */}
+  El cliente tiene facturas vencidas mayores a {blockDays} días. Contacte al área
+  de cartera para resolver.
 </div>
 ```
 
@@ -323,14 +321,19 @@ const getBloqueoMessage = (cliente) => {
 
 ```typescript
 // En desarrollo, agregar logs
+import { APP_CONFIG } from "../config/app.config";
+
 console.log("Cliente:", cliente);
 console.log("Facturas:", cliente?.cartera);
-console.log("Bloqueado:", tieneFacturasVencidas(cliente));
+console.log(
+  "Bloqueado:",
+  tieneFacturasVencidas(cliente, APP_CONFIG.portfolio.blockDays)
+);
 ```
 
 ### Testing Manual
 
-1. **Preparar datos de prueba** con facturas > 40 días
+1. **Preparar datos de prueba** con alguna factura con `dias > portfolio.blockDays`
 2. **Seleccionar cliente** en la interfaz
 3. **Verificar bloqueo** del botón
 4. **Confirmar mensaje** de error
@@ -356,11 +359,11 @@ const testCases = [
     resultado: false,
   },
   {
-    nombre: "Cliente con facturas vencidas",
+    nombre: "Cliente con facturas vencidas (según blockDays, p. ej. 80)",
     cliente: {
       id: 3,
       nombre: "Test",
-      cartera: [{ dias: 45 }, { dias: 25 }],
+      cartera: [{ dias: 95 }, { dias: 25 }],
     },
     resultado: true,
   },

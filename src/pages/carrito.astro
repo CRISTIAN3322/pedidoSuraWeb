@@ -7,6 +7,9 @@ const sucursalVendedor = params.get('sucursalVendedor');
 import BaseLayout from '../layouts/BaseLayout.astro';
 import CarteraCliente from '../components/molecules/CarteraCliente.astro';
 import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
+import { APP_CONFIG } from '../config/app.config';
+
+const whatsappNumber = APP_CONFIG.whatsapp.number;
 ---
 
 <script>
@@ -97,7 +100,7 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
 
     </div>
 
-    <script>
+    <script define:vars={{ whatsappNumber }}>
         // Recuperar datos del localStorage como respaldo
         window.onload = function() {
             const datosClienteString = localStorage.getItem('datosCliente');
@@ -121,8 +124,8 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
             }
         };
 
-        // Función para formatear números como moneda
-    const formatCurrency = (amount: number) => {
+        // Función para formatear números como moneda (JS puro: define:vars no transpila TypeScript)
+    const formatCurrency = (amount) => {
         return new Intl.NumberFormat('es-CO', {
             style: 'currency',
             currency: 'COP'
@@ -132,15 +135,17 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
     // Función para actualizar el total del carrito
     const updateCartTotal = () => {
         const cartItems = JSON.parse(localStorage.getItem('cartItems') || '[]');
-        const total = cartItems.reduce((sum: number, item: any) => sum + (item.precio * item.cantidad), 0);
-        document.getElementById('cart-total')!.textContent = formatCurrency(total);
+        const total = cartItems.reduce((sum, item) => sum + (item.precio * item.cantidad), 0);
+        const totalEl = document.getElementById('cart-total');
+        if (totalEl) totalEl.textContent = formatCurrency(total);
     };
 
     // Función para renderizar los items del carrito
     const renderCartItems = () => {
         const cartItems = JSON.parse(localStorage.getItem('cartItems') || '[]');
-        const cartTableBody = document.getElementById('cart-items')!;
-        
+        const cartTableBody = document.getElementById('cart-items');
+        if (!cartTableBody) return;
+
         cartTableBody.innerHTML = '';
         
         if (cartItems.length === 0) {
@@ -152,7 +157,7 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
             `;
             cartTableBody.appendChild(emptyRow);
         } else {
-            cartItems.forEach((item: any) => {
+            cartItems.forEach((item) => {
                 const row = document.createElement('tr');
                 row.innerHTML = `
                     <td>${item.codigo}</td>
@@ -175,14 +180,13 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
 
     // Eliminar item del carrito
     document.getElementById('cart-items')?.addEventListener('click', (e) => {
-        const target = e.target as HTMLElement;
-        if (target.classList.contains('remove-item')) {
-            const productId = target.dataset.id;
-            const cartItems = JSON.parse(localStorage.getItem('cartItems') || '[]');
-            const updatedItems = cartItems.filter((item: any) => item.codigo !== productId);
-            localStorage.setItem('cartItems', JSON.stringify(updatedItems));
-            renderCartItems();
-        }
+        const target = e.target;
+        if (!(target instanceof HTMLElement) || !target.classList.contains('remove-item')) return;
+        const productId = target.dataset.id;
+        const cartItems = JSON.parse(localStorage.getItem('cartItems') || '[]');
+        const updatedItems = cartItems.filter((item) => item.codigo !== productId);
+        localStorage.setItem('cartItems', JSON.stringify(updatedItems));
+        renderCartItems();
     });
 
     // Vaciar carrito
@@ -250,15 +254,15 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
             mensaje += `*🚨 CLIENTE SIN CUPO DISPONIBLE 🚨*%0A%0A`;
 
             // Agregar observaciones si existen
-            const observacion = document.getElementById('observacion') as HTMLTextAreaElement;
-            if (observacion && observacion.value.trim()) {
+            const observacion = document.getElementById('observacion');
+            if (observacion && 'value' in observacion && observacion.value.trim()) {
                 mensaje += `%0A*Observaciones:*%0A${observacion.value.trim()}%0A%0A`;
             }
 
             // Agregar productos y total
             mensaje += `*Productos:*%0A`;
             let total = 0;
-            cartItems.forEach((item: any) => {
+            cartItems.forEach((item) => {
                 const subtotal = item.precio * item.cantidad;
                 total += subtotal;
                 mensaje += `- ${item.nombre}%0A *Codigo: ${item.codigo}* *= ${item.cantidad}*%0A `;
@@ -285,15 +289,15 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
             }
             
             // Obtener el contenido del textarea de observaciones
-            const observacion = document.getElementById('observacion') as HTMLTextAreaElement;
-            if (observacion && observacion.value.trim()) {
+            const observacion = document.getElementById('observacion');
+            if (observacion && 'value' in observacion && observacion.value.trim()) {
                 mensaje += `%0A*Observaciones:*%0A${observacion.value.trim()}%0A%0A`;
             }
 
             mensaje += `*Productos:*%0A`;
             let total = 0;
             
-            cartItems.forEach((item: any) => {
+            cartItems.forEach((item) => {
                 const subtotal = item.precio * item.cantidad;
                 total += subtotal;
                 mensaje += `- ${item.nombre}%0A *Codigo: ${item.codigo}* *= ${item.cantidad}*%0A `;
@@ -304,11 +308,8 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
         
 
 
-        // Número de WhatsApp al que se enviará el mensaje
-        const numeroWhatsApp = '573118711256';
-        
         // Crear el enlace de WhatsApp
-        const whatsappLink = `https://wa.me/${numeroWhatsApp}?text=${mensaje}`;
+        const whatsappLink = `https://wa.me/${whatsappNumber}?text=${mensaje}`;
         
         console.log('Mensaje a enviar:', mensaje);
         console.log('Enlace de WhatsApp:', whatsappLink);

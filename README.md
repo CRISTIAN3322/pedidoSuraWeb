@@ -254,34 +254,33 @@ const validation = isValidImageFile(file);
 
 ## 🔒 Funcionalidad de Bloqueo por Deudas
 
-### Sistema Automático de Control
+### Sistema automático de control
 
-El sistema implementa un control automático que **bloquea** a clientes con facturas vencidas mayores a **20 días**:
+El umbral lo define **`APP_CONFIG.portfolio.blockDays`** en `src/config/app.config.ts` (por defecto **80**). Si alguna factura cumple `Number(factura.dias) > blockDays`, el cliente **no puede continuar** al catálogo. La misma regla aplica en `ClienteSelectorReact.jsx` y `ClienteSelectorTemplate.astro`.
 
 - 🚫 **Botón deshabilitado**: El botón "Continuar al Producto" se deshabilita automáticamente
 - 📝 **Texto dinámico**: Cambia a "Cliente bloqueado por factura"
-- 💬 **Mensaje explicativo**: Muestra el motivo del bloqueo y acciones a seguir
+- 💬 **Mensaje explicativo**: Incluye el valor actual de `blockDays`
 - 🎨 **Indicadores visuales**: Colores rojos y estados de error claros
 
-### Cómo Funciona
+### Cómo funciona
 
 ```typescript
-// Verificación automática
-const tieneFacturasVencidas = (cliente, diasLimite = 20) => {
-  return cliente.cartera.some((factura) => Number(factura.dias) > diasLimite);
-};
+import { APP_CONFIG } from "./config/app.config";
 
-// En el componente
-const clienteBloqueado = tieneFacturasVencidas(clienteSeleccionado);
+const { blockDays } = APP_CONFIG.portfolio;
+const clienteBloqueado = cliente.cartera?.some(
+  (factura) => Number(factura.dias) > blockDays
+);
 ```
 
-### Estados del Sistema
+### Estados del sistema
 
-| Facturas     | Días | Estado        | Acción           |
-| ------------ | ---- | ------------- | ---------------- |
-| Sin vencidas | ≤ 20 | ✅ Habilitado | Permitir pedido  |
-| Con vencidas | > 20 | 🚫 Bloqueado  | Bloquear sistema |
-| Sin facturas | -    | ✅ Habilitado | Permitir pedido  |
+| Facturas              | Condición                         | Estado        | Acción           |
+| --------------------- | --------------------------------- | ------------- | ---------------- |
+| Ninguna supera umbral | Todas con `dias ≤ blockDays`      | ✅ Habilitado | Permitir pedido  |
+| Alguna supera umbral  | Existe `dias > blockDays`         | 🚫 Bloqueado  | Bloquear sistema |
+| Sin cartera           | Sin facturas                      | ✅ Habilitado | Permitir pedido  |
 
 ### Proceso de Desbloqueo
 

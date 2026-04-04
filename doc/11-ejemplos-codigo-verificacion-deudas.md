@@ -4,28 +4,38 @@
 
 Este documento proporciona ejemplos prácticos de código para implementar y utilizar la funcionalidad de verificación de deudas en el proyecto Pedido Sura Web. Incluye ejemplos de uso de las utilidades, componentes y mejores prácticas.
 
+### Umbral de bloqueo en pantalla
+
+`ClienteSelectorReact.jsx` y `ClienteSelectorTemplate.astro` leen **`APP_CONFIG.portfolio.blockDays`** (`src/config/app.config.ts`, por defecto 80). Varios ejemplos siguientes usan `40` como `diasLimite` porque coincide con el **default** de `deudaUtils.ts`; para igualar la UI, pasa siempre `APP_CONFIG.portfolio.blockDays`.
+
 ## 🛠️ Ejemplos de Utilidades
 
 ### 1. Verificación Básica de Facturas Vencidas
 
 ```typescript
-// utils/atomic-design/deudaUtils.ts
-import { tieneFacturasVencidas, Factura, ClienteDeuda } from './types';
+// Ejemplo ilustrativo (rutas relativas según el archivo desde el que importes)
+import { APP_CONFIG } from "../config/app.config";
+import { tieneFacturasVencidas, Factura, ClienteDeuda } from "./types";
 
-// Ejemplo de uso básico
 const cliente: ClienteDeuda = {
   id: 12345,
   nombre: "EMPRESAS ABC SAS",
   sucursales: [...],
   cartera: [
-    { id: 1, fac: "SURA 001", fecha: "15/08/2025", valor: "1000000", dias: 45 },
-    { id: 2, fac: "SURA 002", fecha: "20/08/2025", valor: "2500000", dias: 15 }
-  ]
+    { id: 1, fac: "SURA 001", fecha: "15/08/2025", valor: "1000000", dias: 95 },
+    { id: 2, fac: "SURA 002", fecha: "20/08/2025", valor: "2500000", dias: 15 },
+  ],
 };
 
-// Verificar si tiene facturas vencidas > 40 días
-const estaBloqueado = tieneFacturasVencidas(cliente, 40);
-console.log(estaBloqueado); // true
+// Mismo criterio que el botón "Continuar al Producto" (blockDays por defecto 80):
+const estaBloqueadoUI = tieneFacturasVencidas(
+  cliente,
+  APP_CONFIG.portfolio.blockDays
+);
+
+// Default de deudaUtils (40); solo coincide con la UI si blockDays === 40:
+const estaBloqueadoUtilsDefault = tieneFacturasVencidas(cliente);
+console.log(estaBloqueadoUI, estaBloqueadoUtilsDefault);
 ```
 
 ### 2. Obtener Facturas Vencidas
@@ -125,6 +135,7 @@ const estaBloqueado = tieneFacturasVencidas(cliente, 40);
 ```typescript
 // hooks/useDeudaVerification.js
 import { useMemo } from "react";
+import { APP_CONFIG } from "../config/app.config";
 import {
   tieneFacturasVencidas,
   obtenerEstadoRiesgoCliente,
@@ -132,7 +143,7 @@ import {
 
 export const useDeudaVerification = (cliente) => {
   const estaBloqueado = useMemo(
-    () => tieneFacturasVencidas(cliente, 40),
+    () => tieneFacturasVencidas(cliente, APP_CONFIG.portfolio.blockDays),
     [cliente]
   );
 
@@ -143,7 +154,7 @@ export const useDeudaVerification = (cliente) => {
 
   const mensajeBloqueo = useMemo(() => {
     if (!estaBloqueado) return "";
-    return `Cliente bloqueado por facturas vencidas mayores a 40 días.`;
+    return `Cliente bloqueado por facturas vencidas mayores a ${APP_CONFIG.portfolio.blockDays} días.`;
   }, [estaBloqueado]);
 
   return {
@@ -320,7 +331,7 @@ const clienteBloqueado = {
       fac: "TEST001",
       fecha: "15/07/2025",
       valor: "5000000",
-      dias: 45, // ← Factura vencida > 40 días
+      dias: 95, // ← Supera portfolio.blockDays (p. ej. 80)
     },
     {
       id: 2,
@@ -343,7 +354,7 @@ const clienteHabilitado = {
       fac: "TEST003",
       fecha: "01/09/2025",
       valor: "1000000",
-      dias: 30, // ← Factura normal (≤ 40 días)
+      dias: 30, // ← Por debajo de portfolio.blockDays (p. ej. 80)
     },
   ],
 };

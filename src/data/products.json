@@ -2054,7 +2054,7 @@
         "unidad": "unidad",
         "despacho": 1,
         "proveedor": "COMESTIBLES ITALO SA",
-        "activo": true
+        "activo": false
     },
     {
         "id": 148,
@@ -2516,7 +2516,7 @@
         "unidad": "unidad",
         "despacho": 1,
         "proveedor": "COMESTIBLES ITALO SA",
-        "activo": true
+        "activo": false
     },
     {
         "id": 181,
@@ -5800,7 +5800,7 @@
         "nombre": "GUANTE CALIBRE 14 TALLA 7",
         "precioUnidad": 2341,
         "precio": 393243,
-        "imagen": "../assets/toWEBP/.webp",
+        "imagen": "",
         "barra": "",
         "invetario": 0,
         "unidad": "Display",
@@ -5814,7 +5814,7 @@
         "nombre": "GUANTE CALIBRE 14 TALLA 7,5",
         "precioUnidad": 2341,
         "precio": 393243,
-        "imagen": "../assets/toWEBP/.webp",
+        "imagen": "",
         "barra": "",
         "invetario": 0,
         "unidad": "Display",
@@ -5828,7 +5828,7 @@
         "nombre": "GUANTE CALIBRE 14 TALLA 8",
         "precioUnidad": 2341,
         "precio": 393243,
-        "imagen": "../assets/toWEBP/.webp",
+        "imagen": "",
         "barra": "",
         "invetario": 24,
         "unidad": "Display",
@@ -5842,7 +5842,7 @@
         "nombre": "GUANTE CALIBRE 14 TALLA 8,5",
         "precioUnidad": 2341,
         "precio": 393243,
-        "imagen": "../assets/toWEBP/.webp",
+        "imagen": "",
         "barra": "",
         "invetario": 24,
         "unidad": "Display",

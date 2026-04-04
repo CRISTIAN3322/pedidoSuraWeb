@@ -30,7 +30,7 @@ npm run astro      # Comando directo de Astro
 ## 🔧 Configuración
 
 ### Variables de Entorno
-Actualmente el proyecto no requiere variables sensibles. La configuración general está en `src/config/app.config.ts`.
+Actualmente el proyecto no requiere variables sensibles. La configuración general está en `src/config/app.config.ts` (incluye `whatsapp.number`, `portfolio.blockDays` para bloqueo por cartera en la selección de cliente, y umbrales `warningDays` / `criticalDays` para tablas).
 
 ### Requisitos del Sistema
 - **Memoria:** >= 4GB recomendada (catálogo de 629 imágenes)

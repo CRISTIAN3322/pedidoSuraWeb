@@ -1,6 +1,7 @@
 ---
 // Import products data from JSON file
 import products from '../../data/products.json';
+import { hasValidImageFilename } from '../../utils/imageUtils';
 
 // Obtener proveedores únicos
 const proveedores = Array.from(
@@ -35,7 +36,7 @@ const proveedores = Array.from(
     {products.map((product) => (
         <div class="product-card" data-active={product.activo} data-product-name={product.nombre.toLowerCase()} data-product-code={product.codigo} data-product-barcode={product.barra} data-product-proveedor={product.proveedor} data-precio-unidad={product.precioUnidad ?? product.precio} data-precio-despacho={product.precioDespacho ?? product.precio} data-despacho={product.despacho ?? 1} data-unidad={product.unidad ?? 'unidad'} style={Number(product.invetario) < 1 ? 'background-color: #ffb3b3;' : ''}>
         <div class="imagen-card">
-            {product.imagen ? (
+            {product.imagen && hasValidImageFilename(product.imagen) ? (
                 <img 
                     src={product.imagen} 
                     alt={product.nombre} 
@@ -329,7 +330,7 @@ const proveedores = Array.from(
 
     // Función para normalizar rutas de imágenes
     function normalizeImagePath(imagePath: string): string {
-        if (!imagePath) return '';
+        if (!imagePath || !hasValidImageFilename(imagePath)) return '';
         // Si ya es una URL completa o base64, retornar tal cual
         if (imagePath.startsWith('http://') || imagePath.startsWith('https://') || imagePath.startsWith('data:')) {
             return imagePath;
@@ -345,7 +346,7 @@ const proveedores = Array.from(
     }
 
     // Importar utilidades de imagen (solo en cliente)
-    import { getProductImageUrl } from '../../utils/imageUtils.js';
+    import { getProductImageUrl, hasValidImageFilename } from '../../utils/imageUtils.js';
 
     // Manejo de errores de carga de imágenes y actualización con imágenes cargadas
     document.addEventListener('DOMContentLoaded', () => {
