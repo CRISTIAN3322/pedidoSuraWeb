@@ -7211,6 +7211,14 @@
             "direccion": "CR 110 G 72 D 05  Mortino ",
             "vendedor": "XIMENA DEL PILAR SANTANA GAMBOA"
         }]
+    },
+    {
+        "id": 1022381117,
+        "nombre": "JESSIKA LORENA BELTRAN OVIEDO",
+        "sucursales": [{
+            "direccion": "CR 41 A 4 F 27 Primavera ",
+            "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
+        }]
     }
 
 ]
