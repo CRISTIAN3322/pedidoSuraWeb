@@ -44,6 +44,10 @@
                     {
                         "mes": "MARZO",
                         "total": 2590136
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 128052
                     }
                 ]
             },
@@ -56,6 +60,10 @@
                     {
                         "mes": "MARZO",
                         "total": 15390262
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 626400
                     }
                 ]
             },
@@ -84,6 +92,10 @@
                     {
                         "mes": "MARZO",
                         "total": 5015895
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 688842
                     }
                 ]
             },
@@ -128,6 +140,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1896826
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 322986
                     }
                 ]
             },
@@ -208,6 +224,10 @@
                     {
                         "mes": "MARZO",
                         "total": 7049411
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 3192831
                     }
                 ]
             },
@@ -236,6 +256,10 @@
                     {
                         "mes": "MARZO",
                         "total": 497856
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 40928
                     }
                 ]
             },
@@ -252,6 +276,10 @@
                     {
                         "mes": "MARZO",
                         "total": 5861863
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 246101
                     }
                 ]
             },
@@ -268,6 +296,10 @@
                     {
                         "mes": "MARZO",
                         "total": 9992634
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 80448
                     }
                 ]
             },
@@ -284,6 +316,10 @@
                     {
                         "mes": "MARZO",
                         "total": 6159349
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": -145398
                     }
                 ]
             },
@@ -300,6 +336,10 @@
                     {
                         "mes": "MARZO",
                         "total": 456798
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 53040
                     }
                 ]
             },
@@ -316,6 +356,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1805488
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 100952
                     }
                 ]
             },
@@ -362,6 +406,10 @@
                     {
                         "mes": "MARZO",
                         "total": 644288
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 48780
                     }
                 ]
             },
@@ -441,6 +489,10 @@
                     {
                         "mes": "MARZO",
                         "total": 44897831
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 12213953
                     }
                 ]
             },
@@ -453,6 +505,10 @@
                     {
                         "mes": "MARZO",
                         "total": 6402542
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 1265142
                     }
                 ]
             },
@@ -481,6 +537,10 @@
                     {
                         "mes": "MARZO",
                         "total": -309966
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": -29488
                     }
                 ]
             }
@@ -537,6 +597,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1876128
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 134160
                     }
                 ]
             },
@@ -549,6 +613,10 @@
                     {
                         "mes": "MARZO",
                         "total": 7940200
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 974400
                     }
                 ]
             },
@@ -565,6 +633,10 @@
                     {
                         "mes": "MARZO",
                         "total": 364346
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 43504
                     }
                 ]
             },
@@ -581,6 +653,10 @@
                     {
                         "mes": "MARZO",
                         "total": 26231012
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 12143535
                     }
                 ]
             },
@@ -620,6 +696,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1461580
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 236382
                     }
                 ]
             },
@@ -636,15 +716,24 @@
                     {
                         "mes": "MARZO",
                         "total": 997027
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 76125
                     }
                 ]
             },
             {
                 "grupo": "DS DISTRI SAMY SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 396751
-                }]
+                        "mes": "ENERO",
+                        "total": 396751
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 83736
+                    }
+                ]
             },
             {
                 "grupo": "DUQUESA S.A. BIC",
@@ -659,6 +748,10 @@
                     {
                         "mes": "MARZO",
                         "total": 2606413
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 226188
                     }
                 ]
             },
@@ -675,6 +768,10 @@
                     {
                         "mes": "MARZO",
                         "total": 644566
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 375632
                     }
                 ]
             },
@@ -691,6 +788,10 @@
                     {
                         "mes": "MARZO",
                         "total": 540244
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 571948
                     }
                 ]
             },
@@ -719,6 +820,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1087952
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 339336
                     }
                 ]
             },
@@ -735,6 +840,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1410076
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 814233
                     }
                 ]
             },
@@ -747,6 +856,10 @@
                     {
                         "mes": "MARZO",
                         "total": 2738862
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 50295
                     }
                 ]
             },
@@ -763,6 +876,10 @@
                     {
                         "mes": "MARZO",
                         "total": 6724899
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 3046720
                     }
                 ]
             },
@@ -779,6 +896,10 @@
                     {
                         "mes": "MARZO",
                         "total": 4354309
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 1670244
                     }
                 ]
             },
@@ -795,6 +916,10 @@
                     {
                         "mes": "MARZO",
                         "total": 2439002
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 254768
                     }
                 ]
             },
@@ -811,6 +936,10 @@
                     {
                         "mes": "MARZO",
                         "total": 13313628
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 1804782
                     }
                 ]
             },
@@ -827,6 +956,10 @@
                     {
                         "mes": "MARZO",
                         "total": -187338
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 292680
                     }
                 ]
             },
@@ -843,6 +976,10 @@
                     {
                         "mes": "MARZO",
                         "total": 239600
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 462088
                     }
                 ]
             },
@@ -923,6 +1060,10 @@
                     {
                         "mes": "MARZO",
                         "total": 28043548
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 6044440
                     }
                 ]
             },
@@ -935,6 +1076,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1418073
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 244146
                     }
                 ]
             },
@@ -951,6 +1096,10 @@
                     {
                         "mes": "MARZO",
                         "total": 4188022
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 98368
                     }
                 ]
             },
@@ -999,6 +1148,10 @@
                     {
                         "mes": "MARZO",
                         "total": 849806
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 281502
                     }
                 ]
             },
@@ -1011,6 +1164,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1531200
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 556800
                     }
                 ]
             },
@@ -1027,6 +1184,10 @@
                     {
                         "mes": "MARZO",
                         "total": 17253331
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 6808996
                     }
                 ]
             },
@@ -1050,6 +1211,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1478864
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 808400
                     }
                 ]
             },
@@ -1066,6 +1231,10 @@
                     {
                         "mes": "MARZO",
                         "total": 585496
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 505362
                     }
                 ]
             },
@@ -1114,6 +1283,10 @@
                     {
                         "mes": "MARZO",
                         "total": 8687463
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 678852
                     }
                 ]
             },
@@ -1130,6 +1303,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1456680
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 517930
                     }
                 ]
             },
@@ -1142,6 +1319,10 @@
                     {
                         "mes": "MARZO",
                         "total": 600170
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 208882
                     }
                 ]
             },
@@ -1174,6 +1355,10 @@
                     {
                         "mes": "MARZO",
                         "total": 637064
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 667524
                     }
                 ]
             },
@@ -1190,6 +1375,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1472732
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 717712
                     }
                 ]
             },
@@ -1206,6 +1395,10 @@
                     {
                         "mes": "MARZO",
                         "total": 6101426
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 485298
                     }
                 ]
             },
@@ -1222,6 +1415,10 @@
                     {
                         "mes": "MARZO",
                         "total": 3165201
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 80934
                     }
                 ]
             },
@@ -1238,6 +1435,10 @@
                     {
                         "mes": "MARZO",
                         "total": 31988239
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 7317654
                     }
                 ]
             },
@@ -1254,6 +1455,10 @@
                     {
                         "mes": "MARZO",
                         "total": 4102120
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 926948
                     }
                 ]
             },
@@ -1289,6 +1494,10 @@
                     {
                         "mes": "MARZO",
                         "total": 7103932
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 3982044
                     }
                 ]
             },
@@ -1305,6 +1514,10 @@
                     {
                         "mes": "MARZO",
                         "total": 674922
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 146340
                     }
                 ]
             },
@@ -1321,6 +1534,10 @@
                     {
                         "mes": "MARZO",
                         "total": 6707284
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 590112
                     }
                 ]
             },
@@ -1353,8 +1570,19 @@
                     {
                         "mes": "MARZO",
                         "total": 9013698
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 4714572
                     }
                 ]
+            },
+            {
+                "grupo": "SURAMERICANA JI SAS",
+                "ventas_por_mes": [{
+                    "mes": "ABRIL",
+                    "total": 189564
+                }]
             },
             {
                 "grupo": "TONING SAS",
@@ -1369,6 +1597,10 @@
                     {
                         "mes": "MARZO",
                         "total": 31250048
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 4368145
                     }
                 ]
             },
@@ -1381,6 +1613,10 @@
                     {
                         "mes": "MARZO",
                         "total": 8040556
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 2677440
                     }
                 ]
             },
@@ -1397,6 +1633,10 @@
                     {
                         "mes": "MARZO",
                         "total": 3975946
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 1477498
                     }
                 ]
             },
@@ -1432,6 +1672,10 @@
                     {
                         "mes": "MARZO",
                         "total": 701177
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 862512
                     }
                 ]
             },
@@ -1448,6 +1692,10 @@
                     {
                         "mes": "MARZO",
                         "total": 159819
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 43587
                     }
                 ]
             },
@@ -1471,6 +1719,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1671288
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 866541
                     }
                 ]
             },
@@ -1483,6 +1735,10 @@
                     {
                         "mes": "MARZO",
                         "total": 8845997
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 1461600
                     }
                 ]
             },
@@ -1499,6 +1755,10 @@
                     {
                         "mes": "MARZO",
                         "total": 38066
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 217520
                     }
                 ]
             },
@@ -1515,6 +1775,10 @@
                     {
                         "mes": "MARZO",
                         "total": 16899536
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 4233037
                     }
                 ]
             },
@@ -1531,6 +1795,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1151696
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 1299680
                     }
                 ]
             },
@@ -1547,6 +1815,10 @@
                     {
                         "mes": "MARZO",
                         "total": 692338
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 237270
                     }
                 ]
             },
@@ -1563,6 +1835,10 @@
                     {
                         "mes": "MARZO",
                         "total": 3281977
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 947350
                     }
                 ]
             },
@@ -1579,6 +1855,10 @@
                     {
                         "mes": "MARZO",
                         "total": 23220
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 218200
                     }
                 ]
             },
@@ -1595,6 +1875,10 @@
                     {
                         "mes": "MARZO",
                         "total": 7578681
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 1561802
                     }
                 ]
             },
@@ -1611,6 +1895,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1467742
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 206476
                     }
                 ]
             },
@@ -1627,6 +1915,10 @@
                     {
                         "mes": "MARZO",
                         "total": 4849102
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 2607932
                     }
                 ]
             },
@@ -1655,6 +1947,10 @@
                     {
                         "mes": "MARZO",
                         "total": 722588
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 216552
                     }
                 ]
             },
@@ -1671,6 +1967,10 @@
                     {
                         "mes": "MARZO",
                         "total": 5216800
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 2742396
                     }
                 ]
             },
@@ -1687,6 +1987,10 @@
                     {
                         "mes": "MARZO",
                         "total": 936428
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 874047
                     }
                 ]
             },
@@ -1703,6 +2007,10 @@
                     {
                         "mes": "MARZO",
                         "total": 6255498
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 429159
                     }
                 ]
             },
@@ -1719,6 +2027,10 @@
                     {
                         "mes": "MARZO",
                         "total": 20028875
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 5073990
                     }
                 ]
             },
@@ -1735,6 +2047,10 @@
                     {
                         "mes": "MARZO",
                         "total": 5061027
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 625384
                     }
                 ]
             },
@@ -1770,6 +2086,10 @@
                     {
                         "mes": "MARZO",
                         "total": 4058454
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 1359576
                     }
                 ]
             },
@@ -1786,6 +2106,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1006954
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 390240
                     }
                 ]
             },
@@ -1802,6 +2126,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1467964
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 1583928
                     }
                 ]
             },
@@ -1825,6 +2153,10 @@
                     {
                         "mes": "MARZO",
                         "total": 6109020
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 1871550
                     }
                 ]
             },
@@ -1844,6 +2176,10 @@
                     {
                         "mes": "MARZO",
                         "total": 82212
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 219780
                     }
                 ]
             },
@@ -1872,6 +2208,10 @@
                     {
                         "mes": "MARZO",
                         "total": 55886897
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 18350765
                     }
                 ]
             },
@@ -1884,6 +2224,10 @@
                     {
                         "mes": "MARZO",
                         "total": 2195024
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 467379
                     }
                 ]
             },
@@ -1900,6 +2244,10 @@
                     {
                         "mes": "MARZO",
                         "total": 475290
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 1699530
                     }
                 ]
             },
@@ -2011,6 +2359,10 @@
                     {
                         "mes": "MARZO",
                         "total": 26623939
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 93441
                     }
                 ]
             },
@@ -2066,6 +2418,10 @@
                     {
                         "mes": "MARZO",
                         "total": 3248207
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 104775
                     }
                 ]
             },
@@ -2160,6 +2516,10 @@
                     {
                         "mes": "MARZO",
                         "total": 8386965
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 1055610
                     }
                 ]
             },
@@ -2208,6 +2568,10 @@
                     {
                         "mes": "MARZO",
                         "total": 3513530
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 146664
                     }
                 ]
             },
@@ -2243,6 +2607,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1467132
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 210192
                     }
                 ]
             },
@@ -2312,6 +2680,10 @@
                     {
                         "mes": "MARZO",
                         "total": 2100180
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 110052
                     }
                 ]
             },
@@ -2335,6 +2707,10 @@
                     {
                         "mes": "MARZO",
                         "total": 79870527
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 7688544
                     }
                 ]
             },
@@ -2386,6 +2762,10 @@
                     {
                         "mes": "FEBRERO",
                         "total": 146160
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 132312
                     }
                 ]
             },
@@ -2414,6 +2794,10 @@
                     {
                         "mes": "MARZO",
                         "total": 476850
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 256104
                     }
                 ]
             },
@@ -2426,6 +2810,10 @@
                     {
                         "mes": "MARZO",
                         "total": 2088000
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 556800
                     }
                 ]
             },
@@ -2442,6 +2830,10 @@
                     {
                         "mes": "MARZO",
                         "total": 239272
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 10876
                     }
                 ]
             },
@@ -2458,6 +2850,10 @@
                     {
                         "mes": "MARZO",
                         "total": 6361728
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 5115168
                     }
                 ]
             },
@@ -2490,6 +2886,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1592069
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 627345
                     }
                 ]
             },
@@ -2522,6 +2922,10 @@
                     {
                         "mes": "MARZO",
                         "total": 101720
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 266304
                     }
                 ]
             },
@@ -2538,6 +2942,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1593662
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 1246113
                     }
                 ]
             },
@@ -2554,6 +2962,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1894648
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 766566
                     }
                 ]
             },
@@ -2570,6 +2982,10 @@
                     {
                         "mes": "MARZO",
                         "total": 802236
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 79330
                     }
                 ]
             },
@@ -2598,6 +3014,10 @@
                     {
                         "mes": "MARZO",
                         "total": 2819092
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 485944
                     }
                 ]
             },
@@ -2614,6 +3034,10 @@
                     {
                         "mes": "MARZO",
                         "total": 2111889
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 246550
                     }
                 ]
             },
@@ -2630,6 +3054,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1852702
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 653872
                     }
                 ]
             },
@@ -2646,6 +3074,10 @@
                     {
                         "mes": "MARZO",
                         "total": 9596756
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 120456
                     }
                 ]
             },
@@ -2662,6 +3094,10 @@
                     {
                         "mes": "MARZO",
                         "total": 4046976
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 466626
                     }
                 ]
             },
@@ -2678,6 +3114,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1858228
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 500884
                     }
                 ]
             },
@@ -2701,6 +3141,10 @@
                     {
                         "mes": "MARZO",
                         "total": 8495742
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 1196730
                     }
                 ]
             },
@@ -2717,6 +3161,10 @@
                     {
                         "mes": "MARZO",
                         "total": 622248
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 97560
                     }
                 ]
             },
@@ -2761,6 +3209,10 @@
                     {
                         "mes": "MARZO",
                         "total": 174450
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 307734
                     }
                 ]
             },
@@ -2777,6 +3229,10 @@
                     {
                         "mes": "MARZO",
                         "total": 13030003
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 5599725
                     }
                 ]
             },
@@ -2789,6 +3245,10 @@
                     {
                         "mes": "MARZO",
                         "total": -388966
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 1070063
                     }
                 ]
             },
@@ -2835,6 +3295,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1383809
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 135827
                     }
                 ]
             },
@@ -2850,6 +3314,10 @@
                     },
                     {
                         "mes": "MARZO",
+                        "total": 26172
+                    },
+                    {
+                        "mes": "ABRIL",
                         "total": 26172
                     }
                 ]
@@ -2879,6 +3347,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1044000
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 208800
                     }
                 ]
             },
@@ -2902,6 +3374,10 @@
                     {
                         "mes": "MARZO",
                         "total": 22221462
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 3219500
                     }
                 ]
             },
@@ -2914,6 +3390,10 @@
                     {
                         "mes": "MARZO",
                         "total": 2739924
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 97008
                     }
                 ]
             },
@@ -2930,6 +3410,10 @@
                     {
                         "mes": "MARZO",
                         "total": 2152165
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 168210
                     }
                 ]
             },
@@ -2946,6 +3430,10 @@
                     {
                         "mes": "MARZO",
                         "total": 2745786
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 224275
                     }
                 ]
             },
@@ -2978,6 +3466,10 @@
                     {
                         "mes": "MARZO",
                         "total": 2980542
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 901158
                     }
                 ]
             },
@@ -2994,6 +3486,10 @@
                     {
                         "mes": "MARZO",
                         "total": 5335985
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 243146
                     }
                 ]
             },
@@ -3034,6 +3530,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1289484
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 134696
                     }
                 ]
             },
@@ -3050,6 +3550,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1189559
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 121824
                     }
                 ]
             },
@@ -3066,6 +3570,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1301416
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 222939
                     }
                 ]
             },
@@ -3082,6 +3590,10 @@
                     {
                         "mes": "MARZO",
                         "total": 2133934
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 204409
                     }
                 ]
             },
@@ -3098,6 +3610,10 @@
                     {
                         "mes": "MARZO",
                         "total": 15142025
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 3987558
                     }
                 ]
             },
@@ -3114,6 +3630,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1968650
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 650516
                     }
                 ]
             },
@@ -3137,6 +3657,10 @@
                     {
                         "mes": "MARZO",
                         "total": 9967452
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 1419498
                     }
                 ]
             },
@@ -3153,6 +3677,10 @@
                     {
                         "mes": "MARZO",
                         "total": 617344
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 335602
                     }
                 ]
             },
@@ -3197,6 +3725,10 @@
                     {
                         "mes": "MARZO",
                         "total": 291456
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 272124
                     }
                 ]
             },
@@ -3225,6 +3757,10 @@
                     {
                         "mes": "FEBRERO",
                         "total": 79044
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 15108
                     }
                 ]
             },
@@ -3248,6 +3784,10 @@
                     {
                         "mes": "MARZO",
                         "total": 59344457
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 4323945
                     }
                 ]
             },
@@ -3260,6 +3800,10 @@
                     {
                         "mes": "MARZO",
                         "total": 231777
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 270847
                     }
                 ]
             },
@@ -3324,6 +3868,10 @@
                     {
                         "mes": "MARZO",
                         "total": 360940
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 299244
                     }
                 ]
             },
@@ -3340,6 +3888,13 @@
                 ]
             },
             {
+                "grupo": "BODEGAS CASA DEL RHIN ZF SAS",
+                "ventas_por_mes": [{
+                    "mes": "ABRIL",
+                    "total": 62628
+                }]
+            },
+            {
                 "grupo": "CASA IBAÑEZ COLOMBIA SAS",
                 "ventas_por_mes": [{
                         "mes": "ENERO",
@@ -3352,6 +3907,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1148178
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 376614
                     }
                 ]
             },
@@ -3364,6 +3923,10 @@
                     {
                         "mes": "MARZO",
                         "total": 4315200
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 417600
                     }
                 ]
             },
@@ -3396,6 +3959,10 @@
                     {
                         "mes": "MARZO",
                         "total": 3645049
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 552631
                     }
                 ]
             },
@@ -3412,6 +3979,10 @@
                     {
                         "mes": "MARZO",
                         "total": 6421469
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 202100
                     }
                 ]
             },
@@ -3428,6 +3999,10 @@
                     {
                         "mes": "MARZO",
                         "total": 425354
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 33642
                     }
                 ]
             },
@@ -3444,6 +4019,10 @@
                     {
                         "mes": "MARZO",
                         "total": 503450
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 283825
                     }
                 ]
             },
@@ -3460,6 +4039,10 @@
                     {
                         "mes": "MARZO",
                         "total": 70561
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 177786
                     }
                 ]
             },
@@ -3476,6 +4059,10 @@
                     {
                         "mes": "MARZO",
                         "total": 3965342
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 1139568
                     }
                 ]
             },
@@ -3492,6 +4079,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1273864
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 193582
                     }
                 ]
             },
@@ -3508,6 +4099,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1383428
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 230490
                     }
                 ]
             },
@@ -3536,6 +4131,10 @@
                     {
                         "mes": "MARZO",
                         "total": 5621196
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 1206308
                     }
                 ]
             },
@@ -3552,6 +4151,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1535367
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 548645
                     }
                 ]
             },
@@ -3580,6 +4183,10 @@
                     {
                         "mes": "MARZO",
                         "total": 2171676
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 671034
                     }
                 ]
             },
@@ -3596,6 +4203,10 @@
                     {
                         "mes": "MARZO",
                         "total": 2882040
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 1245486
                     }
                 ]
             },
@@ -3612,15 +4223,24 @@
                     {
                         "mes": "MARZO",
                         "total": 655300
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 25040
                     }
                 ]
             },
             {
                 "grupo": "PRODUCTOS ALIMENTICIOS BELLINI S.A.S",
                 "ventas_por_mes": [{
-                    "mes": "FEBRERO",
-                    "total": 5606425
-                }]
+                        "mes": "FEBRERO",
+                        "total": 5606425
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 3562949
+                    }
+                ]
             },
             {
                 "grupo": "PRODUCTOS ALIMENTICIOS EL EMBAJADOR SAS",
@@ -3642,6 +4262,10 @@
                     {
                         "mes": "MARZO",
                         "total": 802968
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 451752
                     }
                 ]
             },
@@ -3674,6 +4298,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1070366
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 840
                     }
                 ]
             },
@@ -3702,6 +4330,10 @@
                     {
                         "mes": "MARZO",
                         "total": 311076
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 346140
                     }
                 ]
             },
@@ -3726,6 +4358,10 @@
                     {
                         "mes": "MARZO",
                         "total": 75516
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 75540
                     }
                 ]
             },
@@ -3742,6 +4378,10 @@
                     {
                         "mes": "MARZO",
                         "total": 26953042
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 2476945
                     }
                 ]
             },
@@ -3754,6 +4394,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1087054
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 145332
                     }
                 ]
             },
@@ -3770,6 +4414,10 @@
                     {
                         "mes": "MARZO",
                         "total": 735899
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 621166
                     }
                 ]
             },
@@ -3782,6 +4430,10 @@
                     {
                         "mes": "MARZO",
                         "total": -8824
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": -16677
                     }
                 ]
             }
@@ -3970,6 +4622,10 @@
                     {
                         "mes": "MARZO",
                         "total": 41043967
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 28209888
                     }
                 ]
             },
@@ -4004,6 +4660,13 @@
     {
         "vendedor": "LISBETH JULIETH NARANJO ROJAS",
         "proveedor": [{
+                "grupo": "ALUMINIO NACIONAL S.A",
+                "ventas_por_mes": [{
+                    "mes": "ABRIL",
+                    "total": 98976
+                }]
+            },
+            {
                 "grupo": "ATW INTERNACIONAL SAS",
                 "ventas_por_mes": [{
                         "mes": "ENERO",
@@ -4012,14 +4675,30 @@
                     {
                         "mes": "MARZO",
                         "total": 1080011
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 211990
                     }
                 ]
             },
             {
                 "grupo": "CASA IBAÑEZ COLOMBIA SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 60255
+                        "mes": "ENERO",
+                        "total": 60255
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 28049
+                    }
+                ]
+            },
+            {
+                "grupo": "COMERCIALIZADORA CH COMPANY S.A.S",
+                "ventas_por_mes": [{
+                    "mes": "ABRIL",
+                    "total": 1252488
                 }]
             },
             {
@@ -4031,14 +4710,30 @@
                     {
                         "mes": "MARZO",
                         "total": 318717
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 8533
                     }
                 ]
             },
             {
                 "grupo": "COMPAÑÍA DE DULCES SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 3362
+                        "mes": "ENERO",
+                        "total": 3362
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 2854143
+                    }
+                ]
+            },
+            {
+                "grupo": "DS DISTRI SAMY SAS",
+                "ventas_por_mes": [{
+                    "mes": "ABRIL",
+                    "total": 936857
                 }]
             },
             {
@@ -4050,15 +4745,24 @@
                     {
                         "mes": "MARZO",
                         "total": 68978
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 135404
                     }
                 ]
             },
             {
                 "grupo": "LABORATORIOS COFARMA S.A",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 13082
-                }]
+                        "mes": "ENERO",
+                        "total": 13082
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 79204
+                    }
+                ]
             },
             {
                 "grupo": "PAPELES NACIONALES SAS",
@@ -4069,6 +4773,10 @@
                     {
                         "mes": "MARZO",
                         "total": 2338608
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 736704
                     }
                 ]
             },
@@ -4081,6 +4789,10 @@
                     {
                         "mes": "MARZO",
                         "total": 20076
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 35504
                     }
                 ]
             },
@@ -4093,15 +4805,24 @@
                     {
                         "mes": "MARZO",
                         "total": 26520
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 26520
                     }
                 ]
             },
             {
                 "grupo": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
                 "ventas_por_mes": [{
-                    "mes": "ENERO",
-                    "total": 11267
-                }]
+                        "mes": "ENERO",
+                        "total": 11267
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 25124
+                    }
+                ]
             },
             {
                 "grupo": "PRODUCTOS ALIMENTICIOS BELLINI S.A.S",
@@ -4126,6 +4847,10 @@
                     {
                         "mes": "MARZO",
                         "total": 24857
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 60721
                     }
                 ]
             },
@@ -4152,8 +4877,19 @@
                     {
                         "mes": "MARZO",
                         "total": 6962094
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 8091201
                     }
                 ]
+            },
+            {
+                "grupo": "TROLLI WORLD SAS",
+                "ventas_por_mes": [{
+                    "mes": "ABRIL",
+                    "total": 551995
+                }]
             },
             {
                 "grupo": "VENTAS NACIONALES SAS",
@@ -4198,6 +4934,10 @@
                     {
                         "mes": "MARZO",
                         "total": 139126
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 75302
                     }
                 ]
             },
@@ -4226,6 +4966,10 @@
                     {
                         "mes": "MARZO",
                         "total": 5200686
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 326404
                     }
                 ]
             },
@@ -4238,6 +4982,10 @@
                     {
                         "mes": "MARZO",
                         "total": 2737020
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 556800
                     }
                 ]
             },
@@ -4266,6 +5014,10 @@
                     {
                         "mes": "MARZO",
                         "total": 13488597
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 4073411
                     }
                 ]
             },
@@ -4289,6 +5041,10 @@
                     {
                         "mes": "MARZO",
                         "total": 998374
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 492511
                     }
                 ]
             },
@@ -4305,6 +5061,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1892937
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 1011639
                     }
                 ]
             },
@@ -4321,6 +5081,10 @@
                     {
                         "mes": "MARZO",
                         "total": 280518
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 594624
                     }
                 ]
             },
@@ -4353,6 +5117,10 @@
                     {
                         "mes": "MARZO",
                         "total": 3768509
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 670199
                     }
                 ]
             },
@@ -4369,6 +5137,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1524004
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 331700
                     }
                 ]
             },
@@ -4385,6 +5157,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1276763
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 118800
                     }
                 ]
             },
@@ -4417,6 +5193,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1118323
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 262822
                     }
                 ]
             },
@@ -4433,6 +5213,10 @@
                     {
                         "mes": "MARZO",
                         "total": 2741165
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 319264
                     }
                 ]
             },
@@ -4449,6 +5233,10 @@
                     {
                         "mes": "MARZO",
                         "total": 2006342
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 347333
                     }
                 ]
             },
@@ -4465,6 +5253,10 @@
                     {
                         "mes": "MARZO",
                         "total": 24403101
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 337752
                     }
                 ]
             },
@@ -4481,6 +5273,10 @@
                     {
                         "mes": "MARZO",
                         "total": 6082329
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 1520408
                     }
                 ]
             },
@@ -4497,6 +5293,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1553678
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 248426
                     }
                 ]
             },
@@ -4513,6 +5313,10 @@
                     {
                         "mes": "MARZO",
                         "total": 4813328
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 656933
                     }
                 ]
             },
@@ -4529,6 +5333,10 @@
                     {
                         "mes": "MARZO",
                         "total": 885562
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 340728
                     }
                 ]
             },
@@ -4568,6 +5376,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1727484
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 345132
                     }
                 ]
             },
@@ -4580,6 +5392,10 @@
                     {
                         "mes": "MARZO",
                         "total": 119540
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 243510
                     }
                 ]
             },
@@ -4596,6 +5412,10 @@
                     {
                         "mes": "MARZO",
                         "total": 160542
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 171644
                     }
                 ]
             },
@@ -4624,6 +5444,10 @@
                     {
                         "mes": "MARZO",
                         "total": 28129642
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 3750277
                     }
                 ]
             },
@@ -4636,6 +5460,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1947908
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 1245986
                     }
                 ]
             },
@@ -4648,6 +5476,10 @@
                     {
                         "mes": "MARZO",
                         "total": 142584
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 138637
                     }
                 ]
             },
@@ -5122,8 +5954,20 @@
         "proveedor": [{
                 "grupo": "LABORATORIOS COFARMA S.A",
                 "ventas_por_mes": [{
-                    "mes": "MARZO",
-                    "total": 43278
+                        "mes": "MARZO",
+                        "total": 43278
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 18129
+                    }
+                ]
+            },
+            {
+                "grupo": "PROCESADORA Y COMERCIALIZADORA LA SABANA SAS",
+                "ventas_por_mes": [{
+                    "mes": "ABRIL",
+                    "total": 25124
                 }]
             },
             {
@@ -5150,6 +5994,10 @@
                     {
                         "mes": "MARZO",
                         "total": 437074
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 59232
                     }
                 ]
             },
@@ -5166,6 +6014,10 @@
                     {
                         "mes": "MARZO",
                         "total": 48430
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 54268
                     }
                 ]
             },
@@ -5182,6 +6034,10 @@
                     {
                         "mes": "MARZO",
                         "total": 861653
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 136227
                     }
                 ]
             },
@@ -5194,6 +6050,10 @@
                     {
                         "mes": "MARZO",
                         "total": 2227200
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 208800
                     }
                 ]
             },
@@ -5206,6 +6066,10 @@
                     {
                         "mes": "MARZO",
                         "total": 157702
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 43504
                     }
                 ]
             },
@@ -5222,6 +6086,10 @@
                     {
                         "mes": "MARZO",
                         "total": 8480321
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 2639246
                     }
                 ]
             },
@@ -5238,6 +6106,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1766104
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 145512
                     }
                 ]
             },
@@ -5254,6 +6126,10 @@
                     {
                         "mes": "MARZO",
                         "total": 2072582
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 279057
                     }
                 ]
             },
@@ -5270,6 +6146,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1989065
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 684300
                     }
                 ]
             },
@@ -5286,6 +6166,10 @@
                     {
                         "mes": "MARZO",
                         "total": 164740
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 50860
                     }
                 ]
             },
@@ -5298,6 +6182,10 @@
                     {
                         "mes": "MARZO",
                         "total": 532740
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 113094
                     }
                 ]
             },
@@ -5314,6 +6202,10 @@
                     {
                         "mes": "MARZO",
                         "total": 424410
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 226436
                     }
                 ]
             },
@@ -5326,6 +6218,10 @@
                     {
                         "mes": "MARZO",
                         "total": 577426
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 226249
                     }
                 ]
             },
@@ -5354,6 +6250,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1020576
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 538784
                     }
                 ]
             },
@@ -5370,6 +6270,10 @@
                     {
                         "mes": "MARZO",
                         "total": 2933693
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 513597
                     }
                 ]
             },
@@ -5386,6 +6290,10 @@
                     {
                         "mes": "MARZO",
                         "total": 500202
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 353574
                     }
                 ]
             },
@@ -5402,6 +6310,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1208681
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 512193
                     }
                 ]
             },
@@ -5418,6 +6330,10 @@
                     {
                         "mes": "MARZO",
                         "total": 9584888
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 1175226
                     }
                 ]
             },
@@ -5434,15 +6350,24 @@
                     {
                         "mes": "MARZO",
                         "total": 10783080
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 124596
                     }
                 ]
             },
             {
                 "grupo": "PRODUCTOS ALIMENTICIOS EL EMBAJADOR SAS",
                 "ventas_por_mes": [{
-                    "mes": "MARZO",
-                    "total": 53616
-                }]
+                        "mes": "MARZO",
+                        "total": 53616
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 53616
+                    }
+                ]
             },
             {
                 "grupo": "PRODUSA ZONA FRANCA SAS",
@@ -5457,6 +6382,10 @@
                     {
                         "mes": "MARZO",
                         "total": 2094612
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 106896
                     }
                 ]
             },
@@ -5473,6 +6402,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1462039
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 451122
                     }
                 ]
             },
@@ -5489,6 +6422,10 @@
                     {
                         "mes": "MARZO",
                         "total": 893504
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 475344
                     }
                 ]
             },
@@ -5508,6 +6445,10 @@
                     {
                         "mes": "FEBRERO",
                         "total": 1217484
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 512910
                     }
                 ]
             },
@@ -5550,6 +6491,10 @@
                     {
                         "mes": "MARZO",
                         "total": 33561939
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 3593391
                     }
                 ]
             },
@@ -5574,6 +6519,10 @@
                     {
                         "mes": "MARZO",
                         "total": 445514
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 275988
                     }
                 ]
             },
@@ -5618,6 +6567,10 @@
                     {
                         "mes": "MARZO",
                         "total": 692949
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 387012
                     }
                 ]
             },
@@ -5646,6 +6599,10 @@
                     {
                         "mes": "MARZO",
                         "total": 2156920
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 892038
                     }
                 ]
             },
@@ -5674,6 +6631,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1310558
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 271900
                     }
                 ]
             },
@@ -5690,6 +6651,10 @@
                     {
                         "mes": "MARZO",
                         "total": 9209098
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 3875008
                     }
                 ]
             },
@@ -5706,6 +6671,10 @@
                     {
                         "mes": "MARZO",
                         "total": 671547
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 1713808
                     }
                 ]
             },
@@ -5722,6 +6691,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1004776
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 743426
                     }
                 ]
             },
@@ -5738,6 +6711,10 @@
                     {
                         "mes": "MARZO",
                         "total": 3555721
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 890900
                     }
                 ]
             },
@@ -5770,6 +6747,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1023193
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 679741
                     }
                 ]
             },
@@ -5786,6 +6767,10 @@
                     {
                         "mes": "MARZO",
                         "total": 5419736
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 1241456
                     }
                 ]
             },
@@ -5798,6 +6783,10 @@
                     {
                         "mes": "MARZO",
                         "total": 7517865
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 785624
                     }
                 ]
             },
@@ -5830,6 +6819,10 @@
                     {
                         "mes": "MARZO",
                         "total": 807968
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 520916
                     }
                 ]
             },
@@ -5846,6 +6839,10 @@
                     {
                         "mes": "MARZO",
                         "total": 9510500
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 5163658
                     }
                 ]
             },
@@ -5862,6 +6859,10 @@
                     {
                         "mes": "MARZO",
                         "total": 3204634
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 700251
                     }
                 ]
             },
@@ -5878,6 +6879,10 @@
                     {
                         "mes": "MARZO",
                         "total": 6451580
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 1907454
                     }
                 ]
             },
@@ -5894,6 +6899,10 @@
                     {
                         "mes": "MARZO",
                         "total": 6017194
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 1892244
                     }
                 ]
             },
@@ -5910,6 +6919,10 @@
                     {
                         "mes": "MARZO",
                         "total": 12721664
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 2191888
                     }
                 ]
             },
@@ -5932,9 +6945,14 @@
             {
                 "grupo": "PRODUCTOS ALIMENTICIOS EL EMBAJADOR SAS",
                 "ventas_por_mes": [{
-                    "mes": "MARZO",
-                    "total": 482544
-                }]
+                        "mes": "MARZO",
+                        "total": 482544
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 371082
+                    }
+                ]
             },
             {
                 "grupo": "PRODUSA ZONA FRANCA SAS",
@@ -5949,6 +6967,10 @@
                     {
                         "mes": "MARZO",
                         "total": 4732717
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 434928
                     }
                 ]
             },
@@ -5977,6 +6999,10 @@
                     {
                         "mes": "MARZO",
                         "total": 947020
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 1018320
                     }
                 ]
             },
@@ -6005,6 +7031,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1706042
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 288576
                     }
                 ]
             },
@@ -6033,6 +7063,10 @@
                     {
                         "mes": "MARZO",
                         "total": 662424
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 58044
                     }
                 ]
             },
@@ -6049,6 +7083,10 @@
                     {
                         "mes": "MARZO",
                         "total": 35214638
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 8576131
                     }
                 ]
             },
@@ -6061,6 +7099,10 @@
                     {
                         "mes": "MARZO",
                         "total": 10415824
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 622612
                     }
                 ]
             },
@@ -6132,6 +7174,10 @@
                     {
                         "mes": "MARZO",
                         "total": 1766017
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 389391
                     }
                 ]
             },
@@ -6155,6 +7201,10 @@
                     {
                         "mes": "MARZO",
                         "total": 12588365
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 3530336
                     }
                 ]
             },
@@ -6167,6 +7217,10 @@
                     {
                         "mes": "MARZO",
                         "total": 10355900
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 1044000
                     }
                 ]
             },
@@ -6195,6 +7249,10 @@
                     {
                         "mes": "MARZO",
                         "total": 19649729
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 1790302
                     }
                 ]
             },
@@ -6211,6 +7269,10 @@
                     {
                         "mes": "MARZO",
                         "total": 808400
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 1038560
                     }
                 ]
             },
@@ -6227,6 +7289,10 @@
                     {
                         "mes": "MARZO",
                         "total": 364039
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 112140
                     }
                 ]
             },
@@ -6243,6 +7309,10 @@
                     {
                         "mes": "MARZO",
                         "total": 772100
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 487175
                     }
                 ]
             },
@@ -6259,6 +7329,10 @@
                     {
                         "mes": "MARZO",
                         "total": 2378158
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 686015
                     }
                 ]
             },
@@ -6275,6 +7349,10 @@
                     {
                         "mes": "MARZO",
                         "total": 218828
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 577642
                     }
                 ]
             },
@@ -6307,6 +7385,10 @@
                     {
                         "mes": "MARZO",
                         "total": 809424
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 526872
                     }
                 ]
             },
@@ -6323,6 +7405,10 @@
                     {
                         "mes": "MARZO",
                         "total": 9438931
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 2347443
                     }
                 ]
             },
@@ -6339,6 +7425,10 @@
                     {
                         "mes": "MARZO",
                         "total": 6317304
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 4426779
                     }
                 ]
             },
@@ -6355,6 +7445,10 @@
                     {
                         "mes": "MARZO",
                         "total": 5637746
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 4255841
                     }
                 ]
             },
@@ -6371,6 +7465,10 @@
                     {
                         "mes": "MARZO",
                         "total": 232418
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 445440
                     }
                 ]
             },
@@ -6403,6 +7501,10 @@
                     {
                         "mes": "MARZO",
                         "total": 12216242
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 8421792
                     }
                 ]
             },
@@ -6447,6 +7549,10 @@
                     {
                         "mes": "MARZO",
                         "total": 5211193
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 2041116
                     }
                 ]
             },
@@ -6466,6 +7572,10 @@
                     {
                         "mes": "MARZO",
                         "total": 284346
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 109728
                     }
                 ]
             },
@@ -6482,15 +7592,24 @@
                     {
                         "mes": "MARZO",
                         "total": 25962814
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 6413814
                     }
                 ]
             },
             {
                 "grupo": "TROLLI WORLD SAS",
                 "ventas_por_mes": [{
-                    "mes": "MARZO",
-                    "total": 2914858
-                }]
+                        "mes": "MARZO",
+                        "total": 2914858
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 1529297
+                    }
+                ]
             },
             {
                 "grupo": "VENTAS NACIONALES SAS",
