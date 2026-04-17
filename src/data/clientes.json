@@ -4765,14 +4765,6 @@
         }]
     },
     {
-        "id": 901383020,
-        "nombre": "INVERSIONES SAMUBELLA SAS",
-        "sucursales": [{
-            "direccion": "CR 5 4 83  Sesquilé",
-            "vendedor": "ANA SOFIA ROLDAN RIQUE"
-        }]
-    },
-    {
         "id": 901387019,
         "nombre": "COMERCIALIZADORA MERCA2 SAS",
         "sucursales": [{
@@ -5050,26 +5042,9 @@
         "id": 901549752,
         "nombre": "SUPERMERCADOS DMIL ZIPAQUIRA SAS",
         "sucursales": [{
-                "direccion": "CR 12 6 90  Chía",
-                "vendedor": "ANA SOFIA ROLDAN RIQUE"
-            },
-            {
-                "direccion": "CL 7 6 27  Fusagasugá",
-                "vendedor": "ANA SOFIA ROLDAN RIQUE"
-            },
-            {
-                "direccion": "CR 7 12 27  Zipaquirá",
-                "vendedor": "ANA SOFIA ROLDAN RIQUE"
-            },
-            {
-                "direccion": "CL 7 6 27  Fusagasugá",
-                "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
-            },
-            {
-                "direccion": "CR 7 12 27     Zipaquirá",
-                "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
-            }
-        ]
+            "direccion": "CL 7 6 27  Fusagasugá",
+            "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
+        }]
     },
     {
         "id": 901553862,
