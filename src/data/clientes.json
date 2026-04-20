@@ -1543,10 +1543,6 @@
         "id": 51813094,
         "nombre": "ALBA LUZ RAMIREZ FANDIÑO",
         "sucursales": [{
-                "direccion": "CL 73 A SUR 18 B 02 La Estrella",
-                "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
-            },
-            {
                 "direccion": "TRV 2C 64 31 SUR La Fiscala",
                 "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
             },
@@ -1674,14 +1670,6 @@
         "sucursales": [{
             "direccion": "CL 8 79 C 24 Castilla",
             "vendedor": "XIMENA DEL PILAR SANTANA GAMBOA"
-        }]
-    },
-    {
-        "id": 52227171,
-        "nombre": "ALBA DORIS ESPINDOLA MENDIVELSO",
-        "sucursales": [{
-            "direccion": "CR 17 A 80 32 SUR  San Joaquin",
-            "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
         }]
     },
     {
@@ -2073,7 +2061,7 @@
         "nombre": "YENY MARIBEL MONROY PATIÑO",
         "sucursales": [{
                 "direccion": "CL 76 A SUR 73 B 09 Caracoli",
-                "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
+                "vendedor": "YENY MARIBEL MONROY PATIÑO"
             },
             {
                 "direccion": "AV CARACAS 37 48 SUR Santa Lucia",
@@ -2457,14 +2445,9 @@
         "id": 79452689,
         "nombre": "JUAN CARLOS BECERRA MARTINEZ",
         "sucursales": [{
-                "direccion": "CL 44 SUR 21 45 Santa Lucia",
-                "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
-            },
-            {
-                "direccion": "CL 23 D 110 17 Fontibon Versalles",
-                "vendedor": "XIMENA DEL PILAR SANTANA GAMBOA"
-            }
-        ]
+            "direccion": "CL 23 D 110 17 Fontibon Versalles",
+            "vendedor": "XIMENA DEL PILAR SANTANA GAMBOA"
+        }]
     },
     {
         "id": 79486816,
@@ -2551,38 +2534,9 @@
         "id": 79609701,
         "nombre": "JAVIER VERDUGO BARON",
         "sucursales": [{
-                "direccion": "CR 27 47 31 SUR Claret",
-                "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
-            },
-            {
-                "direccion": "CL 64 SUR 37 24 Candelaria",
-                "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
-            },
-            {
-                "direccion": "CR 12 BIS 26 23 SUR",
-                "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
-            },
-            {
-                "direccion": "CL 35 SUR 26 D 35 Bravo Paez",
-                "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
-            },
-            {
-                "direccion": "CL 29 SUR 4 60 ESTE  Santa Ines",
-                "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
-            },
-            {
-                "direccion": "CL 145 47 43  Prado",
-                "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
-            },
-            {
-                "direccion": "CR 16 7 02   Zipaquirá",
-                "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
-            },
-            {
-                "direccion": "CL 8 32 24 ZONA INDUSTRIAL  Zipaquirá",
-                "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
-            }
-        ]
+            "direccion": "CL 145 47 43  Prado",
+            "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
+        }]
     },
     {
         "id": 79613103,
@@ -3042,7 +2996,7 @@
         "nombre": "JAIRO ANDRES PARRADO GUTIERREZ",
         "sucursales": [{
             "direccion": "CL 91 CR 6 C 10 ESTE Alfonso Lopez",
-            "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
+            "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
         }]
     },
     {
@@ -4087,23 +4041,6 @@
         ]
     },
     {
-        "id": 900603085,
-        "nombre": "COMERCIALIZADORA LA CONCEPCION URREA ORTIZ S.A.S",
-        "sucursales": [{
-                "direccion": "CL 47 SUR 27 09 Claret",
-                "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
-            },
-            {
-                "direccion": "DG 52 C BIS SUR 29 38 El Carmen",
-                "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
-            },
-            {
-                "direccion": "CL 46 3 A 15 Quintanares Soacha",
-                "vendedor": "ESTHER ANGELA SALAZAR MORA"
-            }
-        ]
-    },
-    {
         "id": 900607573,
         "nombre": "COMERCIALIZADOR MERCADOS MODERNOS SAS",
         "sucursales": [{
@@ -4358,19 +4295,6 @@
             "direccion": "CL 163 A 8 D 73 San Cristobal Norte",
             "vendedor": "DIANA MARCELA BERMUDEZ SERRANO"
         }]
-    },
-    {
-        "id": 901092715,
-        "nombre": "SUPERKAFALANDIA SAS",
-        "sucursales": [{
-                "direccion": "CL 75 59 21 SUR La Estancia",
-                "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
-            },
-            {
-                "direccion": "CR 41 A 4 19 Primavera",
-                "vendedor": "YENY MARIBEL MONROY PATIÑO"
-            }
-        ]
     },
     {
         "id": 901102777,
@@ -4922,14 +4846,6 @@
         }]
     },
     {
-        "id": 901450800,
-        "nombre": "MAWCHEMICAL SAS",
-        "sucursales": [{
-            "direccion": "CL 65 A SUR 73 G 39 Perdomo",
-            "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
-        }]
-    },
-    {
         "id": 901451192,
         "nombre": "INVERSIONES BNC SAS",
         "sucursales": [{
@@ -5012,14 +4928,6 @@
         "sucursales": [{
             "direccion": "CR 17 11 27 Plaza España",
             "vendedor": "ESTHER ANGELA SALAZAR MORA"
-        }]
-    },
-    {
-        "id": 901519639,
-        "nombre": "DIAMANTE V.E.D SAS",
-        "sucursales": [{
-            "direccion": "CR 17 A 75 B 15 SUR Lucero",
-            "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
         }]
     },
     {
@@ -5276,27 +5184,11 @@
         }]
     },
     {
-        "id": 901748757,
-        "nombre": "SUPERMERCADO LA AVENIDA H J SAS",
-        "sucursales": [{
-            "direccion": "CR 27 B 71 J 23 R Paraiso",
-            "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
-        }]
-    },
-    {
         "id": 901753562,
         "nombre": "MORA SUPERMARKET Y LICORERA SAS",
         "sucursales": [{
             "direccion": "DG 34 14 0 Rincon de Santafe Soacha",
             "vendedor": "ESTHER ANGELA SALAZAR MORA"
-        }]
-    },
-    {
-        "id": 901760620,
-        "nombre": "INVERSIONES ALT SAS",
-        "sucursales": [{
-            "direccion": "CR 75 59 21 SUR La Estancia",
-            "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
         }]
     },
     {
@@ -5818,14 +5710,6 @@
         }]
     },
     {
-        "id": 1020749804,
-        "nombre": "CRISTIAN CAMILO GAITAN MANCIPE",
-        "sucursales": [{
-            "direccion": "CR 5 11 30  San Diego De Ubate",
-            "vendedor": "ANA SOFIA ROLDAN RIQUE"
-        }]
-    },
-    {
         "id": 1020810975,
         "nombre": "CARLOS AUGUSTO ROMERO ROJAS",
         "sucursales": [{
@@ -5878,7 +5762,7 @@
         "nombre": "YULI ALEXANDRA GAMEZ RAMIREZ",
         "sucursales": [{
                 "direccion": "CL 53 SUR 18 B 10 San Carlos",
-                "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
+                "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
             },
             {
                 "direccion": "CL 28 SUR 0 22 Cordoba",
@@ -6075,14 +5959,6 @@
         ]
     },
     {
-        "id": 1024539105,
-        "nombre": "YIMMI RAFAEL ECHEVERRIA SUAREZ",
-        "sucursales": [{
-            "direccion": "CL 73 18A 40 SUR Lucero Medio Barrio La Estrella",
-            "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
-        }]
-    },
-    {
         "id": 1024554579,
         "nombre": "MARCYA JULIETH CASTILLO SANCHEZ",
         "sucursales": [{
@@ -6127,14 +6003,6 @@
         "nombre": "CINTIA JULIE CHAVARRO ARIAS",
         "sucursales": [{
             "direccion": "CL 76 A SUR 50 A 05 Tres Esquinas",
-            "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
-        }]
-    },
-    {
-        "id": 1030559175,
-        "nombre": "JUAN MAURICIO PABON MORA",
-        "sucursales": [{
-            "direccion": "CL 79 BIS B S 18 J 03 El Tesoro",
             "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
         }]
     },
@@ -6269,14 +6137,6 @@
         }]
     },
     {
-        "id": 1033725532,
-        "nombre": "JEIMMY PAOLA VELA MORALES",
-        "sucursales": [{
-            "direccion": "CR 46 69 D 20 SUR  Arbolizadora Alta",
-            "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
-        }]
-    },
-    {
         "id": 1033744632,
         "nombre": "JOHANN GUILLERMO MUÑOZ VIRACACHA",
         "sucursales": [{
@@ -6370,14 +6230,6 @@
         }]
     },
     {
-        "id": 1057214599,
-        "nombre": "OMAR EDILSON CASTELLANOS PAEZ",
-        "sucursales": [{
-            "direccion": "CL 11 2B 89  Cota",
-            "vendedor": "ANA SOFIA ROLDAN RIQUE"
-        }]
-    },
-    {
         "id": 1057214843,
         "nombre": "LISETH ADRIANA LAITON GONZALEZ",
         "sucursales": [{
@@ -6405,14 +6257,6 @@
                 "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
             }
         ]
-    },
-    {
-        "id": 1069258611,
-        "nombre": "LUIS CARLOS RUEDA DIAZA",
-        "sucursales": [{
-            "direccion": "CL 12 2 48  Chocontá",
-            "vendedor": "ANA SOFIA ROLDAN RIQUE"
-        }]
     },
     {
         "id": 1069403428,
@@ -6488,14 +6332,6 @@
         }]
     },
     {
-        "id": 1070004699,
-        "nombre": "SANDRA JINA ISABEL RUGE TRIVIÑO",
-        "sucursales": [{
-            "direccion": "VDA CENTRO SANTA BARBARA  Tabio",
-            "vendedor": "ANA SOFIA ROLDAN RIQUE"
-        }]
-    },
-    {
         "id": 1070326937,
         "nombre": "JHON HENRY HERRERA PARRA",
         "sucursales": [{
@@ -6534,27 +6370,6 @@
             "direccion": "CL 31 1 65   Chía",
             "vendedor": "ANA SOFIA ROLDAN RIQUE"
         }]
-    },
-    {
-        "id": 1072709736,
-        "nombre": "CRISTIAN ARLEY GONZALEZ CASTELLANOS",
-        "sucursales": [{
-            "direccion": "CR 33 8 112  Zipaquirá",
-            "vendedor": "ANA SOFIA ROLDAN RIQUE"
-        }]
-    },
-    {
-        "id": 1072713310,
-        "nombre": "FABIO ALEXIS GONZALEZ BURGOS",
-        "sucursales": [{
-                "direccion": "CL 1 A 5 24 Centro",
-                "vendedor": "ANA SOFIA ROLDAN RIQUE"
-            },
-            {
-                "direccion": "CL 3  7 40 Cajica",
-                "vendedor": "ANA SOFIA ROLDAN RIQUE"
-            }
-        ]
     },
     {
         "id": 1072714095,
