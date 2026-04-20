@@ -132,14 +132,6 @@
         }]
     },
     {
-        "id": 4245799,
-        "nombre": "ALEXANDER LAGOS SANCHEZ",
-        "sucursales": [{
-            "direccion": "CL 48 X 2C 30 SUR Diana Turbay",
-            "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
-        }]
-    },
-    {
         "id": 4263947,
         "nombre": "JOSE ARGEMIRO PIÑEROS VACA",
         "sucursales": [{
@@ -651,14 +643,6 @@
         "sucursales": [{
             "direccion": "DG 64 BIS SUR 17 C 28 Lucero Bajo",
             "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
-        }]
-    },
-    {
-        "id": 11412294,
-        "nombre": "LUIS ALFREDO PULIDO RICO",
-        "sucursales": [{
-            "direccion": "CL 91 SUR 2 B 23 ESTE Yomasa",
-            "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
         }]
     },
     {
