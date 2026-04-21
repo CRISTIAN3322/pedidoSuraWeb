@@ -764,14 +764,6 @@
         }]
     },
     {
-        "id": 13560617,
-        "nombre": "NICODEMUS SARMIENTO RAMIREZ",
-        "sucursales": [{
-            "direccion": "CL 81 SUR 10 78 Yomasa",
-            "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
-        }]
-    },
-    {
         "id": 13615703,
         "nombre": "RICARDO REYES PAEZ",
         "sucursales": [{
@@ -912,14 +904,6 @@
         "sucursales": [{
             "direccion": "CL 6 A 89 47 LOCAL 641 Tintala",
             "vendedor": "XIMENA DEL PILAR SANTANA GAMBOA"
-        }]
-    },
-    {
-        "id": 19323125,
-        "nombre": "MANUEL VICENTE VANEGAS RODRIGUEZ",
-        "sucursales": [{
-            "direccion": "CL 43 SUR 13A 05 San Jorge Sur",
-            "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
         }]
     },
     {
@@ -6871,7 +6855,7 @@
         "nombre": "INVERSIONES SURTIYA EXPRESSO SAS",
         "sucursales": [{
             "direccion": "DG 51 A SUR 61 A 39 Rincon de Venecia ",
-            "vendedor": "JAIRO IBAÑEZ ARTUNDUAGA"
+            "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
         }]
     },
     {
