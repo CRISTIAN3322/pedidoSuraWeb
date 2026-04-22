@@ -39,14 +39,6 @@
         }]
     },
     {
-        "id": 3082327,
-        "nombre": "MAURICIO GARZON OLIVARES",
-        "sucursales": [{
-            "direccion": "CR 112 23 C 04 Versalles",
-            "vendedor": "XIMENA DEL PILAR SANTANA GAMBOA"
-        }]
-    },
-    {
         "id": 3158710,
         "nombre": "BERNARDO ZAMORA PULIDO",
         "sucursales": [{
@@ -105,14 +97,6 @@
         "sucursales": [{
             "direccion": "CL 1 A 83 23 PISO 2 Maria Paz",
             "vendedor": "YENY MARIBEL MONROY PATIÑO"
-        }]
-    },
-    {
-        "id": 4090991,
-        "nombre": "RIGOBERTO ROA MARTINEZ",
-        "sucursales": [{
-            "direccion": "CL 129 D 105 C 39 Aures II",
-            "vendedor": "CONSUELO MUÑOZ"
         }]
     },
     {
@@ -257,14 +241,6 @@
         "sucursales": [{
             "direccion": "CR 27B 71 L 09 SUR Paraiso",
             "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
-        }]
-    },
-    {
-        "id": 7124541,
-        "nombre": "MARCO TULIO LAITON PAEZ",
-        "sucursales": [{
-            "direccion": "CR 3 1 36  Tabio",
-            "vendedor": "ANA SOFIA ROLDAN RIQUE"
         }]
     },
     {
@@ -593,19 +569,6 @@
         }]
     },
     {
-        "id": 11411506,
-        "nombre": "JULIO ENRIQUE CESPEDES QUEVEDO",
-        "sucursales": [{
-                "direccion": "CL 74 B SUR 9 40 Santa Librada",
-                "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
-            },
-            {
-                "direccion": "DG 32 SUR 3 60 Villa De Los Alpes",
-                "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
-            }
-        ]
-    },
-    {
         "id": 11411598,
         "nombre": "LUIS ERNESTO ARDILA NOVOA",
         "sucursales": [{
@@ -678,42 +641,12 @@
         }]
     },
     {
-        "id": 11413415,
-        "nombre": "HECTOR ALONSO NIETO GUEVARA",
-        "sucursales": [{
-                "direccion": "CR 87 5 B 08 SUR Patio Bonito",
-                "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
-            },
-            {
-                "direccion": "CR  6 13 42  Madrid",
-                "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
-            },
-            {
-                "direccion": "CL 19 1 A 16  Mosquera",
-                "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
-            }
-        ]
-    },
-    {
         "id": 11413551,
         "nombre": "ARIEL GUTIERREZ CUBILLOS",
         "sucursales": [{
             "direccion": "CL 81 SUR 8C 23 Yomasa",
             "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
         }]
-    },
-    {
-        "id": 11413580,
-        "nombre": "EDIER RAMIRO NOVOA GUTIERREZ",
-        "sucursales": [{
-                "direccion": "CR 6 ESTE 47 03 Villa Del Cerro",
-                "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
-            },
-            {
-                "direccion": "CR 6 ESTE 47 03 SUR Villa del Cerro",
-                "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
-            }
-        ]
     },
     {
         "id": 11413742,
@@ -825,14 +758,6 @@
         "sucursales": [{
             "direccion": "CR 100 16H 77 Fontibon",
             "vendedor": "XIMENA DEL PILAR SANTANA GAMBOA"
-        }]
-    },
-    {
-        "id": 16137918,
-        "nombre": "CESAR AUGUSTO ALZATE ARIAS",
-        "sucursales": [{
-            "direccion": "CL 27 A SUR 1 45 ESTE Cordoba",
-            "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
         }]
     },
     {
@@ -1048,14 +973,6 @@
         }]
     },
     {
-        "id": 23730881,
-        "nombre": "MARIELA GUATAVA BARRAGAN",
-        "sucursales": [{
-            "direccion": "DG 15 A 2 04 ESTE Hato Chico Soacha",
-            "vendedor": "ESTHER ANGELA SALAZAR MORA"
-        }]
-    },
-    {
         "id": 23925427,
         "nombre": "MARIELINA JOYA DE MOGOLLON",
         "sucursales": [{
@@ -1117,22 +1034,6 @@
         "sucursales": [{
             "direccion": "CR 13 31 F 13 SUR Gustavo Restrepo",
             "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
-        }]
-    },
-    {
-        "id": 28057529,
-        "nombre": "ARACELY DUARTE HERRERA",
-        "sucursales": [{
-            "direccion": "CR 152 132 D 22 Suba Lisboa",
-            "vendedor": "CONSUELO MUÑOZ"
-        }]
-    },
-    {
-        "id": 28111135,
-        "nombre": "RUBIELA GOMEZ VELANDIA",
-        "sucursales": [{
-            "direccion": "CL 91 SUR 9 45 Comuneros",
-            "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
         }]
     },
     {
@@ -1232,14 +1133,6 @@
         }]
     },
     {
-        "id": 37943368,
-        "nombre": "LUZ MERCEDES RUIZ FRANCO",
-        "sucursales": [{
-            "direccion": "CR 102A 131 16 Aures",
-            "vendedor": "CONSUELO MUÑOZ"
-        }]
-    },
-    {
         "id": 38246976,
         "nombre": "GLADYS ARDILA POVEDA",
         "sucursales": [{
@@ -1293,14 +1186,6 @@
         "sucursales": [{
             "direccion": "CL 38 SUR 86 C 85 Patio Bonito",
             "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
-        }]
-    },
-    {
-        "id": 39730820,
-        "nombre": "OLGA LUCIA PARRADO VELASQUEZ",
-        "sucursales": [{
-            "direccion": "CL 81 SUR 6 31 11 Yomasa",
-            "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
         }]
     },
     {
@@ -1423,14 +1308,6 @@
         }]
     },
     {
-        "id": 46454298,
-        "nombre": "BERTHA MABEL CHIQUILLO TOBO",
-        "sucursales": [{
-            "direccion": "CL 138 153 23 Suba Santa Rita",
-            "vendedor": "CONSUELO MUÑOZ"
-        }]
-    },
-    {
         "id": 51552631,
         "nombre": "MARIA MERCEDES DIAZ PALENCIA",
         "sucursales": [{
@@ -1492,33 +1369,12 @@
         }]
     },
     {
-        "id": 51673879,
-        "nombre": "ANA ISABEL CASTILLO MELO",
-        "sucursales": [{
-            "direccion": "CR 88 C 70 11 SUR Bosa Sanbernardino",
-            "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
-        }]
-    },
-    {
         "id": 51793924,
         "nombre": "DANNY PATRICIA CAVANZO FLOREZ",
         "sucursales": [{
             "direccion": "CR 9 13 39  Agua de Dios",
             "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
         }]
-    },
-    {
-        "id": 51813094,
-        "nombre": "ALBA LUZ RAMIREZ FANDIÑO",
-        "sucursales": [{
-                "direccion": "TRV 2C 64 31 SUR La Fiscala",
-                "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
-            },
-            {
-                "direccion": "TRV 3 C ESTE 43 C 20 SUR La Victoria",
-                "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
-            }
-        ]
     },
     {
         "id": 51816734,
@@ -1542,22 +1398,6 @@
         "sucursales": [{
             "direccion": "CL 46 1 51 ESTE Quintanares Soacha",
             "vendedor": "ESTHER ANGELA SALAZAR MORA"
-        }]
-    },
-    {
-        "id": 51981616,
-        "nombre": "OLGA GUATAVA BARRAGAN",
-        "sucursales": [{
-            "direccion": "CR 2 A 11 A 08  Silvania",
-            "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
-        }]
-    },
-    {
-        "id": 52025478,
-        "nombre": "VILMA RAQUEL USME MEDINA",
-        "sucursales": [{
-            "direccion": "CL 54 SUR 78 A 22 Timiza",
-            "vendedor": "YENY MARIBEL MONROY PATIÑO"
         }]
     },
     {
@@ -1601,14 +1441,6 @@
         }]
     },
     {
-        "id": 52191816,
-        "nombre": "DORA ISABEL GONZALEZ MAYORGA",
-        "sucursales": [{
-            "direccion": "CL 49 SUR 90 B 03 Bosa Porvenir",
-            "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
-        }]
-    },
-    {
         "id": 52210494,
         "nombre": "SANDRA BIBIANA RODRIGUEZ HUERFANO",
         "sucursales": [{
@@ -1645,14 +1477,6 @@
         "nombre": "YENY ESPERANZA ESLAVA ZARATE",
         "sucursales": [{
             "direccion": "CL 76 14 M 18 Marichuela",
-            "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
-        }]
-    },
-    {
-        "id": 52235451,
-        "nombre": "LUZ ENY VANEGAS ARENAS",
-        "sucursales": [{
-            "direccion": "DG 89 SUR 4 F 15 ESTE Chapinerito",
             "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
         }]
     },
@@ -1782,27 +1606,6 @@
         }]
     },
     {
-        "id": 52464418,
-        "nombre": "MARIA ESTHER CABALLERO BENITEZ",
-        "sucursales": [{
-                "direccion": "CR 92 71 41 SUR CS 217 Bosa Recreo",
-                "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
-            },
-            {
-                "direccion": "CR 27 29 26 Centenario",
-                "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
-            }
-        ]
-    },
-    {
-        "id": 52467777,
-        "nombre": "INGRID JANNETH NIAMPIRA ROJAS",
-        "sucursales": [{
-            "direccion": "CL 49 88 G 47 SUR  Bosa Brasil",
-            "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
-        }]
-    },
-    {
         "id": 52474659,
         "nombre": "LUZ DARY CASTRO PULIDO",
         "sucursales": [{
@@ -1891,19 +1694,6 @@
         }]
     },
     {
-        "id": 52754457,
-        "nombre": "ANGELA RUTH ARIZA ALARCON",
-        "sucursales": [{
-                "direccion": "CL 148 95 19 Suba la Campiña",
-                "vendedor": "CONSUELO MUÑOZ"
-            },
-            {
-                "direccion": "CL 38 SUR 88 A 14 Patio Bonito",
-                "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
-            }
-        ]
-    },
-    {
         "id": 52761798,
         "nombre": "DIANA MILENA CASTILLO RIVERA",
         "sucursales": [{
@@ -1952,23 +1742,6 @@
         }]
     },
     {
-        "id": 52806346,
-        "nombre": "FRANCY JANETH HUERTAS MARTINEZ",
-        "sucursales": [{
-                "direccion": "CR 8 BIS 57 A 09 SUR Bosa Libertad",
-                "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
-            },
-            {
-                "direccion": "CL 46 SUR 81H 32 Britalia",
-                "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
-            },
-            {
-                "direccion": "CL 1 83 23 Maria Paz",
-                "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
-            }
-        ]
-    },
-    {
         "id": 52827477,
         "nombre": "LUZ STELLA CAMPIÑO SANCHEZ",
         "sucursales": [{
@@ -1985,57 +1758,12 @@
         }]
     },
     {
-        "id": 52860748,
-        "nombre": "MADYLENE FONSECA VARELA",
-        "sucursales": [{
-            "direccion": "CL 13 SUR 11 50 ESTE San Cristobal",
-            "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
-        }]
-    },
-    {
-        "id": 52876341,
-        "nombre": "DEYSI PAOLA LEON HERNANDEZ",
-        "sucursales": [{
-            "direccion": "CL 72 A SUR 14 Y 07 Quintas De La Aurora",
-            "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
-        }]
-    },
-    {
-        "id": 52876341,
-        "nombre": "DEYSI PAOLA LEON HERNANEZ ",
-        "sucursales": [{
-            "direccion": "CL 72 A SUR 14 Y 07  Quinta de la Aurora",
-            "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
-        }]
-    },
-    {
-        "id": 52881869,
-        "nombre": "NANCY MILENA SANCHEZ GAONA",
-        "sucursales": [{
-            "direccion": "CL 42A SUR 98B 09 Los Alpes",
-            "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
-        }]
-    },
-    {
         "id": 52951174,
         "nombre": "NIDIA JOHANNA CARRILLO ORTIZ",
         "sucursales": [{
             "direccion": "CR 47 59 C 27 SUR Tunal",
             "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
         }]
-    },
-    {
-        "id": 52957099,
-        "nombre": "YENY MARIBEL MONROY PATIÑO",
-        "sucursales": [{
-                "direccion": "CL 76 A SUR 73 B 09 Caracoli",
-                "vendedor": "YENY MARIBEL MONROY PATIÑO"
-            },
-            {
-                "direccion": "AV CARACAS 37 48 SUR Santa Lucia",
-                "vendedor": "YENY MARIBEL MONROY PATIÑO"
-            }
-        ]
     },
     {
         "id": 52965020,
@@ -2081,27 +1809,6 @@
             "direccion": "CL 138 150 B 05 Suba Lisboa",
             "vendedor": "CONSUELO MUÑOZ"
         }]
-    },
-    {
-        "id": 65741777,
-        "nombre": "ALBA YENCI PIRABAN JIMENEZ",
-        "sucursales": [{
-            "direccion": "CLL 144  145 03 P 1  Suba Bilbao",
-            "vendedor": "CONSUELO MUÑOZ"
-        }]
-    },
-    {
-        "id": 66879723,
-        "nombre": "FRENDA YANINA URBANO",
-        "sucursales": [{
-                "direccion": "CR 9 ESTE 36 I 25 SUR San Cristobal",
-                "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
-            },
-            {
-                "direccion": "DG 32 A 3 06 Villa De Los Alpes",
-                "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
-            }
-        ]
     },
     {
         "id": 68306167,
@@ -2170,14 +1877,6 @@
         }]
     },
     {
-        "id": 74321460,
-        "nombre": "FAUSTO ANTONIO GIL GARCIA",
-        "sucursales": [{
-            "direccion": "CR 10 9 22   Fusagasugá",
-            "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
-        }]
-    },
-    {
         "id": 74377001,
         "nombre": "EDWAR ALEXANDER RIOS OCHOA",
         "sucursales": [{
@@ -2199,14 +1898,6 @@
         "sucursales": [{
             "direccion": "CL 31 1 28  Chía",
             "vendedor": "ANA SOFIA ROLDAN RIQUE"
-        }]
-    },
-    {
-        "id": 75076696,
-        "nombre": "JORGE ALBERTO PATIÑO PATIÑO",
-        "sucursales": [{
-            "direccion": "CR 72 A 56 C 13 SUR Olarte",
-            "vendedor": "YENY MARIBEL MONROY PATIÑO"
         }]
     },
     {
@@ -2258,14 +1949,6 @@
         }]
     },
     {
-        "id": 79252812,
-        "nombre": "ALBERTO QUINTERO RAMIREZ",
-        "sucursales": [{
-            "direccion": "CL 43 12 33 SUR Marco Fidel",
-            "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
-        }]
-    },
-    {
         "id": 79262264,
         "nombre": "LUIS RAUL ARIZA BOHORQUEZ",
         "sucursales": [{
@@ -2281,22 +1964,6 @@
                 "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
             }
         ]
-    },
-    {
-        "id": 79263633,
-        "nombre": "JAIME EDUARDO MARTINEZ CASTILLO",
-        "sucursales": [{
-            "direccion": "CR 64 23B 71  Fusagasugá",
-            "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
-        }]
-    },
-    {
-        "id": 79288961,
-        "nombre": "EDGAR DUARTE MOLINA",
-        "sucursales": [{
-            "direccion": "CR 9  2 67   Tocaima",
-            "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
-        }]
     },
     {
         "id": 79295687,
@@ -2385,36 +2052,11 @@
         ]
     },
     {
-        "id": 79431278,
-        "nombre": "SAUL HUMBERTO GAMEZ GAMBOA",
-        "sucursales": [{
-                "direccion": "CL 56 SUR 1 ESTE 11 Danubio",
-                "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
-            },
-            {
-                "direccion": "TRA 12 C 64 31 SUR La Fiscala",
-                "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
-            },
-            {
-                "direccion": "CR 11 ESTE 54 A 94 SUR Libertadores",
-                "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
-            }
-        ]
-    },
-    {
         "id": 79436748,
         "nombre": "GILDARDO SALCEDO CAMACHO",
         "sucursales": [{
             "direccion": "CL 26 SUR 29A 10 Santander",
             "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
-        }]
-    },
-    {
-        "id": 79452689,
-        "nombre": "JUAN CARLOS BECERRA MARTINEZ",
-        "sucursales": [{
-            "direccion": "CL 23 D 110 17 Fontibon Versalles",
-            "vendedor": "XIMENA DEL PILAR SANTANA GAMBOA"
         }]
     },
     {
@@ -2499,14 +2141,6 @@
         ]
     },
     {
-        "id": 79609701,
-        "nombre": "JAVIER VERDUGO BARON",
-        "sucursales": [{
-            "direccion": "CL 145 47 43  Prado",
-            "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
-        }]
-    },
-    {
         "id": 79613103,
         "nombre": "MARTIN EMILIO NOVOA ORTIZ",
         "sucursales": [{
@@ -2526,19 +2160,6 @@
             "direccion": "DG 7 1 63  Tabio",
             "vendedor": "ANA SOFIA ROLDAN RIQUE"
         }]
-    },
-    {
-        "id": 79642006,
-        "nombre": "LUIS CARLOS PLAZAS WILCHES",
-        "sucursales": [{
-                "direccion": "CL 6 SUR  16 A 150 VIA INDUMIL  Soacha",
-                "vendedor": "ESTHER ANGELA SALAZAR MORA"
-            },
-            {
-                "direccion": "CL 2 91 10 SUR Calandaima",
-                "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
-            }
-        ]
     },
     {
         "id": 79646306,
@@ -2607,14 +2228,6 @@
         "sucursales": [{
             "direccion": "CL 51 A SUR 78 H 20 Catalina",
             "vendedor": "YENY MARIBEL MONROY PATIÑO"
-        }]
-    },
-    {
-        "id": 79734503,
-        "nombre": "JOHN FREDY BELTRAN AGUILERA",
-        "sucursales": [{
-            "direccion": "CR 110 G 72 D 05 Bonanza",
-            "vendedor": "XIMENA DEL PILAR SANTANA GAMBOA"
         }]
     },
     {
@@ -2700,19 +2313,6 @@
         }]
     },
     {
-        "id": 79841173,
-        "nombre": "JOSE HUMBERTO LINARES CARDENAS",
-        "sucursales": [{
-                "direccion": "CR 5 13A 71  Cota",
-                "vendedor": "ANA SOFIA ROLDAN RIQUE"
-            },
-            {
-                "direccion": "CL 51 SUR 88F  1 Bosa Brasil",
-                "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
-            }
-        ]
-    },
-    {
         "id": 79886234,
         "nombre": "LUIS EDUARDO PORRAS ALDANA",
         "sucursales": [{
@@ -2752,44 +2352,6 @@
             "direccion": "CR 11 C 30 30 Compartir Soacha",
             "vendedor": "ESTHER ANGELA SALAZAR MORA"
         }]
-    },
-    {
-        "id": 79986884,
-        "nombre": "JAIRO ALFONSO PULIDO LIEVANO",
-        "sucursales": [{
-                "direccion": "CL 73D SUR 14A 22 Santa Librada",
-                "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
-            },
-            {
-                "direccion": "CR 14 G 136 A 90 SUR Usme",
-                "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
-            }
-        ]
-    },
-    {
-        "id": 79994181,
-        "nombre": "CHRISTIAN GIRARDI CIFUENTES",
-        "sucursales": [{
-            "direccion": "CL 4 A 22 49 LC 2  La Mesa",
-            "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
-        }]
-    },
-    {
-        "id": 80002112,
-        "nombre": "JAVIER MAURICIO ORTIZ CAGUEÑAS",
-        "sucursales": [{
-                "direccion": "DG 70 73 F 40 SUR Sierra Morena",
-                "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
-            },
-            {
-                "direccion": "CL 43 SUR 12 G 40 San Jorge Sur",
-                "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
-            },
-            {
-                "direccion": "CL 35 SUR 15 B 11 Ciudad Latina Soacha",
-                "vendedor": "ESTHER ANGELA SALAZAR MORA"
-            }
-        ]
     },
     {
         "id": 80003719,
@@ -2928,51 +2490,11 @@
         }]
     },
     {
-        "id": 80238557,
-        "nombre": "JOHN ALEXANDER SALAZAR BUITRAGO",
-        "sucursales": [{
-            "direccion": "CL 48 L 5 C 10 SUR Bochica",
-            "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
-        }]
-    },
-    {
-        "id": 80248878,
-        "nombre": "JOSE WILLIAM MORALES VELA",
-        "sucursales": [{
-            "direccion": "CR 71 F 56 C 05 SUR Olarte",
-            "vendedor": "YENY MARIBEL MONROY PATIÑO"
-        }]
-    },
-    {
         "id": 80251144,
         "nombre": "EDIER ALONSO ZULUAGA ZULUAGA",
         "sucursales": [{
             "direccion": "CR 77C SUR 68 40 Santo Domingo",
             "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
-        }]
-    },
-    {
-        "id": 80253178,
-        "nombre": "CARLOS ALBERTO VALLEJO CAGUEÑAS",
-        "sucursales": [{
-            "direccion": "CL 93 5 B 30 SUR Virrey",
-            "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
-        }]
-    },
-    {
-        "id": 80254079,
-        "nombre": "JAIRO ANDRES PARRADO GUTIERREZ",
-        "sucursales": [{
-            "direccion": "CL 91 CR 6 C 10 ESTE Alfonso Lopez",
-            "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
-        }]
-    },
-    {
-        "id": 80277842,
-        "nombre": "JAVIER OLAYA ROMERO",
-        "sucursales": [{
-            "direccion": "CC CORABASTOS BG LC 2 Corabastos",
-            "vendedor": "YENY MARIBEL MONROY PATIÑO"
         }]
     },
     {
@@ -3005,14 +2527,6 @@
         ]
     },
     {
-        "id": 80367431,
-        "nombre": "CARLOS ANTONIO GORDILLO CORREDOR",
-        "sucursales": [{
-            "direccion": "CR 12D 32C 67 SUR Resurrecion",
-            "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
-        }]
-    },
-    {
         "id": 80375791,
         "nombre": "ENRIQUE RAFAEL RODRIGUEZ MARTINEZ",
         "sucursales": [{
@@ -3029,48 +2543,6 @@
         }]
     },
     {
-        "id": 80387761,
-        "nombre": "DEIVY CENDALES QUIROGA",
-        "sucursales": [{
-            "direccion": "CR 80 G BIS 42 A 18 SUR Villa Nelly",
-            "vendedor": "YENY MARIBEL MONROY PATIÑO"
-        }]
-    },
-    {
-        "id": 80433636,
-        "nombre": "WILSON MORA CARDENAS",
-        "sucursales": [{
-                "direccion": "CR 95 A 54F 02 SUR LC 2 Bosa Porvenir",
-                "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
-            },
-            {
-                "direccion": "CR 95 A 73 SUR 75 Bosa Recreo",
-                "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
-            }
-        ]
-    },
-    {
-        "id": 80437511,
-        "nombre": "ARGILIO ENCISO GONZALEZ",
-        "sucursales": [{
-            "direccion": "CR 99 B 56 I 21 SUR Bosa Santafe",
-            "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
-        }]
-    },
-    {
-        "id": 80443035,
-        "nombre": "HECTOR MANUEL PORRAS ALDANA",
-        "sucursales": [{
-                "direccion": "TRV 13 C 48 11 ESTE Pinares",
-                "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
-            },
-            {
-                "direccion": "CL 1 D ESTE 43 D 03 SUR San Miguel",
-                "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
-            }
-        ]
-    },
-    {
         "id": 80463287,
         "nombre": "GRANERO MERKAFACIL",
         "sucursales": [{
@@ -3085,19 +2557,6 @@
             "direccion": "CL 68 D SUR 1B  38 ESTE Santa Marta",
             "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
         }]
-    },
-    {
-        "id": 80500134,
-        "nombre": "WILLIAM RENE ACOSTA LOPEZ",
-        "sucursales": [{
-                "direccion": "CL 17 8 15 Balmoral Fusagasugá",
-                "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
-            },
-            {
-                "direccion": "DG 23 B 9 16 Manila Fusagasugá",
-                "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
-            }
-        ]
     },
     {
         "id": 80501454,
@@ -3161,14 +2620,6 @@
         }]
     },
     {
-        "id": 80767726,
-        "nombre": "JOHN FREDDY CARRANZA MOJICA",
-        "sucursales": [{
-            "direccion": "CL 20 11 26  Viotá",
-            "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
-        }]
-    },
-    {
         "id": 80791743,
         "nombre": "LUIS GUILLERMO SOLER CASTELLANOS",
         "sucursales": [{
@@ -3182,14 +2633,6 @@
         "sucursales": [{
             "direccion": "CL 9 11 50 Funza",
             "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
-        }]
-    },
-    {
-        "id": 80815963,
-        "nombre": "JUAN ALEJANDRO CASTILLO PEDREROS",
-        "sucursales": [{
-            "direccion": "CR 88 C 71A 65 SUR San Bernandino",
-            "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
         }]
     },
     {
@@ -3214,14 +2657,6 @@
         "sucursales": [{
             "direccion": "CR 13 7 32  Fusagasugá",
             "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
-        }]
-    },
-    {
-        "id": 83181438,
-        "nombre": "JAVIER PARRA VALDERRAMA",
-        "sucursales": [{
-            "direccion": "CR 79 44 50 SUR Casa Blanca",
-            "vendedor": "YENY MARIBEL MONROY PATIÑO"
         }]
     },
     {
@@ -3392,19 +2827,6 @@
         }]
     },
     {
-        "id": 830018538,
-        "nombre": "COMERCIALIZADORA DE ALIMENTOS OROSOL SA",
-        "sucursales": [{
-                "direccion": "CR 23 68 42   7 De Agosto",
-                "vendedor": "DIANA MARCELA BERMUDEZ SERRANO"
-            },
-            {
-                "direccion": "CL 11 17 51 Centro",
-                "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
-            }
-        ]
-    },
-    {
         "id": 830020406,
         "nombre": "SALAS CASTILLO SAS",
         "sucursales": [{
@@ -3463,53 +2885,12 @@
         }]
     },
     {
-        "id": 830114526,
-        "nombre": "DISTRIBUCIONES O K LTDA",
-        "sucursales": [{
-            "direccion": "CR 101 82 49 Bochica 3",
-            "vendedor": "CONSUELO MUÑOZ"
-        }]
-    },
-    {
         "id": 830503163,
         "nombre": "SUPERMERCADOS PINARI CI LTDA",
         "sucursales": [{
             "direccion": "CL 139 140 C 10 Suba Berlin",
             "vendedor": "CONSUELO MUÑOZ"
         }]
-    },
-    {
-        "id": 830506343,
-        "nombre": "MERCADOS DELTA LTDA",
-        "sucursales": [{
-            "direccion": "CL 2 91 10 SUR Calandaima",
-            "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
-        }]
-    },
-    {
-        "id": 830508860,
-        "nombre": "SUPERMERCADOS ECO S A S",
-        "sucursales": [{
-                "direccion": "CL 40 SUR 97 16 Patio Bonito",
-                "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
-            },
-            {
-                "direccion": "CL 19 91 45 CL 8 Capellania",
-                "vendedor": "XIMENA DEL PILAR SANTANA GAMBOA"
-            },
-            {
-                "direccion": "CL 36 SUR 74 B 37 Kennedy",
-                "vendedor": "YENY MARIBEL MONROY PATIÑO"
-            },
-            {
-                "direccion": "CL 3 78 A 04 SUR Mandalay",
-                "vendedor": "YENY MARIBEL MONROY PATIÑO"
-            },
-            {
-                "direccion": "CR 74 40 B 27 S Timiza",
-                "vendedor": "YENY MARIBEL MONROY PATIÑO"
-            }
-        ]
     },
     {
         "id": 832010731,
@@ -3558,43 +2939,6 @@
         ]
     },
     {
-        "id": 900069557,
-        "nombre": "INVERSIONES EL MERCADEO SAS",
-        "sucursales": [{
-                "direccion": "CR 23 3 48 Sociego Madrid",
-                "vendedor": "CONSUELO MUÑOZ"
-            },
-            {
-                "direccion": "CR 104 140 A 43 Las Flores",
-                "vendedor": "CONSUELO MUÑOZ"
-            },
-            {
-                "direccion": "CL 61 S 66 A 28 SUR Madelena",
-                "vendedor": "CONSUELO MUÑOZ"
-            },
-            {
-                "direccion": "CR 115 151 C 15 Suba Almendros",
-                "vendedor": "CONSUELO MUÑOZ"
-            },
-            {
-                "direccion": "CL 129 B BIS 93 41 Suba Rincon",
-                "vendedor": "CONSUELO MUÑOZ"
-            },
-            {
-                "direccion": "CL 7 2 14  Madrid",
-                "vendedor": "CONSUELO MUÑOZ"
-            },
-            {
-                "direccion": "CL 139 106 41 Suba Villa Maria",
-                "vendedor": "CONSUELO MUÑOZ"
-            },
-            {
-                "direccion": "CL 15 4 52  Funza",
-                "vendedor": "CONSUELO MUÑOZ"
-            }
-        ]
-    },
-    {
         "id": 900073355,
         "nombre": "INVERSIONES CORNEJO RUIZ LTDA",
         "sucursales": [{
@@ -3619,14 +2963,6 @@
         }]
     },
     {
-        "id": 900127127,
-        "nombre": "C.I . ALLIANCE S.A",
-        "sucursales": [{
-            "direccion": "AV CR 80 2 51 SUR BG 3 LC 11 Corabastos",
-            "vendedor": "YENY MARIBEL MONROY PATIÑO"
-        }]
-    },
-    {
         "id": 900135976,
         "nombre": "COMERCIALIZADORA DISFRUVER S.A.S.",
         "sucursales": [{
@@ -3646,14 +2982,6 @@
                 "vendedor": "ANA SOFIA ROLDAN RIQUE"
             }
         ]
-    },
-    {
-        "id": 900172210,
-        "nombre": "COMERCIAL SANTA ANA S.A.S",
-        "sucursales": [{
-            "direccion": "CL 90 91 52 LOCAL EXT 1 Barrio Quirigua",
-            "vendedor": "CONSUELO MUÑOZ"
-        }]
     },
     {
         "id": 900204753,
@@ -3959,14 +3287,6 @@
         }]
     },
     {
-        "id": 900580849,
-        "nombre": "INVERSIONES LAITON GONZALEZ SAS",
-        "sucursales": [{
-            "direccion": "CL 64 B 106 19 El Muelle",
-            "vendedor": "XIMENA DEL PILAR SANTANA GAMBOA"
-        }]
-    },
-    {
         "id": 900588014,
         "nombre": "SUPERTIENDAS CONFABOY SAS",
         "sucursales": [{
@@ -4123,14 +3443,6 @@
         ]
     },
     {
-        "id": 900734493,
-        "nombre": "AUTOSERVICIO MI LLANITO NM SAS",
-        "sucursales": [{
-            "direccion": "URB MI LLANITO CASA 46  Tena",
-            "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
-        }]
-    },
-    {
         "id": 900752825,
         "nombre": "DISTRIFARMA SANTA FE SAS",
         "sucursales": [{
@@ -4189,14 +3501,6 @@
         "nombre": "COMERCIAL PICAFLOR SAS",
         "sucursales": [{
             "direccion": "CL 27 SUR 5 39 20 de Julio",
-            "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
-        }]
-    },
-    {
-        "id": 900803231,
-        "nombre": "COMERCIALIZADORA DE VIVERES EL PAISA SAS",
-        "sucursales": [{
-            "direccion": "CR 17 10 89 Voto Nacional",
             "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
         }]
     },
@@ -4262,14 +3566,6 @@
         "sucursales": [{
             "direccion": "CL 163 A 8 D 73 San Cristobal Norte",
             "vendedor": "DIANA MARCELA BERMUDEZ SERRANO"
-        }]
-    },
-    {
-        "id": 901102777,
-        "nombre": "AUTOSERVICIO EL GRAN DESCUENTO SAS",
-        "sucursales": [{
-            "direccion": "CR 14 74 A 60 Santa Librada",
-            "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
         }]
     },
     {
@@ -4367,14 +3663,6 @@
         }]
     },
     {
-        "id": 901176144,
-        "nombre": "AGROLACTEOS EL PORVENIR SAS",
-        "sucursales": [{
-            "direccion": "CR 52 C 37 A 82 SUR Alqueria",
-            "vendedor": "YENY MARIBEL MONROY PATIÑO"
-        }]
-    },
-    {
         "id": 901182987,
         "nombre": "INVERSIONES LOS COMUNEROS SAS",
         "sucursales": [{
@@ -4425,14 +3713,6 @@
         "sucursales": [{
             "direccion": "CR 38 4 A 23  Zipaquirá",
             "vendedor": "ANA SOFIA ROLDAN RIQUE"
-        }]
-    },
-    {
-        "id": 901221786,
-        "nombre": "MERKANDO EXPRESS RB SAS",
-        "sucursales": [{
-            "direccion": "CL 2 A ESTE 7 17  Facatativá",
-            "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
         }]
     },
     {
@@ -4535,14 +3815,6 @@
         "sucursales": [{
             "direccion": "CR 7 8 28  Sibate",
             "vendedor": "ESTHER ANGELA SALAZAR MORA"
-        }]
-    },
-    {
-        "id": 901280326,
-        "nombre": "INVERSIONES SEJU S.A.S",
-        "sucursales": [{
-            "direccion": "CR 13 81 60 SUR Yomasa",
-            "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
         }]
     },
     {
@@ -4649,27 +3921,11 @@
         ]
     },
     {
-        "id": 901375910,
-        "nombre": "MAXIMERCAS SAS",
-        "sucursales": [{
-            "direccion": "CR 68 C 3 SUR 59 La Igualdad",
-            "vendedor": "YENY MARIBEL MONROY PATIÑO"
-        }]
-    },
-    {
         "id": 901387019,
         "nombre": "COMERCIALIZADORA MERCA2 SAS",
         "sucursales": [{
             "direccion": "CR 14 74 B 34 SUR ESTE Santa Librada",
             "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
-        }]
-    },
-    {
-        "id": 901388086,
-        "nombre": "SOLUCIONES INTEGRALES EL IMPERIO DEL ASEO SAS",
-        "sucursales": [{
-            "direccion": "CL 8 5 49  Fusagasugá",
-            "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
         }]
     },
     {
@@ -4899,27 +4155,11 @@
         }]
     },
     {
-        "id": 901524686,
-        "nombre": "INVERSIONES YOSAN SAS",
-        "sucursales": [{
-            "direccion": "CR 7 4 73  Mesitas del Colegio",
-            "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
-        }]
-    },
-    {
         "id": 901549462,
         "nombre": "SUMINISTROS ABARROTES BLANCO SAS",
         "sucursales": [{
             "direccion": "CR 110 69 B 67 Villas Del Dorado",
             "vendedor": "XIMENA DEL PILAR SANTANA GAMBOA"
-        }]
-    },
-    {
-        "id": 901549752,
-        "nombre": "SUPERMERCADOS DMIL ZIPAQUIRA SAS",
-        "sucursales": [{
-            "direccion": "CL 7 6 27  Fusagasugá",
-            "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
         }]
     },
     {
@@ -4954,19 +4194,6 @@
             "direccion": "CR 15 A 4 E 11  Tocancipá",
             "vendedor": "ANA SOFIA ROLDAN RIQUE"
         }]
-    },
-    {
-        "id": 901560984,
-        "nombre": "AHORRATIENDAS SAS",
-        "sucursales": [{
-                "direccion": "CL 5 7 45  Fusagasugá",
-                "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
-            },
-            {
-                "direccion": "CR 26 7 71 Centro Melgar",
-                "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
-            }
-        ]
     },
     {
         "id": 901564564,
@@ -5095,14 +4322,6 @@
         }]
     },
     {
-        "id": 901706517,
-        "nombre": "GRUPO LEFRADE SAS",
-        "sucursales": [{
-            "direccion": "CL 8 SUR 35 36 Puente Aranda",
-            "vendedor": "YENY MARIBEL MONROY PATIÑO"
-        }]
-    },
-    {
         "id": 901717069,
         "nombre": "EL PALACIO VEGETARIANO DE LA ONCE SAS",
         "sucursales": [{
@@ -5142,14 +4361,6 @@
                 "vendedor": "XIMENA DEL PILAR SANTANA GAMBOA"
             }
         ]
-    },
-    {
-        "id": 901743699,
-        "nombre": "LA HOJA BISTRO SAS",
-        "sucursales": [{
-            "direccion": "CL 142 17 37 Cedritos",
-            "vendedor": "DIANA MARCELA BERMUDEZ SERRANO"
-        }]
     },
     {
         "id": 901753562,
@@ -5220,23 +4431,6 @@
             "direccion": "CR 7 10 47  El Rosal",
             "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
         }]
-    },
-    {
-        "id": 901796206,
-        "nombre": "LOSMERKAS SAS",
-        "sucursales": [{
-                "direccion": "CR 2 A 11 A 08  Silvania",
-                "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
-            },
-            {
-                "direccion": "CR 4 3 41  Subía",
-                "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
-            },
-            {
-                "direccion": "CR 10 9 22  Fusagasugá",
-                "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
-            }
-        ]
     },
     {
         "id": 901815616,
@@ -5380,14 +4574,6 @@
         }]
     },
     {
-        "id": 1000241762,
-        "nombre": "JUAN SEBASTIAN VALLEJO BARON",
-        "sucursales": [{
-            "direccion": "CL 91 SUR 8 25 Virrey",
-            "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
-        }]
-    },
-    {
         "id": 1000594691,
         "nombre": "MIGUEL ANGEL PABON GUATAVA",
         "sucursales": [{
@@ -5465,14 +4651,6 @@
         }]
     },
     {
-        "id": 1007322290,
-        "nombre": "JUAN DAVID COMBITA MURCIA",
-        "sucursales": [{
-            "direccion": "CL 55 72 A 04 Olarte",
-            "vendedor": "YENY MARIBEL MONROY PATIÑO"
-        }]
-    },
-    {
         "id": 1007409712,
         "nombre": "ALBERTH STEVEN AVILA MENJURA",
         "sucursales": [{
@@ -5505,30 +4683,6 @@
         }]
     },
     {
-        "id": 1012451645,
-        "nombre": "LUIS MIGUEL MARTINEZ CHALA",
-        "sucursales": [{
-            "direccion": "CR 71 A 3 12 Nueva Marsella",
-            "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
-        }]
-    },
-    {
-        "id": 1012451646,
-        "nombre": "LUIS MIGUEL MARTINEZ CHALA",
-        "sucursales": [{
-            "direccion": "CR 88 C 71 A 59 SUR Bosa La Independecia",
-            "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
-        }]
-    },
-    {
-        "id": 1013111661,
-        "nombre": "SANTIAGO ALEXANDER MORENO JIMENEZ",
-        "sucursales": [{
-            "direccion": "CL 51 SUR 88 F 51 Bosa Brasil",
-            "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
-        }]
-    },
-    {
         "id": 1013579237,
         "nombre": "HEIDY JOHANA RODRIGUEZ RODRIGUEZ",
         "sucursales": [{
@@ -5553,14 +4707,6 @@
         }]
     },
     {
-        "id": 1013687299,
-        "nombre": "JOHAN ESTEBAN PEREZ WILCHES",
-        "sucursales": [{
-            "direccion": "CL 36 B SUR 4 51 ESTE Guacamayas",
-            "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
-        }]
-    },
-    {
         "id": 1014209468,
         "nombre": "YOHANA ORTIZ GOMEZ",
         "sucursales": [{
@@ -5580,22 +4726,6 @@
                 "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
             }
         ]
-    },
-    {
-        "id": 1015437347,
-        "nombre": "YULI VIVIANA GARCIA JAIMES",
-        "sucursales": [{
-            "direccion": "CL 138 152 A 09 Suba Santa Rita",
-            "vendedor": "CONSUELO MUÑOZ"
-        }]
-    },
-    {
-        "id": 1015459753,
-        "nombre": "LAURA KATHERINE MARQUEZ GOYENECHE",
-        "sucursales": [{
-            "direccion": "CL 66 A 22 49  7 De Agosto",
-            "vendedor": "DIANA MARCELA BERMUDEZ SERRANO"
-        }]
     },
     {
         "id": 1016018804,
@@ -5619,14 +4749,6 @@
         "sucursales": [{
             "direccion": "CARRERA 87 P 78 12 SUR Bosa Potreritos",
             "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
-        }]
-    },
-    {
-        "id": 1018418647,
-        "nombre": "WILLIAM RAUL ZIPA ORTIZ",
-        "sucursales": [{
-            "direccion": "CR 18 11 38 Voto Nacional",
-            "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
         }]
     },
     {
@@ -5726,19 +4848,6 @@
         }]
     },
     {
-        "id": 1022929117,
-        "nombre": "YULI ALEXANDRA GAMEZ RAMIREZ",
-        "sucursales": [{
-                "direccion": "CL 53 SUR 18 B 10 San Carlos",
-                "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
-            },
-            {
-                "direccion": "CL 28 SUR 0 22 Cordoba",
-                "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
-            }
-        ]
-    },
-    {
         "id": 1022935469,
         "nombre": "LEIDY DIANA MARTIN ALARCON",
         "sucursales": [{
@@ -5779,14 +4888,6 @@
         }]
     },
     {
-        "id": 1022961947,
-        "nombre": "HAYDER HELMAN BELTRAN BEJARANO",
-        "sucursales": [{
-            "direccion": "CL 69D BIS 14A 34 SUR Sur Barrio La Aurora",
-            "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
-        }]
-    },
-    {
         "id": 1022978637,
         "nombre": "JUAN DAVID CAGUEÑAS BETANCOURT",
         "sucursales": [{
@@ -5809,19 +4910,6 @@
             "direccion": "CL 93 SUR 5 B 30  Virrey",
             "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
         }]
-    },
-    {
-        "id": 1023010895,
-        "nombre": "YENNY PAOLA NOVOA SANTANA",
-        "sucursales": [{
-                "direccion": "CL 95 A SUR 14 A 45 Usme",
-                "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
-            },
-            {
-                "direccion": "CR 18 04 B 11 SUR La Veredita Soacha",
-                "vendedor": "ESTHER ANGELA SALAZAR MORA"
-            }
-        ]
     },
     {
         "id": 1023034578,
@@ -5882,14 +4970,6 @@
         ]
     },
     {
-        "id": 1024476709,
-        "nombre": "DANIEL FRANCISCO GUEVARA TORRES",
-        "sucursales": [{
-            "direccion": "CL 40 SUR 94 A 14 Patio Bonito",
-            "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
-        }]
-    },
-    {
         "id": 1024510280,
         "nombre": "JEISSON ANDRES ORTIZ PALACIO",
         "sucursales": [{
@@ -5935,30 +5015,6 @@
         }]
     },
     {
-        "id": 1024566013,
-        "nombre": "JESSICA YURLEY RODRIGUEZ GUARNIZO",
-        "sucursales": [{
-            "direccion": "CL 132 129A 70 Suba Nogales",
-            "vendedor": "CONSUELO MUÑOZ"
-        }]
-    },
-    {
-        "id": 1026588666,
-        "nombre": "YINETH DANIELA SIERRA TORREZ",
-        "sucursales": [{
-            "direccion": "CL 5 SUR 73 B 94 Pio X",
-            "vendedor": "YENY MARIBEL MONROY PATIÑO"
-        }]
-    },
-    {
-        "id": 1026601381,
-        "nombre": "JAMMES JAVIER ROMERO MARTINEZ",
-        "sucursales": [{
-            "direccion": "CR 69 D 1 34 LOCAL 3 La Floresta Sur",
-            "vendedor": "YENY MARIBEL MONROY PATIÑO"
-        }]
-    },
-    {
         "id": 1030531440,
         "nombre": "WALTER DANIEL ZAMBRANO CASTELLANOS",
         "sucursales": [{
@@ -5972,35 +5028,6 @@
         "sucursales": [{
             "direccion": "CL 76 A SUR 50 A 05 Tres Esquinas",
             "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
-        }]
-    },
-    {
-        "id": 1030582270,
-        "nombre": "JAIRO ANDRES BENITO VELASQUEZ",
-        "sucursales": [{
-                "direccion": "CR 86 F 33 04 SUR Kennedy",
-                "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
-            },
-            {
-                "direccion": "CL 5 A SUR 87 H 32 Patio Bonito",
-                "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
-            }
-        ]
-    },
-    {
-        "id": 1030590461,
-        "nombre": "RIVEN HERNAN REY PARDO",
-        "sucursales": [{
-            "direccion": "CR 56 A 4A 42 Galan",
-            "vendedor": "YENY MARIBEL MONROY PATIÑO"
-        }]
-    },
-    {
-        "id": 1030630977,
-        "nombre": "BRAYAN DUVAN MATIZ CAMAYO",
-        "sucursales": [{
-            "direccion": "CL 42 A SUR 98 B 10 Dindalito",
-            "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
         }]
     },
     {
@@ -6033,14 +5060,6 @@
         "sucursales": [{
             "direccion": "CL 49 SUR 77 X 54 Socorro",
             "vendedor": "YENY MARIBEL MONROY PATIÑO"
-        }]
-    },
-    {
-        "id": 1032399262,
-        "nombre": "JHONATAN SEGUNDO LEMUS JUNCO",
-        "sucursales": [{
-            "direccion": "CL 11 17 14 Voto Nacional",
-            "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
         }]
     },
     {
@@ -6105,14 +5124,6 @@
         }]
     },
     {
-        "id": 1033744632,
-        "nombre": "JOHANN GUILLERMO MUÑOZ VIRACACHA",
-        "sucursales": [{
-            "direccion": "CL 24 SUR 1 53 Montebello",
-            "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
-        }]
-    },
-    {
         "id": 1033769677,
         "nombre": "JULIAN ALIRIO MORA CASTILLO",
         "sucursales": [{
@@ -6147,14 +5158,6 @@
         "sucursales": [{
             "direccion": "AV CL 90 91 52  Rincon de Chico",
             "vendedor": "CONSUELO MUÑOZ"
-        }]
-    },
-    {
-        "id": 1053725024,
-        "nombre": "PEDRO MIGUEL VIVAS ROJAS",
-        "sucursales": [{
-            "direccion": "CL 42 A SUR 87 D 12  El Rosario",
-            "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
         }]
     },
     {
@@ -6227,14 +5230,6 @@
         ]
     },
     {
-        "id": 1069403428,
-        "nombre": "JOHN ALEXANDER RODRIGUEZ GOMEZ",
-        "sucursales": [{
-            "direccion": "CL 4 4 18  San Antonio Del Tequendama",
-            "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
-        }]
-    },
-    {
         "id": 1069584478,
         "nombre": "JULIAN DARIO LEON CORREA",
         "sucursales": [{
@@ -6276,42 +5271,10 @@
         }]
     },
     {
-        "id": 1069747642,
-        "nombre": "FREDY GIOVANNY ZARATE HERNANDEZ",
-        "sucursales": [{
-            "direccion": "CL 50 A SUR 7 90 Molinos",
-            "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
-        }]
-    },
-    {
         "id": 1069756670,
         "nombre": "NELLY JOHANA GUTIERREZ MORA",
         "sucursales": [{
             "direccion": "CR 11 7 A 66  Fusagasugá",
-            "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
-        }]
-    },
-    {
-        "id": 1069873201,
-        "nombre": "JUAN ANDRES MAHECHA PEREZ",
-        "sucursales": [{
-            "direccion": "CL 77 8 D 25 Santa Librada",
-            "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
-        }]
-    },
-    {
-        "id": 1070326937,
-        "nombre": "JHON HENRY HERRERA PARRA",
-        "sucursales": [{
-            "direccion": "CL 4 2A 24  Pradilla",
-            "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
-        }]
-    },
-    {
-        "id": 1071302197,
-        "nombre": "DEISY YOMARA CESPEDES CUELLAR",
-        "sucursales": [{
-            "direccion": "CR 4 3 37  Quetame",
             "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
         }]
     },
@@ -6470,27 +5433,11 @@
         }]
     },
     {
-        "id": 1074135597,
-        "nombre": "ALBERT ANTONIO GUTIERREZ GUTIERREZ",
-        "sucursales": [{
-            "direccion": "CL 108 7C 21 ESTE Puerta al Llano",
-            "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
-        }]
-    },
-    {
         "id": 1074136176,
         "nombre": "IVAN CAMILO GUEVARA NIETO",
         "sucursales": [{
             "direccion": "CL 13 SUR 11 50 ESTE  San Cristobal Sur",
             "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
-        }]
-    },
-    {
-        "id": 1074136935,
-        "nombre": "DARIO PARRADO RICO",
-        "sucursales": [{
-            "direccion": "CR 2 B 90 SUR 19 Puerta al Llano",
-            "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
         }]
     },
     {
@@ -6564,19 +5511,6 @@
             "direccion": "VEREDA EL VERGANZO Tocancipá",
             "vendedor": "ANA SOFIA ROLDAN RIQUE"
         }]
-    },
-    {
-        "id": 1084222100,
-        "nombre": "PATRICIA MUÑOZ URBANO",
-        "sucursales": [{
-                "direccion": "CL 56 SUR 13 28 ESTE Libertadores",
-                "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
-            },
-            {
-                "direccion": "CR 3 1 28 Triunfo",
-                "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
-            }
-        ]
     },
     {
         "id": 1084223292,
@@ -6660,27 +5594,6 @@
             "direccion": "CR 14 92 A 29 SUR Comuneros",
             "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
         }]
-    },
-    {
-        "id": 1108151038,
-        "nombre": "NINFA VIVIANA PORRAS ARENAS",
-        "sucursales": [{
-            "direccion": "TV  7 7 36 Via Indumil Soacha",
-            "vendedor": "ESTHER ANGELA SALAZAR MORA"
-        }]
-    },
-    {
-        "id": 1110467835,
-        "nombre": "CESAR EDUARDO DIAZ ORTIZ",
-        "sucursales": [{
-                "direccion": "CL 59 90 B 22 SUR Bosa La Cabaña",
-                "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
-            },
-            {
-                "direccion": "CR 86 D 51 B SUR 93 Chicala",
-                "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
-            }
-        ]
     },
     {
         "id": 1110468157,
@@ -6882,5 +5795,4 @@
             "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
         }]
     }
-
 ]
