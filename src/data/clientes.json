@@ -5810,6 +5810,44 @@
             "direccion": "CL 7 23 43  Melgar ",
             "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
         }]
+    },
+    {
+        "id": 900069557,
+        "nombre": "INVERSIONES EL MERCADEO SAS",
+        "sucursales": [{
+                "direccion": "CL 61 S 66 A 28 SUR Madelena ",
+                "vendedor": "CONSUELO MUÑOZ"
+            },
+            {
+                "direccion": "CR 115 151 C 15 Suba Almendros ",
+                "vendedor": "CONSUELO MUÑOZ"
+            },
+            {
+                "direccion": "CL 139 106 41 Suba Villa Maria  ",
+                "vendedor": "CONSUELO MUÑOZ"
+            },
+            {
+                "direccion": "CR 23 3 48 Sociego Madrida ",
+                "vendedor": "CONSUELO MUÑOZ"
+            },
+            {
+                "direccion": "CL 15 4 52  Funza ",
+                "vendedor": "CONSUELO MUÑOZ"
+            },
+            {
+                "direccion": "CL 129 B BIS 93 41 Suba Rincon ",
+                "vendedor": "CONSUELO MUÑOZ"
+            },
+            {
+                "direccion": "CR 104 140 A 43 Las Flores ",
+                "vendedor": "CONSUELO MUÑOZ"
+            },
+            {
+                "direccion": "CL 7 2 14  Madrid  ",
+                "vendedor": "CONSUELO MUÑOZ"
+            }
+        ]
     }
+
 
 ]
