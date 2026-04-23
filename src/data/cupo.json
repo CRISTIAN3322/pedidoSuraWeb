@@ -4347,5 +4347,17 @@
         "nombre": "JESSIKA LORENA BELTRAN OVIEDO",
         "cupo": 1000000,
         "Forma": "Contado"
+    },
+    {
+        "id": 1070963599,
+        "nombre": "KAREN TATIANA CARDOZO VALENCIA",
+        "cupo": 1000000,
+        "Forma": "Contado"
+    },
+    {
+        "id": 1106895886,
+        "nombre": "BAIRON ALEXIS JARAMILLO RAMIREZ",
+        "cupo": 1000000,
+        "Forma": "Contado"
     }
 ]
