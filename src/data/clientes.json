@@ -5847,6 +5847,48 @@
                 "vendedor": "CONSUELO MUÑOZ"
             }
         ]
+    },
+    {
+        "id": 80002112,
+        "nombre": "JAVIER MAURICIO ORTIZ CAGUEÑAS",
+        "sucursales": [{
+                "direccion": "DG 70 73 F 40 SUR Sierra Morena ",
+                "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
+            },
+            {
+                "direccion": "CL 35 SUR 15 B 11 Ciudad Latina Soacha ",
+                "vendedor": "ESTHER ANGELA SALAZAR MORA"
+            },
+            {
+                "direccion": "CL 43 SUR 12 G 40 San Jorge Sur ",
+                "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
+            }
+        ]
+    },
+    {
+        "id": 830508860,
+        "nombre": "SUPERMERCADOS ECO S A S",
+        "sucursales": [{
+                "direccion": "CL 19 91 45 CL 8 Capellania ",
+                "vendedor": "XIMENA DEL PILAR SANTANA GAMBOA"
+            },
+            {
+                "direccion": "CL 40 SUR 97 16 Patio Bonito ",
+                "vendedor": "YENY MARIBEL MONROY PATIÑO"
+            },
+            {
+                "direccion": "CL 36 SUR 74 B 37 Kennedy ",
+                "vendedor": "YENY MARIBEL MONROY PATIÑO"
+            },
+            {
+                "direccion": "CL 3 78 A 04 SUR Mandalay ",
+                "vendedor": "YENY MARIBEL MONROY PATIÑO"
+            },
+            {
+                "direccion": "CR 74 40 B 27 S Timiza ",
+                "vendedor": "YENY MARIBEL MONROY PATIÑO"
+            }
+        ]
     }
 
 
