@@ -5794,5 +5794,22 @@
             "direccion": "CR 41 A 4 F 27 Primavera ",
             "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
         }]
+    },
+    {
+        "id": 1070963599,
+        "nombre": "KAREN TATIANA CARDOZO VALENCIA",
+        "sucursales": [{
+            "direccion": "CL 5 24 21 LC 101  Melgar ",
+            "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
+        }]
+    },
+    {
+        "id": 1106895886,
+        "nombre": "BAIRON ALEXIS JARAMILLO RAMIREZ",
+        "sucursales": [{
+            "direccion": "CL 7 23 43  Melgar ",
+            "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
+        }]
     }
+
 ]
