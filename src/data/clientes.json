@@ -5889,6 +5889,14 @@
                 "vendedor": "YENY MARIBEL MONROY PATIÑO"
             }
         ]
+    },
+    {
+        "id": 7124541,
+        "nombre": "MARCO TULIO LAITON PAEZ",
+        "sucursales": [{
+            "direccion": "CR 3 1 36  Tabio ",
+            "vendedor": "ANA SOFIA ROLDAN RIQUE"
+        }]
     }
 
 

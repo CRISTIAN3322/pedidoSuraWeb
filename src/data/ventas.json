@@ -16,7 +16,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 87768
                     },
                     {
                         "mes": "MAYO",
@@ -120,7 +120,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 74630
                     },
                     {
                         "mes": "MAYO",
@@ -172,7 +172,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 2615419
+                        "total": 3675128
                     },
                     {
                         "mes": "MAYO",
@@ -224,7 +224,59 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 2366400
+                        "total": 0
+                    },
+                    {
+                        "mes": "MAYO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "JUNIO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "JULIO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "AGOSTO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "SEPTIEMBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "OCTUBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "NOVIEMBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "DICIEMBRE",
+                        "total": 0
+                    }
+                ]
+            },
+            {
+                "grupo": "COMERCIALIZADORA CH COMPANY SAS",
+                "ventas_por_mes": [{
+                        "mes": "ENERO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "MARZO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 2933464
                     },
                     {
                         "mes": "MAYO",
@@ -328,7 +380,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 2420219
+                        "total": 2923523
                     },
                     {
                         "mes": "MAYO",
@@ -432,7 +484,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 434692
+                        "total": 834536
                     },
                     {
                         "mes": "MAYO",
@@ -484,7 +536,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 1009134
+                        "total": 1400822
                     },
                     {
                         "mes": "MAYO",
@@ -536,7 +588,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 1241773
+                        "total": 2481873
                     },
                     {
                         "mes": "MAYO",
@@ -640,7 +692,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 2132619
+                        "total": 2241831
                     },
                     {
                         "mes": "MAYO",
@@ -692,7 +744,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 66981
+                        "total": 637495
                     },
                     {
                         "mes": "MAYO",
@@ -744,7 +796,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 5426050
+                        "total": 10639534
                     },
                     {
                         "mes": "MAYO",
@@ -848,7 +900,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 386220
+                        "total": 690584
                     },
                     {
                         "mes": "MAYO",
@@ -900,7 +952,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 458467
+                        "total": 1113468
                     },
                     {
                         "mes": "MAYO",
@@ -1056,7 +1108,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 641040
+                        "total": 1166226
                     },
                     {
                         "mes": "MAYO",
@@ -1108,7 +1160,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 860348
+                        "total": 1679284
                     },
                     {
                         "mes": "MAYO",
@@ -1264,7 +1316,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 931956
+                        "total": 2896368
                     },
                     {
                         "mes": "MAYO",
@@ -1316,7 +1368,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 48780
+                        "total": 195120
                     },
                     {
                         "mes": "MAYO",
@@ -1368,7 +1420,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 807248
+                        "total": 1099224
                     },
                     {
                         "mes": "MAYO",
@@ -1524,7 +1576,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 240468
+                        "total": 360120
                     },
                     {
                         "mes": "MAYO",
@@ -1576,7 +1628,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 79836
                     },
                     {
                         "mes": "MAYO",
@@ -1680,7 +1732,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 29892094
+                        "total": 39082000
                     },
                     {
                         "mes": "MAYO",
@@ -1732,7 +1784,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 3888432
+                        "total": 4669254
                     },
                     {
                         "mes": "MAYO",
@@ -1888,7 +1940,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": -81388
+                        "total": -206320
                     },
                     {
                         "mes": "MAYO",
@@ -2152,7 +2204,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 699786
+                        "total": 1527870
                     },
                     {
                         "mes": "MAYO",
@@ -2204,7 +2256,59 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 974400
+                        "total": 0
+                    },
+                    {
+                        "mes": "MAYO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "JUNIO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "JULIO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "AGOSTO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "SEPTIEMBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "OCTUBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "NOVIEMBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "DICIEMBRE",
+                        "total": 0
+                    }
+                ]
+            },
+            {
+                "grupo": "COMERCIALIZADORA CH COMPANY SAS",
+                "ventas_por_mes": [{
+                        "mes": "ENERO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "MARZO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 4902840
                     },
                     {
                         "mes": "MAYO",
@@ -2256,7 +2360,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 43504
+                        "total": 163140
                     },
                     {
                         "mes": "MAYO",
@@ -2308,7 +2412,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 14731638
+                        "total": 19627623
                     },
                     {
                         "mes": "MAYO",
@@ -2412,7 +2516,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 808400
+                        "total": 1212600
                     },
                     {
                         "mes": "MAYO",
@@ -2464,7 +2568,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 607776
+                        "total": 850772
                     },
                     {
                         "mes": "MAYO",
@@ -2568,7 +2672,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 83736
+                        "total": 202932
                     },
                     {
                         "mes": "MAYO",
@@ -2620,7 +2724,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 538648
+                        "total": 1329705
                     },
                     {
                         "mes": "MAYO",
@@ -2672,7 +2776,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 375632
+                        "total": 854942
                     },
                     {
                         "mes": "MAYO",
@@ -2724,7 +2828,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 571948
+                        "total": 938017
                     },
                     {
                         "mes": "MAYO",
@@ -2828,7 +2932,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 690584
+                        "total": 1088716
                     },
                     {
                         "mes": "MAYO",
@@ -2880,7 +2984,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 1076601
+                        "total": 1356129
                     },
                     {
                         "mes": "MAYO",
@@ -2984,7 +3088,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 2422654
+                        "total": 3129096
                     },
                     {
                         "mes": "MAYO",
@@ -3036,7 +3140,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 2708892
+                        "total": 4597716
                     },
                     {
                         "mes": "MAYO",
@@ -3088,7 +3192,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 1591544
+                        "total": 3341923
                     },
                     {
                         "mes": "MAYO",
@@ -3244,7 +3348,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 2637642
+                        "total": 4437630
                     },
                     {
                         "mes": "MAYO",
@@ -3400,7 +3504,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 76608
+                        "total": 229824
                     },
                     {
                         "mes": "MAYO",
@@ -3504,7 +3608,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 60117
                     },
                     {
                         "mes": "MAYO",
@@ -3660,7 +3764,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 13365979
+                        "total": 25938326
                     },
                     {
                         "mes": "MAYO",
@@ -3712,7 +3816,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 326281
+                        "total": 454729
                     },
                     {
                         "mes": "MAYO",
@@ -3764,7 +3868,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 1398168
+                        "total": 1794218
                     },
                     {
                         "mes": "MAYO",
@@ -3976,7 +4080,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 57072
                     },
                     {
                         "mes": "MAYO",
@@ -4028,7 +4132,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 84802
+                        "total": 227206
                     },
                     {
                         "mes": "MAYO",
@@ -4132,7 +4236,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 602706
+                        "total": 1175406
                     },
                     {
                         "mes": "MAYO",
@@ -4184,7 +4288,59 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 1044000
+                        "total": 0
+                    },
+                    {
+                        "mes": "MAYO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "JUNIO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "JULIO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "AGOSTO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "SEPTIEMBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "OCTUBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "NOVIEMBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "DICIEMBRE",
+                        "total": 0
+                    }
+                ]
+            },
+            {
+                "grupo": "COMERCIALIZADORA CH COMPANY SAS",
+                "ventas_por_mes": [{
+                        "mes": "ENERO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "MARZO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 2853600
                     },
                     {
                         "mes": "MAYO",
@@ -4288,7 +4444,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 8393063
+                        "total": 14560578
                     },
                     {
                         "mes": "MAYO",
@@ -4392,7 +4548,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 808400
+                        "total": 2021000
                     },
                     {
                         "mes": "MAYO",
@@ -4444,7 +4600,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 685378
+                        "total": 1129406
                     },
                     {
                         "mes": "MAYO",
@@ -4496,7 +4652,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 83525
+                        "total": 243350
                     },
                     {
                         "mes": "MAYO",
@@ -4600,7 +4756,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 2719002
+                        "total": 4883892
                     },
                     {
                         "mes": "MAYO",
@@ -4652,7 +4808,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 605183
+                        "total": 1579425
                     },
                     {
                         "mes": "MAYO",
@@ -4756,7 +4912,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 189800
                     },
                     {
                         "mes": "MAYO",
@@ -4808,7 +4964,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 855060
+                        "total": 1288164
                     },
                     {
                         "mes": "MAYO",
@@ -4860,7 +5016,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 773634
+                        "total": 1495423
                     },
                     {
                         "mes": "MAYO",
@@ -4912,7 +5068,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 485298
+                        "total": 1303996
                     },
                     {
                         "mes": "MAYO",
@@ -4964,7 +5120,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 73908
+                        "total": 641186
                     },
                     {
                         "mes": "MAYO",
@@ -5016,7 +5172,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 12104773
+                        "total": 15737136
                     },
                     {
                         "mes": "MAYO",
@@ -5068,7 +5224,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 922770
+                        "total": 1891282
                     },
                     {
                         "mes": "MAYO",
@@ -5224,7 +5380,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 6329268
+                        "total": 8624490
                     },
                     {
                         "mes": "MAYO",
@@ -5276,7 +5432,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 146340
+                        "total": 390240
                     },
                     {
                         "mes": "MAYO",
@@ -5328,7 +5484,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 813408
+                        "total": 1498792
                     },
                     {
                         "mes": "MAYO",
@@ -5432,7 +5588,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 4265676
+                        "total": 5451408
                     },
                     {
                         "mes": "MAYO",
@@ -5536,7 +5692,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 213420
+                        "total": 442110
                     },
                     {
                         "mes": "MAYO",
@@ -5640,7 +5796,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 10245823
+                        "total": 19809369
                     },
                     {
                         "mes": "MAYO",
@@ -5692,7 +5848,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 4246648
+                        "total": 5563799
                     },
                     {
                         "mes": "MAYO",
@@ -5744,7 +5900,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 2328706
+                        "total": 3776928
                     },
                     {
                         "mes": "MAYO",
@@ -5956,7 +6112,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 862512
+                        "total": 921744
                     },
                     {
                         "mes": "MAYO",
@@ -6112,7 +6268,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 1972971
+                        "total": 2448264
                     },
                     {
                         "mes": "MAYO",
@@ -6164,7 +6320,59 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 4821076
+                        "total": 0
+                    },
+                    {
+                        "mes": "MAYO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "JUNIO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "JULIO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "AGOSTO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "SEPTIEMBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "OCTUBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "NOVIEMBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "DICIEMBRE",
+                        "total": 0
+                    }
+                ]
+            },
+            {
+                "grupo": "COMERCIALIZADORA CH COMPANY SAS",
+                "ventas_por_mes": [{
+                        "mes": "ENERO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "MARZO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 7499785
                     },
                     {
                         "mes": "MAYO",
@@ -6268,7 +6476,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 11527893
+                        "total": 11961803
                     },
                     {
                         "mes": "MAYO",
@@ -6424,7 +6632,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 836052
+                        "total": 1124282
                     },
                     {
                         "mes": "MAYO",
@@ -6476,7 +6684,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 1761150
+                        "total": 1878149
                     },
                     {
                         "mes": "MAYO",
@@ -6528,7 +6736,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 427670
+                        "total": 567230
                     },
                     {
                         "mes": "MAYO",
@@ -6580,7 +6788,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 5876996
+                        "total": 7300369
                     },
                     {
                         "mes": "MAYO",
@@ -6632,7 +6840,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 917712
+                        "total": 1052172
                     },
                     {
                         "mes": "MAYO",
@@ -6684,7 +6892,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 2882592
+                        "total": 9702428
                     },
                     {
                         "mes": "MAYO",
@@ -6840,7 +7048,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 4387211
+                        "total": 4790032
                     },
                     {
                         "mes": "MAYO",
@@ -6944,7 +7152,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 3082743
+                        "total": 3305913
                     },
                     {
                         "mes": "MAYO",
@@ -6996,7 +7204,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 12563378
+                        "total": 17116506
                     },
                     {
                         "mes": "MAYO",
@@ -7048,7 +7256,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 6217832
+                        "total": 6778648
                     },
                     {
                         "mes": "MAYO",
@@ -7152,7 +7360,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 742164
                     },
                     {
                         "mes": "MAYO",
@@ -7204,7 +7412,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 4105872
+                        "total": 4653912
                     },
                     {
                         "mes": "MAYO",
@@ -7256,7 +7464,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 523056
+                        "total": 1986456
                     },
                     {
                         "mes": "MAYO",
@@ -7308,7 +7516,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 1670016
+                        "total": 1968091
                     },
                     {
                         "mes": "MAYO",
@@ -7412,7 +7620,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 4983282
+                        "total": 5055426
                     },
                     {
                         "mes": "MAYO",
@@ -7516,7 +7724,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 219780
+                        "total": 503964
                     },
                     {
                         "mes": "MAYO",
@@ -7620,7 +7828,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 41877206
+                        "total": 52833025
                     },
                     {
                         "mes": "MAYO",
@@ -7672,7 +7880,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 467379
+                        "total": 1410822
                     },
                     {
                         "mes": "MAYO",
@@ -7724,7 +7932,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 1747050
+                        "total": 1905490
                     },
                     {
                         "mes": "MAYO",
@@ -7936,7 +8144,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 148080
+                        "total": 267930
                     },
                     {
                         "mes": "MAYO",
@@ -8092,7 +8300,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 5899590
+                        "total": 6128259
                     },
                     {
                         "mes": "MAYO",
@@ -8145,6 +8353,58 @@
                     {
                         "mes": "ABRIL",
                         "total": 0
+                    },
+                    {
+                        "mes": "MAYO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "JUNIO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "JULIO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "AGOSTO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "SEPTIEMBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "OCTUBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "NOVIEMBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "DICIEMBRE",
+                        "total": 0
+                    }
+                ]
+            },
+            {
+                "grupo": "COMERCIALIZADORA CH COMPANY SAS",
+                "ventas_por_mes": [{
+                        "mes": "ENERO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "MARZO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 487200
                     },
                     {
                         "mes": "MAYO",
@@ -8248,7 +8508,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 653628
+                        "total": 3364254
                     },
                     {
                         "mes": "MAYO",
@@ -8352,7 +8612,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 808400
+                        "total": 1875488
                     },
                     {
                         "mes": "MAYO",
@@ -8404,7 +8664,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 576544
                     },
                     {
                         "mes": "MAYO",
@@ -8456,7 +8716,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 3867376
+                        "total": 4286926
                     },
                     {
                         "mes": "MAYO",
@@ -8508,7 +8768,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 89268
                     },
                     {
                         "mes": "MAYO",
@@ -8560,7 +8820,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 560987
                     },
                     {
                         "mes": "MAYO",
@@ -8612,7 +8872,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 531006
+                        "total": 477246
                     },
                     {
                         "mes": "MAYO",
@@ -8664,7 +8924,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 941486
+                        "total": 1010240
                     },
                     {
                         "mes": "MAYO",
@@ -8768,7 +9028,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 87812
+                        "total": 456928
                     },
                     {
                         "mes": "MAYO",
@@ -8820,7 +9080,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 5268438
+                        "total": 9956503
                     },
                     {
                         "mes": "MAYO",
@@ -8872,7 +9132,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 301770
+                        "total": 1110289
                     },
                     {
                         "mes": "MAYO",
@@ -8924,7 +9184,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 169854
+                        "total": 489384
                     },
                     {
                         "mes": "MAYO",
@@ -8976,7 +9236,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 741798
+                        "total": 2025888
                     },
                     {
                         "mes": "MAYO",
@@ -9028,7 +9288,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 28560
                     },
                     {
                         "mes": "MAYO",
@@ -9184,7 +9444,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 317088
+                        "total": 1844872
                     },
                     {
                         "mes": "MAYO",
@@ -9236,7 +9496,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 829260
                     },
                     {
                         "mes": "MAYO",
@@ -9288,7 +9548,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 160836
                     },
                     {
                         "mes": "MAYO",
@@ -9392,7 +9652,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 328104
+                        "total": 2798856
                     },
                     {
                         "mes": "MAYO",
@@ -9444,7 +9704,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 111270
                     },
                     {
                         "mes": "MAYO",
@@ -9496,7 +9756,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": -1487598
+                        "total": -1231080
                     },
                     {
                         "mes": "MAYO",
@@ -9600,7 +9860,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 33259991
+                        "total": 50483756
                     },
                     {
                         "mes": "MAYO",
@@ -9652,7 +9912,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 82135
+                        "total": 244583
                     },
                     {
                         "mes": "MAYO",
@@ -9704,7 +9964,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 324950
                     },
                     {
                         "mes": "MAYO",
@@ -10072,7 +10332,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 928068
+                        "total": 1540884
                     },
                     {
                         "mes": "MAYO",
@@ -10124,7 +10384,59 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 696000
+                        "total": 0
+                    },
+                    {
+                        "mes": "MAYO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "JUNIO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "JULIO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "AGOSTO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "SEPTIEMBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "OCTUBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "NOVIEMBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "DICIEMBRE",
+                        "total": 0
+                    }
+                ]
+            },
+            {
+                "grupo": "COMERCIALIZADORA CH COMPANY SAS",
+                "ventas_por_mes": [{
+                        "mes": "ENERO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "MARZO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 1055160
                     },
                     {
                         "mes": "MAYO",
@@ -10228,7 +10540,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 7788692
+                        "total": 9881326
                     },
                     {
                         "mes": "MAYO",
@@ -10332,7 +10644,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 97008
+                        "total": 299108
                     },
                     {
                         "mes": "MAYO",
@@ -10384,7 +10696,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 1212845
+                        "total": 1235569
                     },
                     {
                         "mes": "MAYO",
@@ -10540,7 +10852,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 1479464
+                        "total": 1706541
                     },
                     {
                         "mes": "MAYO",
@@ -10592,7 +10904,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 987236
+                        "total": 1349974
                     },
                     {
                         "mes": "MAYO",
@@ -10748,7 +11060,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 1375976
+                        "total": 1739136
                     },
                     {
                         "mes": "MAYO",
@@ -10800,7 +11112,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 631500
+                        "total": 651077
                     },
                     {
                         "mes": "MAYO",
@@ -10904,7 +11216,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 636837
+                        "total": 590897
                     },
                     {
                         "mes": "MAYO",
@@ -10956,7 +11268,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 1862556
+                        "total": 1908349
                     },
                     {
                         "mes": "MAYO",
@@ -11008,7 +11320,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 762928
+                        "total": 814960
                     },
                     {
                         "mes": "MAYO",
@@ -11164,7 +11476,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 1876238
+                        "total": 1454768
                     },
                     {
                         "mes": "MAYO",
@@ -11372,7 +11684,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 911880
                     },
                     {
                         "mes": "MAYO",
@@ -11580,7 +11892,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 10862264
+                        "total": 13970889
                     },
                     {
                         "mes": "MAYO",
@@ -11684,7 +11996,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 662692
+                        "total": 1058792
                     },
                     {
                         "mes": "MAYO",
@@ -11948,7 +12260,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 91602
+                        "total": 130346
                     },
                     {
                         "mes": "MAYO",
@@ -12052,7 +12364,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 646731
+                        "total": 2413884
                     },
                     {
                         "mes": "MAYO",
@@ -12104,7 +12416,59 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 348000
+                        "total": 0
+                    },
+                    {
+                        "mes": "MAYO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "JUNIO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "JULIO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "AGOSTO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "SEPTIEMBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "OCTUBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "NOVIEMBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "DICIEMBRE",
+                        "total": 0
+                    }
+                ]
+            },
+            {
+                "grupo": "COMERCIALIZADORA CH COMPANY SAS",
+                "ventas_por_mes": [{
+                        "mes": "ENERO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "MARZO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 419832
                     },
                     {
                         "mes": "MAYO",
@@ -12208,7 +12572,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 7132147
+                        "total": 11141935
                     },
                     {
                         "mes": "MAYO",
@@ -12364,7 +12728,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 1283382
+                        "total": 1640226
                     },
                     {
                         "mes": "MAYO",
@@ -12416,7 +12780,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 480625
+                        "total": 1034225
                     },
                     {
                         "mes": "MAYO",
@@ -12520,7 +12884,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 2863348
+                        "total": 3764506
                     },
                     {
                         "mes": "MAYO",
@@ -12572,7 +12936,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 999783
+                        "total": 1338599
                     },
                     {
                         "mes": "MAYO",
@@ -12676,7 +13040,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 479700
                     },
                     {
                         "mes": "MAYO",
@@ -12728,7 +13092,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 714408
+                        "total": 1130408
                     },
                     {
                         "mes": "MAYO",
@@ -12780,7 +13144,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 977613
+                        "total": 1664331
                     },
                     {
                         "mes": "MAYO",
@@ -12832,7 +13196,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 407015
+                        "total": 3709047
                     },
                     {
                         "mes": "MAYO",
@@ -12884,7 +13248,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 963147
+                        "total": 3319154
                     },
                     {
                         "mes": "MAYO",
@@ -12936,7 +13300,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 8505274
+                        "total": 12790462
                     },
                     {
                         "mes": "MAYO",
@@ -12988,7 +13352,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 1149824
+                        "total": 1752968
                     },
                     {
                         "mes": "MAYO",
@@ -13144,7 +13508,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 4905040
+                        "total": 8836060
                     },
                     {
                         "mes": "MAYO",
@@ -13196,7 +13560,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 335602
+                        "total": 500474
                     },
                     {
                         "mes": "MAYO",
@@ -13352,7 +13716,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 272124
+                        "total": 435456
                     },
                     {
                         "mes": "MAYO",
@@ -13560,7 +13924,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 17244944
+                        "total": 30843477
                     },
                     {
                         "mes": "MAYO",
@@ -13612,7 +13976,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 484147
+                        "total": 796239
                     },
                     {
                         "mes": "MAYO",
@@ -13664,7 +14028,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 410448
+                        "total": 600564
                     },
                     {
                         "mes": "MAYO",
@@ -13768,7 +14132,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": -27910
+                        "total": -56530
                     },
                     {
                         "mes": "MAYO",
@@ -13876,7 +14240,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 390558
+                        "total": 506862
                     },
                     {
                         "mes": "MAYO",
@@ -14032,7 +14396,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 467352
+                        "total": 520938
                     },
                     {
                         "mes": "MAYO",
@@ -14084,7 +14448,59 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 556800
+                        "total": 0
+                    },
+                    {
+                        "mes": "MAYO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "JUNIO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "JULIO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "AGOSTO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "SEPTIEMBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "OCTUBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "NOVIEMBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "DICIEMBRE",
+                        "total": 0
+                    }
+                ]
+            },
+            {
+                "grupo": "COMERCIALIZADORA CH COMPANY SAS",
+                "ventas_por_mes": [{
+                        "mes": "ENERO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "MARZO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 5029056
                     },
                     {
                         "mes": "MAYO",
@@ -14136,7 +14552,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 65256
                     },
                     {
                         "mes": "MAYO",
@@ -14188,7 +14604,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 871405
+                        "total": 1764940
                     },
                     {
                         "mes": "MAYO",
@@ -14292,7 +14708,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 282940
+                        "total": 719476
                     },
                     {
                         "mes": "MAYO",
@@ -14344,7 +14760,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 33642
+                        "total": 177402
                     },
                     {
                         "mes": "MAYO",
@@ -14396,7 +14812,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 785825
+                        "total": 864350
                     },
                     {
                         "mes": "MAYO",
@@ -14500,7 +14916,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 2283018
+                        "total": 3525524
                     },
                     {
                         "mes": "MAYO",
@@ -14552,7 +14968,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 393154
+                        "total": 741698
                     },
                     {
                         "mes": "MAYO",
@@ -14604,7 +15020,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 694395
+                        "total": 1049474
                     },
                     {
                         "mes": "MAYO",
@@ -14656,7 +15072,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 32500
                     },
                     {
                         "mes": "MAYO",
@@ -14708,7 +15124,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 1510672
+                        "total": 2400704
                     },
                     {
                         "mes": "MAYO",
@@ -14760,7 +15176,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 715312
+                        "total": 1210872
                     },
                     {
                         "mes": "MAYO",
@@ -14812,7 +15228,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 138144
                     },
                     {
                         "mes": "MAYO",
@@ -14864,7 +15280,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 1052874
+                        "total": 1226538
                     },
                     {
                         "mes": "MAYO",
@@ -14916,7 +15332,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 1330704
+                        "total": 2490132
                     },
                     {
                         "mes": "MAYO",
@@ -14968,7 +15384,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 1228274
+                        "total": 1353758
                     },
                     {
                         "mes": "MAYO",
@@ -15072,7 +15488,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 107232
                     },
                     {
                         "mes": "MAYO",
@@ -15124,7 +15540,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 1130184
+                        "total": 1815156
                     },
                     {
                         "mes": "MAYO",
@@ -15176,7 +15592,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 162945
+                        "total": 260505
                     },
                     {
                         "mes": "MAYO",
@@ -15228,7 +15644,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 215174
+                        "total": 722824
                     },
                     {
                         "mes": "MAYO",
@@ -15384,7 +15800,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 179769
+                        "total": 337261
                     },
                     {
                         "mes": "MAYO",
@@ -15436,7 +15852,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 186852
+                        "total": 281634
                     },
                     {
                         "mes": "MAYO",
@@ -15540,7 +15956,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 8319216
+                        "total": 17327607
                     },
                     {
                         "mes": "MAYO",
@@ -15592,7 +16008,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 596906
+                        "total": 1856152
                     },
                     {
                         "mes": "MAYO",
@@ -15644,7 +16060,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 1214052
+                        "total": 1400287
                     },
                     {
                         "mes": "MAYO",
@@ -16012,7 +16428,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 7598562
                     },
                     {
                         "mes": "MAYO",
@@ -16101,6 +16517,58 @@
                 ]
             },
             {
+                "grupo": "COMERCIALIZADORA CH COMPANY SAS",
+                "ventas_por_mes": [{
+                        "mes": "ENERO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "MARZO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 6820800
+                    },
+                    {
+                        "mes": "MAYO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "JUNIO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "JULIO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "AGOSTO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "SEPTIEMBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "OCTUBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "NOVIEMBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "DICIEMBRE",
+                        "total": 0
+                    }
+                ]
+            },
+            {
                 "grupo": "COMERCIALIZADORA JS PRODUCTOS SAS",
                 "ventas_por_mes": [{
                         "mes": "ENERO",
@@ -16116,7 +16584,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 1279017
                     },
                     {
                         "mes": "MAYO",
@@ -16376,7 +16844,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": -8820
+                        "total": 1500699
                     },
                     {
                         "mes": "MAYO",
@@ -16532,7 +17000,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 1561858
                     },
                     {
                         "mes": "MAYO",
@@ -16740,7 +17208,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 407721
                     },
                     {
                         "mes": "MAYO",
@@ -16896,7 +17364,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": -58351
+                        "total": 5109550
                     },
                     {
                         "mes": "MAYO",
@@ -17052,7 +17520,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 3216960
+                        "total": 3944280
                     },
                     {
                         "mes": "MAYO",
@@ -17104,7 +17572,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 5387456
                     },
                     {
                         "mes": "MAYO",
@@ -17156,7 +17624,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 956088
                     },
                     {
                         "mes": "MAYO",
@@ -17572,7 +18040,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 2437956
                     },
                     {
                         "mes": "MAYO",
@@ -17888,7 +18356,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 211990
+                        "total": 275520
                     },
                     {
                         "mes": "MAYO",
@@ -18044,6 +18512,58 @@
                     },
                     {
                         "mes": "ABRIL",
+                        "total": 0
+                    },
+                    {
+                        "mes": "MAYO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "JUNIO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "JULIO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "AGOSTO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "SEPTIEMBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "OCTUBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "NOVIEMBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "DICIEMBRE",
+                        "total": 0
+                    }
+                ]
+            },
+            {
+                "grupo": "COMERCIALIZADORA CH COMPANY SAS",
+                "ventas_por_mes": [{
+                        "mes": "ENERO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "MARZO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "ABRIL",
                         "total": 1322088
                     },
                     {
@@ -18148,7 +18668,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 8533
+                        "total": 10221
                     },
                     {
                         "mes": "MAYO",
@@ -18304,7 +18824,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 2142816
                     },
                     {
                         "mes": "MAYO",
@@ -18512,7 +19032,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 586920
                     },
                     {
                         "mes": "MAYO",
@@ -18564,7 +19084,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 197564
+                        "total": 330475
                     },
                     {
                         "mes": "MAYO",
@@ -18720,7 +19240,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 87474
+                        "total": 91566
                     },
                     {
                         "mes": "MAYO",
@@ -18772,7 +19292,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 736704
+                        "total": 1990368
                     },
                     {
                         "mes": "MAYO",
@@ -18876,7 +19396,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 26520
+                        "total": 831672
                     },
                     {
                         "mes": "MAYO",
@@ -18928,7 +19448,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 25124
+                        "total": 27277
                     },
                     {
                         "mes": "MAYO",
@@ -19500,7 +20020,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 8330019
+                        "total": 13468084
                     },
                     {
                         "mes": "MAYO",
@@ -19552,7 +20072,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 551995
+                        "total": 2137754
                     },
                     {
                         "mes": "MAYO",
@@ -19868,7 +20388,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 75302
+                        "total": 88388
                     },
                     {
                         "mes": "MAYO",
@@ -19920,7 +20440,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 179160
                     },
                     {
                         "mes": "MAYO",
@@ -19972,7 +20492,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 1181065
+                        "total": 2017137
                     },
                     {
                         "mes": "MAYO",
@@ -20024,7 +20544,59 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 971268
+                        "total": 0
+                    },
+                    {
+                        "mes": "MAYO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "JUNIO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "JULIO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "AGOSTO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "SEPTIEMBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "OCTUBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "NOVIEMBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "DICIEMBRE",
+                        "total": 0
+                    }
+                ]
+            },
+            {
+                "grupo": "COMERCIALIZADORA CH COMPANY SAS",
+                "ventas_por_mes": [{
+                        "mes": "ENERO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "MARZO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 1530300
                     },
                     {
                         "mes": "MAYO",
@@ -20128,7 +20700,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 8474154
+                        "total": 10458761
                     },
                     {
                         "mes": "MAYO",
@@ -20232,7 +20804,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 701725
+                        "total": 750229
                     },
                     {
                         "mes": "MAYO",
@@ -20284,7 +20856,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 2025114
+                        "total": 2069880
                     },
                     {
                         "mes": "MAYO",
@@ -20440,7 +21012,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 4747795
+                        "total": 5430529
                     },
                     {
                         "mes": "MAYO",
@@ -20492,7 +21064,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 2333779
+                        "total": 2636721
                     },
                     {
                         "mes": "MAYO",
@@ -20648,7 +21220,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 470144
+                        "total": 832690
                     },
                     {
                         "mes": "MAYO",
@@ -20700,7 +21272,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 684943
+                        "total": 936423
                     },
                     {
                         "mes": "MAYO",
@@ -20752,7 +21324,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 255237
+                        "total": 474153
                     },
                     {
                         "mes": "MAYO",
@@ -20804,7 +21376,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 16368039
+                        "total": 16343684
                     },
                     {
                         "mes": "MAYO",
@@ -20856,7 +21428,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 3090626
+                        "total": 5058440
                     },
                     {
                         "mes": "MAYO",
@@ -20908,7 +21480,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 560186
+                        "total": 1381538
                     },
                     {
                         "mes": "MAYO",
@@ -21012,7 +21584,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 17872
+                        "total": 43975
                     },
                     {
                         "mes": "MAYO",
@@ -21064,7 +21636,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 867125
+                        "total": 3578469
                     },
                     {
                         "mes": "MAYO",
@@ -21168,7 +21740,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 54987
+                        "total": 415639
                     },
                     {
                         "mes": "MAYO",
@@ -21220,7 +21792,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 76608
                     },
                     {
                         "mes": "MAYO",
@@ -21272,7 +21844,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 662460
+                        "total": 1441305
                     },
                     {
                         "mes": "MAYO",
@@ -21480,7 +22052,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 7839214
+                        "total": 11246871
                     },
                     {
                         "mes": "MAYO",
@@ -21532,7 +22104,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 10689813
+                        "total": 11212401
                     },
                     {
                         "mes": "MAYO",
@@ -21688,7 +22260,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 8824
+                        "total": -66951
                     },
                     {
                         "mes": "MAYO",
@@ -21796,7 +22368,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 12699
                     },
                     {
                         "mes": "MAYO",
@@ -21848,7 +22420,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 12930
                     },
                     {
                         "mes": "MAYO",
@@ -21900,7 +22472,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 19206
                     },
                     {
                         "mes": "MAYO",
@@ -21952,7 +22524,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 113966
+                        "total": 390678
                     },
                     {
                         "mes": "MAYO",
@@ -22004,7 +22576,59 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 154860
+                        "total": 0
+                    },
+                    {
+                        "mes": "MAYO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "JUNIO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "JULIO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "AGOSTO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "SEPTIEMBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "OCTUBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "NOVIEMBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "DICIEMBRE",
+                        "total": 0
+                    }
+                ]
+            },
+            {
+                "grupo": "COMERCIALIZADORA CH COMPANY SAS",
+                "ventas_por_mes": [{
+                        "mes": "ENERO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "MARZO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 234773
                     },
                     {
                         "mes": "MAYO",
@@ -22108,7 +22732,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 2585165
+                        "total": 4886481
                     },
                     {
                         "mes": "MAYO",
@@ -22264,7 +22888,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 29941
+                        "total": 90614
                     },
                     {
                         "mes": "MAYO",
@@ -22316,7 +22940,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 474704
                     },
                     {
                         "mes": "MAYO",
@@ -22368,7 +22992,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 208473
                     },
                     {
                         "mes": "MAYO",
@@ -22420,7 +23044,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 110636
                     },
                     {
                         "mes": "MAYO",
@@ -22472,7 +23096,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 232503
+                        "total": 2559725
                     },
                     {
                         "mes": "MAYO",
@@ -22628,7 +23252,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 161606
+                        "total": 245060
                     },
                     {
                         "mes": "MAYO",
@@ -22680,7 +23304,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 413056
+                        "total": 613595
                     },
                     {
                         "mes": "MAYO",
@@ -22732,7 +23356,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 3677315
+                        "total": 4070240
                     },
                     {
                         "mes": "MAYO",
@@ -22784,7 +23408,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 141567
+                        "total": 896154
                     },
                     {
                         "mes": "MAYO",
@@ -23096,7 +23720,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 369021
                     },
                     {
                         "mes": "MAYO",
@@ -23148,7 +23772,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 178182
+                        "total": 249348
                     },
                     {
                         "mes": "MAYO",
@@ -23356,7 +23980,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 141532
                     },
                     {
                         "mes": "MAYO",
@@ -23460,7 +24084,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 2755505
+                        "total": 4831279
                     },
                     {
                         "mes": "MAYO",
@@ -23512,7 +24136,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 204304
+                        "total": 251775
                     },
                     {
                         "mes": "MAYO",
@@ -23564,7 +24188,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 391268
                     },
                     {
                         "mes": "MAYO",
@@ -23970,6 +24594,58 @@
             },
             {
                 "grupo": "COMERCIALIZADORA CH COMPANY S.A.S",
+                "ventas_por_mes": [{
+                        "mes": "ENERO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "MARZO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 0
+                    },
+                    {
+                        "mes": "MAYO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "JUNIO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "JULIO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "AGOSTO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "SEPTIEMBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "OCTUBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "NOVIEMBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "DICIEMBRE",
+                        "total": 0
+                    }
+                ]
+            },
+            {
+                "grupo": "COMERCIALIZADORA CH COMPANY SAS",
                 "ventas_por_mes": [{
                         "mes": "ENERO",
                         "total": 0
@@ -25912,7 +26588,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 381501
+                        "total": 1062636
                     },
                     {
                         "mes": "MAYO",
@@ -25964,7 +26640,59 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 348000
+                        "total": 0
+                    },
+                    {
+                        "mes": "MAYO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "JUNIO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "JULIO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "AGOSTO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "SEPTIEMBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "OCTUBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "NOVIEMBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "DICIEMBRE",
+                        "total": 0
+                    }
+                ]
+            },
+            {
+                "grupo": "COMERCIALIZADORA CH COMPANY SAS",
+                "ventas_por_mes": [{
+                        "mes": "ENERO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "MARZO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 0
                     },
                     {
                         "mes": "MAYO",
@@ -26016,7 +26744,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 43504
+                        "total": 130512
                     },
                     {
                         "mes": "MAYO",
@@ -26068,7 +26796,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 11335646
+                        "total": 13078117
                     },
                     {
                         "mes": "MAYO",
@@ -26172,7 +26900,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 210184
+                        "total": 501208
                     },
                     {
                         "mes": "MAYO",
@@ -26224,7 +26952,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 1092088
+                        "total": 1126174
                     },
                     {
                         "mes": "MAYO",
@@ -26276,7 +27004,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 1199173
+                        "total": 1468173
                     },
                     {
                         "mes": "MAYO",
@@ -26328,7 +27056,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 50860
+                        "total": 109840
                     },
                     {
                         "mes": "MAYO",
@@ -26380,7 +27108,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 576803
+                        "total": 569640
                     },
                     {
                         "mes": "MAYO",
@@ -26432,7 +27160,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 415321
+                        "total": 507321
                     },
                     {
                         "mes": "MAYO",
@@ -26536,7 +27264,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 32500
                     },
                     {
                         "mes": "MAYO",
@@ -26588,7 +27316,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 849104
+                        "total": 1300076
                     },
                     {
                         "mes": "MAYO",
@@ -26640,7 +27368,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 1236466
+                        "total": 1913872
                     },
                     {
                         "mes": "MAYO",
@@ -26692,7 +27420,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 1479588
+                        "total": 1677515
                     },
                     {
                         "mes": "MAYO",
@@ -26744,7 +27472,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 1084120
+                        "total": 1210994
                     },
                     {
                         "mes": "MAYO",
@@ -26796,7 +27524,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 3481862
+                        "total": 2173196
                     },
                     {
                         "mes": "MAYO",
@@ -26848,7 +27576,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 3321724
+                        "total": 4624264
                     },
                     {
                         "mes": "MAYO",
@@ -26952,7 +27680,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 53616
+                        "total": 160848
                     },
                     {
                         "mes": "MAYO",
@@ -27004,7 +27732,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 326808
+                        "total": 433704
                     },
                     {
                         "mes": "MAYO",
@@ -27056,7 +27784,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 451122
+                        "total": 646242
                     },
                     {
                         "mes": "MAYO",
@@ -27160,7 +27888,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 114912
+                        "total": 153216
                     },
                     {
                         "mes": "MAYO",
@@ -27212,7 +27940,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 1115355
+                        "total": 1185255
                     },
                     {
                         "mes": "MAYO",
@@ -27316,7 +28044,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 209250
+                        "total": 493596
                     },
                     {
                         "mes": "MAYO",
@@ -27420,7 +28148,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 21177043
+                        "total": 25906720
                     },
                     {
                         "mes": "MAYO",
@@ -27472,7 +28200,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 406086
+                        "total": 833606
                     },
                     {
                         "mes": "MAYO",
@@ -27524,7 +28252,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 301372
+                        "total": 348904
                     },
                     {
                         "mes": "MAYO",
@@ -27892,7 +28620,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 1028622
+                        "total": 1149210
                     },
                     {
                         "mes": "MAYO",
@@ -27944,7 +28672,59 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 626400
+                        "total": 0
+                    },
+                    {
+                        "mes": "MAYO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "JUNIO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "JULIO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "AGOSTO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "SEPTIEMBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "OCTUBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "NOVIEMBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "DICIEMBRE",
+                        "total": 0
+                    }
+                ]
+            },
+            {
+                "grupo": "COMERCIALIZADORA CH COMPANY SAS",
+                "ventas_por_mes": [{
+                        "mes": "ENERO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "MARZO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 1183200
                     },
                     {
                         "mes": "MAYO",
@@ -27996,7 +28776,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 266462
+                        "total": 483982
                     },
                     {
                         "mes": "MAYO",
@@ -28048,7 +28828,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 6944449
+                        "total": 7661808
                     },
                     {
                         "mes": "MAYO",
@@ -28152,7 +28932,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 2764728
+                        "total": 3265936
                     },
                     {
                         "mes": "MAYO",
@@ -28204,7 +28984,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 765854
+                        "total": 902198
                     },
                     {
                         "mes": "MAYO",
@@ -28256,7 +29036,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 1738575
+                        "total": 2732753
                     },
                     {
                         "mes": "MAYO",
@@ -28360,7 +29140,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 559484
+                        "total": 668696
                     },
                     {
                         "mes": "MAYO",
@@ -28412,7 +29192,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 2395554
+                        "total": 2707428
                     },
                     {
                         "mes": "MAYO",
@@ -28568,7 +29348,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 907136
+                        "total": 1533732
                     },
                     {
                         "mes": "MAYO",
@@ -28620,7 +29400,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 7977694
+                        "total": 9498842
                     },
                     {
                         "mes": "MAYO",
@@ -28672,7 +29452,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 745607
+                        "total": 2109583
                     },
                     {
                         "mes": "MAYO",
@@ -28724,7 +29504,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 2364105
+                        "total": 2619417
                     },
                     {
                         "mes": "MAYO",
@@ -28776,7 +29556,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 2588586
+                        "total": 4566816
                     },
                     {
                         "mes": "MAYO",
@@ -28828,7 +29608,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 3378256
+                        "total": 4028920
                     },
                     {
                         "mes": "MAYO",
@@ -28880,7 +29660,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 309006
+                        "total": 1317548
                     },
                     {
                         "mes": "MAYO",
@@ -28984,7 +29764,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 1391676
+                        "total": 1824144
                     },
                     {
                         "mes": "MAYO",
@@ -29036,7 +29816,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 289285
+                        "total": 403105
                     },
                     {
                         "mes": "MAYO",
@@ -29192,7 +29972,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 1141461
+                        "total": 1474749
                     },
                     {
                         "mes": "MAYO",
@@ -29296,7 +30076,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 785760
+                        "total": 936198
                     },
                     {
                         "mes": "MAYO",
@@ -29400,7 +30180,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 16857751
+                        "total": 21997541
                     },
                     {
                         "mes": "MAYO",
@@ -29452,7 +30232,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 2397332
+                        "total": 4495468
                     },
                     {
                         "mes": "MAYO",
@@ -29504,7 +30284,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 1243657
+                        "total": 2355989
                     },
                     {
                         "mes": "MAYO",
@@ -29608,7 +30388,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": -76204
                     },
                     {
                         "mes": "MAYO",
@@ -29910,6 +30690,58 @@
             },
             {
                 "grupo": "COMERCIALIZADORA CH COMPANY S.A.S",
+                "ventas_por_mes": [{
+                        "mes": "ENERO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "MARZO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 0
+                    },
+                    {
+                        "mes": "MAYO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "JUNIO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "JULIO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "AGOSTO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "SEPTIEMBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "OCTUBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "NOVIEMBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "DICIEMBRE",
+                        "total": 0
+                    }
+                ]
+            },
+            {
+                "grupo": "COMERCIALIZADORA CH COMPANY SAS",
                 "ventas_por_mes": [{
                         "mes": "ENERO",
                         "total": 0
@@ -31696,7 +32528,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 28536
                     },
                     {
                         "mes": "MAYO",
@@ -31852,7 +32684,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 10855824
+                        "total": 11197290
                     },
                     {
                         "mes": "MAYO",
@@ -31904,7 +32736,59 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 8888500
+                        "total": 0
+                    },
+                    {
+                        "mes": "MAYO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "JUNIO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "JULIO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "AGOSTO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "SEPTIEMBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "OCTUBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "NOVIEMBRE",
+                        "total": 0
+                    },
+                    {
+                        "mes": "DICIEMBRE",
+                        "total": 0
+                    }
+                ]
+            },
+            {
+                "grupo": "COMERCIALIZADORA CH COMPANY SAS",
+                "ventas_por_mes": [{
+                        "mes": "ENERO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "FEBRERO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "MARZO",
+                        "total": 0
+                    },
+                    {
+                        "mes": "ABRIL",
+                        "total": 9676420
                     },
                     {
                         "mes": "MAYO",
@@ -31956,7 +32840,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 32628
                     },
                     {
                         "mes": "MAYO",
@@ -32008,7 +32892,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 5040668
+                        "total": 10617099
                     },
                     {
                         "mes": "MAYO",
@@ -32268,7 +33152,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 67764
                     },
                     {
                         "mes": "MAYO",
@@ -32320,7 +33204,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 1106684
+                        "total": 2312787
                     },
                     {
                         "mes": "MAYO",
@@ -32372,7 +33256,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 901520
+                        "total": 957500
                     },
                     {
                         "mes": "MAYO",
@@ -32424,7 +33308,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 205976
+                        "total": 260051
                     },
                     {
                         "mes": "MAYO",
@@ -32476,7 +33360,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 32500
                     },
                     {
                         "mes": "MAYO",
@@ -32528,7 +33412,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 1428816
+                        "total": 1557556
                     },
                     {
                         "mes": "MAYO",
@@ -32580,7 +33464,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 7932399
+                        "total": 8305733
                     },
                     {
                         "mes": "MAYO",
@@ -32632,7 +33516,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 6444411
+                        "total": 6569955
                     },
                     {
                         "mes": "MAYO",
@@ -32684,7 +33568,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 4613133
+                        "total": 8696431
                     },
                     {
                         "mes": "MAYO",
@@ -32736,7 +33620,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 829466
+                        "total": 963080
                     },
                     {
                         "mes": "MAYO",
@@ -32996,7 +33880,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 0
+                        "total": 97560
                     },
                     {
                         "mes": "MAYO",
@@ -33152,7 +34036,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 4610636
+                        "total": 5067967
                     },
                     {
                         "mes": "MAYO",
@@ -33360,7 +34244,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 19617359
+                        "total": 21195329
                     },
                     {
                         "mes": "MAYO",
@@ -33412,7 +34296,7 @@
                     },
                     {
                         "mes": "ABRIL",
-                        "total": 3878331
+                        "total": 5512508
                     },
                     {
                         "mes": "MAYO",
